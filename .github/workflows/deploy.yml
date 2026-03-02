@@ -1,0 +1,33 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script_stop: true
+          script: |
+            set -e
+            cd /home/dhchoi/projects/aetherheal-landing
+            git pull origin main
+
+            # Build first (while old containers still serve traffic), then swap
+            docker compose build
+            docker compose down
+            docker compose up -d
+
+            # Wait for container to be healthy
+            sleep 10
+
+            echo "Deployment complete!"
