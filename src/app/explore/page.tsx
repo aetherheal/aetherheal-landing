@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import {
   Scissors,
   Sparkles,
@@ -19,6 +20,7 @@ import {
 import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
 import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 const concepts = [
   {
@@ -110,12 +112,19 @@ export default function ExplorePage() {
             Exploration Mode
           </SectionLabel>
           <h1 className="font-serif text-4xl sm:text-5xl text-brand-navy font-medium">
-            Understand Before You Commit
+            Learn the Framework Before You Commit
           </h1>
           <p className="text-text-body text-lg max-w-2xl mx-auto leading-relaxed">
-            Explore what AetherHeal offers and how medical decision support works — no
-            account needed, no pressure.
+            Review how structured medical decision support works. No account, no pressure,
+            and no treatment decisions required yet.
           </p>
+          <div className="pt-2">
+            <Link href="/how-it-works">
+              <Button variant="navy" size="md">
+                Continue to how it works
+              </Button>
+            </Link>
+          </div>
           <Divider className="mx-auto" />
         </div>
       </section>
@@ -125,9 +134,7 @@ export default function ExplorePage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-serif text-3xl text-brand-navy mb-4">Core Concepts</h2>
-            <p className="text-text-body">
-              Hover over each card to learn more.
-            </p>
+            <p className="text-text-body">Each concept helps prevent avoidable regret.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             {concepts.map((c) => (
@@ -159,7 +166,7 @@ export default function ExplorePage() {
               Why Decisions Fail
             </SectionLabel>
             <h2 className="font-serif text-3xl text-brand-navy mb-4">
-              Common Patterns of Regret
+              Common Regret Patterns
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -191,6 +198,9 @@ export default function ExplorePage() {
             <h2 className="font-serif text-3xl text-brand-navy mb-4">
               Structured Decision Examples
             </h2>
+            <p className="text-text-body text-sm">
+              These examples show how goals and constraints are clarified before hospital selection.
+            </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             {caseStudies.map((cs) => (
@@ -246,6 +256,24 @@ export default function ExplorePage() {
                 <p className="text-sm font-semibold text-text-deep">{d.label}</p>
               </Card>
             ))}
+          </div>
+
+          <div className="mt-14 text-center bg-white border border-border-light rounded-xl p-6 sm:p-8">
+            <p className="text-text-body mb-5">
+              Ready to see the full step-by-step process?
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <Link href="/how-it-works">
+                <Button variant="navy" size="md" className="min-w-[190px]">
+                  How AetherHeal works
+                </Button>
+              </Link>
+              <Link href="/medical-boundary">
+                <Button variant="outline" size="md" className="min-w-[190px]">
+                  Read medical boundary
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

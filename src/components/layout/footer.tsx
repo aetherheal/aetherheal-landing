@@ -31,15 +31,15 @@ export function Footer() {
                   href="/how-it-works"
                   className="text-sm text-slate-300 hover:text-white transition-colors hover:underline decoration-brand-gold/50 underline-offset-4"
                 >
-                  How AetherHeal Works
+                  How It Works
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/inspector"
+                  href="/trust-protocol"
                   className="text-sm text-slate-300 hover:text-white transition-colors hover:underline decoration-brand-gold/50 underline-offset-4"
                 >
-                  Inspector System
+                  Trust Protocol
                 </Link>
               </li>
               <li>
@@ -47,7 +47,7 @@ export function Footer() {
                   href="/explore"
                   className="text-sm text-slate-300 hover:text-white transition-colors hover:underline decoration-brand-gold/50 underline-offset-4"
                 >
-                  Decision Framework
+                  Explore Framework
                 </Link>
               </li>
             </ul>
@@ -69,18 +69,18 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/how-it-works"
                   className="text-sm text-slate-300 hover:text-white transition-colors"
                 >
-                  Terms of Service
+                  Scope & Process
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/trust-protocol"
                   className="text-sm text-slate-300 hover:text-white transition-colors"
                 >
-                  Privacy Policy
+                  Oversight & Safety
                 </Link>
               </li>
             </ul>
@@ -92,6 +92,17 @@ export function Footer() {
               Operations
             </SectionLabel>
             <ul className="space-y-4">
+              <li className="pb-3 border-b border-slate-800">
+                <p className="text-[10px] text-slate-500 mb-2 uppercase tracking-wider font-semibold">
+                  Next Step
+                </p>
+                <Link
+                  href="/explore"
+                  className="inline-flex items-center text-xs font-semibold text-brand-gold hover:text-amber-300 transition-colors"
+                >
+                  Start in exploration mode
+                </Link>
+              </li>
               <li className="flex flex-col">
                 <span className="text-[10px] text-slate-500 mb-1">General Inquiries</span>
                 <a

@@ -16,6 +16,7 @@
 
   /* Functional */
   --color-danger: #DC2626;
+  --color-success: #059669;
   --color-border-light: #E2E8F0;
 
   /* Shadows */
@@ -52,6 +53,37 @@
   }
 }
 
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 40s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 40s linear infinite;
+}
+
+.animate-scroll-left:hover,
+.animate-scroll-right:hover {
+  animation-play-state: paused;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -60,6 +92,11 @@ body {
   background-color: var(--color-bg-card);
   color: var(--color-text-deep);
   -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-brand-gold) 35%, white);
+  color: var(--color-text-deep);
 }
 
 .scrollbar-thin {

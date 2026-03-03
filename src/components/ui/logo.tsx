@@ -1,34 +1,33 @@
+import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 const sizes = {
-  sm: { circle: "w-7 h-7 text-sm", text: "text-lg" },
-  md: { circle: "w-9 h-9 text-lg", text: "text-xl" },
-  lg: { circle: "w-11 h-11 text-xl", text: "text-2xl" },
+  sm: { wrapper: "h-7", width: 120, height: 25 },
+  md: { wrapper: "h-9", width: 150, height: 31 },
+  lg: { wrapper: "h-11", width: 180, height: 37 },
 }
 
 interface LogoProps {
   size?: keyof typeof sizes
-  theme?: "light" | "dark"
+  theme?: "light" | "dark" // Maintained for API compatibility, though image doesn't adapt automatically unless we have a white logo variant.
   className?: string
 }
 
 export function Logo({ size = "md", theme = "light", className }: LogoProps) {
   const s = sizes[size]
-  const textColor = theme === "dark" ? "text-white" : "text-text-deep"
-
   return (
-    <a href="/" className={cn("flex items-center gap-2 group", className)}>
-      <div
-        className={cn(
-          "rounded-full border-2 border-brand-gold flex items-center justify-center bg-brand-navy text-brand-gold font-serif pt-0.5 shadow-sm",
-          s.circle
-        )}
-      >
-        A
+    <a href="/" className={cn("flex items-center group", className)}>
+      <div className={cn("relative flex items-center justify-start", s.wrapper)}>
+        <Image
+          src="/assets/logo.png"
+          alt="AetherHeal Logo"
+          width={s.width}
+          height={s.height}
+          className={cn("object-contain", theme === "dark" && "invert")}
+          style={{ width: "auto", height: "100%" }}
+          priority
+        />
       </div>
-      <span className={cn("font-serif tracking-wide font-bold", s.text, textColor)}>
-        AetherHeal
-      </span>
     </a>
   )
 }

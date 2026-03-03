@@ -1,3 +1,4 @@
+import Link from "next/link"
 import {
   AlertTriangle,
   Phone,
@@ -7,6 +8,7 @@ import {
 import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
 import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 const boundaries = [
   {
@@ -32,12 +34,12 @@ const boundaries = [
 ]
 
 const responsibilities = [
-  "Providing accurate and honest information during intake",
-  "Consulting your primary physician about any medical concerns",
-  "Making your own informed decisions about treatment",
-  "Understanding that AetherHeal's role is advisory only",
-  "Contacting emergency services for urgent medical needs",
-  "Reviewing all documents and decision summaries carefully",
+  "Provide complete and accurate intake information",
+  "Consult your primary physician for direct medical advice",
+  "Make your own treatment decisions after review",
+  "Understand that AetherHeal provides advisory support only",
+  "Use emergency services for urgent medical conditions",
+  "Read and confirm all summaries before proceeding",
 ]
 
 export default function MedicalBoundaryPage() {
@@ -53,8 +55,8 @@ export default function MedicalBoundaryPage() {
             Medical Boundary Notice
           </h1>
           <p className="text-text-body text-lg max-w-2xl mx-auto leading-relaxed">
-            Understanding the scope and limitations of AetherHeal&apos;s services is essential
-            before using our platform.
+            This page defines what AetherHeal is and is not responsible for.
+            Understanding these boundaries is required before use.
           </p>
           <Divider className="mx-auto" />
         </div>
@@ -87,8 +89,8 @@ export default function MedicalBoundaryPage() {
                 Emergency Notice
               </h3>
               <p className="text-sm text-text-body leading-relaxed mb-4">
-                If you are experiencing a medical emergency, do not use this platform.
-                Contact your local emergency services immediately.
+                Do not use this platform for urgent symptoms or life-threatening conditions.
+                Contact local emergency services immediately.
               </p>
               <div className="flex items-center gap-3 text-sm font-semibold text-danger">
                 <Phone className="w-4 h-4" />
@@ -107,7 +109,7 @@ export default function MedicalBoundaryPage() {
               Your Responsibilities
             </SectionLabel>
             <h2 className="font-serif text-3xl text-brand-navy">
-              As a Platform User
+              Your Role as a Platform User
             </h2>
           </div>
 
@@ -121,6 +123,19 @@ export default function MedicalBoundaryPage() {
               ))}
             </ul>
           </Card>
+
+          <div className="mt-10 flex flex-col sm:flex-row gap-3">
+            <Link href="/how-it-works">
+              <Button variant="outline" size="md" className="w-full sm:w-auto min-w-[180px]">
+                Review process
+              </Button>
+            </Link>
+            <Link href="/trust-protocol">
+              <Button variant="navy" size="md" className="w-full sm:w-auto min-w-[180px]">
+                View oversight
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
     </div>
