@@ -88,7 +88,7 @@ export function Navbar() {
 
             {/* Begin Journey — primary CTA */}
             <a
-              href="https://aetherheal.com/transition"
+              href="https://app.aetherheal.com/transition"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] tracking-wide font-semibold text-white bg-brand-navy rounded-full transition-all duration-200 hover:bg-brand-navy/90 hover:shadow-md"
@@ -181,7 +181,7 @@ export function Navbar() {
                 Sign in
               </a>
               <a
-                href="https://aetherheal.com/transition"
+                href="https://app.aetherheal.com/transition"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white bg-brand-navy rounded-lg transition-colors hover:bg-brand-navy/90"

@@ -426,7 +426,7 @@ export default function HomePage() {
             </span>
           </div>
 
-          <div className="absolute left-1/2 top-24 bottom-24 w-px bg-brand-gold/50 -translate-x-1/2 z-0 shadow-[0_0_10px_#B49250]" />
+          <div className="absolute left-6 md:left-1/2 top-24 bottom-24 w-px bg-brand-gold/50 md:-translate-x-1/2 z-0 shadow-[0_0_10px_#B49250]" />
 
           <div className="relative z-10 space-y-12 md:space-y-20">
             {journeySteps.map((step) => {
@@ -441,10 +441,10 @@ export default function HomePage() {
                       isCenter ? "md:justify-center" : "md:justify-between"
                     )}
                   >
-                    <div className="md:hidden w-full flex justify-center mb-4">
+                    <div className="md:hidden absolute left-0 top-0 w-12 flex justify-center z-20">
                       <div
                         className={cn(
-                          "relative z-20 w-12 h-12 rounded-full flex items-center justify-center border shadow-lg",
+                          "w-12 h-12 rounded-full flex items-center justify-center border shadow-lg",
                           isCenter
                             ? "bg-brand-navy border-brand-gold text-brand-gold"
                             : "bg-white border-brand-gold text-brand-gold"
@@ -467,7 +467,7 @@ export default function HomePage() {
 
                     {!isCenter && isLeft && (
                       <>
-                        <div className="w-full text-center md:w-[45%] md:text-right md:pr-12">
+                        <div className="w-full pl-16 text-left md:pl-0 md:w-[45%] md:text-right md:pr-12">
                           {step.badge && (
                             <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-2">
                               {step.badge}
@@ -492,7 +492,7 @@ export default function HomePage() {
                     {!isCenter && !isLeft && (
                       <>
                         <div className="hidden md:block md:w-[45%]" />
-                        <div className="w-full text-center md:w-[45%] md:text-left md:pl-12">
+                        <div className="w-full pl-16 text-left md:pl-12 md:w-[45%]">
                           {step.badge && (
                             <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-2">
                               {step.badge}
@@ -521,7 +521,7 @@ export default function HomePage() {
                     )}
 
                     {isCenter && (
-                      <div className="relative z-10 w-full md:w-[600px] bg-white border-2 border-brand-navy p-5 sm:p-8 md:pl-8 rounded-xl text-left md:text-center shadow-float mt-0 md:mt-6">
+                      <div className="relative z-10 w-[calc(100%-4rem)] ml-16 md:ml-0 md:w-[600px] bg-white border-2 border-brand-navy p-5 sm:p-8 md:pl-8 rounded-xl text-left md:text-center shadow-float mt-0 md:mt-6">
                         <h3 className="font-serif text-2xl text-brand-navy mt-0 md:mt-4 mb-2">
                           {step.label}
                         </h3>

@@ -9,7 +9,7 @@ const sizes = {
 
 interface LogoProps {
   size?: keyof typeof sizes
-  theme?: "light" | "dark" // Maintained for API compatibility, though image doesn't adapt automatically unless we have a white logo variant.
+  theme?: "light" | "dark"
   className?: string
 }
 

@@ -126,7 +126,7 @@ export default function HowItWorksPage() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 w-full max-w-xl mx-auto mb-6 animate-fade-up [animation-delay:300ms]">
-            <a href="https://aetherheal.com/transition"
+            <a href="https://app.aetherheal.com/transition"
               className="inline-flex items-center justify-center gap-2 h-12 px-8 text-sm font-semibold text-brand-navy bg-white rounded-full hover:bg-brand-gold hover:text-white transition-all duration-300 shadow-lg"
             >
               Begin Your Decision Journey
@@ -418,7 +418,7 @@ export default function HowItWorksPage() {
           </h2>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 w-full max-w-xl mx-auto">
-            <a href="https://aetherheal.com/transition"
+            <a href="https://app.aetherheal.com/transition"
               className="inline-flex items-center justify-center gap-2 h-12 px-8 text-sm font-semibold text-white bg-brand-navy rounded-full hover:bg-brand-navy/90 hover:shadow-lg transition-all duration-300"
             >
               Begin Your Decision Journey
