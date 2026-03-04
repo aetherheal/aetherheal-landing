@@ -170,7 +170,7 @@ export default function HomePage() {
   return (
     <div className="min-h-full">
       {/* Hero */}
-      <section className="relative w-full min-h-[680px] sm:min-h-[760px] md:min-h-[800px] flex flex-col justify-center items-center pt-20 sm:pt-24 pb-10 sm:pb-12 bg-bg-light border-b border-slate-200">
+      <section className="relative w-full min-h-svh sm:min-h-[760px] md:min-h-[800px] flex flex-col justify-center items-center pt-16 sm:pt-24 pb-8 sm:pb-12 px-4 bg-bg-light border-b border-slate-200">
         <div
           className="absolute inset-0 opacity-40"
           style={{
@@ -180,9 +180,9 @@ export default function HomePage() {
           }}
         />
 
-        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto space-y-8 sm:space-y-10">
+        <div className="relative z-10 text-center px-2 sm:px-6 max-w-4xl mx-auto space-y-5 sm:space-y-10">
           <div className="inline-block animate-fade-up">
-            <span className="py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[11px] sm:text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg whitespace-nowrap">
+            <span className="py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[10px] sm:text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg">
               Physician-led decision support for premium care in Korea
             </span>
           </div>
@@ -204,7 +204,7 @@ export default function HomePage() {
             </span>
           </p>
 
-          <div className="w-full pt-6 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:300ms]">
+          <div className="w-full pt-2 sm:pt-6 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 animate-fade-up [animation-delay:300ms]">
             <Link href="/how-it-works">
               <Button variant="navy" size="lg" className="w-full sm:w-auto min-w-[200px]">
                 See how it works
