@@ -170,7 +170,7 @@ export default function HomePage() {
   return (
     <div className="min-h-full">
       {/* Hero */}
-      <section className="relative w-full min-h-svh sm:min-h-[760px] md:min-h-[800px] flex flex-col justify-center items-center pt-16 sm:pt-24 pb-8 sm:pb-12 px-4 bg-bg-light border-b border-slate-200">
+      <section className="relative w-full flex flex-col justify-center items-center pt-24 sm:pt-32 pb-16 sm:pb-20 md:min-h-[800px] md:pt-24 md:pb-12 px-4 bg-bg-light border-b border-slate-200">
         <div
           className="absolute inset-0 opacity-40"
           style={{
@@ -182,7 +182,7 @@ export default function HomePage() {
 
         <div className="relative z-10 text-center px-2 sm:px-6 max-w-4xl mx-auto space-y-5 sm:space-y-10">
           <div className="inline-block animate-fade-up">
-            <span className="py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[10px] sm:text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg">
+            <span className="py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[9px] sm:text-sm font-bold uppercase tracking-wider sm:tracking-widest text-brand-navy bg-white shadow-lg">
               Physician-led decision support for premium care in Korea
             </span>
           </div>
