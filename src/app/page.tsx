@@ -170,7 +170,7 @@ export default function HomePage() {
   return (
     <div className="min-h-full">
       {/* Hero */}
-      <section className="relative w-full flex flex-col justify-center items-center pt-24 sm:pt-32 pb-16 sm:pb-20 md:min-h-[800px] md:pt-24 md:pb-12 px-4 bg-bg-light border-b border-slate-200">
+      <section className="relative w-full flex flex-col justify-center items-center py-16 sm:py-20 md:min-h-[700px] md:py-20 px-4 bg-bg-light border-b border-slate-200">
         <div
           className="absolute inset-0 opacity-40"
           style={{
@@ -258,9 +258,9 @@ export default function HomePage() {
             {[...skinBrands, ...skinBrands].map((brand, i) => (
               <div
                 key={`sb-${i}`}
-                className="flex-shrink-0 mx-3 inline-flex items-center gap-3 px-6 py-3 bg-white border border-brand-gold/15 rounded-full hover:border-brand-gold/50 hover:shadow-md transition-all duration-300 group cursor-default"
+                className="flex-shrink-0 mx-3 inline-flex items-center gap-3 px-6 py-3 bg-white border border-brand-gold/15 rounded-full"
               >
-                <span className="font-serif text-lg font-bold text-brand-navy tracking-tight group-hover:text-brand-gold transition-colors">
+                <span className="font-serif text-lg font-bold text-brand-navy tracking-tight">
                   {brand.name}
                 </span>
                 <span className="w-1 h-1 rounded-full bg-brand-gold/40" />
@@ -280,10 +280,10 @@ export default function HomePage() {
             {[...trendingRow1, ...trendingRow1].map((item, i) => (
               <div
                 key={`r1-${i}`}
-                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5 hover:border-brand-gold/40 hover:shadow-md transition-all duration-300 group cursor-default"
+                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5"
               >
                 <span className="text-2xl mb-3 block">{item.emoji}</span>
-                <p className="font-serif text-base text-brand-navy font-semibold mb-1 group-hover:text-brand-gold transition-colors">
+                <p className="font-serif text-base text-brand-navy font-semibold mb-1">
                   {item.name}
                 </p>
                 <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
@@ -300,10 +300,10 @@ export default function HomePage() {
             {[...trendingRow2, ...trendingRow2].map((item, i) => (
               <div
                 key={`r2-${i}`}
-                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5 hover:border-brand-gold/40 hover:shadow-md transition-all duration-300 group cursor-default"
+                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5"
               >
                 <span className="text-2xl mb-3 block">{item.emoji}</span>
-                <p className="font-serif text-base text-brand-navy font-semibold mb-1 group-hover:text-brand-gold transition-colors">
+                <p className="font-serif text-base text-brand-navy font-semibold mb-1">
                   {item.name}
                 </p>
                 <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
@@ -378,8 +378,8 @@ export default function HomePage() {
                   ))}
                 </ul>
 
-                <div className="relative mb-12 group">
-                  <div className="absolute inset-0 bg-brand-gold/20 blur-xl rounded-2xl group-hover:bg-brand-gold/30 transition-all duration-500" />
+                <div className="relative mb-12">
+                  <div className="absolute inset-0 bg-brand-gold/20 blur-xl rounded-2xl" />
                   <div className="relative bg-white/5 border border-brand-gold/30 rounded-2xl p-6 sm:p-8 backdrop-blur-sm">
                     <p className="font-serif text-5xl sm:text-6xl font-bold text-white tracking-tight">
                       Medicine
@@ -588,9 +588,9 @@ export default function HomePage() {
             {partnerHospitals.map((h) => (
               <div
                 key={h.name}
-                className="group bg-white border border-slate-200 rounded-2xl p-5 hover:border-brand-gold/40 hover:shadow-md transition-all duration-300"
+                className="bg-white border border-slate-200 rounded-2xl p-5"
               >
-                <p className="font-serif text-base font-bold text-brand-navy mb-1 group-hover:text-brand-gold transition-colors leading-snug">
+                <p className="font-serif text-base font-bold text-brand-navy mb-1 leading-snug">
                   {h.name}
                 </p>
                 <p className="text-[11px] text-text-muted/70 mb-2 flex items-center gap-1">

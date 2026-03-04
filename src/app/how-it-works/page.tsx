@@ -176,8 +176,8 @@ export default function HowItWorksPage() {
 
               <ul className="space-y-6">
                 {angelDoes.map((item) => (
-                  <li key={item.title} className="flex gap-4 items-start group">
-                    <div className="w-9 h-9 rounded-xl bg-brand-gold/10 flex items-center justify-center shrink-0 group-hover:bg-brand-gold/20 transition-colors">
+                  <li key={item.title} className="flex gap-4 items-start">
+                    <div className="w-9 h-9 rounded-xl bg-brand-gold/10 flex items-center justify-center shrink-0">
                       <item.icon className="w-4 h-4 text-brand-gold" />
                     </div>
                     <div>
@@ -226,10 +226,10 @@ export default function HowItWorksPage() {
             {domains.map((d) => (
               <div
                 key={d.label}
-                className="group relative bg-white border border-slate-200 rounded-2xl p-6 hover:border-brand-gold/40 hover:shadow-lg transition-all duration-300 text-center"
+                className="relative bg-white border border-slate-200 rounded-2xl p-6 text-center"
               >
-                <div className="w-12 h-12 mx-auto mb-4 rounded-2xl bg-brand-navy/5 flex items-center justify-center group-hover:bg-brand-gold/10 transition-colors">
-                  <d.icon className="w-5 h-5 text-brand-navy group-hover:text-brand-gold transition-colors" />
+                <div className="w-12 h-12 mx-auto mb-4 rounded-2xl bg-brand-navy/5 flex items-center justify-center">
+                  <d.icon className="w-5 h-5 text-brand-navy" />
                 </div>
                 <span className="text-brand-navy font-bold text-sm leading-tight block">
                   {d.label}
