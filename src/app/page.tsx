@@ -169,18 +169,22 @@ const faqItems = [
 export default function HomePage() {
   return (
     <div className="min-h-full">
-      {/* Hero */}
-      <section className="relative w-full flex flex-col justify-center items-center py-16 sm:py-20 md:min-h-[700px] md:py-20 px-4 bg-bg-light border-b border-slate-200">
-        <div
-          className="absolute inset-0 opacity-40"
-          style={{
-            backgroundImage:
-              "linear-gradient(#E2E8F0 1px, transparent 1px), linear-gradient(90deg, #E2E8F0 1px, transparent 1px)",
-            backgroundSize: "40px 40px",
-          }}
-        />
+      {/* Hero Video */}
+      <section className="w-full max-h-[95vh] overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-auto block"
+        >
+          <source src="/assets/hero-bg.mp4" type="video/mp4" />
+        </video>
+      </section>
 
-        <div className="relative z-10 text-center px-2 sm:px-6 max-w-4xl mx-auto space-y-5 sm:space-y-10">
+      {/* Hero Content */}
+      <section className="w-full py-14 sm:py-20 px-4 bg-white">
+        <div className="text-center max-w-4xl mx-auto space-y-5 sm:space-y-8">
           <div className="inline-block animate-fade-up">
             <span className="py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[9px] sm:text-sm font-bold uppercase tracking-wider sm:tracking-widest text-brand-navy bg-white shadow-lg">
               Physician-led decision support for premium care in Korea
@@ -204,7 +208,7 @@ export default function HomePage() {
             </span>
           </p>
 
-          <div className="w-full pt-2 sm:pt-6 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 animate-fade-up [animation-delay:300ms]">
+          <div className="w-full pt-2 sm:pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 animate-fade-up [animation-delay:300ms]">
             <Link href="/how-it-works">
               <Button variant="navy" size="lg" className="w-full sm:w-auto min-w-[200px]">
                 See how it works
