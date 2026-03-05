@@ -49,7 +49,10 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left — Logo */}
-          <Logo size="md" />
+          <div className="flex items-center">
+            <Logo size="sm" className="sm:hidden" />
+            <Logo size="md" className="hidden sm:flex" />
+          </div>
 
           {/* Right — Nav + Actions */}
           <div className="flex items-center gap-1">

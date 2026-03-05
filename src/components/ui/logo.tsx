@@ -2,8 +2,8 @@ import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 const sizes = {
-  sm: { wrapper: "h-7", width: 120, height: 25 },
-  md: { wrapper: "h-9", width: 150, height: 31 },
+  sm: { wrapper: "h-6", width: 100, height: 22 },
+  md: { wrapper: "h-8", width: 140, height: 29 },
   lg: { wrapper: "h-11", width: 180, height: 37 },
 }
 
