@@ -1,0 +1,126 @@
+import type { Metadata } from "next"
+import { locales, ogLocales, type Locale } from "@/i18n/config"
+import { getDictionary } from "@/i18n/get-dictionary"
+import { Navbar } from "@/components/layout/navbar"
+import { Footer } from "@/components/layout/footer"
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const dict = await getDictionary(locale as Locale)
+
+  const alternateLanguages: Record<string, string> = {}
+  for (const l of locales) {
+    alternateLanguages[l] = `https://aetherheal.com/${l}`
+  }
+
+  return {
+    title: dict.home.meta.title,
+    description: dict.home.meta.description,
+    keywords: [
+      "medical tourism Korea",
+      "medical tourism Seoul",
+      "hair transplant Korea",
+      "plastic surgery Seoul",
+      "Seoul aesthetic clinic",
+      "physician verified clinics",
+      "medical travel Korea",
+      "international patient Korea",
+      "medical decision support",
+    ],
+    authors: [{ name: "AetherHeal" }],
+    robots: { index: true, follow: true },
+    alternates: {
+      canonical: `https://aetherheal.com/${locale}`,
+      languages: alternateLanguages,
+    },
+    openGraph: {
+      type: "website",
+      title: dict.home.meta.title,
+      description: dict.home.meta.description,
+      url: `https://aetherheal.com/${locale}`,
+      siteName: "AetherHeal",
+      locale: ogLocales[locale as Locale] || "en_US",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "AetherHeal — Physician-Led Global Medical Journey to Seoul",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.home.meta.title,
+      description: dict.home.meta.description,
+      images: ["/og-image.png"],
+    },
+  }
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  const dict = await getDictionary(locale as Locale)
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "MedicalBusiness",
+            name: "AetherHeal",
+            url: "https://aetherheal.com",
+            logo: "https://aetherheal.com/logo.png",
+            image: "https://aetherheal.com/og-image.png",
+            description: dict.home.meta.description,
+            areaServed: { "@type": "GeoShape", name: "Global" },
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Seoul",
+              addressCountry: "KR",
+            },
+            medicalSpecialty: [
+              "Hair Transplantation",
+              "Aesthetic Medicine",
+              "Plastic Surgery",
+              "Dermatology",
+              "Ophthalmology",
+              "Dentistry",
+              "Stem Cell Therapy",
+            ],
+            availableLanguage: [
+              "English",
+              "Korean",
+              "Chinese",
+              "Japanese",
+              "Thai",
+              "Russian",
+            ],
+            inLanguage: locale,
+          }),
+        }}
+      />
+      <div className="flex flex-col min-h-full">
+        <Navbar dict={dict.common} locale={locale as Locale} />
+        <main className="flex-1">{children}</main>
+        <Footer dict={dict.common} locale={locale as Locale} />
+      </div>
+    </>
+  )
+}

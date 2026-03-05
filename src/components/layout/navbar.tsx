@@ -6,27 +6,25 @@ import { useState, useRef, useEffect } from "react"
 import { Globe, ChevronDown, Menu, X, ArrowRight } from "lucide-react"
 import { Logo } from "@/components/ui/logo"
 import { cn } from "@/lib/utils"
+import { locales, localeNames, localeShort, type Locale } from "@/i18n/config"
+import type { Dictionary } from "@/i18n/get-dictionary"
 
-const navItems = [
-  { href: "/how-it-works", label: "How It Works" },
-  { href: "/explore", label: "Explore Framework" },
-  { href: "/trust-protocol", label: "Trust & Safety" },
-]
+interface NavbarProps {
+  dict: Dictionary["common"]
+  locale: Locale
+}
 
-const languages = [
-  { code: "en", label: "English", short: "EN" },
-  { code: "zh", label: "中文", short: "中文" },
-  { code: "ja", label: "日本語", short: "JP" },
-  { code: "th", label: "ภาษาไทย", short: "TH" },
-  { code: "ru", label: "Русский", short: "RU" },
-]
-
-export function Navbar() {
+export function Navbar({ dict, locale }: NavbarProps) {
   const pathname = usePathname()
   const [isLangOpen, setIsLangOpen] = useState(false)
   const [isMobileOpen, setIsMobileOpen] = useState(false)
-  const [currentLang, setCurrentLang] = useState("en")
   const langRef = useRef<HTMLDivElement>(null)
+
+  const navItems = [
+    { href: `/${locale}/how-it-works`, label: dict.nav.howItWorks },
+    { href: `/${locale}/explore`, label: dict.nav.exploreFramework },
+    { href: `/${locale}/trust-protocol`, label: dict.nav.trustSafety },
+  ]
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -42,21 +40,22 @@ export function Navbar() {
     setIsMobileOpen(false)
   }, [pathname])
 
-  const activeLang = languages.find((l) => l.code === currentLang) ?? languages[0]
+  function switchLocale(newLocale: Locale) {
+    const pathWithoutLocale = pathname.replace(`/${locale}`, "") || "/"
+    const newPath = `/${newLocale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`
+    window.location.href = newPath
+  }
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-[0_1px_0_0_rgba(0,0,0,0.04)]">
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Left — Logo */}
-          <div className="flex items-center">
+          <Link href={`/${locale}`} className="flex items-center">
             <Logo size="sm" className="sm:hidden" />
             <Logo size="md" className="hidden sm:flex" />
-          </div>
+          </Link>
 
-          {/* Right — Nav + Actions */}
           <div className="flex items-center gap-1">
-            {/* Navigation links (desktop) */}
             <div className="hidden md:flex items-center gap-1 mr-2">
               {navItems.map((item) => {
                 const isActive = pathname === item.href
@@ -77,30 +76,27 @@ export function Navbar() {
               })}
             </div>
 
-            {/* Divider (desktop) */}
             <div className="hidden md:block w-px h-5 bg-slate-200 mr-2" />
-            {/* Sign in — text link */}
+
             <a
               href="https://app.aetherheal.com/sign-in"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center px-3 py-2 text-[13px] tracking-wide font-medium text-text-muted hover:text-brand-navy rounded-full transition-all duration-200 hover:bg-slate-50"
             >
-              Sign in
+              {dict.nav.signIn}
             </a>
 
-            {/* Begin Journey — primary CTA */}
             <a
               href="https://app.aetherheal.com/transition"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] tracking-wide font-semibold text-white bg-brand-navy rounded-full transition-all duration-200 hover:bg-brand-navy/90 hover:shadow-md"
             >
-              Begin Journey
+              {dict.nav.beginJourney}
               <ArrowRight className="w-3.5 h-3.5" />
             </a>
 
-            {/* Language Dropdown */}
             <div className="relative" ref={langRef}>
               <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
@@ -113,34 +109,33 @@ export function Navbar() {
                 aria-label="Select Language"
               >
                 <Globe className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">{activeLang.short}</span>
+                <span className="hidden sm:inline">{localeShort[locale]}</span>
                 <ChevronDown className={cn("w-3 h-3 transition-transform duration-200", isLangOpen && "rotate-180")} />
               </button>
 
               {isLangOpen && (
                 <div className="absolute top-full right-0 mt-2 w-44 bg-white rounded-xl border border-slate-100 shadow-lg py-1.5 animate-fade-in z-50">
-                  {languages.map((lang) => (
+                  {locales.map((l) => (
                     <button
-                      key={lang.code}
+                      key={l}
                       className={cn(
                         "w-full text-left px-3.5 py-2 text-[13px] tracking-wide font-medium transition-colors",
-                        lang.code === currentLang
+                        l === locale
                           ? "text-brand-navy bg-slate-50"
                           : "text-text-body hover:bg-slate-50 hover:text-brand-navy"
                       )}
                       onClick={() => {
-                        setCurrentLang(lang.code)
+                        switchLocale(l)
                         setIsLangOpen(false)
                       }}
                     >
-                      {lang.label}
+                      {localeNames[l]}
                     </button>
                   ))}
                 </div>
               )}
             </div>
 
-            {/* Mobile menu toggle */}
             <button
               onClick={() => setIsMobileOpen(!isMobileOpen)}
               className="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-full text-text-muted hover:text-brand-navy hover:bg-slate-50 transition-colors"
@@ -152,7 +147,6 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu panel */}
       {isMobileOpen && (
         <div className="md:hidden border-t border-slate-100 bg-white animate-fade-in">
           <div className="px-5 py-4 space-y-1">
@@ -181,7 +175,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 className="block px-4 py-2.5 text-sm font-medium text-text-muted hover:text-brand-navy rounded-lg transition-colors"
               >
-                Sign in
+                {dict.nav.signIn}
               </a>
               <a
                 href="https://app.aetherheal.com/transition"
@@ -189,7 +183,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white bg-brand-navy rounded-lg transition-colors hover:bg-brand-navy/90"
               >
-                Begin Journey
+                {dict.nav.beginJourney}
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
