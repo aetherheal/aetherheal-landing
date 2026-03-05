@@ -564,8 +564,8 @@ export default function HomePage() {
             })}
           </div>
 
-          <div className="relative mt-20 text-center z-10">
-            <p className="font-serif text-2xl text-brand-gold italic max-w-2xl mx-auto">
+          <div className="relative mt-20 text-center z-10 pl-14 md:pl-0">
+            <p className="font-serif text-xl sm:text-2xl text-brand-gold italic max-w-2xl mx-auto">
               &ldquo;Built for premium cross-border care in Korea. Responsibility
               continues through the entire journey.&rdquo;
             </p>
