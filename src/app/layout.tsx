@@ -18,15 +18,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aetherheal.com"),
-  title: "AetherHeal | Physician-Led Global Medical Journey to Korea",
+  title: "AetherHeal | Physician-Led Global Medical Journey to Seoul",
   description:
-    "AetherHeal helps international patients make complex medical decisions with clarity. Physician-led verification, curated hospitals, and a structured journey to Seoul.",
+    "AetherHeal helps international patients make complex medical decisions with clarity. Physician-led verification, curated hospitals, and a structured medical journey to Seoul.",
   keywords: [
     "medical tourism Korea",
+    "medical tourism Seoul",
     "hair transplant Korea",
+    "plastic surgery Seoul",
     "Seoul aesthetic clinic",
     "physician verified clinics",
     "medical travel Korea",
+    "international patient Korea",
+    "medical decision support",
   ],
   authors: [{ name: "AetherHeal" }],
   robots: { index: true, follow: true },
@@ -36,24 +40,26 @@ export const metadata: Metadata = {
   themeColor: "#0F172A",
   openGraph: {
     type: "website",
-    title: "AetherHeal | Decide With Clarity Before Choosing a Hospital",
+    title: "AetherHeal | Physician-Led Global Medical Journey to Seoul",
     description:
-      "A physician-led platform helping international patients navigate complex medical decisions and travel to Seoul with confidence.",
+      "AetherHeal helps international patients make complex medical decisions with clarity. Physician-led verification, curated hospitals, and a structured medical journey to Seoul.",
     url: "https://aetherheal.com",
     siteName: "AetherHeal",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "AetherHeal — Physician-Led Medical Journey to Korea",
+        alt: "AetherHeal — Physician-Led Global Medical Journey to Seoul",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AetherHeal | Physician-Led Medical Journey",
-    description: "Decide with clarity before choosing a hospital.",
+    title: "AetherHeal | Physician-Led Global Medical Journey to Seoul",
+    description:
+      "Decide with clarity before choosing a hospital. Physician-led verification, curated hospitals, and a structured medical journey to Seoul.",
     images: ["/og-image.png"],
   },
 }
@@ -75,20 +81,36 @@ export default function RootLayout({
               name: "AetherHeal",
               url: "https://aetherheal.com",
               logo: "https://aetherheal.com/logo.png",
+              image: "https://aetherheal.com/og-image.png",
               description:
-                "A physician-led platform helping international patients access curated hospitals in South Korea.",
-              areaServed: "Global",
+                "AetherHeal helps international patients make complex medical decisions with clarity. Physician-led verification, curated hospitals, and a structured medical journey to Seoul.",
+              areaServed: {
+                "@type": "GeoShape",
+                name: "Global",
+              },
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Seoul",
+                addressCountry: "KR",
+              },
               medicalSpecialty: [
                 "Hair Transplantation",
                 "Aesthetic Medicine",
                 "Plastic Surgery",
+                "Dermatology",
+                "Ophthalmology",
+                "Dentistry",
+                "Stem Cell Therapy",
               ],
               availableLanguage: [
                 "English",
                 "Korean",
                 "Chinese",
                 "Japanese",
+                "Thai",
+                "Russian",
               ],
+              sameAs: [],
             }),
           }}
         />
