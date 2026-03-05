@@ -275,8 +275,8 @@ export default function HomePage() {
                 desc: "From decision to recovery, AetherHeal coordinates every step of your journey to Seoul.",
               },
               {
-                href: "/hospital-verification",
-                title: "Hospital Verification",
+                href: "/trust-protocol",
+                title: "The AetherHeal Trust Protocol",
                 desc: "How we evaluate and maintain standards across our curated partner hospital network.",
               },
               {

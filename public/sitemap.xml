@@ -46,11 +46,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aetherheal.com/hospital-verification</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://aetherheal.com/medical-boundary</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
