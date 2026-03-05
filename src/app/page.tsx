@@ -241,6 +241,67 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Explore — SEO Internal Links */}
+      <section className="w-full py-16 sm:py-24 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-flex items-center px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">
+              Explore by Topic
+            </span>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">
+              Where Clarity Begins
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              {
+                href: "/hair-transplant-korea",
+                title: "Hair Transplant in Korea",
+                desc: "FUE, DHI, and advanced grafting — evaluated with physician-led decision support before clinic contact.",
+              },
+              {
+                href: "/aesthetic-clinic-seoul",
+                title: "Aesthetic Clinics in Seoul",
+                desc: "Navigate Seoul's aesthetic landscape with structured guidance for skin treatments and cosmetic dermatology.",
+              },
+              {
+                href: "/plastic-surgery-korea",
+                title: "Plastic Surgery in Korea",
+                desc: "Rhinoplasty, contouring, and more — make informed decisions with a physician before committing.",
+              },
+              {
+                href: "/medical-journey",
+                title: "Your Medical Journey",
+                desc: "From decision to recovery, AetherHeal coordinates every step of your journey to Seoul.",
+              },
+              {
+                href: "/hospital-verification",
+                title: "Hospital Verification",
+                desc: "How we evaluate and maintain standards across our curated partner hospital network.",
+              },
+              {
+                href: "/how-to-choose-hospital-abroad",
+                title: "Choosing a Hospital Abroad",
+                desc: "A structured framework for reducing risk when selecting a hospital in another country.",
+              },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group block p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all"
+              >
+                <h3 className="font-serif text-lg text-brand-navy font-bold mb-2 group-hover:text-brand-gold transition-colors">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-text-muted leading-relaxed">
+                  {item.desc}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Now Trending Procedures */}
       <section className="w-full py-16 sm:py-20 bg-bg-light border-b border-slate-200 overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-10">
