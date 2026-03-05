@@ -241,143 +241,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Explore — SEO Internal Links */}
-      <section className="w-full py-16 sm:py-24 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <span className="inline-flex items-center px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">
-              Explore by Topic
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">
-              Where Clarity Begins
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              {
-                href: "/hair-transplant-korea",
-                title: "Hair Transplant in Korea",
-                desc: "FUE, DHI, and advanced grafting — evaluated with physician-led decision support before clinic contact.",
-              },
-              {
-                href: "/aesthetic-clinic-seoul",
-                title: "Aesthetic Clinics in Seoul",
-                desc: "Navigate Seoul's aesthetic landscape with structured guidance for skin treatments and cosmetic dermatology.",
-              },
-              {
-                href: "/plastic-surgery-korea",
-                title: "Plastic Surgery in Korea",
-                desc: "Rhinoplasty, contouring, and more — make informed decisions with a physician before committing.",
-              },
-              {
-                href: "/medical-journey",
-                title: "Your Medical Journey",
-                desc: "From decision to recovery, AetherHeal coordinates every step of your journey to Seoul.",
-              },
-              {
-                href: "/trust-protocol",
-                title: "The AetherHeal Trust Protocol",
-                desc: "How we evaluate and maintain standards across our curated partner hospital network.",
-              },
-              {
-                href: "/how-to-choose-hospital-abroad",
-                title: "Choosing a Hospital Abroad",
-                desc: "A structured framework for reducing risk when selecting a hospital in another country.",
-              },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="group block p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all"
-              >
-                <h3 className="font-serif text-lg text-brand-navy font-bold mb-2 group-hover:text-brand-gold transition-colors">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-text-muted leading-relaxed">
-                  {item.desc}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Now Trending Procedures */}
-      <section className="w-full py-16 sm:py-20 bg-bg-light border-b border-slate-200 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-10">
-          <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-2 px-3 py-1 bg-brand-navy/5 border border-brand-navy/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-brand-navy">
-              Supported
-            </span>
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy">
-              High-Stake Domains We Handle
-            </h2>
-          </div>
-        </div>
-
-        {/* Row 0 — Skin / Aesthetic Brands ticker */}
-        <div className="relative mb-4">
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-left w-max">
-            {[...skinBrands, ...skinBrands].map((brand, i) => (
-              <div
-                key={`sb-${i}`}
-                className="flex-shrink-0 mx-3 inline-flex items-center gap-3 px-6 py-3 bg-white border border-brand-gold/15 rounded-full"
-              >
-                <span className="font-serif text-lg font-bold text-brand-navy tracking-tight">
-                  {brand.name}
-                </span>
-                <span className="w-1 h-1 rounded-full bg-brand-gold/40" />
-                <span className="text-[11px] font-medium text-text-muted uppercase tracking-wider">
-                  {brand.tag}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Row 1 — scrolls left */}
-        <div className="relative mb-4">
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-left w-max">
-            {[...trendingRow1, ...trendingRow1].map((item, i) => (
-              <div
-                key={`r1-${i}`}
-                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5"
-              >
-                <span className="text-2xl mb-3 block">{item.emoji}</span>
-                <p className="font-serif text-base text-brand-navy font-semibold mb-1">
-                  {item.name}
-                </p>
-                <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Row 2 — scrolls right */}
-        <div className="relative">
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-right w-max">
-            {[...trendingRow2, ...trendingRow2].map((item, i) => (
-              <div
-                key={`r2-${i}`}
-                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5"
-              >
-                <span className="text-2xl mb-3 block">{item.emoji}</span>
-                <p className="font-serif text-base text-brand-navy font-semibold mb-1">
-                  {item.name}
-                </p>
-                <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Stakes Comparison -- Unified Contrast Card */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto">
@@ -465,6 +328,82 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Now Trending Procedures */}
+      <section className="w-full py-16 sm:py-20 bg-bg-light border-b border-slate-200 overflow-hidden">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-10">
+          <div className="flex items-center gap-3">
+            <span className="inline-flex items-center gap-2 px-3 py-1 bg-brand-navy/5 border border-brand-navy/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-brand-navy">
+              Supported
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy">
+              High-Stake Domains We Handle
+            </h2>
+          </div>
+        </div>
+
+        {/* Row 0 — Skin / Aesthetic Brands ticker */}
+        <div className="relative mb-4">
+          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="flex animate-scroll-left w-max">
+            {[...skinBrands, ...skinBrands].map((brand, i) => (
+              <div
+                key={`sb-${i}`}
+                className="flex-shrink-0 mx-3 inline-flex items-center gap-3 px-6 py-3 bg-white border border-brand-gold/15 rounded-full"
+              >
+                <span className="font-serif text-lg font-bold text-brand-navy tracking-tight">
+                  {brand.name}
+                </span>
+                <span className="w-1 h-1 rounded-full bg-brand-gold/40" />
+                <span className="text-[11px] font-medium text-text-muted uppercase tracking-wider">
+                  {brand.tag}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Row 1 — scrolls left */}
+        <div className="relative mb-4">
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="flex animate-scroll-left w-max">
+            {[...trendingRow1, ...trendingRow1].map((item, i) => (
+              <div
+                key={`r1-${i}`}
+                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5"
+              >
+                <span className="text-2xl mb-3 block">{item.emoji}</span>
+                <p className="font-serif text-base text-brand-navy font-semibold mb-1">
+                  {item.name}
+                </p>
+                <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Row 2 — scrolls right */}
+        <div className="relative">
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="flex animate-scroll-right w-max">
+            {[...trendingRow2, ...trendingRow2].map((item, i) => (
+              <div
+                key={`r2-${i}`}
+                className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5"
+              >
+                <span className="text-2xl mb-3 block">{item.emoji}</span>
+                <p className="font-serif text-base text-brand-navy font-semibold mb-1">
+                  {item.name}
+                </p>
+                <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -687,6 +626,67 @@ export default function HomePage() {
             </p>
           </div>
           <Accordion items={faqItems} />
+        </div>
+      </section>
+
+      {/* Explore — SEO Internal Links */}
+      <section className="w-full py-16 sm:py-24 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-flex items-center px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">
+              Explore by Topic
+            </span>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">
+              Where Clarity Begins
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              {
+                href: "/hair-transplant-korea",
+                title: "Hair Transplant in Korea",
+                desc: "FUE, DHI, and advanced grafting — evaluated with physician-led decision support before clinic contact.",
+              },
+              {
+                href: "/aesthetic-clinic-seoul",
+                title: "Aesthetic Clinics in Seoul",
+                desc: "Navigate Seoul's aesthetic landscape with structured guidance for skin treatments and cosmetic dermatology.",
+              },
+              {
+                href: "/plastic-surgery-korea",
+                title: "Plastic Surgery in Korea",
+                desc: "Rhinoplasty, contouring, and more — make informed decisions with a physician before committing.",
+              },
+              {
+                href: "/medical-journey",
+                title: "Your Medical Journey",
+                desc: "From decision to recovery, AetherHeal coordinates every step of your journey to Seoul.",
+              },
+              {
+                href: "/trust-protocol",
+                title: "The AetherHeal Trust Protocol",
+                desc: "How we evaluate and maintain standards across our curated partner hospital network.",
+              },
+              {
+                href: "/how-to-choose-hospital-abroad",
+                title: "Choosing a Hospital Abroad",
+                desc: "A structured framework for reducing risk when selecting a hospital in another country.",
+              },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group block p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all"
+              >
+                <h3 className="font-serif text-lg text-brand-navy font-bold mb-2 group-hover:text-brand-gold transition-colors">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-text-muted leading-relaxed">
+                  {item.desc}
+                </p>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
