@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AetherHeal — Physician-Led Global Medical Journey to Seoul",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "AetherHeal | Physician-Led Global Medical Journey to Seoul",
     description:
       "AetherHeal helps international patients make complex medical decisions with clarity. Physician-led verification, curated hospitals, and a structured medical journey to Seoul.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpg"],
   },
 }
 

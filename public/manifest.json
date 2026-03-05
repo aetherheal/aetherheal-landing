@@ -1,0 +1,21 @@
+{
+  "name": "AetherHeal",
+  "short_name": "AetherHeal",
+  "description": "Physician-led decision support for premium medical care in Korea",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B1D3A",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -50,7 +50,7 @@ export async function generateMetadata({
       locale: ogLocales[locale as Locale] || "en_US",
       images: [
         {
-          url: "/og-image.png",
+          url: "/og-image.jpg",
           width: 1200,
           height: 630,
           alt: "AetherHeal — Physician-Led Global Medical Journey to Seoul",
@@ -61,7 +61,10 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: dict.home.meta.title,
       description: dict.home.meta.description,
-      images: ["/og-image.png"],
+      images: ["/og-image.jpg"],
+    },
+    other: {
+      "theme-color": "#0B1D3A",
     },
   }
 }
@@ -79,6 +82,11 @@ export default async function LocaleLayout({
   return (
     <>
       <script
+        dangerouslySetInnerHTML={{
+          __html: `document.documentElement.lang="${locale}";`,
+        }}
+      />
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -87,7 +95,7 @@ export default async function LocaleLayout({
             name: "AetherHeal",
             url: "https://aetherheal.com",
             logo: "https://aetherheal.com/logo.png",
-            image: "https://aetherheal.com/og-image.png",
+            image: "https://aetherheal.com/og-image.jpg",
             description: dict.home.meta.description,
             areaServed: { "@type": "GeoShape", name: "Global" },
             address: {

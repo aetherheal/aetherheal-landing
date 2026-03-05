@@ -22,6 +22,8 @@ export function Accordion({ items, className }: AccordionProps) {
     <div className={cn("space-y-4", className)}>
       {items.map((item) => {
         const isOpen = openId === item.id
+        const panelId = `accordion-panel-${item.id}`
+        const triggerId = `accordion-trigger-${item.id}`
         return (
           <div
             key={item.id}
@@ -29,6 +31,9 @@ export function Accordion({ items, className }: AccordionProps) {
           >
             <button
               type="button"
+              id={triggerId}
+              aria-expanded={isOpen}
+              aria-controls={panelId}
               onClick={() => setOpenId(isOpen ? null : item.id)}
               className="w-full flex items-center justify-between p-5 text-left"
             >
@@ -43,6 +48,9 @@ export function Accordion({ items, className }: AccordionProps) {
               />
             </button>
             <div
+              id={panelId}
+              role="region"
+              aria-labelledby={triggerId}
               className={cn(
                 "transition-all duration-[400ms] ease-in-out overflow-hidden",
                 isOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"

@@ -51,7 +51,15 @@ export default async function HomePage({
     <div className="min-h-full">
       {/* Hero Video */}
       <section className="w-full max-h-[95vh] overflow-hidden">
-        <video autoPlay loop muted playsInline className="w-full h-auto block">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="/assets/hero-poster.jpg"
+          aria-label="AetherHeal brand video — physician-led medical journey to Seoul"
+          className="w-full h-auto block"
+        >
           <source src="/assets/hero-bg.mp4" type="video/mp4" />
         </video>
       </section>

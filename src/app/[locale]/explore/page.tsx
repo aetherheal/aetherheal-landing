@@ -1,8 +1,5 @@
-"use client"
-
+import type { Metadata } from "next"
 import Link from "next/link"
-import { useParams } from "next/navigation"
-import { useEffect, useState } from "react"
 import {
   Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity,
   DollarSign, TrendingUp, Clock, Scale, FileSignature, Target,
@@ -11,25 +8,44 @@ import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { type Locale } from "@/i18n/config"
-import { getDictionary, type Dictionary } from "@/i18n/get-dictionary"
+import { locales, type Locale } from "@/i18n/config"
+import { getDictionary } from "@/i18n/get-dictionary"
+import { ExploreFlipCards } from "./flip-cards"
 
-const conceptIcons = [Scale, FileSignature, Target]
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
 const disciplineIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity]
 
-export default function ExplorePage() {
-  const params = useParams()
-  const locale = (params?.locale as Locale) ?? "en"
-  const prefix = `/${locale}`
-  const [dict, setDict] = useState<Dictionary | null>(null)
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const dict = await getDictionary(locale as Locale)
+  const t = dict.explore.meta
+  return {
+    title: t.title,
+    description: t.description,
+    alternates: {
+      canonical: `https://aetherheal.com/${locale}/explore`,
+      languages: Object.fromEntries(locales.map((l) => [l, `https://aetherheal.com/${l}/explore`])),
+    },
+    openGraph: {
+      title: t.title,
+      description: t.description,
+      url: `https://aetherheal.com/${locale}/explore`,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t.title,
+      description: t.description,
+      images: ["/og-image.jpg"],
+    },
+  }
+}
 
-  useEffect(() => {
-    getDictionary(locale).then(setDict)
-  }, [locale])
-
-  if (!dict) return null
+export default async function ExplorePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const dict = await getDictionary(locale as Locale)
   const t = dict.explore
+  const prefix = `/${locale}`
 
   return (
     <div className="min-h-full">
@@ -46,21 +62,7 @@ export default function ExplorePage() {
       <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16"><h2 className="font-serif text-3xl text-brand-navy mb-4">{t.concepts.title}</h2><p className="text-text-body">{t.concepts.subtitle}</p></div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            {t.concepts.items.map((c, i) => {
-              const Icon = conceptIcons[i]
-              return (
-                <div key={c.title} className="group relative h-64 [perspective:1000px]">
-                  <div className="absolute inset-0 bg-white rounded-xl border border-border-light shadow-card p-5 sm:p-8 flex flex-col justify-center backface-hidden transition-transform duration-500 group-hover:[transform:rotateY(180deg)]">
-                    <Icon className="w-8 h-8 text-brand-navy mb-4" /><h3 className="text-lg font-semibold text-text-deep mb-2">{c.title}</h3><p className="text-sm text-text-body leading-relaxed">{c.front}</p>
-                  </div>
-                  <div className="absolute inset-0 bg-brand-navy rounded-xl p-5 sm:p-8 flex flex-col justify-center [transform:rotateY(180deg)] backface-hidden transition-transform duration-500 group-hover:[transform:rotateY(0deg)]">
-                    <p className="text-sm text-slate-300 leading-relaxed">{c.back}</p>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
+          <ExploreFlipCards items={t.concepts.items} />
         </div>
       </section>
 

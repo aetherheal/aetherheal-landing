@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t.title, description: t.description,
     alternates: { canonical: `https://aetherheal.com/${locale}/medical-journey`, languages: Object.fromEntries(locales.map((l) => [l, `https://aetherheal.com/${l}/medical-journey`])) },
-    openGraph: { title: t.title, description: t.description, url: `https://aetherheal.com/${locale}/medical-journey`, images: [{ url: "/og-image.png", width: 1200, height: 630 }] },
+    openGraph: { title: t.title, description: t.description, url: `https://aetherheal.com/${locale}/medical-journey`, images: [{ url: "/og-image.jpg", width: 1200, height: 630 }] },
     twitter: { card: "summary_large_image", title: t.title, description: t.description },
   }
 }
