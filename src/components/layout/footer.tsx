@@ -92,21 +92,12 @@ export function Footer() {
               ))}
 
               <li className="pt-4 border-t border-slate-800">
-                <span className="text-[10px] text-slate-500 block mb-1">General Inquiries</span>
+                <span className="text-[10px] text-slate-500 block mb-1">Contact</span>
                 <a
-                  href="mailto:contact@aetherheal.com"
+                  href="mailto:drjeeju@aetherheal.com"
                   className="text-sm text-slate-300 hover:text-brand-gold transition-colors"
                 >
-                  contact@aetherheal.com
-                </a>
-              </li>
-              <li>
-                <span className="text-[10px] text-slate-500 block mb-1">Partnership</span>
-                <a
-                  href="mailto:partners@aetherheal.com"
-                  className="text-sm text-slate-300 hover:text-brand-gold transition-colors"
-                >
-                  partners@aetherheal.com
+                  drjeeju@aetherheal.com
                 </a>
               </li>
 
