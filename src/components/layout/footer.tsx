@@ -27,6 +27,9 @@ export function Footer({ dict, locale }: FooterProps) {
 
   const legalLinks = [
     { href: `${prefix}/medical-boundary`, label: dict.footer.medicalBoundaryNotice },
+    { href: `${prefix}/terms-of-service`, label: "Terms of Service" },
+    { href: `${prefix}/privacy-policy`, label: "Privacy Policy" },
+    { href: `${prefix}/payment-refund-policy`, label: "Payment & Refund Policy" },
   ]
 
   return (
