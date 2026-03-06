@@ -20,35 +20,37 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
 
   return (
     <div className="min-h-full bg-white">
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 border-b border-slate-200">
-        <div className="max-w-4xl mx-auto text-center space-y-4">
-          <h1 className="font-serif text-4xl sm:text-5xl text-brand-navy font-medium">
+      <section className="w-full bg-slate-50 border-b border-slate-200 py-16 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-4">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-navy font-medium">
             AetherHeal Terms of Service
           </h1>
-          <p className="text-text-body text-lg">Effective Date: March 1, 2025</p>
+          <p className="text-sm text-text-muted">
+            <strong>Effective Date:</strong> March 6, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> March 6, 2026
+          </p>
         </div>
       </section>
 
-      <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6">
-        <div className="max-w-4xl mx-auto space-y-12">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+        <div className="space-y-12">
 
           <div id="introduction">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">1. Introduction</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">1. Introduction</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">1.1 Purpose</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">1.1 Purpose</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   These Terms of Service (&quot;Terms&quot;) govern your access to and use of the AetherHeal platform (&quot;Platform&quot;), operated by AetherHeal Co., Ltd. (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). The Platform provides information about medical institutions and facilitates consultation requests and appointment bookings for medical services.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">1.2 Acceptance</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">1.2 Acceptance</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   By accessing or using the Platform, you (&quot;User,&quot; &quot;you,&quot; or &quot;your&quot;) agree to be bound by these Terms. If you do not agree to these Terms, you must not access or use the Platform.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">1.3 Eligibility</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">1.3 Eligibility</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   You must be at least 18 years of age to use the Platform. By using the Platform, you represent and warrant that you meet this age requirement.
                 </p>
@@ -57,40 +59,40 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="definitions">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">2. Definitions</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">2. Definitions</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">2.1 Platform</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.1 Platform</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The AetherHeal website and any associated mobile applications or digital services operated by the Company.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">2.2 User</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.2 User</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Any individual who accesses or uses the Platform.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">2.3 Partner Medical Institution</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.3 Partner Medical Institution</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   A licensed hospital, clinic, or healthcare provider listed on the Platform.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">2.4 Medical Services</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.4 Medical Services</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Medical treatments, consultations, procedures, and other healthcare services provided directly by Partner Medical Institutions.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">2.5 Booking Services</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.5 Booking Services</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The scheduling and coordination services provided through the Platform that connect Users with Partner Medical Institutions.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">2.6 Deposit</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.6 Deposit</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   A partial advance payment made by a User to confirm a booking through the Platform.
                 </p>
@@ -99,22 +101,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="nature-of-the-platform">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">3. Nature of the Platform</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">3. Nature of the Platform</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">3.1 Role and Scope</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">3.1 Role and Scope</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   AetherHeal serves as an intermediary platform that connects Users with Partner Medical Institutions. The Company does not provide, endorse, or guarantee any medical services. All medical services are provided solely by the relevant Partner Medical Institution.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">3.2 No Medical Advice</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">3.2 No Medical Advice</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The information provided on the Platform is for general informational purposes only and does not constitute medical advice. Users should consult qualified healthcare professionals before making any medical decisions.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">3.3 No Provider-Patient Relationship</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">3.3 No Provider-Patient Relationship</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Use of the Platform does not create a provider-patient relationship between the User and the Company. Any provider-patient relationship exists exclusively between the User and the Partner Medical Institution.
                 </p>
@@ -123,22 +125,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="user-accounts">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">4. User Accounts</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">4. User Accounts</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">4.1 Registration</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">4.1 Registration</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Certain features of the Platform may require you to create an account. You agree to provide accurate and complete information during the registration process.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">4.2 Accuracy</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">4.2 Accuracy</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   You are responsible for maintaining the accuracy of your account information and for updating it promptly if it changes.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">4.3 Security</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">4.3 Security</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account.
                 </p>
@@ -147,34 +149,34 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="services-provided">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">5. Services Provided</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">5. Services Provided</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">5.1 Institution Information</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.1 Institution Information</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Platform provides curated information about Partner Medical Institutions, including but not limited to their specialties, available treatments, accreditations, and general pricing information.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">5.2 Consultation Requests</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.2 Consultation Requests</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users may submit consultation requests through the Platform. These requests are forwarded to the relevant Partner Medical Institution for review and response.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">5.3 Appointment Scheduling</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.3 Appointment Scheduling</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Platform facilitates appointment scheduling between Users and Partner Medical Institutions. Confirmation of appointments is subject to the availability and acceptance by the Partner Medical Institution.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">5.4 International Patient Assistance</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.4 International Patient Assistance</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   For international Users, the Platform may provide additional coordination services such as translation assistance, travel guidance, and logistical support related to medical appointments.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">5.5 Communication Tools</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.5 Communication Tools</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Platform provides communication channels between Users and Partner Medical Institutions or our support team for the purpose of coordinating medical services.
                 </p>
@@ -183,28 +185,28 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="booking-services">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">6. Booking Services</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">6. Booking Services</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">6.1 Requests</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">6.1 Requests</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users may submit booking requests through the Platform for medical consultations or procedures at Partner Medical Institutions.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">6.2 Confirmation</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">6.2 Confirmation</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   A booking is considered confirmed only after the Partner Medical Institution accepts the request and, where applicable, the required deposit has been received.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">6.3 Deposit</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">6.3 Deposit</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Certain bookings may require a deposit to secure the appointment. The deposit amount, payment terms, and application toward the final cost of medical services will be specified at the time of booking.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">6.4 Modifications</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">6.4 Modifications</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Requests to modify or cancel a booking must be submitted through the Platform. Modifications are subject to the availability and policies of the relevant Partner Medical Institution.
                 </p>
@@ -213,22 +215,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="payments">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">7. Payments</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">7. Payments</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">7.1 Deposit Payments</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">7.1 Deposit Payments</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users may be required to pay a deposit through the Platform to confirm certain bookings. The deposit is applied toward the total cost of medical services at the Partner Medical Institution.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">7.2 Processing</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">7.2 Processing</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Payments are processed through secure third-party payment processors. By making a payment, you agree to the terms and conditions of the applicable payment processor.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">7.3 Currency</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">7.3 Currency</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Prices and payments may be displayed and processed in various currencies. Any currency conversion fees or exchange rate differences are the responsibility of the User.
                 </p>
@@ -237,16 +239,16 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="refund-policy-reference">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">8. Refund Policy Reference</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">8. Refund Policy Reference</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">8.1 Conditions</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">8.1 Conditions</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Refunds of deposits are subject to the conditions outlined in our separate Refund Policy.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">8.2 Separate Policy</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">8.2 Separate Policy</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Refund Policy is incorporated by reference into these Terms. Users are encouraged to review the Refund Policy in full before making any payments through the Platform.
                 </p>
@@ -255,22 +257,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="responsibilities-of-medical-institutions">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">9. Responsibilities of Medical Institutions</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">9. Responsibilities of Medical Institutions</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">9.1 Provision of Services</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">9.1 Provision of Services</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Partner Medical Institutions are solely responsible for the provision of medical services, including diagnosis, treatment, and follow-up care.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">9.2 Qualifications</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">9.2 Qualifications</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Partner Medical Institutions represent that they hold all necessary licenses, certifications, and accreditations required to provide the medical services listed on the Platform.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">9.3 Outcome</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">9.3 Outcome</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Company does not guarantee any specific medical outcomes. Medical results vary depending on individual circumstances, and the Partner Medical Institution is responsible for discussing expected outcomes with the User.
                 </p>
@@ -279,22 +281,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="user-responsibilities">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">10. User Responsibilities</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">10. User Responsibilities</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">10.1 Accurate Information</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">10.1 Accurate Information</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users are responsible for providing accurate and complete personal and medical information when using the Platform. Inaccurate information may affect the quality and safety of medical services.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">10.2 Compliance</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">10.2 Compliance</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users agree to comply with all applicable laws and regulations when using the Platform, including but not limited to health and safety regulations, immigration laws, and local regulations of the country where medical services are provided.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">10.3 Lawful Use</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">10.3 Lawful Use</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users agree to use the Platform only for lawful purposes and in accordance with these Terms.
                 </p>
@@ -303,22 +305,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="prohibited-conduct">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">11. Prohibited Conduct</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">11. Prohibited Conduct</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">11.1 Misuse</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">11.1 Misuse</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users shall not misuse the Platform, including but not limited to using it for any purpose other than its intended use as described in these Terms.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">11.2 Fraud</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">11.2 Fraud</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users shall not provide false, misleading, or fraudulent information on the Platform, including during the registration, booking, or payment processes.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">11.3 Interference</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">11.3 Interference</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users shall not interfere with or disrupt the operation of the Platform, including through the use of viruses, bots, or other harmful technologies.
                 </p>
@@ -327,16 +329,16 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="intellectual-property">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">12. Intellectual Property</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">12. Intellectual Property</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">12.1 Content</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">12.1 Content</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   All content on the Platform, including text, graphics, logos, images, and software, is the property of the Company or its licensors and is protected by intellectual property laws.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">12.2 Restrictions</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">12.2 Restrictions</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Users may not reproduce, distribute, modify, or create derivative works from any content on the Platform without prior written consent from the Company.
                 </p>
@@ -345,16 +347,16 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="privacy">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">13. Privacy</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">13. Privacy</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">13.1 Collection</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">13.1 Collection</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   We collect and process personal data in accordance with our Privacy Policy. By using the Platform, you consent to the collection, use, and sharing of your information as described in the Privacy Policy.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">13.2 Policy Reference</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">13.2 Policy Reference</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   Our Privacy Policy is available on the Platform and is incorporated by reference into these Terms.
                 </p>
@@ -363,22 +365,22 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="limitation-of-liability">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">14. Limitation of Liability</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">14. Limitation of Liability</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">14.1 Service Limitation</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">14.1 Service Limitation</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   To the fullest extent permitted by applicable law, the Company shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of the Platform or Booking Services.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">14.2 Medical Disclaimer</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">14.2 Medical Disclaimer</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Company is not liable for any medical outcomes, complications, or damages resulting from medical services provided by Partner Medical Institutions. Users acknowledge that all medical decisions are made between the User and the Partner Medical Institution.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-text-deep mb-2">14.3 Third-Party</h3>
+                <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">14.3 Third-Party</h3>
                 <p className="text-text-body text-base leading-relaxed">
                   The Company is not responsible for the actions, products, or services of any third party, including Partner Medical Institutions, payment processors, or travel service providers.
                 </p>
@@ -387,12 +389,12 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="indemnification">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">15. Indemnification</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">15. Indemnification</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
                 You agree to indemnify, defend, and hold harmless the Company, its officers, directors, employees, agents, and affiliates from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys&apos; fees) arising out of or in connection with:
               </p>
-              <ul className="list-disc pl-6 space-y-2 text-text-body text-base leading-relaxed">
+              <ul className="list-disc pl-6 space-y-2 text-text-body text-base leading-relaxed marker:text-slate-300">
                 <li>Your use of the Platform;</li>
                 <li>Your violation of these Terms;</li>
                 <li>Your violation of any applicable law or regulation;</li>
@@ -402,7 +404,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="service-availability-and-modification">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">16. Service Availability and Modification</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">16. Service Availability and Modification</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
                 The Company reserves the right to modify, suspend, or discontinue any part of the Platform or its services at any time, with or without notice. The Company shall not be liable to you or any third party for any modification, suspension, or discontinuation of the Platform.
@@ -414,7 +416,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="termination-of-service">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">17. Termination of Service</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">17. Termination of Service</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
                 The Company may terminate or suspend your access to the Platform at any time, with or without cause, and with or without notice. Upon termination, your right to use the Platform will immediately cease.
@@ -426,7 +428,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="governing-law">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">18. Governing Law</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">18. Governing Law</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
                 These Terms shall be governed by and construed in accordance with the laws of the Republic of Korea, without regard to its conflict of law principles.
@@ -435,7 +437,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="dispute-resolution">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">19. Dispute Resolution</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">19. Dispute Resolution</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
                 Any disputes arising out of or in connection with these Terms shall be resolved through good-faith negotiations between the parties. If the dispute cannot be resolved through negotiation, it shall be submitted to the exclusive jurisdiction of the courts of the Republic of Korea.
@@ -444,7 +446,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
           </div>
 
           <div id="contact-information">
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-6">20. Contact Information</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">20. Contact Information</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
                 If you have any questions or concerns about these Terms, please contact us:
