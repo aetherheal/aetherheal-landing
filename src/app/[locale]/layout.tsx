@@ -3,6 +3,7 @@ import { locales, ogLocales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { Navbar } from "@/components/layout/navbar"
 import { Footer } from "@/components/layout/footer"
+import { ScrollToTop } from "@/components/scroll-to-top"
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -124,6 +125,7 @@ export default async function LocaleLayout({
           }),
         }}
       />
+      <ScrollToTop />
       <div className="flex flex-col min-h-full">
         <Navbar dict={dict.common} locale={locale as Locale} />
         <main className="flex-1">{children}</main>

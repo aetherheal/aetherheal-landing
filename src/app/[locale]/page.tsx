@@ -49,58 +49,59 @@ export default async function HomePage({
 
   return (
     <div className="min-h-full">
-      {/* Hero Video */}
-      <section className="w-full max-h-[95vh] overflow-hidden">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster="/assets/hero-poster.jpg"
-          aria-label="AetherHeal brand video — physician-led medical journey to Seoul"
-          className="w-full h-auto block"
-        >
-          <source src="/assets/hero-bg.mp4" type="video/mp4" />
-        </video>
-      </section>
+      {/* Hero: Video + Overlapping Content */}
+      <section className="relative w-full">
+        <div className="w-full max-h-[95vh] overflow-hidden">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster="/assets/hero-poster.jpg"
+            aria-label="AetherHeal brand video — physician-led medical journey to Seoul"
+            className="w-full h-auto block"
+          >
+            <source src="/assets/hero-bg.mp4" type="video/mp4" />
+          </video>
+        </div>
 
-      {/* Hero Content */}
-      <section className="w-full py-14 sm:py-20 px-4 bg-white">
-        <div className="text-center max-w-4xl mx-auto space-y-5 sm:space-y-8">
-          <div className="inline-block animate-fade-up">
-            <span className="py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[9px] sm:text-sm font-bold uppercase tracking-wider sm:tracking-widest text-brand-navy bg-white shadow-lg">
-              {t.hero.badge}
-            </span>
-          </div>
+        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-32 sm:pt-40 pb-14 sm:pb-20 px-4">
+          <div className="text-center max-w-4xl mx-auto space-y-5 sm:space-y-8">
+            <div className="animate-fade-up">
+              <div className="inline-block py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[9px] sm:text-sm font-bold uppercase tracking-wider sm:tracking-widest text-brand-navy bg-white shadow-lg">
+                {t.hero.badge}
+              </div>
+            </div>
 
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
-            {t.hero.h1} <br />
-            <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
-          </h1>
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
+              {t.hero.h1} <br />
+              <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
+            </h1>
 
-          <p className="font-sans text-text-body text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
-            {t.hero.description}{" "}
-            <span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">
-              {t.hero.descriptionHighlight}
-            </span>{" "}
-            {t.hero.descriptionEnd}
-            <br />
-            <span className="text-text-muted text-base mt-2 block font-light">
-              {t.hero.disclaimer}
-            </span>
-          </p>
+            <p className="font-sans text-text-body text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
+              {t.hero.description}{" "}
+              <span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">
+                {t.hero.descriptionHighlight}
+              </span>{" "}
+              {t.hero.descriptionEnd}
+              <br />
+              <span className="text-text-muted text-base mt-2 block font-light">
+                {t.hero.disclaimer}
+              </span>
+            </p>
 
-          <div className="w-full pt-2 sm:pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 animate-fade-up [animation-delay:300ms]">
-            <Link href={`${prefix}/how-it-works`}>
-              <Button variant="navy" size="lg" className="w-full sm:w-auto min-w-[200px]">
-                {t.hero.ctaHowItWorks}
-              </Button>
-            </Link>
-            <Link href={`${prefix}/explore`}>
-              <Button variant="outline" size="lg" className="w-full sm:w-auto min-w-[200px]">
-                {t.hero.ctaExplore}
-              </Button>
-            </Link>
+            <div className="w-full pt-2 sm:pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 animate-fade-up [animation-delay:300ms]">
+              <Link href={`${prefix}/how-it-works`}>
+                <Button variant="navy" size="lg" className="w-full sm:w-auto min-w-[200px]">
+                  {t.hero.ctaHowItWorks}
+                </Button>
+              </Link>
+              <Link href={`${prefix}/explore`}>
+                <Button variant="outline" size="lg" className="w-full sm:w-auto min-w-[200px]">
+                  {t.hero.ctaExplore}
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
