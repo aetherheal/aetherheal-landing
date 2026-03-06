@@ -54,7 +54,7 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
           <SectionLabel color="gold" className="block mb-2">{t.hero.badge}</SectionLabel>
           <h1 className="font-serif text-4xl sm:text-5xl text-brand-navy font-medium">{t.hero.h1}</h1>
           <p className="text-text-body text-lg max-w-2xl mx-auto leading-relaxed">{t.hero.subtitle}</p>
-          <div className="pt-2"><Link href={`${prefix}/how-it-works`}><Button variant="navy" size="md">{t.hero.cta}</Button></Link></div>
+          <div className="pt-2"><Link href={`${prefix}/how-it-works`}><Button variant="navy" size="lg" className="min-w-[200px]">{t.hero.cta}</Button></Link></div>
           <Divider className="mx-auto" />
         </div>
       </section>
@@ -134,8 +134,8 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
           <div className="mt-14 text-center bg-white border border-border-light rounded-xl p-6 sm:p-8">
             <p className="text-text-body mb-5">{t.disciplines.cta}</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-              <Link href={`${prefix}/how-it-works`}><Button variant="navy" size="md" className="min-w-[190px]">{t.disciplines.ctaHowItWorks}</Button></Link>
-              <Link href={`${prefix}/medical-boundary`}><Button variant="outline" size="md" className="min-w-[190px]">{t.disciplines.ctaMedicalBoundary}</Button></Link>
+              <Link href={`${prefix}/how-it-works`}><Button variant="navy" size="lg" className="min-w-[200px]">{t.disciplines.ctaHowItWorks}</Button></Link>
+              <Link href={`${prefix}/medical-boundary`}><Button variant="outline" size="lg" className="min-w-[200px]">{t.disciplines.ctaMedicalBoundary}</Button></Link>
             </div>
           </div>
         </div>

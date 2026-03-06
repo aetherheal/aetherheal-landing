@@ -56,7 +56,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
           </Link>
 
           <div className="flex items-center gap-1">
-            <div className="hidden md:flex items-center gap-1 mr-2">
+            <div className="hidden lg:flex items-center gap-1 mr-2">
               {navItems.map((item) => {
                 const isActive = pathname === item.href
                 return (
@@ -76,13 +76,13 @@ export function Navbar({ dict, locale }: NavbarProps) {
               })}
             </div>
 
-            <div className="hidden md:block w-px h-5 bg-slate-200 mr-2" />
+            <div className="hidden lg:block w-px h-5 bg-slate-200 mr-2" />
 
             <a
               href="https://app.aetherheal.com/sign-in"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center px-3 py-2 text-[13px] tracking-wide font-medium text-text-muted hover:text-brand-navy rounded-full transition-all duration-200 hover:bg-slate-50"
+              className="hidden lg:inline-flex items-center px-3 py-2 text-[13px] tracking-wide font-medium text-text-muted hover:text-brand-navy rounded-full transition-all duration-200 hover:bg-slate-50"
             >
               {dict.nav.signIn}
             </a>
@@ -91,7 +91,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
               href="https://app.aetherheal.com/transition"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] tracking-wide font-semibold text-white bg-brand-navy rounded-full transition-all duration-200 hover:bg-brand-navy/90 hover:shadow-md"
+              className="hidden lg:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] tracking-wide font-semibold text-white bg-brand-navy rounded-full transition-all duration-200 hover:bg-brand-navy/90 hover:shadow-md"
             >
               {dict.nav.beginJourney}
               <ArrowRight className="w-3.5 h-3.5" />
@@ -138,7 +138,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
 
             <button
               onClick={() => setIsMobileOpen(!isMobileOpen)}
-              className="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-full text-text-muted hover:text-brand-navy hover:bg-slate-50 transition-colors"
+              className="lg:hidden inline-flex items-center justify-center w-9 h-9 rounded-full text-text-muted hover:text-brand-navy hover:bg-slate-50 transition-colors"
               aria-label="Toggle menu"
             >
               {isMobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -148,7 +148,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
       </div>
 
       {isMobileOpen && (
-        <div className="md:hidden border-t border-slate-100 bg-white animate-fade-in">
+        <div className="lg:hidden border-t border-slate-100 bg-white animate-fade-in">
           <div className="px-5 py-4 space-y-1">
             {navItems.map((item) => {
               const isActive = pathname === item.href

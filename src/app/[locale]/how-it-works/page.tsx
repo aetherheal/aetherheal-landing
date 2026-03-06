@@ -69,10 +69,10 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
             {t.hero.disclaimer}
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-4 w-full max-w-xl mx-auto mb-6 animate-fade-up [animation-delay:300ms]">
-            <a href="https://app.aetherheal.com/transition" className="inline-flex items-center justify-center gap-2 h-12 px-8 text-sm font-semibold text-brand-navy bg-white rounded-full hover:bg-brand-gold hover:text-white transition-all duration-300 shadow-lg">
+            <a href="https://app.aetherheal.com/transition" className="inline-flex items-center justify-center gap-2 h-12 px-8 min-w-[200px] text-sm font-semibold text-brand-navy bg-white rounded-md hover:bg-brand-gold hover:text-white transition-all duration-300 shadow-lg">
               {t.hero.ctaPrimary} <ArrowRight className="w-4 h-4" />
             </a>
-            <Link href={`${prefix}/explore`} className="inline-flex items-center justify-center h-12 px-8 text-sm font-medium text-white/80 border border-white/20 rounded-full hover:bg-white/5 hover:text-white transition-all duration-300">
+            <Link href={`${prefix}/explore`} className="inline-flex items-center justify-center h-12 px-8 min-w-[200px] text-sm font-medium text-white/80 border border-white/20 rounded-md hover:bg-white/5 hover:text-white transition-all duration-300">
               {t.hero.ctaSecondary}
             </Link>
           </div>
@@ -268,10 +268,10 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
             {t.cta.title} <span className="italic text-brand-gold">{t.cta.titleHighlight}</span>
           </h2>
           <div className="flex flex-col sm:flex-row justify-center gap-4 w-full max-w-xl mx-auto">
-            <a href="https://app.aetherheal.com/transition" className="inline-flex items-center justify-center gap-2 h-12 px-8 text-sm font-semibold text-white bg-brand-navy rounded-full hover:bg-brand-navy/90 hover:shadow-lg transition-all duration-300">
+            <a href="https://app.aetherheal.com/transition" className="inline-flex items-center justify-center gap-2 h-12 px-8 min-w-[200px] text-sm font-semibold text-white bg-brand-navy rounded-md hover:bg-brand-navy/90 hover:shadow-lg transition-all duration-300">
               {t.cta.ctaPrimary} <ArrowRight className="w-4 h-4" />
             </a>
-            <Link href={`${prefix}/explore`} className="inline-flex items-center justify-center h-12 px-8 text-sm font-medium text-brand-navy border border-brand-navy/20 rounded-full hover:bg-white hover:border-brand-navy/40 transition-all duration-300">
+            <Link href={`${prefix}/explore`} className="inline-flex items-center justify-center h-12 px-8 min-w-[200px] text-sm font-medium text-brand-navy border border-brand-navy/20 rounded-md hover:bg-white hover:border-brand-navy/40 transition-all duration-300">
               {t.cta.ctaSecondary}
             </Link>
           </div>
