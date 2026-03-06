@@ -49,7 +49,7 @@ export default async function HomePage({
 
   return (
     <div className="min-h-full">
-      {/* Hero: Video + Overlapping Content */}
+      {/* Hero: Video + Content (overlapping on desktop) */}
       <section className="relative w-full">
         <div className="w-full max-h-[95vh] overflow-hidden">
           <video
@@ -65,15 +65,16 @@ export default async function HomePage({
           </video>
         </div>
 
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-32 sm:pt-40 pb-14 sm:pb-20 px-4">
-          <div className="text-center max-w-4xl mx-auto space-y-5 sm:space-y-8">
+        {/* Desktop: overlay on video */}
+        <div className="hidden md:block absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-40 pb-20 px-4">
+          <div className="text-center max-w-4xl mx-auto space-y-8">
             <div className="animate-fade-up">
-              <div className="inline-block py-2 px-4 sm:px-6 border border-brand-navy/20 rounded-full text-[9px] sm:text-sm font-bold uppercase tracking-wider sm:tracking-widest text-brand-navy bg-white shadow-lg">
+              <div className="inline-block py-2 px-6 border border-brand-navy/20 rounded-full text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg">
                 {t.hero.badge}
               </div>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
+            <h1 className="font-serif text-5xl md:text-7xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
               {t.hero.h1} <br />
               <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
             </h1>
@@ -90,18 +91,59 @@ export default async function HomePage({
               </span>
             </p>
 
-            <div className="w-full pt-2 sm:pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 animate-fade-up [animation-delay:300ms]">
+            <div className="w-full pt-4 flex flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:300ms]">
               <Link href={`${prefix}/how-it-works`}>
-                <Button variant="navy" size="lg" className="w-full sm:w-auto min-w-[200px]">
+                <Button variant="navy" size="lg" className="min-w-[200px]">
                   {t.hero.ctaHowItWorks}
                 </Button>
               </Link>
               <Link href={`${prefix}/explore`}>
-                <Button variant="outline" size="lg" className="w-full sm:w-auto min-w-[200px]">
+                <Button variant="outline" size="lg" className="min-w-[200px]">
                   {t.hero.ctaExplore}
                 </Button>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile: hero content below video */}
+      <section className="md:hidden w-full py-14 px-4 bg-white">
+        <div className="text-center max-w-4xl mx-auto space-y-5">
+          <div className="animate-fade-up">
+            <div className="inline-block py-2 px-4 border border-brand-navy/20 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-navy bg-white shadow-lg">
+              {t.hero.badge}
+            </div>
+          </div>
+
+          <h1 className="font-serif text-4xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
+            {t.hero.h1} <br />
+            <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
+          </h1>
+
+          <p className="font-sans text-text-body text-lg leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
+            {t.hero.description}{" "}
+            <span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">
+              {t.hero.descriptionHighlight}
+            </span>{" "}
+            {t.hero.descriptionEnd}
+            <br />
+            <span className="text-text-muted text-base mt-2 block font-light">
+              {t.hero.disclaimer}
+            </span>
+          </p>
+
+          <div className="w-full pt-2 flex flex-col items-center justify-center gap-3 animate-fade-up [animation-delay:300ms]">
+            <Link href={`${prefix}/how-it-works`}>
+              <Button variant="navy" size="lg" className="w-full min-w-[200px]">
+                {t.hero.ctaHowItWorks}
+              </Button>
+            </Link>
+            <Link href={`${prefix}/explore`}>
+              <Button variant="outline" size="lg" className="w-full min-w-[200px]">
+                {t.hero.ctaExplore}
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
