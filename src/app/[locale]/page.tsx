@@ -73,7 +73,7 @@ export default async function HomePage({
         {/* Desktop: overlay on video */}
         <div className="hidden md:block absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-40 pb-20 px-4">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center max-w-4xl mx-auto space-y-8 rounded-[32px] border border-white/80 bg-white/88 px-10 py-10 backdrop-blur-md shadow-[0_30px_80px_-28px_rgba(15,23,42,0.28)]">
+            <div className="text-center max-w-4xl mx-auto space-y-8">
             <div className="animate-fade-up">
               <div className="inline-block py-2 px-6 border border-brand-navy/20 rounded-full text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg">
                 {t.hero.badge}
@@ -116,7 +116,7 @@ export default async function HomePage({
 
       {/* Mobile: hero content below video */}
       <section className="md:hidden w-full py-14 px-4 bg-white">
-        <div className="text-center max-w-4xl mx-auto space-y-5 rounded-[28px] border border-slate-200/80 bg-white px-5 py-8 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.22)]">
+        <div className="text-center max-w-4xl mx-auto space-y-5">
           <div className="animate-fade-up">
             <div className="inline-block py-2 px-4 border border-brand-navy/20 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-navy bg-white shadow-lg">
               {t.hero.badge}
@@ -157,7 +157,7 @@ export default async function HomePage({
 
       {/* Problem Quote */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-4xl mx-auto text-center rounded-[32px] border border-slate-200 bg-slate-50/40 px-6 py-12 sm:px-10 sm:py-16 space-y-10 shadow-[0_20px_60px_-35px_rgba(15,23,42,0.18)]">
+        <div className="max-w-4xl mx-auto text-center space-y-10">
           <div className="w-px h-16 bg-brand-gold mx-auto mb-2" />
           <p className="text-2xl font-serif text-text-body leading-relaxed">
             &ldquo;{t.problemQuote.q1}&rdquo;
