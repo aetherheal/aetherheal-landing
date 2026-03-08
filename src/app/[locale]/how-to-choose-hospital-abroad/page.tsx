@@ -121,7 +121,7 @@ export default async function HowToChooseHospitalAbroadPage({ params }: { params
                   <p>{t.reviewsRankings.p2}</p><p>{t.reviewsRankings.p3}</p>
                   <ul className="space-y-3 pl-2">{t.reviewsRankings.items2.map((item) => (<li key={item} className="flex items-center gap-4 font-medium text-brand-navy"><CheckCircle2 className="w-4 h-4 text-brand-gold/70 shrink-0" /><span>{item}</span></li>))}</ul>
                   <p className="pt-2">{t.reviewsRankings.p4}</p>
-                  <p>{t.reviewsRankings.trustProtocolNote.split("trust protocol").map((part, i) => i === 0 ? <span key={i}>{part}<Link href={`${prefix}/trust-protocol`} className="text-brand-navy font-medium underline underline-offset-4 decoration-brand-gold/40 hover:text-brand-gold transition-colors">trust protocol</Link></span> : <span key={i}>{part}</span>)}</p>
+                  <p>{t.reviewsRankings.trustProtocolNote.before}<Link href={`${prefix}/trust-protocol`} className="text-brand-navy font-medium underline underline-offset-4 decoration-brand-gold/40 hover:text-brand-gold transition-colors">{t.reviewsRankings.trustProtocolNote.linkText}</Link>{t.reviewsRankings.trustProtocolNote.after}</p>
                 </div>
               </div>
 

@@ -32,7 +32,10 @@
         "plasticSurgery": "Пластическая хирургия в Корее",
         "aestheticClinics": "Эстетические клиники в Сеуле"
       },
-      "medicalBoundaryNotice": "Уведомление о медицинских границах"
+      "medicalBoundaryNotice": "Уведомление о медицинских границах",
+      "termsOfService": "Условия предоставления услуг",
+      "privacyPolicy": "Политика конфиденциальности",
+      "paymentRefundPolicy": "Политика оплаты и возврата"
     },
     "continueReading": "Продолжить чтение",
     "contents": "Содержание",
@@ -41,23 +44,23 @@
   "home": {
     "meta": {
       "title": "AetherHeal | Медицинское путешествие в Сеул под руководством врачей",
-      "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
+      "description": "AetherHeal — это инфраструктура принятия решений под руководством врачей с поддержкой AI для международных пациентов, рассматривающих лечение в Корее. Структурированная ясность до обязательств перед клиникой, координация и непрерывность."
     },
     "hero": {
-      "badge": "Physician-led, AI-assisted decision infrastructure for premium care in Korea",
+      "badge": "Инфраструктура решений под руководством врачей с поддержкой AI для премиальной помощи в Корее",
       "h1": "Решайте с ясностью",
       "h1Highlight": "До выбора клиники",
-      "description": "Physician-led, AI-assisted decision infrastructure",
+      "description": "Инфраструктура решений под руководством врачей с поддержкой AI",
       "descriptionHighlight": "до",
-      "descriptionEnd": "hospital selection, journey execution, and continuity planning in Korea.",
-      "disclaimer": "AI assists the process. Physicians retain authority. No diagnosis. No treatment.",
+      "descriptionEnd": "выбора клиники, исполнения путешествия и планирования непрерывности в Корее.",
+      "disclaimer": "AI поддерживает процесс. Врачи сохраняют полномочия. Без диагностики. Без лечения.",
       "ctaHowItWorks": "Узнать, как это работает",
       "ctaExplore": "Начать изучение"
     },
     "problemQuote": {
-      "q1": "Most platforms optimize introductions before they structure the decision.",
-      "q2": "In high-stake medicine, speed without clinical framing creates risk.",
-      "q3": "AetherHeal brings physician-led clarity before commitment."
+      "q1": "Большинство платформ оптимизируют знакомство до того, как структурируют решение.",
+      "q2": "В медицине с высокими ставками скорость без клинического обрамления создаёт риск.",
+      "q3": "AetherHeal обеспечивает ясность под руководством врачей до принятия обязательств."
     },
     "stakes": {
       "title": "Не каждый выбор несёт одинаковый риск",
@@ -87,16 +90,16 @@
       }
     },
     "aiLayer": {
-      "badge": "AI Assistance Layer",
-      "title": "AI Support,",
-      "titleHighlight": "Under Physician Authority",
-      "subtitle": "AetherHeal uses AI to organize complexity, surface missing information, and extend continuity monitoring. It does not replace physician judgment or hospital authority.",
+      "badge": "Уровень поддержки AI",
+      "title": "Поддержка AI,",
+      "titleHighlight": "под полномочиями врача",
+      "subtitle": "AetherHeal использует AI для организации сложности, выявления недостающей информации и расширения мониторинга непрерывности. Он не заменяет суждение врача или полномочия клиники.",
       "cards": [
-        { "title": "Before Physician Review", "description": "AI helps structure intake, records, and questions so the physician starts from a clearer case file, not from scattered fragments." },
-        { "title": "Inside a Governed Workflow", "description": "Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital feasibility. Authority never transfers to the model." },
-        { "title": "After Treatment", "description": "AI can support continuity monitoring by organizing check-ins and surfacing follow-up signals, while humans decide whether action or escalation is needed." }
+        { "title": "До врачебной проверки", "description": "AI помогает структурировать приём, записи и вопросы, чтобы врач начинал с более ясного файла дела, а не с разрозненных фрагментов." },
+        { "title": "Внутри управляемого процесса", "description": "Каждый результат, полученный с помощью AI, подчинён врачебной проверке, подтверждению пациента и оценке целесообразности клиникой. Полномочия никогда не передаются модели." },
+        { "title": "После лечения", "description": "AI может поддерживать мониторинг непрерывности, организуя контрольные обращения и выявляя сигналы наблюдения, в то время как люди решают, нужно ли действие или эскалация." }
       ],
-      "footnote": "AetherHeal is not an AI doctor. AI supports the infrastructure; physicians and hospitals remain the decision-makers."
+      "footnote": "AetherHeal — это не AI-врач. AI поддерживает инфраструктуру; врачи и клиники остаются принимающими решения."
     },
     "trending": {
       "badge": "Поддерживаемые",
@@ -224,65 +227,65 @@
       ]
     },
     "journey": {
-      "sectionLabel": "Decision Infrastructure in Motion",
+      "sectionLabel": "Инфраструктура решений в действии",
       "title": "От решения до восстановления,",
       "titleHighlight": "Ответственность остаётся видимой",
-      "subtitle": "This is how physician authority, hospital authority, and AI support remain separated across the journey.",
+      "subtitle": "Вот как полномочия врача, полномочия клиники и поддержка AI остаются разделёнными на протяжении всего путешествия.",
       "steps": [
         {
-          "label": "Patient Intent",
+          "label": "Намерение пациента",
           "badge": null,
-          "description": "Goals, constraints, timeline, and risk tolerance are captured.",
+          "description": "Фиксируются цели, ограничения, сроки и толерантность к риску.",
           "details": null
         },
         {
-          "label": "AI-Assisted Case Structuring",
-          "badge": "PRE-PHYSICIAN SUPPORT",
-          "description": "Records, questions, and missing inputs are organized before physician review.",
-          "details": "AI assists. Physician reviews every output."
+          "label": "AI-структуризация случая",
+          "badge": "ПРЕДВРАЧЕБНАЯ ПОДДЕРЖКА",
+          "description": "Записи, вопросы и недостающие данные организуются до врачебной проверки.",
+          "details": "AI помогает. Врач проверяет каждый результат."
         },
         {
-          "label": "Physician Readiness Review",
+          "label": "Врачебная оценка готовности",
           "badge": null,
-          "description": "The physician decides whether the case is sufficiently clear to move forward.",
+          "description": "Врач решает, достаточно ли ясен случай для продвижения.",
           "details": null
         },
         {
-          "label": "Partner Hospital Feasibility Review",
-          "badge": "HOSPITAL AUTHORITY",
-          "description": "Partner hospitals assess feasibility within the physician-defined decision scope.",
+          "label": "Оценка целесообразности партнёрской клиникой",
+          "badge": "ПОЛНОМОЧИЯ КЛИНИКИ",
+          "description": "Партнёрские клиники оценивают целесообразность в рамках области решения, определённой врачом.",
           "details": null
         },
         {
-          "label": "Decision Commitment Deposit",
-          "badge": "ACCOUNTABILITY TRIGGER",
-          "description": "Confirms intent, secures coordination, and aligns the next operational step.",
+          "label": "Депозит подтверждения решения",
+          "badge": "ТРИГГЕР ПОДОТЧЁТНОСТИ",
+          "description": "Подтверждает намерение, обеспечивает координацию и выравнивает следующий операционный шаг.",
           "details": null
         },
         {
-          "label": "Journey Orchestration",
-          "badge": "ARRIVAL, BOOKING & SUPPORT",
-          "description": "Concierge execution begins only after physician-ready, patient-confirmed alignment.",
+          "label": "Оркестрация путешествия",
+          "badge": "ПРИБЫТИЕ, БРОНИРОВАНИЕ И ПОДДЕРЖКА",
+          "description": "Консьерж-исполнение начинается только после врачебной готовности и подтверждения пациентом.",
           "details": null
         },
         {
-          "label": "Post-Treatment Continuity Monitoring",
-          "badge": "AI-SUPPORTED FOLLOW-THROUGH",
-          "description": "Check-ins, recovery signals, and follow-up coordination remain visible after treatment.",
+          "label": "Послелечебный мониторинг непрерывности",
+          "badge": "ВЫПОЛНЕНИЕ С ПОДДЕРЖКОЙ AI",
+          "description": "Контрольные обращения, сигналы восстановления и координация наблюдения остаются видимыми после лечения.",
           "details": null
         }
       ],
       "journeyOrchestrationDetails": {
-        "arrival": "Arrival & Scheduling",
-        "concierge": "1:1 Concierge & Translation"
+        "arrival": "Прибытие и составление расписания",
+        "concierge": "Персональный консьерж и перевод"
       },
       "decisionReadiness": {
-        "notReady": "Needs More Clarity",
-        "pause": "Pause / Collect More Information",
-        "ready": "Ready for Release",
-        "proceed": "Proceed to Hospital Review"
+        "notReady": "Требуется больше ясности",
+        "pause": "Пауза / Сбор дополнительной информации",
+        "ready": "Готово к передаче",
+        "proceed": "Перейти к обзору клиникой"
       },
-      "closingQuote": "AI can accelerate the process. Responsibility still belongs to humans."
+      "closingQuote": "AI может ускорить процесс. Ответственность по-прежнему принадлежит людям."
     },
     "partners": {
       "subtitle": "Партнёрские учреждения в Сеуле на основе стандартов",
@@ -336,16 +339,16 @@
       "subtitle": "Понимание инфраструктуры AetherHeal.",
       "items": [
         {
-          "question": "Is AetherHeal an AI doctor?",
-          "answer": "No. AetherHeal is not an AI doctor, and we do not present AI as a physician substitute. AI supports information structuring and continuity workflows, but licensed physicians and partner hospitals retain medical authority."
+          "question": "AetherHeal — это AI-врач?",
+          "answer": "Нет. AetherHeal — это не AI-врач, и мы не представляем AI как замену врача. AI поддерживает структурирование информации и процессы непрерывности, но лицензированные врачи и партнёрские клиники сохраняют медицинские полномочия."
         },
         {
-          "question": "What does AI actually do inside AetherHeal?",
-          "answer": "AI helps organize intake, surface missing information, support multilingual coordination, and keep post-treatment continuity signals visible. It accelerates the workflow; it does not make the medical decision."
+          "question": "Что именно делает AI внутри AetherHeal?",
+          "answer": "AI помогает организовать приём, выявить недостающую информацию, поддерживать многоязычную координацию и сохранять видимость сигналов послелечебной непрерывности. Он ускоряет рабочий процесс; он не принимает медицинских решений."
         },
         {
-          "question": "Can AI override a physician or choose my hospital?",
-          "answer": "No. AI cannot override a physician, select your final hospital, make a diagnosis, recommend treatment, or book autonomously. Physician judgment, patient consent, and hospital feasibility remain the controlling layers."
+          "question": "Может ли AI отменить решение врача или выбрать мою клинику?",
+          "answer": "Нет. AI не может отменить решение врача, выбрать вашу окончательную клинику, поставить диагноз, рекомендовать лечение или бронировать автономно. Суждение врача, согласие пациента и оценка целесообразности клиникой остаются контролирующими уровнями."
         },
         {
           "question": "Это медицинская консультация или телемедицина?",
@@ -405,7 +408,7 @@
     },
     "cta": {
       "title": "Уверенность до принятия решения",
-      "subtitle": "Explore the physician-led, AI-assisted process before you commit to any hospital path.",
+      "subtitle": "Изучите процесс под руководством врачей с поддержкой AI до принятия обязательств перед любой клиникой.",
       "ctaHowItWorks": "Как это работает",
       "ctaExplore": "Начать изучение",
       "signature": "Dr. Jee Hoon Ju"
@@ -414,17 +417,17 @@
   "howItWorks": {
     "meta": {
       "title": "Как работает AetherHeal | Спецификация системы",
-      "description": "Learn how AetherHeal's physician-led, AI-assisted decision infrastructure works. See the authority chain, readiness states, and continuity monitoring model for medical care in Korea."
+      "description": "Узнайте, как работает инфраструктура решений AetherHeal под руководством врачей с поддержкой AI. Ознакомьтесь с цепочкой полномочий, состояниями готовности и моделью мониторинга непрерывности для медицинской помощи в Корее."
     },
     "hero": {
-      "badge": "System Specification 2.0",
+      "badge": "Спецификация системы 2.0",
       "h1": "Как AetherHeal",
       "h1Highlight": "работает",
-      "tagline": "Physician-led, AI-assisted decision infrastructure for Korea",
-      "description": "Structured medical decisions",
+      "tagline": "Инфраструктура решений под руководством врачей с поддержкой AI для Кореи",
+      "description": "Структурированные медицинские решения",
       "descriptionHighlight": "до",
-      "descriptionEnd": "hospital commitment, logistics, and post-treatment continuity.",
-      "disclaimer": "AI-assisted. Physician-authorized. Not diagnosis, treatment, or emergency care.",
+      "descriptionEnd": "обязательств перед клиникой, логистики и послелечебной непрерывности.",
+      "disclaimer": "С поддержкой AI. Авторизовано врачом. Без диагностики. Без лечения. Без экстренной помощи.",
       "ctaPrimary": "Начать путь к решению",
       "ctaSecondary": "Изучить фреймворк"
     },
@@ -434,19 +437,19 @@
       "subtitle": "Медицинская информационная поддержка, а не продажи.",
       "doesTitle": "Что делает ангел",
       "keyDefinitionLabel": "Ключевое определение",
-      "keyDefinition": "Angels are licensed medical doctors in Korea who hold interpretive authority over the case and review all AI-assisted structuring before release.",
+      "keyDefinition": "Angel — это лицензированные врачи в Корее, которые обладают интерпретативными полномочиями по случаю и проверяют всю AI-структуризацию перед выпуском.",
       "does": [
         {
-          "title": "Reviews Structured Inputs",
-          "description": "Examines AI-assisted intake organization, missing data flags, and patient goals before any hospital-facing action."
+          "title": "Проверяет структурированные данные",
+          "description": "Изучает AI-организацию приёма, флаги отсутствующих данных и цели пациента до любых действий, направленных на клинику."
         },
         {
-          "title": "Holds Decision Authority",
-          "description": "Clarifies risks, constraints, and expectations, then decides whether the case is ready to move forward."
+          "title": "Обладает полномочиями решения",
+          "description": "Разъясняет риски, ограничения и ожидания, затем решает, готов ли случай к продвижению."
         },
         {
-          "title": "Translates Goals to Clinical Scope",
-          "description": "Converts patient intent into a physician-authored decision frame that hospitals can review for feasibility."
+          "title": "Переводит цели в клиническую область",
+          "description": "Преобразует намерения пациента в рамку решения, составленную врачом, которую клиники могут рассмотреть на предмет целесообразности."
         }
       ],
       "notTitle": "Чем ангел НЕ является",
@@ -454,49 +457,49 @@
         "Не ставит диагнозы",
         "Не проводит лечение",
         "Не выписывает рецепты",
-        "Does not delegate final judgment to AI",
+        "Не делегирует окончательное суждение AI",
         "Не заменяет клинику"
       ]
     },
     "authorityChain": {
-      "badge": "02 — Authority Chain",
-      "title": "Who Holds Authority, When",
-      "subtitle": "AetherHeal is designed so assistance, interpretation, treatment, and operations remain clearly separated.",
+      "badge": "02 — Цепочка полномочий",
+      "title": "Кто обладает полномочиями и когда",
+      "subtitle": "AetherHeal спроектирован так, чтобы помощь, интерпретация, лечение и операции оставались чётко разделены.",
       "levels": [
-        { "label": "Layer 1", "title": "Patient Intent", "description": "The patient defines goals, constraints, timing, and personal risk tolerance." },
-        { "label": "Layer 2", "title": "AI Support Layer", "description": "AI structures information, surfaces gaps, and supports monitoring, but has no authority to decide." },
-        { "label": "Layer 3", "title": "Physician Authority", "description": "The Angel physician interprets the case, defines decision scope, and authorizes release to the next stage." },
-        { "label": "Layer 4", "title": "Hospital Authority", "description": "The partner hospital decides clinical feasibility, treatment approach, and whether to accept the case." },
-        { "label": "Layer 5", "title": "Operational Coordination", "description": "AetherHeal executes booking, travel, and continuity workflows only after the human decision chain is clear." }
+        { "label": "Уровень 1", "title": "Намерение пациента", "description": "Пациент определяет цели, ограничения, сроки и личную толерантность к риску." },
+        { "label": "Уровень 2", "title": "Уровень поддержки AI", "description": "AI структурирует информацию, выявляет пробелы и поддерживает мониторинг, но не имеет полномочий для принятия решений." },
+        { "label": "Уровень 3", "title": "Полномочия врача", "description": "Врач Angel интерпретирует случай, определяет область решения и авторизует передачу на следующий этап." },
+        { "label": "Уровень 4", "title": "Полномочия клиники", "description": "Партнёрская клиника решает вопрос клинической целесообразности, подхода к лечению и принятия случая." },
+        { "label": "Уровень 5", "title": "Операционная координация", "description": "AetherHeal осуществляет бронирование, организацию поездки и процессы непрерывности только после того, как цепочка человеческих решений ясна." }
       ],
-      "handoffLabel": "authority handoff",
-      "footnote": "AI can support the workflow, but authority passes only between accountable human actors."
+      "handoffLabel": "передача полномочий",
+      "footnote": "AI может поддерживать рабочий процесс, но полномочия передаются только между подотчётными людьми."
     },
     "aiAssistance": {
-      "badge": "03 — AI Assistance",
-      "title": "The AI Assistance Layer",
-      "subtitle": "AI is used as operational and informational support, not as a clinical decision-maker.",
-      "summaryLabel": "System Role",
-      "summary": "The AI layer exists to reduce fragmentation: it prepares physician inputs, helps the team track what is missing, and supports continuity monitoring after treatment. Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital authority.",
-      "doesTitle": "What AI Does",
+      "badge": "03 — Поддержка AI",
+      "title": "Уровень поддержки AI",
+      "subtitle": "AI используется как операционная и информационная поддержка, а не как клинический принимающий решения.",
+      "summaryLabel": "Системная роль",
+      "summary": "Уровень AI существует для уменьшения фрагментации: он подготавливает входные данные для врача, помогает команде отслеживать отсутствующую информацию и поддерживает мониторинг непрерывности после лечения. Каждый результат, полученный с помощью AI, подчинён проверке врачом, подтверждению пациентом и полномочиям клиники.",
+      "doesTitle": "Что делает AI",
       "doesItems": [
-        "Structures intake, records, and questions before physician interpretation",
-        "Surfaces missing documents, contradictions, and follow-up tasks for the human team",
-        "Supports multilingual coordination and workflow continuity across the journey",
-        "Organizes post-treatment check-ins and visibility for continuity monitoring"
+        "Структурирует приём, записи и вопросы до врачебной интерпретации",
+        "Выявляет недостающие документы, противоречия и задачи для человеческой команды",
+        "Поддерживает многоязычную координацию и непрерывность рабочего процесса на протяжении путешествия",
+        "Организует послелечебные контрольные обращения и видимость для мониторинга непрерывности"
       ],
-      "notTitle": "What AI Does NOT Do",
+      "notTitle": "Чего AI НЕ делает",
       "notItems": [
-        "Does not diagnose",
-        "Does not recommend treatment",
-        "Does not select the final hospital",
-        "Does not book autonomously",
-        "Does not override a physician or hospital"
+        "Не ставит диагнозы",
+        "Не рекомендует лечение",
+        "Не выбирает окончательную клинику",
+        "Не бронирует автономно",
+        "Не отменяет решения врача или клиники"
       ],
-      "footnote": "No AI decision is valid on its own. Human authority remains the controlling layer."
+      "footnote": "Ни одно решение AI не является действительным само по себе. Человеческие полномочия остаются контролирующим уровнем."
     },
     "coverage": {
-      "badge": "04 — Coverage",
+      "badge": "04 — Покрытие",
       "title": "Области высокого риска",
       "subtitle": "Мы работаем только в областях высокого риска с трудно обратимыми последствиями.",
       "domains": [
@@ -511,105 +514,105 @@
       ]
     },
     "scope": {
-      "badge": "05 — Scope",
+      "badge": "05 — Область",
       "title": "Что мы делаем / Чего не делаем",
-      "subtitle": "Hard operational and medical boundaries prevent false expectations.",
+      "subtitle": "Жёсткие операционные и медицинские границы предотвращают ложные ожидания.",
       "doTitle": "Что мы делаем",
       "doItems": [
-        "Decision preparation with physician review of AI-assisted structuring",
-        "Fit-based hospital matching within our partner network after decision readiness is confirmed",
+        "Подготовка решений с врачебной проверкой AI-структуризации",
+        "Подбор клиники на основе соответствия в рамках партнёрской сети после подтверждения готовности решения",
         "Координация оценки целесообразности с партнёрскими клиниками",
-        "Journey execution and continuity workflows with accountable human oversight"
+        "Исполнение путешествия и процессы непрерывности с подотчётным человеческим надзором"
       ],
       "dontTitle": "Чего мы не делаем",
       "dontBadges": [
-        "No Diagnosis",
-        "No Treatment Recommendation",
-        "No Autonomous Booking",
-        "No Final Hospital Selection",
-        "No AI Decision"
+        "Без диагностики",
+        "Без рекомендаций по лечению",
+        "Без автономного бронирования",
+        "Без окончательного выбора клиники",
+        "Без решений AI"
       ],
       "notes": [
-        "Not for emergencies. Seek immediate local care if urgent symptoms occur.",
-        "Physicians retain interpretive authority. Hospitals retain treatment authority.",
-        "Not a replacement for hospital care or your local doctor."
+        "Не для экстренных случаев. При срочных симптомах немедленно обращайтесь за местной помощью.",
+        "Врачи сохраняют интерпретативные полномочия. Клиники сохраняют полномочия по лечению.",
+        "Не является заменой клинической помощи или вашего местного врача."
       ]
     },
     "readinessStates": {
-      "badge": "06 — Readiness States",
-      "title": "When a Case Is Ready",
-      "subtitle": "AetherHeal does not move every case forward at the same speed. Readiness must be earned.",
+      "badge": "06 — Состояния готовности",
+      "title": "Когда случай готов",
+      "subtitle": "AetherHeal не продвигает каждый случай с одинаковой скоростью. Готовность нужно заслужить.",
       "items": [
-        { "state": "State 1", "title": "Needs More Clarity", "description": "Information is incomplete, goals are still vague, or risk tolerance has not been clearly articulated." },
-        { "state": "State 2", "title": "Ready for Physician Framing", "description": "The case has enough organized information for a physician to interpret tradeoffs and define scope." },
-        { "state": "State 3", "title": "Ready for Hospital Review", "description": "The physician has authored the decision frame and the scope can now be released for feasibility review." },
-        { "state": "State 4", "title": "Continuity Monitoring Active", "description": "After treatment, follow-up signals and check-ins remain visible so the team can coordinate continuity." }
+        { "state": "Состояние 1", "title": "Требуется больше ясности", "description": "Информация неполна, цели всё ещё расплывчаты или толерантность к риску не сформулирована чётко." },
+        { "state": "Состояние 2", "title": "Готово к врачебному обрамлению", "description": "Случай содержит достаточно организованной информации для интерпретации врачом компромиссов и определения области." },
+        { "state": "Состояние 3", "title": "Готово к обзору клиникой", "description": "Врач составил рамку решения, и область может быть передана для оценки целесообразности." },
+        { "state": "Состояние 4", "title": "Мониторинг непрерывности активен", "description": "После лечения сигналы наблюдения и контрольные обращения остаются видимыми для координации непрерывности командой." }
       ],
-      "footnote": "A case may pause at any state. Movement forward depends on clarity, not momentum."
+      "footnote": "Случай может остановиться на любом состоянии. Продвижение зависит от ясности, а не от инерции."
     },
     "systemFlow": {
-      "badge": "07 — System Flow",
+      "badge": "07 — Поток системы",
       "titleParts": [
-        "Intake",
-        "Interpretation",
-        "Continuity"
+        "Приём",
+        "Интерпретация",
+        "Непрерывность"
       ],
-      "subtitle": "Roles are strictly defined at every step. AI support appears before physician interpretation and after treatment, not in place of medical authority.",
+      "subtitle": "Роли строго определены на каждом шаге. Поддержка AI появляется до врачебной интерпретации и после лечения, а не вместо медицинских полномочий.",
       "steps": [
         {
           "step": 1,
-          "actor": "Patient",
-          "title": "Structured Intake",
-          "description": "Goals, constraints, timeline, risk tolerance"
+          "actor": "Пациент",
+          "title": "Структурированный приём",
+          "description": "Цели, ограничения, сроки, толерантность к риску"
         },
         {
           "step": 2,
-          "actor": "AI Support Layer",
-          "title": "Case Organization",
-          "description": "Inputs organized, gaps surfaced, questions prepared"
+          "actor": "Уровень поддержки AI",
+          "title": "Организация случая",
+          "description": "Данные организованы, пробелы выявлены, вопросы подготовлены"
         },
         {
           "step": 3,
           "actor": "Angel (MD)",
-          "title": "Physician Interpretation",
-          "description": "Context, tradeoffs, and readiness assessed",
+          "title": "Врачебная интерпретация",
+          "description": "Контекст, компромиссы и готовность оценены",
           "emphasis": "key"
         },
         {
           "step": 4,
           "actor": "Angel (MD)",
-          "title": "Decision Summary",
-          "description": "Decision scope authored for downstream review",
+          "title": "Сводка решения",
+          "description": "Область решения составлена для последующего обзора",
           "emphasis": "key"
         },
         {
           "step": 5,
-          "actor": "Platform",
-          "title": "Readiness Lock",
-          "description": "Scope frozen before any hospital-facing execution",
+          "actor": "Платформа",
+          "title": "Фиксация готовности",
+          "description": "Область зафиксирована до любых действий, направленных на клинику",
           "emphasis": "key"
         },
         {
           "step": 6,
-          "actor": "Partner Hospital",
-          "title": "Feasibility Review",
-          "description": "Accept, decline, or request clarification"
+          "actor": "Партнёрская клиника",
+          "title": "Оценка целесообразности",
+          "description": "Принять, отклонить или запросить уточнение"
         },
         {
           "step": 7,
-          "actor": "Platform + Concierge",
-          "title": "Quotation + Coordination",
-          "description": "Deposit, scheduling, travel, and arrival planning"
+          "actor": "Платформа + Консьерж",
+          "title": "Расчёт стоимости + Координация",
+          "description": "Депозит, составление расписания, поездка и планирование прибытия"
         },
         {
           "step": 8,
-          "actor": "AI + Journey Team",
-          "title": "Continuity Monitoring",
-          "description": "Post-treatment visibility, check-ins, and escalation support",
+          "actor": "AI + Команда путешествия",
+          "title": "Мониторинг непрерывности",
+          "description": "Послелечебная видимость, контрольные обращения и поддержка эскалации",
           "emphasis": "final"
         }
       ],
-      "closingQuote": "AI can support the workflow. Physician authority defines the outcome."
+      "closingQuote": "AI может поддержать рабочий процесс. Полномочия врача определяют результат."
     },
     "safety": {
       "title": "Юридическая и медицинская безопасность",
@@ -619,12 +622,12 @@
           "body": "Не для экстренного использования. При появлении срочных симптомов немедленно обращайтесь за местной помощью."
         },
         {
-          "title": "AI Boundary",
-          "body": "AI outputs are preparatory and monitoring support only. They do not diagnose, recommend treatment, or decide on hospitals."
+          "title": "Границы AI",
+          "body": "Результаты AI являются только подготовительной и мониторинговой поддержкой. Они не ставят диагнозы, не рекомендуют лечение и не принимают решения о клиниках."
         },
         {
           "title": "Данные и конфиденциальность",
-          "body": "Uploads are optional. Access is role-limited. Used only for decision support, coordination, and continuity monitoring."
+          "body": "Загрузка файлов необязательна. Доступ ограничен ролями. Используется только для поддержки решений, координации и мониторинга непрерывности."
         }
       ]
     },
@@ -633,213 +636,213 @@
       "titleHighlight": "ваше решение?",
       "ctaPrimary": "Начать путь к решению",
       "ctaSecondary": "Изучить фреймворк",
-      "disclaimer": "AI-assisted. Physician-authorized. No diagnosis. No treatment."
+      "disclaimer": "С поддержкой AI. Авторизовано врачом. Без диагностики. Без лечения."
     }
   },
   "trustProtocol": {
     "meta": {
-      "title": "The AetherHeal Trust Protocol | AetherHeal",
-      "description": "How AetherHeal governs human and AI-assisted decision support through independent oversight, auditable protocol enforcement, and selective partner hospital standards."
+      "title": "Протокол доверия AetherHeal | AetherHeal",
+      "description": "Как AetherHeal управляет поддержкой решений с участием людей и AI через независимый надзор, аудируемое исполнение протоколов и селективные стандарты партнёрских клиник."
     },
     "hero": {
-      "badge": "Governance",
-      "h1": "The AetherHeal",
-      "h1Highlight": "Trust Protocol",
-      "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable.",
-      "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met."
+      "badge": "Управление",
+      "h1": "Протокол доверия",
+      "h1Highlight": "AetherHeal",
+      "intro": "Независимое управление контролирует как человеческую, так и AI-поддержку решений, чтобы каждый случай оставался клинически ограниченным, аудируемым и подотчётным.",
+      "disclaimer": "Рецензенты доверия остаются наблюдателями с доступом только для чтения. Они могут приостановить, отложить или запросить повторное уточнение, если стандарты протокола не соблюдены."
     },
     "toc": [
       {
         "id": "purpose",
-        "label": "Purpose, Authority & Independence"
+        "label": "Цель, полномочия и независимость"
       },
       {
         "id": "ai-governance",
-        "label": "AI Governance, Auditability & Enforcement"
+        "label": "Управление AI, аудируемость и контроль"
       },
       {
         "id": "incentive-separation",
-        "label": "Incentive Separation"
+        "label": "Разделение стимулов"
       },
       {
         "id": "partner-criteria",
-        "label": "Partner Hospital Criteria"
+        "label": "Критерии партнёрских клиник"
       },
       {
         "id": "what-this-means",
-        "label": "What This Means for Patients"
+        "label": "Что это значит для пациентов"
       },
       {
         "id": "trust-scope",
-        "label": "Trust Protocol Scope"
+        "label": "Область действия протокола доверия"
       },
       {
         "id": "team",
-        "label": "Who Runs the Trust Protocol"
+        "label": "Кто ведёт протокол доверия"
       },
       {
         "id": "ongoing",
-        "label": "Ongoing Accountability"
+        "label": "Постоянная подотчётность"
       }
     ],
     "purpose": {
-      "title": "Purpose, Authority & Independence",
-      "protocolDocument": "Protocol Document",
-      "purposeTitle": "Purpose",
-      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process across both human and AI-assisted workflows. It is independent from clinical operations and reports directly to platform governance.",
-      "authorityTitle": "Authority",
-      "authorityText": "Trust reviewers have read-only access to completed decision summaries, protocol logs, and governed AI artifacts used in the case flow. They can flag concerns, request review, and escalate issues, but they cannot rewrite patient-facing documents or alter clinical recommendations.",
-      "independenceTitle": "Independence",
-      "independenceText": "The Trust Protocol team operates on a separate reporting line from clinical operations, provider relations, and commercial execution. This separation protects oversight quality from operational pressure, referral incentives, and automation convenience."
+      "title": "Цель, полномочия и независимость",
+      "protocolDocument": "Документ протокола",
+      "purposeTitle": "Цель",
+      "purposeText": "Протокол доверия существует для поддержания целостности процесса поддержки решений AetherHeal как в человеческих, так и в AI-процессах. Он независим от клинических операций и подчиняется непосредственно управлению платформой.",
+      "authorityTitle": "Полномочия",
+      "authorityText": "Рецензенты доверия имеют доступ только для чтения к завершённым сводкам решений, журналам протоколов и управляемым AI-артефактам, используемым в потоке обработки случая. Они могут отмечать проблемы, запрашивать обзор и эскалировать вопросы, но не могут переписывать документы для пациентов или изменять клинические рекомендации.",
+      "independenceTitle": "Независимость",
+      "independenceText": "Команда протокола доверия работает по отдельной линии подчинения от клинических операций, отношений с провайдерами и коммерческого исполнения. Это разделение защищает качество надзора от операционного давления, стимулов направления и удобства автоматизации."
     },
     "aiGovernance": {
-      "title": "AI Governance, Auditability & Enforcement",
-      "intro": "AI may support narrow parts of the process, but only inside defined operational boundaries. The governing standard is not speed or automation volume. It is decision quality, traceability, and safe escalation.",
+      "title": "Управление AI, аудируемость и контроль",
+      "intro": "AI может поддерживать узкие части процесса, но только в рамках определённых операционных границ. Управляющий стандарт — не скорость или объём автоматизации, а качество решений, отслеживаемость и безопасная эскалация.",
       "principles": [
         {
-          "title": "Constrained Use",
-          "body": "AI may help structure intake, summarize records, support translation, and surface missing information within approved rules. It is not permitted to expand clinical scope, simulate certainty, or replace accountable human review."
+          "title": "Ограниченное использование",
+          "body": "AI может помочь структурировать приём, обобщать записи, поддерживать перевод и выявлять недостающую информацию в рамках утверждённых правил. Ему не разрешено расширять клиническую область, имитировать определённость или заменять подотчётный человеческий обзор."
         },
         {
-          "title": "Human Review",
-          "body": "Patient-facing summaries, protocol exceptions, and provider-routing decisions require accountable human review before they are relied upon. AI can assist preparation, but ownership remains with licensed physicians, trust reviewers, or designated operations staff."
+          "title": "Человеческий обзор",
+          "body": "Сводки для пациентов, исключения из протокола и решения о маршрутизации провайдеров требуют подотчётного человеческого обзора до их использования. AI может помочь в подготовке, но ответственность остаётся за лицензированными врачами, рецензентами доверия или назначенным операционным персоналом."
         },
         {
-          "title": "Audit Trail",
-          "body": "Key prompts, outputs, edits, approvals, and exceptions are logged so that a case can be reconstructed and reviewed. Auditability is treated as a control requirement, not an optional feature."
+          "title": "Аудиторский след",
+          "body": "Ключевые запросы, результаты, редактирования, утверждения и исключения регистрируются, чтобы случай мог быть восстановлен и проверен. Аудируемость рассматривается как требование контроля, а не как необязательная функция."
         },
         {
-          "title": "Protocol Enforcement",
-          "body": "When inputs are incomplete, ambiguous, out of scope, or safety-relevant, the governed response is to halt, defer, or request re-clarification. Proceeding is valid only when the record is sufficiently clear and accountable."
+          "title": "Исполнение протокола",
+          "body": "Когда входные данные неполны, неоднозначны, выходят за рамки или связаны с безопасностью, управляемая реакция — приостановить, отложить или запросить повторное уточнение. Продолжение допустимо только при достаточной ясности и подотчётности записи."
         }
       ],
-      "validTitle": "Valid protocol outcomes",
+      "validTitle": "Допустимые исходы протокола",
       "outcomes": [
         {
-          "label": "Halt",
-          "body": "Used when the case is outside scope, safety-relevant, or cannot proceed without direct human intervention."
+          "label": "Приостановка",
+          "body": "Используется, когда случай выходит за рамки, связан с безопасностью или не может продвигаться без прямого вмешательства человека."
         },
         {
-          "label": "Defer",
-          "body": "Used when the case may proceed later, but timing, documentation, or readiness is not yet sufficient."
+          "label": "Отсрочка",
+          "body": "Используется, когда случай может быть продолжен позже, но сроки, документация или готовность ещё недостаточны."
         },
         {
-          "label": "Re-clarify",
-          "body": "Used when the case can remain active, but claims, goals, records, or assumptions need to be restated more precisely."
+          "label": "Повторное уточнение",
+          "body": "Используется, когда случай может оставаться активным, но утверждения, цели, записи или допущения необходимо сформулировать более точно."
         },
         {
-          "label": "Proceed",
-          "body": "Used only after the case has passed the relevant protocol checks and accountable humans confirm that the next step is appropriate."
+          "label": "Продолжение",
+          "body": "Используется только после прохождения случаем соответствующих проверок протокола и подтверждения подотчётными людьми уместности следующего шага."
         }
       ]
     },
     "incentiveSeparation": {
-      "title": "Decision Integrity Through Incentive Separation",
-      "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. That conflict can affect both people and software: case flow begins optimizing for conversion rather than judgment quality.",
-      "p2": "AetherHeal is architecturally different. We separate the platform into independent layers with distinct incentives, reporting lines, and controls. AI systems, where used, are governed inside those same boundaries and are not allowed to optimize provider steering or case closure for commercial gain.",
+      "title": "Целостность решений через разделение стимулов",
+      "p1": "На большинстве платформ медицинского туризма одна и та же организация рекомендует клинику и получает прибыль от направления. Этот конфликт может влиять как на людей, так и на программное обеспечение: поток обработки случаев начинает оптимизироваться для конверсии, а не для качества суждений.",
+      "p2": "AetherHeal архитектурно отличается. Мы разделяем платформу на независимые уровни с отдельными стимулами, линиями подчинения и контролем. AI-системы, где они используются, управляются в тех же границах и не могут оптимизировать направление к провайдерам или закрытие случаев в коммерческих целях.",
       "angelLayer": {
-        "label": "Layer 1",
-        "title": "Angel Layer",
-        "description": "Physician advisors guide the patient's decision process. AI tooling may assist documentation inside this layer, but it cannot introduce provider preference, make final routing choices, or close a case autonomously.",
-        "incentiveLabel": "Incentive Tied To",
+        "label": "Уровень 1",
+        "title": "Уровень Angel",
+        "description": "Врачи-консультанты направляют процесс принятия решений пациента. AI-инструменты могут помогать в документации на этом уровне, но не могут вводить предпочтения провайдеров, принимать окончательные решения о маршрутизации или закрывать случай автономно.",
+        "incentiveLabel": "Стимулы привязаны к",
         "incentives": [
-          "Quality and completeness of clinician-reviewed decision support",
-          "Patient understanding and informed consent",
-          "Protocol adherence, including AI constraint compliance"
+          "Качеству и полноте поддержки решений, проверенной клиницистом",
+          "Пониманию пациента и информированному согласию",
+          "Соблюдению протокола, включая соответствие ограничениям AI"
         ]
       },
       "providerLayer": {
-        "label": "Layer 2",
-        "title": "Medical Provider",
-        "description": "Partner hospitals and clinics deliver clinical care only after decision scope, protocol checks, and accountable approvals are satisfied. Their role is treatment delivery, not upstream decision shaping.",
-        "incentiveLabel": "Incentive Tied To",
+        "label": "Уровень 2",
+        "title": "Медицинский провайдер",
+        "description": "Партнёрские клиники и больницы оказывают клиническую помощь только после удовлетворения области решения, проверок протокола и подотчётных утверждений. Их роль — проведение лечения, а не формирование решений на предшествующих этапах.",
+        "incentiveLabel": "Стимулы привязаны к",
         "incentives": [
-          "Clinical outcomes and treatment delivery",
-          "Patient satisfaction and recovery quality",
-          "Adherence to agreed care and continuity protocols"
+          "Клиническим результатам и проведению лечения",
+          "Удовлетворённости пациентов и качеству восстановления",
+          "Соблюдению согласованных протоколов помощи и непрерывности"
         ]
       },
-      "principleIntro": "The structural principle is simple:",
-      "principleText": "The people and systems that help structure your decision are not rewarded for steering you toward a particular provider. Human reviewers and governed AI workflows are constrained so decision support remains separate from treatment profit."
+      "principleIntro": "Структурный принцип прост:",
+      "principleText": "Люди и системы, которые помогают структурировать ваше решение, не получают вознаграждения за направление вас к конкретному провайдеру. Человеческие рецензенты и управляемые AI-процессы ограничены так, чтобы поддержка решений оставалась отделённой от прибыли от лечения."
     },
     "partnerCriteria": {
-      "title": "Partner Hospital Criteria",
-      "intro": "Not every hospital in Seoul meets our standards. AetherHeal operates a selective partner network where each institution is assessed across multiple dimensions before joining:",
+      "title": "Критерии партнёрских клиник",
+      "intro": "Не каждая клиника в Сеуле соответствует нашим стандартам. AetherHeal управляет селективной партнёрской сетью, где каждое учреждение оценивается по нескольким параметрам до вступления:",
       "items": [
-        "Clinical expertise and surgeon specialization depth",
-        "Facility standards and equipment certification",
-        "Ethical practice history and patient complaint records",
-        "Cross-border patient experience and language support",
-        "Alignment with AetherHeal's decision-first philosophy",
-        "Post-treatment follow-up and continuity protocols"
+        "Клиническая экспертиза и глубина специализации хирургов",
+        "Стандарты оснащения и сертификация оборудования",
+        "История этической практики и записи жалоб пациентов",
+        "Опыт работы с трансграничными пациентами и языковая поддержка",
+        "Соответствие философии AetherHeal, ориентированной на решения",
+        "Протоколы послелечебного наблюдения и непрерывности"
       ]
     },
     "whatThisMeans": {
-      "title": "What This Means for Patients",
-      "p1": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation.",
-      "p2": "If a case is incomplete or ambiguous, halt, defer, and re-clarify are treated as valid safeguards rather than service failures. Hospitals in our network receive only the decision-ready case materials appropriate to the next step of review."
+      "title": "Что это значит для пациентов",
+      "p1": "Когда AetherHeal подбирает вам партнёрскую клинику, этот подбор основан на вашем клиническом профиле, задокументированных ограничениях и проверенной сводке решения — а не на комиссиях, маркетинговом давлении или непрозрачной автоматизации.",
+      "p2": "Если случай неполон или неоднозначен, приостановка, отсрочка и повторное уточнение рассматриваются как обоснованные меры защиты, а не как сбои в обслуживании. Клиники в нашей сети получают только материалы дела, готовые к решению, соответствующие следующему шагу обзора."
     },
     "trustScope": {
-      "title": "Trust Protocol Scope",
-      "intro": "Clear boundaries define what trust reviewers do and do not do.",
-      "doTitle": "Trust Reviewers Do",
+      "title": "Область действия протокола доверия",
+      "intro": "Чёткие границы определяют, что делают и чего не делают рецензенты доверия.",
+      "doTitle": "Рецензенты доверия выполняют",
       "doItems": [
-        "Review decision summary quality",
-        "Verify AI and human process logs",
-        "Audit protocol enforcement and exception handling",
-        "Ensure patient consent integrity",
-        "Monitor system-wide patterns",
-        "Flag safety or compliance concerns"
+        "Обзор качества сводок решений",
+        "Верификацию журналов AI и человеческих процессов",
+        "Аудит исполнения протокола и обработки исключений",
+        "Обеспечение целостности согласия пациента",
+        "Мониторинг системных паттернов",
+        "Отметку проблем безопасности или соответствия"
       ],
-      "dontTitle": "Trust Reviewers Don't",
+      "dontTitle": "Рецензенты доверия не выполняют",
       "dontItems": [
-        "Override treatment decisions at the provider level",
-        "Contact patients directly as treating clinicians",
-        "Modify decision summaries or logs retroactively",
-        "Provide diagnosis, prescriptions, or medical advice",
-        "Share patient data externally outside authorized process",
-        "Bypass halt, defer, or re-clarify controls"
+        "Отмену решений о лечении на уровне провайдера",
+        "Прямой контакт с пациентами как лечащие клиницисты",
+        "Ретроактивное изменение сводок решений или журналов",
+        "Предоставление диагнозов, рецептов или медицинских рекомендаций",
+        "Передачу данных пациентов третьим сторонам за пределами авторизованного процесса",
+        "Обход контроля приостановки, отсрочки или повторного уточнения"
       ]
     },
     "team": {
-      "title": "Who Runs the Trust Protocol?",
+      "title": "Кто ведёт протокол доверия?",
       "roles": [
         {
-          "title": "Medical Quality Reviewer",
-          "description": "Reviews the clinical clarity and completeness of decision summaries before they are relied upon downstream."
+          "title": "Рецензент медицинского качества",
+          "description": "Проверяет клиническую ясность и полноту сводок решений до их использования на последующих этапах."
         },
         {
-          "title": "AI Governance Reviewer",
-          "description": "Checks whether AI-assisted steps stayed within approved constraints, logging rules, and escalation standards."
+          "title": "Рецензент управления AI",
+          "description": "Проверяет, остались ли шаги с использованием AI в рамках утверждённых ограничений, правил логирования и стандартов эскалации."
         },
         {
-          "title": "Process Integrity Reviewer",
-          "description": "Validates that required protocol gates, approvals, and exceptions were handled correctly for each case."
+          "title": "Рецензент целостности процесса",
+          "description": "Проверяет, были ли необходимые контрольные точки протокола, утверждения и исключения обработаны корректно для каждого случая."
         },
         {
-          "title": "Patient Safety Reviewer",
-          "description": "Monitors for scope violations, unsafe claims, or workflow patterns that could compromise patient protection."
+          "title": "Рецензент безопасности пациентов",
+          "description": "Отслеживает нарушения области, небезопасные утверждения или паттерны рабочего процесса, которые могут поставить под угрозу защиту пациентов."
         }
       ]
     },
     "ongoing": {
-      "title": "Ongoing Accountability",
-      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, and periodic re-evaluation.",
-      "boxTitle": "Standards remain enforceable",
-      "boxText": "If repeated deviations, undocumented overrides, or unsafe automation patterns appear, the relevant workflow or partner relationship may be paused, remediated, or removed."
+      "title": "Постоянная подотчётность",
+      "text": "Верификация — это не разовое мероприятие. AetherHeal осуществляет постоянный обзор партнёрских учреждений, эффективности работы рецензентов и поведения AI-процессов через аудиты, обратную связь от пациентов и периодическую переоценку.",
+      "boxTitle": "Стандарты остаются обязательными к исполнению",
+      "boxText": "Если появляются повторяющиеся отклонения, незадокументированные отмены или небезопасные паттерны автоматизации, соответствующий рабочий процесс или партнёрские отношения могут быть приостановлены, исправлены или прекращены."
     },
     "relatedPages": [
       {
-        "label": "How to Choose a Hospital Abroad",
-        "desc": "A framework for safer decisions"
+        "label": "Выбор клиники за рубежом",
+        "desc": "Подход для более безопасных решений"
       },
       {
-        "label": "Your Medical Journey",
-        "desc": "Phase-by-phase coordination with clear ownership"
+        "label": "Ваше медицинское путешествие",
+        "desc": "Поэтапная координация с чётким распределением ответственности"
       },
       {
-        "label": "How AetherHeal Works",
-        "desc": "The system behind physician-led decision support"
+        "label": "Как работает AetherHeal",
+        "desc": "Система поддержки решений под руководством врачей"
       }
     ]
   },
@@ -899,65 +902,65 @@
     },
     "caseStudies": {
       "badge": "Примеры из практики",
-      "title": "AI-Prepared Case Snapshots",
-      "subtitle": "These examples show how AI preparation sharpens physician review before hospital selection.",
+      "title": "Краткие обзоры случаев, подготовленных AI",
+      "subtitle": "Эти примеры показывают, как AI-подготовка усиливает врачебный обзор до выбора клиники.",
       "cases": [
         {
           "id": "HT-8291",
           "number": "01",
           "title": "Трансплантация волос",
-          "goal": "Rebuild frontal density without overharvesting donor supply",
-          "constraint": "Limited donor area and a short recovery window",
-          "preparation": "AI separated density goals from hairline lowering, flagged the donor-supply mismatch, and queued missing scalp-history questions for physician review."
+          "goal": "Восстановить фронтальную плотность без чрезмерного забора из донорской зоны",
+          "constraint": "Ограниченная донорская зона и короткий период восстановления",
+          "preparation": "AI разделил цели по плотности от понижения линии роста волос, отметил несоответствие донорского запаса и подготовил вопросы по истории состояния кожи головы для врачебного обзора."
         },
         {
           "id": "RH-1044",
           "number": "02",
           "title": "Ринопластика",
-          "goal": "Straighten the bridge and refine the tip while keeping a natural look",
-          "constraint": "Thick skin and low tolerance for revision",
-          "preparation": "AI mapped the tension between dramatic refinement and tissue limits, then assembled a physician-ready summary of anatomy, priorities, and prior filler history."
+          "goal": "Выпрямить спинку носа и уточнить кончик, сохраняя естественный вид",
+          "constraint": "Толстая кожа и низкая толерантность к ревизии",
+          "preparation": "AI выявил противоречие между драматическим уточнением и ограничениями тканей, затем составил готовую для врача сводку анатомии, приоритетов и истории филлеров."
         },
         {
           "id": "SK-3302",
           "number": "03",
           "title": "Подтяжка кожи",
           "badge": "БЕЗОПЕРАЦИОННАЯ",
-          "goal": "Restore jawline definition with minimal downtime",
-          "constraint": "Non-surgical only and recent prior energy-device treatment",
-          "preparation": "AI highlighted the mismatch between lifting expectations and downtime limits, prompted missing device-history details, and prepared a concise brief for physician interpretation."
+          "goal": "Восстановить чёткость линии челюсти с минимальным временем восстановления",
+          "constraint": "Только безоперационные методы и недавняя предшествующая процедура энергетическим аппаратом",
+          "preparation": "AI выделил несоответствие между ожиданиями от подтяжки и ограничениями по времени восстановления, запросил недостающие данные об истории использования аппаратов и подготовил краткую сводку для врачебной интерпретации."
         }
       ],
       "caseLabel": "Случай",
       "goalLabel": "Цель",
       "constraintLabel": "Ограничение",
-      "preparationLabel": "AI-prepared brief",
-      "disclaimer": "Illustrative preparation examples only. Physicians interpret clinical meaning, and outcomes vary by individual."
+      "preparationLabel": "Краткая сводка, подготовленная AI",
+      "disclaimer": "Только иллюстративные примеры подготовки. Врачи интерпретируют клиническое значение, а результаты варьируются индивидуально."
     },
     "aiPreparation": {
-      "badge": "Before You Book",
-      "title": "What AI Helps Patients Prepare",
-      "intro": "Before any hospital is contacted, AI helps turn scattered patient goals, constraints, and questions into a more structured starting point for physician review.",
+      "badge": "До бронирования",
+      "title": "Что AI помогает пациентам подготовить",
+      "intro": "До обращения в любую клинику AI помогает преобразовать разрозненные цели, ограничения и вопросы пациента в более структурированную отправную точку для врачебного обзора.",
       "outputs": [
         {
-          "title": "Goal hierarchy",
-          "body": "Organizes primary goals, secondary preferences, and non-negotiables so trade-offs become visible early."
+          "title": "Иерархия целей",
+          "body": "Организует первичные цели, вторичные предпочтения и обязательные условия, чтобы компромиссы стали видны на ранней стадии."
         },
         {
-          "title": "Mismatch map",
-          "body": "Highlights where anatomy, timeline, budget, recovery expectations, or stated goals may conflict with one another."
+          "title": "Карта несоответствий",
+          "body": "Выделяет области, где анатомия, сроки, бюджет, ожидания по восстановлению или заявленные цели могут противоречить друг другу."
         },
         {
-          "title": "Missing-info prompts",
-          "body": "Surfaces unanswered questions and missing details that a physician will need before meaningful interpretation."
+          "title": "Запросы недостающей информации",
+          "body": "Выявляет неотвеченные вопросы и недостающие данные, которые потребуются врачу до осмысленной интерпретации."
         },
         {
-          "title": "Physician-ready summary",
-          "body": "Packages the case into a concise brief a physician can review, refine, challenge, and translate into next-step judgment."
+          "title": "Готовая для врача сводка",
+          "body": "Оформляет случай в краткую сводку, которую врач может рассмотреть, уточнить, оспорить и перевести в суждение о следующих шагах."
         }
       ],
-      "boundaryLabel": "Boundary Note",
-      "boundaryNote": "AI prepares and structures information. Physicians interpret medical meaning, assess feasibility, and decide what matters clinically."
+      "boundaryLabel": "Примечание о границах",
+      "boundaryNote": "AI подготавливает и структурирует информацию. Врачи интерпретируют медицинское значение, оценивают целесообразность и решают, что клинически важно."
     },
     "disciplines": {
       "badge": "Покрытие",
@@ -979,70 +982,70 @@
   },
   "medicalBoundary": {
     "meta": {
-      "title": "Medical Boundary Notice | AetherHeal",
-      "description": "Understand the medical and AI-operational limits of AetherHeal. This notice explains what the platform may support and what remains strictly human and clinical responsibility."
+      "title": "Уведомление о медицинских границах | AetherHeal",
+      "description": "Ознакомьтесь с медицинскими и AI-операционными ограничениями AetherHeal. Это уведомление разъясняет, что платформа может поддерживать и что остаётся исключительно ответственностью человека и клиники."
     },
     "hero": {
-      "badge": "Legal & Safety",
-      "h1": "Medical Boundary Notice",
-      "subtitle": "This page defines the clinical, legal, and AI-operational limits of AetherHeal. Understanding these boundaries is required before use."
+      "badge": "Юридические аспекты и безопасность",
+      "h1": "Уведомление о медицинских границах",
+      "subtitle": "Эта страница определяет клинические, юридические и AI-операционные ограничения AetherHeal. Понимание этих границ обязательно перед использованием."
     },
     "boundaries": [
       {
-        "title": "Not a Medical Provider",
-        "description": "AetherHeal does not provide medical diagnosis, treatment, prescriptions, or hospital-based care. We are a decision support and coordination platform, not a hospital, clinic, or telemedicine service."
+        "title": "Не является медицинским учреждением",
+        "description": "AetherHeal не предоставляет медицинскую диагностику, лечение, рецепты или стационарную помощь. Мы являемся платформой поддержки решений и координации, а не больницей, клиникой или телемедицинским сервисом."
       },
       {
-        "title": "AI Does Not Diagnose or Prescribe",
-        "description": "AI-assisted tools used by AetherHeal do not diagnose conditions, recommend medications, prescribe treatments, or produce independent medical conclusions."
+        "title": "AI не ставит диагнозы и не выписывает рецепты",
+        "description": "AI-инструменты, используемые AetherHeal, не диагностируют заболевания, не рекомендуют лекарства, не назначают лечение и не формируют независимые медицинские заключения."
       },
       {
-        "title": "AI Does Not Replace Physician Consultation",
-        "description": "AI-assisted summaries or translations may support communication, but they do not replace direct consultation with a licensed physician or the treating hospital."
+        "title": "AI не заменяет консультацию врача",
+        "description": "AI-сводки или переводы могут поддерживать коммуникацию, но они не заменяют прямую консультацию с лицензированным врачом или лечащей клиникой."
       },
       {
-        "title": "AI Does Not Determine Emergency Care",
-        "description": "Neither AetherHeal nor its AI-assisted tools determine whether a situation is an emergency. If urgent or severe symptoms occur, seek immediate local medical care and emergency services."
+        "title": "AI не определяет необходимость экстренной помощи",
+        "description": "Ни AetherHeal, ни его AI-инструменты не определяют, является ли ситуация экстренной. При возникновении срочных или тяжёлых симптомов немедленно обращайтесь за местной медицинской помощью и в службу экстренной помощи."
       },
       {
-        "title": "AI Does Not Make Final Provider Selection",
-        "description": "AI may help organize case information, but final provider selection, hospital routing, and next-step approvals remain accountable human decisions."
+        "title": "AI не осуществляет окончательный выбор провайдера",
+        "description": "AI может помочь организовать информацию о случае, но окончательный выбор провайдера, маршрутизация в клинику и утверждение дальнейших шагов остаются ответственными решениями людей."
       },
       {
-        "title": "Not a Guarantee of Outcomes",
-        "description": "Decision support can improve clarity, but it does not guarantee a particular medical outcome. Treatment results depend on clinical factors outside the platform's control."
+        "title": "Не является гарантией результатов",
+        "description": "Поддержка решений может повысить ясность, но не гарантирует конкретный медицинский результат. Результаты лечения зависят от клинических факторов, находящихся вне контроля платформы."
       }
     ],
     "aiSupport": {
-      "badge": "Permitted AI Support",
-      "title": "What AI May Support",
-      "intro": "Within these boundaries, AI may be used for tightly scoped administrative and informational support under human oversight.",
+      "badge": "Разрешённая поддержка AI",
+      "title": "Что AI может поддерживать",
+      "intro": "В рамках этих границ AI может использоваться для строго ограниченной административной и информационной поддержки под контролем человека.",
       "items": [
-        "Structuring intake information and uploaded records into standardized drafts",
-        "Summarizing case materials for physician, reviewer, or operations review",
-        "Translating routine messages and non-diagnostic coordination content",
-        "Surfacing missing information, inconsistencies, or workflow delays for human follow-up",
-        "Monitoring operational status, message delivery, and service exceptions"
+        "Структурирование информации о приёме и загруженных записей в стандартизированные черновики",
+        "Составление сводок материалов дела для врача, рецензента или операционного обзора",
+        "Перевод рутинных сообщений и недиагностического координационного контента",
+        "Выявление отсутствующей информации, несоответствий или задержек в рабочем процессе для последующего анализа человеком",
+        "Мониторинг операционного статуса, доставки сообщений и исключений в обслуживании"
       ]
     },
     "emergency": {
-      "title": "Emergency Notice",
-      "text": "Do not use this platform for urgent symptoms or life-threatening conditions. Contact local emergency services immediately.",
-      "phone": "Emergency: Call your local emergency number (911, 112, 119)"
+      "title": "Экстренное уведомление",
+      "text": "Не используйте эту платформу при срочных симптомах или угрожающих жизни состояниях. Немедленно обращайтесь в местные службы экстренной помощи.",
+      "phone": "Экстренная помощь: Позвоните по местному номеру экстренной помощи (911, 112, 119)"
     },
     "responsibilities": {
-      "badge": "Your Responsibilities",
-      "title": "Your Role as a Platform User",
+      "badge": "Ваши обязанности",
+      "title": "Ваша роль как пользователя платформы",
       "items": [
-        "Provide complete and accurate intake information",
-        "Review summaries, translations, and coordination details for factual accuracy",
-        "Consult your physician or treating hospital for direct medical advice",
-        "Make your own treatment decisions after appropriate clinical review",
-        "Use emergency services for urgent medical conditions",
-        "Understand that AetherHeal provides bounded decision and coordination support only"
+        "Предоставлять полную и точную информацию при приёме",
+        "Проверять сводки, переводы и координационные данные на фактическую точность",
+        "Консультироваться с вашим врачом или лечащей клиникой для получения прямых медицинских рекомендаций",
+        "Самостоятельно принимать решения о лечении после надлежащей клинической проверки",
+        "Использовать службы экстренной помощи при неотложных медицинских состояниях",
+        "Понимать, что AetherHeal предоставляет только ограниченную поддержку решений и координации"
       ],
-      "ctaProcess": "Review process",
-      "ctaOversight": "View oversight"
+      "ctaProcess": "Обзор процесса",
+      "ctaOversight": "Обзор надзора"
     }
   },
   "hairTransplant": {
@@ -1242,157 +1245,157 @@
   },
   "medicalJourney": {
     "meta": {
-      "title": "Your Medical Journey to Seoul | AetherHeal",
-      "description": "A stage-based medical journey to Seoul with clear ownership before travel, in Korea, and after return. AI supports coordination, while humans retain clinical and final decision responsibility."
+      "title": "Ваше медицинское путешествие в Сеул | AetherHeal",
+      "description": "Поэтапное медицинское путешествие в Сеул с чётким распределением ответственности до поездки, в Корее и после возвращения. AI поддерживает координацию, а люди сохраняют клиническую и окончательную ответственность за решения."
     },
     "hero": {
-      "badge": "Journey Coordination",
-      "h1": "Your Medical Journey to Seoul:",
-      "h1Highlight": "Coordinated in Three Stages",
-      "intro": "Cross-border medical care becomes safer when each phase has clear ownership.",
-      "introDetail": "AetherHeal separates the journey into before travel, in Korea, and after return so AI support, physician review, hospital care, and concierge accountability do not blur together."
+      "badge": "Координация путешествия",
+      "h1": "Ваше медицинское путешествие в Сеул:",
+      "h1Highlight": "Координация в три этапа",
+      "intro": "Трансграничная медицинская помощь становится безопаснее, когда у каждого этапа есть чёткий ответственный.",
+      "introDetail": "AetherHeal разделяет путешествие на этапы «до поездки», «в Корее» и «после возвращения», чтобы поддержка AI, врачебный обзор, клиническая помощь и ответственность консьержа не смешивались."
     },
     "toc": [
       {
         "id": "before-travel",
-        "label": "Before Travel"
+        "label": "До поездки"
       },
       {
         "id": "in-korea",
-        "label": "In Korea"
+        "label": "В Корее"
       },
       {
         "id": "after-return",
-        "label": "After Return"
+        "label": "После возвращения"
       },
       {
         "id": "what-makes-different",
-        "label": "What Makes This Different"
+        "label": "Что отличает этот подход"
       }
     ],
     "journeyStages": {
-      "title": "Three Stages, One Accountable Journey",
-      "intro": "Each stage has a defined purpose. AI may support administrative clarity and continuity, but clinical judgment, treatment, escalation, and final approvals remain human responsibilities.",
+      "title": "Три этапа, одно ответственное путешествие",
+      "intro": "У каждого этапа определённая цель. AI может поддерживать административную ясность и непрерывность, но клиническое суждение, лечение, эскалация и окончательные утверждения остаются ответственностью людей.",
       "stages": [
         {
           "id": "before-travel",
-          "label": "Stage 1",
-          "title": "Before Travel",
-          "summary": "This stage is for structuring the case before any treatment journey begins. The goal is decision readiness, not speed.",
-          "milestonesTitle": "Core milestones",
+          "label": "Этап 1",
+          "title": "До поездки",
+          "summary": "Этот этап предназначен для структурирования случая до начала лечебного путешествия. Цель — готовность к решению, а не скорость.",
+          "milestonesTitle": "Основные вехи",
           "items": [
             {
-              "title": "Decision structuring",
-              "desc": "Goals, constraints, prior records, and open questions are organized into a clearer decision frame before partner outreach."
+              "title": "Структурирование решения",
+              "desc": "Цели, ограничения, предыдущие записи и открытые вопросы организуются в более чёткую рамку решения до обращения к партнёрам."
             },
             {
-              "title": "Feasibility preparation",
-              "desc": "Appropriate documents, travel constraints, and scope assumptions are checked so the case is fit for hospital review."
+              "title": "Подготовка оценки целесообразности",
+              "desc": "Соответствующие документы, ограничения на поездку и допущения по объёму проверяются для готовности случая к рассмотрению клиникой."
             },
             {
-              "title": "Coordination readiness",
-              "desc": "Scheduling intent, likely timelines, and practical travel planning are prepared only after the case is sufficiently clarified."
+              "title": "Готовность к координации",
+              "desc": "Намерения по расписанию, вероятные сроки и практическое планирование поездки готовятся только после достаточного прояснения случая."
             }
           ],
-          "aiTitle": "AI supports",
+          "aiTitle": "AI поддерживает",
           "aiItems": [
-            "Structuring intake information and draft summaries for review",
-            "Supporting translation of records or routine coordination messages",
-            "Surfacing missing documents, conflicting details, or unresolved questions"
+            "Структурирование информации о приёме и черновиков сводок для обзора",
+            "Поддержку перевода записей или рутинных координационных сообщений",
+            "Выявление недостающих документов, противоречивых данных или нерешённых вопросов"
           ],
-          "humanTitle": "Humans own",
+          "humanTitle": "Люди отвечают за",
           "humanItems": [
-            "Defining clinical boundaries and what the case is actually about",
-            "Confirming whether the case is ready to proceed, defer, or re-clarify",
-            "Approving partner outreach, scheduling, and next-step commitments"
+            "Определение клинических границ и сути случая",
+            "Подтверждение готовности случая к продвижению, отсрочке или уточнению",
+            "Утверждение обращения к партнёрам, составление расписания и обязательств по следующим шагам"
           ]
         },
         {
           "id": "in-korea",
-          "label": "Stage 2",
-          "title": "In Korea",
-          "summary": "Once the patient is on the ground, coordination must stay precise while treatment authority remains with the treating institution and responsible clinicians.",
-          "milestonesTitle": "Core milestones",
+          "label": "Этап 2",
+          "title": "В Корее",
+          "summary": "Когда пациент на месте, координация должна оставаться точной, а полномочия по лечению сохраняются за лечащим учреждением и ответственными клиницистами.",
+          "milestonesTitle": "Основные вехи",
           "items": [
             {
-              "title": "Arrival and handoff",
-              "desc": "Airport arrival, transportation, appointment alignment, and on-site coordination are kept synchronized."
+              "title": "Прибытие и передача",
+              "desc": "Прибытие в аэропорт, транспорт, согласование приёмов и координация на месте синхронизированы."
             },
             {
-              "title": "Hospital-facing execution",
-              "desc": "Consultation, informed consent, and treatment planning occur within the licensed hospital or clinic environment."
+              "title": "Взаимодействие с клиникой",
+              "desc": "Консультация, информированное согласие и планирование лечения происходят в лицензированной клинике или больнице."
             },
             {
-              "title": "Real-time support",
-              "desc": "Concierge and operations support help keep logistics visible so delays or missed steps can be escalated quickly."
+              "title": "Поддержка в реальном времени",
+              "desc": "Консьерж-сервис и операционная поддержка обеспечивают видимость логистики, чтобы задержки или пропущенные шаги могли быть быстро эскалированы."
             }
           ],
-          "aiTitle": "AI supports",
+          "aiTitle": "AI поддерживает",
           "aiItems": [
-            "Keeping itineraries, reminders, and routine coordination synchronized",
-            "Assisting with translation of routine non-diagnostic communications",
-            "Monitoring workflow gaps, missed handoffs, or timing risks for human follow-up"
+            "Синхронизацию расписания, напоминаний и рутинной координации",
+            "Помощь с переводом рутинных недиагностических сообщений",
+            "Мониторинг пробелов в рабочем процессе, пропущенных передач или рисков по срокам для последующего контроля человеком"
           ],
-          "humanTitle": "Humans own",
+          "humanTitle": "Люди отвечают за",
           "humanItems": [
-            "Hospital consultation, informed consent, and all medical treatment decisions",
-            "Escalation when something appears urgent, unclear, or outside normal workflow",
-            "Final operational judgment by concierge and platform staff on the ground"
+            "Консультацию в клинике, информированное согласие и все решения о лечении",
+            "Эскалацию при возникновении срочных, неясных или выходящих за рамки обычного процесса ситуаций",
+            "Окончательное операционное суждение консьержа и сотрудников платформы на месте"
           ]
         },
         {
           "id": "after-return",
-          "label": "Stage 3",
-          "title": "After Return",
-          "summary": "After the patient goes home, continuity matters. The purpose is to preserve communication, follow-through, and documented escalation when needed.",
-          "milestonesTitle": "Core milestones",
+          "label": "Этап 3",
+          "title": "После возвращения",
+          "summary": "После возвращения пациента домой важна непрерывность. Цель — сохранить коммуникацию, выполнение обязательств и документированную эскалацию при необходимости.",
+          "milestonesTitle": "Основные вехи",
           "items": [
             {
-              "title": "Follow-up continuity",
-              "desc": "Updates, check-ins, and care continuity are coordinated so recovery communication does not fragment across borders."
+              "title": "Непрерывность наблюдения",
+              "desc": "Обновления, контрольные обращения и непрерывность помощи координируются, чтобы коммуникация по восстановлению не фрагментировалась через границы."
             },
             {
-              "title": "Documentation hygiene",
-              "desc": "Recovery notes, images, and follow-up messages are kept organized for review and case continuity."
+              "title": "Документационная гигиена",
+              "desc": "Записи о восстановлении, снимки и сообщения о наблюдении организованы для обзора и непрерывности случая."
             },
             {
-              "title": "Escalation discipline",
-              "desc": "If recovery concerns arise, the patient is directed toward the appropriate treating or local physician rather than informal reassurance."
+              "title": "Дисциплина эскалации",
+              "desc": "При возникновении проблем с восстановлением пациент направляется к соответствующему лечащему или местному врачу, а не к неформальным заверениям."
             }
           ],
-          "aiTitle": "AI supports",
+          "aiTitle": "AI поддерживает",
           "aiItems": [
-            "Organizing follow-up messages and recovery updates into structured case notes",
-            "Supporting translation and summary drafting for continuity workflows",
-            "Flagging unanswered check-ins or coordination gaps that need human attention"
+            "Организацию сообщений о наблюдении и обновлений по восстановлению в структурированные заметки по случаю",
+            "Поддержку перевода и составления сводок для процессов непрерывности",
+            "Отметку неотвеченных контрольных обращений или координационных пробелов, требующих внимания человека"
           ],
-          "humanTitle": "Humans own",
+          "humanTitle": "Люди отвечают за",
           "humanItems": [
-            "Clinical interpretation of recovery status by appropriate physicians",
-            "Advising when the patient should contact the treating hospital or local doctor",
-            "Managing continuity, escalation, and documented follow-through"
+            "Клиническую интерпретацию статуса восстановления соответствующими врачами",
+            "Рекомендации о необходимости обращения к лечащей клинике или местному врачу",
+            "Управление непрерывностью, эскалацией и документированным выполнением обязательств"
           ]
         }
       ]
     },
     "whatMakesDifferent": {
-      "title": "What Makes This Different",
-      "text": "Unlike medical tourism models that blur sales, logistics, and medical judgment, AetherHeal separates the journey into explicit phases with explicit ownership.",
-      "boxTitle": "AI supports the process",
-      "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey."
+      "title": "Что отличает этот подход",
+      "text": "В отличие от моделей медицинского туризма, которые смешивают продажи, логистику и медицинское суждение, AetherHeal разделяет путешествие на явные этапы с явным распределением ответственности.",
+      "boxTitle": "AI поддерживает процесс",
+      "boxText": "но не владеет диагностикой, лечением, экстренным суждением или окончательным выбором провайдера. Это остаётся ответственностью людей на протяжении всего путешествия."
     },
     "relatedPages": [
       {
-        "label": "How to Choose a Hospital Abroad",
-        "desc": "A framework for safer decisions"
+        "label": "Выбор клиники за рубежом",
+        "desc": "Подход для более безопасных решений"
       },
       {
-        "label": "The AetherHeal Trust Protocol",
-        "desc": "How governance, auditing, and enforcement work"
+        "label": "Протокол доверия AetherHeal",
+        "desc": "Как работают управление, аудит и контроль"
       },
       {
-        "label": "How AetherHeal Works",
-        "desc": "The system behind physician-led decision support"
+        "label": "Как работает AetherHeal",
+        "desc": "Система поддержки решений под руководством врачей"
       }
     ]
   },
@@ -1607,19 +1610,23 @@
         "управление осложнениями"
       ],
       "p4": "В результате платформы, основанные на отзывах, часто оптимизируются для видимости, а не для клинической строгости.",
-      "trustProtocolNote": "Именно здесь необходим структурированный протокол доверия — тот, который оценивает клиники по клиническим достоинствам, а не по маркетинговой эффективности."
+      "trustProtocolNote": {
+        "before": "Именно здесь необходим структурированный ",
+        "linkText": "протокол доверия",
+        "after": " — тот, который оценивает клиники по клиническим достоинствам, а не по маркетинговой эффективности."
+      }
     },
     "physicianLed": {
-      "title": "The AI-Structured, Physician-Led Verification Model",
-      "p1": "One way to reduce uncertainty is to let AI structure raw patient information before physician verification begins.",
-      "p2": "In an AI-structured, physician-led model:",
+      "title": "Модель верификации с AI-структуризацией под руководством врачей",
+      "p1": "Один из способов уменьшить неопределённость — позволить AI структурировать необработанную информацию пациента до начала врачебной верификации.",
+      "p2": "В модели с AI-структуризацией под руководством врачей:",
       "items": [
-        "patient goals, constraints, and context are organized before a hospital is considered",
-        "physicians review the structured case, interpret clinical meaning, and test feasibility",
-        "hospitals are assessed against physician-reviewed clinical criteria, not marketing alone"
+        "цели, ограничения и контекст пациента организуются до рассмотрения клиники",
+        "врачи проверяют структурированный случай, интерпретируют клиническое значение и оценивают целесообразность",
+        "клиники оцениваются по клиническим критериям, проверенным врачом, а не только по маркетингу"
       ],
-      "p3": "This model uses AI to improve preparation and consistency while keeping medical interpretation, judgment, and accountability with licensed physicians.",
-      "trustNote": "AetherHeal's Trust Protocol follows this logic: AI helps structure the case, and physicians lead the verification of each partner institution."
+      "p3": "Эта модель использует AI для улучшения подготовки и последовательности, сохраняя медицинскую интерпретацию, суждение и подотчётность за лицензированными врачами.",
+      "trustNote": "Протокол доверия AetherHeal следует этой логике: AI помогает структурировать случай, а врачи руководят верификацией каждого партнёрского учреждения."
     },
     "patientJourney": {
       "title": "Понимание пути международного пациента",

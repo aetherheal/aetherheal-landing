@@ -32,7 +32,10 @@
         "plasticSurgery": "韓国での美容整形",
         "aestheticClinics": "ソウルの美容クリニック"
       },
-      "medicalBoundaryNotice": "医療境界に関するお知らせ"
+      "medicalBoundaryNotice": "医療境界に関するお知らせ",
+      "termsOfService": "利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "paymentRefundPolicy": "お支払い・返金ポリシー"
     },
     "continueReading": "続きを読む",
     "contents": "目次",
@@ -41,23 +44,23 @@
   "home": {
     "meta": {
       "title": "AetherHeal | 医師主導のソウルへのグローバル医療の旅",
-      "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
+      "description": "AetherHealは韓国での医療を検討する海外患者様のための、医師主導、AI支援の意思決定インフラストラクチャです。病院へのコミットメント前の構造化された明確さ、調整、継続性を提供します。"
     },
     "hero": {
-      "badge": "Physician-led, AI-assisted decision infrastructure for premium care in Korea",
+      "badge": "韓国でのプレミアム医療のための医師主導、AI支援の意思決定インフラストラクチャ",
       "h1": "明確に決める",
       "h1Highlight": "病院を選ぶ前に",
-      "description": "Physician-led, AI-assisted decision infrastructure",
+      "description": "医師主導、AI支援の意思決定インフラストラクチャ",
       "descriptionHighlight": "before",
-      "descriptionEnd": "hospital selection, journey execution, and continuity planning in Korea.",
-      "disclaimer": "AI assists the process. Physicians retain authority. No diagnosis. No treatment.",
+      "descriptionEnd": "韓国での病院選択、ジャーニー実行、継続性計画の前に。",
+      "disclaimer": "AIがプロセスを支援します。医師が権限を保持します。診断なし。治療なし。",
       "ctaHowItWorks": "仕組みを見る",
       "ctaExplore": "探し始める"
     },
     "problemQuote": {
-      "q1": "Most platforms optimize introductions before they structure the decision.",
-      "q2": "In high-stake medicine, speed without clinical framing creates risk.",
-      "q3": "AetherHeal brings physician-led clarity before commitment."
+      "q1": "ほとんどのプラットフォームは、意思決定を構造化する前に紹介を最適化します。",
+      "q2": "高リスクの医療において、臨床的フレーミングなしのスピードはリスクを生みます。",
+      "q3": "AetherHealはコミットメントの前に医師主導の明確さを提供します。"
     },
     "stakes": {
       "title": "すべての選択が同じリスクを持つわけではありません",
@@ -87,25 +90,25 @@
       }
     },
     "aiLayer": {
-      "badge": "AI Assistance Layer",
-      "title": "AI Support,",
-      "titleHighlight": "Under Physician Authority",
-      "subtitle": "AetherHeal uses AI to organize complexity, surface missing information, and extend continuity monitoring. It does not replace physician judgment or hospital authority.",
+      "badge": "AI支援レイヤー",
+      "title": "AI支援、",
+      "titleHighlight": "医師の権限の下で",
+      "subtitle": "AetherHealはAIを使用して複雑さを整理し、不足情報を表面化し、継続性モニタリングを拡張します。医師の判断や病院の権限に代わるものではありません。",
       "cards": [
         {
-          "title": "Before Physician Review",
-          "description": "AI helps structure intake, records, and questions so the physician starts from a clearer case file, not from scattered fragments."
+          "title": "医師レビュー前",
+          "description": "AIは受付、記録、質問を構造化し、医師が散在した断片ではなく、より明確なケースファイルから始められるようにします。"
         },
         {
-          "title": "Inside a Governed Workflow",
-          "description": "Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital feasibility. Authority never transfers to the model."
+          "title": "統治されたワークフロー内で",
+          "description": "すべてのAI支援出力は、医師のレビュー、患者の確認、病院の実現可能性に従属します。権限がモデルに移転することはありません。"
         },
         {
-          "title": "After Treatment",
-          "description": "AI can support continuity monitoring by organizing check-ins and surfacing follow-up signals, while humans decide whether action or escalation is needed."
+          "title": "治療後",
+          "description": "AIはチェックインの整理とフォローアップシグナルの表面化により継続性モニタリングを支援できますが、アクションやエスカレーションが必要かどうかは人間が判断します。"
         }
       ],
-      "footnote": "AetherHeal is not an AI doctor. AI supports the infrastructure; physicians and hospitals remain the decision-makers."
+      "footnote": "AetherHealはAIドクターではありません。AIはインフラストラクチャを支援し、医師と病院が意思決定者として残ります。"
     },
     "trending": {
       "badge": "対応",
@@ -233,65 +236,65 @@
       ]
     },
     "journey": {
-      "sectionLabel": "Decision Infrastructure in Motion",
+      "sectionLabel": "動き出す意思決定インフラストラクチャ",
       "title": "意思決定から回復まで、",
       "titleHighlight": "責任は常に見える状態で",
-      "subtitle": "This is how physician authority, hospital authority, and AI support remain separated across the journey.",
+      "subtitle": "医師の権限、病院の権限、AI支援がジャーニー全体を通じてどのように分離されるかを示します。",
       "steps": [
         {
-          "label": "Patient Intent",
+          "label": "患者の意向",
           "badge": null,
-          "description": "Goals, constraints, timeline, and risk tolerance are captured.",
+          "description": "目標、制約、タイムライン、リスク許容度が把握されます。",
           "details": null
         },
         {
-          "label": "AI-Assisted Case Structuring",
-          "badge": "PRE-PHYSICIAN SUPPORT",
-          "description": "Records, questions, and missing inputs are organized before physician review.",
-          "details": "AI assists. Physician reviews every output."
+          "label": "AI支援によるケース構造化",
+          "badge": "医師レビュー前の支援",
+          "description": "記録、質問、不足している入力が医師のレビュー前に整理されます。",
+          "details": "AIが支援します。医師がすべての出力をレビューします。"
         },
         {
-          "label": "Physician Readiness Review",
+          "label": "医師の準備態勢レビュー",
           "badge": null,
-          "description": "The physician decides whether the case is sufficiently clear to move forward.",
+          "description": "医師がケースが前進するのに十分に明確かどうかを判断します。",
           "details": null
         },
         {
-          "label": "Partner Hospital Feasibility Review",
-          "badge": "HOSPITAL AUTHORITY",
-          "description": "Partner hospitals assess feasibility within the physician-defined decision scope.",
+          "label": "パートナー病院の実現可能性レビュー",
+          "badge": "病院の権限",
+          "description": "パートナー病院が医師が定義した意思決定スコープ内で実現可能性を評価します。",
           "details": null
         },
         {
-          "label": "Decision Commitment Deposit",
-          "badge": "ACCOUNTABILITY TRIGGER",
-          "description": "Confirms intent, secures coordination, and aligns the next operational step.",
+          "label": "意思決定コミットメントデポジット",
+          "badge": "説明責任のトリガー",
+          "description": "意向を確認し、調整を確保し、次の運用ステップを調整します。",
           "details": null
         },
         {
-          "label": "Journey Orchestration",
-          "badge": "ARRIVAL, BOOKING & SUPPORT",
-          "description": "Concierge execution begins only after physician-ready, patient-confirmed alignment.",
+          "label": "ジャーニーオーケストレーション",
+          "badge": "到着、予約、サポート",
+          "description": "コンシェルジュの実行は、医師の準備完了と患者の確認が揃った後にのみ開始されます。",
           "details": null
         },
         {
-          "label": "Post-Treatment Continuity Monitoring",
-          "badge": "AI-SUPPORTED FOLLOW-THROUGH",
-          "description": "Check-ins, recovery signals, and follow-up coordination remain visible after treatment.",
+          "label": "治療後の継続性モニタリング",
+          "badge": "AI支援によるフォロースルー",
+          "description": "チェックイン、回復シグナル、フォローアップ調整が治療後も可視のまま維持されます。",
           "details": null
         }
       ],
       "journeyOrchestrationDetails": {
-        "arrival": "Arrival & Scheduling",
-        "concierge": "1:1 Concierge & Translation"
+        "arrival": "到着＆スケジューリング",
+        "concierge": "1対1コンシェルジュ＆通訳"
       },
       "decisionReadiness": {
-        "notReady": "Needs More Clarity",
-        "pause": "Pause / Collect More Information",
-        "ready": "Ready for Release",
-        "proceed": "Proceed to Hospital Review"
+        "notReady": "さらなる明確化が必要",
+        "pause": "一時停止 / 追加情報の収集",
+        "ready": "リリースの準備完了",
+        "proceed": "病院レビューへ進む"
       },
-      "closingQuote": "AI can accelerate the process. Responsibility still belongs to humans."
+      "closingQuote": "AIはプロセスを加速できます。しかし責任は依然として人間に帰属します。"
     },
     "partners": {
       "subtitle": "ソウルの基準準拠パートナー機関",
@@ -345,16 +348,16 @@
       "subtitle": "AetherHealインフラストラクチャの理解。",
       "items": [
         {
-          "question": "Is AetherHeal an AI doctor?",
-          "answer": "No. AetherHeal is not an AI doctor, and we do not present AI as a physician substitute. AI supports information structuring and continuity workflows, but licensed physicians and partner hospitals retain medical authority."
+          "question": "AetherHealはAIドクターですか？",
+          "answer": "いいえ。AetherHealはAIドクターではなく、AIを医師の代替として提示することはありません。AIは情報の構造化と継続性ワークフローを支援しますが、医師免許を持つ医師とパートナー病院が医療権限を保持します。"
         },
         {
-          "question": "What does AI actually do inside AetherHeal?",
-          "answer": "AI helps organize intake, surface missing information, support multilingual coordination, and keep post-treatment continuity signals visible. It accelerates the workflow; it does not make the medical decision."
+          "question": "AetherHeal内でAIは実際に何をしますか？",
+          "answer": "AIは受付の整理、不足情報の表面化、多言語調整の支援、治療後の継続性シグナルの可視化を支援します。ワークフローを加速しますが、医療の意思決定は行いません。"
         },
         {
-          "question": "Can AI override a physician or choose my hospital?",
-          "answer": "No. AI cannot override a physician, select your final hospital, make a diagnosis, recommend treatment, or book autonomously. Physician judgment, patient consent, and hospital feasibility remain the controlling layers."
+          "question": "AIは医師の判断を上書きしたり、病院を選んだりできますか？",
+          "answer": "いいえ。AIは医師の判断を上書きしたり、最終的な病院を選択したり、診断を下したり、治療を推奨したり、自律的に予約を行うことはできません。医師の判断、患者の同意、病院の実現可能性が管理レイヤーとして残ります。"
         },
         {
           "question": "これは医療相談やオンライン診療ですか？",
@@ -414,7 +417,7 @@
     },
     "cta": {
       "title": "決断前の自信",
-      "subtitle": "Explore the physician-led, AI-assisted process before you commit to any hospital path.",
+      "subtitle": "いかなる病院のパスにコミットする前に、医師主導、AI支援のプロセスをご覧ください。",
       "ctaHowItWorks": "仕組み",
       "ctaExplore": "探し始める",
       "signature": "Dr. Jee Hoon Ju"
@@ -423,17 +426,17 @@
   "howItWorks": {
     "meta": {
       "title": "AetherHealの仕組み | システム仕様",
-      "description": "Learn how AetherHeal's physician-led, AI-assisted decision infrastructure works. See the authority chain, readiness states, and continuity monitoring model for medical care in Korea."
+      "description": "AetherHealの医師主導、AI支援の意思決定インフラストラクチャの仕組みをご紹介します。韓国での医療における権限チェーン、準備態勢の状態、継続性モニタリングモデルをご覧ください。"
     },
     "hero": {
-      "badge": "System Specification 2.0",
+      "badge": "システム仕様 2.0",
       "h1": "AetherHealの",
       "h1Highlight": "仕組み",
-      "tagline": "Physician-led, AI-assisted decision infrastructure for Korea",
-      "description": "Structured medical decisions",
+      "tagline": "韓国における医師主導、AI支援の意思決定インフラストラクチャ",
+      "description": "体系的な医療の意思決定を",
       "descriptionHighlight": "before",
-      "descriptionEnd": "hospital commitment, logistics, and post-treatment continuity.",
-      "disclaimer": "AI-assisted. Physician-authorized. Not diagnosis, treatment, or emergency care.",
+      "descriptionEnd": "病院へのコミットメント、ロジスティクス、治療後の継続性の前に。",
+      "disclaimer": "AI支援。医師が承認。診断、治療、緊急医療ではありません。",
       "ctaPrimary": "意思決定の旅を始める",
       "ctaSecondary": "フレームワークを探る"
     },
@@ -443,19 +446,19 @@
       "subtitle": "医療情報サポートであり、セールスではありません。",
       "doesTitle": "エンジェルが行うこと",
       "keyDefinitionLabel": "主要定義",
-      "keyDefinition": "Angels are licensed medical doctors in Korea who hold interpretive authority over the case and review all AI-assisted structuring before release.",
+      "keyDefinition": "エンジェルは韓国の医師免許を持つ医師であり、ケースに対する解釈権限を持ち、リリース前にすべてのAI支援による構造化をレビューします。",
       "does": [
         {
-          "title": "Reviews Structured Inputs",
-          "description": "Examines AI-assisted intake organization, missing data flags, and patient goals before any hospital-facing action."
+          "title": "構造化された入力のレビュー",
+          "description": "病院への対応を行う前に、AI支援による受付の整理、不足データのフラグ、患者の目標を確認します。"
         },
         {
-          "title": "Holds Decision Authority",
-          "description": "Clarifies risks, constraints, and expectations, then decides whether the case is ready to move forward."
+          "title": "意思決定権限の保持",
+          "description": "リスク、制約、期待を明確にし、ケースが前進する準備ができているかどうかを判断します。"
         },
         {
-          "title": "Translates Goals to Clinical Scope",
-          "description": "Converts patient intent into a physician-authored decision frame that hospitals can review for feasibility."
+          "title": "目標の臨床範囲への変換",
+          "description": "患者の意向を、病院が実現可能性をレビューできる医師作成の意思決定フレームに変換します。"
         }
       ],
       "notTitle": "エンジェルが行わないこと",
@@ -463,46 +466,46 @@
         "診断は行いません",
         "治療は行いません",
         "処方は行いません",
-        "Does not delegate final judgment to AI",
+        "AIに最終判断を委任しません",
         "病院の代替にはなりません"
       ]
     },
     "authorityChain": {
-      "badge": "02 — Authority Chain",
-      "title": "Who Holds Authority, When",
-      "subtitle": "AetherHeal is designed so assistance, interpretation, treatment, and operations remain clearly separated.",
+      "badge": "02 — 権限チェーン",
+      "title": "誰がいつ権限を持つか",
+      "subtitle": "AetherHealは、支援、解釈、治療、運営が明確に分離されるよう設計されています。",
       "levels": [
-        { "label": "Layer 1", "title": "Patient Intent", "description": "The patient defines goals, constraints, timing, and personal risk tolerance." },
-        { "label": "Layer 2", "title": "AI Support Layer", "description": "AI structures information, surfaces gaps, and supports monitoring, but has no authority to decide." },
-        { "label": "Layer 3", "title": "Physician Authority", "description": "The Angel physician interprets the case, defines decision scope, and authorizes release to the next stage." },
-        { "label": "Layer 4", "title": "Hospital Authority", "description": "The partner hospital decides clinical feasibility, treatment approach, and whether to accept the case." },
-        { "label": "Layer 5", "title": "Operational Coordination", "description": "AetherHeal executes booking, travel, and continuity workflows only after the human decision chain is clear." }
+        { "label": "レイヤー1", "title": "患者の意向", "description": "患者様が目標、制約、タイミング、個人のリスク許容度を定義します。" },
+        { "label": "レイヤー2", "title": "AI支援レイヤー", "description": "AIは情報を構造化し、ギャップを表面化し、モニタリングを支援しますが、意思決定の権限はありません。" },
+        { "label": "レイヤー3", "title": "医師の権限", "description": "エンジェル医師がケースを解釈し、意思決定の範囲を定義し、次のステージへのリリースを承認します。" },
+        { "label": "レイヤー4", "title": "病院の権限", "description": "パートナー病院が臨床的実現可能性、治療アプローチ、ケースの受入可否を決定します。" },
+        { "label": "レイヤー5", "title": "運営調整", "description": "AetherHealは、人間の意思決定チェーンが明確になった後にのみ、予約、渡航、継続性のワークフローを実行します。" }
       ],
-      "handoffLabel": "authority handoff",
-      "footnote": "AI can support the workflow, but authority passes only between accountable human actors."
+      "handoffLabel": "権限の引き継ぎ",
+      "footnote": "AIはワークフローを支援できますが、権限は説明責任のある人間の関係者間でのみ移行します。"
     },
     "aiAssistance": {
-      "badge": "03 — AI Assistance",
-      "title": "The AI Assistance Layer",
-      "subtitle": "AI is used as operational and informational support, not as a clinical decision-maker.",
-      "summaryLabel": "System Role",
-      "summary": "The AI layer exists to reduce fragmentation: it prepares physician inputs, helps the team track what is missing, and supports continuity monitoring after treatment. Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital authority.",
-      "doesTitle": "What AI Does",
+      "badge": "03 — AI支援",
+      "title": "AI支援レイヤー",
+      "subtitle": "AIは運用上および情報提供上の支援として使用されており、臨床的意思決定者としてではありません。",
+      "summaryLabel": "システムの役割",
+      "summary": "AIレイヤーは断片化を減らすために存在します：医師の入力を準備し、チームが不足しているものを追跡するのを支援し、治療後の継続性モニタリングを支援します。すべてのAI支援出力は、医師のレビュー、患者の確認、病院の権限に従属します。",
+      "doesTitle": "AIが行うこと",
       "doesItems": [
-        "Structures intake, records, and questions before physician interpretation",
-        "Surfaces missing documents, contradictions, and follow-up tasks for the human team",
-        "Supports multilingual coordination and workflow continuity across the journey",
-        "Organizes post-treatment check-ins and visibility for continuity monitoring"
+        "医師の解釈前に受付、記録、質問を構造化する",
+        "不足書類、矛盾、人間チームのフォローアップタスクを表面化する",
+        "旅全体にわたる多言語調整とワークフローの継続性を支援する",
+        "治療後のチェックインと継続性モニタリングの可視性を整理する"
       ],
-      "notTitle": "What AI Does NOT Do",
+      "notTitle": "AIが行わないこと",
       "notItems": [
-        "Does not diagnose",
-        "Does not recommend treatment",
-        "Does not select the final hospital",
-        "Does not book autonomously",
-        "Does not override a physician or hospital"
+        "診断は行いません",
+        "治療の推奨は行いません",
+        "最終的な病院の選定は行いません",
+        "自律的な予約は行いません",
+        "医師や病院の判断を上書きしません"
       ],
-      "footnote": "No AI decision is valid on its own. Human authority remains the controlling layer."
+      "footnote": "AIの判断だけでは有効ではありません。人間の権限が管理レイヤーとして残ります。"
     },
     "coverage": {
       "badge": "04 — Coverage",
@@ -522,118 +525,118 @@
     "scope": {
       "badge": "05 — Scope",
       "title": "提供するサービス / 提供しないサービス",
-      "subtitle": "Hard operational and medical boundaries prevent false expectations.",
+      "subtitle": "厳格な運用上および医療上の境界が誤った期待を防ぎます。",
       "doTitle": "提供するサービス",
       "doItems": [
-        "Decision preparation with physician review of AI-assisted structuring",
-        "Fit-based hospital matching within our partner network after decision readiness is confirmed",
+        "AI支援による構造化の医師レビューを伴う意思決定準備",
+        "意思決定の準備が確認された後のパートナーネットワーク内での適合性に基づく病院マッチング",
         "提携病院との実現可能性審査の調整",
-        "Journey execution and continuity workflows with accountable human oversight"
+        "説明責任のある人間の監督によるジャーニー実行と継続性ワークフロー"
       ],
       "dontTitle": "提供しないサービス",
       "dontBadges": [
-        "No Diagnosis",
-        "No Treatment Recommendation",
-        "No Autonomous Booking",
-        "No Final Hospital Selection",
-        "No AI Decision"
+        "診断なし",
+        "治療推奨なし",
+        "自律的予約なし",
+        "最終的な病院選定なし",
+        "AIによる判断なし"
       ],
       "notes": [
-        "Not for emergencies. Seek immediate local care if urgent symptoms occur.",
-        "Physicians retain interpretive authority. Hospitals retain treatment authority.",
-        "Not a replacement for hospital care or your local doctor."
+        "緊急時には使用できません。緊急症状が発生した場合は直ちに現地の医療機関を受診してください。",
+        "医師が解釈権限を保持します。病院が治療権限を保持します。",
+        "病院での医療やかかりつけ医の代替ではありません。"
       ]
     },
     "readinessStates": {
-      "badge": "06 — Readiness States",
-      "title": "When a Case Is Ready",
-      "subtitle": "AetherHeal does not move every case forward at the same speed. Readiness must be earned.",
+      "badge": "06 — 準備態勢の状態",
+      "title": "ケースが準備完了となるとき",
+      "subtitle": "AetherHealはすべてのケースを同じ速度で進めるわけではありません。準備態勢は獲得される必要があります。",
       "items": [
-        { "state": "State 1", "title": "Needs More Clarity", "description": "Information is incomplete, goals are still vague, or risk tolerance has not been clearly articulated." },
-        { "state": "State 2", "title": "Ready for Physician Framing", "description": "The case has enough organized information for a physician to interpret tradeoffs and define scope." },
-        { "state": "State 3", "title": "Ready for Hospital Review", "description": "The physician has authored the decision frame and the scope can now be released for feasibility review." },
-        { "state": "State 4", "title": "Continuity Monitoring Active", "description": "After treatment, follow-up signals and check-ins remain visible so the team can coordinate continuity." }
+        { "state": "状態1", "title": "さらなる明確化が必要", "description": "情報が不完全、目標がまだ曖昧、またはリスク許容度が明確に表明されていません。" },
+        { "state": "状態2", "title": "医師によるフレーミングの準備完了", "description": "ケースには、医師がトレードオフを解釈し範囲を定義するのに十分な整理された情報があります。" },
+        { "state": "状態3", "title": "病院レビューの準備完了", "description": "医師が意思決定フレームを作成し、実現可能性レビューのためにスコープをリリースできる状態です。" },
+        { "state": "状態4", "title": "継続性モニタリングがアクティブ", "description": "治療後、フォローアップシグナルとチェックインが可視のまま維持され、チームが継続性を調整できるようにします。" }
       ],
-      "footnote": "A case may pause at any state. Movement forward depends on clarity, not momentum."
+      "footnote": "ケースはどの状態でも一時停止する場合があります。前進は勢いではなく、明確さに依存します。"
     },
     "systemFlow": {
-      "badge": "07 — System Flow",
+      "badge": "07 — システムフロー",
       "titleParts": [
-        "Intake",
-        "Interpretation",
-        "Continuity"
+        "受付",
+        "解釈",
+        "継続性"
       ],
-      "subtitle": "Roles are strictly defined at every step. AI support appears before physician interpretation and after treatment, not in place of medical authority.",
+      "subtitle": "各ステップで役割が厳密に定義されています。AI支援は医師の解釈前と治療後に行われ、医療権限の代わりとしてではありません。",
       "steps": [
         {
           "step": 1,
-          "actor": "Patient",
-          "title": "Structured Intake",
-          "description": "Goals, constraints, timeline, risk tolerance"
+          "actor": "患者",
+          "title": "構造化された受付",
+          "description": "目標、制約、タイムライン、リスク許容度"
         },
         {
           "step": 2,
-          "actor": "AI Support Layer",
-          "title": "Case Organization",
-          "description": "Inputs organized, gaps surfaced, questions prepared"
+          "actor": "AI支援レイヤー",
+          "title": "ケースの整理",
+          "description": "入力の整理、ギャップの表面化、質問の準備"
         },
         {
           "step": 3,
           "actor": "Angel (MD)",
-          "title": "Physician Interpretation",
-          "description": "Context, tradeoffs, and readiness assessed",
+          "title": "医師の解釈",
+          "description": "文脈、トレードオフ、準備態勢の評価",
           "emphasis": "key"
         },
         {
           "step": 4,
           "actor": "Angel (MD)",
-          "title": "Decision Summary",
-          "description": "Decision scope authored for downstream review",
+          "title": "意思決定サマリー",
+          "description": "下流のレビューのための意思決定スコープの作成",
           "emphasis": "key"
         },
         {
           "step": 5,
-          "actor": "Platform",
-          "title": "Readiness Lock",
-          "description": "Scope frozen before any hospital-facing execution",
+          "actor": "プラットフォーム",
+          "title": "準備態勢のロック",
+          "description": "病院への対応実行前にスコープを確定",
           "emphasis": "key"
         },
         {
           "step": 6,
-          "actor": "Partner Hospital",
-          "title": "Feasibility Review",
-          "description": "Accept, decline, or request clarification"
+          "actor": "パートナー病院",
+          "title": "実現可能性レビュー",
+          "description": "受入、拒否、または明確化の要求"
         },
         {
           "step": 7,
-          "actor": "Platform + Concierge",
-          "title": "Quotation + Coordination",
-          "description": "Deposit, scheduling, travel, and arrival planning"
+          "actor": "プラットフォーム + コンシェルジュ",
+          "title": "見積もり + 調整",
+          "description": "デポジット、スケジューリング、渡航、到着の計画"
         },
         {
           "step": 8,
-          "actor": "AI + Journey Team",
-          "title": "Continuity Monitoring",
-          "description": "Post-treatment visibility, check-ins, and escalation support",
+          "actor": "AI + ジャーニーチーム",
+          "title": "継続性モニタリング",
+          "description": "治療後の可視性、チェックイン、エスカレーション支援",
           "emphasis": "final"
         }
       ],
-      "closingQuote": "AI can support the workflow. Physician authority defines the outcome."
+      "closingQuote": "AIはワークフローを支援できます。医師の権限が結果を定義します。"
     },
     "safety": {
       "title": "法的・医療的安全",
       "items": [
         {
-          "title": "Safety",
-          "body": "Not for emergency use. If urgent symptoms occur, seek immediate local care."
+          "title": "安全性",
+          "body": "緊急時には使用できません。緊急症状が発生した場合は直ちに現地の医療機関を受診してください。"
         },
         {
-          "title": "AI Boundary",
-          "body": "AI outputs are preparatory and monitoring support only. They do not diagnose, recommend treatment, or decide on hospitals."
+          "title": "AIの境界",
+          "body": "AIの出力は準備およびモニタリング支援のみです。診断、治療の推奨、病院の選定は行いません。"
         },
         {
-          "title": "Data & Privacy",
-          "body": "Uploads are optional. Access is role-limited. Used only for decision support, coordination, and continuity monitoring."
+          "title": "データとプライバシー",
+          "body": "アップロードは任意です。アクセスは役割に限定されています。意思決定支援、調整、継続性モニタリングのためにのみ使用されます。"
         }
       ]
     },
@@ -642,213 +645,213 @@
       "titleHighlight": "整理する準備はできましたか？",
       "ctaPrimary": "意思決定の旅を始める",
       "ctaSecondary": "フレームワークを探る",
-      "disclaimer": "AI-assisted. Physician-authorized. No diagnosis. No treatment."
+      "disclaimer": "AI支援。医師が承認。診断なし。治療なし。"
     }
   },
   "trustProtocol": {
     "meta": {
-      "title": "The AetherHeal Trust Protocol | AetherHeal",
-      "description": "How AetherHeal governs human and AI-assisted decision support through independent oversight, auditable protocol enforcement, and selective partner hospital standards."
+      "title": "AetherHeal Trust Protocol | AetherHeal",
+      "description": "AetherHealが独立した監督、監査可能なプロトコル執行、厳選されたパートナー病院基準を通じて、人間およびAI支援の意思決定支援をどのように統治するかをご紹介します。"
     },
     "hero": {
-      "badge": "Governance",
-      "h1": "The AetherHeal",
+      "badge": "ガバナンス",
+      "h1": "AetherHeal",
       "h1Highlight": "Trust Protocol",
-      "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable.",
-      "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met."
+      "intro": "独立したガバナンスが人間およびAI支援の意思決定支援の両方を監督し、各ケースが臨床的に限定され、監査可能で、説明責任を持つようにします。",
+      "disclaimer": "トラストレビューアーは読み取り専用のレビューアーです。プロトコル基準が満たされない場合、停止、保留、または再明確化の要求を行うことがあります。"
     },
     "toc": [
       {
         "id": "purpose",
-        "label": "Purpose, Authority & Independence"
+        "label": "目的、権限、独立性"
       },
       {
         "id": "ai-governance",
-        "label": "AI Governance, Auditability & Enforcement"
+        "label": "AIガバナンス、監査可能性、執行"
       },
       {
         "id": "incentive-separation",
-        "label": "Incentive Separation"
+        "label": "インセンティブの分離"
       },
       {
         "id": "partner-criteria",
-        "label": "Partner Hospital Criteria"
+        "label": "パートナー病院基準"
       },
       {
         "id": "what-this-means",
-        "label": "What This Means for Patients"
+        "label": "患者様にとっての意味"
       },
       {
         "id": "trust-scope",
-        "label": "Trust Protocol Scope"
+        "label": "Trust Protocolの適用範囲"
       },
       {
         "id": "team",
-        "label": "Who Runs the Trust Protocol"
+        "label": "Trust Protocolの運営者"
       },
       {
         "id": "ongoing",
-        "label": "Ongoing Accountability"
+        "label": "継続的な説明責任"
       }
     ],
     "purpose": {
-      "title": "Purpose, Authority & Independence",
-      "protocolDocument": "Protocol Document",
-      "purposeTitle": "Purpose",
-      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process across both human and AI-assisted workflows. It is independent from clinical operations and reports directly to platform governance.",
-      "authorityTitle": "Authority",
-      "authorityText": "Trust reviewers have read-only access to completed decision summaries, protocol logs, and governed AI artifacts used in the case flow. They can flag concerns, request review, and escalate issues, but they cannot rewrite patient-facing documents or alter clinical recommendations.",
-      "independenceTitle": "Independence",
-      "independenceText": "The Trust Protocol team operates on a separate reporting line from clinical operations, provider relations, and commercial execution. This separation protects oversight quality from operational pressure, referral incentives, and automation convenience."
+      "title": "目的、権限、独立性",
+      "protocolDocument": "プロトコル文書",
+      "purposeTitle": "目的",
+      "purposeText": "Trust Protocolは、人間およびAI支援のワークフロー全体にわたるAetherHealの意思決定支援プロセスの完全性を維持するために存在します。臨床業務から独立しており、プラットフォームガバナンスに直接報告します。",
+      "authorityTitle": "権限",
+      "authorityText": "トラストレビューアーは、完了した意思決定サマリー、プロトコルログ、およびケースフローで使用される統治されたAIアーティファクトへの読み取り専用アクセスを持ちます。懸念を提起し、レビューを要求し、問題をエスカレーションすることができますが、患者向け文書を書き換えたり、臨床的推奨を変更することはできません。",
+      "independenceTitle": "独立性",
+      "independenceText": "Trust Protocolチームは、臨床業務、医療機関との関係、商業的実行とは別の報告ラインで運営されています。この分離により、運用上の圧力、紹介インセンティブ、自動化の利便性から監督の質が保護されます。"
     },
     "aiGovernance": {
-      "title": "AI Governance, Auditability & Enforcement",
-      "intro": "AI may support narrow parts of the process, but only inside defined operational boundaries. The governing standard is not speed or automation volume. It is decision quality, traceability, and safe escalation.",
+      "title": "AIガバナンス、監査可能性、執行",
+      "intro": "AIはプロセスの限定的な部分を支援する場合がありますが、定義された運用境界の中でのみ行われます。統治基準はスピードや自動化量ではありません。意思決定の質、追跡可能性、安全なエスカレーションです。",
       "principles": [
         {
-          "title": "Constrained Use",
-          "body": "AI may help structure intake, summarize records, support translation, and surface missing information within approved rules. It is not permitted to expand clinical scope, simulate certainty, or replace accountable human review."
+          "title": "制約された使用",
+          "body": "AIは承認されたルール内で、受付の構造化、記録の要約、翻訳の支援、不足情報の表面化を支援する場合があります。臨床範囲の拡大、確実性の模倣、説明責任のある人間によるレビューの代替は許可されていません。"
         },
         {
-          "title": "Human Review",
-          "body": "Patient-facing summaries, protocol exceptions, and provider-routing decisions require accountable human review before they are relied upon. AI can assist preparation, but ownership remains with licensed physicians, trust reviewers, or designated operations staff."
+          "title": "人間によるレビュー",
+          "body": "患者向けサマリー、プロトコルの例外、医療機関の振り分け決定は、信頼される前に説明責任のある人間のレビューを必要とします。AIは準備を支援できますが、所有権は医師免許を持つ医師、トラストレビューアー、または指定されたオペレーションスタッフに帰属します。"
         },
         {
-          "title": "Audit Trail",
-          "body": "Key prompts, outputs, edits, approvals, and exceptions are logged so that a case can be reconstructed and reviewed. Auditability is treated as a control requirement, not an optional feature."
+          "title": "監査証跡",
+          "body": "主要なプロンプト、出力、編集、承認、例外はログに記録され、ケースを再構成してレビューできるようにします。監査可能性はオプション機能ではなく、管理要件として扱われます。"
         },
         {
-          "title": "Protocol Enforcement",
-          "body": "When inputs are incomplete, ambiguous, out of scope, or safety-relevant, the governed response is to halt, defer, or request re-clarification. Proceeding is valid only when the record is sufficiently clear and accountable."
+          "title": "プロトコル執行",
+          "body": "入力が不完全、曖昧、範囲外、または安全性に関わる場合、統治された対応は停止、保留、または再明確化の要求です。記録が十分に明確で説明責任がある場合にのみ、進行が有効です。"
         }
       ],
-      "validTitle": "Valid protocol outcomes",
+      "validTitle": "有効なプロトコル結果",
       "outcomes": [
         {
-          "label": "Halt",
-          "body": "Used when the case is outside scope, safety-relevant, or cannot proceed without direct human intervention."
+          "label": "停止",
+          "body": "ケースが範囲外、安全性に関わる、または直接的な人間の介入なしに進行できない場合に使用されます。"
         },
         {
-          "label": "Defer",
-          "body": "Used when the case may proceed later, but timing, documentation, or readiness is not yet sufficient."
+          "label": "保留",
+          "body": "ケースが後で進行する可能性があるが、タイミング、文書、または準備態勢がまだ十分でない場合に使用されます。"
         },
         {
-          "label": "Re-clarify",
-          "body": "Used when the case can remain active, but claims, goals, records, or assumptions need to be restated more precisely."
+          "label": "再明確化",
+          "body": "ケースはアクティブなまま維持できるが、主張、目標、記録、または前提条件をより正確に再記述する必要がある場合に使用されます。"
         },
         {
-          "label": "Proceed",
-          "body": "Used only after the case has passed the relevant protocol checks and accountable humans confirm that the next step is appropriate."
+          "label": "進行",
+          "body": "ケースが関連するプロトコルチェックに合格し、説明責任のある人間が次のステップが適切であると確認した後にのみ使用されます。"
         }
       ]
     },
     "incentiveSeparation": {
-      "title": "Decision Integrity Through Incentive Separation",
-      "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. That conflict can affect both people and software: case flow begins optimizing for conversion rather than judgment quality.",
-      "p2": "AetherHeal is architecturally different. We separate the platform into independent layers with distinct incentives, reporting lines, and controls. AI systems, where used, are governed inside those same boundaries and are not allowed to optimize provider steering or case closure for commercial gain.",
+      "title": "インセンティブの分離による意思決定の完全性",
+      "p1": "ほとんどの医療旅行プラットフォームでは、病院を推薦するエンティティと紹介から利益を得るエンティティが同一です。この利益相反は人間とソフトウェアの両方に影響を与える可能性があります：ケースフローが判断の質ではなくコンバージョンの最適化に向かい始めます。",
+      "p2": "AetherHealはアーキテクチャが根本的に異なります。プラットフォームを異なるインセンティブ、報告ライン、管理を持つ独立したレイヤーに分離しています。使用されるAIシステムは同じ境界内で統治され、商業的利益のために医療機関の誘導やケースのクロージングを最適化することは許可されていません。",
       "angelLayer": {
-        "label": "Layer 1",
-        "title": "Angel Layer",
-        "description": "Physician advisors guide the patient's decision process. AI tooling may assist documentation inside this layer, but it cannot introduce provider preference, make final routing choices, or close a case autonomously.",
-        "incentiveLabel": "Incentive Tied To",
+        "label": "レイヤー1",
+        "title": "エンジェルレイヤー",
+        "description": "医師アドバイザーが患者様の意思決定プロセスを導きます。AIツールはこのレイヤー内で文書作成を支援する場合がありますが、医療機関の選好を導入したり、最終的な振り分けの選択を行ったり、自律的にケースをクローズすることはできません。",
+        "incentiveLabel": "インセンティブの連動先",
         "incentives": [
-          "Quality and completeness of clinician-reviewed decision support",
-          "Patient understanding and informed consent",
-          "Protocol adherence, including AI constraint compliance"
+          "臨床医がレビューした意思決定支援の質と完全性",
+          "患者様の理解とインフォームドコンセント",
+          "AIの制約遵守を含むプロトコルの遵守"
         ]
       },
       "providerLayer": {
-        "label": "Layer 2",
-        "title": "Medical Provider",
-        "description": "Partner hospitals and clinics deliver clinical care only after decision scope, protocol checks, and accountable approvals are satisfied. Their role is treatment delivery, not upstream decision shaping.",
-        "incentiveLabel": "Incentive Tied To",
+        "label": "レイヤー2",
+        "title": "医療機関",
+        "description": "パートナー病院およびクリニックは、意思決定の範囲、プロトコルチェック、説明責任のある承認が満たされた後にのみ臨床治療を提供します。その役割は治療の提供であり、上流の意思決定の形成ではありません。",
+        "incentiveLabel": "インセンティブの連動先",
         "incentives": [
-          "Clinical outcomes and treatment delivery",
-          "Patient satisfaction and recovery quality",
-          "Adherence to agreed care and continuity protocols"
+          "臨床成果と治療の提供",
+          "患者満足度と回復の質",
+          "合意されたケアと継続性プロトコルの遵守"
         ]
       },
-      "principleIntro": "The structural principle is simple:",
-      "principleText": "The people and systems that help structure your decision are not rewarded for steering you toward a particular provider. Human reviewers and governed AI workflows are constrained so decision support remains separate from treatment profit."
+      "principleIntro": "構造的原則はシンプルです：",
+      "principleText": "お客様の意思決定の構造化を支援する人々とシステムは、特定の医療機関に誘導することに対して報酬を受けていません。人間のレビューアーと統治されたAIワークフローは、意思決定支援が治療による利益から分離されるよう制約されています。"
     },
     "partnerCriteria": {
-      "title": "Partner Hospital Criteria",
-      "intro": "Not every hospital in Seoul meets our standards. AetherHeal operates a selective partner network where each institution is assessed across multiple dimensions before joining:",
+      "title": "パートナー病院基準",
+      "intro": "ソウルのすべての病院が当社の基準を満たしているわけではありません。AetherHealは、各機関が参加前に複数の側面で評価される厳選されたパートナーネットワークを運営しています：",
       "items": [
-        "Clinical expertise and surgeon specialization depth",
-        "Facility standards and equipment certification",
-        "Ethical practice history and patient complaint records",
-        "Cross-border patient experience and language support",
-        "Alignment with AetherHeal's decision-first philosophy",
-        "Post-treatment follow-up and continuity protocols"
+        "臨床専門知識と外科医の専門性の深さ",
+        "施設基準と機器認証",
+        "倫理的な診療実績と患者の苦情記録",
+        "越境患者の経験と言語サポート",
+        "AetherHealの意思決定優先の理念との整合性",
+        "治療後のフォローアップと継続性プロトコル"
       ]
     },
     "whatThisMeans": {
-      "title": "What This Means for Patients",
-      "p1": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation.",
-      "p2": "If a case is incomplete or ambiguous, halt, defer, and re-clarify are treated as valid safeguards rather than service failures. Hospitals in our network receive only the decision-ready case materials appropriate to the next step of review."
+      "title": "患者様にとっての意味",
+      "p1": "AetherHealがパートナー病院とのマッチングを行う際、そのマッチングはお客様の臨床プロファイル、文書化された制約、レビューされた意思決定サマリーに基づいています — コミッション、マーケティング圧力、不透明な自動化に基づくものではありません。",
+      "p2": "ケースが不完全または曖昧な場合、停止、保留、再明確化はサービスの失敗ではなく、有効な安全策として扱われます。当社ネットワークの病院は、レビューの次のステップに適した意思決定準備済みのケース資料のみを受け取ります。"
     },
     "trustScope": {
-      "title": "Trust Protocol Scope",
-      "intro": "Clear boundaries define what trust reviewers do and do not do.",
-      "doTitle": "Trust Reviewers Do",
+      "title": "Trust Protocolの適用範囲",
+      "intro": "明確な境界がトラストレビューアーが行うことと行わないことを定義します。",
+      "doTitle": "トラストレビューアーが行うこと",
       "doItems": [
-        "Review decision summary quality",
-        "Verify AI and human process logs",
-        "Audit protocol enforcement and exception handling",
-        "Ensure patient consent integrity",
-        "Monitor system-wide patterns",
-        "Flag safety or compliance concerns"
+        "意思決定サマリーの質のレビュー",
+        "AIおよび人間のプロセスログの検証",
+        "プロトコル執行と例外処理の監査",
+        "患者の同意の完全性の確保",
+        "システム全体のパターンの監視",
+        "安全性またはコンプライアンスの懸念のフラグ付け"
       ],
-      "dontTitle": "Trust Reviewers Don't",
+      "dontTitle": "トラストレビューアーが行わないこと",
       "dontItems": [
-        "Override treatment decisions at the provider level",
-        "Contact patients directly as treating clinicians",
-        "Modify decision summaries or logs retroactively",
-        "Provide diagnosis, prescriptions, or medical advice",
-        "Share patient data externally outside authorized process",
-        "Bypass halt, defer, or re-clarify controls"
+        "医療機関レベルでの治療決定の上書き",
+        "治療担当の臨床医として患者に直接連絡する",
+        "意思決定サマリーやログの遡及的な修正",
+        "診断、処方、または医療アドバイスの提供",
+        "承認されたプロセス外での患者データの外部共有",
+        "停止、保留、または再明確化の管理の回避"
       ]
     },
     "team": {
-      "title": "Who Runs the Trust Protocol?",
+      "title": "Trust Protocolの運営者",
       "roles": [
         {
-          "title": "Medical Quality Reviewer",
-          "description": "Reviews the clinical clarity and completeness of decision summaries before they are relied upon downstream."
+          "title": "医療品質レビューアー",
+          "description": "意思決定サマリーが下流で信頼される前に、その臨床的明確さと完全性をレビューします。"
         },
         {
-          "title": "AI Governance Reviewer",
-          "description": "Checks whether AI-assisted steps stayed within approved constraints, logging rules, and escalation standards."
+          "title": "AIガバナンスレビューアー",
+          "description": "AI支援のステップが承認された制約、ログルール、エスカレーション基準の範囲内に留まったかどうかを確認します。"
         },
         {
-          "title": "Process Integrity Reviewer",
-          "description": "Validates that required protocol gates, approvals, and exceptions were handled correctly for each case."
+          "title": "プロセス完全性レビューアー",
+          "description": "各ケースにおいて、必要なプロトコルゲート、承認、例外が正しく処理されたことを検証します。"
         },
         {
-          "title": "Patient Safety Reviewer",
-          "description": "Monitors for scope violations, unsafe claims, or workflow patterns that could compromise patient protection."
+          "title": "患者安全レビューアー",
+          "description": "範囲違反、安全でない主張、患者保護を損なう可能性のあるワークフローパターンを監視します。"
         }
       ]
     },
     "ongoing": {
-      "title": "Ongoing Accountability",
-      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, and periodic re-evaluation.",
-      "boxTitle": "Standards remain enforceable",
-      "boxText": "If repeated deviations, undocumented overrides, or unsafe automation patterns appear, the relevant workflow or partner relationship may be paused, remediated, or removed."
+      "title": "継続的な説明責任",
+      "text": "検証は一度限りのイベントではありません。AetherHealは監査、患者フィードバック、定期的な再評価を通じて、パートナー機関、人間のレビューアーのパフォーマンス、AI支援ワークフローの動作の継続的なレビューを維持しています。",
+      "boxTitle": "基準は執行可能です",
+      "boxText": "繰り返しの逸脱、文書化されていないオーバーライド、または安全でない自動化パターンが発生した場合、関連するワークフローまたはパートナー関係は一時停止、是正、または解除される場合があります。"
     },
     "relatedPages": [
       {
-        "label": "How to Choose a Hospital Abroad",
-        "desc": "A framework for safer decisions"
+        "label": "海外病院の選び方",
+        "desc": "より安全な意思決定のためのフレームワーク"
       },
       {
-        "label": "Your Medical Journey",
-        "desc": "Phase-by-phase coordination with clear ownership"
+        "label": "医療の旅",
+        "desc": "明確な責任分担によるフェーズ別の調整"
       },
       {
-        "label": "How AetherHeal Works",
-        "desc": "The system behind physician-led decision support"
+        "label": "AetherHealの仕組み",
+        "desc": "医師主導の意思決定支援の背景にあるシステム"
       }
     ]
   },
@@ -908,65 +911,65 @@
     },
     "caseStudies": {
       "badge": "ケーススタディ",
-      "title": "AI-Prepared Case Snapshots",
-      "subtitle": "These examples show how AI preparation sharpens physician review before hospital selection.",
+      "title": "AI準備によるケーススナップショット",
+      "subtitle": "これらの例は、病院選択前にAIの準備がどのように医師のレビューを強化するかを示しています。",
       "cases": [
         {
           "id": "HT-8291",
           "number": "01",
           "title": "植毛",
-          "goal": "Rebuild frontal density without overharvesting donor supply",
-          "constraint": "Limited donor area and a short recovery window",
-          "preparation": "AI separated density goals from hairline lowering, flagged the donor-supply mismatch, and queued missing scalp-history questions for physician review."
+          "goal": "ドナー供給を過剰採取せずに前頭部の密度を再建する",
+          "constraint": "限られたドナー領域と短い回復期間",
+          "preparation": "AIは密度目標とヘアライン下降を分離し、ドナー供給のミスマッチをフラグし、医師のレビューのために不足している頭皮履歴の質問をキューに入れました。"
         },
         {
           "id": "RH-1044",
           "number": "02",
           "title": "鼻整形",
-          "goal": "Straighten the bridge and refine the tip while keeping a natural look",
-          "constraint": "Thick skin and low tolerance for revision",
-          "preparation": "AI mapped the tension between dramatic refinement and tissue limits, then assembled a physician-ready summary of anatomy, priorities, and prior filler history."
+          "goal": "自然な見た目を保ちながら鼻筋を矯正し先端を洗練する",
+          "constraint": "厚い皮膚と修正に対する低い許容度",
+          "preparation": "AIはドラマティックな洗練と組織の限界の間の緊張をマッピングし、解剖学的構造、優先事項、過去のフィラー履歴について医師が準備完了のサマリーを作成しました。"
         },
         {
           "id": "SK-3302",
           "number": "03",
           "title": "スキンリフティング",
           "badge": "非外科的",
-          "goal": "Restore jawline definition with minimal downtime",
-          "constraint": "Non-surgical only and recent prior energy-device treatment",
-          "preparation": "AI highlighted the mismatch between lifting expectations and downtime limits, prompted missing device-history details, and prepared a concise brief for physician interpretation."
+          "goal": "最小限のダウンタイムでジョーラインの輪郭を回復する",
+          "constraint": "非外科的のみで、最近のエネルギーデバイス治療歴あり",
+          "preparation": "AIはリフティングの期待とダウンタイムの限界のミスマッチを強調し、不足しているデバイス履歴の詳細を促し、医師の解釈のための簡潔なブリーフを準備しました。"
         }
       ],
       "caseLabel": "ケース",
       "goalLabel": "目標",
       "constraintLabel": "制約",
-      "preparationLabel": "AI-prepared brief",
-      "disclaimer": "Illustrative preparation examples only. Physicians interpret clinical meaning, and outcomes vary by individual."
+      "preparationLabel": "AI準備ブリーフ",
+      "disclaimer": "説明目的の準備例です。医師が臨床的意味を解釈し、結果は個人により異なります。"
     },
     "aiPreparation": {
-      "badge": "Before You Book",
-      "title": "What AI Helps Patients Prepare",
-      "intro": "Before any hospital is contacted, AI helps turn scattered patient goals, constraints, and questions into a more structured starting point for physician review.",
+      "badge": "予約の前に",
+      "title": "AIが患者様の準備を支援すること",
+      "intro": "病院に連絡する前に、AIは散在する患者様の目標、制約、質問を、医師のレビューのためのより構造化された出発点に変換するのを支援します。",
       "outputs": [
         {
-          "title": "Goal hierarchy",
-          "body": "Organizes primary goals, secondary preferences, and non-negotiables so trade-offs become visible early."
+          "title": "目標の階層構造",
+          "body": "主要目標、二次的な希望、譲れない条件を整理し、トレードオフが早い段階で可視化されるようにします。"
         },
         {
-          "title": "Mismatch map",
-          "body": "Highlights where anatomy, timeline, budget, recovery expectations, or stated goals may conflict with one another."
+          "title": "ミスマッチマップ",
+          "body": "解剖学的構造、タイムライン、予算、回復の期待、または表明された目標が互いに矛盾する可能性がある箇所を強調します。"
         },
         {
-          "title": "Missing-info prompts",
-          "body": "Surfaces unanswered questions and missing details that a physician will need before meaningful interpretation."
+          "title": "不足情報のプロンプト",
+          "body": "医師が有意義な解釈を行う前に必要となる未回答の質問と不足している詳細を表面化します。"
         },
         {
-          "title": "Physician-ready summary",
-          "body": "Packages the case into a concise brief a physician can review, refine, challenge, and translate into next-step judgment."
+          "title": "医師レビュー用サマリー",
+          "body": "ケースを簡潔なブリーフにまとめ、医師がレビュー、改善、疑問提起し、次のステップの判断に変換できるようにします。"
         }
       ],
-      "boundaryLabel": "Boundary Note",
-      "boundaryNote": "AI prepares and structures information. Physicians interpret medical meaning, assess feasibility, and decide what matters clinically."
+      "boundaryLabel": "境界に関する注記",
+      "boundaryNote": "AIは情報を準備し構造化します。医師が医学的意味を解釈し、実現可能性を評価し、臨床的に重要な事項を判断します。"
     },
     "disciplines": {
       "badge": "対応範囲",
@@ -988,70 +991,70 @@
   },
   "medicalBoundary": {
     "meta": {
-      "title": "Medical Boundary Notice | AetherHeal",
-      "description": "Understand the medical and AI-operational limits of AetherHeal. This notice explains what the platform may support and what remains strictly human and clinical responsibility."
+      "title": "医療境界に関するお知らせ | AetherHeal",
+      "description": "AetherHealの医療およびAI運用上の限界をご理解ください。本通知では、プラットフォームが支援できる範囲と、人間および臨床上の責任に厳格に留まる範囲について説明します。"
     },
     "hero": {
-      "badge": "Legal & Safety",
-      "h1": "Medical Boundary Notice",
-      "subtitle": "This page defines the clinical, legal, and AI-operational limits of AetherHeal. Understanding these boundaries is required before use."
+      "badge": "法的事項・安全性",
+      "h1": "医療境界に関するお知らせ",
+      "subtitle": "このページでは、AetherHealの臨床的、法的、およびAI運用上の限界を定義します。ご利用前にこれらの境界を理解することが必要です。"
     },
     "boundaries": [
       {
-        "title": "Not a Medical Provider",
-        "description": "AetherHeal does not provide medical diagnosis, treatment, prescriptions, or hospital-based care. We are a decision support and coordination platform, not a hospital, clinic, or telemedicine service."
+        "title": "医療機関ではありません",
+        "description": "AetherHealは医療診断、治療、処方、または病院ベースの医療を提供しません。私たちは意思決定支援および調整プラットフォームであり、病院、クリニック、またはオンライン診療サービスではありません。"
       },
       {
-        "title": "AI Does Not Diagnose or Prescribe",
-        "description": "AI-assisted tools used by AetherHeal do not diagnose conditions, recommend medications, prescribe treatments, or produce independent medical conclusions."
+        "title": "AIは診断・処方を行いません",
+        "description": "AetherHealが使用するAI支援ツールは、症状の診断、薬の推奨、治療の処方、または独立した医学的結論の作成を行いません。"
       },
       {
-        "title": "AI Does Not Replace Physician Consultation",
-        "description": "AI-assisted summaries or translations may support communication, but they do not replace direct consultation with a licensed physician or the treating hospital."
+        "title": "AIは医師の診察に代わるものではありません",
+        "description": "AI支援による要約や翻訳はコミュニケーションを支援する場合がありますが、医師免許を持つ医師や治療を行う病院との直接的な診察に代わるものではありません。"
       },
       {
-        "title": "AI Does Not Determine Emergency Care",
-        "description": "Neither AetherHeal nor its AI-assisted tools determine whether a situation is an emergency. If urgent or severe symptoms occur, seek immediate local medical care and emergency services."
+        "title": "AIは緊急医療を判断しません",
+        "description": "AetherHealもそのAI支援ツールも、状況が緊急であるかどうかを判断しません。緊急または重度の症状が発生した場合は、直ちに現地の医療機関および救急サービスにご連絡ください。"
       },
       {
-        "title": "AI Does Not Make Final Provider Selection",
-        "description": "AI may help organize case information, but final provider selection, hospital routing, and next-step approvals remain accountable human decisions."
+        "title": "AIは最終的な医療機関選定を行いません",
+        "description": "AIはケース情報の整理を支援する場合がありますが、最終的な医療機関の選定、病院の振り分け、次のステップの承認は、責任ある人間の判断に委ねられます。"
       },
       {
-        "title": "Not a Guarantee of Outcomes",
-        "description": "Decision support can improve clarity, but it does not guarantee a particular medical outcome. Treatment results depend on clinical factors outside the platform's control."
+        "title": "結果を保証するものではありません",
+        "description": "意思決定支援は明確さを向上させることができますが、特定の医療結果を保証するものではありません。治療結果はプラットフォームの管理外の臨床的要因に依存します。"
       }
     ],
     "aiSupport": {
-      "badge": "Permitted AI Support",
-      "title": "What AI May Support",
-      "intro": "Within these boundaries, AI may be used for tightly scoped administrative and informational support under human oversight.",
+      "badge": "許可されたAI支援",
+      "title": "AIが支援できること",
+      "intro": "これらの境界内において、AIは人間の監督の下で、厳格に範囲が限定された事務的・情報提供的支援に使用される場合があります。",
       "items": [
-        "Structuring intake information and uploaded records into standardized drafts",
-        "Summarizing case materials for physician, reviewer, or operations review",
-        "Translating routine messages and non-diagnostic coordination content",
-        "Surfacing missing information, inconsistencies, or workflow delays for human follow-up",
-        "Monitoring operational status, message delivery, and service exceptions"
+        "受付情報およびアップロードされた記録を標準化されたドラフトに構造化する",
+        "医師、レビューアー、またはオペレーションレビューのためにケース資料を要約する",
+        "定型的なメッセージおよび非診断的な調整内容を翻訳する",
+        "不足情報、矛盾、またはワークフローの遅延を人間のフォローアップのために表面化させる",
+        "運用状況、メッセージ配信、およびサービスの例外を監視する"
       ]
     },
     "emergency": {
-      "title": "Emergency Notice",
-      "text": "Do not use this platform for urgent symptoms or life-threatening conditions. Contact local emergency services immediately.",
-      "phone": "Emergency: Call your local emergency number (911, 112, 119)"
+      "title": "緊急時のお知らせ",
+      "text": "緊急の症状や生命を脅かす状態にこのプラットフォームを使用しないでください。直ちに現地の救急サービスにご連絡ください。",
+      "phone": "緊急時：お住まいの地域の緊急通報番号にお電話ください（911、112、119）"
     },
     "responsibilities": {
-      "badge": "Your Responsibilities",
-      "title": "Your Role as a Platform User",
+      "badge": "利用者の責任",
+      "title": "プラットフォーム利用者としての役割",
       "items": [
-        "Provide complete and accurate intake information",
-        "Review summaries, translations, and coordination details for factual accuracy",
-        "Consult your physician or treating hospital for direct medical advice",
-        "Make your own treatment decisions after appropriate clinical review",
-        "Use emergency services for urgent medical conditions",
-        "Understand that AetherHeal provides bounded decision and coordination support only"
+        "正確かつ完全な受付情報を提供する",
+        "要約、翻訳、および調整の詳細について事実の正確性を確認する",
+        "直接的な医療アドバイスについては医師または治療を行う病院に相談する",
+        "適切な臨床レビューの後にご自身で治療の意思決定を行う",
+        "緊急の医療状態には救急サービスを利用する",
+        "AetherHealは限定的な意思決定および調整支援のみを提供することを理解する"
       ],
-      "ctaProcess": "Review process",
-      "ctaOversight": "View oversight"
+      "ctaProcess": "プロセスを確認する",
+      "ctaOversight": "監督体制を見る"
     }
   },
   "hairTransplant": {
@@ -1251,157 +1254,157 @@
   },
   "medicalJourney": {
     "meta": {
-      "title": "Your Medical Journey to Seoul | AetherHeal",
-      "description": "A stage-based medical journey to Seoul with clear ownership before travel, in Korea, and after return. AI supports coordination, while humans retain clinical and final decision responsibility."
+      "title": "ソウルへの医療の旅 | AetherHeal",
+      "description": "渡航前、韓国滞在中、帰国後の各フェーズで明確な責任分担を持つ、ステージ別のソウルへの医療の旅。AIが調整を支援し、臨床的および最終的な意思決定の責任は人間が保持します。"
     },
     "hero": {
-      "badge": "Journey Coordination",
-      "h1": "Your Medical Journey to Seoul:",
-      "h1Highlight": "Coordinated in Three Stages",
-      "intro": "Cross-border medical care becomes safer when each phase has clear ownership.",
-      "introDetail": "AetherHeal separates the journey into before travel, in Korea, and after return so AI support, physician review, hospital care, and concierge accountability do not blur together."
+      "badge": "旅の調整",
+      "h1": "ソウルへの医療の旅：",
+      "h1Highlight": "3つのステージで調整",
+      "intro": "各フェーズに明確な責任分担があることで、越境医療はより安全になります。",
+      "introDetail": "AetherHealは旅を渡航前、韓国滞在中、帰国後に分離し、AI支援、医師レビュー、病院治療、コンシェルジュの責任が混在しないようにしています。"
     },
     "toc": [
       {
         "id": "before-travel",
-        "label": "Before Travel"
+        "label": "渡航前"
       },
       {
         "id": "in-korea",
-        "label": "In Korea"
+        "label": "韓国滞在中"
       },
       {
         "id": "after-return",
-        "label": "After Return"
+        "label": "帰国後"
       },
       {
         "id": "what-makes-different",
-        "label": "What Makes This Different"
+        "label": "他との違い"
       }
     ],
     "journeyStages": {
-      "title": "Three Stages, One Accountable Journey",
-      "intro": "Each stage has a defined purpose. AI may support administrative clarity and continuity, but clinical judgment, treatment, escalation, and final approvals remain human responsibilities.",
+      "title": "3つのステージ、1つの責任ある旅",
+      "intro": "各ステージには明確な目的があります。AIは事務的な明確化と継続性を支援する場合がありますが、臨床判断、治療、エスカレーション、最終承認は人間の責任として残ります。",
       "stages": [
         {
           "id": "before-travel",
-          "label": "Stage 1",
-          "title": "Before Travel",
-          "summary": "This stage is for structuring the case before any treatment journey begins. The goal is decision readiness, not speed.",
-          "milestonesTitle": "Core milestones",
+          "label": "ステージ1",
+          "title": "渡航前",
+          "summary": "このステージは、治療の旅が始まる前にケースを構造化するためのものです。目標はスピードではなく、意思決定の準備態勢です。",
+          "milestonesTitle": "主要マイルストーン",
           "items": [
             {
-              "title": "Decision structuring",
-              "desc": "Goals, constraints, prior records, and open questions are organized into a clearer decision frame before partner outreach."
+              "title": "意思決定の構造化",
+              "desc": "目標、制約、過去の記録、未解決の質問を、パートナーへの連絡前により明確な意思決定フレームに整理します。"
             },
             {
-              "title": "Feasibility preparation",
-              "desc": "Appropriate documents, travel constraints, and scope assumptions are checked so the case is fit for hospital review."
+              "title": "実現可能性の準備",
+              "desc": "適切な書類、渡航上の制約、範囲の前提条件を確認し、ケースが病院レビューに適した状態にします。"
             },
             {
-              "title": "Coordination readiness",
-              "desc": "Scheduling intent, likely timelines, and practical travel planning are prepared only after the case is sufficiently clarified."
+              "title": "調整の準備態勢",
+              "desc": "スケジューリングの意向、予想されるタイムライン、実際的な渡航計画は、ケースが十分に明確化された後にのみ準備されます。"
             }
           ],
-          "aiTitle": "AI supports",
+          "aiTitle": "AIの支援内容",
           "aiItems": [
-            "Structuring intake information and draft summaries for review",
-            "Supporting translation of records or routine coordination messages",
-            "Surfacing missing documents, conflicting details, or unresolved questions"
+            "受付情報およびレビュー用ドラフトサマリーの構造化",
+            "記録や定型的な調整メッセージの翻訳支援",
+            "不足書類、矛盾する詳細、未解決の質問の表面化"
           ],
-          "humanTitle": "Humans own",
+          "humanTitle": "人間が担う責任",
           "humanItems": [
-            "Defining clinical boundaries and what the case is actually about",
-            "Confirming whether the case is ready to proceed, defer, or re-clarify",
-            "Approving partner outreach, scheduling, and next-step commitments"
+            "臨床的な境界とケースの本質の定義",
+            "ケースが進行、保留、または再明確化の準備ができているかの確認",
+            "パートナーへの連絡、スケジューリング、次のステップへのコミットメントの承認"
           ]
         },
         {
           "id": "in-korea",
-          "label": "Stage 2",
-          "title": "In Korea",
-          "summary": "Once the patient is on the ground, coordination must stay precise while treatment authority remains with the treating institution and responsible clinicians.",
-          "milestonesTitle": "Core milestones",
+          "label": "ステージ2",
+          "title": "韓国滞在中",
+          "summary": "患者様が現地に到着した後、治療の権限が治療施設と責任ある臨床医に留まる一方で、調整は正確さを維持する必要があります。",
+          "milestonesTitle": "主要マイルストーン",
           "items": [
             {
-              "title": "Arrival and handoff",
-              "desc": "Airport arrival, transportation, appointment alignment, and on-site coordination are kept synchronized."
+              "title": "到着と引き継ぎ",
+              "desc": "空港到着、交通手配、予約の調整、および現地でのコーディネーションが同期されます。"
             },
             {
-              "title": "Hospital-facing execution",
-              "desc": "Consultation, informed consent, and treatment planning occur within the licensed hospital or clinic environment."
+              "title": "病院での実行",
+              "desc": "診察、インフォームドコンセント、治療計画は、認可された病院またはクリニック環境内で行われます。"
             },
             {
-              "title": "Real-time support",
-              "desc": "Concierge and operations support help keep logistics visible so delays or missed steps can be escalated quickly."
+              "title": "リアルタイムサポート",
+              "desc": "コンシェルジュおよびオペレーションサポートがロジスティクスの可視性を維持し、遅延や見落としを迅速にエスカレーションできるようにします。"
             }
           ],
-          "aiTitle": "AI supports",
+          "aiTitle": "AIの支援内容",
           "aiItems": [
-            "Keeping itineraries, reminders, and routine coordination synchronized",
-            "Assisting with translation of routine non-diagnostic communications",
-            "Monitoring workflow gaps, missed handoffs, or timing risks for human follow-up"
+            "スケジュール、リマインダー、定型的な調整の同期維持",
+            "定型的な非診断的コミュニケーションの翻訳支援",
+            "ワークフローのギャップ、引き継ぎの漏れ、タイミングリスクの監視と人間によるフォローアップ"
           ],
-          "humanTitle": "Humans own",
+          "humanTitle": "人間が担う責任",
           "humanItems": [
-            "Hospital consultation, informed consent, and all medical treatment decisions",
-            "Escalation when something appears urgent, unclear, or outside normal workflow",
-            "Final operational judgment by concierge and platform staff on the ground"
+            "病院での診察、インフォームドコンセント、およびすべての医療治療の意思決定",
+            "緊急、不明確、または通常のワークフロー外と思われる場合のエスカレーション",
+            "現地のコンシェルジュおよびプラットフォームスタッフによる最終的な運用判断"
           ]
         },
         {
           "id": "after-return",
-          "label": "Stage 3",
-          "title": "After Return",
-          "summary": "After the patient goes home, continuity matters. The purpose is to preserve communication, follow-through, and documented escalation when needed.",
-          "milestonesTitle": "Core milestones",
+          "label": "ステージ3",
+          "title": "帰国後",
+          "summary": "患者様が帰国した後、継続性が重要です。目的はコミュニケーション、フォロースルー、必要な場合の文書化されたエスカレーションを維持することです。",
+          "milestonesTitle": "主要マイルストーン",
           "items": [
             {
-              "title": "Follow-up continuity",
-              "desc": "Updates, check-ins, and care continuity are coordinated so recovery communication does not fragment across borders."
+              "title": "フォローアップの継続性",
+              "desc": "最新情報、チェックイン、ケアの継続性が調整され、回復に関するコミュニケーションが国境を越えて分断されないようにします。"
             },
             {
-              "title": "Documentation hygiene",
-              "desc": "Recovery notes, images, and follow-up messages are kept organized for review and case continuity."
+              "title": "ドキュメントの整備",
+              "desc": "回復メモ、画像、フォローアップメッセージがレビューおよびケースの継続性のために整理された状態で維持されます。"
             },
             {
-              "title": "Escalation discipline",
-              "desc": "If recovery concerns arise, the patient is directed toward the appropriate treating or local physician rather than informal reassurance."
+              "title": "エスカレーションの規律",
+              "desc": "回復に関する懸念が生じた場合、患者様は非公式な安心感ではなく、適切な治療担当医または現地の医師に向けて案内されます。"
             }
           ],
-          "aiTitle": "AI supports",
+          "aiTitle": "AIの支援内容",
           "aiItems": [
-            "Organizing follow-up messages and recovery updates into structured case notes",
-            "Supporting translation and summary drafting for continuity workflows",
-            "Flagging unanswered check-ins or coordination gaps that need human attention"
+            "フォローアップメッセージと回復状況の更新を構造化されたケースノートに整理",
+            "継続性ワークフローのための翻訳およびサマリー作成の支援",
+            "未回答のチェックインや人間の注意が必要な調整のギャップのフラグ付け"
           ],
-          "humanTitle": "Humans own",
+          "humanTitle": "人間が担う責任",
           "humanItems": [
-            "Clinical interpretation of recovery status by appropriate physicians",
-            "Advising when the patient should contact the treating hospital or local doctor",
-            "Managing continuity, escalation, and documented follow-through"
+            "適切な医師による回復状態の臨床的解釈",
+            "患者様が治療担当病院または現地の医師に連絡すべき時期のアドバイス",
+            "継続性、エスカレーション、および文書化されたフォロースルーの管理"
           ]
         }
       ]
     },
     "whatMakesDifferent": {
-      "title": "What Makes This Different",
-      "text": "Unlike medical tourism models that blur sales, logistics, and medical judgment, AetherHeal separates the journey into explicit phases with explicit ownership.",
-      "boxTitle": "AI supports the process",
-      "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey."
+      "title": "他との違い",
+      "text": "営業、ロジスティクス、医療判断を曖昧にする医療ツーリズムモデルとは異なり、AetherHealは旅を明確なフェーズと明確な責任分担に分離します。",
+      "boxTitle": "AIはプロセスを支援しますが",
+      "boxText": "診断、治療、緊急判断、最終的な医療機関選定の責任を持つことはありません。これらは旅を通じて人間の責任として残ります。"
     },
     "relatedPages": [
       {
-        "label": "How to Choose a Hospital Abroad",
-        "desc": "A framework for safer decisions"
+        "label": "海外病院の選び方",
+        "desc": "より安全な意思決定のためのフレームワーク"
       },
       {
-        "label": "The AetherHeal Trust Protocol",
-        "desc": "How governance, auditing, and enforcement work"
+        "label": "AetherHeal Trust Protocol",
+        "desc": "ガバナンス、監査、執行の仕組み"
       },
       {
-        "label": "How AetherHeal Works",
-        "desc": "The system behind physician-led decision support"
+        "label": "AetherHealの仕組み",
+        "desc": "医師主導の意思決定支援の背景にあるシステム"
       }
     ]
   },
@@ -1616,19 +1619,23 @@
         "合併症管理"
       ],
       "p4": "その結果、レビュー主導のプラットフォームは臨床的な厳密さよりも認知度を最適化する傾向があります。",
-      "trustProtocolNote": "ここで体系的なトラストプロトコルが不可欠になります — マーケティングのパフォーマンスではなく、臨床的なメリットで病院を評価するプロトコルです。"
+      "trustProtocolNote": {
+        "before": "ここで体系的な",
+        "linkText": "トラストプロトコル",
+        "after": "が不可欠になります — マーケティングのパフォーマンスではなく、臨床的なメリットで病院を評価するプロトコルです。"
+      }
     },
     "physicianLed": {
-      "title": "The AI-Structured, Physician-Led Verification Model",
-      "p1": "One way to reduce uncertainty is to let AI structure raw patient information before physician verification begins.",
-      "p2": "In an AI-structured, physician-led model:",
+      "title": "AI構造化、医師主導の検証モデル",
+      "p1": "不確実性を減らす一つの方法は、医師の検証が始まる前にAIに生の患者情報を構造化させることです。",
+      "p2": "AI構造化、医師主導のモデルでは：",
       "items": [
-        "patient goals, constraints, and context are organized before a hospital is considered",
-        "physicians review the structured case, interpret clinical meaning, and test feasibility",
-        "hospitals are assessed against physician-reviewed clinical criteria, not marketing alone"
+        "病院が検討される前に、患者の目標、制約、文脈が整理されます",
+        "医師が構造化されたケースをレビューし、臨床的意味を解釈し、実現可能性をテストします",
+        "病院はマーケティングだけでなく、医師がレビューした臨床基準に対して評価されます"
       ],
-      "p3": "This model uses AI to improve preparation and consistency while keeping medical interpretation, judgment, and accountability with licensed physicians.",
-      "trustNote": "AetherHeal's Trust Protocol follows this logic: AI helps structure the case, and physicians lead the verification of each partner institution."
+      "p3": "このモデルはAIを使用して準備と一貫性を向上させつつ、医学的解釈、判断、説明責任を医師免許を持つ医師に留めています。",
+      "trustNote": "AetherHealのTrust Protocolはこの論理に従います：AIがケースの構造化を支援し、医師が各パートナー機関の検証を主導します。"
     },
     "patientJourney": {
       "title": "海外患者様の旅の理解",

@@ -32,7 +32,10 @@
         "plasticSurgery": "Plastic Surgery in Korea",
         "aestheticClinics": "Aesthetic Clinics in Seoul"
       },
-      "medicalBoundaryNotice": "Medical Boundary Notice"
+      "medicalBoundaryNotice": "Medical Boundary Notice",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "paymentRefundPolicy": "Payment & Refund Policy"
     },
     "continueReading": "Continue Reading",
     "contents": "Contents",
@@ -1652,7 +1655,11 @@
         "complication management"
       ],
       "p4": "As a result, review-driven platforms often optimize for visibility rather than clinical rigor.",
-      "trustProtocolNote": "This is where a structured trust protocol becomes essential — one that evaluates hospitals on clinical merit, not marketing performance."
+      "trustProtocolNote": {
+        "before": "This is where a structured ",
+        "linkText": "trust protocol",
+        "after": " becomes essential — one that evaluates hospitals on clinical merit, not marketing performance."
+      }
     },
     "physicianLed": {
       "title": "The AI-Structured, Physician-Led Verification Model",

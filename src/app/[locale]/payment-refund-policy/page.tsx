@@ -8,6 +8,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: "Payment & Refund Policy | AetherHeal",
     description:
       "Learn how AetherHeal handles payments, deposits, scheduling changes, and refunds for international medical coordination services.",
+    openGraph: {
+      title: "Payment & Refund Policy | AetherHeal",
+      description: "Learn how AetherHeal handles payments, deposits, scheduling changes, and refunds for international medical coordination services.",
+      url: `https://aetherheal.com/${locale}/payment-refund-policy`,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Payment & Refund Policy | AetherHeal",
+      description: "Learn how AetherHeal handles payments, deposits, scheduling changes, and refunds for international medical coordination services.",
+    },
     alternates: {
       canonical: `https://aetherheal.com/${locale}/payment-refund-policy`,
       languages: Object.fromEntries(
@@ -39,6 +50,27 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <div className="prose prose-slate max-w-none space-y-10 text-text-body leading-relaxed text-[15px] sm:text-base">
+          <nav className="not-prose p-6 sm:p-8 bg-slate-50 border border-slate-100 rounded-2xl">
+            <h2 className="font-serif text-sm text-brand-navy font-bold uppercase tracking-widest mb-6">Table of Contents</h2>
+            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                { id: "deposit-requirement", label: "1. Deposit Requirement" },
+                { id: "payment-processing", label: "2. Payment Processing" },
+                { id: "appointment-confirmation", label: "3. Appointment Confirmation" },
+                { id: "rescheduling", label: "4. Appointment Rescheduling" },
+                { id: "cancellation", label: "5. Cancellation Policy" },
+                { id: "refund-conditions", label: "6. Refund Conditions" },
+                { id: "refund-processing", label: "7. Refund Processing" },
+                { id: "disputes", label: "8. Payment Disputes" },
+                { id: "policy-updates", label: "9. Policy Updates" },
+                { id: "contact", label: "10. Contact Information" },
+              ].map((item) => (
+                <li key={item.id}>
+                  <a href={`#${item.id}`} className="text-sm text-slate-600 font-medium hover:text-brand-gold transition-colors">{item.label}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
           <p>
             This Payment &amp; Refund Policy (&ldquo;Policy&rdquo;) outlines the terms and conditions governing deposit
             payments, appointment scheduling, rescheduling, cancellation, and refund procedures for services coordinated
@@ -47,7 +79,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             Policy.
           </p>
 
-          <section>
+          <section id="deposit-requirement" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               1. Deposit Requirement
             </h2>
@@ -78,7 +110,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="payment-processing" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               2. Payment Processing
             </h2>
@@ -108,7 +140,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="appointment-confirmation" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               3. Appointment Confirmation
             </h2>
@@ -126,7 +158,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="rescheduling" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               4. Appointment Rescheduling Policy
             </h2>
@@ -148,7 +180,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="cancellation" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               5. Cancellation Policy
             </h2>
@@ -166,7 +198,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="refund-conditions" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               6. Refund Conditions
             </h2>
@@ -228,7 +260,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </ul>
           </section>
 
-          <section>
+          <section id="refund-processing" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               7. Refund Processing
             </h2>
@@ -252,7 +284,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="disputes" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               8. Payment Disputes and Chargebacks
             </h2>
@@ -270,7 +302,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="policy-updates" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               9. Policy Updates
             </h2>
@@ -282,7 +314,7 @@ export default async function PaymentRefundPolicyPage({ params }: { params: Prom
             </p>
           </section>
 
-          <section>
+          <section id="contact" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">
               10. Contact Information
             </h2>

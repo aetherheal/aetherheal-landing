@@ -48,6 +48,9 @@ export function Navbar({ dict, locale }: NavbarProps) {
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-[0_1px_0_0_rgba(0,0,0,0.04)]">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:px-4 focus:py-2 focus:bg-brand-navy focus:text-white focus:rounded-md focus:text-sm">
+        Skip to main content
+      </a>
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href={`/${locale}`} className="flex items-center">
@@ -107,6 +110,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
                     : "text-text-muted hover:text-brand-navy hover:bg-slate-50"
                 )}
                 aria-label="Select Language"
+                aria-expanded={isLangOpen}
               >
                 <Globe className="w-3.5 h-3.5" />
                 <span className="hidden sm:inline">{localeShort[locale]}</span>

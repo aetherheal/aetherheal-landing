@@ -7,6 +7,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: "Privacy Policy | AetherHeal",
     description: "Learn how AetherHeal collects, uses, and protects your personal data. Our privacy policy explains your rights and how we safeguard your information.",
+    openGraph: {
+      title: "Privacy Policy | AetherHeal",
+      description: "Learn how AetherHeal collects, uses, and protects your personal data. Our privacy policy explains your rights and how we safeguard your information.",
+      url: `https://aetherheal.com/${locale}/privacy-policy`,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Privacy Policy | AetherHeal",
+      description: "Learn how AetherHeal collects, uses, and protects your personal data. Our privacy policy explains your rights and how we safeguard your information.",
+    },
     alternates: {
       canonical: `https://aetherheal.com/${locale}/privacy-policy`,
       languages: Object.fromEntries(locales.map((l) => [l, `https://aetherheal.com/${l}/privacy-policy`])),
@@ -32,21 +43,43 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
 
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <div className="space-y-10 text-text-body leading-relaxed text-[15px]">
+          <nav className="p-6 sm:p-8 bg-slate-50 border border-slate-100 rounded-2xl">
+            <h2 className="font-serif text-sm text-brand-navy font-bold uppercase tracking-widest mb-6">Table of Contents</h2>
+            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                { id: "scope", label: "1. Scope and Role of AetherHeal" },
+                { id: "data-we-collect", label: "2. Personal Data We Collect" },
+                { id: "purposes", label: "3. Purposes of Processing" },
+                { id: "third-party", label: "4. Third-Party Disclosure" },
+                { id: "cross-border", label: "5. Cross-Border Transfer" },
+                { id: "entrustment", label: "6. Entrustment of Processing" },
+                { id: "retention", label: "7. Retention and Deletion" },
+                { id: "your-rights", label: "8. Your Rights" },
+                { id: "security", label: "9. Security" },
+                { id: "changes", label: "10. Changes to This Privacy Policy" },
+                { id: "contact", label: "11. Contact Information" },
+              ].map((item) => (
+                <li key={item.id}>
+                  <a href={`#${item.id}`} className="text-sm text-slate-600 font-medium hover:text-brand-gold transition-colors">{item.label}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
           <p>
             AetherHeal Co., Ltd. (&quot;AetherHeal,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the AetherHeal platform (website, mobile applications, or related services). By accessing or using our services, you acknowledge that you have read and understood this Privacy Policy.
           </p>
 
-          <section>
+          <section id="scope" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">1. Scope and Role of AetherHeal</h2>
             <p>
-              AetherHeal is a medical tourism coordination platform that facilitates the connection between international patients and licensed healthcare providers in South Korea. AetherHeal is not a medical provider, hospital, or clinic. We do not render medical diagnoses, treatments, or advice. All medical services are independently provided by partner medical institutions.
+              AetherHeal is a physician-led decision support platform that facilitates the connection between international patients and licensed healthcare providers in South Korea. AetherHeal is not a medical provider, hospital, or clinic. We do not render medical diagnoses, treatments, or advice. All medical services are independently provided by partner medical institutions.
             </p>
             <p className="mt-3">
               This Privacy Policy applies to all personal data processed by AetherHeal in connection with our platform and coordination services.
             </p>
           </section>
 
-          <section>
+          <section id="data-we-collect" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">2. Personal Data We Collect</h2>
 
             <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">2.1 Information You Provide Directly</h3>
@@ -83,7 +116,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="purposes" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">3. Purposes of Processing</h2>
             <p className="mb-3">We process your personal data for the following purposes:</p>
             <ul className="list-disc pl-6 space-y-2 text-text-body marker:text-slate-300">
@@ -103,7 +136,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="third-party" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">4. Third-Party Disclosure</h2>
 
             <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">4.1 Provision to Partner Medical Institutions</h3>
@@ -140,10 +173,10 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="cross-border" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">5. Cross-Border Transfer</h2>
             <p className="mb-4">
-              As an international medical tourism platform, your personal data may be transferred to and processed in countries outside your country of residence, including South Korea.
+              As an international decision support platform, your personal data may be transferred to and processed in countries outside your country of residence, including South Korea.
             </p>
 
             <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.1 Overseas Transfer to Partners</h3>
@@ -177,7 +210,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="entrustment" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">6. Entrustment of Processing</h2>
             <p>
               AetherHeal may entrust certain personal data processing activities to third-party service providers (e.g., cloud hosting, customer communication tools, analytics platforms). In such cases, we enter into data processing agreements that require the entrusted parties to:
@@ -193,7 +226,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="retention" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">7. Retention and Deletion</h2>
             <p>
               We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable law. When your data is no longer needed, we will securely delete or anonymize it.
@@ -210,7 +243,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="your-rights" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">8. Your Rights</h2>
             <p className="mb-3">
               Depending on your jurisdiction, you may have the following rights regarding your personal data:
@@ -227,7 +260,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="security" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">9. Security</h2>
             <p>
               AetherHeal implements reasonable technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. These measures include, but are not limited to:
@@ -243,14 +276,14 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             </p>
           </section>
 
-          <section>
+          <section id="changes" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">10. Changes to This Privacy Policy</h2>
             <p>
               We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. When we make material changes, we will notify you by posting the updated policy on our platform and updating the &quot;Last Updated&quot; date at the top of this page. We encourage you to review this Privacy Policy periodically.
             </p>
           </section>
 
-          <section>
+          <section id="contact" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">11. Contact Information</h2>
             <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us at:</p>
             <div className="mt-4 bg-slate-50 rounded-lg p-6 space-y-2">

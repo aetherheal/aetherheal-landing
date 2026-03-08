@@ -128,7 +128,7 @@ export default async function LocaleLayout({
       <ScrollToTop />
       <div className="flex flex-col min-h-full">
         <Navbar dict={dict.common} locale={locale as Locale} />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
         <Footer dict={dict.common} locale={locale as Locale} />
       </div>
     </>

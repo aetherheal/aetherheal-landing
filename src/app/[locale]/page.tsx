@@ -53,6 +53,7 @@ export default async function HomePage({
 
   return (
     <div className="min-h-full">
+      <link rel="preload" as="video" href="/assets/hero-bg.mp4" type="video/mp4" />
       {/* Hero: Video + Content (overlapping on desktop) */}
       <section className="relative w-full">
         <div className="w-full max-h-[95vh] overflow-hidden">

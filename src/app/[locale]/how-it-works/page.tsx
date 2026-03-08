@@ -37,6 +37,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `https://aetherheal.com/${locale}/how-it-works`,
       languages: Object.fromEntries(locales.map((l) => [l, `https://aetherheal.com/${l}/how-it-works`])),
     },
+    openGraph: {
+      title: t.title,
+      description: t.description,
+      url: `https://aetherheal.com/${locale}/how-it-works`,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t.title,
+      description: t.description,
+    },
   }
 }
 

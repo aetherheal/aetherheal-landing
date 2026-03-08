@@ -6,7 +6,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params
   return {
     title: "Terms of Service | AetherHeal",
-    description: "Terms and conditions governing the use of the AetherHeal platform, including booking services, user responsibilities, and medical tourism facilitation.",
+    description: "Terms and conditions governing the use of the AetherHeal platform, including booking services, user responsibilities, and decision support coordination.",
+    openGraph: {
+      title: "Terms of Service | AetherHeal",
+      description: "Terms and conditions governing the use of the AetherHeal platform, including booking services, user responsibilities, and decision support coordination.",
+      url: `https://aetherheal.com/${locale}/terms-of-service`,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Terms of Service | AetherHeal",
+      description: "Terms and conditions governing the use of the AetherHeal platform, including booking services, user responsibilities, and decision support coordination.",
+    },
     alternates: {
       canonical: `https://aetherheal.com/${locale}/terms-of-service`,
       languages: Object.fromEntries(locales.map((l) => [l, `https://aetherheal.com/${l}/terms-of-service`])),
@@ -34,7 +45,38 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
       <section className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <div className="space-y-12">
 
-          <div id="introduction">
+          <nav className="p-6 sm:p-8 bg-slate-50 border border-slate-100 rounded-2xl">
+            <h2 className="font-serif text-sm text-brand-navy font-bold uppercase tracking-widest mb-6">Table of Contents</h2>
+            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                { id: "introduction", label: "1. Introduction" },
+                { id: "definitions", label: "2. Definitions" },
+                { id: "nature-of-the-platform", label: "3. Nature of the Platform" },
+                { id: "user-accounts", label: "4. User Accounts" },
+                { id: "services-provided", label: "5. Services Provided" },
+                { id: "booking-services", label: "6. Booking Services" },
+                { id: "payments", label: "7. Payments" },
+                { id: "refund-policy-reference", label: "8. Refund Policy Reference" },
+                { id: "responsibilities-of-medical-institutions", label: "9. Responsibilities of Medical Institutions" },
+                { id: "user-responsibilities", label: "10. User Responsibilities" },
+                { id: "prohibited-conduct", label: "11. Prohibited Conduct" },
+                { id: "intellectual-property", label: "12. Intellectual Property" },
+                { id: "privacy", label: "13. Privacy" },
+                { id: "limitation-of-liability", label: "14. Limitation of Liability" },
+                { id: "indemnification", label: "15. Indemnification" },
+                { id: "service-availability-and-modification", label: "16. Service Availability and Modification" },
+                { id: "termination-of-service", label: "17. Termination of Service" },
+                { id: "governing-law", label: "18. Governing Law" },
+                { id: "dispute-resolution", label: "19. Dispute Resolution" },
+                { id: "contact-information", label: "20. Contact Information" },
+              ].map((item) => (
+                <li key={item.id}>
+                  <a href={`#${item.id}`} className="text-sm text-slate-600 font-medium hover:text-brand-gold transition-colors">{item.label}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+          <div id="introduction" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">1. Introduction</h2>
             <div className="space-y-6">
               <div>
@@ -58,7 +100,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="definitions">
+          <div id="definitions" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">2. Definitions</h2>
             <div className="space-y-4">
               <div>
@@ -100,7 +142,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="nature-of-the-platform">
+          <div id="nature-of-the-platform" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">3. Nature of the Platform</h2>
             <div className="space-y-6">
               <div>
@@ -124,7 +166,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="user-accounts">
+          <div id="user-accounts" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">4. User Accounts</h2>
             <div className="space-y-6">
               <div>
@@ -148,7 +190,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="services-provided">
+          <div id="services-provided" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">5. Services Provided</h2>
             <div className="space-y-6">
               <div>
@@ -184,7 +226,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="booking-services">
+          <div id="booking-services" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">6. Booking Services</h2>
             <div className="space-y-6">
               <div>
@@ -214,7 +256,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="payments">
+          <div id="payments" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">7. Payments</h2>
             <div className="space-y-6">
               <div>
@@ -238,7 +280,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="refund-policy-reference">
+          <div id="refund-policy-reference" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">8. Refund Policy Reference</h2>
             <div className="space-y-6">
               <div>
@@ -256,7 +298,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="responsibilities-of-medical-institutions">
+          <div id="responsibilities-of-medical-institutions" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">9. Responsibilities of Medical Institutions</h2>
             <div className="space-y-6">
               <div>
@@ -280,7 +322,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="user-responsibilities">
+          <div id="user-responsibilities" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">10. User Responsibilities</h2>
             <div className="space-y-6">
               <div>
@@ -304,7 +346,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="prohibited-conduct">
+          <div id="prohibited-conduct" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">11. Prohibited Conduct</h2>
             <div className="space-y-6">
               <div>
@@ -328,7 +370,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="intellectual-property">
+          <div id="intellectual-property" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">12. Intellectual Property</h2>
             <div className="space-y-6">
               <div>
@@ -346,7 +388,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="privacy">
+          <div id="privacy" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">13. Privacy</h2>
             <div className="space-y-6">
               <div>
@@ -364,7 +406,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="limitation-of-liability">
+          <div id="limitation-of-liability" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">14. Limitation of Liability</h2>
             <div className="space-y-6">
               <div>
@@ -388,7 +430,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="indemnification">
+          <div id="indemnification" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">15. Indemnification</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
@@ -403,7 +445,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="service-availability-and-modification">
+          <div id="service-availability-and-modification" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">16. Service Availability and Modification</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
@@ -415,7 +457,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="termination-of-service">
+          <div id="termination-of-service" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">17. Termination of Service</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
@@ -427,7 +469,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="governing-law">
+          <div id="governing-law" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">18. Governing Law</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
@@ -436,7 +478,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="dispute-resolution">
+          <div id="dispute-resolution" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">19. Dispute Resolution</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
@@ -445,7 +487,7 @@ export default async function TermsOfServicePage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div id="contact-information">
+          <div id="contact-information" className="scroll-mt-24">
             <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mt-12 mb-6 pb-2 border-b border-slate-100">20. Contact Information</h2>
             <div className="space-y-4">
               <p className="text-text-body text-base leading-relaxed">
