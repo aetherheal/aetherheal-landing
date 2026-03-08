@@ -328,7 +328,7 @@ export default async function HomePage({
         <div className="relative mb-4">
           <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
           <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-left w-max">
+          <div className="flex animate-scroll-right w-max">
             {[...t.trending.row1, ...t.trending.row1].map((item, i) => (
               <div key={`r1-${i}`} className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5">
                 <span className="text-2xl mb-3 block">{item.emoji}</span>
@@ -501,17 +501,14 @@ export default async function HomePage({
             <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.partners.title}</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {t.partners.hospitals.map((h, idx) => (
-              <div key={h.name} className={cn(
-                "bg-white border border-slate-200 rounded-[28px] p-5 shadow-[0_18px_45px_-30px_rgba(15,23,42,0.16)]",
-                idx < 2 && "lg:col-span-2 lg:p-7"
-              )}>
-                <p className={cn("font-serif font-bold text-brand-navy mb-1 leading-snug", idx < 2 ? "text-xl" : "text-base")}>{h.name}</p>
+            {t.partners.hospitals.map((h) => (
+              <div key={h.name} className="bg-white border border-slate-200 rounded-[28px] p-5 shadow-[0_18px_45px_-30px_rgba(15,23,42,0.16)]">
+                <p className="font-serif font-bold text-brand-navy mb-1 leading-snug text-base">{h.name}</p>
                 <p className="text-[11px] text-text-muted/70 mb-3 flex items-center gap-1">
                   <span className="w-1 h-1 rounded-full bg-brand-gold/50 inline-block" />
                   {h.location}
                 </p>
-                <p className={cn("text-text-muted leading-relaxed", idx < 2 ? "text-sm" : "text-xs")}>{h.specialties}</p>
+                <p className="text-xs text-text-muted leading-relaxed">{h.specialties}</p>
               </div>
             ))}
           </div>
