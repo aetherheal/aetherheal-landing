@@ -2,8 +2,8 @@
   "common": {
     "nav": {
       "howItWorks": "运作方式",
-      "exploreFramework": "探索框架",
-      "trustSafety": "信任与安全",
+      "exploreFramework": "探索",
+      "trustSafety": "信任协议",
       "signIn": "登录",
       "beginJourney": "开始旅程"
     },
@@ -41,30 +41,34 @@
   "home": {
     "meta": {
       "title": "AetherHeal | 医师主导的全球医疗之旅 · 首尔",
-      "description": "AetherHeal 帮助国际患者清晰做出复杂医疗决策。医师主导的审核、精选医院、结构化的首尔医疗之旅。"
+      "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
     },
     "hero": {
-      "badge": "医师主导的决策支持，助力韩国优质医疗",
+      "badge": "Physician-led, AI-assisted decision infrastructure for premium care in Korea",
       "h1": "清晰决策",
       "h1Highlight": "在选择医院之前",
-      "description": "医师主导的决策支持",
+      "description": "Physician-led, AI-assisted decision infrastructure",
       "descriptionHighlight": "在",
-      "descriptionEnd": "韩国医院对接与执行之前。",
-      "disclaimer": "不提供诊断，不提供治疗，仅提供决策支持。",
+      "descriptionEnd": "hospital selection, journey execution, and continuity planning in Korea.",
+      "disclaimer": "AI assists the process. Physicians retain authority. No diagnosis. No treatment.",
       "ctaHowItWorks": "了解运作方式",
       "ctaExplore": "开始探索"
     },
     "problemQuote": {
-      "q1": "大多数平台让您先选择医院。",
-      "q2": "后悔通常源于不清晰的决策，而非不清晰的定价。",
-      "q3": "AetherHeal 填补这一决策空白。"
+      "q1": "Most platforms optimize introductions before they structure the decision.",
+      "q2": "In high-stake medicine, speed without clinical framing creates risk.",
+      "q3": "AetherHeal brings physician-led clarity before commitment."
     },
     "stakes": {
       "title": "并非每个选择都承担相同风险",
       "subtitle": "在医学领域，错误的决策可能难以逆转。选择的框架必须体现结果的严重性。",
       "lowStake": {
         "label": "低风险领域",
-        "items": ["音乐流媒体", "社交内容", "时尚与零售"],
+        "items": [
+          "音乐流媒体",
+          "社交内容",
+          "时尚与零售"
+        ],
         "consequenceLabel": "失败后果",
         "consequence": "失望",
         "principle": "选择越多 = 价值越大"
@@ -72,86 +76,267 @@
       "highStake": {
         "label": "高风险领域",
         "critical": "关键",
-        "items": ["航空", "核能"],
+        "items": [
+          "航空",
+          "核能"
+        ],
         "medicine": "医学",
         "consequenceLabel": "失败后果",
         "consequence": "不可逆伤害",
         "principle": "非结构化决策 = 风险"
       }
     },
+    "aiLayer": {
+      "badge": "AI Assistance Layer",
+      "title": "AI Support,",
+      "titleHighlight": "Under Physician Authority",
+      "subtitle": "AetherHeal uses AI to organize complexity, surface missing information, and extend continuity monitoring. It does not replace physician judgment or hospital authority.",
+      "cards": [
+        {
+          "title": "Before Physician Review",
+          "description": "AI helps structure intake, records, and questions so the physician starts from a clearer case file, not from scattered fragments."
+        },
+        {
+          "title": "Inside a Governed Workflow",
+          "description": "Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital feasibility. Authority never transfers to the model."
+        },
+        {
+          "title": "After Treatment",
+          "description": "AI can support continuity monitoring by organizing check-ins and surfacing follow-up signals, while humans decide whether action or escalation is needed."
+        }
+      ],
+      "footnote": "AetherHeal is not an AI doctor. AI supports the infrastructure; physicians and hospitals remain the decision-makers."
+    },
     "trending": {
       "badge": "支持",
       "title": "我们服务的高风险医疗领域",
       "skinBrands": [
-        { "name": "Rejuran", "tag": "皮肤修复" },
-        { "name": "Juvelook", "tag": "水光针" },
-        { "name": "Juvederm", "tag": "玻尿酸填充" },
-        { "name": "Restylane", "tag": "玻尿酸填充" },
-        { "name": "Belotero", "tag": "玻尿酸填充" },
-        { "name": "Radiesse", "tag": "生物刺激剂" },
-        { "name": "Sculptra", "tag": "胶原蛋白刺激剂" },
-        { "name": "Merz Aesthetics", "tag": "医学美容平台" },
-        { "name": "Ulthera", "tag": "超声刀提升" },
-        { "name": "Thermage", "tag": "射频紧肤" }
+        {
+          "name": "Rejuran",
+          "tag": "皮肤修复"
+        },
+        {
+          "name": "Juvelook",
+          "tag": "水光针"
+        },
+        {
+          "name": "Juvederm",
+          "tag": "玻尿酸填充"
+        },
+        {
+          "name": "Restylane",
+          "tag": "玻尿酸填充"
+        },
+        {
+          "name": "Belotero",
+          "tag": "玻尿酸填充"
+        },
+        {
+          "name": "Radiesse",
+          "tag": "生物刺激剂"
+        },
+        {
+          "name": "Sculptra",
+          "tag": "胶原蛋白刺激剂"
+        },
+        {
+          "name": "Merz Aesthetics",
+          "tag": "医学美容平台"
+        },
+        {
+          "name": "Ulthera",
+          "tag": "超声刀提升"
+        },
+        {
+          "name": "Thermage",
+          "tag": "射频紧肤"
+        }
       ],
       "row1": [
-        { "emoji": "👃", "name": "鼻整形", "tag": "鼻型重塑与修复" },
-        { "emoji": "👁️", "name": "眼睑整形", "tag": "双眼皮与上睑下垂矫正" },
-        { "emoji": "💉", "name": "面部轮廓", "tag": "V型下颌与颧骨整形" },
-        { "emoji": "🦷", "name": "牙科种植", "tag": "全口与单颗种植" },
-        { "emoji": "🧬", "name": "干细胞疗法", "tag": "再生医学" },
-        { "emoji": "💇", "name": "毛发移植", "tag": "FUE与先进植发技术" },
-        { "emoji": "✨", "name": "皮肤美容", "tag": "高端皮肤科与抗衰老" }
+        {
+          "emoji": "👃",
+          "name": "鼻整形",
+          "tag": "鼻型重塑与修复"
+        },
+        {
+          "emoji": "👁️",
+          "name": "眼睑整形",
+          "tag": "双眼皮与上睑下垂矫正"
+        },
+        {
+          "emoji": "💉",
+          "name": "面部轮廓",
+          "tag": "V型下颌与颧骨整形"
+        },
+        {
+          "emoji": "🦷",
+          "name": "牙科种植",
+          "tag": "全口与单颗种植"
+        },
+        {
+          "emoji": "🧬",
+          "name": "干细胞疗法",
+          "tag": "再生医学"
+        },
+        {
+          "emoji": "💇",
+          "name": "毛发移植",
+          "tag": "FUE与先进植发技术"
+        },
+        {
+          "emoji": "✨",
+          "name": "皮肤美容",
+          "tag": "高端皮肤科与抗衰老"
+        }
       ],
       "row2": [
-        { "emoji": "👁️‍🗨️", "name": "LASIK / LASEK", "tag": "视力矫正手术" },
-        { "emoji": "🩺", "name": "健康筛查", "tag": "高端全身检查" },
-        { "emoji": "🏥", "name": "吸脂术", "tag": "体型塑造与脂肪重新分布" },
-        { "emoji": "🩻", "name": "全身MRI", "tag": "全面影像筛查" },
-        { "emoji": "👙", "name": "隆胸术", "tag": "假体与自体脂肪填充" },
-        { "emoji": "🤰", "name": "女性健康", "tag": "妇科与生殖医学" },
-        { "emoji": "😁", "name": "正畸", "tag": "成人与儿童矫正" },
-        { "emoji": "🧵", "name": "线雕提升", "tag": "非手术面部与身体提升" }
+        {
+          "emoji": "👁️‍🗨️",
+          "name": "LASIK / LASEK",
+          "tag": "视力矫正手术"
+        },
+        {
+          "emoji": "🩺",
+          "name": "健康筛查",
+          "tag": "高端全身检查"
+        },
+        {
+          "emoji": "🏥",
+          "name": "吸脂术",
+          "tag": "体型塑造与脂肪重新分布"
+        },
+        {
+          "emoji": "🩻",
+          "name": "全身MRI",
+          "tag": "全面影像筛查"
+        },
+        {
+          "emoji": "👙",
+          "name": "隆胸术",
+          "tag": "假体与自体脂肪填充"
+        },
+        {
+          "emoji": "🤰",
+          "name": "女性健康",
+          "tag": "妇科与生殖医学"
+        },
+        {
+          "emoji": "😁",
+          "name": "正畸",
+          "tag": "成人与儿童矫正"
+        },
+        {
+          "emoji": "🧵",
+          "name": "线雕提升",
+          "tag": "非手术面部与身体提升"
+        }
       ]
     },
     "journey": {
-      "sectionLabel": "决策之后的责任",
+      "sectionLabel": "Decision Infrastructure in Motion",
       "title": "从决策到康复，",
       "titleHighlight": "责任全程可见",
-      "subtitle": "这就是决策做出后，问责机制如何持续运作。",
+      "subtitle": "This is how physician authority, hospital authority, and AI support remain separated across the journey.",
       "steps": [
-        { "label": "患者意向", "badge": null, "description": "分享治疗目标、期望和医疗关切。", "details": null },
-        { "label": "医师主导的结构化", "badge": "实时聊天与视频", "description": "通过与医师的实时互动理清背景信息。", "details": "不提供诊断，不提供治疗。" },
-        { "label": "决策准备度检查", "badge": null, "description": "这个决策是否清晰、一致且可论证？", "details": null },
-        { "label": "合作医院可行性评估", "badge": "判断主体", "description": "合作医院基于锁定的决策范围评估可行性。", "details": null },
-        { "label": "决策承诺定金", "badge": "问责触发", "description": "确认意向 / 启动协调 / 日程对齐。", "details": null },
-        { "label": "旅程统筹", "badge": "抵达韩国与执行", "description": "抵达后勤与一对一专属管家支持。", "details": null },
-        { "label": "术后持续关怀", "badge": "长期责任", "description": "无隐藏费用，确保长期随访。", "details": null }
+        {
+          "label": "Patient Intent",
+          "badge": null,
+          "description": "Goals, constraints, timeline, and risk tolerance are captured.",
+          "details": null
+        },
+        {
+          "label": "AI-Assisted Case Structuring",
+          "badge": "PRE-PHYSICIAN SUPPORT",
+          "description": "Records, questions, and missing inputs are organized before physician review.",
+          "details": "AI assists. Physician reviews every output."
+        },
+        {
+          "label": "Physician Readiness Review",
+          "badge": null,
+          "description": "The physician decides whether the case is sufficiently clear to move forward.",
+          "details": null
+        },
+        {
+          "label": "Partner Hospital Feasibility Review",
+          "badge": "HOSPITAL AUTHORITY",
+          "description": "Partner hospitals assess feasibility within the physician-defined decision scope.",
+          "details": null
+        },
+        {
+          "label": "Decision Commitment Deposit",
+          "badge": "ACCOUNTABILITY TRIGGER",
+          "description": "Confirms intent, secures coordination, and aligns the next operational step.",
+          "details": null
+        },
+        {
+          "label": "Journey Orchestration",
+          "badge": "ARRIVAL, BOOKING & SUPPORT",
+          "description": "Concierge execution begins only after physician-ready, patient-confirmed alignment.",
+          "details": null
+        },
+        {
+          "label": "Post-Treatment Continuity Monitoring",
+          "badge": "AI-SUPPORTED FOLLOW-THROUGH",
+          "description": "Check-ins, recovery signals, and follow-up coordination remain visible after treatment.",
+          "details": null
+        }
       ],
       "journeyOrchestrationDetails": {
-        "arrival": "抵达与后勤",
-        "concierge": "一对一管家"
+        "arrival": "Arrival & Scheduling",
+        "concierge": "1:1 Concierge & Translation"
       },
       "decisionReadiness": {
-        "notReady": "未准备好",
-        "pause": "暂停 / 重新审视",
-        "ready": "准备好",
-        "proceed": "继续"
+        "notReady": "Needs More Clarity",
+        "pause": "Pause / Collect More Information",
+        "ready": "Ready for Release",
+        "proceed": "Proceed to Hospital Review"
       },
-      "closingQuote": "专为韩国高端跨境医疗打造。责任贯穿整个旅程。"
+      "closingQuote": "AI can accelerate the process. Responsibility still belongs to humans."
     },
     "partners": {
       "subtitle": "首尔基于标准的合作伙伴机构",
       "title": "AetherHeal 可信合作伙伴",
       "hospitals": [
-        { "name": "Morgan Dermatology", "location": "首尔江南", "specialties": "毛发移植、脱发治疗、头皮微色素" },
-        { "name": "Woori Plastic Surgery", "location": "首尔江南", "specialties": "全方位整形与美容外科" },
-        { "name": "B&VIIT Eye Center", "location": "首尔江南", "specialties": "SMILE Pro、LASIK、PRK、PIOL、白内障、定制方案" },
-        { "name": "Hosan Women's Hospital", "location": "首尔江南", "specialties": "女性美容外科与妇科" },
-        { "name": "Apgujeong Min Dental", "location": "首尔江南", "specialties": "儿童正畸、Frankel矫治器疗法" },
-        { "name": "The Well Dental Clinic", "location": "仁川机场附近", "specialties": "成人正畸、修复学与综合牙科" },
-        { "name": "Apgujeong Tune Clinic", "location": "首尔江南", "specialties": "干细胞疗法、高端皮肤美容、身体填充、提升" },
-        { "name": "Bancel Clinic", "location": "首尔江南", "specialties": "干细胞疗法、高端皮肤美容、身体填充、线雕提升" }
+        {
+          "name": "Morgan Dermatology",
+          "location": "首尔江南",
+          "specialties": "毛发移植、脱发治疗、头皮微色素"
+        },
+        {
+          "name": "Woori Plastic Surgery",
+          "location": "首尔江南",
+          "specialties": "全方位整形与美容外科"
+        },
+        {
+          "name": "B&VIIT Eye Center",
+          "location": "首尔江南",
+          "specialties": "SMILE Pro、LASIK、PRK、PIOL、白内障、定制方案"
+        },
+        {
+          "name": "Hosan Women's Hospital",
+          "location": "首尔江南",
+          "specialties": "女性美容外科与妇科"
+        },
+        {
+          "name": "Apgujeong Min Dental",
+          "location": "首尔江南",
+          "specialties": "儿童正畸、Frankel矫治器疗法"
+        },
+        {
+          "name": "The Well Dental Clinic",
+          "location": "仁川机场附近",
+          "specialties": "成人正畸、修复学与综合牙科"
+        },
+        {
+          "name": "Apgujeong Tune Clinic",
+          "location": "首尔江南",
+          "specialties": "干细胞疗法、高端皮肤美容、身体填充、提升"
+        },
+        {
+          "name": "Bancel Clinic",
+          "location": "首尔江南",
+          "specialties": "干细胞疗法、高端皮肤美容、身体填充、线雕提升"
+        }
       ],
       "footnote": "一批领先机构的先驱，与我们共享对透明、决策优先医疗的不妥协标准。"
     },
@@ -159,30 +344,77 @@
       "title": "常见问题",
       "subtitle": "了解 AetherHeal 基础设施。",
       "items": [
-        { "question": "这是医疗咨询还是远程医疗？", "answer": "不是。AetherHeal 不是医疗咨询，而是决策准备。我们的医师帮助您在进入医院之前梳理思路——他们不进行诊断或治疗。这种分离确保了清晰度和问责机制。" },
-        { "question": "AetherHeal 推荐医院吗？", "answer": "是的，但仅通过预先审核的顶级专家推荐。医院匹配基于您特定决策的医学适当性——而非排名或价格比较。" },
-        { "question": "医师和医院是如何筛选的？", "answer": "参与名额有限，基于临床专业能力与范围、伦理执业标准、跨境医疗经验以及与我们决策优先理念的一致性。医师不进行绩效排名。" },
-        { "question": "流程每个阶段谁负责？", "answer": "职责明确分离。医师支持决策清晰。医院提供医疗服务。AetherHeal 在每一步管控流程、协调和问责。" },
-        { "question": "AetherHeal 是医疗旅游中介吗？", "answer": "不是。AetherHeal 是决策基础设施。旅行安排仅在结构化的医疗决策做出之后才处理——而非之前。" },
-        { "question": "如果我还没准备好做决定，可以使用 AetherHeal 吗？", "answer": "可以。您无需创建账户即可探索框架。我们的流程尊重您的节奏——没有任何承诺压力。" },
-        { "question": "我的信息安全吗？", "answer": "我们仅收集决策支持和协调所需的信息。文件上传为可选项。访问按角色（医师、运营人员）受限，仅用于您的案例。我们不出售个人医疗信息。" }
+        {
+          "question": "Is AetherHeal an AI doctor?",
+          "answer": "No. AetherHeal is not an AI doctor, and we do not present AI as a physician substitute. AI supports information structuring and continuity workflows, but licensed physicians and partner hospitals retain medical authority."
+        },
+        {
+          "question": "What does AI actually do inside AetherHeal?",
+          "answer": "AI helps organize intake, surface missing information, support multilingual coordination, and keep post-treatment continuity signals visible. It accelerates the workflow; it does not make the medical decision."
+        },
+        {
+          "question": "Can AI override a physician or choose my hospital?",
+          "answer": "No. AI cannot override a physician, select your final hospital, make a diagnosis, recommend treatment, or book autonomously. Physician judgment, patient consent, and hospital feasibility remain the controlling layers."
+        },
+        {
+          "question": "这是医疗咨询还是远程医疗？",
+          "answer": "不是。AetherHeal 不是医疗咨询，而是决策准备。我们的医师帮助您在进入医院之前梳理思路——他们不进行诊断或治疗。这种分离确保了清晰度和问责机制。"
+        },
+        {
+          "question": "医师和医院是如何筛选的？",
+          "answer": "参与名额有限，基于临床专业能力与范围、伦理执业标准、跨境医疗经验以及与我们决策优先理念的一致性。医师不进行绩效排名。"
+        },
+        {
+          "question": "流程每个阶段谁负责？",
+          "answer": "职责明确分离。医师支持决策清晰。医院提供医疗服务。AetherHeal 在每一步管控流程、协调和问责。"
+        },
+        {
+          "question": "AetherHeal 是医疗旅游中介吗？",
+          "answer": "不是。AetherHeal 是决策基础设施。旅行安排仅在结构化的医疗决策做出之后才处理——而非之前。"
+        },
+        {
+          "question": "如果我还没准备好做决定，可以使用 AetherHeal 吗？",
+          "answer": "可以。您无需创建账户即可探索框架。我们的流程尊重您的节奏——没有任何承诺压力。"
+        },
+        {
+          "question": "我的信息安全吗？",
+          "answer": "我们仅收集决策支持和协调所需的信息。文件上传为可选项。访问按角色（医师、运营人员）受限，仅用于您的案例。我们不出售个人医疗信息。"
+        }
       ]
     },
     "explore": {
       "badge": "按主题探索",
       "title": "清晰从这里开始",
       "items": [
-        { "title": "韩国毛发移植", "desc": "FUE、DHI及先进植发技术——在联系诊所之前，先通过医师主导的决策支持进行评估。" },
-        { "title": "首尔医学美容", "desc": "在结构化指导下探索首尔的医学美容，涵盖皮肤治疗与美容皮肤科。" },
-        { "title": "韩国整形外科", "desc": "鼻整形、轮廓整形等——在做出承诺之前，先与医师一起做出知情决策。" },
-        { "title": "您的医疗旅程", "desc": "从决策到康复，AetherHeal 协调您赴首尔旅程的每一步。" },
-        { "title": "AetherHeal 信任协议", "desc": "我们如何评估并维持精选合作医院网络的标准。" },
-        { "title": "海外医院选择", "desc": "在另一个国家选择医院时降低风险的结构化框架。" }
+        {
+          "title": "韩国毛发移植",
+          "desc": "FUE、DHI及先进植发技术——在联系诊所之前，先通过医师主导的决策支持进行评估。"
+        },
+        {
+          "title": "首尔医学美容",
+          "desc": "在结构化指导下探索首尔的医学美容，涵盖皮肤治疗与美容皮肤科。"
+        },
+        {
+          "title": "韩国整形外科",
+          "desc": "鼻整形、轮廓整形等——在做出承诺之前，先与医师一起做出知情决策。"
+        },
+        {
+          "title": "您的医疗旅程",
+          "desc": "从决策到康复，AetherHeal 协调您赴首尔旅程的每一步。"
+        },
+        {
+          "title": "AetherHeal 信任协议",
+          "desc": "我们如何评估并维持精选合作医院网络的标准。"
+        },
+        {
+          "title": "海外医院选择",
+          "desc": "在另一个国家选择医院时降低风险的结构化框架。"
+        }
       ]
     },
     "cta": {
       "title": "承诺之前先建立信心",
-      "subtitle": "从探索模式开始，待您准备好后再进入结构化流程。",
+      "subtitle": "Explore the physician-led, AI-assisted process before you commit to any hospital path.",
       "ctaHowItWorks": "运作方式",
       "ctaExplore": "开始探索",
       "signature": "Dr. Jee Hoon Ju"
@@ -191,17 +423,17 @@
   "howItWorks": {
     "meta": {
       "title": "AetherHeal 运作方式 | 系统规格",
-      "description": "了解 AetherHeal 医师主导的决策支持系统如何运作。从咨询到康复，查看韩国医疗的结构化流程。"
+      "description": "Learn how AetherHeal's physician-led, AI-assisted decision infrastructure works. See the authority chain, readiness states, and continuity monitoring model for medical care in Korea."
     },
     "hero": {
-      "badge": "系统规格 1.0",
+      "badge": "System Specification 2.0",
       "h1": "AetherHeal",
       "h1Highlight": "运作方式",
-      "tagline": "医师主导的韩国医疗决策基础设施",
-      "description": "决策清晰",
+      "tagline": "Physician-led, AI-assisted decision infrastructure for Korea",
+      "description": "Structured medical decisions",
       "descriptionHighlight": "在",
-      "descriptionEnd": "医院对接与执行之前。",
-      "disclaimer": "仅提供决策支持。不提供诊断、治疗或急救服务。",
+      "descriptionEnd": "hospital commitment, logistics, and post-treatment continuity.",
+      "disclaimer": "AI-assisted. Physician-authorized. Not diagnosis, treatment, or emergency care.",
       "ctaPrimary": "开始您的决策之旅",
       "ctaSecondary": "探索框架"
     },
@@ -211,58 +443,234 @@
       "subtitle": "医学信息支持，而非销售。",
       "doesTitle": "Angel 做什么",
       "keyDefinitionLabel": "关键定义",
-      "keyDefinition": "Angel 是韩国的执业医师，作为您客观的医学顾问。",
+      "keyDefinition": "Angels are licensed medical doctors in Korea who hold interpretive authority over the case and review all AI-assisted structuring before release.",
       "does": [
-        { "title": "清晰的信息支持", "description": "提供客观的医学数据，同时过滤营销干扰和模糊信息。" },
-        { "title": "构建医疗决策", "description": "在联系任何医院之前，厘清风险、限制条件和预期。" },
-        { "title": "将目标转化为输入", "description": "将患者意图转化为可用于决策的医学参数。" }
+        {
+          "title": "Reviews Structured Inputs",
+          "description": "Examines AI-assisted intake organization, missing data flags, and patient goals before any hospital-facing action."
+        },
+        {
+          "title": "Holds Decision Authority",
+          "description": "Clarifies risks, constraints, and expectations, then decides whether the case is ready to move forward."
+        },
+        {
+          "title": "Translates Goals to Clinical Scope",
+          "description": "Converts patient intent into a physician-authored decision frame that hospitals can review for feasibility."
+        }
       ],
       "notTitle": "Angel 不是什么",
-      "not": ["不进行诊断", "不进行治疗", "不开处方", "不承诺结果", "不替代医院"]
+      "not": [
+        "不进行诊断",
+        "不进行治疗",
+        "不开处方",
+        "Does not delegate final judgment to AI",
+        "不替代医院"
+      ]
+    },
+    "authorityChain": {
+      "badge": "02 — Authority Chain",
+      "title": "Who Holds Authority, When",
+      "subtitle": "AetherHeal is designed so assistance, interpretation, treatment, and operations remain clearly separated.",
+      "levels": [
+        {
+          "label": "Layer 1",
+          "title": "Patient Intent",
+          "description": "The patient defines goals, constraints, timing, and personal risk tolerance."
+        },
+        {
+          "label": "Layer 2",
+          "title": "AI Support Layer",
+          "description": "AI structures information, surfaces gaps, and supports monitoring, but has no authority to decide."
+        },
+        {
+          "label": "Layer 3",
+          "title": "Physician Authority",
+          "description": "The Angel physician interprets the case, defines decision scope, and authorizes release to the next stage."
+        },
+        {
+          "label": "Layer 4",
+          "title": "Hospital Authority",
+          "description": "The partner hospital decides clinical feasibility, treatment approach, and whether to accept the case."
+        },
+        {
+          "label": "Layer 5",
+          "title": "Operational Coordination",
+          "description": "AetherHeal executes booking, travel, and continuity workflows only after the human decision chain is clear."
+        }
+      ],
+      "handoffLabel": "authority handoff",
+      "footnote": "AI can support the workflow, but authority passes only between accountable human actors."
+    },
+    "aiAssistance": {
+      "badge": "03 — AI Assistance",
+      "title": "The AI Assistance Layer",
+      "subtitle": "AI is used as operational and informational support, not as a clinical decision-maker.",
+      "summaryLabel": "System Role",
+      "summary": "The AI layer exists to reduce fragmentation: it prepares physician inputs, helps the team track what is missing, and supports continuity monitoring after treatment. Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital authority.",
+      "doesTitle": "What AI Does",
+      "doesItems": [
+        "Structures intake, records, and questions before physician interpretation",
+        "Surfaces missing documents, contradictions, and follow-up tasks for the human team",
+        "Supports multilingual coordination and workflow continuity across the journey",
+        "Organizes post-treatment check-ins and visibility for continuity monitoring"
+      ],
+      "notTitle": "What AI Does NOT Do",
+      "notItems": [
+        "Does not diagnose",
+        "Does not recommend treatment",
+        "Does not select the final hospital",
+        "Does not book autonomously",
+        "Does not override a physician or hospital"
+      ],
+      "footnote": "No AI decision is valid on its own. Human authority remains the controlling layer."
     },
     "coverage": {
-      "badge": "02 — 覆盖范围",
+      "badge": "04 — Coverage",
       "title": "高风险医疗领域",
       "subtitle": "我们仅在高风险、难以逆转的医疗领域运营。",
-      "domains": ["毛发移植", "皮肤美容", "整形外科", "机器人手术", "视力矫正", "牙科", "干细胞疗法", "吸脂与脂肪重新分布"]
+      "domains": [
+        "毛发移植",
+        "皮肤美容",
+        "整形外科",
+        "机器人手术",
+        "视力矫正",
+        "牙科",
+        "干细胞疗法",
+        "吸脂与脂肪重新分布"
+      ]
     },
     "scope": {
-      "badge": "03 — 范围",
+      "badge": "05 — Scope",
       "title": "我们的服务范围 / 不提供的服务",
-      "subtitle": "设立明确边界以防止不切实际的期望。",
+      "subtitle": "Hard operational and medical boundaries prevent false expectations.",
       "doTitle": "我们提供",
       "doItems": [
-        "医师支持的决策准备",
-        "决策明确后在合作网络内进行适配性医院匹配",
+        "Decision preparation with physician review of AI-assisted structuring",
+        "Fit-based hospital matching within our partner network after decision readiness is confirmed",
         "与合作医院协调可行性评估",
-        "带有管家问责制的旅程执行"
+        "Journey execution and continuity workflows with accountable human oversight"
       ],
       "dontTitle": "我们不提供",
-      "dontBadges": ["不提供诊断", "不提供治疗", "不使用AI决策"],
-      "emergencyNote": "不适用于紧急情况。如出现紧急症状，请立即寻求当地医疗救助。",
-      "replacementNote": "不能替代医院。我们不替代医院护理。"
+      "dontBadges": [
+        "No Diagnosis",
+        "No Treatment Recommendation",
+        "No Autonomous Booking",
+        "No Final Hospital Selection",
+        "No AI Decision"
+      ],
+      "notes": [
+        "Not for emergencies. Seek immediate local care if urgent symptoms occur.",
+        "Physicians retain interpretive authority. Hospitals retain treatment authority.",
+        "Not a replacement for hospital care or your local doctor."
+      ]
+    },
+    "readinessStates": {
+      "badge": "06 — Readiness States",
+      "title": "When a Case Is Ready",
+      "subtitle": "AetherHeal does not move every case forward at the same speed. Readiness must be earned.",
+      "items": [
+        {
+          "state": "State 1",
+          "title": "Needs More Clarity",
+          "description": "Information is incomplete, goals are still vague, or risk tolerance has not been clearly articulated."
+        },
+        {
+          "state": "State 2",
+          "title": "Ready for Physician Framing",
+          "description": "The case has enough organized information for a physician to interpret tradeoffs and define scope."
+        },
+        {
+          "state": "State 3",
+          "title": "Ready for Hospital Review",
+          "description": "The physician has authored the decision frame and the scope can now be released for feasibility review."
+        },
+        {
+          "state": "State 4",
+          "title": "Continuity Monitoring Active",
+          "description": "After treatment, follow-up signals and check-ins remain visible so the team can coordinate continuity."
+        }
+      ],
+      "footnote": "A case may pause at any state. Movement forward depends on clarity, not momentum."
     },
     "systemFlow": {
-      "badge": "04 — 系统流程",
-      "titleParts": ["咨询", "决策", "旅程"],
-      "subtitle": "每一步的角色都有严格定义。这就是 AetherHeal 基础设施的运作方式。",
-      "steps": [
-        { "step": 1, "actor": "患者", "title": "基础信息采集", "description": "目标、限制条件、时间线" },
-        { "step": 2, "actor": "Angel（医师）", "title": "咨询", "description": "视频或工作时间内聊天" },
-        { "step": 3, "actor": "Angel（医师）", "title": "决策摘要", "description": "背景信息与取舍结构化" },
-        { "step": 4, "actor": "平台", "title": "决策锁定", "description": "执行前冻结范围" },
-        { "step": 5, "actor": "合作医院", "title": "可行性评估", "description": "接受 / 拒绝 / 澄清" },
-        { "step": 6, "actor": "平台", "title": "报价 + 定金", "description": "问责触发" },
-        { "step": 7, "actor": "旅程团队", "title": "执行 + 随访", "description": "旅行协调与连续性" }
+      "badge": "07 — System Flow",
+      "titleParts": [
+        "Intake",
+        "Interpretation",
+        "Continuity"
       ],
-      "closingQuote": "不确定变为清晰。清晰变为价值。"
+      "subtitle": "Roles are strictly defined at every step. AI support appears before physician interpretation and after treatment, not in place of medical authority.",
+      "steps": [
+        {
+          "step": 1,
+          "actor": "Patient",
+          "title": "Structured Intake",
+          "description": "Goals, constraints, timeline, risk tolerance"
+        },
+        {
+          "step": 2,
+          "actor": "AI Support Layer",
+          "title": "Case Organization",
+          "description": "Inputs organized, gaps surfaced, questions prepared"
+        },
+        {
+          "step": 3,
+          "actor": "Angel (MD)",
+          "title": "Physician Interpretation",
+          "description": "Context, tradeoffs, and readiness assessed",
+          "emphasis": "key"
+        },
+        {
+          "step": 4,
+          "actor": "Angel (MD)",
+          "title": "Decision Summary",
+          "description": "Decision scope authored for downstream review",
+          "emphasis": "key"
+        },
+        {
+          "step": 5,
+          "actor": "Platform",
+          "title": "Readiness Lock",
+          "description": "Scope frozen before any hospital-facing execution",
+          "emphasis": "key"
+        },
+        {
+          "step": 6,
+          "actor": "Partner Hospital",
+          "title": "Feasibility Review",
+          "description": "Accept, decline, or request clarification"
+        },
+        {
+          "step": 7,
+          "actor": "Platform + Concierge",
+          "title": "Quotation + Coordination",
+          "description": "Deposit, scheduling, travel, and arrival planning"
+        },
+        {
+          "step": 8,
+          "actor": "AI + Journey Team",
+          "title": "Continuity Monitoring",
+          "description": "Post-treatment visibility, check-ins, and escalation support",
+          "emphasis": "final"
+        }
+      ],
+      "closingQuote": "AI can support the workflow. Physician authority defines the outcome."
     },
     "safety": {
       "title": "法律与医疗安全",
       "items": [
-        { "title": "安全", "body": "不适用于紧急情况。如出现紧急症状，请立即寻求当地医疗救助。" },
-        { "title": "医疗边界", "body": "AetherHeal 不提供诊断或治疗。所有手术由执业医院执行。" },
-        { "title": "数据与隐私", "body": "文件上传为可选项。访问按角色受限。仅用于决策支持和协调。" }
+        {
+          "title": "Safety",
+          "body": "Not for emergency use. If urgent symptoms occur, seek immediate local care."
+        },
+        {
+          "title": "AI Boundary",
+          "body": "AI outputs are preparatory and monitoring support only. They do not diagnose, recommend treatment, or decide on hospitals."
+        },
+        {
+          "title": "Data & Privacy",
+          "body": "Uploads are optional. Access is role-limited. Used only for decision support, coordination, and continuity monitoring."
+        }
       ]
     },
     "cta": {
@@ -270,127 +678,214 @@
       "titleHighlight": "您的决策了吗？",
       "ctaPrimary": "开始您的决策之旅",
       "ctaSecondary": "探索框架",
-      "disclaimer": "不提供诊断，不提供治疗，仅提供决策支持。"
+      "disclaimer": "AI-assisted. Physician-authorized. No diagnosis. No treatment."
     }
   },
   "trustProtocol": {
     "meta": {
-      "title": "AetherHeal 信任协议 | AetherHeal",
-      "description": "AetherHeal 如何通过医师主导的合作伙伴医院评估及每个决策流程的独立信任审核，确保质量、伦理与患者安全。"
+      "title": "The AetherHeal Trust Protocol | AetherHeal",
+      "description": "How AetherHeal governs human and AI-assisted decision support through independent oversight, auditable protocol enforcement, and selective partner hospital standards."
     },
     "hero": {
-      "badge": "治理架构",
-      "h1": "AetherHeal",
-      "h1Highlight": "信任协议",
-      "intro": "独立信任审核确保每个决策流程符合质量、伦理与患者安全标准。",
-      "disclaimer": "信任审核员为只读审核员。他们不进行诊断、治疗或更改患者决策。"
+      "badge": "Governance",
+      "h1": "The AetherHeal",
+      "h1Highlight": "Trust Protocol",
+      "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable.",
+      "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met."
     },
     "toc": [
-      { "id": "purpose", "label": "目的、权限与独立性" },
-      { "id": "incentive-separation", "label": "激励分离" },
-      { "id": "partner-criteria", "label": "合作伙伴医院标准" },
-      { "id": "what-this-means", "label": "对患者的意义" },
-      { "id": "trust-scope", "label": "信任协议范围" },
-      { "id": "team", "label": "信任协议执行团队" },
-      { "id": "ongoing", "label": "持续问责" }
+      {
+        "id": "purpose",
+        "label": "Purpose, Authority & Independence"
+      },
+      {
+        "id": "ai-governance",
+        "label": "AI Governance, Auditability & Enforcement"
+      },
+      {
+        "id": "incentive-separation",
+        "label": "Incentive Separation"
+      },
+      {
+        "id": "partner-criteria",
+        "label": "Partner Hospital Criteria"
+      },
+      {
+        "id": "what-this-means",
+        "label": "What This Means for Patients"
+      },
+      {
+        "id": "trust-scope",
+        "label": "Trust Protocol Scope"
+      },
+      {
+        "id": "team",
+        "label": "Who Runs the Trust Protocol"
+      },
+      {
+        "id": "ongoing",
+        "label": "Ongoing Accountability"
+      }
     ],
     "purpose": {
-      "title": "目的、权限与独立性",
-      "protocolDocument": "协议文件",
-      "purposeTitle": "目的",
-      "purposeText": "信任协议旨在维护 AetherHeal 决策支持流程的完整性。它独立于临床团队，直接向平台治理层汇报。",
-      "authorityTitle": "权限",
-      "authorityText": "信任审核员对已完成的决策摘要和流程日志拥有只读访问权限。他们可以标记问题、请求审查和上报事项，但不能修改面向患者的文件。",
-      "independenceTitle": "独立性",
-      "independenceText": "信任协议团队的汇报路线与临床运营分开。这种分离保护监督质量免受运营压力的影响。"
+      "title": "Purpose, Authority & Independence",
+      "protocolDocument": "Protocol Document",
+      "purposeTitle": "Purpose",
+      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process across both human and AI-assisted workflows. It is independent from clinical operations and reports directly to platform governance.",
+      "authorityTitle": "Authority",
+      "authorityText": "Trust reviewers have read-only access to completed decision summaries, protocol logs, and governed AI artifacts used in the case flow. They can flag concerns, request review, and escalate issues, but they cannot rewrite patient-facing documents or alter clinical recommendations.",
+      "independenceTitle": "Independence",
+      "independenceText": "The Trust Protocol team operates on a separate reporting line from clinical operations, provider relations, and commercial execution. This separation protects oversight quality from operational pressure, referral incentives, and automation convenience."
+    },
+    "aiGovernance": {
+      "title": "AI Governance, Auditability & Enforcement",
+      "intro": "AI may support narrow parts of the process, but only inside defined operational boundaries. The governing standard is not speed or automation volume. It is decision quality, traceability, and safe escalation.",
+      "principles": [
+        {
+          "title": "Constrained Use",
+          "body": "AI may help structure intake, summarize records, support translation, and surface missing information within approved rules. It is not permitted to expand clinical scope, simulate certainty, or replace accountable human review."
+        },
+        {
+          "title": "Human Review",
+          "body": "Patient-facing summaries, protocol exceptions, and provider-routing decisions require accountable human review before they are relied upon. AI can assist preparation, but ownership remains with licensed physicians, trust reviewers, or designated operations staff."
+        },
+        {
+          "title": "Audit Trail",
+          "body": "Key prompts, outputs, edits, approvals, and exceptions are logged so that a case can be reconstructed and reviewed. Auditability is treated as a control requirement, not an optional feature."
+        },
+        {
+          "title": "Protocol Enforcement",
+          "body": "When inputs are incomplete, ambiguous, out of scope, or safety-relevant, the governed response is to halt, defer, or request re-clarification. Proceeding is valid only when the record is sufficiently clear and accountable."
+        }
+      ],
+      "validTitle": "Valid protocol outcomes",
+      "outcomes": [
+        {
+          "label": "Halt",
+          "body": "Used when the case is outside scope, safety-relevant, or cannot proceed without direct human intervention."
+        },
+        {
+          "label": "Defer",
+          "body": "Used when the case may proceed later, but timing, documentation, or readiness is not yet sufficient."
+        },
+        {
+          "label": "Re-clarify",
+          "body": "Used when the case can remain active, but claims, goals, records, or assumptions need to be restated more precisely."
+        },
+        {
+          "label": "Proceed",
+          "body": "Used only after the case has passed the relevant protocol checks and accountable humans confirm that the next step is appropriate."
+        }
+      ]
     },
     "incentiveSeparation": {
-      "title": "通过激励分离保障决策完整性",
-      "p1": "在大多数医疗旅行平台中，推荐医院的实体同时从转介中获利。这产生了固有的利益冲突：决策过程受收益驱动，而非临床价值。",
-      "p2": "AetherHeal 在架构上有根本性的不同。我们将平台分为两个独立层——每层有各自的激励结构、汇报路线和问责机制。",
+      "title": "Decision Integrity Through Incentive Separation",
+      "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. That conflict can affect both people and software: case flow begins optimizing for conversion rather than judgment quality.",
+      "p2": "AetherHeal is architecturally different. We separate the platform into independent layers with distinct incentives, reporting lines, and controls. AI systems, where used, are governed inside those same boundaries and are not allowed to optimize provider steering or case closure for commercial gain.",
       "angelLayer": {
-        "label": "第一层",
-        "title": "Angel 层",
-        "description": "指导患者决策过程的医师顾问。他们的角色在决策摘要完成时结束——他们不执行治疗。",
-        "incentiveLabel": "激励与以下挂钩",
+        "label": "Layer 1",
+        "title": "Angel Layer",
+        "description": "Physician advisors guide the patient's decision process. AI tooling may assist documentation inside this layer, but it cannot introduce provider preference, make final routing choices, or close a case autonomously.",
+        "incentiveLabel": "Incentive Tied To",
         "incentives": [
-          "决策支持的质量与完整性",
-          "患者理解和知情同意",
-          "流程遵守和伦理合规"
+          "Quality and completeness of clinician-reviewed decision support",
+          "Patient understanding and informed consent",
+          "Protocol adherence, including AI constraint compliance"
         ]
       },
       "providerLayer": {
-        "label": "第二层",
-        "title": "医疗服务提供方",
-        "description": "提供临床医疗服务的合作医院和诊所。他们通过 AetherHeal 的结构化匹配流程接收患者。",
-        "incentiveLabel": "激励与以下挂钩",
+        "label": "Layer 2",
+        "title": "Medical Provider",
+        "description": "Partner hospitals and clinics deliver clinical care only after decision scope, protocol checks, and accountable approvals are satisfied. Their role is treatment delivery, not upstream decision shaping.",
+        "incentiveLabel": "Incentive Tied To",
         "incentives": [
-          "临床效果与治疗实施",
-          "患者满意度与康复质量",
-          "遵守 AetherHeal 医疗协议"
+          "Clinical outcomes and treatment delivery",
+          "Patient satisfaction and recovery quality",
+          "Adherence to agreed care and continuity protocols"
         ]
       },
-      "principleIntro": "结构性原则很简单：",
-      "principleText": "Angel 层不从医疗服务提供方层获取经济激励。帮助您做决定的人永远不会是从您的治疗中获利的人。这种分离正是决策完整性得以实现的基础。"
+      "principleIntro": "The structural principle is simple:",
+      "principleText": "The people and systems that help structure your decision are not rewarded for steering you toward a particular provider. Human reviewers and governed AI workflows are constrained so decision support remains separate from treatment profit."
     },
     "partnerCriteria": {
-      "title": "合作伙伴医院标准",
-      "intro": "并非首尔每家医院都符合我们的标准。AetherHeal 运营精选合作网络，每家机构在加入前须通过多维度评估：",
+      "title": "Partner Hospital Criteria",
+      "intro": "Not every hospital in Seoul meets our standards. AetherHeal operates a selective partner network where each institution is assessed across multiple dimensions before joining:",
       "items": [
-        "临床专业能力与医师专科深度",
-        "设施标准与设备认证",
-        "伦理执业历史与患者投诉记录",
-        "跨境患者体验与语言支持",
-        "与 AetherHeal 决策优先理念的一致性",
-        "术后随访与持续关怀协议"
+        "Clinical expertise and surgeon specialization depth",
+        "Facility standards and equipment certification",
+        "Ethical practice history and patient complaint records",
+        "Cross-border patient experience and language support",
+        "Alignment with AetherHeal's decision-first philosophy",
+        "Post-treatment follow-up and continuity protocols"
       ]
     },
     "whatThisMeans": {
-      "title": "对患者的意义",
-      "p1": "当 AetherHeal 为您匹配合作医院时，该匹配基于您的特定临床状况和决策摘要——而非佣金结构或营销合作关系。",
-      "p2": "我们网络中的医院已同意在我们的结构化流程中运营：在会诊前接收决策摘要、进行可行性评估，并通过 AetherHeal 协调预约和随访。"
+      "title": "What This Means for Patients",
+      "p1": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation.",
+      "p2": "If a case is incomplete or ambiguous, halt, defer, and re-clarify are treated as valid safeguards rather than service failures. Hospitals in our network receive only the decision-ready case materials appropriate to the next step of review."
     },
     "trustScope": {
-      "title": "信任协议范围",
-      "intro": "明确的边界界定了信任审核员的职责和非职责。",
-      "doTitle": "信任审核员的职责",
+      "title": "Trust Protocol Scope",
+      "intro": "Clear boundaries define what trust reviewers do and do not do.",
+      "doTitle": "Trust Reviewers Do",
       "doItems": [
-        "审查决策摘要质量",
-        "验证范围合规性",
-        "审核医师方法论",
-        "确保患者知情同意的完整性",
-        "监控系统性模式",
-        "标记潜在安全隐患"
+        "Review decision summary quality",
+        "Verify AI and human process logs",
+        "Audit protocol enforcement and exception handling",
+        "Ensure patient consent integrity",
+        "Monitor system-wide patterns",
+        "Flag safety or compliance concerns"
       ],
-      "dontTitle": "信任审核员不做的事",
+      "dontTitle": "Trust Reviewers Don't",
       "dontItems": [
-        "推翻医师决策",
-        "直接联系患者",
-        "修改决策摘要",
-        "提供医疗建议",
-        "对外分享患者数据",
-        "干预进行中的咨询"
+        "Override treatment decisions at the provider level",
+        "Contact patients directly as treating clinicians",
+        "Modify decision summaries or logs retroactively",
+        "Provide diagnosis, prescriptions, or medical advice",
+        "Share patient data externally outside authorized process",
+        "Bypass halt, defer, or re-clarify controls"
       ]
     },
     "team": {
-      "title": "谁负责执行信任协议？",
+      "title": "Who Runs the Trust Protocol?",
       "roles": [
-        { "title": "医疗质量审核员", "description": "审查每份决策摘要的临床准确性和完整性。" },
-        { "title": "伦理合规审核员", "description": "确保所有交互在 AetherHeal 的伦理边界内进行。" },
-        { "title": "流程完整性审核员", "description": "验证每个案例是否正确遵循了七步流程。" },
-        { "title": "患者安全审核员", "description": "监控范围违规或不当医疗声明。" }
+        {
+          "title": "Medical Quality Reviewer",
+          "description": "Reviews the clinical clarity and completeness of decision summaries before they are relied upon downstream."
+        },
+        {
+          "title": "AI Governance Reviewer",
+          "description": "Checks whether AI-assisted steps stayed within approved constraints, logging rules, and escalation standards."
+        },
+        {
+          "title": "Process Integrity Reviewer",
+          "description": "Validates that required protocol gates, approvals, and exceptions were handled correctly for each case."
+        },
+        {
+          "title": "Patient Safety Reviewer",
+          "description": "Monitors for scope violations, unsafe claims, or workflow patterns that could compromise patient protection."
+        }
       ]
     },
     "ongoing": {
-      "title": "持续问责",
-      "text": "审核不是一次性事件。AetherHeal 通过患者反馈、临床结果监控和定期重新评估，对合作机构进行持续审查。",
-      "boxTitle": "标准不可妥协",
-      "boxText": "未能维持我们临床或伦理标准的合作伙伴将被移出网络，以确保患者安全和决策清晰。"
+      "title": "Ongoing Accountability",
+      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, and periodic re-evaluation.",
+      "boxTitle": "Standards remain enforceable",
+      "boxText": "If repeated deviations, undocumented overrides, or unsafe automation patterns appear, the relevant workflow or partner relationship may be paused, remediated, or removed."
     },
     "relatedPages": [
-      { "label": "海外医院选择", "desc": "更安全决策的框架" },
-      { "label": "您的医疗旅程", "desc": "从决策到康复的端到端协调" },
-      { "label": "AetherHeal 运作方式", "desc": "医师主导决策支持背后的系统" }
+      {
+        "label": "How to Choose a Hospital Abroad",
+        "desc": "A framework for safer decisions"
+      },
+      {
+        "label": "Your Medical Journey",
+        "desc": "Phase-by-phase coordination with clear ownership"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   },
   "explore": {
@@ -429,30 +924,99 @@
       "badge": "决策失败的原因",
       "title": "常见后悔模式",
       "items": [
-        { "label": "视觉偏见", "description": "仅根据「最佳效果」照片做决定" },
-        { "label": "价格优化", "description": "将生理变化当作普通商品购买对待" },
-        { "label": "热度混淆", "description": "假设流行的手术就是适合自己的" },
-        { "label": "限制否认", "description": "未能明确恢复时间线" }
+        {
+          "label": "视觉偏见",
+          "description": "仅根据「最佳效果」照片做决定"
+        },
+        {
+          "label": "价格优化",
+          "description": "将生理变化当作普通商品购买对待"
+        },
+        {
+          "label": "热度混淆",
+          "description": "假设流行的手术就是适合自己的"
+        },
+        {
+          "label": "限制否认",
+          "description": "未能明确恢复时间线"
+        }
       ]
     },
     "caseStudies": {
       "badge": "案例研究",
-      "title": "结构化决策示例",
-      "subtitle": "这些示例展示了在选择医院之前如何明确目标和限制条件。",
+      "title": "AI-Prepared Case Snapshots",
+      "subtitle": "These examples show how AI preparation sharpens physician review before hospital selection.",
       "cases": [
-        { "id": "HT-8291", "number": "01", "title": "毛发移植", "goal": "恢复前额发际线密度", "constraint": "供体区域有限" },
-        { "id": "RH-1044", "number": "02", "title": "鼻整形", "goal": "去除驼峰，精修鼻尖", "constraint": "厚皮限制鼻尖精细度" },
-        { "id": "SK-3302", "number": "03", "title": "皮肤提升", "badge": "非手术", "goal": "恢复下颌线条", "constraint": "非手术" }
+        {
+          "id": "HT-8291",
+          "number": "01",
+          "title": "毛发移植",
+          "goal": "Rebuild frontal density without overharvesting donor supply",
+          "constraint": "Limited donor area and a short recovery window",
+          "preparation": "AI separated density goals from hairline lowering, flagged the donor-supply mismatch, and queued missing scalp-history questions for physician review."
+        },
+        {
+          "id": "RH-1044",
+          "number": "02",
+          "title": "鼻整形",
+          "goal": "Straighten the bridge and refine the tip while keeping a natural look",
+          "constraint": "Thick skin and low tolerance for revision",
+          "preparation": "AI mapped the tension between dramatic refinement and tissue limits, then assembled a physician-ready summary of anatomy, priorities, and prior filler history."
+        },
+        {
+          "id": "SK-3302",
+          "number": "03",
+          "title": "皮肤提升",
+          "badge": "非手术",
+          "goal": "Restore jawline definition with minimal downtime",
+          "constraint": "Non-surgical only and recent prior energy-device treatment",
+          "preparation": "AI highlighted the mismatch between lifting expectations and downtime limits, prompted missing device-history details, and prepared a concise brief for physician interpretation."
+        }
       ],
       "caseLabel": "案例",
       "goalLabel": "目标",
       "constraintLabel": "限制条件",
-      "disclaimer": "仅供说明。效果因人而异。"
+      "preparationLabel": "AI-prepared brief",
+      "disclaimer": "Illustrative preparation examples only. Physicians interpret clinical meaning, and outcomes vary by individual."
+    },
+    "aiPreparation": {
+      "badge": "Before You Book",
+      "title": "What AI Helps Patients Prepare",
+      "intro": "Before any hospital is contacted, AI helps turn scattered patient goals, constraints, and questions into a more structured starting point for physician review.",
+      "outputs": [
+        {
+          "title": "Goal hierarchy",
+          "body": "Organizes primary goals, secondary preferences, and non-negotiables so trade-offs become visible early."
+        },
+        {
+          "title": "Mismatch map",
+          "body": "Highlights where anatomy, timeline, budget, recovery expectations, or stated goals may conflict with one another."
+        },
+        {
+          "title": "Missing-info prompts",
+          "body": "Surfaces unanswered questions and missing details that a physician will need before meaningful interpretation."
+        },
+        {
+          "title": "Physician-ready summary",
+          "body": "Packages the case into a concise brief a physician can review, refine, challenge, and translate into next-step judgment."
+        }
+      ],
+      "boundaryLabel": "Boundary Note",
+      "boundaryNote": "AI prepares and structures information. Physicians interpret medical meaning, assess feasibility, and decide what matters clinically."
     },
     "disciplines": {
       "badge": "覆盖范围",
       "title": "支持的临床学科",
-      "items": ["毛发移植", "皮肤美容", "整形外科", "机器人手术", "视力矫正", "牙科", "干细胞疗法", "吸脂与脂肪重新分布"],
+      "items": [
+        "毛发移植",
+        "皮肤美容",
+        "整形外科",
+        "机器人手术",
+        "视力矫正",
+        "牙科",
+        "干细胞疗法",
+        "吸脂与脂肪重新分布"
+      ],
       "cta": "准备好了解完整流程了吗？",
       "ctaHowItWorks": "AetherHeal 运作方式",
       "ctaMedicalBoundary": "阅读医疗边界声明"
@@ -460,38 +1024,70 @@
   },
   "medicalBoundary": {
     "meta": {
-      "title": "医疗边界声明 | AetherHeal",
-      "description": "了解 AetherHeal 的职责范围。医疗边界声明、患者责任及紧急情况信息。"
+      "title": "Medical Boundary Notice | AetherHeal",
+      "description": "Understand the medical and AI-operational limits of AetherHeal. This notice explains what the platform may support and what remains strictly human and clinical responsibility."
     },
     "hero": {
-      "badge": "法律与安全",
-      "h1": "医疗边界声明",
-      "subtitle": "本页说明 AetherHeal 的职责范围。使用前请务必理解这些边界。"
+      "badge": "Legal & Safety",
+      "h1": "Medical Boundary Notice",
+      "subtitle": "This page defines the clinical, legal, and AI-operational limits of AetherHeal. Understanding these boundaries is required before use."
     },
     "boundaries": [
-      { "title": "非医疗提供方", "description": "AetherHeal 不提供医疗诊断、治疗或处方。我们是决策支持平台——不是医院、诊所或远程医疗服务。" },
-      { "title": "不能替代紧急医疗", "description": "如果您正在经历医疗紧急状况，请立即联系当地急救服务。AetherHeal 不具备处理紧急或危及生命情况的能力。" },
-      { "title": "不保证治疗效果", "description": "决策支持帮助您做出知情选择，但不保证特定的医疗结果。治疗效果取决于超出我们服务范围的诸多因素。" },
-      { "title": "不能替代您的医生", "description": "我们的服务是补充——而非替代——您与现有医疗服务提供者之间的关系。请始终就您的医疗事宜咨询您的主治医师。" }
+      {
+        "title": "Not a Medical Provider",
+        "description": "AetherHeal does not provide medical diagnosis, treatment, prescriptions, or hospital-based care. We are a decision support and coordination platform, not a hospital, clinic, or telemedicine service."
+      },
+      {
+        "title": "AI Does Not Diagnose or Prescribe",
+        "description": "AI-assisted tools used by AetherHeal do not diagnose conditions, recommend medications, prescribe treatments, or produce independent medical conclusions."
+      },
+      {
+        "title": "AI Does Not Replace Physician Consultation",
+        "description": "AI-assisted summaries or translations may support communication, but they do not replace direct consultation with a licensed physician or the treating hospital."
+      },
+      {
+        "title": "AI Does Not Determine Emergency Care",
+        "description": "Neither AetherHeal nor its AI-assisted tools determine whether a situation is an emergency. If urgent or severe symptoms occur, seek immediate local medical care and emergency services."
+      },
+      {
+        "title": "AI Does Not Make Final Provider Selection",
+        "description": "AI may help organize case information, but final provider selection, hospital routing, and next-step approvals remain accountable human decisions."
+      },
+      {
+        "title": "Not a Guarantee of Outcomes",
+        "description": "Decision support can improve clarity, but it does not guarantee a particular medical outcome. Treatment results depend on clinical factors outside the platform's control."
+      }
     ],
+    "aiSupport": {
+      "badge": "Permitted AI Support",
+      "title": "What AI May Support",
+      "intro": "Within these boundaries, AI may be used for tightly scoped administrative and informational support under human oversight.",
+      "items": [
+        "Structuring intake information and uploaded records into standardized drafts",
+        "Summarizing case materials for physician, reviewer, or operations review",
+        "Translating routine messages and non-diagnostic coordination content",
+        "Surfacing missing information, inconsistencies, or workflow delays for human follow-up",
+        "Monitoring operational status, message delivery, and service exceptions"
+      ]
+    },
     "emergency": {
-      "title": "紧急情况声明",
-      "text": "请勿将本平台用于紧急症状或危及生命的情况。请立即联系当地急救服务。",
-      "phone": "紧急情况：拨打当地急救电话（911、112、119）"
+      "title": "Emergency Notice",
+      "text": "Do not use this platform for urgent symptoms or life-threatening conditions. Contact local emergency services immediately.",
+      "phone": "Emergency: Call your local emergency number (911, 112, 119)"
     },
     "responsibilities": {
-      "badge": "您的责任",
-      "title": "作为平台用户的角色",
+      "badge": "Your Responsibilities",
+      "title": "Your Role as a Platform User",
       "items": [
-        "提供完整且准确的入院信息",
-        "就直接医疗建议咨询您的主治医师",
-        "在审查后自行做出治疗决策",
-        "了解 AetherHeal 仅提供顾问支持",
-        "如遇紧急医疗状况请使用急救服务",
-        "在继续之前阅读并确认所有摘要"
+        "Provide complete and accurate intake information",
+        "Review summaries, translations, and coordination details for factual accuracy",
+        "Consult your physician or treating hospital for direct medical advice",
+        "Make your own treatment decisions after appropriate clinical review",
+        "Use emergency services for urgent medical conditions",
+        "Understand that AetherHeal provides bounded decision and coordination support only"
       ],
-      "ctaProcess": "查看流程",
-      "ctaOversight": "查看监管"
+      "ctaProcess": "Review process",
+      "ctaOversight": "View oversight"
     }
   },
   "hairTransplant": {
@@ -507,9 +1103,18 @@
       "introDetail": "凭借先进的FUE技术、经验丰富的医师和具有竞争力的价格，首尔已成为全球中心。但选择合适的诊所不仅仅是一次搜索引擎检索那么简单。"
     },
     "toc": [
-      { "id": "why-korea", "label": "患者为何选择韩国" },
-      { "id": "what-we-offer", "label": "AetherHeal 提供的服务" },
-      { "id": "common-procedures", "label": "常见手术覆盖范围" }
+      {
+        "id": "why-korea",
+        "label": "患者为何选择韩国"
+      },
+      {
+        "id": "what-we-offer",
+        "label": "AetherHeal 提供的服务"
+      },
+      {
+        "id": "common-procedures",
+        "label": "常见手术覆盖范围"
+      }
     ],
     "whyKorea": {
       "title": "患者为何选择韩国进行毛发移植",
@@ -533,10 +1138,22 @@
       "boxText": "每个案例都进行单独评估。我们确保不做千篇一律的推荐。"
     },
     "relatedPages": [
-      { "label": "首尔医学美容", "desc": "皮肤治疗与皮肤科导览" },
-      { "label": "海外医院选择", "desc": "更安全决策的框架" },
-      { "label": "AetherHeal 信任协议", "desc": "我们如何评估合作医院" },
-      { "label": "AetherHeal 运作方式", "desc": "医师主导决策支持背后的系统" }
+      {
+        "label": "首尔医学美容",
+        "desc": "皮肤治疗与皮肤科导览"
+      },
+      {
+        "label": "海外医院选择",
+        "desc": "更安全决策的框架"
+      },
+      {
+        "label": "AetherHeal 信任协议",
+        "desc": "我们如何评估合作医院"
+      },
+      {
+        "label": "AetherHeal 运作方式",
+        "desc": "医师主导决策支持背后的系统"
+      }
     ]
   },
   "plasticSurgery": {
@@ -552,9 +1169,18 @@
       "introDetail": "对于国际患者来说，这既带来了机遇，也增加了复杂性。AetherHeal 通过医师主导的决策支持帮助您理清复杂情况——在您联系任何医院之前。"
     },
     "toc": [
-      { "id": "common-procedures", "label": "常见考虑手术" },
-      { "id": "risk-of-unstructured", "label": "非结构化决策的风险" },
-      { "id": "how-aetherheal-helps", "label": "AetherHeal 如何帮助" }
+      {
+        "id": "common-procedures",
+        "label": "常见考虑手术"
+      },
+      {
+        "id": "risk-of-unstructured",
+        "label": "非结构化决策的风险"
+      },
+      {
+        "id": "how-aetherheal-helps",
+        "label": "AetherHeal 如何帮助"
+      }
     ],
     "commonProcedures": {
       "title": "常见考虑手术",
@@ -576,10 +1202,22 @@
       ]
     },
     "relatedPages": [
-      { "label": "韩国毛发移植", "desc": "医师主导的毛发修复指导" },
-      { "label": "首尔医学美容", "desc": "皮肤治疗与皮肤科导览" },
-      { "label": "海外医院选择", "desc": "更安全决策的框架" },
-      { "label": "AetherHeal 运作方式", "desc": "医师主导决策支持背后的系统" }
+      {
+        "label": "韩国毛发移植",
+        "desc": "医师主导的毛发修复指导"
+      },
+      {
+        "label": "首尔医学美容",
+        "desc": "皮肤治疗与皮肤科导览"
+      },
+      {
+        "label": "海外医院选择",
+        "desc": "更安全决策的框架"
+      },
+      {
+        "label": "AetherHeal 运作方式",
+        "desc": "医师主导决策支持背后的系统"
+      }
     ]
   },
   "aestheticClinic": {
@@ -595,9 +1233,18 @@
       "introDetail": "对于国际患者来说，选择之多可能令人不知所措。AetherHeal 提供结构化支持，帮助您就皮肤治疗和美容手术做出知情决策。"
     },
     "toc": [
-      { "id": "why-seoul", "label": "为何选择首尔进行医学美容" },
-      { "id": "how-we-support", "label": "AetherHeal 如何支持您的决策" },
-      { "id": "treatments-discussed", "label": "常见讨论治疗" }
+      {
+        "id": "why-seoul",
+        "label": "为何选择首尔进行医学美容"
+      },
+      {
+        "id": "how-we-support",
+        "label": "AetherHeal 如何支持您的决策"
+      },
+      {
+        "id": "treatments-discussed",
+        "label": "常见讨论治疗"
+      }
     ],
     "whySeoul": {
       "title": "为何选择首尔进行医学美容",
@@ -620,48 +1267,178 @@
       "callout": "每项治疗方案在联系诊所之前都会与执业医师讨论。"
     },
     "relatedPages": [
-      { "label": "韩国毛发移植", "desc": "医师主导的毛发修复指导" },
-      { "label": "韩国整形外科", "desc": "美容手术的结构化决策支持" },
-      { "label": "AetherHeal 信任协议", "desc": "我们如何评估合作医院" },
-      { "label": "您的医疗旅程", "desc": "从决策到康复的端到端协调" }
+      {
+        "label": "韩国毛发移植",
+        "desc": "医师主导的毛发修复指导"
+      },
+      {
+        "label": "韩国整形外科",
+        "desc": "美容手术的结构化决策支持"
+      },
+      {
+        "label": "AetherHeal 信任协议",
+        "desc": "我们如何评估合作医院"
+      },
+      {
+        "label": "您的医疗旅程",
+        "desc": "从决策到康复的端到端协调"
+      }
     ]
   },
   "medicalJourney": {
     "meta": {
-      "title": "您的首尔医疗之旅 | AetherHeal",
-      "description": "从决策到康复——AetherHeal 协调您的整个首尔医疗之旅。医师主导的规划、医院匹配、行程安排及术后随访。"
+      "title": "Your Medical Journey to Seoul | AetherHeal",
+      "description": "A stage-based medical journey to Seoul with clear ownership before travel, in Korea, and after return. AI supports coordination, while humans retain clinical and final decision responsibility."
     },
     "hero": {
-      "badge": "旅程协调",
-      "h1": "您的首尔医疗之旅：",
-      "h1Highlight": "全程协调",
-      "intro": "海外就医不仅仅是预订航班和诊所。",
-      "introDetail": "AetherHeal 对整个流程进行结构化管理——从您的首次咨询到术后随访——确保万无一失。"
+      "badge": "Journey Coordination",
+      "h1": "Your Medical Journey to Seoul:",
+      "h1Highlight": "Coordinated in Three Stages",
+      "intro": "Cross-border medical care becomes safer when each phase has clear ownership.",
+      "introDetail": "AetherHeal separates the journey into before travel, in Korea, and after return so AI support, physician review, hospital care, and concierge accountability do not blur together."
     },
     "toc": [
-      { "id": "how-journey-works", "label": "旅程如何运作" },
-      { "id": "what-makes-different", "label": "有何不同" }
+      {
+        "id": "before-travel",
+        "label": "Before Travel"
+      },
+      {
+        "id": "in-korea",
+        "label": "In Korea"
+      },
+      {
+        "id": "after-return",
+        "label": "After Return"
+      },
+      {
+        "id": "what-makes-different",
+        "label": "What Makes This Different"
+      }
     ],
-    "howJourneyWorks": {
-      "title": "旅程如何运作",
-      "steps": [
-        { "step": "01", "title": "决策准备", "desc": "分享您的目标和顾虑。韩国执业医师帮助您在联系任何医院之前构建决策。" },
-        { "step": "02", "title": "医院匹配", "desc": "基于您的决策摘要，AetherHeal 为您对接与临床状况匹配的合作医院。" },
-        { "step": "03", "title": "抵达前协调", "desc": "日程安排、文件准备、出行后勤和住宿指导——由您的专属管家处理。" },
-        { "step": "04", "title": "首尔在地支持", "desc": "机场接机、医院陪同、翻译支持以及您停留期间的全天候管家服务。" },
-        { "step": "05", "title": "术后随访", "desc": "恢复监控、医师回访以及您回国后的长期持续关怀。" }
+    "journeyStages": {
+      "title": "Three Stages, One Accountable Journey",
+      "intro": "Each stage has a defined purpose. AI may support administrative clarity and continuity, but clinical judgment, treatment, escalation, and final approvals remain human responsibilities.",
+      "stages": [
+        {
+          "id": "before-travel",
+          "label": "Stage 1",
+          "title": "Before Travel",
+          "summary": "This stage is for structuring the case before any treatment journey begins. The goal is decision readiness, not speed.",
+          "milestonesTitle": "Core milestones",
+          "items": [
+            {
+              "title": "Decision structuring",
+              "desc": "Goals, constraints, prior records, and open questions are organized into a clearer decision frame before partner outreach."
+            },
+            {
+              "title": "Feasibility preparation",
+              "desc": "Appropriate documents, travel constraints, and scope assumptions are checked so the case is fit for hospital review."
+            },
+            {
+              "title": "Coordination readiness",
+              "desc": "Scheduling intent, likely timelines, and practical travel planning are prepared only after the case is sufficiently clarified."
+            }
+          ],
+          "aiTitle": "AI supports",
+          "aiItems": [
+            "Structuring intake information and draft summaries for review",
+            "Supporting translation of records or routine coordination messages",
+            "Surfacing missing documents, conflicting details, or unresolved questions"
+          ],
+          "humanTitle": "Humans own",
+          "humanItems": [
+            "Defining clinical boundaries and what the case is actually about",
+            "Confirming whether the case is ready to proceed, defer, or re-clarify",
+            "Approving partner outreach, scheduling, and next-step commitments"
+          ]
+        },
+        {
+          "id": "in-korea",
+          "label": "Stage 2",
+          "title": "In Korea",
+          "summary": "Once the patient is on the ground, coordination must stay precise while treatment authority remains with the treating institution and responsible clinicians.",
+          "milestonesTitle": "Core milestones",
+          "items": [
+            {
+              "title": "Arrival and handoff",
+              "desc": "Airport arrival, transportation, appointment alignment, and on-site coordination are kept synchronized."
+            },
+            {
+              "title": "Hospital-facing execution",
+              "desc": "Consultation, informed consent, and treatment planning occur within the licensed hospital or clinic environment."
+            },
+            {
+              "title": "Real-time support",
+              "desc": "Concierge and operations support help keep logistics visible so delays or missed steps can be escalated quickly."
+            }
+          ],
+          "aiTitle": "AI supports",
+          "aiItems": [
+            "Keeping itineraries, reminders, and routine coordination synchronized",
+            "Assisting with translation of routine non-diagnostic communications",
+            "Monitoring workflow gaps, missed handoffs, or timing risks for human follow-up"
+          ],
+          "humanTitle": "Humans own",
+          "humanItems": [
+            "Hospital consultation, informed consent, and all medical treatment decisions",
+            "Escalation when something appears urgent, unclear, or outside normal workflow",
+            "Final operational judgment by concierge and platform staff on the ground"
+          ]
+        },
+        {
+          "id": "after-return",
+          "label": "Stage 3",
+          "title": "After Return",
+          "summary": "After the patient goes home, continuity matters. The purpose is to preserve communication, follow-through, and documented escalation when needed.",
+          "milestonesTitle": "Core milestones",
+          "items": [
+            {
+              "title": "Follow-up continuity",
+              "desc": "Updates, check-ins, and care continuity are coordinated so recovery communication does not fragment across borders."
+            },
+            {
+              "title": "Documentation hygiene",
+              "desc": "Recovery notes, images, and follow-up messages are kept organized for review and case continuity."
+            },
+            {
+              "title": "Escalation discipline",
+              "desc": "If recovery concerns arise, the patient is directed toward the appropriate treating or local physician rather than informal reassurance."
+            }
+          ],
+          "aiTitle": "AI supports",
+          "aiItems": [
+            "Organizing follow-up messages and recovery updates into structured case notes",
+            "Supporting translation and summary drafting for continuity workflows",
+            "Flagging unanswered check-ins or coordination gaps that need human attention"
+          ],
+          "humanTitle": "Humans own",
+          "humanItems": [
+            "Clinical interpretation of recovery status by appropriate physicians",
+            "Advising when the patient should contact the treating hospital or local doctor",
+            "Managing continuity, escalation, and documented follow-through"
+          ]
+        }
       ]
     },
     "whatMakesDifferent": {
-      "title": "有何不同",
-      "text": "与注重数量和佣金的医疗旅游中介不同，AetherHeal 采用决策优先模式。",
-      "boxTitle": "在联系医院之前",
-      "boxText": "您的决策必须经过结构化梳理并确认。这种分离确保了临床适宜性——而非销售压力——驱动整个过程。"
+      "title": "What Makes This Different",
+      "text": "Unlike medical tourism models that blur sales, logistics, and medical judgment, AetherHeal separates the journey into explicit phases with explicit ownership.",
+      "boxTitle": "AI supports the process",
+      "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey."
     },
     "relatedPages": [
-      { "label": "海外医院选择", "desc": "更安全决策的框架" },
-      { "label": "AetherHeal 信任协议", "desc": "我们如何评估合作医院" },
-      { "label": "AetherHeal 运作方式", "desc": "医师主导决策支持背后的系统" }
+      {
+        "label": "How to Choose a Hospital Abroad",
+        "desc": "A framework for safer decisions"
+      },
+      {
+        "label": "The AetherHeal Trust Protocol",
+        "desc": "How governance, auditing, and enforcement work"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   },
   "hospitalAbroad": {
@@ -677,22 +1454,53 @@
       "p2": "但选择海外医院不是普通的消费决策。",
       "callout": "这是一项充满不确定性的高风险决策。",
       "selectingLabel": "您需要选择的是：",
-      "selectingItems": ["医疗团队", "治疗方案", "医疗体系"],
+      "selectingItems": [
+        "医疗团队",
+        "治疗方案",
+        "医疗体系"
+      ],
       "selectingEnd": "在一个您可能并不完全了解的国家。",
       "p3": "互联网提供了无尽的信息：评价、论坛、术前术后照片、诊所网站。",
       "p4": "但更多的信息并不一定带来清晰。很多情况下，它造成的是决策过载。",
       "guideIntro": "本指南说明了经验丰富的医师和医疗体系如何评估医院——以及国际患者在选择海外治疗时如何运用相同的逻辑。"
     },
     "toc": [
-      { "id": "why-different", "label": "为何海外医院选择不同" },
-      { "id": "common-mistakes", "label": "国际患者常见误区" },
-      { "id": "hospital-quality", "label": "医院质量的决定因素" },
-      { "id": "reviews-rankings", "label": "为何评价与排名不足" },
-      { "id": "physician-led", "label": "医师主导的审核模式" },
-      { "id": "patient-journey", "label": "国际患者旅程" },
-      { "id": "south-korea", "label": "为何许多患者选择韩国" },
-      { "id": "structured-approach", "label": "医疗旅行的结构化方法" },
-      { "id": "faq", "label": "常见问题" }
+      {
+        "id": "why-different",
+        "label": "为何海外医院选择不同"
+      },
+      {
+        "id": "common-mistakes",
+        "label": "国际患者常见误区"
+      },
+      {
+        "id": "hospital-quality",
+        "label": "医院质量的决定因素"
+      },
+      {
+        "id": "reviews-rankings",
+        "label": "为何评价与排名不足"
+      },
+      {
+        "id": "physician-led",
+        "label": "医师主导的审核模式"
+      },
+      {
+        "id": "patient-journey",
+        "label": "国际患者旅程"
+      },
+      {
+        "id": "south-korea",
+        "label": "为何许多患者选择韩国"
+      },
+      {
+        "id": "structured-approach",
+        "label": "医疗旅行的结构化方法"
+      },
+      {
+        "id": "faq",
+        "label": "常见问题"
+      }
     ],
     "whyDifferent": {
       "title": "为何海外医院选择不同",
@@ -706,21 +1514,33 @@
           "title": "1. 信息不对称",
           "p1": "在医学领域，患者很少拥有与临床医师相同的知识。",
           "p2": "理解治疗质量需要：",
-          "items": ["医学培训", "并发症处理经验", "对临床结果的熟悉度"],
+          "items": [
+            "医学培训",
+            "并发症处理经验",
+            "对临床结果的熟悉度"
+          ],
           "conclusion": "这使得使用标准消费者信号来评估医疗服务提供者变得困难。"
         },
         {
           "title": "2. 结果不确定",
           "p1": "与购买产品不同，医疗治疗涉及生物系统。",
           "p2": "即使在优秀的医院：",
-          "items": ["效果可能有所不同", "可能出现并发症", "恢复时间因人而异"],
+          "items": [
+            "效果可能有所不同",
+            "可能出现并发症",
+            "恢复时间因人而异"
+          ],
           "conclusion": "良好的决策过程必须考虑到不确定性。"
         },
         {
           "title": "3. 错误的代价很高",
           "p1": "如果消费品购买失败，可以更换。",
           "p2": "如果医疗决策失败，后果可能包括：",
-          "items": ["修复手术", "漫长的恢复期", "严重的心理压力"],
+          "items": [
+            "修复手术",
+            "漫长的恢复期",
+            "严重的心理压力"
+          ],
           "conclusion": "因此，选择海外医院应该作为一个结构化的决策过程来对待，而非简单的快速比较。"
         }
       ]
@@ -734,26 +1554,46 @@
           "title": "误区一：过度依赖在线评价",
           "p1": "评价可以提供有用的背景信息，但它们有结构性的局限。",
           "p2": "它们往往反映的是：",
-          "items": ["极端正面体验", "极端负面体验"],
+          "items": [
+            "极端正面体验",
+            "极端负面体验"
+          ],
           "p3": "而非典型结果。",
           "p4": "此外，评价很少包含以下方面的详细医学信息：",
-          "items2": ["患者筛选", "治疗复杂性", "临床随访"],
+          "items2": [
+            "患者筛选",
+            "治疗复杂性",
+            "临床随访"
+          ],
           "scenario": "许多国际患者从在线评价开始他们的调研。虽然评价能突出患者体验，但很少反映临床复杂性。接受常规手术的患者可能留下五星评价，而更复杂的案例——涉及修复手术、特殊解剖结构或更高并发症风险的——可能需要评价无法体现的根本不同层次的专业水平。"
         },
         {
           "title": "误区二：主要按价格比较诊所",
           "p1": "不同国家之间的价格差异通常很大。",
           "p2": "然而，仅关注费用会忽略其他关键变量：",
-          "items": ["医师经验", "医院基础设施", "并发症处理", "随访护理"],
+          "items": [
+            "医师经验",
+            "医院基础设施",
+            "并发症处理",
+            "随访护理"
+          ],
           "conclusion": "更低的价格可能反映更低的运营成本——但也可能反映培训或体系上的差异。"
         },
         {
           "title": "误区三：评估营销而非医疗",
           "p1": "许多诊所网站突出展示：",
-          "items": ["术前术后对比照", "患者推荐", "社交媒体曝光度"],
+          "items": [
+            "术前术后对比照",
+            "患者推荐",
+            "社交媒体曝光度"
+          ],
           "p2": "虽然这些元素可以展示患者满意度，但它们不能替代临床评估。",
           "p3": "医疗质量由以下因素决定：",
-          "items2": ["医师专业能力", "机构标准", "长期效果"]
+          "items2": [
+            "医师专业能力",
+            "机构标准",
+            "长期效果"
+          ]
         }
       ]
     },
@@ -766,13 +1606,22 @@
           "title": "医师培训与专科",
           "p1": "执行手术的医师的培训背景通常是最重要的变量。",
           "p2": "关键考量包括：",
-          "items": ["医学教育和住院医师培训", "特定手术经验", "研究或学术参与"]
+          "items": [
+            "医学教育和住院医师培训",
+            "特定手术经验",
+            "研究或学术参与"
+          ]
         },
         {
           "title": "机构标准",
           "p1": "医院在体系和基础设施方面存在显著差异。",
           "p2": "重要因素包括：",
-          "items": ["手术室规范", "消毒标准", "护理专业能力", "并发症处理系统"]
+          "items": [
+            "手术室规范",
+            "消毒标准",
+            "护理专业能力",
+            "并发症处理系统"
+          ]
         },
         {
           "title": "手术量",
@@ -790,39 +1639,63 @@
     "reviewsRankings": {
       "title": "为何评价与排名不足",
       "p1": "在线平台经常使用以下标准对诊所进行排名：",
-      "items1": ["评价数量", "评分", "热度指标"],
+      "items1": [
+        "评价数量",
+        "评分",
+        "热度指标"
+      ],
       "p2": "这些系统对于识别知名的医疗服务提供者可能有用。",
       "p3": "然而，它们很少纳入更深层的临床信号，例如：",
-      "items2": ["治疗计划", "医师案例筛选", "并发症处理"],
+      "items2": [
+        "治疗计划",
+        "医师案例筛选",
+        "并发症处理"
+      ],
       "p4": "因此，评价驱动的平台往往优化的是曝光度，而非临床严谨性。",
       "trustProtocolNote": "这正是结构化信任协议变得至关重要的地方——一个基于临床价值而非营销表现来评估医院的体系。"
     },
     "physicianLed": {
-      "title": "医师主导的审核模式",
-      "p1": "减少不确定性的一种方法是在决策过程中引入医师监督。",
-      "p2": "在医师主导的模式中：",
+      "title": "The AI-Structured, Physician-Led Verification Model",
+      "p1": "One way to reduce uncertainty is to let AI structure raw patient information before physician verification begins.",
+      "p2": "In an AI-structured, physician-led model:",
       "items": [
-        "在选择医院之前先审查医疗信息",
-        "对治疗方案进行可行性评估",
-        "使用临床标准评估医院"
+        "patient goals, constraints, and context are organized before a hospital is considered",
+        "physicians review the structured case, interpret clinical meaning, and test feasibility",
+        "hospitals are assessed against physician-reviewed clinical criteria, not marketing alone"
       ],
-      "p3": "该模式将决策过程从消费者比较转向结构化的医学评估。",
-      "trustNote": "AetherHeal 的信任协议建立在此原则之上：每家合作机构由医师评估，而非营销人员。"
+      "p3": "This model uses AI to improve preparation and consistency while keeping medical interpretation, judgment, and accountability with licensed physicians.",
+      "trustNote": "AetherHeal's Trust Protocol follows this logic: AI helps structure the case, and physicians lead the verification of each partner institution."
     },
     "patientJourney": {
       "title": "理解国际患者旅程",
       "p1": "选择海外医院不是单一决策，而是一系列协调的步骤。",
       "p2": "典型的患者旅程包括：",
-      "steps": ["决策准备", "治疗计划", "医院选择", "出行协调", "治疗与恢复", "术后随访"],
+      "steps": [
+        "决策准备",
+        "治疗计划",
+        "医院选择",
+        "出行协调",
+        "治疗与恢复",
+        "术后随访"
+      ],
       "p3": "当这些步骤被正确结构化时，国际医疗可以变得更加可预期。",
       "journeyNote": "了解更多关于 AetherHeal 如何协调每个阶段，请查看我们的医疗旅程概览。"
     },
     "southKorea": {
       "title": "为何许多患者选择韩国",
       "p1": "韩国已成为某些医疗专科的领先目的地之一，包括：",
-      "specialties": ["毛发移植", "医学美容", "整形外科", "眼科"],
+      "specialties": [
+        "毛发移植",
+        "医学美容",
+        "整形外科",
+        "眼科"
+      ],
       "p2": "多个因素促成了这一声誉：",
-      "factors": ["高度专业化的医师", "先进的医疗基础设施", "对技术效果的高度关注"],
+      "factors": [
+        "高度专业化的医师",
+        "先进的医疗基础设施",
+        "对技术效果的高度关注"
+      ],
       "oecdNote": "根据OECD医疗数据，韩国已发展出亚洲最高的医师密度之一。对于国际患者来说，首尔尤其发展出了密集的专科诊所生态系统。",
       "hairNote": "探索特定手术的医师主导指导，如韩国毛发移植。"
     },
@@ -831,7 +1704,11 @@
       "p1": "最终，选择海外医院最有效的策略不是简单地收集更多信息。",
       "p2": "而是将决策过程结构化。",
       "p3": "这意味着：",
-      "items": ["识别相关的临床因素", "验证医院的能力", "使治疗方案与患者目标保持一致"],
+      "items": [
+        "识别相关的临床因素",
+        "验证医院的能力",
+        "使治疗方案与患者目标保持一致"
+      ],
       "p4": "当这些要素被系统性地组织起来时，患者可以从不确定走向清晰。"
     },
     "closing": {
@@ -843,20 +1720,53 @@
     "faq": {
       "title": "常见问题",
       "items": [
-        { "question": "出国就医安全吗？", "answer": "当患者评估医师培训、医院基础设施和随访护理时，国际医疗旅行可以是安全的。结构化的决策过程能显著降低风险。" },
-        { "question": "如何验证海外医院？", "answer": "患者应审查医师资质、医院体系、手术量和并发症处理方案，而非仅仅依赖在线评价。" },
-        { "question": "海外医疗费用是多少？", "answer": "费用因手术、国家和医院而有很大差异。虽然国际治疗可能比国内选择更实惠，但总费用应涵盖出行、随访护理和潜在的修复手术——而非仅仅是报价。" },
-        { "question": "为什么患者前往韩国做手术？", "answer": "韩国拥有高度专业化的医师、先进的医疗基础设施以及对技术效果的高度关注——特别是在毛发移植、医学美容、整形外科和眼科领域。" },
-        { "question": "选择海外诊所前应该检查什么？", "answer": "关键因素包括医师培训与专科、机构标准、手术量、术后管理方案，以及医院是否有治疗与您情况相同的国际患者的经验。" }
+        {
+          "question": "出国就医安全吗？",
+          "answer": "当患者评估医师培训、医院基础设施和随访护理时，国际医疗旅行可以是安全的。结构化的决策过程能显著降低风险。"
+        },
+        {
+          "question": "如何验证海外医院？",
+          "answer": "患者应审查医师资质、医院体系、手术量和并发症处理方案，而非仅仅依赖在线评价。"
+        },
+        {
+          "question": "海外医疗费用是多少？",
+          "answer": "费用因手术、国家和医院而有很大差异。虽然国际治疗可能比国内选择更实惠，但总费用应涵盖出行、随访护理和潜在的修复手术——而非仅仅是报价。"
+        },
+        {
+          "question": "为什么患者前往韩国做手术？",
+          "answer": "韩国拥有高度专业化的医师、先进的医疗基础设施以及对技术效果的高度关注——特别是在毛发移植、医学美容、整形外科和眼科领域。"
+        },
+        {
+          "question": "选择海外诊所前应该检查什么？",
+          "answer": "关键因素包括医师培训与专科、机构标准、手术量、术后管理方案，以及医院是否有治疗与您情况相同的国际患者的经验。"
+        }
       ]
     },
     "relatedPages": [
-      { "label": "AetherHeal 信任协议", "desc": "我们如何评估合作医院" },
-      { "label": "您的医疗旅程", "desc": "从决策到康复的端到端协调" },
-      { "label": "韩国毛发移植", "desc": "医师主导的毛发修复指导" },
-      { "label": "韩国整形外科", "desc": "美容手术的结构化决策支持" },
-      { "label": "首尔医学美容", "desc": "首尔皮肤治疗与皮肤科导览" },
-      { "label": "AetherHeal 运作方式", "desc": "医师主导决策支持背后的系统" }
+      {
+        "label": "AetherHeal 信任协议",
+        "desc": "我们如何评估合作医院"
+      },
+      {
+        "label": "您的医疗旅程",
+        "desc": "从决策到康复的端到端协调"
+      },
+      {
+        "label": "韩国毛发移植",
+        "desc": "医师主导的毛发修复指导"
+      },
+      {
+        "label": "韩国整形外科",
+        "desc": "美容手术的结构化决策支持"
+      },
+      {
+        "label": "首尔医学美容",
+        "desc": "首尔皮肤治疗与皮肤科导览"
+      },
+      {
+        "label": "AetherHeal 运作方式",
+        "desc": "医师主导决策支持背后的系统"
+      }
     ]
   }
 }

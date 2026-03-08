@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { Card } from "@/components/ui/card"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
@@ -52,12 +53,47 @@ export default async function MedicalJourneyPage({ params }: { params: Promise<{
             </div>
             <div className="space-y-24">
               <div id="how-journey-works" className="scroll-mt-32">
-                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.howJourneyWorks.title}</h2>
-                <div className="space-y-6">
-                  {t.howJourneyWorks.steps.map((item) => (
-                    <div key={item.step} className="flex flex-col sm:flex-row gap-5 sm:gap-8 p-6 sm:p-8 bg-white border border-slate-100 rounded-2xl shadow-sm">
-                      <div className="shrink-0 w-12 h-12 rounded-2xl bg-brand-navy flex items-center justify-center text-brand-gold font-bold text-sm">{item.step}</div>
-                      <div><h3 className="font-serif text-xl sm:text-2xl text-brand-navy font-bold mb-3">{item.title}</h3><p className="text-base text-slate-600 font-light leading-relaxed">{item.desc}</p></div>
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-6 pb-4 border-b border-slate-100 leading-tight">{t.journeyStages.title}</h2>
+                <div className="space-y-8">
+                  <p className="text-lg text-slate-600 font-light leading-[1.8]">{t.journeyStages.intro}</p>
+                  {t.journeyStages.stages.map((stage) => (
+                    <div key={stage.id} id={stage.id} className="scroll-mt-32">
+                      <Card className="p-6 sm:p-8 space-y-8">
+                        <div className="space-y-3">
+                          <p className="text-[11px] font-bold uppercase tracking-widest text-brand-gold">{stage.label}</p>
+                          <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy">{stage.title}</h3>
+                          <p className="text-base text-slate-600 font-light leading-relaxed">{stage.summary}</p>
+                        </div>
+                        <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">
+                          <div className="rounded-2xl border border-slate-100 bg-slate-50/70 p-5">
+                            <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">{stage.milestonesTitle}</p>
+                            <div className="space-y-4">
+                              {stage.items.map((item) => (
+                                <div key={item.title}>
+                                  <p className="text-sm font-semibold text-brand-navy mb-1">{item.title}</p>
+                                  <p className="text-sm text-text-body leading-relaxed">{item.desc}</p>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                          <div className="rounded-2xl border border-slate-100 bg-white p-5">
+                            <p className="text-xs font-bold uppercase tracking-widest text-brand-gold mb-4">{stage.aiTitle}</p>
+                            <ul className="space-y-3">
+                              {stage.aiItems.map((item) => (
+                                <li key={item} className="text-sm text-text-body leading-relaxed">{item}</li>
+                              ))}
+                            </ul>
+                          </div>
+                          <div className="rounded-2xl border border-slate-100 bg-white p-5">
+                            <p className="text-xs font-bold uppercase tracking-widest text-brand-navy mb-4">{stage.humanTitle}</p>
+                            <ul className="space-y-3">
+                              {stage.humanItems.map((item) => (
+                                <li key={item} className="text-sm text-text-body leading-relaxed">{item}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      </Card>
                     </div>
                   ))}
                 </div>

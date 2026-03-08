@@ -2,8 +2,8 @@
   "common": {
     "nav": {
       "howItWorks": "How It Works",
-      "exploreFramework": "Explore Framework",
-      "trustSafety": "Trust & Safety",
+      "exploreFramework": "Explore",
+      "trustSafety": "Trust Protocol",
       "signIn": "Sign in",
       "beginJourney": "Begin Journey"
     },
@@ -41,30 +41,34 @@
   "home": {
     "meta": {
       "title": "AetherHeal | Physician-Led Global Medical Journey to Seoul",
-      "description": "AetherHeal helps international patients make complex medical decisions with clarity. Physician-led verification, curated hospitals, and a structured medical journey to Seoul."
+      "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
     },
     "hero": {
-      "badge": "Physician-led decision support for premium care in Korea",
+      "badge": "Physician-led, AI-assisted decision infrastructure for premium care in Korea",
       "h1": "Decide With Clarity",
       "h1Highlight": "Before You Choose a Hospital",
-      "description": "Physician-led decision support",
+      "description": "Physician-led, AI-assisted decision infrastructure",
       "descriptionHighlight": "before",
-      "descriptionEnd": "hospital connection and execution in Korea.",
-      "disclaimer": "No diagnosis. No treatment. Decision support only.",
+      "descriptionEnd": "hospital selection, journey execution, and continuity planning in Korea.",
+      "disclaimer": "AI assists the process. Physicians retain authority. No diagnosis. No treatment.",
       "ctaHowItWorks": "See how it works",
       "ctaExplore": "Start exploring"
     },
     "problemQuote": {
-      "q1": "Most platforms ask you to pick a hospital first.",
-      "q2": "Regret usually starts with unclear decisions, not unclear pricing.",
-      "q3": "AetherHeal closes that decision gap."
+      "q1": "Most platforms optimize introductions before they structure the decision.",
+      "q2": "In high-stake medicine, speed without clinical framing creates risk.",
+      "q3": "AetherHeal brings physician-led clarity before commitment."
     },
     "stakes": {
       "title": "Not Every Choice Carries the Same Risk",
       "subtitle": "In medicine, poor decisions can be hard to reverse. The framework for choosing must reflect the gravity of the outcome.",
       "lowStake": {
         "label": "Low-Stake Domains",
-        "items": ["Music Streaming", "Social Content", "Fashion & Retail"],
+        "items": [
+          "Music Streaming",
+          "Social Content",
+          "Fashion & Retail"
+        ],
         "consequenceLabel": "Consequence of Failure",
         "consequence": "Disappointment",
         "principle": "More Choice = More Value"
@@ -72,86 +76,267 @@
       "highStake": {
         "label": "High-Stake Domains",
         "critical": "Critical",
-        "items": ["Aviation", "Nuclear Energy"],
+        "items": [
+          "Aviation",
+          "Nuclear Energy"
+        ],
         "medicine": "Medicine",
         "consequenceLabel": "Consequence of Failure",
         "consequence": "Irreversible Harm",
         "principle": "Unstructured Decision = Risk"
       }
     },
+    "aiLayer": {
+      "badge": "AI Assistance Layer",
+      "title": "AI Support,",
+      "titleHighlight": "Under Physician Authority",
+      "subtitle": "AetherHeal uses AI to organize complexity, surface missing information, and extend continuity monitoring. It does not replace physician judgment or hospital authority.",
+      "cards": [
+        {
+          "title": "Before Physician Review",
+          "description": "AI helps structure intake, records, and questions so the physician starts from a clearer case file, not from scattered fragments."
+        },
+        {
+          "title": "Inside a Governed Workflow",
+          "description": "Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital feasibility. Authority never transfers to the model."
+        },
+        {
+          "title": "After Treatment",
+          "description": "AI can support continuity monitoring by organizing check-ins and surfacing follow-up signals, while humans decide whether action or escalation is needed."
+        }
+      ],
+      "footnote": "AetherHeal is not an AI doctor. AI supports the infrastructure; physicians and hospitals remain the decision-makers."
+    },
     "trending": {
       "badge": "Supported",
       "title": "High-Stake Domains We Handle",
       "skinBrands": [
-        { "name": "Rejuran", "tag": "Skin Healing" },
-        { "name": "Juvelook", "tag": "Skin Booster" },
-        { "name": "Juvederm", "tag": "Dermal Filler" },
-        { "name": "Restylane", "tag": "Dermal Filler" },
-        { "name": "Belotero", "tag": "Dermal Filler" },
-        { "name": "Radiesse", "tag": "Bio-Stimulator" },
-        { "name": "Sculptra", "tag": "Collagen Stimulator" },
-        { "name": "Merz Aesthetics", "tag": "Aesthetics Platform" },
-        { "name": "Ulthera", "tag": "Lifting HIFU" },
-        { "name": "Thermage", "tag": "Skin Tightening RF" }
+        {
+          "name": "Rejuran",
+          "tag": "Skin Healing"
+        },
+        {
+          "name": "Juvelook",
+          "tag": "Skin Booster"
+        },
+        {
+          "name": "Juvederm",
+          "tag": "Dermal Filler"
+        },
+        {
+          "name": "Restylane",
+          "tag": "Dermal Filler"
+        },
+        {
+          "name": "Belotero",
+          "tag": "Dermal Filler"
+        },
+        {
+          "name": "Radiesse",
+          "tag": "Bio-Stimulator"
+        },
+        {
+          "name": "Sculptra",
+          "tag": "Collagen Stimulator"
+        },
+        {
+          "name": "Merz Aesthetics",
+          "tag": "Aesthetics Platform"
+        },
+        {
+          "name": "Ulthera",
+          "tag": "Lifting HIFU"
+        },
+        {
+          "name": "Thermage",
+          "tag": "Skin Tightening RF"
+        }
       ],
       "row1": [
-        { "emoji": "👃", "name": "Rhinoplasty", "tag": "Nose reshaping & revision" },
-        { "emoji": "👁️", "name": "Blepharoplasty", "tag": "Double eyelid & ptosis correction" },
-        { "emoji": "💉", "name": "Facial Contouring", "tag": "V-line jaw & cheekbone" },
-        { "emoji": "🦷", "name": "Dental Implants", "tag": "Full-arch & single tooth" },
-        { "emoji": "🧬", "name": "Stem Cell Therapy", "tag": "Regenerative medicine" },
-        { "emoji": "💇", "name": "Hair Transplant", "tag": "FUE & advanced grafting" },
-        { "emoji": "✨", "name": "Skin Aesthetics", "tag": "Premium dermatology & anti-aging" }
+        {
+          "emoji": "👃",
+          "name": "Rhinoplasty",
+          "tag": "Nose reshaping & revision"
+        },
+        {
+          "emoji": "👁️",
+          "name": "Blepharoplasty",
+          "tag": "Double eyelid & ptosis correction"
+        },
+        {
+          "emoji": "💉",
+          "name": "Facial Contouring",
+          "tag": "V-line jaw & cheekbone"
+        },
+        {
+          "emoji": "🦷",
+          "name": "Dental Implants",
+          "tag": "Full-arch & single tooth"
+        },
+        {
+          "emoji": "🧬",
+          "name": "Stem Cell Therapy",
+          "tag": "Regenerative medicine"
+        },
+        {
+          "emoji": "💇",
+          "name": "Hair Transplant",
+          "tag": "FUE & advanced grafting"
+        },
+        {
+          "emoji": "✨",
+          "name": "Skin Aesthetics",
+          "tag": "Premium dermatology & anti-aging"
+        }
       ],
       "row2": [
-        { "emoji": "👁️‍🗨️", "name": "LASIK / LASEK", "tag": "Vision correction surgery" },
-        { "emoji": "🩺", "name": "Health Screening", "tag": "Premium full-body checkup" },
-        { "emoji": "🏥", "name": "Liposuction", "tag": "Body contouring & fat repositioning" },
-        { "emoji": "🩻", "name": "Full Body MRI", "tag": "Comprehensive imaging screening" },
-        { "emoji": "👙", "name": "Breast Augmentation", "tag": "Implant & fat transfer" },
-        { "emoji": "🤰", "name": "Women's Health", "tag": "Gynecological & fertility care" },
-        { "emoji": "😁", "name": "Orthodontics", "tag": "Adult & pediatric correction" },
-        { "emoji": "🧵", "name": "Thread Lifting", "tag": "Non-surgical face & body lift" }
+        {
+          "emoji": "👁️‍🗨️",
+          "name": "LASIK / LASEK",
+          "tag": "Vision correction surgery"
+        },
+        {
+          "emoji": "🩺",
+          "name": "Health Screening",
+          "tag": "Premium full-body checkup"
+        },
+        {
+          "emoji": "🏥",
+          "name": "Liposuction",
+          "tag": "Body contouring & fat repositioning"
+        },
+        {
+          "emoji": "🩻",
+          "name": "Full Body MRI",
+          "tag": "Comprehensive imaging screening"
+        },
+        {
+          "emoji": "👙",
+          "name": "Breast Augmentation",
+          "tag": "Implant & fat transfer"
+        },
+        {
+          "emoji": "🤰",
+          "name": "Women's Health",
+          "tag": "Gynecological & fertility care"
+        },
+        {
+          "emoji": "😁",
+          "name": "Orthodontics",
+          "tag": "Adult & pediatric correction"
+        },
+        {
+          "emoji": "🧵",
+          "name": "Thread Lifting",
+          "tag": "Non-surgical face & body lift"
+        }
       ]
     },
     "journey": {
-      "sectionLabel": "Responsibility Beyond Decision",
+      "sectionLabel": "Decision Infrastructure in Motion",
       "title": "From Decision to Recovery,",
       "titleHighlight": "Responsibility Stays Visible",
-      "subtitle": "This is how accountability continues after a decision is made.",
+      "subtitle": "This is how physician authority, hospital authority, and AI support remain separated across the journey.",
       "steps": [
-        { "label": "Patient Intent", "badge": null, "description": "Treatment goals, expectations, and medical concern are shared.", "details": null },
-        { "label": "Doctor-Led Structuring", "badge": "LIVE-CHAT & LIVE-VIDEO", "description": "Clarifying context through real-time physician interaction.", "details": "No diagnosis. No treatment." },
-        { "label": "Decision Readiness Check", "badge": null, "description": "Is this decision clear, aligned, and defensible?", "details": null },
-        { "label": "Partner Hospital Feasibility Review", "badge": "SUBJECT OF JUDGMENT", "description": "Partner hospitals review feasibility based on the locked decision scope.", "details": null },
-        { "label": "Decision Commitment Deposit", "badge": "ACCOUNTABILITY TRIGGER", "description": "Confirms intent / activates coordination / scheduling alignment.", "details": null },
-        { "label": "Journey Orchestration", "badge": "ARRIVAL IN KOREA & EXECUTION", "description": "Arrival logistics and 1:1 concierge support.", "details": null },
-        { "label": "Post-Treatment Continuity", "badge": "LONG-TERM RESPONSIBILITY", "description": "No hidden fees. Long-term follow-up ensured.", "details": null }
+        {
+          "label": "Patient Intent",
+          "badge": null,
+          "description": "Goals, constraints, timeline, and risk tolerance are captured.",
+          "details": null
+        },
+        {
+          "label": "AI-Assisted Case Structuring",
+          "badge": "PRE-PHYSICIAN SUPPORT",
+          "description": "Records, questions, and missing inputs are organized before physician review.",
+          "details": "AI assists. Physician reviews every output."
+        },
+        {
+          "label": "Physician Readiness Review",
+          "badge": null,
+          "description": "The physician decides whether the case is sufficiently clear to move forward.",
+          "details": null
+        },
+        {
+          "label": "Partner Hospital Feasibility Review",
+          "badge": "HOSPITAL AUTHORITY",
+          "description": "Partner hospitals assess feasibility within the physician-defined decision scope.",
+          "details": null
+        },
+        {
+          "label": "Decision Commitment Deposit",
+          "badge": "ACCOUNTABILITY TRIGGER",
+          "description": "Confirms intent, secures coordination, and aligns the next operational step.",
+          "details": null
+        },
+        {
+          "label": "Journey Orchestration",
+          "badge": "ARRIVAL, BOOKING & SUPPORT",
+          "description": "Concierge execution begins only after physician-ready, patient-confirmed alignment.",
+          "details": null
+        },
+        {
+          "label": "Post-Treatment Continuity Monitoring",
+          "badge": "AI-SUPPORTED FOLLOW-THROUGH",
+          "description": "Check-ins, recovery signals, and follow-up coordination remain visible after treatment.",
+          "details": null
+        }
       ],
       "journeyOrchestrationDetails": {
-        "arrival": "Arrival & Logistics",
-        "concierge": "1:1 Concierge"
+        "arrival": "Arrival & Scheduling",
+        "concierge": "1:1 Concierge & Translation"
       },
       "decisionReadiness": {
-        "notReady": "Not Ready",
-        "pause": "Pause / Reframe",
-        "ready": "Ready",
-        "proceed": "Proceed"
+        "notReady": "Needs More Clarity",
+        "pause": "Pause / Collect More Information",
+        "ready": "Ready for Release",
+        "proceed": "Proceed to Hospital Review"
       },
-      "closingQuote": "Built for premium cross-border care in Korea. Responsibility continues through the entire journey."
+      "closingQuote": "AI can accelerate the process. Responsibility still belongs to humans."
     },
     "partners": {
       "subtitle": "Standards-based Partner Institutions in Seoul",
       "title": "AetherHeal Trusted Pioneers",
       "hospitals": [
-        { "name": "Morgan Dermatology", "location": "Gangnam, Seoul", "specialties": "Hair Transplant, Hair Loss, Scalp Micropigmentation" },
-        { "name": "Woori Plastic Surgery", "location": "Gangnam, Seoul", "specialties": "Full-spectrum Plastic & Cosmetic Surgery" },
-        { "name": "B&VIIT Eye Center", "location": "Gangnam, Seoul", "specialties": "SMILE Pro, LASIK, PRK, PIOL, Cataracts, Customizing Options" },
-        { "name": "Hosan Women's Hospital", "location": "Gangnam, Seoul", "specialties": "Women's Cosmetic Surgery & Gynecological Care" },
-        { "name": "Apgujeong Min Dental", "location": "Gangnam, Seoul", "specialties": "Pediatric Orthodontics, Frankel Appliance Therapy" },
-        { "name": "The Well Dental Clinic", "location": "Near Incheon Airport", "specialties": "Adult Orthodontics, Prosthodontics & General Dentistry" },
-        { "name": "Apgujeong Tune Clinic", "location": "Gangnam, Seoul", "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Lifting" },
-        { "name": "Bancel Clinic", "location": "Gangnam, Seoul", "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Thread Lifting" }
+        {
+          "name": "Morgan Dermatology",
+          "location": "Gangnam, Seoul",
+          "specialties": "Hair Transplant, Hair Loss, Scalp Micropigmentation"
+        },
+        {
+          "name": "Woori Plastic Surgery",
+          "location": "Gangnam, Seoul",
+          "specialties": "Full-spectrum Plastic & Cosmetic Surgery"
+        },
+        {
+          "name": "B&VIIT Eye Center",
+          "location": "Gangnam, Seoul",
+          "specialties": "SMILE Pro, LASIK, PRK, PIOL, Cataracts, Customizing Options"
+        },
+        {
+          "name": "Hosan Women's Hospital",
+          "location": "Gangnam, Seoul",
+          "specialties": "Women's Cosmetic Surgery & Gynecological Care"
+        },
+        {
+          "name": "Apgujeong Min Dental",
+          "location": "Gangnam, Seoul",
+          "specialties": "Pediatric Orthodontics, Frankel Appliance Therapy"
+        },
+        {
+          "name": "The Well Dental Clinic",
+          "location": "Near Incheon Airport",
+          "specialties": "Adult Orthodontics, Prosthodontics & General Dentistry"
+        },
+        {
+          "name": "Apgujeong Tune Clinic",
+          "location": "Gangnam, Seoul",
+          "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Lifting"
+        },
+        {
+          "name": "Bancel Clinic",
+          "location": "Gangnam, Seoul",
+          "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Thread Lifting"
+        }
       ],
       "footnote": "A vanguard of leading institutions sharing our uncompromising standard for transparent, decision-first care."
     },
@@ -159,30 +344,77 @@
       "title": "Common Questions",
       "subtitle": "Understanding the AetherHeal Infrastructure.",
       "items": [
-        { "question": "Is this medical consultation or telemedicine?", "answer": "No. AetherHeal is not medical consultation. It is decision preparation. Our physicians help you structure your thinking before you enter a hospital — they do not diagnose or treat. This separation preserves clarity and accountability." },
-        { "question": "Does AetherHeal recommend hospitals?", "answer": "Yes, but only through pre-vetted top-tier specialists. Hospital matching is based on medical appropriateness for your specific decision — not ranking or price comparison." },
-        { "question": "How are physicians and hospitals selected?", "answer": "Participation is limited and based on clinical expertise and scope, ethical practice standards, cross-border care experience, and alignment with our decision-first philosophy. Physicians are not performance-ranked." },
-        { "question": "Who is responsible at each stage of the process?", "answer": "Responsibilities are clearly separated. Physicians support decision clarity. Hospitals deliver medical care. AetherHeal governs the process, coordination, and accountability at every step." },
-        { "question": "Is AetherHeal a medical tourism agency?", "answer": "No. AetherHeal is a decision infrastructure. Travel logistics are handled only after a structured medical decision has been made — not before." },
-        { "question": "Can I use AetherHeal if I'm not ready to decide yet?", "answer": "Yes. You can explore the framework without creating an account. Our process respects your pace — there is no pressure to commit." },
-        { "question": "Is my information safe?", "answer": "We collect only what is necessary for decision support and coordination. Uploads are optional. Access is restricted by role (physician, operator) and used only for your case. We do not sell personal medical information." }
+        {
+          "question": "Is AetherHeal an AI doctor?",
+          "answer": "No. AetherHeal is not an AI doctor, and we do not present AI as a physician substitute. AI supports information structuring and continuity workflows, but licensed physicians and partner hospitals retain medical authority."
+        },
+        {
+          "question": "What does AI actually do inside AetherHeal?",
+          "answer": "AI helps organize intake, surface missing information, support multilingual coordination, and keep post-treatment continuity signals visible. It accelerates the workflow; it does not make the medical decision."
+        },
+        {
+          "question": "Can AI override a physician or choose my hospital?",
+          "answer": "No. AI cannot override a physician, select your final hospital, make a diagnosis, recommend treatment, or book autonomously. Physician judgment, patient consent, and hospital feasibility remain the controlling layers."
+        },
+        {
+          "question": "Is this medical consultation or telemedicine?",
+          "answer": "No. AetherHeal is not medical consultation. It is decision preparation. Our physicians help you structure your thinking before you enter a hospital — they do not diagnose or treat. This separation preserves clarity and accountability."
+        },
+        {
+          "question": "How are physicians and hospitals selected?",
+          "answer": "Participation is limited and based on clinical expertise and scope, ethical practice standards, cross-border care experience, and alignment with our decision-first philosophy. Physicians are not performance-ranked."
+        },
+        {
+          "question": "Who is responsible at each stage of the process?",
+          "answer": "Responsibilities are clearly separated. Physicians support decision clarity. Hospitals deliver medical care. AetherHeal governs the process, coordination, and accountability at every step."
+        },
+        {
+          "question": "Is AetherHeal a medical tourism agency?",
+          "answer": "No. AetherHeal is a decision infrastructure. Travel logistics are handled only after a structured medical decision has been made — not before."
+        },
+        {
+          "question": "Can I use AetherHeal if I'm not ready to decide yet?",
+          "answer": "Yes. You can explore the framework without creating an account. Our process respects your pace — there is no pressure to commit."
+        },
+        {
+          "question": "Is my information safe?",
+          "answer": "We collect only what is necessary for decision support and coordination. Uploads are optional. Access is restricted by role (physician, operator) and used only for your case. We do not sell personal medical information."
+        }
       ]
     },
     "explore": {
       "badge": "Explore by Topic",
       "title": "Where Clarity Begins",
       "items": [
-        { "title": "Hair Transplant in Korea", "desc": "FUE, DHI, and advanced grafting — evaluated with physician-led decision support before clinic contact." },
-        { "title": "Aesthetic Clinics in Seoul", "desc": "Navigate Seoul's aesthetic landscape with structured guidance for skin treatments and cosmetic dermatology." },
-        { "title": "Plastic Surgery in Korea", "desc": "Rhinoplasty, contouring, and more — make informed decisions with a physician before committing." },
-        { "title": "Your Medical Journey", "desc": "From decision to recovery, AetherHeal coordinates every step of your journey to Seoul." },
-        { "title": "The AetherHeal Trust Protocol", "desc": "How we evaluate and maintain standards across our curated partner hospital network." },
-        { "title": "Choosing a Hospital Abroad", "desc": "A structured framework for reducing risk when selecting a hospital in another country." }
+        {
+          "title": "Hair Transplant in Korea",
+          "desc": "FUE, DHI, and advanced grafting — evaluated with physician-led decision support before clinic contact."
+        },
+        {
+          "title": "Aesthetic Clinics in Seoul",
+          "desc": "Navigate Seoul's aesthetic landscape with structured guidance for skin treatments and cosmetic dermatology."
+        },
+        {
+          "title": "Plastic Surgery in Korea",
+          "desc": "Rhinoplasty, contouring, and more — make informed decisions with a physician before committing."
+        },
+        {
+          "title": "Your Medical Journey",
+          "desc": "From decision to recovery, AetherHeal coordinates every step of your journey to Seoul."
+        },
+        {
+          "title": "The AetherHeal Trust Protocol",
+          "desc": "How we evaluate and maintain standards across our curated partner hospital network."
+        },
+        {
+          "title": "Choosing a Hospital Abroad",
+          "desc": "A structured framework for reducing risk when selecting a hospital in another country."
+        }
       ]
     },
     "cta": {
       "title": "Confidence Before Commitment",
-      "subtitle": "Start in exploration mode, then move into the structured process when you are ready.",
+      "subtitle": "Explore the physician-led, AI-assisted process before you commit to any hospital path.",
       "ctaHowItWorks": "How it works",
       "ctaExplore": "Start exploring",
       "signature": "Dr. Jee Hoon Ju"
@@ -191,17 +423,17 @@
   "howItWorks": {
     "meta": {
       "title": "How AetherHeal Works | System Specification",
-      "description": "Learn how AetherHeal's physician-led decision support system works. From consultation to recovery, see the structured process for medical care in Korea."
+      "description": "Learn how AetherHeal's physician-led, AI-assisted decision infrastructure works. See the authority chain, readiness states, and continuity monitoring model for medical care in Korea."
     },
     "hero": {
-      "badge": "System Specification 1.0",
+      "badge": "System Specification 2.0",
       "h1": "How AetherHeal",
       "h1Highlight": "Works",
-      "tagline": "Physician-led decision infrastructure for Korea",
-      "description": "Decision clarity",
+      "tagline": "Physician-led, AI-assisted decision infrastructure for Korea",
+      "description": "Structured medical decisions",
       "descriptionHighlight": "before",
-      "descriptionEnd": "hospital connection and execution.",
-      "disclaimer": "Decision support only. Not diagnosis, treatment, or emergency care.",
+      "descriptionEnd": "hospital commitment, logistics, and post-treatment continuity.",
+      "disclaimer": "AI-assisted. Physician-authorized. Not diagnosis, treatment, or emergency care.",
       "ctaPrimary": "Begin Your Decision Journey",
       "ctaSecondary": "Explore Framework"
     },
@@ -211,58 +443,234 @@
       "subtitle": "Medical Information Support, not Sales.",
       "doesTitle": "What the Angel DOES",
       "keyDefinitionLabel": "Key Definition",
-      "keyDefinition": "Angels are Licensed Medical Doctors in Korea who act as your objective medical advocate.",
+      "keyDefinition": "Angels are licensed medical doctors in Korea who hold interpretive authority over the case and review all AI-assisted structuring before release.",
       "does": [
-        { "title": "Clear Information Support", "description": "Delivers objective medical data while filtering out marketing noise and ambiguity." },
-        { "title": "Structures Medical Decisions", "description": "Clarifies risks, constraints, and expectations before any hospital contact." },
-        { "title": "Translates Goals to Inputs", "description": "Converts patient intent into decision-ready medical parameters." }
+        {
+          "title": "Reviews Structured Inputs",
+          "description": "Examines AI-assisted intake organization, missing data flags, and patient goals before any hospital-facing action."
+        },
+        {
+          "title": "Holds Decision Authority",
+          "description": "Clarifies risks, constraints, and expectations, then decides whether the case is ready to move forward."
+        },
+        {
+          "title": "Translates Goals to Clinical Scope",
+          "description": "Converts patient intent into a physician-authored decision frame that hospitals can review for feasibility."
+        }
       ],
       "notTitle": "What the Angel is NOT",
-      "not": ["Does not diagnose", "Does not treat", "Does not prescribe", "Does not promise outcomes", "Does not replace the hospital"]
+      "not": [
+        "Does not diagnose",
+        "Does not treat",
+        "Does not prescribe",
+        "Does not delegate final judgment to AI",
+        "Does not replace the hospital"
+      ]
+    },
+    "authorityChain": {
+      "badge": "02 — Authority Chain",
+      "title": "Who Holds Authority, When",
+      "subtitle": "AetherHeal is designed so assistance, interpretation, treatment, and operations remain clearly separated.",
+      "levels": [
+        {
+          "label": "Layer 1",
+          "title": "Patient Intent",
+          "description": "The patient defines goals, constraints, timing, and personal risk tolerance."
+        },
+        {
+          "label": "Layer 2",
+          "title": "AI Support Layer",
+          "description": "AI structures information, surfaces gaps, and supports monitoring, but has no authority to decide."
+        },
+        {
+          "label": "Layer 3",
+          "title": "Physician Authority",
+          "description": "The Angel physician interprets the case, defines decision scope, and authorizes release to the next stage."
+        },
+        {
+          "label": "Layer 4",
+          "title": "Hospital Authority",
+          "description": "The partner hospital decides clinical feasibility, treatment approach, and whether to accept the case."
+        },
+        {
+          "label": "Layer 5",
+          "title": "Operational Coordination",
+          "description": "AetherHeal executes booking, travel, and continuity workflows only after the human decision chain is clear."
+        }
+      ],
+      "handoffLabel": "authority handoff",
+      "footnote": "AI can support the workflow, but authority passes only between accountable human actors."
+    },
+    "aiAssistance": {
+      "badge": "03 — AI Assistance",
+      "title": "The AI Assistance Layer",
+      "subtitle": "AI is used as operational and informational support, not as a clinical decision-maker.",
+      "summaryLabel": "System Role",
+      "summary": "The AI layer exists to reduce fragmentation: it prepares physician inputs, helps the team track what is missing, and supports continuity monitoring after treatment. Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital authority.",
+      "doesTitle": "What AI Does",
+      "doesItems": [
+        "Structures intake, records, and questions before physician interpretation",
+        "Surfaces missing documents, contradictions, and follow-up tasks for the human team",
+        "Supports multilingual coordination and workflow continuity across the journey",
+        "Organizes post-treatment check-ins and visibility for continuity monitoring"
+      ],
+      "notTitle": "What AI Does NOT Do",
+      "notItems": [
+        "Does not diagnose",
+        "Does not recommend treatment",
+        "Does not select the final hospital",
+        "Does not book autonomously",
+        "Does not override a physician or hospital"
+      ],
+      "footnote": "No AI decision is valid on its own. Human authority remains the controlling layer."
     },
     "coverage": {
-      "badge": "02 — Coverage",
+      "badge": "04 — Coverage",
       "title": "High-Stake Domains",
       "subtitle": "We operate only in high-stake, difficult-to-reverse medical domains.",
-      "domains": ["Hair Transplant", "Skin Aesthetic", "Plastic Surgery", "Robotic Surgery", "Vision Correction", "Dental", "Stem Cell Therapy", "Liposuction & Fat Repositioning"]
+      "domains": [
+        "Hair Transplant",
+        "Skin Aesthetic",
+        "Plastic Surgery",
+        "Robotic Surgery",
+        "Vision Correction",
+        "Dental",
+        "Stem Cell Therapy",
+        "Liposuction & Fat Repositioning"
+      ]
     },
     "scope": {
-      "badge": "03 — Scope",
+      "badge": "05 — Scope",
       "title": "What We Do / What We Don't Do",
-      "subtitle": "Hard boundaries to prevent false expectations.",
+      "subtitle": "Hard operational and medical boundaries prevent false expectations.",
       "doTitle": "What We Do",
       "doItems": [
-        "Decision preparation with medical doctor support",
-        "Fit-based hospital matching within our partner network after decision is clarified",
+        "Decision preparation with physician review of AI-assisted structuring",
+        "Fit-based hospital matching within our partner network after decision readiness is confirmed",
         "Feasibility review coordination with partner hospitals",
-        "Journey execution with concierge accountability"
+        "Journey execution and continuity workflows with accountable human oversight"
       ],
       "dontTitle": "What We Don't Do",
-      "dontBadges": ["No Diagnosis", "No Treatment", "No AI Decision"],
-      "emergencyNote": "Not for emergencies. Seek immediate local care if urgent symptoms occur.",
-      "replacementNote": "Not a replacement. We do not replace hospital care."
+      "dontBadges": [
+        "No Diagnosis",
+        "No Treatment Recommendation",
+        "No Autonomous Booking",
+        "No Final Hospital Selection",
+        "No AI Decision"
+      ],
+      "notes": [
+        "Not for emergencies. Seek immediate local care if urgent symptoms occur.",
+        "Physicians retain interpretive authority. Hospitals retain treatment authority.",
+        "Not a replacement for hospital care or your local doctor."
+      ]
+    },
+    "readinessStates": {
+      "badge": "06 — Readiness States",
+      "title": "When a Case Is Ready",
+      "subtitle": "AetherHeal does not move every case forward at the same speed. Readiness must be earned.",
+      "items": [
+        {
+          "state": "State 1",
+          "title": "Needs More Clarity",
+          "description": "Information is incomplete, goals are still vague, or risk tolerance has not been clearly articulated."
+        },
+        {
+          "state": "State 2",
+          "title": "Ready for Physician Framing",
+          "description": "The case has enough organized information for a physician to interpret tradeoffs and define scope."
+        },
+        {
+          "state": "State 3",
+          "title": "Ready for Hospital Review",
+          "description": "The physician has authored the decision frame and the scope can now be released for feasibility review."
+        },
+        {
+          "state": "State 4",
+          "title": "Continuity Monitoring Active",
+          "description": "After treatment, follow-up signals and check-ins remain visible so the team can coordinate continuity."
+        }
+      ],
+      "footnote": "A case may pause at any state. Movement forward depends on clarity, not momentum."
     },
     "systemFlow": {
-      "badge": "04 — System Flow",
-      "titleParts": ["Consultation", "Decision", "Journey"],
-      "subtitle": "Roles are strictly defined at every step. This is how the AetherHeal infrastructure operates.",
-      "steps": [
-        { "step": 1, "actor": "Patient", "title": "Minimum Intake", "description": "Goals, constraints, timeline" },
-        { "step": 2, "actor": "Angel (MD)", "title": "Consultation", "description": "Video or working-hours chat" },
-        { "step": 3, "actor": "Angel (MD)", "title": "Decision Summary", "description": "Context & tradeoffs structured" },
-        { "step": 4, "actor": "Platform", "title": "Decision Lock", "description": "Scope frozen before execution" },
-        { "step": 5, "actor": "Partner Hospital", "title": "Feasibility Review", "description": "Accept / decline / clarify" },
-        { "step": 6, "actor": "Platform", "title": "Quotation + Deposit", "description": "Accountability trigger" },
-        { "step": 7, "actor": "Journey Team", "title": "Execution + Follow-up", "description": "Travel coordination & continuity" }
+      "badge": "07 — System Flow",
+      "titleParts": [
+        "Intake",
+        "Interpretation",
+        "Continuity"
       ],
-      "closingQuote": "Uncertainty becomes clarity. Clarity becomes value."
+      "subtitle": "Roles are strictly defined at every step. AI support appears before physician interpretation and after treatment, not in place of medical authority.",
+      "steps": [
+        {
+          "step": 1,
+          "actor": "Patient",
+          "title": "Structured Intake",
+          "description": "Goals, constraints, timeline, risk tolerance"
+        },
+        {
+          "step": 2,
+          "actor": "AI Support Layer",
+          "title": "Case Organization",
+          "description": "Inputs organized, gaps surfaced, questions prepared"
+        },
+        {
+          "step": 3,
+          "actor": "Angel (MD)",
+          "title": "Physician Interpretation",
+          "description": "Context, tradeoffs, and readiness assessed",
+          "emphasis": "key"
+        },
+        {
+          "step": 4,
+          "actor": "Angel (MD)",
+          "title": "Decision Summary",
+          "description": "Decision scope authored for downstream review",
+          "emphasis": "key"
+        },
+        {
+          "step": 5,
+          "actor": "Platform",
+          "title": "Readiness Lock",
+          "description": "Scope frozen before any hospital-facing execution",
+          "emphasis": "key"
+        },
+        {
+          "step": 6,
+          "actor": "Partner Hospital",
+          "title": "Feasibility Review",
+          "description": "Accept, decline, or request clarification"
+        },
+        {
+          "step": 7,
+          "actor": "Platform + Concierge",
+          "title": "Quotation + Coordination",
+          "description": "Deposit, scheduling, travel, and arrival planning"
+        },
+        {
+          "step": 8,
+          "actor": "AI + Journey Team",
+          "title": "Continuity Monitoring",
+          "description": "Post-treatment visibility, check-ins, and escalation support",
+          "emphasis": "final"
+        }
+      ],
+      "closingQuote": "AI can support the workflow. Physician authority defines the outcome."
     },
     "safety": {
       "title": "Legal & Medical Safety",
       "items": [
-        { "title": "Safety", "body": "Not for emergency use. If urgent symptoms occur, seek immediate local care." },
-        { "title": "Medical Boundaries", "body": "AetherHeal does not provide diagnosis or treatment. All procedures are by licensed hospitals." },
-        { "title": "Data & Privacy", "body": "Uploads are optional. Access is role-limited. Used only for decision support and coordination." }
+        {
+          "title": "Safety",
+          "body": "Not for emergency use. If urgent symptoms occur, seek immediate local care."
+        },
+        {
+          "title": "AI Boundary",
+          "body": "AI outputs are preparatory and monitoring support only. They do not diagnose, recommend treatment, or decide on hospitals."
+        },
+        {
+          "title": "Data & Privacy",
+          "body": "Uploads are optional. Access is role-limited. Used only for decision support, coordination, and continuity monitoring."
+        }
       ]
     },
     "cta": {
@@ -270,68 +678,134 @@
       "titleHighlight": "your decision?",
       "ctaPrimary": "Begin Your Decision Journey",
       "ctaSecondary": "Explore Framework",
-      "disclaimer": "No diagnosis. No treatment. Decision support only."
+      "disclaimer": "AI-assisted. Physician-authorized. No diagnosis. No treatment."
     }
   },
   "trustProtocol": {
     "meta": {
       "title": "The AetherHeal Trust Protocol | AetherHeal",
-      "description": "How AetherHeal ensures quality, ethics, and patient safety through physician-led evaluation of partner hospitals and independent trust review of every decision process."
+      "description": "How AetherHeal governs human and AI-assisted decision support through independent oversight, auditable protocol enforcement, and selective partner hospital standards."
     },
     "hero": {
       "badge": "Governance",
       "h1": "The AetherHeal",
       "h1Highlight": "Trust Protocol",
-      "intro": "Independent trust review ensures each decision process meets standards for quality, ethics, and patient safety.",
-      "disclaimer": "Trust reviewers are read-only reviewers. They do not diagnose, treat, or alter patient decisions."
+      "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable.",
+      "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met."
     },
     "toc": [
-      { "id": "purpose", "label": "Purpose, Authority & Independence" },
-      { "id": "incentive-separation", "label": "Incentive Separation" },
-      { "id": "partner-criteria", "label": "Partner Hospital Criteria" },
-      { "id": "what-this-means", "label": "What This Means for Patients" },
-      { "id": "trust-scope", "label": "Trust Protocol Scope" },
-      { "id": "team", "label": "Who Runs the Trust Protocol" },
-      { "id": "ongoing", "label": "Ongoing Accountability" }
+      {
+        "id": "purpose",
+        "label": "Purpose, Authority & Independence"
+      },
+      {
+        "id": "ai-governance",
+        "label": "AI Governance, Auditability & Enforcement"
+      },
+      {
+        "id": "incentive-separation",
+        "label": "Incentive Separation"
+      },
+      {
+        "id": "partner-criteria",
+        "label": "Partner Hospital Criteria"
+      },
+      {
+        "id": "what-this-means",
+        "label": "What This Means for Patients"
+      },
+      {
+        "id": "trust-scope",
+        "label": "Trust Protocol Scope"
+      },
+      {
+        "id": "team",
+        "label": "Who Runs the Trust Protocol"
+      },
+      {
+        "id": "ongoing",
+        "label": "Ongoing Accountability"
+      }
     ],
     "purpose": {
       "title": "Purpose, Authority & Independence",
       "protocolDocument": "Protocol Document",
       "purposeTitle": "Purpose",
-      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process. It is independent from the clinical team and reports directly to platform governance.",
+      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process across both human and AI-assisted workflows. It is independent from clinical operations and reports directly to platform governance.",
       "authorityTitle": "Authority",
-      "authorityText": "Trust reviewers have read-only access to completed decision summaries and process logs. They can flag concerns, request reviews, and escalate issues, but cannot modify patient-facing documents.",
+      "authorityText": "Trust reviewers have read-only access to completed decision summaries, protocol logs, and governed AI artifacts used in the case flow. They can flag concerns, request review, and escalate issues, but they cannot rewrite patient-facing documents or alter clinical recommendations.",
       "independenceTitle": "Independence",
-      "independenceText": "The Trust Protocol team operates on a separate reporting line from clinical operations. This separation protects oversight quality from operational pressure."
+      "independenceText": "The Trust Protocol team operates on a separate reporting line from clinical operations, provider relations, and commercial execution. This separation protects oversight quality from operational pressure, referral incentives, and automation convenience."
+    },
+    "aiGovernance": {
+      "title": "AI Governance, Auditability & Enforcement",
+      "intro": "AI may support narrow parts of the process, but only inside defined operational boundaries. The governing standard is not speed or automation volume. It is decision quality, traceability, and safe escalation.",
+      "principles": [
+        {
+          "title": "Constrained Use",
+          "body": "AI may help structure intake, summarize records, support translation, and surface missing information within approved rules. It is not permitted to expand clinical scope, simulate certainty, or replace accountable human review."
+        },
+        {
+          "title": "Human Review",
+          "body": "Patient-facing summaries, protocol exceptions, and provider-routing decisions require accountable human review before they are relied upon. AI can assist preparation, but ownership remains with licensed physicians, trust reviewers, or designated operations staff."
+        },
+        {
+          "title": "Audit Trail",
+          "body": "Key prompts, outputs, edits, approvals, and exceptions are logged so that a case can be reconstructed and reviewed. Auditability is treated as a control requirement, not an optional feature."
+        },
+        {
+          "title": "Protocol Enforcement",
+          "body": "When inputs are incomplete, ambiguous, out of scope, or safety-relevant, the governed response is to halt, defer, or request re-clarification. Proceeding is valid only when the record is sufficiently clear and accountable."
+        }
+      ],
+      "validTitle": "Valid protocol outcomes",
+      "outcomes": [
+        {
+          "label": "Halt",
+          "body": "Used when the case is outside scope, safety-relevant, or cannot proceed without direct human intervention."
+        },
+        {
+          "label": "Defer",
+          "body": "Used when the case may proceed later, but timing, documentation, or readiness is not yet sufficient."
+        },
+        {
+          "label": "Re-clarify",
+          "body": "Used when the case can remain active, but claims, goals, records, or assumptions need to be restated more precisely."
+        },
+        {
+          "label": "Proceed",
+          "body": "Used only after the case has passed the relevant protocol checks and accountable humans confirm that the next step is appropriate."
+        }
+      ]
     },
     "incentiveSeparation": {
       "title": "Decision Integrity Through Incentive Separation",
-      "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. This creates an inherent conflict of interest: the decision process is shaped by revenue, not by clinical merit.",
-      "p2": "AetherHeal is architecturally different. We separate the platform into two independent layers — each with its own incentive structure, reporting line, and accountability mechanism.",
+      "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. That conflict can affect both people and software: case flow begins optimizing for conversion rather than judgment quality.",
+      "p2": "AetherHeal is architecturally different. We separate the platform into independent layers with distinct incentives, reporting lines, and controls. AI systems, where used, are governed inside those same boundaries and are not allowed to optimize provider steering or case closure for commercial gain.",
       "angelLayer": {
         "label": "Layer 1",
         "title": "Angel Layer",
-        "description": "Physician advisors who guide the patient's decision process. Their role ends at the decision summary — they do not perform treatments.",
+        "description": "Physician advisors guide the patient's decision process. AI tooling may assist documentation inside this layer, but it cannot introduce provider preference, make final routing choices, or close a case autonomously.",
         "incentiveLabel": "Incentive Tied To",
         "incentives": [
-          "Quality and completeness of decision support",
+          "Quality and completeness of clinician-reviewed decision support",
           "Patient understanding and informed consent",
-          "Process adherence and ethical compliance"
+          "Protocol adherence, including AI constraint compliance"
         ]
       },
       "providerLayer": {
         "label": "Layer 2",
         "title": "Medical Provider",
-        "description": "Partner hospitals and clinics that deliver clinical care. They receive patients through AetherHeal's structured matching process.",
+        "description": "Partner hospitals and clinics deliver clinical care only after decision scope, protocol checks, and accountable approvals are satisfied. Their role is treatment delivery, not upstream decision shaping.",
         "incentiveLabel": "Incentive Tied To",
         "incentives": [
           "Clinical outcomes and treatment delivery",
           "Patient satisfaction and recovery quality",
-          "Adherence to AetherHeal care protocols"
+          "Adherence to agreed care and continuity protocols"
         ]
       },
       "principleIntro": "The structural principle is simple:",
-      "principleText": "The Angel Layer does not receive financial incentives from the Medical Service Provider Layer. The people who help you decide are never the same people who profit from your treatment. This separation is what makes decision integrity possible."
+      "principleText": "The people and systems that help structure your decision are not rewarded for steering you toward a particular provider. Human reviewers and governed AI workflows are constrained so decision support remains separate from treatment profit."
     },
     "partnerCriteria": {
       "title": "Partner Hospital Criteria",
@@ -347,8 +821,8 @@
     },
     "whatThisMeans": {
       "title": "What This Means for Patients",
-      "p1": "When AetherHeal matches you with a partner hospital, that match is based on your specific clinical profile and decision summary — not on commission structures or marketing partnerships.",
-      "p2": "Hospitals in our network have agreed to operate within our structured process: receiving the decision summary before consultation, conducting a feasibility review, and coordinating through AetherHeal for scheduling and follow-up."
+      "p1": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation.",
+      "p2": "If a case is incomplete or ambiguous, halt, defer, and re-clarify are treated as valid safeguards rather than service failures. Hospitals in our network receive only the decision-ready case materials appropriate to the next step of review."
     },
     "trustScope": {
       "title": "Trust Protocol Scope",
@@ -356,41 +830,62 @@
       "doTitle": "Trust Reviewers Do",
       "doItems": [
         "Review decision summary quality",
-        "Verify scope compliance",
-        "Audit physician methodology",
+        "Verify AI and human process logs",
+        "Audit protocol enforcement and exception handling",
         "Ensure patient consent integrity",
         "Monitor system-wide patterns",
-        "Flag potential safety concerns"
+        "Flag safety or compliance concerns"
       ],
       "dontTitle": "Trust Reviewers Don't",
       "dontItems": [
-        "Override physician decisions",
-        "Contact patients directly",
-        "Modify decision summaries",
-        "Provide medical advice",
-        "Share patient data externally",
-        "Interfere with active consultations"
+        "Override treatment decisions at the provider level",
+        "Contact patients directly as treating clinicians",
+        "Modify decision summaries or logs retroactively",
+        "Provide diagnosis, prescriptions, or medical advice",
+        "Share patient data externally outside authorized process",
+        "Bypass halt, defer, or re-clarify controls"
       ]
     },
     "team": {
       "title": "Who Runs the Trust Protocol?",
       "roles": [
-        { "title": "Medical Quality Reviewer", "description": "Reviews the clinical accuracy and completeness of every decision summary." },
-        { "title": "Ethical Compliance Reviewer", "description": "Ensures all interactions stay within AetherHeal's ethical boundaries." },
-        { "title": "Process Integrity Reviewer", "description": "Validates that the 7-step system was followed correctly for each case." },
-        { "title": "Patient Safety Reviewer", "description": "Monitors for scope violations or inappropriate medical claims." }
+        {
+          "title": "Medical Quality Reviewer",
+          "description": "Reviews the clinical clarity and completeness of decision summaries before they are relied upon downstream."
+        },
+        {
+          "title": "AI Governance Reviewer",
+          "description": "Checks whether AI-assisted steps stayed within approved constraints, logging rules, and escalation standards."
+        },
+        {
+          "title": "Process Integrity Reviewer",
+          "description": "Validates that required protocol gates, approvals, and exceptions were handled correctly for each case."
+        },
+        {
+          "title": "Patient Safety Reviewer",
+          "description": "Monitors for scope violations, unsafe claims, or workflow patterns that could compromise patient protection."
+        }
       ]
     },
     "ongoing": {
       "title": "Ongoing Accountability",
-      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions through patient feedback, clinical outcome monitoring, and periodic re-evaluation.",
-      "boxTitle": "Standards are non-negotiable",
-      "boxText": "Partners that do not maintain our clinical or ethical standards are removed from the network to ensure patient safety and decision clarity."
+      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, and periodic re-evaluation.",
+      "boxTitle": "Standards remain enforceable",
+      "boxText": "If repeated deviations, undocumented overrides, or unsafe automation patterns appear, the relevant workflow or partner relationship may be paused, remediated, or removed."
     },
     "relatedPages": [
-      { "label": "How to Choose a Hospital Abroad", "desc": "A framework for safer decisions" },
-      { "label": "Your Medical Journey", "desc": "End-to-end coordination from decision to recovery" },
-      { "label": "How AetherHeal Works", "desc": "The system behind physician-led decision support" }
+      {
+        "label": "How to Choose a Hospital Abroad",
+        "desc": "A framework for safer decisions"
+      },
+      {
+        "label": "Your Medical Journey",
+        "desc": "Phase-by-phase coordination with clear ownership"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   },
   "explore": {
@@ -429,30 +924,99 @@
       "badge": "Why Decisions Fail",
       "title": "Common Regret Patterns",
       "items": [
-        { "label": "Visual Bias", "description": "Deciding based on \"best-case\" photos alone" },
-        { "label": "Price Optimization", "description": "Treating biological changes like commodity purchases" },
-        { "label": "Popularity Confusion", "description": "Assuming trending procedures are appropriate" },
-        { "label": "Constraint Denial", "description": "Failing to define recovery timeline" }
+        {
+          "label": "Visual Bias",
+          "description": "Deciding based on \"best-case\" photos alone"
+        },
+        {
+          "label": "Price Optimization",
+          "description": "Treating biological changes like commodity purchases"
+        },
+        {
+          "label": "Popularity Confusion",
+          "description": "Assuming trending procedures are appropriate"
+        },
+        {
+          "label": "Constraint Denial",
+          "description": "Failing to define recovery timeline"
+        }
       ]
     },
     "caseStudies": {
       "badge": "Case Studies",
-      "title": "Structured Decision Examples",
-      "subtitle": "These examples show how goals and constraints are clarified before hospital selection.",
+      "title": "AI-Prepared Case Snapshots",
+      "subtitle": "These examples show how AI preparation sharpens physician review before hospital selection.",
       "cases": [
-        { "id": "HT-8291", "number": "01", "title": "Hair Transplant", "goal": "Restore frontal hairline density", "constraint": "Limited donor area" },
-        { "id": "RH-1044", "number": "02", "title": "Rhinoplasty", "goal": "Remove hump, refine tip", "constraint": "Thick skin limits tip definition" },
-        { "id": "SK-3302", "number": "03", "title": "Skin Lifting", "badge": "NON-SURGICAL", "goal": "Restore jawline definition", "constraint": "Non-surgical" }
+        {
+          "id": "HT-8291",
+          "number": "01",
+          "title": "Hair Transplant",
+          "goal": "Rebuild frontal density without overharvesting donor supply",
+          "constraint": "Limited donor area and a short recovery window",
+          "preparation": "AI separated density goals from hairline lowering, flagged the donor-supply mismatch, and queued missing scalp-history questions for physician review."
+        },
+        {
+          "id": "RH-1044",
+          "number": "02",
+          "title": "Rhinoplasty",
+          "goal": "Straighten the bridge and refine the tip while keeping a natural look",
+          "constraint": "Thick skin and low tolerance for revision",
+          "preparation": "AI mapped the tension between dramatic refinement and tissue limits, then assembled a physician-ready summary of anatomy, priorities, and prior filler history."
+        },
+        {
+          "id": "SK-3302",
+          "number": "03",
+          "title": "Skin Lifting",
+          "badge": "NON-SURGICAL",
+          "goal": "Restore jawline definition with minimal downtime",
+          "constraint": "Non-surgical only and recent prior energy-device treatment",
+          "preparation": "AI highlighted the mismatch between lifting expectations and downtime limits, prompted missing device-history details, and prepared a concise brief for physician interpretation."
+        }
       ],
       "caseLabel": "Case",
       "goalLabel": "Goal",
       "constraintLabel": "Constraint",
-      "disclaimer": "Illustrative only. Outcomes vary by individual."
+      "preparationLabel": "AI-prepared brief",
+      "disclaimer": "Illustrative preparation examples only. Physicians interpret clinical meaning, and outcomes vary by individual."
+    },
+    "aiPreparation": {
+      "badge": "Before You Book",
+      "title": "What AI Helps Patients Prepare",
+      "intro": "Before any hospital is contacted, AI helps turn scattered patient goals, constraints, and questions into a more structured starting point for physician review.",
+      "outputs": [
+        {
+          "title": "Goal hierarchy",
+          "body": "Organizes primary goals, secondary preferences, and non-negotiables so trade-offs become visible early."
+        },
+        {
+          "title": "Mismatch map",
+          "body": "Highlights where anatomy, timeline, budget, recovery expectations, or stated goals may conflict with one another."
+        },
+        {
+          "title": "Missing-info prompts",
+          "body": "Surfaces unanswered questions and missing details that a physician will need before meaningful interpretation."
+        },
+        {
+          "title": "Physician-ready summary",
+          "body": "Packages the case into a concise brief a physician can review, refine, challenge, and translate into next-step judgment."
+        }
+      ],
+      "boundaryLabel": "Boundary Note",
+      "boundaryNote": "AI prepares and structures information. Physicians interpret medical meaning, assess feasibility, and decide what matters clinically."
     },
     "disciplines": {
       "badge": "Coverage",
       "title": "Supported Clinical Disciplines",
-      "items": ["Hair Transplant", "Skin Aesthetic", "Plastic Surgery", "Robotic Surgery", "Vision Correction", "Dental", "Stem Cell Therapy", "Liposuction & Fat Repositioning"],
+      "items": [
+        "Hair Transplant",
+        "Skin Aesthetic",
+        "Plastic Surgery",
+        "Robotic Surgery",
+        "Vision Correction",
+        "Dental",
+        "Stem Cell Therapy",
+        "Liposuction & Fat Repositioning"
+      ],
       "cta": "Ready to see the full step-by-step process?",
       "ctaHowItWorks": "How AetherHeal works",
       "ctaMedicalBoundary": "Read medical boundary"
@@ -461,19 +1025,51 @@
   "medicalBoundary": {
     "meta": {
       "title": "Medical Boundary Notice | AetherHeal",
-      "description": "Understand what AetherHeal is and is not responsible for. Medical boundary notice, patient responsibilities, and emergency information."
+      "description": "Understand the medical and AI-operational limits of AetherHeal. This notice explains what the platform may support and what remains strictly human and clinical responsibility."
     },
     "hero": {
       "badge": "Legal & Safety",
       "h1": "Medical Boundary Notice",
-      "subtitle": "This page defines what AetherHeal is and is not responsible for. Understanding these boundaries is required before use."
+      "subtitle": "This page defines the clinical, legal, and AI-operational limits of AetherHeal. Understanding these boundaries is required before use."
     },
     "boundaries": [
-      { "title": "Not a Medical Provider", "description": "AetherHeal does not provide medical diagnosis, treatment, or prescriptions. We are a decision support platform — not a hospital, clinic, or telemedicine service." },
-      { "title": "Not a Substitute for Emergency Care", "description": "If you are experiencing a medical emergency, contact your local emergency services immediately. AetherHeal is not equipped to handle urgent or life-threatening situations." },
-      { "title": "Not a Guarantee of Outcomes", "description": "Decision support helps you make informed choices, but it does not guarantee specific medical outcomes. Treatment results depend on many factors beyond the scope of our service." },
-      { "title": "Not a Replacement for Your Doctor", "description": "Our service supplements — not replaces — your relationship with your existing healthcare providers. Always consult your primary physician about your care." }
+      {
+        "title": "Not a Medical Provider",
+        "description": "AetherHeal does not provide medical diagnosis, treatment, prescriptions, or hospital-based care. We are a decision support and coordination platform, not a hospital, clinic, or telemedicine service."
+      },
+      {
+        "title": "AI Does Not Diagnose or Prescribe",
+        "description": "AI-assisted tools used by AetherHeal do not diagnose conditions, recommend medications, prescribe treatments, or produce independent medical conclusions."
+      },
+      {
+        "title": "AI Does Not Replace Physician Consultation",
+        "description": "AI-assisted summaries or translations may support communication, but they do not replace direct consultation with a licensed physician or the treating hospital."
+      },
+      {
+        "title": "AI Does Not Determine Emergency Care",
+        "description": "Neither AetherHeal nor its AI-assisted tools determine whether a situation is an emergency. If urgent or severe symptoms occur, seek immediate local medical care and emergency services."
+      },
+      {
+        "title": "AI Does Not Make Final Provider Selection",
+        "description": "AI may help organize case information, but final provider selection, hospital routing, and next-step approvals remain accountable human decisions."
+      },
+      {
+        "title": "Not a Guarantee of Outcomes",
+        "description": "Decision support can improve clarity, but it does not guarantee a particular medical outcome. Treatment results depend on clinical factors outside the platform's control."
+      }
     ],
+    "aiSupport": {
+      "badge": "Permitted AI Support",
+      "title": "What AI May Support",
+      "intro": "Within these boundaries, AI may be used for tightly scoped administrative and informational support under human oversight.",
+      "items": [
+        "Structuring intake information and uploaded records into standardized drafts",
+        "Summarizing case materials for physician, reviewer, or operations review",
+        "Translating routine messages and non-diagnostic coordination content",
+        "Surfacing missing information, inconsistencies, or workflow delays for human follow-up",
+        "Monitoring operational status, message delivery, and service exceptions"
+      ]
+    },
     "emergency": {
       "title": "Emergency Notice",
       "text": "Do not use this platform for urgent symptoms or life-threatening conditions. Contact local emergency services immediately.",
@@ -484,11 +1080,11 @@
       "title": "Your Role as a Platform User",
       "items": [
         "Provide complete and accurate intake information",
-        "Consult your primary physician for direct medical advice",
-        "Make your own treatment decisions after review",
-        "Understand that AetherHeal provides advisory support only",
+        "Review summaries, translations, and coordination details for factual accuracy",
+        "Consult your physician or treating hospital for direct medical advice",
+        "Make your own treatment decisions after appropriate clinical review",
         "Use emergency services for urgent medical conditions",
-        "Read and confirm all summaries before proceeding"
+        "Understand that AetherHeal provides bounded decision and coordination support only"
       ],
       "ctaProcess": "Review process",
       "ctaOversight": "View oversight"
@@ -507,9 +1103,18 @@
       "introDetail": "With advanced FUE techniques, experienced surgeons, and competitive pricing, Seoul has become a global hub. But choosing the right clinic requires more than a Google search."
     },
     "toc": [
-      { "id": "why-korea", "label": "Why Patients Choose Korea" },
-      { "id": "what-we-offer", "label": "What AetherHeal Offers" },
-      { "id": "common-procedures", "label": "Common Procedures Covered" }
+      {
+        "id": "why-korea",
+        "label": "Why Patients Choose Korea"
+      },
+      {
+        "id": "what-we-offer",
+        "label": "What AetherHeal Offers"
+      },
+      {
+        "id": "common-procedures",
+        "label": "Common Procedures Covered"
+      }
     ],
     "whyKorea": {
       "title": "Why Patients Choose Korea for Hair Transplants",
@@ -533,10 +1138,22 @@
       "boxText": "Each case is evaluated individually. We ensure no cookie-cutter recommendations are made."
     },
     "relatedPages": [
-      { "label": "Aesthetic Clinics in Seoul", "desc": "Navigate skin treatments and dermatology" },
-      { "label": "How to Choose a Hospital Abroad", "desc": "A framework for safer decisions" },
-      { "label": "The AetherHeal Trust Protocol", "desc": "How we evaluate partner hospitals" },
-      { "label": "How AetherHeal Works", "desc": "The system behind physician-led decision support" }
+      {
+        "label": "Aesthetic Clinics in Seoul",
+        "desc": "Navigate skin treatments and dermatology"
+      },
+      {
+        "label": "How to Choose a Hospital Abroad",
+        "desc": "A framework for safer decisions"
+      },
+      {
+        "label": "The AetherHeal Trust Protocol",
+        "desc": "How we evaluate partner hospitals"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   },
   "plasticSurgery": {
@@ -552,9 +1169,18 @@
       "introDetail": "For international patients, this creates both opportunity and complexity. AetherHeal helps you navigate that complexity with physician-led decision support — before you contact any hospital."
     },
     "toc": [
-      { "id": "common-procedures", "label": "Procedures Commonly Considered" },
-      { "id": "risk-of-unstructured", "label": "The Risk of Unstructured Decisions" },
-      { "id": "how-aetherheal-helps", "label": "How AetherHeal Helps" }
+      {
+        "id": "common-procedures",
+        "label": "Procedures Commonly Considered"
+      },
+      {
+        "id": "risk-of-unstructured",
+        "label": "The Risk of Unstructured Decisions"
+      },
+      {
+        "id": "how-aetherheal-helps",
+        "label": "How AetherHeal Helps"
+      }
     ],
     "commonProcedures": {
       "title": "Procedures Commonly Considered",
@@ -576,10 +1202,22 @@
       ]
     },
     "relatedPages": [
-      { "label": "Hair Transplant in Korea", "desc": "Physician-led guidance for hair restoration" },
-      { "label": "Aesthetic Clinics in Seoul", "desc": "Navigate skin treatments and dermatology" },
-      { "label": "How to Choose a Hospital Abroad", "desc": "A framework for safer decisions" },
-      { "label": "How AetherHeal Works", "desc": "The system behind physician-led decision support" }
+      {
+        "label": "Hair Transplant in Korea",
+        "desc": "Physician-led guidance for hair restoration"
+      },
+      {
+        "label": "Aesthetic Clinics in Seoul",
+        "desc": "Navigate skin treatments and dermatology"
+      },
+      {
+        "label": "How to Choose a Hospital Abroad",
+        "desc": "A framework for safer decisions"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   },
   "aestheticClinic": {
@@ -595,9 +1233,18 @@
       "introDetail": "The density of options can be overwhelming for international patients. AetherHeal provides structured support to help you make informed decisions about skin treatments and cosmetic procedures."
     },
     "toc": [
-      { "id": "why-seoul", "label": "Why Seoul for Aesthetic Treatments" },
-      { "id": "how-we-support", "label": "How AetherHeal Supports Your Decision" },
-      { "id": "treatments-discussed", "label": "Treatments Commonly Discussed" }
+      {
+        "id": "why-seoul",
+        "label": "Why Seoul for Aesthetic Treatments"
+      },
+      {
+        "id": "how-we-support",
+        "label": "How AetherHeal Supports Your Decision"
+      },
+      {
+        "id": "treatments-discussed",
+        "label": "Treatments Commonly Discussed"
+      }
     ],
     "whySeoul": {
       "title": "Why Seoul for Aesthetic Treatments",
@@ -620,48 +1267,178 @@
       "callout": "Each treatment plan is discussed with a licensed physician before any clinic contact."
     },
     "relatedPages": [
-      { "label": "Hair Transplant in Korea", "desc": "Physician-led guidance for hair restoration" },
-      { "label": "Plastic Surgery in Korea", "desc": "Structured decision support for cosmetic procedures" },
-      { "label": "The AetherHeal Trust Protocol", "desc": "How we evaluate partner hospitals" },
-      { "label": "Your Medical Journey", "desc": "End-to-end coordination from decision to recovery" }
+      {
+        "label": "Hair Transplant in Korea",
+        "desc": "Physician-led guidance for hair restoration"
+      },
+      {
+        "label": "Plastic Surgery in Korea",
+        "desc": "Structured decision support for cosmetic procedures"
+      },
+      {
+        "label": "The AetherHeal Trust Protocol",
+        "desc": "How we evaluate partner hospitals"
+      },
+      {
+        "label": "Your Medical Journey",
+        "desc": "End-to-end coordination from decision to recovery"
+      }
     ]
   },
   "medicalJourney": {
     "meta": {
       "title": "Your Medical Journey to Seoul | AetherHeal",
-      "description": "From decision to recovery — AetherHeal coordinates your entire medical journey to Seoul. Physician-led planning, hospital matching, travel logistics, and post-treatment follow-up."
+      "description": "A stage-based medical journey to Seoul with clear ownership before travel, in Korea, and after return. AI supports coordination, while humans retain clinical and final decision responsibility."
     },
     "hero": {
       "badge": "Journey Coordination",
       "h1": "Your Medical Journey to Seoul:",
-      "h1Highlight": "Coordinated from Start to Finish",
-      "intro": "Traveling abroad for medical care involves more than booking a flight and a clinic.",
-      "introDetail": "AetherHeal structures the entire process — from your first consultation to post-treatment follow-up — so nothing falls through the cracks."
+      "h1Highlight": "Coordinated in Three Stages",
+      "intro": "Cross-border medical care becomes safer when each phase has clear ownership.",
+      "introDetail": "AetherHeal separates the journey into before travel, in Korea, and after return so AI support, physician review, hospital care, and concierge accountability do not blur together."
     },
     "toc": [
-      { "id": "how-journey-works", "label": "How the Journey Works" },
-      { "id": "what-makes-different", "label": "What Makes This Different" }
+      {
+        "id": "before-travel",
+        "label": "Before Travel"
+      },
+      {
+        "id": "in-korea",
+        "label": "In Korea"
+      },
+      {
+        "id": "after-return",
+        "label": "After Return"
+      },
+      {
+        "id": "what-makes-different",
+        "label": "What Makes This Different"
+      }
     ],
-    "howJourneyWorks": {
-      "title": "How the Journey Works",
-      "steps": [
-        { "step": "01", "title": "Decision Preparation", "desc": "Share your goals and concerns. A licensed Korean physician helps you structure the decision before any hospital contact." },
-        { "step": "02", "title": "Hospital Matching", "desc": "Based on your decision summary, AetherHeal connects you with partner hospitals that match your clinical profile." },
-        { "step": "03", "title": "Pre-Arrival Coordination", "desc": "Scheduling, document preparation, travel logistics, and accommodation guidance — handled by your dedicated concierge." },
-        { "step": "04", "title": "In-Seoul Support", "desc": "Airport pickup, hospital accompaniment, translation support, and real-time concierge availability throughout your stay." },
-        { "step": "05", "title": "Post-Treatment Follow-Up", "desc": "Recovery monitoring, physician check-ins, and long-term continuity of care after you return home." }
+    "journeyStages": {
+      "title": "Three Stages, One Accountable Journey",
+      "intro": "Each stage has a defined purpose. AI may support administrative clarity and continuity, but clinical judgment, treatment, escalation, and final approvals remain human responsibilities.",
+      "stages": [
+        {
+          "id": "before-travel",
+          "label": "Stage 1",
+          "title": "Before Travel",
+          "summary": "This stage is for structuring the case before any treatment journey begins. The goal is decision readiness, not speed.",
+          "milestonesTitle": "Core milestones",
+          "items": [
+            {
+              "title": "Decision structuring",
+              "desc": "Goals, constraints, prior records, and open questions are organized into a clearer decision frame before partner outreach."
+            },
+            {
+              "title": "Feasibility preparation",
+              "desc": "Appropriate documents, travel constraints, and scope assumptions are checked so the case is fit for hospital review."
+            },
+            {
+              "title": "Coordination readiness",
+              "desc": "Scheduling intent, likely timelines, and practical travel planning are prepared only after the case is sufficiently clarified."
+            }
+          ],
+          "aiTitle": "AI supports",
+          "aiItems": [
+            "Structuring intake information and draft summaries for review",
+            "Supporting translation of records or routine coordination messages",
+            "Surfacing missing documents, conflicting details, or unresolved questions"
+          ],
+          "humanTitle": "Humans own",
+          "humanItems": [
+            "Defining clinical boundaries and what the case is actually about",
+            "Confirming whether the case is ready to proceed, defer, or re-clarify",
+            "Approving partner outreach, scheduling, and next-step commitments"
+          ]
+        },
+        {
+          "id": "in-korea",
+          "label": "Stage 2",
+          "title": "In Korea",
+          "summary": "Once the patient is on the ground, coordination must stay precise while treatment authority remains with the treating institution and responsible clinicians.",
+          "milestonesTitle": "Core milestones",
+          "items": [
+            {
+              "title": "Arrival and handoff",
+              "desc": "Airport arrival, transportation, appointment alignment, and on-site coordination are kept synchronized."
+            },
+            {
+              "title": "Hospital-facing execution",
+              "desc": "Consultation, informed consent, and treatment planning occur within the licensed hospital or clinic environment."
+            },
+            {
+              "title": "Real-time support",
+              "desc": "Concierge and operations support help keep logistics visible so delays or missed steps can be escalated quickly."
+            }
+          ],
+          "aiTitle": "AI supports",
+          "aiItems": [
+            "Keeping itineraries, reminders, and routine coordination synchronized",
+            "Assisting with translation of routine non-diagnostic communications",
+            "Monitoring workflow gaps, missed handoffs, or timing risks for human follow-up"
+          ],
+          "humanTitle": "Humans own",
+          "humanItems": [
+            "Hospital consultation, informed consent, and all medical treatment decisions",
+            "Escalation when something appears urgent, unclear, or outside normal workflow",
+            "Final operational judgment by concierge and platform staff on the ground"
+          ]
+        },
+        {
+          "id": "after-return",
+          "label": "Stage 3",
+          "title": "After Return",
+          "summary": "After the patient goes home, continuity matters. The purpose is to preserve communication, follow-through, and documented escalation when needed.",
+          "milestonesTitle": "Core milestones",
+          "items": [
+            {
+              "title": "Follow-up continuity",
+              "desc": "Updates, check-ins, and care continuity are coordinated so recovery communication does not fragment across borders."
+            },
+            {
+              "title": "Documentation hygiene",
+              "desc": "Recovery notes, images, and follow-up messages are kept organized for review and case continuity."
+            },
+            {
+              "title": "Escalation discipline",
+              "desc": "If recovery concerns arise, the patient is directed toward the appropriate treating or local physician rather than informal reassurance."
+            }
+          ],
+          "aiTitle": "AI supports",
+          "aiItems": [
+            "Organizing follow-up messages and recovery updates into structured case notes",
+            "Supporting translation and summary drafting for continuity workflows",
+            "Flagging unanswered check-ins or coordination gaps that need human attention"
+          ],
+          "humanTitle": "Humans own",
+          "humanItems": [
+            "Clinical interpretation of recovery status by appropriate physicians",
+            "Advising when the patient should contact the treating hospital or local doctor",
+            "Managing continuity, escalation, and documented follow-through"
+          ]
+        }
       ]
     },
     "whatMakesDifferent": {
       "title": "What Makes This Different",
-      "text": "Unlike medical tourism agencies that prioritize volume and commission, AetherHeal operates on a decision-first model.",
-      "boxTitle": "No hospital is contacted",
-      "boxText": "until your decision is structured and confirmed. This separation ensures that clinical suitability — not sales pressure — drives the process."
+      "text": "Unlike medical tourism models that blur sales, logistics, and medical judgment, AetherHeal separates the journey into explicit phases with explicit ownership.",
+      "boxTitle": "AI supports the process",
+      "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey."
     },
     "relatedPages": [
-      { "label": "How to Choose a Hospital Abroad", "desc": "A framework for safer decisions" },
-      { "label": "The AetherHeal Trust Protocol", "desc": "How we evaluate partner hospitals" },
-      { "label": "How AetherHeal Works", "desc": "The system behind physician-led decision support" }
+      {
+        "label": "How to Choose a Hospital Abroad",
+        "desc": "A framework for safer decisions"
+      },
+      {
+        "label": "The AetherHeal Trust Protocol",
+        "desc": "How governance, auditing, and enforcement work"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   },
   "hospitalAbroad": {
@@ -677,22 +1454,53 @@
       "p2": "But choosing a hospital abroad is not a normal consumer decision.",
       "callout": "It is a high-stakes decision under uncertainty.",
       "selectingLabel": "You are selecting:",
-      "selectingItems": ["a medical team", "a treatment plan", "a healthcare system"],
+      "selectingItems": [
+        "a medical team",
+        "a treatment plan",
+        "a healthcare system"
+      ],
       "selectingEnd": "in a country you may not fully understand.",
       "p3": "The internet offers endless information: reviews, forums, before-and-after photos, clinic websites.",
       "p4": "But more information does not necessarily create clarity. In many cases, it creates decision overload.",
       "guideIntro": "This guide explains how experienced physicians and healthcare systems evaluate hospitals — and how international patients can apply the same logic when choosing treatment abroad."
     },
     "toc": [
-      { "id": "why-different", "label": "Why Choosing a Hospital Abroad Is Different" },
-      { "id": "common-mistakes", "label": "Common Mistakes International Patients Make" },
-      { "id": "hospital-quality", "label": "What Actually Determines Hospital Quality" },
-      { "id": "reviews-rankings", "label": "Why Reviews and Rankings Are Not Enough" },
-      { "id": "physician-led", "label": "The Physician-Led Verification Model" },
-      { "id": "patient-journey", "label": "The International Patient Journey" },
-      { "id": "south-korea", "label": "Why Many Patients Choose South Korea" },
-      { "id": "structured-approach", "label": "A Structured Approach to Medical Travel" },
-      { "id": "faq", "label": "Frequently Asked Questions" }
+      {
+        "id": "why-different",
+        "label": "Why Choosing a Hospital Abroad Is Different"
+      },
+      {
+        "id": "common-mistakes",
+        "label": "Common Mistakes International Patients Make"
+      },
+      {
+        "id": "hospital-quality",
+        "label": "What Actually Determines Hospital Quality"
+      },
+      {
+        "id": "reviews-rankings",
+        "label": "Why Reviews and Rankings Are Not Enough"
+      },
+      {
+        "id": "physician-led",
+        "label": "The Physician-Led Verification Model"
+      },
+      {
+        "id": "patient-journey",
+        "label": "The International Patient Journey"
+      },
+      {
+        "id": "south-korea",
+        "label": "Why Many Patients Choose South Korea"
+      },
+      {
+        "id": "structured-approach",
+        "label": "A Structured Approach to Medical Travel"
+      },
+      {
+        "id": "faq",
+        "label": "Frequently Asked Questions"
+      }
     ],
     "whyDifferent": {
       "title": "Why Choosing a Hospital Abroad Is Different",
@@ -706,21 +1514,33 @@
           "title": "1. Information asymmetry",
           "p1": "In medicine, patients rarely possess the same knowledge as clinicians.",
           "p2": "Understanding treatment quality requires:",
-          "items": ["medical training", "experience with complications", "familiarity with clinical outcomes"],
+          "items": [
+            "medical training",
+            "experience with complications",
+            "familiarity with clinical outcomes"
+          ],
           "conclusion": "This makes it difficult to evaluate providers using standard consumer signals."
         },
         {
           "title": "2. Outcomes are uncertain",
           "p1": "Unlike buying a product, medical treatments involve biological systems.",
           "p2": "Even in excellent hospitals:",
-          "items": ["results can vary", "complications may occur", "recovery timelines differ"],
+          "items": [
+            "results can vary",
+            "complications may occur",
+            "recovery timelines differ"
+          ],
           "conclusion": "A good decision process must account for uncertainty."
         },
         {
           "title": "3. The cost of mistakes is high",
           "p1": "If a consumer purchase fails, it can be replaced.",
           "p2": "If a medical decision fails, consequences may include:",
-          "items": ["revision procedures", "long recovery periods", "significant emotional stress"],
+          "items": [
+            "revision procedures",
+            "long recovery periods",
+            "significant emotional stress"
+          ],
           "conclusion": "For this reason, choosing a hospital abroad should be approached as a structured decision process, not a quick comparison."
         }
       ]
@@ -734,26 +1554,46 @@
           "title": "Mistake 1: Relying heavily on online reviews",
           "p1": "Reviews can provide useful context, but they have structural limitations.",
           "p2": "They tend to reflect:",
-          "items": ["extreme positive experiences", "extreme negative experiences"],
+          "items": [
+            "extreme positive experiences",
+            "extreme negative experiences"
+          ],
           "p3": "rather than typical outcomes.",
           "p4": "In addition, reviews rarely include detailed medical information about:",
-          "items2": ["patient selection", "treatment complexity", "clinical follow-up"],
+          "items2": [
+            "patient selection",
+            "treatment complexity",
+            "clinical follow-up"
+          ],
           "scenario": "Many international patients begin their research with online reviews. While reviews can highlight patient experiences, they rarely reflect clinical complexity. A patient undergoing a routine procedure may leave a five-star review, while a more complex case — one involving revision surgery, unusual anatomy, or higher complication risk — may require a fundamentally different level of expertise that reviews do not capture."
         },
         {
           "title": "Mistake 2: Comparing clinics primarily by price",
           "p1": "Price differences between countries are often large.",
           "p2": "However, focusing only on cost ignores other critical variables:",
-          "items": ["surgeon experience", "hospital infrastructure", "complication management", "follow-up care"],
+          "items": [
+            "surgeon experience",
+            "hospital infrastructure",
+            "complication management",
+            "follow-up care"
+          ],
           "conclusion": "Lower prices may reflect lower operational costs — but they may also reflect differences in training or systems."
         },
         {
           "title": "Mistake 3: Evaluating marketing instead of medicine",
           "p1": "Many clinic websites highlight:",
-          "items": ["before-and-after photos", "testimonials", "social media visibility"],
+          "items": [
+            "before-and-after photos",
+            "testimonials",
+            "social media visibility"
+          ],
           "p2": "While these elements can demonstrate patient satisfaction, they are not substitutes for clinical evaluation.",
           "p3": "Medical quality is determined by:",
-          "items2": ["physician expertise", "institutional standards", "long-term outcomes"]
+          "items2": [
+            "physician expertise",
+            "institutional standards",
+            "long-term outcomes"
+          ]
         }
       ]
     },
@@ -766,13 +1606,22 @@
           "title": "Physician training and specialization",
           "p1": "The training background of the physician performing the procedure is often the most important variable.",
           "p2": "Key considerations include:",
-          "items": ["medical education and residency", "procedure-specific experience", "research or academic involvement"]
+          "items": [
+            "medical education and residency",
+            "procedure-specific experience",
+            "research or academic involvement"
+          ]
         },
         {
           "title": "Institutional standards",
           "p1": "Hospitals differ significantly in their systems and infrastructure.",
           "p2": "Important elements include:",
-          "items": ["operating room protocols", "sterilization standards", "nursing expertise", "complication management systems"]
+          "items": [
+            "operating room protocols",
+            "sterilization standards",
+            "nursing expertise",
+            "complication management systems"
+          ]
         },
         {
           "title": "Procedure volume",
@@ -790,39 +1639,63 @@
     "reviewsRankings": {
       "title": "Why Reviews and Rankings Are Not Enough",
       "p1": "Online platforms frequently rank clinics using:",
-      "items1": ["review counts", "ratings", "popularity metrics"],
+      "items1": [
+        "review counts",
+        "ratings",
+        "popularity metrics"
+      ],
       "p2": "These systems can be useful for identifying widely known providers.",
       "p3": "However, they rarely incorporate deeper clinical signals such as:",
-      "items2": ["treatment planning", "physician case selection", "complication management"],
+      "items2": [
+        "treatment planning",
+        "physician case selection",
+        "complication management"
+      ],
       "p4": "As a result, review-driven platforms often optimize for visibility rather than clinical rigor.",
       "trustProtocolNote": "This is where a structured trust protocol becomes essential — one that evaluates hospitals on clinical merit, not marketing performance."
     },
     "physicianLed": {
-      "title": "The Physician-Led Verification Model",
-      "p1": "One approach to reducing uncertainty is to introduce physician oversight into the decision process.",
-      "p2": "In a physician-led model:",
+      "title": "The AI-Structured, Physician-Led Verification Model",
+      "p1": "One way to reduce uncertainty is to let AI structure raw patient information before physician verification begins.",
+      "p2": "In an AI-structured, physician-led model:",
       "items": [
-        "medical information is reviewed before a hospital is selected",
-        "treatment plans are evaluated for feasibility",
-        "hospitals are assessed using clinical criteria"
+        "patient goals, constraints, and context are organized before a hospital is considered",
+        "physicians review the structured case, interpret clinical meaning, and test feasibility",
+        "hospitals are assessed against physician-reviewed clinical criteria, not marketing alone"
       ],
-      "p3": "This model shifts the decision process from consumer comparison toward structured medical evaluation.",
-      "trustNote": "AetherHeal's Trust Protocol is built on this principle: every partner institution is evaluated by physicians, not marketers."
+      "p3": "This model uses AI to improve preparation and consistency while keeping medical interpretation, judgment, and accountability with licensed physicians.",
+      "trustNote": "AetherHeal's Trust Protocol follows this logic: AI helps structure the case, and physicians lead the verification of each partner institution."
     },
     "patientJourney": {
       "title": "Understanding the International Patient Journey",
       "p1": "Choosing a hospital abroad is not a single decision. It is a sequence of coordinated steps.",
       "p2": "A typical patient journey includes:",
-      "steps": ["Decision preparation", "Treatment planning", "Hospital selection", "Travel coordination", "Treatment and recovery", "Post-care follow-up"],
+      "steps": [
+        "Decision preparation",
+        "Treatment planning",
+        "Hospital selection",
+        "Travel coordination",
+        "Treatment and recovery",
+        "Post-care follow-up"
+      ],
       "p3": "When these steps are structured properly, international medical care can become significantly more predictable.",
       "journeyNote": "Learn more about how AetherHeal coordinates each stage in our medical journey overview."
     },
     "southKorea": {
       "title": "Why Many Patients Choose South Korea",
       "p1": "South Korea has emerged as one of the leading destinations for certain medical specialties, including:",
-      "specialties": ["hair transplantation", "aesthetic medicine", "plastic surgery", "ophthalmology"],
+      "specialties": [
+        "hair transplantation",
+        "aesthetic medicine",
+        "plastic surgery",
+        "ophthalmology"
+      ],
       "p2": "Several factors contribute to this reputation:",
-      "factors": ["highly specialized physicians", "advanced medical infrastructure", "strong focus on technical outcomes"],
+      "factors": [
+        "highly specialized physicians",
+        "advanced medical infrastructure",
+        "strong focus on technical outcomes"
+      ],
       "oecdNote": "South Korea has developed one of the highest physician densities in Asia, according to OECD healthcare data. For international patients, Seoul in particular has developed a dense ecosystem of specialized clinics.",
       "hairNote": "Explore physician-led guidance for specific procedures like hair transplantation in Korea."
     },
@@ -831,7 +1704,11 @@
       "p1": "Ultimately, the most effective strategy for choosing a hospital abroad is not simply gathering more information.",
       "p2": "It is structuring the decision process.",
       "p3": "This means:",
-      "items": ["identifying relevant clinical factors", "verifying hospital capabilities", "aligning treatment plans with patient goals"],
+      "items": [
+        "identifying relevant clinical factors",
+        "verifying hospital capabilities",
+        "aligning treatment plans with patient goals"
+      ],
       "p4": "When these elements are organized systematically, patients can move from uncertainty toward clarity."
     },
     "closing": {
@@ -843,20 +1720,53 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
-        { "question": "Is it safe to travel abroad for medical treatment?", "answer": "International medical travel can be safe when patients evaluate physician training, hospital infrastructure, and follow-up care. A structured decision process significantly reduces risk." },
-        { "question": "How do I verify a hospital overseas?", "answer": "Patients should review physician credentials, hospital systems, procedure volume, and complication management protocols rather than relying solely on online reviews." },
-        { "question": "How much can medical treatment abroad cost?", "answer": "Costs vary widely depending on the procedure, country, and hospital. While international treatment can be more affordable than domestic options, the total cost should account for travel, follow-up care, and potential revision procedures — not just the quoted price." },
-        { "question": "Why do patients travel to South Korea for surgery?", "answer": "South Korea offers highly specialized physicians, advanced medical infrastructure, and a strong focus on technical outcomes — particularly in hair transplantation, aesthetic medicine, plastic surgery, and ophthalmology." },
-        { "question": "What should I check before choosing a clinic overseas?", "answer": "Key factors include physician training and specialization, institutional standards, procedure volume, post-care management protocols, and whether the hospital has experience treating international patients with your specific condition." }
+        {
+          "question": "Is it safe to travel abroad for medical treatment?",
+          "answer": "International medical travel can be safe when patients evaluate physician training, hospital infrastructure, and follow-up care. A structured decision process significantly reduces risk."
+        },
+        {
+          "question": "How do I verify a hospital overseas?",
+          "answer": "Patients should review physician credentials, hospital systems, procedure volume, and complication management protocols rather than relying solely on online reviews."
+        },
+        {
+          "question": "How much can medical treatment abroad cost?",
+          "answer": "Costs vary widely depending on the procedure, country, and hospital. While international treatment can be more affordable than domestic options, the total cost should account for travel, follow-up care, and potential revision procedures — not just the quoted price."
+        },
+        {
+          "question": "Why do patients travel to South Korea for surgery?",
+          "answer": "South Korea offers highly specialized physicians, advanced medical infrastructure, and a strong focus on technical outcomes — particularly in hair transplantation, aesthetic medicine, plastic surgery, and ophthalmology."
+        },
+        {
+          "question": "What should I check before choosing a clinic overseas?",
+          "answer": "Key factors include physician training and specialization, institutional standards, procedure volume, post-care management protocols, and whether the hospital has experience treating international patients with your specific condition."
+        }
       ]
     },
     "relatedPages": [
-      { "label": "The AetherHeal Trust Protocol", "desc": "How we evaluate partner hospitals" },
-      { "label": "Your Medical Journey", "desc": "End-to-end coordination from decision to recovery" },
-      { "label": "Hair Transplant in Korea", "desc": "Physician-led guidance for hair restoration" },
-      { "label": "Plastic Surgery in Korea", "desc": "Structured decision support for cosmetic procedures" },
-      { "label": "Aesthetic Clinics in Seoul", "desc": "Navigate skin treatments and dermatology in Seoul" },
-      { "label": "How AetherHeal Works", "desc": "The system behind physician-led decision support" }
+      {
+        "label": "The AetherHeal Trust Protocol",
+        "desc": "How we evaluate partner hospitals"
+      },
+      {
+        "label": "Your Medical Journey",
+        "desc": "End-to-end coordination from decision to recovery"
+      },
+      {
+        "label": "Hair Transplant in Korea",
+        "desc": "Physician-led guidance for hair restoration"
+      },
+      {
+        "label": "Plastic Surgery in Korea",
+        "desc": "Structured decision support for cosmetic procedures"
+      },
+      {
+        "label": "Aesthetic Clinics in Seoul",
+        "desc": "Navigate skin treatments and dermatology in Seoul"
+      },
+      {
+        "label": "How AetherHeal Works",
+        "desc": "The system behind physician-led decision support"
+      }
     ]
   }
 }

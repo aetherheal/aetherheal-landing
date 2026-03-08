@@ -65,6 +65,33 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                 </div>
               </div>
 
+              {/* AI Governance */}
+              <div id="ai-governance" className="scroll-mt-32">
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.aiGovernance.title}</h2>
+                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                  <p>{t.aiGovernance.intro}</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {t.aiGovernance.principles.map((item) => (
+                      <Card key={item.title} className="p-6 sm:p-8 space-y-3">
+                        <h3 className="font-serif text-xl text-text-deep">{item.title}</h3>
+                        <p className="text-sm text-text-body leading-relaxed">{item.body}</p>
+                      </Card>
+                    ))}
+                  </div>
+                  <div className="p-6 sm:p-8 bg-brand-navy/[0.02] border border-slate-100 rounded-2xl">
+                    <p className="text-xs font-bold uppercase tracking-widest text-brand-gold mb-6">{t.aiGovernance.validTitle}</p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {t.aiGovernance.outcomes.map((item) => (
+                        <div key={item.label} className="p-5 bg-white border border-slate-100 rounded-xl shadow-sm">
+                          <p className="text-sm font-bold text-brand-navy mb-2">{item.label}</p>
+                          <p className="text-sm text-text-body leading-relaxed">{item.body}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Incentive Separation */}
               <div id="incentive-separation" className="scroll-mt-32">
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.incentiveSeparation.title}</h2>

@@ -133,6 +133,77 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
       <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">{t.authorityChain.badge}</span>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.authorityChain.title}</h2>
+            <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.authorityChain.subtitle}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {t.authorityChain.levels.map((level, idx) => (
+              <div key={level.title} className="bg-white border border-slate-200 rounded-3xl p-6 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.06)]">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{level.label}</span>
+                <h3 className="font-serif text-2xl text-brand-navy mt-3 mb-2">{level.title}</h3>
+                <p className="text-sm text-text-muted leading-relaxed">{level.description}</p>
+                {idx < t.authorityChain.levels.length - 1 && (
+                  <div className="hidden xl:flex items-center gap-2 text-brand-gold mt-6 text-xs font-bold uppercase tracking-widest">
+                    <ArrowRight className="w-4 h-4" />
+                    {t.authorityChain.handoffLabel}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-text-muted text-center italic mt-8 max-w-3xl mx-auto">{t.authorityChain.footnote}</p>
+        </div>
+      </section>
+
+      {/* 03. AI Assistance */}
+      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-white border-b border-slate-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">{t.aiAssistance.badge}</span>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.aiAssistance.title}</h2>
+            <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.aiAssistance.subtitle}</p>
+          </div>
+          <div className="mb-10 rounded-3xl border border-brand-gold/20 bg-brand-gold/5 p-6 sm:p-8">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-3">{t.aiAssistance.summaryLabel}</p>
+            <p className="text-base text-text-body leading-relaxed">{t.aiAssistance.summary}</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(15,23,42,0.08)] border border-slate-200">
+            <div className="p-8 md:p-12 lg:p-14 border-b lg:border-b-0 lg:border-r border-slate-200 bg-bg-light">
+              <div className="flex items-center gap-3 mb-8">
+                <div className="w-11 h-11 rounded-2xl bg-brand-navy flex items-center justify-center text-brand-gold shadow-md"><Bot className="w-5 h-5" /></div>
+                <h3 className="font-serif text-2xl text-brand-navy font-bold">{t.aiAssistance.doesTitle}</h3>
+              </div>
+              <ul className="space-y-5">
+                {t.aiAssistance.doesItems.map((item) => (
+                  <li key={item} className="flex gap-3 text-base text-text-body items-start">
+                    <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" />{item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="p-8 md:p-12 lg:p-14 bg-white">
+              <div className="flex items-center gap-3 mb-8">
+                <div className="w-11 h-11 rounded-2xl bg-slate-100 flex items-center justify-center text-text-muted"><ShieldAlert className="w-5 h-5" /></div>
+                <h3 className="font-serif text-2xl text-text-muted">{t.aiAssistance.notTitle}</h3>
+              </div>
+              <ul className="space-y-4">
+                {t.aiAssistance.notItems.map((item) => (
+                  <li key={item} className="flex items-center gap-3 text-text-muted text-base font-medium py-2 border-b border-slate-100 last:border-0">
+                    <span className="w-1.5 h-1.5 bg-slate-300 rounded-full shrink-0" />{item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="text-sm text-text-muted text-center italic mt-8 max-w-3xl mx-auto">{t.aiAssistance.footnote}</p>
+        </div>
+      </section>
+
+      {/* 04. Coverage */}
+      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">{t.coverage.badge}</span>
             <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.coverage.title}</h2>
             <p className="text-text-muted text-lg max-w-xl mx-auto">{t.coverage.subtitle}</p>
@@ -151,7 +222,7 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
         </div>
       </section>
 
-      {/* 03. Scope */}
+      {/* 05. Scope */}
       <section className="py-24 sm:py-32 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
@@ -182,21 +253,40 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
                 ))}
               </div>
               <div className="space-y-3 pt-6 border-t border-slate-200">
-                <p className="text-sm text-text-muted flex gap-3">
-                  <span className="w-1 h-1 bg-text-muted rounded-full mt-2 shrink-0" />
-                  <span>{t.scope.emergencyNote}</span>
-                </p>
-                <p className="text-sm text-text-muted flex gap-3">
-                  <span className="w-1 h-1 bg-text-muted rounded-full mt-2 shrink-0" />
-                  <span>{t.scope.replacementNote}</span>
-                </p>
+                {t.scope.notes.map((item) => (
+                  <p key={item} className="text-sm text-text-muted flex gap-3">
+                    <span className="w-1 h-1 bg-text-muted rounded-full mt-2 shrink-0" />
+                    <span>{item}</span>
+                  </p>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 04. System Flow */}
+      {/* 06. Readiness States */}
+      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">{t.readinessStates.badge}</span>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.readinessStates.title}</h2>
+            <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.readinessStates.subtitle}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {t.readinessStates.items.map((item) => (
+              <div key={item.state} className="bg-white border border-slate-200 rounded-3xl p-8">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.state}</span>
+                <h3 className="font-serif text-2xl text-brand-navy mt-3 mb-3">{item.title}</h3>
+                <p className="text-sm text-text-muted leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-text-muted text-center italic mt-8 max-w-3xl mx-auto">{t.readinessStates.footnote}</p>
+        </div>
+      </section>
+
+      {/* 07. System Flow */}
       <section className="py-32 px-4 sm:px-6 bg-white border-b border-slate-100 overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-28 relative z-10">
@@ -210,8 +300,8 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
             <div className="absolute top-0 bottom-0 left-[28px] md:left-1/2 w-px bg-gradient-to-b from-brand-navy/10 via-brand-gold to-brand-gold/10 md:-translate-x-1/2 z-0" />
             <div className="space-y-16 md:space-y-24 relative z-10">
               {t.systemFlow.steps.map((item, idx) => {
-                const isKey = item.step === 3 || item.step === 4 || item.step === 6
-                const isFinal = item.step === 7
+                const isKey = item.emphasis === "key"
+                const isFinal = item.emphasis === "final"
                 const isEven = idx % 2 !== 0
                 return (
                   <div key={item.step} className="relative flex flex-col md:flex-row items-start md:items-center group">

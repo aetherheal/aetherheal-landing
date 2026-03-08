@@ -13,6 +13,7 @@ import { getDictionary } from "@/i18n/get-dictionary"
 import { ExploreFlipCards } from "./flip-cards"
 
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
+const aiOutputIcons = [Target, Scale, FileSignature, Bot]
 const disciplineIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -89,6 +90,34 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
       <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
+            <SectionLabel color="gold" className="block mb-2">{t.aiPreparation.badge}</SectionLabel>
+            <h2 className="font-serif text-3xl text-brand-navy mb-4">{t.aiPreparation.title}</h2>
+            <p className="text-text-body max-w-3xl mx-auto leading-relaxed">{t.aiPreparation.intro}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 mb-8">
+            {t.aiPreparation.outputs.map((item, i) => {
+              const Icon = aiOutputIcons[i]
+              return (
+                <Card key={item.title} className="p-6 space-y-3" accent="gold">
+                  <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center">
+                    <Icon className="w-5 h-5 text-brand-navy" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-text-deep">{item.title}</h3>
+                  <p className="text-sm text-text-body leading-relaxed">{item.body}</p>
+                </Card>
+              )
+            })}
+          </div>
+          <div className="rounded-2xl border border-border-light bg-bg-light p-6 sm:p-8">
+            <p className="text-xs font-semibold uppercase tracking-widest text-text-muted mb-2">{t.aiPreparation.boundaryLabel}</p>
+            <p className="text-sm text-text-body leading-relaxed">{t.aiPreparation.boundaryNote}</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-white border-b border-slate-200">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
             <SectionLabel color="gold" className="block mb-2">{t.caseStudies.badge}</SectionLabel>
             <h2 className="font-serif text-3xl text-brand-navy mb-4">{t.caseStudies.title}</h2>
             <p className="text-text-body text-sm">{t.caseStudies.subtitle}</p>
@@ -107,6 +136,7 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
                 <div className="space-y-2">
                   <div><p className="text-xs font-semibold text-text-muted uppercase tracking-widest">{t.caseStudies.goalLabel}</p><p className="text-sm text-text-body">{cs.goal}</p></div>
                   <div><p className="text-xs font-semibold text-text-muted uppercase tracking-widest">{t.caseStudies.constraintLabel}</p><p className="text-sm text-text-body">{cs.constraint}</p></div>
+                  <div><p className="text-xs font-semibold text-text-muted uppercase tracking-widest">{t.caseStudies.preparationLabel}</p><p className="text-sm text-text-body">{cs.preparation}</p></div>
                 </div>
                 <p className="text-xs text-text-muted italic">{t.caseStudies.disclaimer}</p>
               </Card>

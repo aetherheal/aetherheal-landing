@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { AlertTriangle, Phone, ShieldAlert, Scale } from "lucide-react"
+import { AlertTriangle, CheckCircle2, Phone, ShieldAlert, Scale } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
 import { Card } from "@/components/ui/card"
@@ -42,6 +42,19 @@ export default async function MedicalBoundaryPage({ params }: { params: Promise<
               <div className="flex items-start gap-4"><ShieldAlert className="w-6 h-6 text-danger shrink-0 mt-0.5" /><div><h3 className="text-base font-semibold text-text-deep mb-2">{b.title}</h3><p className="text-sm text-text-body leading-relaxed">{b.description}</p></div></div>
             </Card>
           ))}
+        </div>
+      </section>
+
+      <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+        <div className="max-w-3xl mx-auto">
+          <div className="mb-8"><SectionLabel color="gold" className="block mb-2">{t.aiSupport.badge}</SectionLabel><h2 className="font-serif text-3xl text-brand-navy mb-4">{t.aiSupport.title}</h2><p className="text-text-body leading-relaxed">{t.aiSupport.intro}</p></div>
+          <Card className="p-5 sm:p-8">
+            <ul className="space-y-4">
+              {t.aiSupport.items.map((item) => (
+                <li key={item} className="flex items-start gap-3"><CheckCircle2 className="w-4 h-4 text-brand-gold mt-0.5 shrink-0" /><span className="text-sm text-text-body leading-relaxed">{item}</span></li>
+              ))}
+            </ul>
+          </Card>
         </div>
       </section>
 

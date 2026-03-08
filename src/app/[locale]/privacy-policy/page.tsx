@@ -91,12 +91,16 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
               <li>Facilitating consultation requests between you and partner medical institutions</li>
               <li>Coordinating appointments, travel logistics, and accommodation arrangements</li>
               <li>Communicating with you regarding your inquiries, bookings, and service updates</li>
+              <li>Structuring, summarizing, translating, and quality-checking information you submit for coordination and administrative support, including through AI-assisted tools subject to human review where appropriate</li>
               <li>Providing travel coordination support (e.g., airport pickup, visa documentation assistance)</li>
               <li>Processing deposits, refunds, and related financial transactions</li>
               <li>Responding to customer inquiries and support requests</li>
-              <li>Ensuring platform security and preventing fraud or unauthorized access</li>
+              <li>Monitoring platform operations, workflow status, and security events to prevent fraud, unauthorized access, missed handoffs, or service failures</li>
               <li>Complying with applicable laws and regulations, including South Korean personal information protection laws</li>
             </ul>
+            <p className="mt-3">
+              Where permitted by applicable law, we may use internal systems or contracted service providers that include AI-assisted processing features to help organize case materials, generate draft summaries, support translation, or detect operational exceptions. These tools are used to support coordination and administrative workflows and are not used to provide medical diagnosis, treatment, prescriptions, emergency triage, or autonomous final provider selection.
+            </p>
           </section>
 
           <section>
@@ -120,6 +124,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             <ul className="list-disc pl-6 space-y-2 text-text-body marker:text-slate-300">
               <li>Payment processors (for deposit and refund handling)</li>
               <li>Communication service vendors (for messaging and notification delivery)</li>
+              <li>Translation, document-processing, or AI-assisted workflow service providers acting on our behalf under contractual controls</li>
               <li>Travel and accommodation coordination partners</li>
               <li>IT infrastructure and cloud hosting providers</li>
             </ul>
@@ -148,7 +153,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
 
             <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.2 Overseas Outsourcing to Service Providers</h3>
             <p>
-              We may outsource certain processing activities (e.g., cloud hosting, data analytics, customer support tools) to service providers located outside South Korea. Such providers are contractually required to protect your data in accordance with applicable laws.
+              We may outsource certain processing activities (e.g., cloud hosting, data analytics, translation support, customer support tools, or AI-assisted document and workflow processing) to service providers located outside South Korea. Such providers are contractually required to protect your data in accordance with applicable laws.
             </p>
 
             <h3 className="text-lg font-semibold text-text-deep mt-8 mb-3">5.3 Items Potentially Transferred</h3>
@@ -183,6 +188,9 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
               <li>Not re-entrust data to additional parties without our consent</li>
               <li>Return or destroy data upon completion of the entrusted task</li>
             </ul>
+            <p className="mt-3">
+              Where an entrusted provider offers AI-assisted processing features, we require that such processing remain limited to our documented instructions and applicable law. We do not authorize entrusted processors to use your personal data to provide you with medical diagnosis or treatment, and any AI-assisted output used in our coordination workflows remains subject to human oversight where required by the workflow.
+            </p>
           </section>
 
           <section>
@@ -227,7 +235,7 @@ export default async function PrivacyPolicyPage({ params }: { params: Promise<{ 
             <ul className="list-disc pl-6 space-y-2 text-text-body marker:text-slate-300 mt-3">
               <li>Encryption of data in transit and at rest</li>
               <li>Access controls and authentication mechanisms</li>
-              <li>Regular security assessments and monitoring</li>
+              <li>Regular security assessments and monitoring, including automated monitoring tools for suspicious access or service anomalies</li>
               <li>Employee training on data protection</li>
             </ul>
             <p className="mt-3">

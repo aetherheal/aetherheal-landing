@@ -11,6 +11,9 @@ import {
   AlertTriangle,
   CheckCircle2,
   CreditCard,
+  Bot,
+  ShieldCheck,
+  Activity,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SectionLabel } from "@/components/ui/section-label"
@@ -21,6 +24,7 @@ import { getDictionary } from "@/i18n/get-dictionary"
 
 const journeyIcons = [User, Stethoscope, GitFork, Building2, CreditCard, Compass, Infinity]
 const journeySides = ["right", "left", "center", "right", "left", "right", "left"] as const
+const aiLayerIcons = [Bot, ShieldCheck, Activity]
 
 const exploreHrefs = [
   "/hair-transplant-korea",
@@ -247,6 +251,47 @@ export default async function HomePage({
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Assistance Layer */}
+      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+        <div className="max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <SectionLabel color="gold" className="mb-4 block">
+              {t.aiLayer.badge}
+            </SectionLabel>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy leading-tight">
+              {t.aiLayer.title}{" "}
+              <span className="italic text-brand-gold">{t.aiLayer.titleHighlight}</span>
+            </h2>
+            <p className="text-text-body text-lg max-w-2xl mx-auto leading-relaxed mt-4">
+              {t.aiLayer.subtitle}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {t.aiLayer.cards.map((card, idx) => {
+              const Icon = aiLayerIcons[idx]
+
+              return (
+                <div
+                  key={card.title}
+                  className="bg-white border border-slate-200 rounded-3xl p-8 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.08)]"
+                >
+                  <div className="w-12 h-12 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-navy mb-6">
+                    <Icon className="w-5 h-5" />
+                  </div>
+                  <h3 className="font-serif text-2xl text-brand-navy mb-3">{card.title}</h3>
+                  <p className="text-sm text-text-body leading-relaxed">{card.description}</p>
+                </div>
+              )
+            })}
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-sm text-text-muted italic max-w-3xl mx-auto">{t.aiLayer.footnote}</p>
           </div>
         </div>
       </section>
