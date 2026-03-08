@@ -71,7 +71,8 @@ export default async function HomePage({
 
         {/* Desktop: overlay on video */}
         <div className="hidden md:block absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-40 pb-20 px-4">
-          <div className="text-center max-w-4xl mx-auto space-y-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center max-w-4xl mx-auto space-y-8 rounded-[32px] border border-white/80 bg-white/88 px-10 py-10 backdrop-blur-md shadow-[0_30px_80px_-28px_rgba(15,23,42,0.28)]">
             <div className="animate-fade-up">
               <div className="inline-block py-2 px-6 border border-brand-navy/20 rounded-full text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg">
                 {t.hero.badge}
@@ -89,10 +90,10 @@ export default async function HomePage({
                 {t.hero.descriptionHighlight}
               </span>{" "}
               {t.hero.descriptionEnd}
-              <br />
-              <span className="text-text-muted text-base mt-2 block font-light">
-                {t.hero.disclaimer}
-              </span>
+            </p>
+
+            <p className="text-sm text-text-muted font-medium tracking-wide animate-fade-up [animation-delay:250ms]">
+              {t.hero.disclaimer}
             </p>
 
             <div className="w-full pt-4 flex flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:300ms]">
@@ -108,12 +109,13 @@ export default async function HomePage({
               </Link>
             </div>
           </div>
+          </div>
         </div>
       </section>
 
       {/* Mobile: hero content below video */}
       <section className="md:hidden w-full py-14 px-4 bg-white">
-        <div className="text-center max-w-4xl mx-auto space-y-5">
+        <div className="text-center max-w-4xl mx-auto space-y-5 rounded-[28px] border border-slate-200/80 bg-white px-5 py-8 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.22)]">
           <div className="animate-fade-up">
             <div className="inline-block py-2 px-4 border border-brand-navy/20 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-navy bg-white shadow-lg">
               {t.hero.badge}
@@ -131,10 +133,10 @@ export default async function HomePage({
               {t.hero.descriptionHighlight}
             </span>{" "}
             {t.hero.descriptionEnd}
-            <br />
-            <span className="text-text-muted text-base mt-2 block font-light">
-              {t.hero.disclaimer}
-            </span>
+          </p>
+
+          <p className="text-sm text-text-muted font-medium animate-fade-up [animation-delay:250ms]">
+            {t.hero.disclaimer}
           </p>
 
           <div className="w-full pt-2 flex flex-col items-center justify-center gap-3 animate-fade-up [animation-delay:300ms]">
@@ -154,8 +156,8 @@ export default async function HomePage({
 
       {/* Problem Quote */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-3xl mx-auto text-center space-y-10">
-          <div className="w-px h-16 bg-brand-gold mx-auto mb-8" />
+        <div className="max-w-4xl mx-auto text-center rounded-[32px] border border-slate-200 bg-slate-50/40 px-6 py-12 sm:px-10 sm:py-16 space-y-10 shadow-[0_20px_60px_-35px_rgba(15,23,42,0.18)]">
+          <div className="w-px h-16 bg-brand-gold mx-auto mb-2" />
           <p className="text-2xl font-serif text-text-body leading-relaxed">
             &ldquo;{t.problemQuote.q1}&rdquo;
           </p>
@@ -271,16 +273,16 @@ export default async function HomePage({
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {t.aiLayer.cards.map((card, idx) => {
               const Icon = aiLayerIcons[idx]
 
               return (
                 <div
                   key={card.title}
-                  className="bg-white border border-slate-200 rounded-3xl p-8 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.08)]"
+                  className="bg-white border border-slate-200 rounded-3xl p-8 shadow-[0_20px_50px_-16px_rgba(15,23,42,0.08)]"
                 >
-                  <div className="w-12 h-12 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-navy mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-navy mb-6 border border-brand-navy/10">
                     <Icon className="w-5 h-5" />
                   </div>
                   <h3 className="font-serif text-2xl text-brand-navy mb-3">{card.title}</h3>
@@ -410,12 +412,14 @@ export default async function HomePage({
                     {!isCenter && isLeft && (
                       <>
                         <div className="w-full pl-16 text-left md:pl-0 md:w-[45%] md:text-right md:pr-12">
+                          <div className="rounded-2xl border border-slate-100 bg-white/95 px-5 py-5 shadow-[0_18px_45px_-28px_rgba(15,23,42,0.16)]">
                           {step.badge && (
                             <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-2">{step.badge}</span>
                           )}
                           <h3 className="font-serif text-2xl text-brand-navy mb-2">{step.label}</h3>
                           <p className="text-sm text-text-body leading-relaxed">{step.description}</p>
                           {step.details && <p className="text-xs text-text-muted mt-2 font-medium">{step.details}</p>}
+                          </div>
                         </div>
                         <div className="hidden md:block md:w-[45%]" />
                       </>
@@ -425,6 +429,7 @@ export default async function HomePage({
                       <>
                         <div className="hidden md:block md:w-[45%]" />
                         <div className="w-full pl-16 text-left md:pl-12 md:w-[45%]">
+                          <div className="rounded-2xl border border-slate-100 bg-white/95 px-5 py-5 shadow-[0_18px_45px_-28px_rgba(15,23,42,0.16)]">
                           {step.badge && (
                             <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-2">{step.badge}</span>
                           )}
@@ -442,12 +447,13 @@ export default async function HomePage({
                               </div>
                             </div>
                           )}
+                          </div>
                         </div>
                       </>
                     )}
 
                     {isCenter && (
-                      <div className="relative z-10 w-[calc(100%-4rem)] ml-16 md:ml-0 md:w-[600px] bg-white border-2 border-brand-navy p-5 sm:p-8 md:pl-8 rounded-xl text-left md:text-center shadow-float mt-0 md:mt-6">
+                      <div className="relative z-10 w-[calc(100%-4rem)] ml-16 md:ml-0 md:w-[600px] bg-white border-2 border-brand-navy p-5 sm:p-8 md:pl-8 rounded-[28px] text-left md:text-center shadow-[0_30px_80px_-35px_rgba(15,23,42,0.3)] mt-0 md:mt-6">
                         <h3 className="font-serif text-2xl text-brand-navy mt-0 md:mt-4 mb-2">{step.label}</h3>
                         <p className="text-sm text-text-body italic mb-8">&ldquo;{step.description}&rdquo;</p>
                         <div className="flex flex-col md:flex-row gap-4 justify-center items-stretch">
@@ -475,11 +481,13 @@ export default async function HomePage({
           </div>
 
           <div className="relative mt-20 text-center z-10 pl-14 md:pl-0">
+            <div className="max-w-2xl mx-auto rounded-[28px] border border-slate-100 bg-slate-50/60 px-6 py-8 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.18)]">
             <p className="font-serif text-xl sm:text-2xl text-brand-gold italic max-w-2xl mx-auto">
               &ldquo;{t.journey.closingQuote}&rdquo;
             </p>
             <div className="mt-8 flex justify-center opacity-50">
               <div className="w-16 h-px bg-brand-gold" />
+            </div>
             </div>
           </div>
         </div>
@@ -493,14 +501,17 @@ export default async function HomePage({
             <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.partners.title}</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {t.partners.hospitals.map((h) => (
-              <div key={h.name} className="bg-white border border-slate-200 rounded-2xl p-5">
-                <p className="font-serif text-base font-bold text-brand-navy mb-1 leading-snug">{h.name}</p>
-                <p className="text-[11px] text-text-muted/70 mb-2 flex items-center gap-1">
+            {t.partners.hospitals.map((h, idx) => (
+              <div key={h.name} className={cn(
+                "bg-white border border-slate-200 rounded-[28px] p-5 shadow-[0_18px_45px_-30px_rgba(15,23,42,0.16)]",
+                idx < 2 && "lg:col-span-2 lg:p-7"
+              )}>
+                <p className={cn("font-serif font-bold text-brand-navy mb-1 leading-snug", idx < 2 ? "text-xl" : "text-base")}>{h.name}</p>
+                <p className="text-[11px] text-text-muted/70 mb-3 flex items-center gap-1">
                   <span className="w-1 h-1 rounded-full bg-brand-gold/50 inline-block" />
                   {h.location}
                 </p>
-                <p className="text-xs text-text-muted leading-relaxed">{h.specialties}</p>
+                <p className={cn("text-text-muted leading-relaxed", idx < 2 ? "text-sm" : "text-xs")}>{h.specialties}</p>
               </div>
             ))}
           </div>
@@ -510,10 +521,10 @@ export default async function HomePage({
 
       {/* FAQ */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto rounded-[32px] border border-slate-200 bg-slate-50/40 px-5 py-10 sm:px-8 sm:py-12 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl text-brand-navy mb-4">{t.faq.title}</h2>
-            <p className="text-text-body">{t.faq.subtitle}</p>
+            <p className="text-text-body max-w-2xl mx-auto">{t.faq.subtitle}</p>
           </div>
           <Accordion items={faqItems} />
         </div>
