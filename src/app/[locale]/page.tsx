@@ -515,9 +515,12 @@ export default async function HomePage({
           </div>
 
           <div className="rounded-[32px] border border-slate-200 bg-white px-5 py-6 sm:px-8 sm:py-8 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.16)]">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12">
-              {t.partners.hospitals.map((h) => (
-                <div key={h.name} className="border-t border-slate-200 py-5 first:pt-0 first:border-t-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-0">
+              {t.partners.hospitals.map((h, index) => (
+                <div 
+                  key={h.name} 
+                  className={`py-5 border-t border-slate-200 ${index < 2 ? 'lg:border-t-0' : ''} ${index === 0 ? 'border-t-0' : ''}`}
+                >
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                     <div className="space-y-2">
                       <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-gold">{h.category}</p>
