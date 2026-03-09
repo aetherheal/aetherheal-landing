@@ -18,6 +18,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://aetherheal.com"),
   manifest: "/manifest.json",
+  verification: {
+    google: "TfgaqNCtapU0-cAha6ooo5A3_ILmlIc29J5l1FfNxfo",
+  },
 }
 
 export default function RootLayout({
