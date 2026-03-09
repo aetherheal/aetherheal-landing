@@ -910,9 +910,9 @@
       ]
     },
     "caseStudies": {
-      "badge": "ケーススタディ",
-      "title": "AI準備によるケーススナップショット",
-      "subtitle": "これらの例は、病院選択前にAIの準備がどのように医師のレビューを強化するかを示しています。",
+      "badge": "Before / After ギャラリー",
+      "title": "植毛 Before / After",
+      "subtitle": "最初に公開する FUE 植毛症例です。",
       "cases": [
         {
           "id": "HT-8291",
@@ -941,10 +941,47 @@
         }
       ],
       "caseLabel": "ケース",
-      "goalLabel": "目標",
-      "constraintLabel": "制約",
-      "preparationLabel": "AI準備ブリーフ",
-      "disclaimer": "説明目的の準備例です。医師が臨床的意味を解釈し、結果は個人により異なります。"
+      "maleCaseTitle": "男性症例 1",
+      "femaleCaseTitle": "女性症例 1",
+      "maleCase2Title": "男性ヘアライン症例 2",
+      "femaleCase2Title": "女性ヘアライン症例 2",
+      "hairlineCaseLabel": "ヘアライン症例",
+      "beforeAfterLabel": "Before / After",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "placeholder": "画像プレースホルダー",
+      "disclaimer": "患者写真はレイアウトと表示確認のために掲載しています。"
+    },
+    "caseStreams": {
+      "badge": "今後追加される症例",
+      "title": "拡張中のケースライブラリ",
+      "subtitle": "承認済みの写真が増えるにつれて、このギャラリーはより多くの診療分野と施術カテゴリーへ広がっていきます。",
+      "rows": [
+        [
+          { "category": "リフト", "title": "スレッドリフト" },
+          { "category": "フェイス", "title": "フェイスリフト" },
+          { "category": "鼻", "title": "鼻整形" },
+          { "category": "輪郭", "title": "脂肪移植" }
+        ],
+        [
+          { "category": "ボディ", "title": "脂肪吸引" },
+          { "category": "顎顔面", "title": "両顎手術" },
+          { "category": "歯科", "title": "矯正" },
+          { "category": "目元", "title": "眼瞼形成" }
+        ],
+        [
+          { "category": "輪郭", "title": "輪郭整形" },
+          { "category": "リフト", "title": "ミッドフェイスリフト" },
+          { "category": "肌", "title": "若返り治療" },
+          { "category": "修正", "title": "修正鼻整形" }
+        ],
+        [
+          { "category": "ボリューム", "title": "脂肪注入" },
+          { "category": "ボディ", "title": "ボディコントゥアリング" },
+          { "category": "歯科", "title": "ベニア" },
+          { "category": "輪郭", "title": "顎整形" }
+        ]
+      ]
     },
     "aiPreparation": {
       "badge": "予約の前に",

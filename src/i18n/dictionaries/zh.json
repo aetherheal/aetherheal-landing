@@ -946,9 +946,9 @@
       ]
     },
     "caseStudies": {
-      "badge": "案例研究",
-      "title": "AI准备的案例快照",
-      "subtitle": "这些示例展示了AI准备如何在医院选择之前增强医师审核。",
+      "badge": "术前术后图库",
+      "title": "毛发移植术前术后",
+      "subtitle": "首批已获准展示的 FUE 毛发移植案例。",
       "cases": [
         {
           "id": "HT-8291",
@@ -977,10 +977,47 @@
         }
       ],
       "caseLabel": "案例",
-      "goalLabel": "目标",
-      "constraintLabel": "限制条件",
-      "preparationLabel": "AI准备摘要",
-      "disclaimer": "仅为说明性准备示例。医师解释临床意义，结果因人而异。"
+      "maleCaseTitle": "男性案例 1",
+      "femaleCaseTitle": "女性案例 1",
+      "maleCase2Title": "男性发际线案例 2",
+      "femaleCase2Title": "女性发际线案例 2",
+      "hairlineCaseLabel": "发际线案例",
+      "beforeAfterLabel": "术前 / 术后",
+      "beforeLabel": "术前",
+      "afterLabel": "术后",
+      "placeholder": "图片占位",
+      "disclaimer": "所示患者照片用于版式与展示说明。"
+    },
+    "caseStreams": {
+      "badge": "更多案例将陆续加入",
+      "title": "持续扩展的案例库",
+      "subtitle": "随着更多获批照片素材加入，这个图库可以扩展到更多学科和手术类别。",
+      "rows": [
+        [
+          { "category": "提升", "title": "线雕提升" },
+          { "category": "面部", "title": "面部提升" },
+          { "category": "鼻部", "title": "鼻整形" },
+          { "category": "轮廓", "title": "脂肪移植" }
+        ],
+        [
+          { "category": "身体", "title": "脂肪吸引" },
+          { "category": "颌面", "title": "双颌手术" },
+          { "category": "牙科", "title": "牙齿矫正" },
+          { "category": "眼部", "title": "眼睑整形" }
+        ],
+        [
+          { "category": "轮廓", "title": "面部轮廓整形" },
+          { "category": "提升", "title": "中面部提升" },
+          { "category": "皮肤", "title": "年轻化治疗" },
+          { "category": "修复", "title": "鼻修复手术" }
+        ],
+        [
+          { "category": "填充", "title": "脂肪填充" },
+          { "category": "身体", "title": "体型塑造" },
+          { "category": "微笑", "title": "瓷贴面" },
+          { "category": "下颏", "title": "下巴手术" }
+        ]
+      ]
     },
     "aiPreparation": {
       "badge": "预约之前",

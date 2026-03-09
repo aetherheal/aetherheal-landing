@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import {
   Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity,
   DollarSign, TrendingUp, Clock, Scale, FileSignature, Target,
@@ -47,6 +48,36 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
   const dict = await getDictionary(locale as Locale)
   const t = dict.explore
   const prefix = `/${locale}`
+  const galleryCases = [
+    {
+      number: "01",
+      title: t.caseStudies.maleCaseTitle,
+      subtitle: "FUE 2500 follicles",
+      image: "/assets/explore-gallery/hair-transplant-male-case-1.png",
+      alt: `${t.caseStudies.maleCaseTitle} — FUE 2500 follicles`,
+    },
+    {
+      number: "02",
+      title: t.caseStudies.femaleCaseTitle,
+      subtitle: "FUE 1500 follicles",
+      image: "/assets/explore-gallery/hair-transplant-female-case-1.png",
+      alt: `${t.caseStudies.femaleCaseTitle} — FUE 1500 follicles`,
+    },
+    {
+      number: "03",
+      title: t.caseStudies.maleCase2Title,
+      subtitle: "FUE 2000 follicles",
+      image: "/assets/explore-gallery/hair-transplant-male-case-2.png",
+      alt: `${t.caseStudies.maleCase2Title} — FUE 2000 follicles`,
+    },
+    {
+      number: "04",
+      title: t.caseStudies.femaleCase2Title,
+      subtitle: "FUE 1750 follicles",
+      image: "/assets/explore-gallery/hair-transplant-female-case-2-combined.png",
+      alt: `${t.caseStudies.femaleCase2Title} — FUE 1750 follicles`,
+    },
+  ]
 
   return (
     <div className="min-h-full">
@@ -116,30 +147,39 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
       </section>
 
       <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <SectionLabel color="gold" className="block mb-2">{t.caseStudies.badge}</SectionLabel>
             <h2 className="font-serif text-3xl text-brand-navy mb-4">{t.caseStudies.title}</h2>
             <p className="text-text-body text-sm">{t.caseStudies.subtitle}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            {t.caseStudies.cases.map((cs) => (
-              <Card key={cs.id} className="p-5 sm:p-8 space-y-4" accent="gold">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold uppercase tracking-widest text-text-muted">{t.caseStudies.caseLabel} {cs.number}</span>
-                  <span className="text-xs font-mono text-text-muted">{cs.id}</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 sm:gap-20">
+            {galleryCases.map((cs) => (
+              <div key={cs.number} className="group flex flex-col space-y-6">
+                
+                {/* Image Container */}
+                <div className="flex flex-col gap-2">
+                  <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-100 shadow-sm transition-transform duration-700 ease-out group-hover:scale-[1.02]">
+                    <Image src={cs.image} alt={cs.alt} fill className="object-contain" sizes="(min-width: 1024px) 50vw, 100vw" />
+                  </div>
                 </div>
-                <h3 className="text-lg font-semibold text-text-deep">
-                  {cs.title}
-                  {cs.badge && <span className="ml-2 inline-block text-[10px] font-bold uppercase tracking-widest text-brand-gold bg-brand-gold/10 px-2 py-0.5 rounded-full">{cs.badge}</span>}
-                </h3>
-                <div className="space-y-2">
-                  <div><p className="text-xs font-semibold text-text-muted uppercase tracking-widest">{t.caseStudies.goalLabel}</p><p className="text-sm text-text-body">{cs.goal}</p></div>
-                  <div><p className="text-xs font-semibold text-text-muted uppercase tracking-widest">{t.caseStudies.constraintLabel}</p><p className="text-sm text-text-body">{cs.constraint}</p></div>
-                  <div><p className="text-xs font-semibold text-text-muted uppercase tracking-widest">{t.caseStudies.preparationLabel}</p><p className="text-sm text-text-body">{cs.preparation}</p></div>
+
+                {/* Caption / Content */}
+                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 border-t border-slate-200 pt-5">
+                  <div className="space-y-1.5">
+                    <div className="flex items-center gap-3 mb-1">
+                      <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold">{t.caseStudies.caseLabel} {cs.number}</span>
+                      <span className="h-1 w-1 rounded-full bg-slate-300" />
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{t.caseStudies.beforeAfterLabel}</span>
+                    </div>
+                    <h3 className="font-serif text-2xl text-brand-navy">{cs.title}</h3>
+                    <p className="text-sm text-text-body">{cs.subtitle}</p>
+                  </div>
+                  <p className="text-xs text-text-muted italic max-w-[200px] text-left sm:text-right mt-1">
+                    {t.caseStudies.disclaimer}
+                  </p>
                 </div>
-                <p className="text-xs text-text-muted italic">{t.caseStudies.disclaimer}</p>
-              </Card>
+              </div>
             ))}
           </div>
         </div>

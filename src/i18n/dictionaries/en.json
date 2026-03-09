@@ -946,9 +946,9 @@
       ]
     },
     "caseStudies": {
-      "badge": "Case Studies",
-      "title": "AI-Prepared Case Snapshots",
-      "subtitle": "These examples show how AI preparation sharpens physician review before hospital selection.",
+      "badge": "Before & After Gallery",
+      "title": "Hair Transplant Before & After",
+      "subtitle": "Initial approved FUE hair transplant cases.",
       "cases": [
         {
           "id": "HT-8291",
@@ -977,10 +977,47 @@
         }
       ],
       "caseLabel": "Case",
-      "goalLabel": "Goal",
-      "constraintLabel": "Constraint",
-      "preparationLabel": "AI-prepared brief",
-      "disclaimer": "Illustrative preparation examples only. Physicians interpret clinical meaning, and outcomes vary by individual."
+      "maleCaseTitle": "Male Case 1",
+      "femaleCaseTitle": "Female Case 1",
+      "maleCase2Title": "Male Hairline Case 2",
+      "femaleCase2Title": "Female Hairline Case 2",
+      "hairlineCaseLabel": "Hairline case",
+      "beforeAfterLabel": "Before / After",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "placeholder": "Image placeholder",
+      "disclaimer": "Patient photos shown for layout and presentation purposes."
+    },
+    "caseStreams": {
+      "badge": "More Cases Coming",
+      "title": "Expanding Case Library",
+      "subtitle": "As more approved photography comes in, this gallery can grow across multiple disciplines and procedure categories.",
+      "rows": [
+        [
+          { "category": "Lifting", "title": "Thread Lifting" },
+          { "category": "Face", "title": "Face Lift" },
+          { "category": "Nose", "title": "Rhinoplasty" },
+          { "category": "Contour", "title": "Fat Grafting" }
+        ],
+        [
+          { "category": "Body", "title": "Liposuction" },
+          { "category": "Jaw", "title": "Double Jaw Surgery" },
+          { "category": "Dental", "title": "Orthodontics" },
+          { "category": "Eye", "title": "Blepharoplasty" }
+        ],
+        [
+          { "category": "Contour", "title": "Facial Contouring" },
+          { "category": "Lift", "title": "Midface Lift" },
+          { "category": "Skin", "title": "Rejuvenation" },
+          { "category": "Revision", "title": "Revision Rhinoplasty" }
+        ],
+        [
+          { "category": "Volume", "title": "Fat Transfer" },
+          { "category": "Body", "title": "Body Contouring" },
+          { "category": "Smile", "title": "Dental Veneers" },
+          { "category": "Profile", "title": "Chin Surgery" }
+        ]
+      ]
     },
     "aiPreparation": {
       "badge": "Before You Book",
