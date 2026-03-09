@@ -47,7 +47,7 @@
       "description": "AetherHeal 是面向考虑赴韩就医的国际患者的医师主导、AI辅助决策基础设施。在医院承诺、协调和连续性之前提供结构化清晰度。"
     },
     "hero": {
-      "badge": "面向韩国高端医疗的医师主导、AI辅助决策基础设施",
+      "badge": "面向韩国高端医疗的<br class=\"block sm:hidden\" />医师主导、AI辅助决策基础设施",
       "h1": "清晰决策",
       "h1Highlight": "在选择医院之前",
       "description": "医师主导、AI辅助决策基础设施",
