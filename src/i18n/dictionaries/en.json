@@ -994,28 +994,76 @@
       "subtitle": "As more approved photography comes in, this gallery can grow across multiple disciplines and procedure categories.",
       "rows": [
         [
-          { "category": "Lifting", "title": "Thread Lifting" },
-          { "category": "Face", "title": "Face Lift" },
-          { "category": "Nose", "title": "Rhinoplasty" },
-          { "category": "Contour", "title": "Fat Grafting" }
+          {
+            "category": "Lifting",
+            "title": "Thread Lifting"
+          },
+          {
+            "category": "Face",
+            "title": "Face Lift"
+          },
+          {
+            "category": "Nose",
+            "title": "Rhinoplasty"
+          },
+          {
+            "category": "Contour",
+            "title": "Fat Grafting"
+          }
         ],
         [
-          { "category": "Body", "title": "Liposuction" },
-          { "category": "Jaw", "title": "Double Jaw Surgery" },
-          { "category": "Dental", "title": "Orthodontics" },
-          { "category": "Eye", "title": "Blepharoplasty" }
+          {
+            "category": "Body",
+            "title": "Liposuction"
+          },
+          {
+            "category": "Jaw",
+            "title": "Double Jaw Surgery"
+          },
+          {
+            "category": "Dental",
+            "title": "Orthodontics"
+          },
+          {
+            "category": "Eye",
+            "title": "Blepharoplasty"
+          }
         ],
         [
-          { "category": "Contour", "title": "Facial Contouring" },
-          { "category": "Lift", "title": "Midface Lift" },
-          { "category": "Skin", "title": "Rejuvenation" },
-          { "category": "Revision", "title": "Revision Rhinoplasty" }
+          {
+            "category": "Contour",
+            "title": "Facial Contouring"
+          },
+          {
+            "category": "Lift",
+            "title": "Midface Lift"
+          },
+          {
+            "category": "Skin",
+            "title": "Rejuvenation"
+          },
+          {
+            "category": "Revision",
+            "title": "Revision Rhinoplasty"
+          }
         ],
         [
-          { "category": "Volume", "title": "Fat Transfer" },
-          { "category": "Body", "title": "Body Contouring" },
-          { "category": "Smile", "title": "Dental Veneers" },
-          { "category": "Profile", "title": "Chin Surgery" }
+          {
+            "category": "Volume",
+            "title": "Fat Transfer"
+          },
+          {
+            "category": "Body",
+            "title": "Body Contouring"
+          },
+          {
+            "category": "Smile",
+            "title": "Dental Veneers"
+          },
+          {
+            "category": "Profile",
+            "title": "Chin Surgery"
+          }
         ]
       ]
     },
@@ -1060,6 +1108,22 @@
       "cta": "Ready to see the full step-by-step process?",
       "ctaHowItWorks": "How AetherHeal works",
       "ctaMedicalBoundary": "Read medical boundary"
+    },
+    "moreCategories": {
+      "badge": "Other Domains",
+      "title": "Comprehensive Case Library",
+      "subtitle": "Explore our expanding range of specialized procedures. Click a category to preview.",
+      "comingSoon": "Detailed cases are being prepared.",
+      "modalDescription": "We are carefully curating high-quality, verified case photos for this category to demonstrate our physician-led process and realistic outcomes. Please check back later.",
+      "categories": {
+        "threadLifting": "Thread Lifting",
+        "facelift": "Facelift",
+        "rhinoplasty": "Rhinoplasty",
+        "fatGrafting": "Fat Grafting",
+        "liposuction": "Liposuction",
+        "orthognathic": "Orthognathic Surgery",
+        "orthodontics": "Orthodontics"
+      }
     }
   },
   "medicalBoundary": {

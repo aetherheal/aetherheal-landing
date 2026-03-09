@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { ExploreFlipCards } from "./flip-cards"
+import { CategoryGallery } from "./category-gallery"
 
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
 const aiOutputIcons = [Target, Scale, FileSignature, Bot]
@@ -78,6 +79,16 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
       alt: `${t.caseStudies.femaleCase2Title} — FUE 1750 follicles`,
     },
   ]
+
+  const moreCategoriesList = t.moreCategories ? [
+    { id: "threadLifting", title: t.moreCategories.categories.threadLifting },
+    { id: "facelift", title: t.moreCategories.categories.facelift },
+    { id: "rhinoplasty", title: t.moreCategories.categories.rhinoplasty },
+    { id: "fatGrafting", title: t.moreCategories.categories.fatGrafting },
+    { id: "liposuction", title: t.moreCategories.categories.liposuction },
+    { id: "orthognathic", title: t.moreCategories.categories.orthognathic },
+    { id: "orthodontics", title: t.moreCategories.categories.orthodontics },
+  ] : []
 
   return (
     <div className="min-h-full">
@@ -184,6 +195,23 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
           </div>
         </div>
       </section>
+
+      {t.moreCategories && (
+        <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-slate-50 border-b border-slate-200">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <SectionLabel color="muted" className="block mb-2">{t.moreCategories.badge}</SectionLabel>
+              <h2 className="font-serif text-3xl text-brand-navy mb-4">{t.moreCategories.title}</h2>
+              <p className="text-text-body text-sm max-w-2xl mx-auto">{t.moreCategories.subtitle}</p>
+            </div>
+            <CategoryGallery 
+              categories={moreCategoriesList} 
+              comingSoonText={t.moreCategories.comingSoon} 
+              modalDescription={t.moreCategories.modalDescription} 
+            />
+          </div>
+        </section>
+      )}
 
       <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-bg-light">
         <div className="max-w-6xl mx-auto">
