@@ -47,7 +47,7 @@
       "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
     },
     "hero": {
-      "badge": "Physician-led, AI-assisted decision infrastructure for premium care in Korea",
+      "badge": "Physician-led, AI-assisted decision infrastructure <br class=\"block sm:hidden\" />for premium care in Korea",
       "h1": "Decide With Clarity",
       "h1Highlight": "Before You Choose a Hospital",
       "description": "Physician-led, AI-assisted decision infrastructure",

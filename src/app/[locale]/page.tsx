@@ -75,9 +75,10 @@ export default async function HomePage({
           <div className="max-w-5xl mx-auto">
             <div className="text-center max-w-4xl mx-auto space-y-8">
             <div className="animate-fade-up">
-              <div className="inline-block py-2 px-6 border border-brand-navy/20 rounded-full text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg">
-                {t.hero.badge}
-              </div>
+              <div 
+                className="inline-block py-2 px-6 border border-brand-navy/20 rounded-full text-[11px] sm:text-sm font-bold uppercase tracking-widest text-brand-navy bg-white shadow-lg"
+                dangerouslySetInnerHTML={{ __html: t.hero.badge }}
+              />
             </div>
 
             <h1 className="font-serif text-5xl md:text-7xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
@@ -118,9 +119,10 @@ export default async function HomePage({
       <section className="md:hidden w-full py-14 px-4 bg-white">
         <div className="text-center max-w-4xl mx-auto space-y-5">
           <div className="animate-fade-up">
-            <div className="inline-block py-2 px-4 border border-brand-navy/20 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-navy bg-white shadow-lg">
-              {t.hero.badge}
-            </div>
+            <div 
+              className="inline-block py-2 px-4 border border-brand-navy/20 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-navy bg-white shadow-lg"
+              dangerouslySetInnerHTML={{ __html: t.hero.badge }}
+            />
           </div>
 
           <h1 className="font-serif text-4xl leading-[1.1] text-brand-navy font-medium animate-fade-up [animation-delay:100ms]">
