@@ -24,6 +24,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
     { href: `/${locale}/how-it-works`, label: dict.nav.howItWorks },
     { href: `/${locale}/explore`, label: dict.nav.exploreFramework },
     { href: `/${locale}/trust-protocol`, label: dict.nav.trustSafety },
+    { href: `/${locale}/blog`, label: dict.nav.blog },
   ]
 
   useEffect(() => {

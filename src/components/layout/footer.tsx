@@ -16,6 +16,7 @@ export function Footer({ dict, locale }: FooterProps) {
     { href: `${prefix}/trust-protocol`, label: dict.footer.platformLinks.trustProtocol },
     { href: `${prefix}/medical-journey`, label: dict.footer.platformLinks.medicalJourney },
     { href: `${prefix}/explore`, label: dict.footer.platformLinks.explore },
+    { href: `${prefix}/blog`, label: dict.footer.platformLinks.blog },
   ]
 
   const guideLinks = [

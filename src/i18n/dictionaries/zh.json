@@ -5,7 +5,8 @@
       "exploreFramework": "探索",
       "trustSafety": "信任协议",
       "signIn": "登录",
-      "beginJourney": "开始旅程"
+      "beginJourney": "开始旅程",
+      "blog": "博客"
     },
     "footer": {
       "brandDescription": "医师主导的高风险医疗决策基础设施。",
@@ -24,7 +25,8 @@
         "howItWorks": "运作方式",
         "trustProtocol": "信任协议",
         "medicalJourney": "医疗旅程",
-        "explore": "探索"
+        "explore": "探索",
+        "blog": "博客"
       },
       "guideLinks": {
         "choosingHospital": "海外医院选择",
@@ -1899,5 +1901,27 @@
         "desc": "医师主导决策支持背后的系统"
       }
     ]
+  },
+  "blog": {
+    "meta": {
+      "title": "博客 | AetherHeal — 韩国医疗的医师洞察",
+      "description": "来自医师主导平台的韩国医疗洞察、决策框架，以及国际患者应了解的重要信息。"
+    },
+    "badge": "博客",
+    "heading": "洞察与观点",
+    "subheading": "关于韩国医疗、决策制定以及您在承诺前应了解的医师视角。",
+    "allCategories": "全部",
+    "noPosts": "暂无文章，请稍后查看。",
+    "readMore": "阅读",
+    "backToBlog": "返回博客",
+    "availableIn": "其他语言版本",
+    "categories": {
+      "insights": "洞察",
+      "hair-transplant": "植发",
+      "plastic-surgery": "整形外科",
+      "medical-tourism": "医疗旅游",
+      "patient-guide": "患者指南",
+      "technology": "技术"
+    }
   }
 }

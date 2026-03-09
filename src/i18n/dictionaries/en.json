@@ -5,7 +5,8 @@
       "exploreFramework": "Explore",
       "trustSafety": "Trust Protocol",
       "signIn": "Sign in",
-      "beginJourney": "Begin Journey"
+      "beginJourney": "Begin Journey",
+      "blog": "Blog"
     },
     "footer": {
       "brandDescription": "Physician-led decision infrastructure for high-stake medical care.",
@@ -24,7 +25,8 @@
         "howItWorks": "How It Works",
         "trustProtocol": "Trust Protocol",
         "medicalJourney": "Medical Journey",
-        "explore": "Explore"
+        "explore": "Explore",
+        "blog": "Blog"
       },
       "guideLinks": {
         "choosingHospital": "Choosing a Hospital Abroad",
@@ -1899,5 +1901,27 @@
         "desc": "The system behind physician-led decision support"
       }
     ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog | AetherHeal — Physician Insights on Medical Care in Korea",
+      "description": "Insights from a physician-led platform on medical care in Korea, decision-making frameworks, and what international patients should know."
+    },
+    "badge": "Blog",
+    "heading": "Insights & Perspectives",
+    "subheading": "Physician-led perspectives on medical care in Korea, decision-making, and what matters before you commit.",
+    "allCategories": "All",
+    "noPosts": "No posts yet. Check back soon.",
+    "readMore": "Read",
+    "backToBlog": "Back to Blog",
+    "availableIn": "Also available in",
+    "categories": {
+      "insights": "Insights",
+      "hair-transplant": "Hair Transplant",
+      "plastic-surgery": "Plastic Surgery",
+      "medical-tourism": "Medical Tourism",
+      "patient-guide": "Patient Guide",
+      "technology": "Technology"
+    }
   }
 }

@@ -5,7 +5,8 @@
       "exploreFramework": "探る",
       "trustSafety": "Trust Protocol",
       "signIn": "ログイン",
-      "beginJourney": "旅を始める"
+      "beginJourney": "旅を始める",
+      "blog": "ブログ"
     },
     "footer": {
       "brandDescription": "高リスク医療における医師主導の意思決定インフラストラクチャです。",
@@ -24,7 +25,8 @@
         "howItWorks": "仕組み",
         "trustProtocol": "Trust Protocol",
         "medicalJourney": "医療の旅",
-        "explore": "探る"
+        "explore": "探る",
+        "blog": "ブログ"
       },
       "guideLinks": {
         "choosingHospital": "海外病院の選び方",
@@ -1899,5 +1901,27 @@
         "desc": "医師主導の意思決定支援の背景にあるシステム"
       }
     ]
+  },
+  "blog": {
+    "meta": {
+      "title": "ブログ | AetherHeal — 韓国医療に関する医師の洞察",
+      "description": "医師主導プラットフォームによる韓国医療の洞察、意思決定フレームワーク、海外患者が知っておくべきこと。"
+    },
+    "badge": "ブログ",
+    "heading": "洞察と視点",
+    "subheading": "韓国の医療、意思決定、そしてコミットする前に重要なことについての医師の視点。",
+    "allCategories": "すべて",
+    "noPosts": "まだ記事がありません。後ほどご確認ください。",
+    "readMore": "読む",
+    "backToBlog": "ブログに戻る",
+    "availableIn": "他の言語でも利用可能",
+    "categories": {
+      "insights": "インサイト",
+      "hair-transplant": "植毛",
+      "plastic-surgery": "美容外科",
+      "medical-tourism": "メディカルツーリズム",
+      "patient-guide": "患者ガイド",
+      "technology": "テクノロジー"
+    }
   }
 }
