@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { ExploreFlipCards } from "./flip-cards"
-import { CategoryGallery } from "./category-gallery"
+import { CaseCarousel, type CaseItem } from "./case-carousel"
 
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
 const aiOutputIcons = [Target, Scale, FileSignature, Bot]
@@ -49,46 +49,62 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
   const dict = await getDictionary(locale as Locale)
   const t = dict.explore
   const prefix = `/${locale}`
-  const galleryCases = [
-    {
-      number: "01",
-      title: t.caseStudies.maleCaseTitle,
-      subtitle: "FUE 2500 follicles",
-      image: "/assets/explore-gallery/hair-transplant-male-case-1.png",
-      alt: `${t.caseStudies.maleCaseTitle} — FUE 2500 follicles`,
-    },
-    {
-      number: "02",
-      title: t.caseStudies.femaleCaseTitle,
-      subtitle: "FUE 1500 follicles",
-      image: "/assets/explore-gallery/hair-transplant-female-case-1.png",
-      alt: `${t.caseStudies.femaleCaseTitle} — FUE 1500 follicles`,
-    },
-    {
-      number: "03",
-      title: t.caseStudies.maleCase2Title,
-      subtitle: "FUE 2000 follicles",
-      image: "/assets/explore-gallery/hair-transplant-male-case-2.png",
-      alt: `${t.caseStudies.maleCase2Title} — FUE 2000 follicles`,
-    },
-    {
-      number: "04",
-      title: t.caseStudies.femaleCase2Title,
-      subtitle: "FUE 1750 follicles",
-      image: "/assets/explore-gallery/hair-transplant-female-case-2-combined.png",
-      alt: `${t.caseStudies.femaleCase2Title} — FUE 1750 follicles`,
-    },
+  
+  const generatePlaceholders = (categoryName: string): CaseItem[] => [
+    { id: `${categoryName}-1`, number: "01", title: `${categoryName} Case 1`, subtitle: "", isPlaceholder: true },
+    { id: `${categoryName}-2`, number: "02", title: `${categoryName} Case 2`, subtitle: "", isPlaceholder: true },
+    { id: `${categoryName}-3`, number: "03", title: `${categoryName} Case 3`, subtitle: "", isPlaceholder: true },
   ]
 
-  const moreCategoriesList = t.moreCategories ? [
-    { id: "threadLifting", title: t.moreCategories.categories.threadLifting },
-    { id: "facelift", title: t.moreCategories.categories.facelift },
-    { id: "rhinoplasty", title: t.moreCategories.categories.rhinoplasty },
-    { id: "fatGrafting", title: t.moreCategories.categories.fatGrafting },
-    { id: "liposuction", title: t.moreCategories.categories.liposuction },
-    { id: "orthognathic", title: t.moreCategories.categories.orthognathic },
-    { id: "orthodontics", title: t.moreCategories.categories.orthodontics },
-  ] : []
+  const categoriesData = [
+    {
+      id: "hair-transplant",
+      title: t.caseStudies.title,
+      cases: [
+        {
+          id: "ht-1",
+          number: "01",
+          title: t.caseStudies.maleCaseTitle,
+          subtitle: "FUE 2500 follicles",
+          image: "/assets/explore-gallery/hair-transplant-male-case-1.png",
+          alt: `${t.caseStudies.maleCaseTitle} — FUE 2500 follicles`,
+        },
+        {
+          id: "ht-2",
+          number: "02",
+          title: t.caseStudies.femaleCaseTitle,
+          subtitle: "FUE 1500 follicles",
+          image: "/assets/explore-gallery/hair-transplant-female-case-1.png",
+          alt: `${t.caseStudies.femaleCaseTitle} — FUE 1500 follicles`,
+        },
+        {
+          id: "ht-3",
+          number: "03",
+          title: t.caseStudies.maleCase2Title,
+          subtitle: "FUE 2000 follicles",
+          image: "/assets/explore-gallery/hair-transplant-male-case-2.png",
+          alt: `${t.caseStudies.maleCase2Title} — FUE 2000 follicles`,
+        },
+        {
+          id: "ht-4",
+          number: "04",
+          title: t.caseStudies.femaleCase2Title,
+          subtitle: "FUE 1750 follicles",
+          image: "/assets/explore-gallery/hair-transplant-female-case-2-combined.png",
+          alt: `${t.caseStudies.femaleCase2Title} — FUE 1750 follicles`,
+        },
+      ]
+    },
+    ...(t.moreCategories ? [
+      { id: "threadLifting", title: t.moreCategories.categories.threadLifting, cases: generatePlaceholders(t.moreCategories.categories.threadLifting) },
+      { id: "facelift", title: t.moreCategories.categories.facelift, cases: generatePlaceholders(t.moreCategories.categories.facelift) },
+      { id: "rhinoplasty", title: t.moreCategories.categories.rhinoplasty, cases: generatePlaceholders(t.moreCategories.categories.rhinoplasty) },
+      { id: "fatGrafting", title: t.moreCategories.categories.fatGrafting, cases: generatePlaceholders(t.moreCategories.categories.fatGrafting) },
+      { id: "liposuction", title: t.moreCategories.categories.liposuction, cases: generatePlaceholders(t.moreCategories.categories.liposuction) },
+      { id: "orthognathic", title: t.moreCategories.categories.orthognathic, cases: generatePlaceholders(t.moreCategories.categories.orthognathic) },
+      { id: "orthodontics", title: t.moreCategories.categories.orthodontics, cases: generatePlaceholders(t.moreCategories.categories.orthodontics) },
+    ] : [])
+  ]
 
   return (
     <div className="min-h-full">
@@ -157,61 +173,35 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
         </div>
       </section>
 
-      <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
+      <section className="w-full py-16 sm:py-20 lg:py-24 px-0 bg-slate-50 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto space-y-16 sm:space-y-20">
+          <div className="text-center px-4 sm:px-0">
             <SectionLabel color="gold" className="block mb-2">{t.caseStudies.badge}</SectionLabel>
-            <h2 className="font-serif text-3xl text-brand-navy mb-4">{t.caseStudies.title}</h2>
-            <p className="text-text-body text-sm">{t.caseStudies.subtitle}</p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{t.moreCategories?.title || t.caseStudies.title}</h2>
+            <p className="text-text-body text-sm max-w-2xl mx-auto">{t.moreCategories?.subtitle || t.caseStudies.subtitle}</p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 sm:gap-20">
-            {galleryCases.map((cs) => (
-              <div key={cs.number} className="group flex flex-col space-y-6">
-                
-                {/* Image Container */}
-                <div className="flex flex-col gap-2">
-                  <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-100 shadow-sm transition-transform duration-700 ease-out group-hover:scale-[1.02]">
-                    <Image src={cs.image} alt={cs.alt} fill className="object-contain" sizes="(min-width: 1024px) 50vw, 100vw" />
-                  </div>
-                </div>
 
-                {/* Caption / Content */}
-                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 border-t border-slate-200 pt-5">
-                  <div className="space-y-1.5">
-                    <div className="flex items-center gap-3 mb-1">
-                      <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold">{t.caseStudies.caseLabel} {cs.number}</span>
-                      <span className="h-1 w-1 rounded-full bg-slate-300" />
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{t.caseStudies.beforeAfterLabel}</span>
-                    </div>
-                    <h3 className="font-serif text-2xl text-brand-navy">{cs.title}</h3>
-                    <p className="text-sm text-text-body">{cs.subtitle}</p>
-                  </div>
-                  <p className="text-xs text-text-muted italic max-w-[200px] text-left sm:text-right mt-1">
-                    {t.caseStudies.disclaimer}
-                  </p>
+          <div className="space-y-16 sm:space-y-24">
+            {categoriesData.map(category => (
+              <div key={category.id} className="space-y-6 sm:space-y-8">
+                <div className="px-4 sm:px-6 max-w-7xl mx-auto">
+                  <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy border-b border-slate-200 pb-4">
+                    {category.title}
+                  </h3>
                 </div>
+                <CaseCarousel 
+                  cases={category.cases} 
+                  caseLabel={t.caseStudies.caseLabel}
+                  beforeAfterLabel={t.caseStudies.beforeAfterLabel}
+                  disclaimer={t.caseStudies.disclaimer}
+                  comingSoonText={t.moreCategories?.comingSoon}
+                  placeholderDescription={t.moreCategories?.modalDescription}
+                />
               </div>
             ))}
           </div>
         </div>
       </section>
-
-      {t.moreCategories && (
-        <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-slate-50 border-b border-slate-200">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <SectionLabel color="muted" className="block mb-2">{t.moreCategories.badge}</SectionLabel>
-              <h2 className="font-serif text-3xl text-brand-navy mb-4">{t.moreCategories.title}</h2>
-              <p className="text-text-body text-sm max-w-2xl mx-auto">{t.moreCategories.subtitle}</p>
-            </div>
-            <CategoryGallery 
-              categories={moreCategoriesList} 
-              comingSoonText={t.moreCategories.comingSoon} 
-              modalDescription={t.moreCategories.modalDescription} 
-            />
-          </div>
-        </section>
-      )}
 
       <section className="w-full py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-bg-light">
         <div className="max-w-6xl mx-auto">
