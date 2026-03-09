@@ -494,26 +494,49 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Trust Partners */}
+      {/* Founding Medical Partners */}
       <section className="w-full py-16 sm:py-20 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-6xl mx-auto space-y-10">
-          <div className="text-center">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-3">{t.partners.subtitle}</p>
+        <div className="max-w-6xl mx-auto space-y-12">
+          <div className="max-w-3xl mx-auto text-center space-y-5">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{t.partners.subtitle}</p>
             <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.partners.title}</h2>
+            <p className="text-sm sm:text-base text-text-body leading-relaxed">{t.partners.intro}</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {t.partners.hospitals.map((h) => (
-              <div key={h.name} className="bg-white border border-slate-200 rounded-[28px] p-5 shadow-[0_18px_45px_-30px_rgba(15,23,42,0.16)]">
-                <p className="font-serif font-bold text-brand-navy mb-1 leading-snug text-base">{h.name}</p>
-                <p className="text-[11px] text-text-muted/70 mb-3 flex items-center gap-1">
-                  <span className="w-1 h-1 rounded-full bg-brand-gold/50 inline-block" />
-                  {h.location}
-                </p>
-                <p className="text-xs text-text-muted leading-relaxed">{h.specialties}</p>
-              </div>
+
+          <div className="flex flex-wrap justify-center gap-3">
+            {t.partners.principles.map((principle) => (
+              <span
+                key={principle}
+                className="inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-text-muted shadow-[0_12px_28px_-24px_rgba(15,23,42,0.25)]"
+              >
+                {principle}
+              </span>
             ))}
           </div>
-          <p className="text-sm text-text-muted italic text-center">{t.partners.footnote}</p>
+
+          <div className="rounded-[32px] border border-slate-200 bg-white px-5 py-6 sm:px-8 sm:py-8 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.16)]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12">
+              {t.partners.hospitals.map((h) => (
+                <div key={h.name} className="border-t border-slate-200 py-5 first:pt-0 first:border-t-0">
+                  <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                    <div className="space-y-2">
+                      <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-gold">{h.category}</p>
+                      <h3 className="font-serif text-xl text-brand-navy leading-snug">{h.name}</h3>
+                      {h.note ? (
+                        <p className="max-w-md text-xs leading-relaxed text-text-muted">{h.note}</p>
+                      ) : null}
+                    </div>
+                    <div className="sm:text-right">
+                      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-muted">{t.partners.partnerLabel}</p>
+                      <p className="mt-1 text-sm text-text-body">{h.location}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <p className="max-w-3xl mx-auto text-center text-sm italic text-text-muted">{t.partners.footnote}</p>
         </div>
       </section>
 

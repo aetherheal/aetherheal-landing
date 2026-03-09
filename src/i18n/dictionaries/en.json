@@ -297,51 +297,74 @@
       "closingQuote": "AI can accelerate the process. Responsibility still belongs to humans."
     },
     "partners": {
-      "subtitle": "Standards-based Partner Institutions in Seoul",
-      "title": "AetherHeal Trusted Pioneers",
+      "subtitle": "Proof Layer",
+      "title": "Founding Medical Partners",
       "hospitals": [
         {
           "name": "Morgan Dermatology",
           "location": "Gangnam, Seoul",
-          "specialties": "Hair Transplant, Hair Loss, Scalp Micropigmentation"
+          "specialties": "Hair Transplant, Hair Loss, Scalp Micropigmentation",
+          "category": "Hair Transplantation",
+          "note": "Led by a former President of the Korean Hair Research Society. Over 30 years of academic and clinical excellence in hair restoration."
         },
         {
           "name": "Woori Plastic Surgery",
           "location": "Gangnam, Seoul",
-          "specialties": "Full-spectrum Plastic & Cosmetic Surgery"
+          "specialties": "Full-spectrum Plastic & Cosmetic Surgery",
+          "category": "Plastic Surgery",
+          "note": "Surgical team composed of Seoul Asan Hospital alumni specialists. Features dedicated anesthesiologists and advanced 3D analysis for precision contouring."
         },
         {
           "name": "B&VIIT Eye Center",
           "location": "Gangnam, Seoul",
-          "specialties": "SMILE Pro, LASIK, PRK, PIOL, Cataracts, Customizing Options"
+          "specialties": "SMILE Pro, LASIK, PRK, PIOL, Cataracts, Customizing Options",
+          "category": "Vision Correction",
+          "note": "Pioneers of the world's first AI vision correction recommendation system, built on over 600,000 clinical data points for maximum predictive accuracy."
         },
         {
           "name": "Hosan Women's Hospital",
           "location": "Gangnam, Seoul",
-          "specialties": "Women's Cosmetic Surgery & Gynecological Care"
+          "specialties": "Women's Cosmetic Surgery & Gynecological Care",
+          "category": "Women's Care",
+          "note": "A premier maternity and women's hospital with a 40-year legacy in Gangnam. Renowned for its dedicated primary physician delivery system and evidence-based practice."
         },
         {
           "name": "Apgujeong Min Dental",
           "location": "Gangnam, Seoul",
-          "specialties": "Pediatric Orthodontics, Frankel Appliance Therapy"
+          "specialties": "Pediatric Orthodontics, Frankel Appliance Therapy",
+          "category": "Orthodontics",
+          "note": "Founded by a Seoul National University and Harvard-trained specialist. A pioneer in introducing Frankel appliance therapy to Korea with 30+ years of expertise."
         },
         {
           "name": "The Well Dental Clinic",
           "location": "Near Incheon Airport",
-          "specialties": "Adult Orthodontics, Prosthodontics & General Dentistry"
+          "specialties": "Adult Orthodontics, Prosthodontics & General Dentistry",
+          "category": "General Dentistry",
+          "note": "Strategically located for international patients. Features a multi-disciplinary team providing advanced prosthodontics and comprehensive digital dentistry."
         },
         {
           "name": "Apgujeong Tune Clinic",
           "location": "Gangnam, Seoul",
-          "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Lifting"
+          "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Lifting",
+          "category": "Aesthetic Medicine",
+          "note": "A specialized aesthetic center known for premium non-surgical lifting and stem cell therapies, utilizing highly advanced energy-based devices."
         },
         {
           "name": "VenCell Clinic",
           "location": "Gangnam, Seoul",
-          "specialties": "Advanced Regenerative Medicine Institution designated by the Ministry of Health and Welfare / MD, PhD, Honorary President of the Korean Society for the Study of Obesity / Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Thread Lifting"
+          "specialties": "Advanced Regenerative Medicine Institution designated by the Ministry of Health and Welfare / MD, PhD, Honorary President of the Korean Society for the Study of Obesity / Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Thread Lifting",
+          "category": "Regenerative Aesthetics",
+          "note": "Ministry of Health and Welfare-designated Advanced Regenerative Medicine Institution. Led by an MD, PhD who serves as Honorary President of the Korean Society for the Study of Obesity."
         }
       ],
-      "footnote": "A vanguard of leading institutions sharing our uncompromising standard for transparent, decision-first care."
+      "footnote": "These institutions appear on the homepage as proof of trust and operating standards. Final hospital options should follow decision readiness, not precede it.",
+      "intro": "AetherHeal works with a limited number of founding medical partners across each specialty. These institutions appear here as proof of clinical alignment, not as a price, ranking, or review marketplace.",
+      "principles": [
+        "Clinical expertise",
+        "International readiness",
+        "Decision-first alignment"
+      ],
+      "partnerLabel": "Founding Partner"
     },
     "faq": {
       "title": "Common Questions",

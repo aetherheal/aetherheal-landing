@@ -297,51 +297,74 @@
       "closingQuote": "AI可以加速流程。责任仍然属于人类。"
     },
     "partners": {
-      "subtitle": "首尔基于标准的合作伙伴机构",
-      "title": "AetherHeal 可信合作伙伴",
+      "subtitle": "信任证明层",
+      "title": "创始合作医疗机构",
       "hospitals": [
         {
           "name": "Morgan Dermatology",
           "location": "首尔江南",
-          "specialties": "毛发移植、脱发治疗、头皮微色素"
+          "specialties": "毛发移植、脱发治疗、头皮微色素",
+          "category": "毛发移植",
+          "note": "由前大韩毛发学会会长带领。在毛发移植和脱发治疗领域拥有30多年的学术和临床卓越经验。"
         },
         {
           "name": "Woori Plastic Surgery",
           "location": "首尔江南",
-          "specialties": "全方位整形与美容外科"
+          "specialties": "全方位整形与美容外科",
+          "category": "整形外科",
+          "note": "由首尔峨山医院出身的专科医生组成的医疗团队。配备专属麻醉科医生和先进的3D分析系统，实现精准轮廓塑形。"
         },
         {
           "name": "B&VIIT Eye Center",
           "location": "首尔江南",
-          "specialties": "SMILE Pro、LASIK、PRK、PIOL、白内障、定制方案"
+          "specialties": "SMILE Pro、LASIK、PRK、PIOL、白内障、定制方案",
+          "category": "视力矫正",
+          "note": "世界首个AI视力矫正推荐系统的先驱，基于超过60万个临床数据点，确保最高的预测准确性。"
         },
         {
           "name": "Hosan Women's Hospital",
           "location": "首尔江南",
-          "specialties": "女性美容外科与妇科"
+          "specialties": "女性美容外科与妇科",
+          "category": "女性医疗",
+          "note": "在江南区拥有40年历史的顶级妇产科和女性医院。以其专属主治医生分娩系统和循证医学实践而闻名。"
         },
         {
           "name": "Apgujeong Min Dental",
           "location": "首尔江南",
-          "specialties": "儿童正畸、Frankel矫治器疗法"
+          "specialties": "儿童正畸、Frankel矫治器疗法",
+          "category": "牙齿矫正",
+          "note": "由首尔大学和哈佛大学培训的专科医生创立。将Frankel矫治器疗法引入韩国的先驱，拥有30多年的正畸临床经验。"
         },
         {
           "name": "The Well Dental Clinic",
           "location": "仁川机场附近",
-          "specialties": "成人正畸、修复学与综合牙科"
+          "specialties": "成人正畸、修复学与综合牙科",
+          "category": "综合牙科",
+          "note": "地理位置优越，方便国际患者就诊。拥有多学科专家团队，提供高级修复学和综合数字化牙科治疗。"
         },
         {
           "name": "Apgujeong Tune Clinic",
           "location": "首尔江南",
-          "specialties": "干细胞疗法、高端皮肤美容、身体填充、提升"
+          "specialties": "干细胞疗法、高端皮肤美容、身体填充、提升",
+          "category": "皮肤美学",
+          "note": "一家专业的抗衰老和美学中心，以其利用先进的基于能量的设备进行的高端非手术提升和干细胞治疗而闻名。"
         },
         {
           "name": "VenCell Clinic",
           "location": "首尔江南",
-          "specialties": "韩国保健福祉部指定尖端再生医疗实施机构 / 医学博士，大韩肥胖美容学会名誉会长 / 干细胞治疗，高级皮肤美容，身体填充，埋线提升"
+          "specialties": "韩国保健福祉部指定尖端再生医疗实施机构 / 医学博士，大韩肥胖美容学会名誉会长 / 干细胞治疗，高级皮肤美容，身体填充，埋线提升",
+          "category": "再生美学",
+          "note": "韩国保健福祉部指定尖端再生医疗实施机构，由医学博士、大韩肥胖美容学会名誉会长领衔。"
         }
       ],
-      "footnote": "一批领先机构的先驱，与我们共享对透明、决策优先医疗的不妥协标准。"
+      "footnote": "这些机构在首页出现，是为了证明信任基础与运营标准。最终医院选项应在决策准备完成后再呈现，而不是更早。",
+      "intro": "AetherHeal 在各专科仅与少数创始合作医疗机构协作。这里的展示用于证明临床与流程一致性，而不是价格、排名或评论比较。",
+      "principles": [
+        "临床专业能力",
+        "国际患者准备度",
+        "决策优先一致性"
+      ],
+      "partnerLabel": "创始合作伙伴"
     },
     "faq": {
       "title": "常见问题",
