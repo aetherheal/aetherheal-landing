@@ -3,6 +3,7 @@ import Link from "next/link"
 import { ArrowRight, Plane, MapPin, HeartPulse, CheckCircle2, FileText, Stethoscope, Calendar, MessageCircle, ClipboardCheck, Activity } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Card } from "@/components/ui/card"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
@@ -13,6 +14,7 @@ const milestoneIcons = [FileText, Stethoscope, Calendar, MessageCircle, Clipboar
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.medicalJourney.meta
   return {
@@ -25,6 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function MedicalJourneyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.medicalJourney
   const prefix = `/${locale}`

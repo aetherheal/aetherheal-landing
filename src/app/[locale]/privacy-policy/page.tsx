@@ -1,9 +1,11 @@
 import type { Metadata } from "next"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   return {
     title: "Privacy Policy | AetherHeal",
     description: "Learn how AetherHeal collects, uses, and protects your personal data. Our privacy policy explains your rights and how we safeguard your information.",
@@ -27,6 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  assertPatientLocale(locale)
 
   return (
     <div className="bg-white min-h-full">

@@ -6,8 +6,13 @@ const dictionaries = {
   ja: () => import("./dictionaries/ja.json").then((m) => m.default),
   th: () => import("./dictionaries/th.json").then((m) => m.default),
   ru: () => import("./dictionaries/ru.json").then((m) => m.default),
+  ko: () => import("./dictionaries/ko.json").then((m) => m.default),
 }
 
-export const getDictionary = async (locale: Locale) => dictionaries[locale]()
+type EnDictionary = Awaited<ReturnType<(typeof dictionaries)["en"]>>
+type KoDictionary = Awaited<ReturnType<(typeof dictionaries)["ko"]>>
 
-export type Dictionary = Awaited<ReturnType<typeof getDictionary>>
+export type Dictionary = EnDictionary & KoDictionary
+
+export const getDictionary = async (locale: Locale): Promise<Dictionary> =>
+  dictionaries[locale]() as Promise<Dictionary>

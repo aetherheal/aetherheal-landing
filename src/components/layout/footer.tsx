@@ -10,22 +10,35 @@ interface FooterProps {
 
 export function Footer({ dict, locale }: FooterProps) {
   const prefix = `/${locale}`
+  const isKo = locale === "ko"
 
-  const platformLinks = [
-    { href: `${prefix}/how-it-works`, label: dict.footer.platformLinks.howItWorks },
-    { href: `${prefix}/trust-protocol`, label: dict.footer.platformLinks.trustProtocol },
-    { href: `${prefix}/our-philosophy`, label: dict.footer.platformLinks.ourPhilosophy },
-    { href: `${prefix}/medical-journey`, label: dict.footer.platformLinks.medicalJourney },
-    { href: `${prefix}/explore`, label: dict.footer.platformLinks.explore },
-    { href: `${prefix}/blog`, label: dict.footer.platformLinks.blog },
-  ]
+  const platformLinks = isKo
+    ? [
+        { href: `${prefix}/for-partners`, label: "파트너 병원" },
+        { href: `${prefix}/for-investors`, label: "투자자" },
+        { href: `${prefix}/our-philosophy`, label: "우리의 철학" },
+      ]
+    : [
+        { href: `${prefix}/how-it-works`, label: dict.footer.platformLinks.howItWorks },
+        { href: `${prefix}/trust-protocol`, label: dict.footer.platformLinks.trustProtocol },
+        { href: `${prefix}/our-philosophy`, label: dict.footer.platformLinks.ourPhilosophy },
+        { href: `${prefix}/medical-journey`, label: dict.footer.platformLinks.medicalJourney },
+        { href: `${prefix}/explore`, label: dict.footer.platformLinks.explore },
+        { href: `${prefix}/blog`, label: dict.footer.platformLinks.blog },
+      ]
 
-  const guideLinks = [
-    { href: `${prefix}/how-to-choose-hospital-abroad`, label: dict.footer.guideLinks.choosingHospital },
-    { href: `${prefix}/hair-transplant-korea`, label: dict.footer.guideLinks.hairTransplant },
-    { href: `${prefix}/plastic-surgery-korea`, label: dict.footer.guideLinks.plasticSurgery },
-    { href: `${prefix}/aesthetic-clinic-seoul`, label: dict.footer.guideLinks.aestheticClinics },
-  ]
+  const guideLinks = isKo
+    ? [
+        { href: "/en", label: "영문 환자용 사이트" },
+        { href: "/en/how-it-works", label: "How It Works (EN)" },
+        { href: "/en/trust-protocol", label: "Trust Protocol (EN)" },
+      ]
+    : [
+        { href: `${prefix}/how-to-choose-hospital-abroad`, label: dict.footer.guideLinks.choosingHospital },
+        { href: `${prefix}/hair-transplant-korea`, label: dict.footer.guideLinks.hairTransplant },
+        { href: `${prefix}/plastic-surgery-korea`, label: dict.footer.guideLinks.plasticSurgery },
+        { href: `${prefix}/aesthetic-clinic-seoul`, label: dict.footer.guideLinks.aestheticClinics },
+      ]
 
   const legalLinks = [
     { href: `${prefix}/medical-boundary`, label: dict.footer.medicalBoundaryNotice },

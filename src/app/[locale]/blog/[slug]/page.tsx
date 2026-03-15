@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Calendar, Clock, ArrowLeft, User } from "lucide-react"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, ogLocales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { getPostBySlug, getAllPostParams, type BlogCategory } from "@/lib/blog"
@@ -17,6 +18,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>
 }): Promise<Metadata> {
   const { locale, slug } = await params
+  assertPatientLocale(locale)
   const post = getPostBySlug(locale, slug)
   if (!post) return {}
 
@@ -56,6 +58,7 @@ export default async function BlogPostPage({
   params: Promise<{ locale: string; slug: string }>
 }) {
   const { locale, slug } = await params
+  assertPatientLocale(locale)
   const post = getPostBySlug(locale, slug)
   if (!post) notFound()
 

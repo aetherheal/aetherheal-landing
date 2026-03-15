@@ -1,9 +1,11 @@
 import type { Metadata } from "next"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   return {
     title: "Terms of Service | AetherHeal",
     description: "Terms and conditions governing the use of the AetherHeal platform, including booking services, user responsibilities, and decision support coordination.",
@@ -27,6 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function TermsOfServicePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
 
   return (

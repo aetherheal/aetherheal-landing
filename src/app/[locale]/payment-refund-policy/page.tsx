@@ -1,9 +1,11 @@
 import type { Metadata } from "next"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   return {
     title: "Payment & Refund Policy | AetherHeal",
     description:
@@ -30,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function PaymentRefundPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
 
   return (

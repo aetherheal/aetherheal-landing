@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, ogLocales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { getAllPosts, BLOG_CATEGORIES } from "@/lib/blog"
@@ -10,6 +11,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.blog
 
@@ -43,6 +45,7 @@ export default async function BlogListingPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const posts = getAllPosts(locale)
   const t = dict.blog

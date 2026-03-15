@@ -3,6 +3,7 @@ import Link from "next/link"
 import { ArrowRight, Shield, Eye, FileCheck, CheckCircle, CheckCircle2, XCircle, Lock, Scale, Split, Bot, Users, Building2, Landmark } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Card } from "@/components/ui/card"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
@@ -14,6 +15,7 @@ const relatedHrefs = ["/how-to-choose-hospital-abroad", "/medical-journey", "/ho
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.trustProtocol.meta
   return {
@@ -26,6 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function TrustProtocolPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.trustProtocol
   const prefix = `/${locale}`

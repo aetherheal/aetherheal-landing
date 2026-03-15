@@ -5,11 +5,13 @@ import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.medicalBoundary.meta
   return {
@@ -31,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function MedicalBoundaryPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  assertPatientLocale(locale)
   const dict = await getDictionary(locale as Locale)
   const t = dict.medicalBoundary
   const prefix = `/${locale}`

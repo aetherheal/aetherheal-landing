@@ -29,6 +29,7 @@ import { Accordion } from "@/components/ui/accordion"
 import { cn } from "@/lib/utils"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
+import { KoLanding } from "./ko-landing"
 
 const journeyIcons = [User, Stethoscope, GitFork, Building2, CreditCard, Compass, Infinity]
 const problemQuoteIcons = [GitFork, AlertTriangle, Stethoscope]
@@ -53,6 +54,11 @@ export default async function HomePage({
 }) {
   const { locale } = await params
   const dict = await getDictionary(locale as Locale)
+
+  if (locale === "ko") {
+    return <KoLanding dict={dict} locale={locale} />
+  }
+
   const t = dict.home
   const prefix = `/${locale}`
 
