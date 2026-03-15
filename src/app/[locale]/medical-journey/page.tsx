@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Plane, MapPin, HeartPulse, CheckCircle2, X, FileText, Stethoscope, Calendar, MessageCircle, ClipboardCheck, Activity } from "lucide-react"
+import { ArrowRight, Plane, MapPin, HeartPulse, CheckCircle2, FileText, Stethoscope, Calendar, MessageCircle, ClipboardCheck, Activity } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Card } from "@/components/ui/card"
 import { locales, type Locale } from "@/i18n/config"
@@ -148,46 +148,13 @@ export default async function MedicalJourneyPage({ params }: { params: Promise<{
                 <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]">
                   <p>{t.whatMakesDifferent.text}</p>
 
-                  {/* Comparison table */}
-                  <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.15)]">
-                    <div className="hidden md:grid md:grid-cols-[1fr_1.5fr_1.5fr] bg-slate-50">
-                      <div className="p-4 border-b border-r border-slate-200" />
-                      <div className="p-4 bg-slate-100 border-b border-r border-slate-200 text-center">
-                        <div className="flex items-center justify-center gap-2">
-                          <X className="w-4 h-4 text-slate-400" />
-                          <span className="text-xs font-bold uppercase tracking-widest text-slate-500">{t.whatMakesDifferent.comparison.traditionalTitle}</span>
-                        </div>
-                      </div>
-                      <div className="p-4 bg-brand-navy border-b border-slate-200 text-center">
-                        <div className="flex items-center justify-center gap-2">
-                          <CheckCircle2 className="w-4 h-4 text-brand-gold" />
-                          <span className="text-xs font-bold uppercase tracking-widest text-brand-gold">{t.whatMakesDifferent.comparison.aetherhealTitle}</span>
-                        </div>
-                      </div>
-                    </div>
-                    {t.whatMakesDifferent.comparison.rows.map((row, i) => (
-                      <div key={row.label} className={cn("flex flex-col md:grid md:grid-cols-[1fr_1.5fr_1.5fr]", i < t.whatMakesDifferent.comparison.rows.length - 1 && "border-b border-slate-100")}>
-                        <div className="p-4 md:p-5 border-b md:border-b-0 md:border-r border-slate-100 bg-slate-50/50 flex items-center">
-                          <span className="text-[11px] font-bold text-brand-navy uppercase tracking-wider">{row.label}</span>
-                        </div>
-                        <div className="p-4 md:p-5 border-b md:border-b-0 md:border-r border-slate-100 flex flex-col md:block gap-1">
-                          <span className="md:hidden text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1">{t.whatMakesDifferent.comparison.traditionalTitle}</span>
-                          <span className="text-sm text-text-muted leading-relaxed">{row.traditional}</span>
-                        </div>
-                        <div className="p-4 md:p-5 bg-brand-navy/[0.02] flex flex-col md:block gap-1">
-                          <span className="md:hidden text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-1 flex items-center gap-1">
-                            <CheckCircle2 className="w-3 h-3" />
-                            {t.whatMakesDifferent.comparison.aetherhealTitle}
-                          </span>
-                          <span className="text-sm text-brand-navy font-medium leading-relaxed">{row.aetherheal}</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
                   <div className="p-6 sm:p-8 bg-brand-navy text-white rounded-2xl shadow-lg my-8">
                     <p className="text-xl font-serif text-brand-gold mb-2">{t.whatMakesDifferent.boxTitle}</p>
-                    <p className="text-white/90">{t.whatMakesDifferent.boxText}</p>
+                    <p className="text-white/90 mb-4">{t.whatMakesDifferent.boxText}</p>
+                    <Link href={`/${locale}/our-philosophy`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-gold hover:text-white transition-colors">
+                      {t.whatMakesDifferent.ctaPhilosophy ?? "Read the full philosophy"}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
                   </div>
                 </div>
               </div>

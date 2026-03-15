@@ -128,7 +128,7 @@
         {
           "title": "I had a previous procedure that didn't go well",
           "description": "Revision cases require a different standard of decision support. We structure that process.",
-          "href": "/explore"
+          "href": "/how-it-works"
         },
         {
           "title": "I want to understand my options before committing",
@@ -210,7 +210,6 @@
     },
     "partners": {
       "subtitle": "Proof Layer",
-      "title": "Founding Medical Partners",
       "compactTitle": "Verified Partner Network",
       "compactDescription": "8 founding partners across 8 specialties — each verified under the AetherHeal Trust Protocol. Hospital selection follows decision readiness, not marketing.",
       "compactStats": [
@@ -218,73 +217,7 @@
         { "number": "8", "label": "Medical Specialties" },
         { "number": "1", "label": "Verification Standard" }
       ],
-      "compactCta": "View Trust Protocol",
-      "hospitals": [
-        {
-          "name": "Morgan Dermatology",
-          "location": "Gangnam, Seoul",
-          "specialties": "Hair Transplant, Hair Loss, Scalp Micropigmentation",
-          "category": "Hair Transplantation",
-          "note": "Led by a former President of the Korean Hair Research Society. Over 30 years of academic and clinical excellence in hair restoration."
-        },
-        {
-          "name": "Woori Plastic Surgery",
-          "location": "Gangnam, Seoul",
-          "specialties": "Full-spectrum Plastic & Cosmetic Surgery",
-          "category": "Plastic Surgery",
-          "note": "Surgical team composed of Seoul Asan Hospital alumni specialists. Features dedicated anesthesiologists and advanced 3D analysis for precision contouring."
-        },
-        {
-          "name": "B&VIIT Eye Center",
-          "location": "Gangnam, Seoul",
-          "specialties": "SMILE Pro, LASIK, PRK, PIOL, Cataracts, Customizing Options",
-          "category": "Vision Correction",
-          "note": "Pioneers of the world's first AI vision correction recommendation system, built on over 600,000 clinical data points for maximum predictive accuracy."
-        },
-        {
-          "name": "Hosan Women's Hospital",
-          "location": "Gangnam, Seoul",
-          "specialties": "Women's Cosmetic Surgery & Gynecological Care",
-          "category": "Women's Care",
-          "note": "A premier maternity and women's hospital with a 40-year legacy in Gangnam. Renowned for its dedicated primary physician delivery system and evidence-based practice."
-        },
-        {
-          "name": "Apgujeong Min Dental",
-          "location": "Gangnam, Seoul",
-          "specialties": "Pediatric Orthodontics, Frankel Appliance Therapy",
-          "category": "Orthodontics",
-          "note": "Founded by a Seoul National University and Harvard-trained specialist. A pioneer in introducing Frankel appliance therapy to Korea with 30+ years of expertise."
-        },
-        {
-          "name": "The Well Dental Clinic",
-          "location": "Near Incheon Airport",
-          "specialties": "Adult Orthodontics, Prosthodontics & General Dentistry",
-          "category": "General Dentistry",
-          "note": "Led by a PhD in Dentistry from Kyung Hee University with a specialized Master's in Implantology. Serves as a clinical advisory professor for leading global implant systems (Zimmer, Osstem), providing highly advanced prosthodontics and digital dentistry."
-        },
-        {
-          "name": "Apgujeong Tune Clinic",
-          "location": "Gangnam, Seoul",
-          "specialties": "Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Lifting",
-          "category": "Aesthetic Medicine",
-          "note": "A specialized aesthetic center known for premium non-surgical lifting and stem cell therapies, utilizing highly advanced energy-based devices."
-        },
-        {
-          "name": "VenCell Clinic",
-          "location": "Gangnam, Seoul",
-          "specialties": "Advanced Regenerative Medicine Institution designated by the Ministry of Health and Welfare / MD, PhD, Honorary President of the Korean Society for the Study of Obesity / Stem Cell Therapy, Premium Skin Aesthetics, Body Filler, Thread Lifting",
-          "category": "Regenerative Aesthetics",
-          "note": "Ministry of Health and Welfare-designated Advanced Regenerative Medicine Institution. Led by an MD, PhD who serves as Honorary President of the Korean Society for the Study of Obesity."
-        }
-      ],
-      "footnote": "These institutions appear on the homepage as proof of trust and operating standards. Final hospital options should follow decision readiness, not precede it.",
-      "intro": "AetherHeal works with a limited number of founding medical partners across each specialty. These institutions appear here as proof of clinical alignment, not as a price, ranking, or review marketplace.",
-      "principles": [
-        "Clinical expertise",
-        "International readiness",
-        "Decision-first alignment"
-      ],
-      "partnerLabel": "Founding Partner"
+      "compactCta": "View Trust Protocol"
     },
     "faq": {
       "title": "Common Questions",
@@ -465,7 +398,8 @@
           "description": "The physician who reviews your case has no financial relationship with any hospital in the network. Their judgment is not for sale because there is no mechanism through which it could be purchased."
         }
       ],
-      "footnote": "These are not policies. They are architectural decisions that make corruption structurally impossible."
+      "footnote": "These are not policies. They are architectural decisions that make corruption structurally impossible.",
+      "ctaPhilosophy": "See the full incentive architecture"
     },
     "aiAssistance": {
       "badge": "03 — AI Assistance",
@@ -742,20 +676,7 @@
       "p2": "It does not make medical decisions. It does not choose your hospital. It does not override physician judgment. This is not a limitation we impose reluctantly — it is the foundational design principle.",
       "p3": "The philosopher Martin Heidegger warned that technology's deepest danger is not that it fails, but that it reframes everything as a resource to be optimized. Edmund Pellegrino, the philosopher of medicine, argued that medicine is a moral enterprise — not a technical one. The moment an AI layer replaces the physician's reading of the human being in front of them, the system has failed at the deepest level, even if every metric looks good.",
       "callout": "AI organizes information so the physician can focus on the human. The physician reads the human first, the profile second.",
-      "doesTitle": "AI Does",
-      "does": [
-        "Structures intake and records",
-        "Surfaces missing information",
-        "Supports multilingual coordination",
-        "Extends post-treatment monitoring"
-      ],
-      "doesNotTitle": "AI Does Not",
-      "doesNot": [
-        "Make medical decisions",
-        "Choose your hospital",
-        "Override physician judgment",
-        "Replace the human encounter"
-      ]
+      "ctaHowItWorks": "See the full AI governance breakdown"
     },
     "theFounder": {
       "title": "The Founder's Obligation",
@@ -1100,86 +1021,9 @@
       "beforeLabel": "Before",
       "afterLabel": "After",
       "placeholder": "Image placeholder",
-      "disclaimer": "Patient photos shown for layout and presentation purposes."
-    },
-    "caseStreams": {
-      "badge": "More Cases Coming",
-      "title": "Expanding Case Library",
-      "subtitle": "As more approved photography comes in, this gallery can grow across multiple disciplines and procedure categories.",
-      "rows": [
-        [
-          {
-            "category": "Lifting",
-            "title": "Thread Lifting"
-          },
-          {
-            "category": "Face",
-            "title": "Face Lift"
-          },
-          {
-            "category": "Nose",
-            "title": "Rhinoplasty"
-          },
-          {
-            "category": "Contour",
-            "title": "Fat Grafting"
-          }
-        ],
-        [
-          {
-            "category": "Body",
-            "title": "Liposuction"
-          },
-          {
-            "category": "Jaw",
-            "title": "Double Jaw Surgery"
-          },
-          {
-            "category": "Dental",
-            "title": "Orthodontics"
-          },
-          {
-            "category": "Eye",
-            "title": "Blepharoplasty"
-          }
-        ],
-        [
-          {
-            "category": "Contour",
-            "title": "Facial Contouring"
-          },
-          {
-            "category": "Lift",
-            "title": "Midface Lift"
-          },
-          {
-            "category": "Skin",
-            "title": "Rejuvenation"
-          },
-          {
-            "category": "Revision",
-            "title": "Revision Rhinoplasty"
-          }
-        ],
-        [
-          {
-            "category": "Volume",
-            "title": "Fat Transfer"
-          },
-          {
-            "category": "Body",
-            "title": "Body Contouring"
-          },
-          {
-            "category": "Smile",
-            "title": "Dental Veneers"
-          },
-          {
-            "category": "Profile",
-            "title": "Chin Surgery"
-          }
-        ]
-      ]
+      "disclaimer": "Patient photos shown for layout and presentation purposes.",
+      "contextBannerTitle": "These photos are for context, not comparison",
+      "contextBannerText": "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance."
     },
     "aiPreparation": {
       "badge": "Before You Book",
@@ -1641,34 +1485,9 @@
     "whatMakesDifferent": {
       "title": "What Makes This Different",
       "text": "Unlike medical tourism models that blur sales, logistics, and medical judgment, AetherHeal separates the journey into explicit phases with explicit ownership.",
-      "comparison": {
-        "traditionalTitle": "Traditional Agency",
-        "aetherhealTitle": "AetherHeal",
-        "rows": [
-          {
-            "label": "Role clarity",
-            "traditional": "Same team sells, arranges, and advises",
-            "aetherheal": "Sales, navigation, and clinical review are structurally separated"
-          },
-          {
-            "label": "Decision timing",
-            "traditional": "Hospital presented immediately",
-            "aetherheal": "Hospital options follow decision readiness"
-          },
-          {
-            "label": "AI role",
-            "traditional": "Marketing automation or absent",
-            "aetherheal": "Governed process support with human oversight"
-          },
-          {
-            "label": "Accountability",
-            "traditional": "Unclear after booking",
-            "aetherheal": "Documented at every phase transition"
-          }
-        ]
-      },
       "boxTitle": "AI supports the process",
-      "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey."
+      "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey.",
+      "ctaPhilosophy": "Read the full philosophy"
     },
     "relatedPages": [
       {

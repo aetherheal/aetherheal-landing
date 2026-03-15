@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, ArrowDown, AlertTriangle, CheckCircle2, XCircle, Bot, ShieldCheck, Users, Building2, RefreshCw, Stethoscope } from "lucide-react"
+import { ArrowRight, ArrowDown, AlertTriangle, CheckCircle2, XCircle, ShieldCheck, Users, Building2, RefreshCw } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Card } from "@/components/ui/card"
 import { locales, type Locale } from "@/i18n/config"
@@ -273,49 +273,16 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 </h2>
                 <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
                   <p>{t.theAiBoundary.p1}</p>
-
-                  {/* AI Does / Does Not Split */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-0 rounded-3xl overflow-hidden border border-slate-200 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.08)]">
-                    <div className="p-6 sm:p-8 bg-brand-navy text-white border-b md:border-b-0 md:border-r border-white/10">
-                      <div className="flex items-center gap-3 mb-6">
-                        <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
-                          <Bot className="w-5 h-5 text-brand-gold" />
-                        </div>
-                        <h3 className="font-serif text-lg text-white font-semibold">{t.theAiBoundary.doesTitle}</h3>
-                      </div>
-                      <ul className="space-y-4">
-                        {t.theAiBoundary.does.map((item: string) => (
-                          <li key={item} className="flex items-start gap-3">
-                            <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" />
-                            <span className="text-sm text-white/80 leading-relaxed">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="p-6 sm:p-8 bg-white">
-                      <div className="flex items-center gap-3 mb-6">
-                        <div className="w-10 h-10 rounded-xl bg-slate-100 flex items-center justify-center">
-                          <Stethoscope className="w-5 h-5 text-brand-navy" />
-                        </div>
-                        <h3 className="font-serif text-lg text-slate-500 font-semibold">{t.theAiBoundary.doesNotTitle}</h3>
-                      </div>
-                      <ul className="space-y-4">
-                        {t.theAiBoundary.doesNot.map((item: string) => (
-                          <li key={item} className="flex items-start gap-3">
-                            <XCircle className="w-5 h-5 text-slate-300 shrink-0 mt-0.5" />
-                            <span className="text-sm text-slate-500 leading-relaxed">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
                   <p>{t.theAiBoundary.p2}</p>
                   <p>{t.theAiBoundary.p3}</p>
                   <Card accent="muted" className="p-6 sm:p-8">
-                    <p className="font-serif text-lg sm:text-xl text-brand-navy leading-relaxed italic">
+                    <p className="font-serif text-lg sm:text-xl text-brand-navy leading-relaxed italic mb-4">
                       {t.theAiBoundary.callout}
                     </p>
+                    <Link href={`/${locale}/how-it-works#ai-assistance`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors">
+                      {t.theAiBoundary.ctaHowItWorks ?? "See the full AI governance breakdown"}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
                   </Card>
                 </div>
               </div>

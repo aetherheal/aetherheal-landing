@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import {
   Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity,
-  DollarSign, TrendingUp, Clock, Scale, FileSignature, Target,
+  DollarSign, TrendingUp, Clock, Scale, FileSignature, Target, Info,
 } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
@@ -179,6 +179,18 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
             <SectionLabel color="gold" className="block mb-2">{t.caseStudies.badge}</SectionLabel>
             <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{t.moreCategories?.title || t.caseStudies.title}</h2>
             <p className="text-text-body text-sm max-w-2xl mx-auto">{t.moreCategories?.subtitle || t.caseStudies.subtitle}</p>
+          </div>
+
+          <div className="px-4 sm:px-6 max-w-4xl mx-auto">
+            <div className="rounded-2xl border border-amber-200/60 bg-amber-50/50 p-5 sm:p-6 flex items-start gap-4">
+              <div className="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center shrink-0 mt-0.5">
+                <Info className="w-5 h-5 text-amber-600" />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-brand-navy mb-1">{t.caseStudies.contextBannerTitle ?? "These photos are for context, not comparison"}</p>
+                <p className="text-sm text-text-muted leading-relaxed">{t.caseStudies.contextBannerText ?? "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance."}</p>
+              </div>
+            </div>
           </div>
 
           <div className="space-y-16 sm:space-y-24">

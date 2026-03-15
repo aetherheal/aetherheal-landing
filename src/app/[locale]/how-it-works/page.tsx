@@ -5,11 +5,13 @@ import {
   Scissors,
   Sparkles,
   PenTool,
+  User,
   Bot,
   Eye,
   Smile,
   Microscope,
   Activity,
+  Building2,
   Check,
   X,
   Info,
@@ -17,8 +19,6 @@ import {
   CheckCircle2,
   ShieldAlert,
   ArrowRight,
-  DollarSign,
-  Split,
   ShieldCheck,
   CircleDashed,
   Clock,
@@ -32,10 +32,10 @@ import { getDictionary } from "@/i18n/get-dictionary"
 
 const domainIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity]
 const angelDoesIcons = [Info, LayoutGrid, ArrowRightLeft]
-const incentiveIcons = [DollarSign, Split, ShieldCheck]
-const readinessIcons = [CircleDashed, Clock, CheckCircle2]
-const readinessColors = ["text-amber-500", "text-amber-500", "text-emerald-500"]
-const readinessBgColors = ["bg-amber-50", "bg-amber-50", "bg-emerald-50"]
+const authorityIcons = [User, Bot, ShieldCheck, Building2, Activity]
+const readinessIcons = [CircleDashed, Clock, CheckCircle2, Activity]
+const readinessColors = ["text-amber-500", "text-amber-500", "text-emerald-500", "text-sky-600"]
+const readinessBgColors = ["bg-amber-50", "bg-amber-50", "bg-emerald-50", "bg-sky-50"]
 const safetyIcons = [AlertTriangle, ShieldCheck, Phone]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -160,20 +160,84 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
             <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.authorityChain.title}</h2>
             <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.authorityChain.subtitle}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+          <div className="hidden xl:flex items-center mb-8">
             {t.authorityChain.levels.map((level, idx) => (
-              <div key={level.title} className="bg-white border border-slate-200 rounded-3xl p-6 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.06)]">
-                <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{level.label}</span>
-                <h3 className="font-serif text-2xl text-brand-navy mt-3 mb-2">{level.title}</h3>
-                <p className="text-sm text-text-muted leading-relaxed">{level.description}</p>
+              <div key={`${level.title}-step`} className="flex items-center flex-1 min-w-0">
+                <div className={cn(
+                  "w-10 h-10 rounded-full border flex items-center justify-center shrink-0",
+                  idx === 2
+                    ? "bg-brand-navy border-brand-navy text-brand-gold shadow-[0_0_0_4px_rgba(15,23,42,0.08)]"
+                    : "bg-white border-slate-200 text-brand-gold"
+                )}>
+                  <span className="text-[11px] font-bold">{idx + 1}</span>
+                </div>
+                <div className="ml-2 min-w-0">
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted truncate">{level.label}</p>
+                </div>
                 {idx < t.authorityChain.levels.length - 1 && (
-                  <div className="hidden xl:flex items-center gap-2 text-brand-gold mt-6 text-xs font-bold uppercase tracking-widest">
-                    <ArrowRight className="w-4 h-4" />
-                    {t.authorityChain.handoffLabel}
-                  </div>
+                  <div className="mx-3 h-px flex-1 bg-gradient-to-r from-brand-gold/40 to-slate-200" />
                 )}
               </div>
             ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-4">
+            {t.authorityChain.levels.map((level, idx) => {
+              const Icon = authorityIcons[idx % authorityIcons.length]
+              const isAuthorityGate = idx === 2
+
+              return (
+                <div
+                  key={level.title}
+                  className={cn(
+                    "rounded-3xl p-6 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.06)] border relative",
+                    isAuthorityGate
+                      ? "bg-brand-navy text-white border-brand-navy"
+                      : "bg-white border-slate-200"
+                  )}
+                >
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className={cn(
+                      "w-10 h-10 rounded-xl flex items-center justify-center",
+                      isAuthorityGate ? "bg-white/10 text-brand-gold" : "bg-brand-navy/5 text-brand-navy"
+                    )}>
+                      <Icon className="w-5 h-5" />
+                    </div>
+                    <span className={cn(
+                      "text-[10px] font-bold uppercase tracking-widest",
+                      isAuthorityGate ? "text-brand-gold" : "text-brand-gold"
+                    )}>
+                      {level.label}
+                    </span>
+                  </div>
+
+                  <h3 className={cn(
+                    "font-serif text-2xl mb-2 leading-tight",
+                    isAuthorityGate ? "text-white" : "text-brand-navy"
+                  )}>
+                    {level.title}
+                  </h3>
+                  <p className={cn(
+                    "text-sm leading-relaxed",
+                    isAuthorityGate ? "text-white/80" : "text-text-muted"
+                  )}>
+                    {level.description}
+                  </p>
+
+                  {idx < t.authorityChain.levels.length - 1 && (
+                    <div className="mt-5 pt-4 border-t border-slate-200/60">
+                      <span className={cn(
+                        "inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest",
+                        isAuthorityGate ? "text-brand-gold/90" : "text-brand-gold"
+                      )}>
+                        <ArrowRight className="w-3.5 h-3.5" />
+                        {t.authorityChain.handoffLabel}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              )
+            })}
           </div>
           <p className="text-sm text-text-muted text-center italic mt-8 max-w-3xl mx-auto">{t.authorityChain.footnote}</p>
         </div>
@@ -181,32 +245,35 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
 
       {/* Incentive Structure */}
       <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
-        <div className="max-w-6xl mx-auto">
-          <div className="mb-16 text-center">
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full text-[10px] font-bold text-brand-gold uppercase tracking-widest mb-6">{t.incentiveStructure.badge}</span>
-            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.incentiveStructure.title}</h2>
-            <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.incentiveStructure.subtitle}</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            {t.incentiveStructure.items.map((item: { title: string; description: string }, i: number) => {
-              const Icon = incentiveIcons[i % incentiveIcons.length]
-              return (
-              <div key={item.title} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.15)]">
-                <div className="w-11 h-11 rounded-2xl bg-brand-gold/10 flex items-center justify-center mb-5">
-                  <Icon className="w-5 h-5 text-brand-gold" />
-                </div>
-                <h3 className="font-serif text-xl text-brand-navy font-semibold mb-4">{item.title}</h3>
-                <p className="text-sm text-text-body leading-relaxed">{item.description}</p>
+        <div className="max-w-4xl mx-auto">
+          <div className="rounded-3xl border border-brand-gold/20 bg-white p-8 sm:p-12 shadow-[0_20px_50px_-12px_rgba(15,23,42,0.08)]">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-11 h-11 rounded-2xl bg-brand-gold/10 flex items-center justify-center">
+                <ShieldCheck className="w-5 h-5 text-brand-gold" />
               </div>
-              )
-            })}
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full text-[10px] font-bold text-brand-gold uppercase tracking-widest">{t.incentiveStructure.badge}</span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{t.incentiveStructure.title}</h2>
+            <p className="text-text-body text-base leading-relaxed mb-6">{t.incentiveStructure.subtitle}</p>
+            <div className="flex flex-wrap gap-3 mb-8">
+              {t.incentiveStructure.items.map((item: { title: string; description: string }) => (
+                <span key={item.title} className="inline-flex items-center gap-2 px-4 py-2 bg-brand-navy/5 rounded-full text-sm font-semibold text-brand-navy">
+                  <CheckCircle2 className="w-4 h-4 text-brand-gold" />
+                  {item.title}
+                </span>
+              ))}
+            </div>
+            <p className="text-sm text-text-muted italic mb-6">{t.incentiveStructure.footnote}</p>
+            <Link href={`${prefix}/our-philosophy#the-incentive`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors">
+              {t.incentiveStructure.ctaPhilosophy ?? "See the full incentive architecture"}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
-          <p className="text-sm text-text-muted text-center italic max-w-3xl mx-auto">{t.incentiveStructure.footnote}</p>
         </div>
       </section>
 
       {/* 03. AI Assistance */}
-      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-white border-b border-slate-100">
+      <section id="ai-assistance" className="py-24 sm:py-32 px-4 sm:px-6 bg-white border-b border-slate-100 scroll-mt-32">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">{t.aiAssistance.badge}</span>
@@ -324,7 +391,7 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
           </div>
 
           {/* Progress indicator */}
-          <div className="hidden md:flex items-start justify-center gap-0 mb-16 max-w-3xl mx-auto h-20">
+          <div className="hidden md:flex items-start justify-center gap-0 mb-16 max-w-4xl mx-auto h-20">
             {t.readinessStates.items.map((item, i) => {
               const Icon = readinessIcons[i % readinessIcons.length]
               return (
@@ -336,26 +403,56 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
                     <span className="text-[10px] font-bold text-text-muted mt-3 tracking-wider uppercase text-center w-24 absolute top-10">{item.state}</span>
                   </div>
                   {i < t.readinessStates.items.length - 1 && (
-                    <div className="w-16 lg:w-24 h-px bg-gradient-to-r from-slate-300 to-slate-200 mx-2 mt-5" />
+                    <div className="w-12 lg:w-20 h-px bg-gradient-to-r from-slate-300 to-slate-200 mx-2 mt-5" />
                   )}
                 </div>
               )
             })}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {t.readinessStates.items.map((item, i) => {
               const Icon = readinessIcons[i % readinessIcons.length]
+              const isGate = i === 2
+              const isPostTreatment = i === t.readinessStates.items.length - 1
               return (
-              <div key={item.state} className="bg-white border border-slate-200 rounded-3xl p-8">
+              <div
+                key={item.state}
+                className={cn(
+                  "bg-white border rounded-3xl p-8",
+                  isGate
+                    ? "border-brand-navy shadow-[0_20px_50px_-16px_rgba(15,23,42,0.22)]"
+                    : isPostTreatment
+                      ? "border-sky-200 bg-sky-50/20"
+                      : "border-slate-200"
+                )}
+              >
                 <div className="flex items-center gap-3 mb-4">
                   <div className={cn("w-10 h-10 rounded-xl flex items-center justify-center", readinessBgColors[i % readinessBgColors.length])}>
                     <Icon className={cn("w-5 h-5", readinessColors[i % readinessColors.length])} />
                   </div>
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.state}</span>
+                  <span className={cn(
+                    "text-[10px] font-bold uppercase tracking-widest",
+                    isPostTreatment ? "text-sky-700" : "text-brand-gold"
+                  )}>
+                    {item.state}
+                  </span>
                 </div>
-                <h3 className="font-serif text-2xl text-brand-navy mb-3">{item.title}</h3>
+                <h3 className={cn(
+                  "font-serif text-2xl mb-3",
+                  isGate ? "text-brand-navy" : "text-brand-navy"
+                )}>
+                  {item.title}
+                </h3>
                 <p className="text-sm text-text-muted leading-relaxed">{item.description}</p>
+                {isGate && (
+                  <div className="mt-5 pt-4 border-t border-brand-navy/15">
+                    <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-brand-navy">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-brand-gold" />
+                      {t.readinessStates.items[i].state}
+                    </span>
+                  </div>
+                )}
               </div>
               )
             })}

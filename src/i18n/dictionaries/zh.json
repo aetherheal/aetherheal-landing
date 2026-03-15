@@ -128,7 +128,7 @@
         {
           "title": "我之前的手术效果不理想",
           "description": "修复案例需要不同标准的决策支持。我们为此提供结构化流程。",
-          "href": "/explore"
+          "href": "/how-it-works"
         },
         {
           "title": "我想在做出承诺前了解我的选择",
@@ -210,7 +210,6 @@
     },
     "partners": {
       "subtitle": "信任证明层",
-      "title": "创始合作医疗机构",
       "compactTitle": "认证合作网络",
       "compactDescription": "8家创始合作伙伴，覆盖8个医疗专科——均通过AetherHeal信任协议认证。医院选择遵循决策准备度，而非营销推广。",
       "compactStats": [
@@ -218,73 +217,7 @@
         { "number": "8", "label": "医疗专科" },
         { "number": "1", "label": "认证标准" }
       ],
-      "compactCta": "查看信任协议",
-      "hospitals": [
-        {
-          "name": "Morgan Dermatology",
-          "location": "首尔江南",
-          "specialties": "毛发移植、脱发治疗、头皮微色素",
-          "category": "毛发移植",
-          "note": "由前大韩毛发学会会长带领。在毛发移植和脱发治疗领域拥有30多年的学术和临床卓越经验。"
-        },
-        {
-          "name": "Woori Plastic Surgery",
-          "location": "首尔江南",
-          "specialties": "全方位整形与美容外科",
-          "category": "整形外科",
-          "note": "由首尔峨山医院出身的专科医生组成的医疗团队。配备专属麻醉科医生和先进的3D分析系统，实现精准轮廓塑形。"
-        },
-        {
-          "name": "B&VIIT Eye Center",
-          "location": "首尔江南",
-          "specialties": "SMILE Pro、LASIK、PRK、PIOL、白内障、定制方案",
-          "category": "视力矫正",
-          "note": "世界首个AI视力矫正推荐系统的先驱，基于超过60万个临床数据点，确保最高的预测准确性。"
-        },
-        {
-          "name": "Hosan Women's Hospital",
-          "location": "首尔江南",
-          "specialties": "女性美容外科与妇科",
-          "category": "女性医疗",
-          "note": "在江南区拥有40年历史的顶级妇产科和女性医院。以其专属主治医生分娩系统和循证医学实践而闻名。"
-        },
-        {
-          "name": "Apgujeong Min Dental",
-          "location": "首尔江南",
-          "specialties": "儿童正畸、Frankel矫治器疗法",
-          "category": "牙齿矫正",
-          "note": "由首尔大学和哈佛大学培训的专科医生创立。将Frankel矫治器疗法引入韩国的先驱，拥有30多年的正畸临床经验。"
-        },
-        {
-          "name": "The Well Dental Clinic",
-          "location": "仁川机场附近",
-          "specialties": "成人正畸、修复学与综合牙科",
-          "category": "综合牙科",
-          "note": "由庆熙大学牙医学博士和高丽大学种植牙临床硕士领衔。担任Zimmer和Osstem等全球领先种植系统的临床咨询教授，提供高难度的种植和全面的数字化牙科治疗。"
-        },
-        {
-          "name": "Apgujeong Tune Clinic",
-          "location": "首尔江南",
-          "specialties": "干细胞疗法、高端皮肤美容、身体填充、提升",
-          "category": "皮肤美学",
-          "note": "一家专业的抗衰老和美学中心，以其利用先进的基于能量的设备进行的高端非手术提升和干细胞治疗而闻名。"
-        },
-        {
-          "name": "VenCell Clinic",
-          "location": "首尔江南",
-          "specialties": "韩国保健福祉部指定尖端再生医疗实施机构 / 医学博士，大韩肥胖美容学会名誉会长 / 干细胞治疗，高级皮肤美容，身体填充，埋线提升",
-          "category": "再生美学",
-          "note": "韩国保健福祉部指定尖端再生医疗实施机构，由医学博士、大韩肥胖美容学会名誉会长领衔。"
-        }
-      ],
-      "footnote": "这些机构在首页出现，是为了证明信任基础与运营标准。最终医院选项应在决策准备完成后再呈现，而不是更早。",
-      "intro": "AetherHeal 在各专科仅与少数创始合作医疗机构协作。这里的展示用于证明临床与流程一致性，而不是价格、排名或评论比较。",
-      "principles": [
-        "临床专业能力",
-        "国际患者准备度",
-        "决策优先一致性"
-      ],
-      "partnerLabel": "创始合作伙伴"
+      "compactCta": "查看信任协议"
     },
     "faq": {
       "title": "常见问题",
@@ -465,7 +398,8 @@
           "description": "审核您案例的医师与网络中的任何医院都没有财务关系。他们的判断不可出售，因为没有可以购买它的机制。"
         }
       ],
-      "footnote": "这些不是政策。它们是使腐败在结构上不可能发生的架构性决策。"
+      "footnote": "这些不是政策。它们是使腐败在结构上不可能发生的架构性决策。",
+      "ctaPhilosophy": "查看完整的激励架构"
     },
     "aiAssistance": {
       "badge": "03 — AI 辅助",
@@ -742,10 +676,7 @@
       "p2": "它不做医疗决策。它不选择您的医院。它不覆盖医师判断。这不是我们不情愿施加的限制——这是基础性设计原则。",
       "p3": "哲学家马丁·海德格尔警告说，技术最深层的危险不是它会失败，而是它将一切重构为待优化的资源。医学哲学家埃德蒙·佩莱格里诺认为，医学是一项道德事业——而非技术事业。当AI层取代了医师对面前人类的解读时，系统已在最深层面失败，即使每个指标看起来都很好。",
       "callout": "AI组织信息，使医师能专注于人。医师先读人，再读档案。",
-      "doesTitle": "AI 做什么",
-      "does": ["结构化摄入和记录", "标记缺失信息", "支持多语言协调", "延伸治疗后监测"],
-      "doesNotTitle": "AI 不做什么",
-      "doesNot": ["做医疗决策", "选择您的医院", "覆盖医师判断", "取代人与人的相遇"]
+      "ctaHowItWorks": "查看完整的AI治理分析"
     },
     "theFounder": {
       "title": "创始人的使命",
@@ -1090,86 +1021,9 @@
       "beforeLabel": "术前",
       "afterLabel": "术后",
       "placeholder": "图片占位",
-      "disclaimer": "所示患者照片用于版式与展示说明。"
-    },
-    "caseStreams": {
-      "badge": "更多案例将陆续加入",
-      "title": "持续扩展的案例库",
-      "subtitle": "随着更多获批照片素材加入，这个图库可以扩展到更多学科和手术类别。",
-      "rows": [
-        [
-          {
-            "category": "提升",
-            "title": "线雕提升"
-          },
-          {
-            "category": "面部",
-            "title": "面部提升"
-          },
-          {
-            "category": "鼻部",
-            "title": "鼻整形"
-          },
-          {
-            "category": "轮廓",
-            "title": "脂肪移植"
-          }
-        ],
-        [
-          {
-            "category": "身体",
-            "title": "脂肪吸引"
-          },
-          {
-            "category": "颌面",
-            "title": "双颌手术"
-          },
-          {
-            "category": "牙科",
-            "title": "牙齿矫正"
-          },
-          {
-            "category": "眼部",
-            "title": "眼睑整形"
-          }
-        ],
-        [
-          {
-            "category": "轮廓",
-            "title": "面部轮廓整形"
-          },
-          {
-            "category": "提升",
-            "title": "中面部提升"
-          },
-          {
-            "category": "皮肤",
-            "title": "年轻化治疗"
-          },
-          {
-            "category": "修复",
-            "title": "鼻修复手术"
-          }
-        ],
-        [
-          {
-            "category": "填充",
-            "title": "脂肪填充"
-          },
-          {
-            "category": "身体",
-            "title": "体型塑造"
-          },
-          {
-            "category": "微笑",
-            "title": "瓷贴面"
-          },
-          {
-            "category": "下颏",
-            "title": "下巴手术"
-          }
-        ]
-      ]
+      "disclaimer": "所示患者照片用于版式与展示说明。",
+      "contextBannerTitle": "这些照片仅供参考，不作比较",
+      "contextBannerText": "术前术后照片展示手术范围，而非承诺效果。每个案例都是独特的。AetherHeal使用这些参考资料支持知情决策——而非鼓励以外观为标准的选购。"
     },
     "aiPreparation": {
       "badge": "预约之前",
@@ -1631,34 +1485,9 @@
     "whatMakesDifferent": {
       "title": "有何不同",
       "text": "与将销售、物流和医疗判断混为一谈的医疗旅游模式不同，AetherHeal 将旅程分为明确的阶段，并明确各阶段的责任归属。",
-      "comparison": {
-        "traditionalTitle": "传统代理",
-        "aetherhealTitle": "AetherHeal",
-        "rows": [
-          {
-            "label": "角色清晰度",
-            "traditional": "同一团队负责销售、安排和咨询",
-            "aetherheal": "销售、导航和临床审查在结构上分离"
-          },
-          {
-            "label": "决策时机",
-            "traditional": "立即推荐医院",
-            "aetherheal": "医院选项在决策准备就绪后呈现"
-          },
-          {
-            "label": "AI 角色",
-            "traditional": "营销自动化或缺失",
-            "aetherheal": "有人类监督的受管理流程支持"
-          },
-          {
-            "label": "问责制",
-            "traditional": "预约后不明确",
-            "aetherheal": "每个阶段转换都有记录"
-          }
-        ]
-      },
       "boxTitle": "AI 支持流程",
-      "boxText": "但不拥有诊断、治疗、紧急判断或最终医疗机构选择的权力。这些在整个旅程中始终是人类的责任。"
+      "boxText": "但不拥有诊断、治疗、紧急判断或最终医疗机构选择的权力。这些在整个旅程中始终是人类的责任。",
+      "ctaPhilosophy": "阅读完整理念"
     },
     "relatedPages": [
       {
