@@ -17,6 +17,13 @@ import {
   CheckCircle2,
   ShieldAlert,
   ArrowRight,
+  DollarSign,
+  Split,
+  ShieldCheck,
+  CircleDashed,
+  Clock,
+  Phone,
+  AlertTriangle,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -25,6 +32,11 @@ import { getDictionary } from "@/i18n/get-dictionary"
 
 const domainIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity]
 const angelDoesIcons = [Info, LayoutGrid, ArrowRightLeft]
+const incentiveIcons = [DollarSign, Split, ShieldCheck]
+const readinessIcons = [CircleDashed, Clock, CheckCircle2]
+const readinessColors = ["text-amber-500", "text-amber-500", "text-emerald-500"]
+const readinessBgColors = ["bg-amber-50", "bg-amber-50", "bg-emerald-50"]
+const safetyIcons = [AlertTriangle, ShieldCheck, Phone]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
@@ -167,6 +179,32 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
         </div>
       </section>
 
+      {/* Incentive Structure */}
+      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full text-[10px] font-bold text-brand-gold uppercase tracking-widest mb-6">{t.incentiveStructure.badge}</span>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.incentiveStructure.title}</h2>
+            <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.incentiveStructure.subtitle}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            {t.incentiveStructure.items.map((item: { title: string; description: string }, i: number) => {
+              const Icon = incentiveIcons[i % incentiveIcons.length]
+              return (
+              <div key={item.title} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.15)]">
+                <div className="w-11 h-11 rounded-2xl bg-brand-gold/10 flex items-center justify-center mb-5">
+                  <Icon className="w-5 h-5 text-brand-gold" />
+                </div>
+                <h3 className="font-serif text-xl text-brand-navy font-semibold mb-4">{item.title}</h3>
+                <p className="text-sm text-text-body leading-relaxed">{item.description}</p>
+              </div>
+              )
+            })}
+          </div>
+          <p className="text-sm text-text-muted text-center italic max-w-3xl mx-auto">{t.incentiveStructure.footnote}</p>
+        </div>
+      </section>
+
       {/* 03. AI Assistance */}
       <section className="py-24 sm:py-32 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
@@ -284,14 +322,43 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
             <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.readinessStates.title}</h2>
             <p className="text-text-muted text-lg max-w-2xl mx-auto">{t.readinessStates.subtitle}</p>
           </div>
+
+          {/* Progress indicator */}
+          <div className="hidden md:flex items-start justify-center gap-0 mb-16 max-w-3xl mx-auto h-20">
+            {t.readinessStates.items.map((item, i) => {
+              const Icon = readinessIcons[i % readinessIcons.length]
+              return (
+                <div key={item.state} className="flex items-start">
+                  <div className="flex flex-col items-center relative">
+                    <div className={cn("w-10 h-10 rounded-full flex items-center justify-center z-10", readinessBgColors[i % readinessBgColors.length])}>
+                      <Icon className={cn("w-5 h-5", readinessColors[i % readinessColors.length])} />
+                    </div>
+                    <span className="text-[10px] font-bold text-text-muted mt-3 tracking-wider uppercase text-center w-24 absolute top-10">{item.state}</span>
+                  </div>
+                  {i < t.readinessStates.items.length - 1 && (
+                    <div className="w-16 lg:w-24 h-px bg-gradient-to-r from-slate-300 to-slate-200 mx-2 mt-5" />
+                  )}
+                </div>
+              )
+            })}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {t.readinessStates.items.map((item) => (
+            {t.readinessStates.items.map((item, i) => {
+              const Icon = readinessIcons[i % readinessIcons.length]
+              return (
               <div key={item.state} className="bg-white border border-slate-200 rounded-3xl p-8">
-                <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.state}</span>
-                <h3 className="font-serif text-2xl text-brand-navy mt-3 mb-3">{item.title}</h3>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className={cn("w-10 h-10 rounded-xl flex items-center justify-center", readinessBgColors[i % readinessBgColors.length])}>
+                    <Icon className={cn("w-5 h-5", readinessColors[i % readinessColors.length])} />
+                  </div>
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.state}</span>
+                </div>
+                <h3 className="font-serif text-2xl text-brand-navy mb-3">{item.title}</h3>
                 <p className="text-sm text-text-muted leading-relaxed">{item.description}</p>
               </div>
-            ))}
+              )
+            })}
           </div>
           <p className="text-sm text-text-muted text-center italic mt-8 max-w-3xl mx-auto">{t.readinessStates.footnote}</p>
         </div>
@@ -352,12 +419,20 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
             <h3 className="font-serif text-2xl text-brand-navy">{t.safety.title}</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {t.safety.items.map((item) => (
+            {t.safety.items.map((item, i) => {
+              const Icon = safetyIcons[i % safetyIcons.length]
+              return (
               <div key={item.title} className="p-5 bg-bg-light rounded-2xl border border-slate-100">
-                <h4 className="font-bold text-brand-navy text-xs uppercase tracking-widest mb-3">{item.title}</h4>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-8 h-8 rounded-lg bg-brand-navy/5 flex items-center justify-center">
+                    <Icon className="w-4 h-4 text-brand-navy" />
+                  </div>
+                  <h4 className="font-bold text-brand-navy text-xs uppercase tracking-widest">{item.title}</h4>
+                </div>
                 <p className="text-sm text-text-muted leading-relaxed">{item.body}</p>
               </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>

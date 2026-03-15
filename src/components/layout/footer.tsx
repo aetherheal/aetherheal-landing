@@ -14,6 +14,7 @@ export function Footer({ dict, locale }: FooterProps) {
   const platformLinks = [
     { href: `${prefix}/how-it-works`, label: dict.footer.platformLinks.howItWorks },
     { href: `${prefix}/trust-protocol`, label: dict.footer.platformLinks.trustProtocol },
+    { href: `${prefix}/our-philosophy`, label: dict.footer.platformLinks.ourPhilosophy },
     { href: `${prefix}/medical-journey`, label: dict.footer.platformLinks.medicalJourney },
     { href: `${prefix}/explore`, label: dict.footer.platformLinks.explore },
     { href: `${prefix}/blog`, label: dict.footer.platformLinks.blog },
@@ -39,7 +40,9 @@ export function Footer({ dict, locale }: FooterProps) {
         <div className="grid grid-cols-2 md:grid-cols-12 gap-10 sm:gap-12 mb-14 sm:mb-20">
 
           <div className="col-span-2 md:col-span-4 space-y-6">
-            <Logo size="md" theme="dark" />
+            <Link href={`/${locale}`}>
+              <Logo size="md" theme="dark" />
+            </Link>
             <p className="text-sm text-slate-400 font-light leading-relaxed max-w-xs">
               {dict.footer.brandDescription}
             </p>

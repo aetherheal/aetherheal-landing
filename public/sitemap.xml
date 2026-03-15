@@ -230,6 +230,63 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aetherheal.com/en/trust-protocol"/>
   </url>
 
+  <!-- Our Philosophy -->
+  <url>
+    <loc>https://aetherheal.com/en/our-philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aetherheal.com/en/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aetherheal.com/zh/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://aetherheal.com/ja/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://aetherheal.com/th/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aetherheal.com/ru/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aetherheal.com/en/our-philosophy"/>
+  </url>
+  <url>
+    <loc>https://aetherheal.com/zh/our-philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aetherheal.com/en/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aetherheal.com/zh/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://aetherheal.com/ja/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://aetherheal.com/th/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aetherheal.com/ru/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aetherheal.com/en/our-philosophy"/>
+  </url>
+  <url>
+    <loc>https://aetherheal.com/ja/our-philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aetherheal.com/en/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aetherheal.com/zh/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://aetherheal.com/ja/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://aetherheal.com/th/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aetherheal.com/ru/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aetherheal.com/en/our-philosophy"/>
+  </url>
+  <url>
+    <loc>https://aetherheal.com/th/our-philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aetherheal.com/en/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aetherheal.com/zh/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://aetherheal.com/ja/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://aetherheal.com/th/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aetherheal.com/ru/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aetherheal.com/en/our-philosophy"/>
+  </url>
+  <url>
+    <loc>https://aetherheal.com/ru/our-philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aetherheal.com/en/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aetherheal.com/zh/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://aetherheal.com/ja/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://aetherheal.com/th/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aetherheal.com/ru/our-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aetherheal.com/en/our-philosophy"/>
+  </url>
+
   <!-- How to Choose Hospital Abroad -->
   <url>
     <loc>https://aetherheal.com/en/how-to-choose-hospital-abroad</loc>

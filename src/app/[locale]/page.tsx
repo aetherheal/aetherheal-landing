@@ -14,6 +14,14 @@ import {
   Bot,
   ShieldCheck,
   Activity,
+  HelpCircle,
+  Globe,
+  Layers,
+  RefreshCw,
+  Scissors,
+  Sparkles,
+  Eye,
+  Heart,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SectionLabel } from "@/components/ui/section-label"
@@ -23,6 +31,9 @@ import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 const journeyIcons = [User, Stethoscope, GitFork, Building2, CreditCard, Compass, Infinity]
+const problemQuoteIcons = [GitFork, AlertTriangle, Stethoscope]
+const concernIcons = [Building2, RefreshCw, HelpCircle, Globe, Layers]
+const exploreIcons = [Scissors, Sparkles, Building2, Eye, Heart, Stethoscope]
 const journeySides = ["right", "left", "center", "right", "left", "right", "left"] as const
 const aiLayerIcons = [Bot, ShieldCheck, Activity]
 
@@ -159,19 +170,28 @@ export default async function HomePage({
 
       {/* Problem Quote */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-4xl mx-auto text-center space-y-10">
-          <div className="w-px h-16 bg-brand-gold mx-auto mb-2" />
-          <p className="text-2xl font-serif text-text-body leading-relaxed">
-            &ldquo;{t.problemQuote.q1}&rdquo;
-          </p>
-          <p className="text-2xl font-serif text-text-body leading-relaxed">
-            &ldquo;{t.problemQuote.q2}&rdquo;
-          </p>
-          <div className="pt-8">
-            <p className="text-3xl font-serif text-brand-navy font-bold italic">
-              &ldquo;{t.problemQuote.q3}&rdquo;
-            </p>
-          </div>
+        <div className="max-w-3xl mx-auto space-y-10">
+          <div className="w-px h-16 bg-brand-gold mx-auto mb-8" />
+          {[t.problemQuote.q1, t.problemQuote.q2, t.problemQuote.q3].map((q, i) => {
+            const Icon = problemQuoteIcons[i]
+            const isLast = i === 2
+            return (
+              <div key={i} className="flex items-start gap-5">
+                <div className={cn(
+                  "w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 mt-1",
+                  isLast ? "bg-brand-navy shadow-md" : "bg-slate-100"
+                )}>
+                  <Icon className={cn("w-6 h-6", isLast ? "text-brand-gold" : "text-slate-400")} />
+                </div>
+                <p className={cn(
+                  "font-serif leading-relaxed",
+                  isLast ? "text-3xl text-brand-navy font-bold italic" : "text-2xl text-text-body"
+                )}>
+                  &ldquo;{q}&rdquo;
+                </p>
+              </div>
+            )
+          })}
         </div>
       </section>
 
@@ -187,13 +207,20 @@ export default async function HomePage({
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(15,23,42,0.15)] border border-slate-200">
-            <div className="flex-1 bg-slate-50 p-10 md:p-14 lg:p-16 flex flex-col justify-between">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-[1fr_auto] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(15,23,42,0.15)] border border-slate-200 relative">
+            {/* Desktop Backgrounds */}
+            <div className="hidden md:block absolute inset-y-0 left-0 w-1/2 bg-slate-50 z-0"></div>
+            <div className="hidden md:block absolute inset-y-0 right-0 w-1/2 bg-brand-navy z-0 overflow-hidden">
+              <div className="absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
+            </div>
+
+            {/* Left Top */}
+            <div className="bg-slate-50 md:bg-transparent p-10 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-1">
               <div>
                 <span className="inline-block px-4 py-1.5 rounded-full bg-slate-200/70 text-text-muted text-[10px] font-bold uppercase tracking-widest mb-10">
                   {t.stakes.lowStake.label}
                 </span>
-                <ul className="space-y-6 mb-12">
+                <ul className="space-y-6">
                   {t.stakes.lowStake.items.map((item) => (
                     <li key={item} className="flex items-center gap-4 text-text-body font-medium text-lg">
                       <div className="w-2 h-2 rounded-full bg-slate-300 shrink-0" />
@@ -202,7 +229,11 @@ export default async function HomePage({
                   ))}
                 </ul>
               </div>
-              <div className="pt-8 border-t border-slate-200">
+            </div>
+
+            {/* Left Bottom */}
+            <div className="bg-slate-50 md:bg-transparent p-10 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-2 md:order-3">
+              <div className="pt-8 border-t border-slate-200 h-full">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-3">
                   {t.stakes.lowStake.consequenceLabel}
                 </p>
@@ -215,8 +246,9 @@ export default async function HomePage({
               </div>
             </div>
 
-            <div className="flex-1 bg-brand-navy p-10 md:p-14 lg:p-16 flex flex-col justify-between relative">
-              <div className="absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
+            {/* Right Top */}
+            <div className="bg-brand-navy md:bg-transparent p-10 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-3 md:order-2 overflow-hidden md:overflow-visible">
+              <div className="md:hidden absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-0" />
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-10">
                   <span className="inline-block px-4 py-1.5 rounded-full bg-brand-gold/10 text-brand-gold text-[10px] font-bold uppercase tracking-widest border border-brand-gold/20">
@@ -235,7 +267,7 @@ export default async function HomePage({
                     </li>
                   ))}
                 </ul>
-                <div className="relative mb-12">
+                <div className="relative">
                   <div className="absolute inset-0 bg-brand-gold/20 blur-xl rounded-2xl" />
                   <div className="relative bg-white/5 border border-brand-gold/30 rounded-2xl p-6 sm:p-8 backdrop-blur-sm">
                     <p className="font-serif text-5xl sm:text-6xl font-bold text-white tracking-tight">
@@ -244,7 +276,11 @@ export default async function HomePage({
                   </div>
                 </div>
               </div>
-              <div className="pt-8 border-t border-white/10 relative z-10">
+            </div>
+
+            {/* Right Bottom */}
+            <div className="bg-brand-navy md:bg-transparent p-10 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-4 md:order-4 overflow-hidden md:overflow-visible">
+              <div className="pt-8 border-t border-white/10 relative z-10 h-full">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-red-400 mb-3">
                   {t.stakes.highStake.consequenceLabel}
                 </p>
@@ -254,6 +290,11 @@ export default async function HomePage({
                 <div className="inline-flex items-center px-4 py-2 bg-red-500/10 border border-red-500/20 rounded-lg text-xs text-red-300 font-bold tracking-widest">
                   {t.stakes.highStake.principle}
                 </div>
+                {t.stakes.highStake.structuralNote && (
+                  <p className="mt-6 text-sm text-slate-400 leading-relaxed max-w-md italic">
+                    {t.stakes.highStake.structuralNote}
+                  </p>
+                )}
               </div>
             </div>
           </div>
@@ -301,58 +342,43 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Now Trending Procedures */}
-      <section className="w-full py-16 sm:py-20 bg-bg-light border-b border-slate-200 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-10">
-          <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-2 px-3 py-1 bg-brand-navy/5 border border-brand-navy/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-brand-navy">
-              {t.trending.badge}
+      {/* Patient Concerns — Decision Mode */}
+      <section className="w-full py-20 sm:py-24 lg:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-14">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 border border-brand-navy/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-brand-navy mb-6">
+              {t.patientConcerns.badge}
             </span>
-            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy">
-              {t.trending.title}
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-brand-navy leading-tight mb-4">
+              {t.patientConcerns.title}
             </h2>
+            <p className="text-text-muted text-lg max-w-2xl mx-auto">
+              {t.patientConcerns.subtitle}
+            </p>
           </div>
-        </div>
-
-        <div className="relative mb-4">
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-left w-max">
-            {[...t.trending.skinBrands, ...t.trending.skinBrands].map((brand, i) => (
-              <div key={`sb-${i}`} className="flex-shrink-0 mx-3 inline-flex items-center gap-3 px-6 py-3 bg-white border border-brand-gold/15 rounded-full">
-                <span className="font-serif text-lg font-bold text-brand-navy tracking-tight">{brand.name}</span>
-                <span className="w-1 h-1 rounded-full bg-brand-gold/40" />
-                <span className="text-[11px] font-medium text-text-muted uppercase tracking-wider">{brand.tag}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="relative mb-4">
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-right w-max">
-            {[...t.trending.row1, ...t.trending.row1].map((item, i) => (
-              <div key={`r1-${i}`} className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5">
-                <span className="text-2xl mb-3 block">{item.emoji}</span>
-                <p className="font-serif text-base text-brand-navy font-semibold mb-1">{item.name}</p>
-                <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="relative">
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
-          <div className="flex animate-scroll-right w-max">
-            {[...t.trending.row2, ...t.trending.row2].map((item, i) => (
-              <div key={`r2-${i}`} className="flex-shrink-0 w-56 mx-2 bg-white border border-slate-200 rounded-2xl p-5">
-                <span className="text-2xl mb-3 block">{item.emoji}</span>
-                <p className="font-serif text-base text-brand-navy font-semibold mb-1">{item.name}</p>
-                <p className="text-xs text-text-muted leading-relaxed">{item.tag}</p>
-              </div>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.patientConcerns.items.map((item, i) => {
+              const Icon = concernIcons[i % concernIcons.length]
+              return (
+              <Link
+                key={item.href}
+                href={`${prefix}${item.href}`}
+                className="group flex items-start gap-5 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-[0_20px_50px_-16px_rgba(15,23,42,0.12)] transition-all duration-300"
+              >
+                <div className="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-brand-gold/10 transition-colors">
+                  <Icon className="w-5 h-5 text-brand-navy group-hover:text-brand-gold transition-colors" />
+                </div>
+                <div className="flex flex-col">
+                  <h3 className="font-serif text-lg text-brand-navy font-semibold leading-snug mb-2 group-hover:text-brand-gold transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-text-muted leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+              </Link>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -482,13 +508,14 @@ export default async function HomePage({
               )
             })}
           </div>
+          <div className="absolute bottom-0 left-[28px] md:left-1/2 w-3 h-3 bg-brand-gold rounded-full -translate-x-1/2 translate-y-1/2 shadow-[0_0_15px_rgba(180,146,80,0.8)] z-20" />
 
           <div className="relative mt-20 text-center z-10 pl-14 md:pl-0">
-            <div className="max-w-2xl mx-auto rounded-[28px] border border-slate-100 bg-slate-50/60 px-6 py-8 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.18)]">
-            <p className="font-serif text-xl sm:text-2xl text-brand-gold italic max-w-2xl mx-auto">
+            <div className="max-w-2xl mx-auto rounded-[28px] border border-slate-100 bg-slate-50/60 px-6 py-8 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.18)] relative overflow-hidden">
+            <p className="relative z-10 font-serif text-xl sm:text-2xl text-brand-gold italic max-w-2xl mx-auto">
               &ldquo;{t.journey.closingQuote}&rdquo;
             </p>
-            <div className="mt-8 flex justify-center opacity-50">
+            <div className="relative z-10 mt-8 flex justify-center opacity-50">
               <div className="w-16 h-px bg-brand-gold" />
             </div>
             </div>
@@ -496,52 +523,31 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Founding Medical Partners */}
+      {/* Verified Partner Network — Compact Proof Strip */}
       <section className="w-full py-16 sm:py-20 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-6xl mx-auto space-y-12">
-          <div className="max-w-3xl mx-auto text-center space-y-5">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{t.partners.subtitle}</p>
-            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.partners.title}</h2>
-            <p className="text-sm sm:text-base text-text-body leading-relaxed">{t.partners.intro}</p>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-3">
-            {t.partners.principles.map((principle) => (
-              <span
-                key={principle}
-                className="inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-text-muted shadow-[0_12px_28px_-24px_rgba(15,23,42,0.25)]"
-              >
-                {principle}
-              </span>
-            ))}
-          </div>
-
-          <div className="rounded-[32px] border border-slate-200 bg-white px-5 py-6 sm:px-8 sm:py-8 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.16)]">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-0">
-              {t.partners.hospitals.map((h, index) => (
-                <div 
-                  key={h.name} 
-                  className={`py-5 border-t border-slate-200 ${index < 2 ? 'lg:border-t-0' : ''} ${index === 0 ? 'border-t-0' : ''}`}
-                >
-                  <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                    <div className="space-y-2">
-                      <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-gold">{h.category}</p>
-                      <h3 className="font-serif text-xl text-brand-navy leading-snug">{h.name}</h3>
-                      {h.note ? (
-                        <p className="max-w-md text-xs leading-relaxed text-text-muted">{h.note}</p>
-                      ) : null}
-                    </div>
-                    <div className="sm:text-right">
-                      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-muted">{t.partners.partnerLabel}</p>
-                      <p className="mt-1 text-sm text-text-body">{h.location}</p>
-                    </div>
-                  </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="rounded-[32px] border border-slate-200 bg-white px-8 py-10 sm:px-12 sm:py-14 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.16)] text-center">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-4">{t.partners.subtitle}</p>
+            <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-4">{t.partners.compactTitle}</h2>
+            <p className="text-text-body text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mb-10">
+              {t.partners.compactDescription}
+            </p>
+            <div className="flex flex-wrap justify-center gap-8 sm:gap-14 mb-10">
+              {t.partners.compactStats.map((stat: { number: string; label: string }) => (
+                <div key={stat.label} className="text-center">
+                  <p className="font-serif text-4xl sm:text-5xl text-brand-navy font-bold">{stat.number}</p>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-text-muted mt-1">{stat.label}</p>
                 </div>
               ))}
             </div>
+            <Link
+              href={`${prefix}/trust-protocol`}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+            >
+              {t.partners.compactCta}
+              <span aria-hidden="true">&rarr;</span>
+            </Link>
           </div>
-
-          <p className="max-w-3xl mx-auto text-center text-sm italic text-text-muted">{t.partners.footnote}</p>
         </div>
       </section>
 
@@ -566,16 +572,24 @@ export default async function HomePage({
             <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.explore.title}</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.explore.items.map((item, idx) => (
+            {t.explore.items.map((item, idx) => {
+              const Icon = exploreIcons[idx % exploreIcons.length]
+              return (
               <Link
                 key={exploreHrefs[idx]}
                 href={`${prefix}${exploreHrefs[idx]}`}
-                className="group block p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all"
+                className="group flex items-start gap-4 p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all"
               >
-                <h3 className="font-serif text-lg text-brand-navy font-bold mb-2 group-hover:text-brand-gold transition-colors">{item.title}</h3>
-                <p className="text-sm text-text-muted leading-relaxed">{item.desc}</p>
+                <div className="w-10 h-10 rounded-xl bg-brand-gold/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <Icon className="w-5 h-5 text-brand-gold" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg text-brand-navy font-bold mb-2 group-hover:text-brand-gold transition-colors">{item.title}</h3>
+                  <p className="text-sm text-text-muted leading-relaxed">{item.desc}</p>
+                </div>
               </Link>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>

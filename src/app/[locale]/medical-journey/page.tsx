@@ -1,11 +1,15 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Plane, MapPin, HeartPulse, CheckCircle2, X, FileText, Stethoscope, Calendar, MessageCircle, ClipboardCheck, Activity } from "lucide-react"
+import { cn } from "@/lib/utils"
 import { Card } from "@/components/ui/card"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 const relatedHrefs = ["/how-to-choose-hospital-abroad", "/trust-protocol", "/how-it-works"]
+const phaseIcons = [Plane, MapPin, HeartPulse]
+const phaseColors = ["bg-blue-50 text-blue-600", "bg-brand-gold/10 text-brand-gold", "bg-emerald-50 text-emerald-600"]
+const milestoneIcons = [FileText, Stethoscope, Calendar, MessageCircle, ClipboardCheck, Activity]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
@@ -56,31 +60,68 @@ export default async function MedicalJourneyPage({ params }: { params: Promise<{
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-6 pb-4 border-b border-slate-100 leading-tight">{t.journeyStages.title}</h2>
                 <div className="space-y-8">
                   <p className="text-lg text-slate-600 font-light leading-[1.8]">{t.journeyStages.intro}</p>
-                  {t.journeyStages.stages.map((stage) => (
+
+                  {/* 3-step progress indicator */}
+                  <div className="flex items-start justify-center gap-0 py-4 mb-8">
+                    {t.journeyStages.stages.map((stage, i) => {
+                      const Icon = phaseIcons[i % phaseIcons.length]
+                      return (
+                        <div key={stage.id} className="flex items-start">
+                          <div className="flex flex-col items-center relative">
+                            <div className={cn("w-12 h-12 rounded-2xl flex items-center justify-center z-10", phaseColors[i % phaseColors.length])}>
+                              <Icon className="w-6 h-6" />
+                            </div>
+                            <span className="text-[10px] font-bold text-text-muted mt-3 tracking-wider uppercase text-center w-24 absolute top-12">{stage.title}</span>
+                          </div>
+                          {i < t.journeyStages.stages.length - 1 && (
+                            <div className="w-12 sm:w-20 lg:w-28 h-px bg-gradient-to-r from-slate-300 to-slate-200 mx-2 mt-6" />
+                          )}
+                        </div>
+                      )
+                    })}
+                  </div>
+
+                  {t.journeyStages.stages.map((stage, stageIdx) => {
+                    const PhaseIcon = phaseIcons[stageIdx % phaseIcons.length]
+                    return (
                     <div key={stage.id} id={stage.id} className="scroll-mt-32">
                       <Card className="p-6 sm:p-8 space-y-8">
-                        <div className="space-y-3">
-                          <p className="text-[11px] font-bold uppercase tracking-widest text-brand-gold">{stage.label}</p>
-                          <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy">{stage.title}</h3>
-                          <p className="text-base text-slate-600 font-light leading-relaxed">{stage.summary}</p>
+                        <div className="flex items-start gap-4">
+                          <div className={cn("w-12 h-12 rounded-xl flex items-center justify-center shrink-0", phaseColors[stageIdx % phaseColors.length])}>
+                            <PhaseIcon className="w-6 h-6" />
+                          </div>
+                          <div className="space-y-2">
+                            <p className="text-[11px] font-bold uppercase tracking-widest text-brand-gold">{stage.label}</p>
+                            <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy">{stage.title}</h3>
+                            <p className="text-base text-slate-600 font-light leading-relaxed">{stage.summary}</p>
+                          </div>
                         </div>
                         <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">
                           <div className="rounded-2xl border border-slate-100 bg-slate-50/70 p-5">
                             <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">{stage.milestonesTitle}</p>
                             <div className="space-y-4">
-                              {stage.items.map((item) => (
-                                <div key={item.title}>
-                                  <p className="text-sm font-semibold text-brand-navy mb-1">{item.title}</p>
-                                  <p className="text-sm text-text-body leading-relaxed">{item.desc}</p>
+                              {stage.items.map((item, mIdx) => {
+                                const MIcon = milestoneIcons[(stageIdx * 2 + mIdx) % milestoneIcons.length]
+                                return (
+                                <div key={item.title} className="flex items-start gap-3">
+                                  <MIcon className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
+                                  <div>
+                                    <p className="text-sm font-semibold text-brand-navy mb-1">{item.title}</p>
+                                    <p className="text-sm text-text-body leading-relaxed">{item.desc}</p>
+                                  </div>
                                 </div>
-                              ))}
+                                )
+                              })}
                             </div>
                           </div>
                           <div className="rounded-2xl border border-slate-100 bg-white p-5">
                             <p className="text-xs font-bold uppercase tracking-widest text-brand-gold mb-4">{stage.aiTitle}</p>
                             <ul className="space-y-3">
                               {stage.aiItems.map((item) => (
-                                <li key={item} className="text-sm text-text-body leading-relaxed">{item}</li>
+                                <li key={item} className="flex items-start gap-2 text-sm text-text-body leading-relaxed">
+                                  <CheckCircle2 className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
+                                  {item}
+                                </li>
                               ))}
                             </ul>
                           </div>
@@ -88,20 +129,62 @@ export default async function MedicalJourneyPage({ params }: { params: Promise<{
                             <p className="text-xs font-bold uppercase tracking-widest text-brand-navy mb-4">{stage.humanTitle}</p>
                             <ul className="space-y-3">
                               {stage.humanItems.map((item) => (
-                                <li key={item} className="text-sm text-text-body leading-relaxed">{item}</li>
+                                <li key={item} className="flex items-start gap-2 text-sm text-text-body leading-relaxed">
+                                  <CheckCircle2 className="w-4 h-4 text-brand-navy shrink-0 mt-0.5" />
+                                  {item}
+                                </li>
                               ))}
                             </ul>
                           </div>
                         </div>
                       </Card>
                     </div>
-                  ))}
+                    )
+                  })}
                 </div>
               </div>
               <div id="what-makes-different" className="scroll-mt-32">
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.whatMakesDifferent.title}</h2>
                 <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]">
                   <p>{t.whatMakesDifferent.text}</p>
+
+                  {/* Comparison table */}
+                  <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.15)]">
+                    <div className="hidden md:grid md:grid-cols-[1fr_1.5fr_1.5fr] bg-slate-50">
+                      <div className="p-4 border-b border-r border-slate-200" />
+                      <div className="p-4 bg-slate-100 border-b border-r border-slate-200 text-center">
+                        <div className="flex items-center justify-center gap-2">
+                          <X className="w-4 h-4 text-slate-400" />
+                          <span className="text-xs font-bold uppercase tracking-widest text-slate-500">{t.whatMakesDifferent.comparison.traditionalTitle}</span>
+                        </div>
+                      </div>
+                      <div className="p-4 bg-brand-navy border-b border-slate-200 text-center">
+                        <div className="flex items-center justify-center gap-2">
+                          <CheckCircle2 className="w-4 h-4 text-brand-gold" />
+                          <span className="text-xs font-bold uppercase tracking-widest text-brand-gold">{t.whatMakesDifferent.comparison.aetherhealTitle}</span>
+                        </div>
+                      </div>
+                    </div>
+                    {t.whatMakesDifferent.comparison.rows.map((row, i) => (
+                      <div key={row.label} className={cn("flex flex-col md:grid md:grid-cols-[1fr_1.5fr_1.5fr]", i < t.whatMakesDifferent.comparison.rows.length - 1 && "border-b border-slate-100")}>
+                        <div className="p-4 md:p-5 border-b md:border-b-0 md:border-r border-slate-100 bg-slate-50/50 flex items-center">
+                          <span className="text-[11px] font-bold text-brand-navy uppercase tracking-wider">{row.label}</span>
+                        </div>
+                        <div className="p-4 md:p-5 border-b md:border-b-0 md:border-r border-slate-100 flex flex-col md:block gap-1">
+                          <span className="md:hidden text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1">{t.whatMakesDifferent.comparison.traditionalTitle}</span>
+                          <span className="text-sm text-text-muted leading-relaxed">{row.traditional}</span>
+                        </div>
+                        <div className="p-4 md:p-5 bg-brand-navy/[0.02] flex flex-col md:block gap-1">
+                          <span className="md:hidden text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-1 flex items-center gap-1">
+                            <CheckCircle2 className="w-3 h-3" />
+                            {t.whatMakesDifferent.comparison.aetherhealTitle}
+                          </span>
+                          <span className="text-sm text-brand-navy font-medium leading-relaxed">{row.aetherheal}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
                   <div className="p-6 sm:p-8 bg-brand-navy text-white rounded-2xl shadow-lg my-8">
                     <p className="text-xl font-serif text-brand-gold mb-2">{t.whatMakesDifferent.boxTitle}</p>
                     <p className="text-white/90">{t.whatMakesDifferent.boxText}</p>

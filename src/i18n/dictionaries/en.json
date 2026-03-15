@@ -4,6 +4,7 @@
       "howItWorks": "How It Works",
       "exploreFramework": "Explore",
       "trustSafety": "Trust Protocol",
+      "ourPhilosophy": "Our Philosophy",
       "signIn": "Sign in",
       "beginJourney": "Begin Journey",
       "blog": "Blog"
@@ -24,6 +25,7 @@
       "platformLinks": {
         "howItWorks": "How It Works",
         "trustProtocol": "Trust Protocol",
+        "ourPhilosophy": "Our Philosophy",
         "medicalJourney": "Medical Journey",
         "explore": "Explore",
         "blog": "Blog"
@@ -88,7 +90,8 @@
         "medicine": "Medicine",
         "consequenceLabel": "Consequence of Failure",
         "consequence": "Irreversible Harm",
-        "principle": "Unstructured Decision = Risk"
+        "principle": "Unstructured Decision = Risk",
+        "structuralNote": "In markets where patients cannot verify quality before purchase, the system rewards the wrong actors. This is not a trust problem. It is a structural failure."
       }
     },
     "aiLayer": {
@@ -112,128 +115,35 @@
       ],
       "footnote": "AetherHeal is not an AI doctor. AI supports the infrastructure; physicians and hospitals remain the decision-makers."
     },
-    "trending": {
-      "badge": "Supported",
-      "title": "High-Stake Domains We Handle",
-      "skinBrands": [
+    "patientConcerns": {
+      "badge": "Where Are You in Your Decision?",
+      "title": "What Brings You to Consider Care in Korea?",
+      "subtitle": "This is not a procedure catalogue. Start with your situation — not a shopping list.",
+      "items": [
         {
-          "name": "Rejuran",
-          "tag": "Skin Healing"
+          "title": "I need a procedure but don't know which hospital to trust",
+          "description": "We help you evaluate hospitals based on verified credentials, not marketing.",
+          "href": "/how-it-works"
         },
         {
-          "name": "Juvelook",
-          "tag": "Skin Booster"
+          "title": "I had a previous procedure that didn't go well",
+          "description": "Revision cases require a different standard of decision support. We structure that process.",
+          "href": "/explore"
         },
         {
-          "name": "Juvederm",
-          "tag": "Dermal Filler"
+          "title": "I want to understand my options before committing",
+          "description": "Explore the decision framework without pressure. No booking, no sales pitch.",
+          "href": "/explore"
         },
         {
-          "name": "Restylane",
-          "tag": "Dermal Filler"
+          "title": "I need help navigating care in a country where I don't speak the language",
+          "description": "Physician-led coordination from decision to recovery — in your language.",
+          "href": "/medical-journey"
         },
         {
-          "name": "Belotero",
-          "tag": "Dermal Filler"
-        },
-        {
-          "name": "Radiesse",
-          "tag": "Bio-Stimulator"
-        },
-        {
-          "name": "Sculptra",
-          "tag": "Collagen Stimulator"
-        },
-        {
-          "name": "Merz Aesthetics",
-          "tag": "Aesthetics Platform"
-        },
-        {
-          "name": "Ulthera",
-          "tag": "Lifting HIFU"
-        },
-        {
-          "name": "Thermage",
-          "tag": "Skin Tightening RF"
-        }
-      ],
-      "row1": [
-        {
-          "emoji": "👃",
-          "name": "Rhinoplasty",
-          "tag": "Nose reshaping & revision"
-        },
-        {
-          "emoji": "👁️",
-          "name": "Blepharoplasty",
-          "tag": "Double eyelid & ptosis correction"
-        },
-        {
-          "emoji": "💉",
-          "name": "Facial Contouring",
-          "tag": "V-line jaw & cheekbone"
-        },
-        {
-          "emoji": "🦷",
-          "name": "Dental Implants",
-          "tag": "Full-arch & single tooth"
-        },
-        {
-          "emoji": "🧬",
-          "name": "Stem Cell Therapy",
-          "tag": "Regenerative medicine"
-        },
-        {
-          "emoji": "💇",
-          "name": "Hair Transplant",
-          "tag": "FUE & advanced grafting"
-        },
-        {
-          "emoji": "✨",
-          "name": "Skin Aesthetics",
-          "tag": "Premium dermatology & anti-aging"
-        }
-      ],
-      "row2": [
-        {
-          "emoji": "👁️‍🗨️",
-          "name": "LASIK / LASEK",
-          "tag": "Vision correction surgery"
-        },
-        {
-          "emoji": "🩺",
-          "name": "Health Screening",
-          "tag": "Premium full-body checkup"
-        },
-        {
-          "emoji": "🏥",
-          "name": "Liposuction",
-          "tag": "Body contouring & fat repositioning"
-        },
-        {
-          "emoji": "🩻",
-          "name": "Full Body MRI",
-          "tag": "Comprehensive imaging screening"
-        },
-        {
-          "emoji": "👙",
-          "name": "Breast Augmentation",
-          "tag": "Implant & fat transfer"
-        },
-        {
-          "emoji": "🤰",
-          "name": "Women's Health",
-          "tag": "Gynecological & fertility care"
-        },
-        {
-          "emoji": "😁",
-          "name": "Orthodontics",
-          "tag": "Adult & pediatric correction"
-        },
-        {
-          "emoji": "🧵",
-          "name": "Thread Lifting",
-          "tag": "Non-surgical face & body lift"
+          "title": "I want to know how AetherHeal is different from a medical tourism agency",
+          "description": "We are a decision infrastructure, not a booking platform. The difference is structural.",
+          "href": "/our-philosophy"
         }
       ]
     },
@@ -301,6 +211,14 @@
     "partners": {
       "subtitle": "Proof Layer",
       "title": "Founding Medical Partners",
+      "compactTitle": "Verified Partner Network",
+      "compactDescription": "8 founding partners across 8 specialties — each verified under the AetherHeal Trust Protocol. Hospital selection follows decision readiness, not marketing.",
+      "compactStats": [
+        { "number": "8", "label": "Founding Partners" },
+        { "number": "8", "label": "Medical Specialties" },
+        { "number": "1", "label": "Verification Standard" }
+      ],
+      "compactCta": "View Trust Protocol",
       "hospitals": [
         {
           "name": "Morgan Dermatology",
@@ -529,6 +447,26 @@
       "handoffLabel": "authority handoff",
       "footnote": "AI can support the workflow, but authority passes only between accountable human actors."
     },
+    "incentiveStructure": {
+      "badge": "Structural Integrity",
+      "title": "Why This Structure Exists",
+      "subtitle": "AetherHeal's architecture is not just organizational — it is designed to make corruption structurally impossible.",
+      "items": [
+        {
+          "title": "Flat Navigation Fee",
+          "description": "AetherHeal's navigation fee is flat — the same whether you choose a $2,000 or $20,000 procedure. No commission. No upsell incentive. Your navigator has zero financial reason to recommend anything other than what fits your medical needs."
+        },
+        {
+          "title": "Structural Separation",
+          "description": "The team that verifies hospitals is structurally separated from the team that navigates patients. This is not a policy that can be quietly changed — it is embedded in the organizational architecture."
+        },
+        {
+          "title": "Physician Independence",
+          "description": "The physician who reviews your case has no financial relationship with any hospital in the network. Their judgment is not for sale because there is no mechanism through which it could be purchased."
+        }
+      ],
+      "footnote": "These are not policies. They are architectural decisions that make corruption structurally impossible."
+    },
     "aiAssistance": {
       "badge": "03 — AI Assistance",
       "title": "The AI Assistance Layer",
@@ -709,6 +647,137 @@
       "disclaimer": "AI-assisted. Physician-authorized. No diagnosis. No treatment."
     }
   },
+  "ourPhilosophy": {
+    "meta": {
+      "title": "Our Philosophy | AetherHeal",
+      "description": "Why AetherHeal exists, how it is architecturally different from medical tourism agencies, and the structural foundations that make corruption impossible by design."
+    },
+    "hero": {
+      "badge": "Foundational Architecture",
+      "h1": "Why AetherHeal",
+      "h1Highlight": "Exists",
+      "intro": "This is not a company pitch. It is an explanation of why a specific structural failure in global healthcare requires a specific architectural response — and why no amount of better marketing, nicer websites, or more reviews will fix it.",
+      "disclaimer": "Written for investors, partners, physicians, and anyone who wants to understand the mechanism — not just the promise."
+    },
+    "toc": [
+      { "id": "the-problem", "label": "The Problem We Named" },
+      { "id": "the-architecture", "label": "The Architecture We Built" },
+      { "id": "the-incentive", "label": "The Incentive Structure" },
+      { "id": "the-ai-boundary", "label": "The AI Boundary" },
+      { "id": "the-founder", "label": "The Founder's Obligation" }
+    ],
+    "theProblem": {
+      "title": "The Problem We Named",
+      "p1": "In 1970, economist George Akerlof described how markets fail when buyers cannot verify quality before purchase. Sellers of low-quality goods drive out sellers of high-quality goods — because the buyer cannot tell the difference. The market fills with lemons. Akerlof won the Nobel Prize for this insight in 2001.",
+      "p2": "Global medical tourism is a textbook Akerlof market. Patients cannot evaluate surgical skill, hospital safety, or post-operative care quality from another country. The only signals visible are price, marketing spend, and before-and-after photos — none of which correlate reliably with clinical outcomes.",
+      "p3": "The result is predictable: agencies that spend the most on marketing win the most patients. Physicians with the best clinical outcomes have no credible way to signal their quality. Patients make consequential decisions about their bodies based on information that is structurally unreliable.",
+      "callout": "This is not a trust problem. It is an Akerlof problem — and Akerlof problems require institutional solutions, not better marketing.",
+      "cycleTitle": "The Lemon Market Cycle",
+      "cycleSteps": [
+        "Agencies earn commissions on expensive procedures",
+        "Patients choose by marketing, not clinical quality",
+        "Good physicians have no credible signal",
+        "Market fills with low-quality actors"
+      ],
+      "cycleResult": "Equilibrium: stable and harmful"
+    },
+    "theArchitecture": {
+      "title": "The Architecture We Built",
+      "p1": "The solution is not a better marketplace. It is the institutional trust layer that the industry has never had — the verification standard that makes physician quality legible to patients who cannot evaluate it themselves.",
+      "p2": "Consider SWIFT: it is not a bank. It is the infrastructure through which banks trust each other across borders. Before SWIFT, every cross-border transaction required bilateral trust. After SWIFT, the standard itself carried the trust.",
+      "p3": "AetherHeal occupies the same structural position for global medical travel. We are not a hospital. We are not an agency. We are the verification standard layer — separated from the execution layer, governed by physicians who have no financial interest in the outcome of any individual patient's decision.",
+      "callout": "We are not building a better medical tourism agency. We are building the SWIFT of physician-verified global healthcare.",
+      "layers": [
+        { "label": "International Patients", "detail": "Cannot evaluate quality across borders" },
+        { "label": "AetherHeal Verification Standard", "detail": "Physician-governed, incentive-separated, publicly inspectable" },
+        { "label": "Hospitals & Physicians", "detail": "Clinical excellence, verified independently" }
+      ],
+      "beforeLabel": "Before: Bilateral trust required for every transaction",
+      "afterLabel": "After: The standard carries the trust"
+    },
+    "theIncentive": {
+      "title": "The Incentive Structure",
+      "p1": "Anyone can claim physician leadership. Anyone can write a Trust Protocol page. What no competitor can replicate is a fee structure where the platform literally earns the same amount whether a patient chooses a $2,000 procedure or a $20,000 one.",
+      "p2": "AetherHeal's patient navigation fee is flat. The team that verifies hospitals is structurally separated from the team that navigates patients. The physician who reviews your case has no financial relationship with any hospital in the network.",
+      "p3": "These are not policies. Policies require enforcement and can be quietly abandoned when revenue is slow. These are architectural decisions — built into the fee structure, the organizational chart, and the governance model. They make corruption structurally impossible, not merely discouraged.",
+      "callout": "Our business model is designed so that our financial interests are permanently identical to our patients' medical interests — not as a policy, but as a structural fact.",
+      "comparison": {
+        "traditional": {
+          "label": "Traditional Agency",
+          "items": [
+            { "text": "Commission on procedure cost", "negative": true },
+            { "text": "Same team refers and verifies", "negative": true },
+            { "text": "Earns more from expensive options", "negative": true },
+            { "text": "Physician tied to hospital revenue", "negative": true }
+          ]
+        },
+        "aetherheal": {
+          "label": "AetherHeal",
+          "items": [
+            { "text": "Flat fee regardless of procedure cost", "negative": false },
+            { "text": "Verification and navigation fully separated", "negative": false },
+            { "text": "Earns same from $2K or $20K procedure", "negative": false },
+            { "text": "Physician has zero hospital financial ties", "negative": false }
+          ]
+        }
+      },
+      "principles": [
+        {
+          "title": "Flat Navigation Fee",
+          "body": "The same fee whether the procedure costs $2,000 or $20,000. No commission. No upsell incentive."
+        },
+        {
+          "title": "Separation Principle",
+          "body": "The team that verifies hospitals never navigates patients. The team that navigates patients never verifies hospitals."
+        },
+        {
+          "title": "Physician Independence",
+          "body": "Reviewing physicians have no equity, referral fees, or financial relationship with any partner hospital."
+        }
+      ]
+    },
+    "theAiBoundary": {
+      "title": "The AI Boundary",
+      "p1": "AI inside AetherHeal organizes complexity. It structures intake information, surfaces missing records, supports multilingual coordination, and extends post-treatment continuity monitoring.",
+      "p2": "It does not make medical decisions. It does not choose your hospital. It does not override physician judgment. This is not a limitation we impose reluctantly — it is the foundational design principle.",
+      "p3": "The philosopher Martin Heidegger warned that technology's deepest danger is not that it fails, but that it reframes everything as a resource to be optimized. Edmund Pellegrino, the philosopher of medicine, argued that medicine is a moral enterprise — not a technical one. The moment an AI layer replaces the physician's reading of the human being in front of them, the system has failed at the deepest level, even if every metric looks good.",
+      "callout": "AI organizes information so the physician can focus on the human. The physician reads the human first, the profile second.",
+      "doesTitle": "AI Does",
+      "does": [
+        "Structures intake and records",
+        "Surfaces missing information",
+        "Supports multilingual coordination",
+        "Extends post-treatment monitoring"
+      ],
+      "doesNotTitle": "AI Does Not",
+      "doesNot": [
+        "Make medical decisions",
+        "Choose your hospital",
+        "Override physician judgment",
+        "Replace the human encounter"
+      ]
+    },
+    "theFounder": {
+      "title": "The Founder's Obligation",
+      "p1": "Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified skin aesthetic medicine specialist and hair transplant surgeon who had two procedures as a patient. The first failed — because price was the only signal he could read. He only understood what had been done to him after he became a specialist in the field.",
+      "p2": "AetherHeal is not built because a founder identified a market opportunity. It is built because a physician was blinded by the problem he is solving — and spent years acquiring the clinical expertise to understand exactly what went wrong and why the market made it inevitable.",
+      "p3": "The philosopher Emmanuel Levinas wrote that genuine moral obligation begins with the encounter — when you truly see someone's vulnerability and can no longer look away. This is not a pitch deck story. This is the reason the architecture will hold when the revenue is slow and the compromises feel rational.",
+      "callout": "I am not building this because I identified a market opportunity. I am building this because I was blinded by the problem I am solving — and I became a physician specifically so I could understand what was done to me.",
+      "timeline": [
+        { "year": "Patient", "event": "First hair transplant failed — price was the only signal available" },
+        { "year": "Student", "event": "Entered medical school to understand what went wrong" },
+        { "year": "Specialist", "event": "Board-certified in aesthetic medicine and hair transplant surgery — understood the structural failure" },
+        { "year": "Founder", "event": "Built AetherHeal to correct the market that blinded him" }
+      ]
+    },
+    "closing": {
+      "title": "What This Means for You",
+      "patient": "If you are a patient — you are entering a system designed so that no one profits from misleading you.",
+      "hospital": "If you are a hospital — you are joining a standard that rewards the quality you already deliver.",
+      "investor": "If you are an investor — you are funding infrastructure, not a marketplace. Standards compound differently than transactions.",
+      "cta": "See How It Works"
+    }
+  },
   "trustProtocol": {
     "meta": {
       "title": "The AetherHeal Trust Protocol | AetherHeal",
@@ -808,8 +877,10 @@
     },
     "incentiveSeparation": {
       "title": "Decision Integrity Through Incentive Separation",
+      "akerlofFraming": "In 1970, economist George Akerlof described how markets fail when buyers cannot verify quality. Medical tourism is a textbook case. AetherHeal's incentive architecture is designed to structurally correct this failure.",
       "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. That conflict can affect both people and software: case flow begins optimizing for conversion rather than judgment quality.",
       "p2": "AetherHeal is architecturally different. We separate the platform into independent layers with distinct incentives, reporting lines, and controls. AI systems, where used, are governed inside those same boundaries and are not allowed to optimize provider steering or case closure for commercial gain.",
+      "structuralCallout": "Our business model is designed so that our financial interests are permanently identical to our patients' medical interests — not as a policy, but as a structural fact.",
       "angelLayer": {
         "label": "Layer 1",
         "title": "Angel Layer",
@@ -848,9 +919,21 @@
       ]
     },
     "whatThisMeans": {
-      "title": "What This Means for Patients",
-      "p1": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation.",
-      "p2": "If a case is incomplete or ambiguous, halt, defer, and re-clarify are treated as valid safeguards rather than service failures. Hospitals in our network receive only the decision-ready case materials appropriate to the next step of review."
+      "title": "What This Means",
+      "audiences": [
+        {
+          "label": "For Patients",
+          "body": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation."
+        },
+        {
+          "label": "For Hospitals",
+          "body": "Verification is earned through structural compliance, not payment. Maintaining AetherHeal Verified status requires ongoing adherence to communication, documentation, and care standards reviewed independently of the commercial team."
+        },
+        {
+          "label": "For Regulators",
+          "body": "If a case is incomplete or ambiguous, halt, defer, and re-clarify are treated as valid safeguards rather than service failures. Every protocol decision is logged, auditable, and traceable to an accountable human."
+        }
+      ]
     },
     "trustScope": {
       "title": "Trust Protocol Scope",
@@ -898,6 +981,12 @@
     "ongoing": {
       "title": "Ongoing Accountability",
       "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, and periodic re-evaluation.",
+      "checklist": [
+        "Quarterly protocol compliance audits",
+        "Annual partner re-verification reviews",
+        "Continuous AI workflow behavior monitoring",
+        "Patient feedback integration into standards"
+      ],
       "boxTitle": "Standards remain enforceable",
       "boxText": "If repeated deviations, undocumented overrides, or unsafe automation patterns appear, the relevant workflow or partner relationship may be paused, remediated, or removed."
     },
@@ -1552,6 +1641,32 @@
     "whatMakesDifferent": {
       "title": "What Makes This Different",
       "text": "Unlike medical tourism models that blur sales, logistics, and medical judgment, AetherHeal separates the journey into explicit phases with explicit ownership.",
+      "comparison": {
+        "traditionalTitle": "Traditional Agency",
+        "aetherhealTitle": "AetherHeal",
+        "rows": [
+          {
+            "label": "Role clarity",
+            "traditional": "Same team sells, arranges, and advises",
+            "aetherheal": "Sales, navigation, and clinical review are structurally separated"
+          },
+          {
+            "label": "Decision timing",
+            "traditional": "Hospital presented immediately",
+            "aetherheal": "Hospital options follow decision readiness"
+          },
+          {
+            "label": "AI role",
+            "traditional": "Marketing automation or absent",
+            "aetherheal": "Governed process support with human oversight"
+          },
+          {
+            "label": "Accountability",
+            "traditional": "Unclear after booking",
+            "aetherheal": "Documented at every phase transition"
+          }
+        ]
+      },
       "boxTitle": "AI supports the process",
       "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey."
     },

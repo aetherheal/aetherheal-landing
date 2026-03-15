@@ -16,7 +16,7 @@ interface LogoProps {
 export function Logo({ size = "md", theme = "light", className }: LogoProps) {
   const s = sizes[size]
   return (
-    <a href="/" className={cn("flex items-center group", className)}>
+    <div className={cn("flex items-center", className)}>
       <div className={cn("relative flex items-center justify-start", s.wrapper)}>
         <Image
           src="/assets/logo.png"
@@ -28,6 +28,6 @@ export function Logo({ size = "md", theme = "light", className }: LogoProps) {
           priority
         />
       </div>
-    </a>
+    </div>
   )
 }

@@ -1,12 +1,15 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Shield, Eye, FileCheck, CheckCircle, CheckCircle2, XCircle, Lock, Scale, Split } from "lucide-react"
+import { ArrowRight, Shield, Eye, FileCheck, CheckCircle, CheckCircle2, XCircle, Lock, Scale, Split, Bot, Users, Building2, Landmark } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Card } from "@/components/ui/card"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
 const trustRoleIcons = [Eye, Scale, FileCheck, Lock]
+const aiPrincipleIcons = [Eye, Users, Lock, Scale]
+const audienceIcons = [Users, Building2, Landmark]
+const audienceColors = ["bg-brand-gold/10 text-brand-gold", "bg-brand-navy/10 text-brand-navy", "bg-slate-100 text-slate-600"]
 const relatedHrefs = ["/how-to-choose-hospital-abroad", "/medical-journey", "/how-it-works"]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -71,12 +74,20 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                 <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
                   <p>{t.aiGovernance.intro}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {t.aiGovernance.principles.map((item) => (
+                    {t.aiGovernance.principles.map((item, i) => {
+                      const Icon = aiPrincipleIcons[i % aiPrincipleIcons.length]
+                      return (
                       <Card key={item.title} className="p-6 sm:p-8 space-y-3">
-                        <h3 className="font-serif text-xl text-text-deep">{item.title}</h3>
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center shrink-0">
+                            <Icon className="w-5 h-5 text-brand-navy" />
+                          </div>
+                          <h3 className="font-serif text-xl text-text-deep">{item.title}</h3>
+                        </div>
                         <p className="text-sm text-text-body leading-relaxed">{item.body}</p>
                       </Card>
-                    ))}
+                      )
+                    })}
                   </div>
                   <div className="p-6 sm:p-8 bg-brand-navy/[0.02] border border-slate-100 rounded-2xl">
                     <p className="text-xs font-bold uppercase tracking-widest text-brand-gold mb-6">{t.aiGovernance.validTitle}</p>
@@ -96,20 +107,29 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
               <div id="incentive-separation" className="scroll-mt-32">
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.incentiveSeparation.title}</h2>
                 <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                  <div className="p-6 sm:p-8 bg-brand-gold/5 border border-brand-gold/15 rounded-2xl">
+                    <p className="text-base text-brand-navy font-serif font-medium leading-relaxed">{t.incentiveSeparation.akerlofFraming}</p>
+                  </div>
                   <p>{t.incentiveSeparation.p1}</p><p>{t.incentiveSeparation.p2}</p>
                   <div className="flex items-center justify-center py-4"><Split className="w-6 h-6 text-brand-gold" /></div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-                    <div className="p-6 sm:p-10 bg-brand-navy text-white">
-                      <div className="flex items-center gap-4 mb-6"><div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0"><Eye className="w-6 h-6 text-brand-gold" /></div><div><p className="text-[11px] font-bold uppercase tracking-widest text-brand-gold mb-1">{t.incentiveSeparation.angelLayer.label}</p><h3 className="font-serif text-2xl text-white">{t.incentiveSeparation.angelLayer.title}</h3></div></div>
-                      <p className="text-base text-white/80 leading-relaxed mb-8">{t.incentiveSeparation.angelLayer.description}</p>
-                      <div className="space-y-4 pt-6 border-t border-white/10"><p className="text-xs font-bold uppercase tracking-widest text-brand-gold/80 mb-2">{t.incentiveSeparation.angelLayer.incentiveLabel}</p>
+                    <div className="p-6 sm:p-10 bg-brand-navy text-white flex flex-col justify-between">
+                      <div>
+                        <div className="flex items-center gap-4 mb-6"><div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0"><Eye className="w-6 h-6 text-brand-gold" /></div><div><p className="text-[11px] font-bold uppercase tracking-widest text-brand-gold mb-1">{t.incentiveSeparation.angelLayer.label}</p><h3 className="font-serif text-2xl text-white">{t.incentiveSeparation.angelLayer.title}</h3></div></div>
+                        <p className="text-base text-white/80 leading-relaxed mb-8">{t.incentiveSeparation.angelLayer.description}</p>
+                      </div>
+                      <div className="space-y-4 pt-6 border-t border-white/10">
+                        <p className="text-xs font-bold uppercase tracking-widest text-brand-gold/80 mb-2">{t.incentiveSeparation.angelLayer.incentiveLabel}</p>
                         {t.incentiveSeparation.angelLayer.incentives.map((item) => (<div key={item} className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" /><span className="text-sm text-white/90 leading-snug">{item}</span></div>))}
                       </div>
                     </div>
-                    <div className="p-6 sm:p-10 bg-white">
-                      <div className="flex items-center gap-4 mb-6"><div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center shrink-0 border border-slate-100"><Shield className="w-6 h-6 text-brand-navy" /></div><div><p className="text-[11px] font-bold uppercase tracking-widest text-slate-400 mb-1">{t.incentiveSeparation.providerLayer.label}</p><h3 className="font-serif text-2xl text-brand-navy">{t.incentiveSeparation.providerLayer.title}</h3></div></div>
-                      <p className="text-base text-slate-500 leading-relaxed mb-8">{t.incentiveSeparation.providerLayer.description}</p>
-                      <div className="space-y-4 pt-6 border-t border-slate-100"><p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">{t.incentiveSeparation.providerLayer.incentiveLabel}</p>
+                    <div className="p-6 sm:p-10 bg-white flex flex-col justify-between">
+                      <div>
+                        <div className="flex items-center gap-4 mb-6"><div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center shrink-0 border border-slate-100"><Shield className="w-6 h-6 text-brand-navy" /></div><div><p className="text-[11px] font-bold uppercase tracking-widest text-slate-400 mb-1">{t.incentiveSeparation.providerLayer.label}</p><h3 className="font-serif text-2xl text-brand-navy">{t.incentiveSeparation.providerLayer.title}</h3></div></div>
+                        <p className="text-base text-slate-500 leading-relaxed mb-8">{t.incentiveSeparation.providerLayer.description}</p>
+                      </div>
+                      <div className="space-y-4 pt-6 border-t border-slate-100">
+                        <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">{t.incentiveSeparation.providerLayer.incentiveLabel}</p>
                         {t.incentiveSeparation.providerLayer.incentives.map((item) => (<div key={item} className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-brand-navy shrink-0 mt-0.5" /><span className="text-sm text-slate-700 leading-snug">{item}</span></div>))}
                       </div>
                     </div>
@@ -117,6 +137,9 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                   <div className="p-6 sm:p-8 bg-brand-navy/[0.02] border-l-2 border-brand-gold rounded-r-2xl">
                     <p className="text-base text-brand-navy font-serif font-medium leading-relaxed mb-3">{t.incentiveSeparation.principleIntro}</p>
                     <p className="text-base text-slate-700 leading-relaxed italic m-0">{t.incentiveSeparation.principleText}</p>
+                  </div>
+                  <div className="p-6 sm:p-8 bg-brand-navy rounded-2xl">
+                    <p className="text-base text-white font-serif font-medium leading-relaxed italic">{t.incentiveSeparation.structuralCallout}</p>
                   </div>
                 </div>
               </div>
@@ -133,7 +156,22 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
               {/* What This Means */}
               <div id="what-this-means" className="scroll-mt-32">
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.whatThisMeans.title}</h2>
-                <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]"><p>{t.whatThisMeans.p1}</p><p>{t.whatThisMeans.p2}</p></div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                  {t.whatThisMeans.audiences.map((audience, i) => {
+                    const Icon = audienceIcons[i % audienceIcons.length]
+                    return (
+                    <div key={audience.label} className="bg-white border border-slate-100 rounded-2xl p-6 sm:p-8 shadow-sm">
+                      <div className="flex items-center gap-3 mb-5">
+                        <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${audienceColors[i % audienceColors.length]}`}>
+                          <Icon className="w-5 h-5" />
+                        </div>
+                        <SectionLabel color={i === 0 ? "gold" : i === 1 ? "default" : "muted"}>{audience.label}</SectionLabel>
+                      </div>
+                      <p className="text-sm text-text-body leading-relaxed">{audience.body}</p>
+                    </div>
+                    )
+                  })}
+                </div>
               </div>
 
               {/* Trust Scope */}
@@ -167,6 +205,14 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.ongoing.title}</h2>
                 <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]">
                   <p>{t.ongoing.text}</p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {t.ongoing.checklist.map((item) => (
+                      <div key={item} className="flex items-center gap-3 p-4 bg-white border border-slate-100 rounded-xl shadow-sm">
+                        <CheckCircle className="w-5 h-5 text-emerald-500 shrink-0" />
+                        <span className="text-sm text-brand-navy font-medium">{item}</span>
+                      </div>
+                    ))}
+                  </div>
                   <div className="p-6 sm:p-8 bg-brand-navy text-white rounded-2xl shadow-lg">
                     <p className="text-xl font-serif text-brand-gold mb-2">{t.ongoing.boxTitle}</p>
                     <p className="text-white/90">{t.ongoing.boxText}</p>
