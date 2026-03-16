@@ -96,7 +96,7 @@ body {
 }
 
 .locale-ko {
-  font-family: var(--font-noto-sans-kr), var(--font-inter), sans-serif;
+  font-family: Arial, var(--font-noto-sans-kr), sans-serif;
 }
 
 .locale-ko .font-serif {

@@ -104,7 +104,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
             )}
 
             <a
-              href={isKo ? "mailto:drjeeju@aetherheal.com?subject=AetherHeal 문의" : "https://app.aetherheal.com/transition"}
+              href={isKo ? "mailto:drjeeju@aetherheal.com?subject=에테르힐 문의" : "https://app.aetherheal.com/transition"}
               target={isKo ? undefined : "_blank"}
               rel={isKo ? undefined : "noopener noreferrer"}
               className="hidden lg:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] tracking-wide font-semibold text-white bg-brand-navy rounded-full transition-all duration-200 hover:bg-brand-navy/90 hover:shadow-md"
@@ -197,7 +197,7 @@ export function Navbar({ dict, locale }: NavbarProps) {
                 </a>
               )}
               <a
-                href={isKo ? "mailto:drjeeju@aetherheal.com?subject=AetherHeal 문의" : "https://app.aetherheal.com/transition"}
+                href={isKo ? "mailto:drjeeju@aetherheal.com?subject=에테르힐 문의" : "https://app.aetherheal.com/transition"}
                 target={isKo ? undefined : "_blank"}
                 rel={isKo ? undefined : "noopener noreferrer"}
                 className="flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white bg-brand-navy rounded-lg transition-colors hover:bg-brand-navy/90"

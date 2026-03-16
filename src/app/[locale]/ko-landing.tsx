@@ -20,7 +20,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
             <span className="text-[10px] font-bold text-brand-gold uppercase tracking-widest">의사 주도형 글로벌 메디컬 의사결정 인프라</span>
           </div>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight break-keep">
-            AetherHeal
+            에테르힐
           </h1>
           <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed break-keep">
             한국 의료를 고려하는 해외 환자를 위한 의사결정 인프라.
@@ -45,7 +45,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
                 </div>
                 <h3 className="font-serif text-2xl text-brand-navy font-semibold mb-3 break-keep">파트너 병원이신가요?</h3>
                 <p className="text-slate-700 leading-relaxed mb-6 break-keep">
-                  AetherHeal이 파트너 병원에 제공하는 가치, Trust Protocol 심사 과정, 그리고 참여 조건을 확인하세요.
+                  에테르힐이 파트너 병원에 제공하는 가치, Trust Protocol 심사 과정, 그리고 참여 조건을 확인하세요.
                 </p>
                 <span className="inline-flex items-center gap-2 text-[15px] font-semibold text-brand-navy group-hover:text-brand-gold transition-colors break-keep">
                   파트너 안내 보기
@@ -76,7 +76,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-t border-slate-100">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">AetherHeal의 핵심 구조</h2>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">에테르힐의 핵심 구조</h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto break-keep">기존 에이전시와 근본적으로 다른 세 가지 아키텍처적 특징.</p>
           </div>
 
@@ -121,7 +121,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy break-keep">에테르힐 철학을 읽어보세요</h2>
           <p className="text-slate-700 text-lg leading-relaxed break-keep">
-            AetherHeal이 존재하는 이유, 아커로프 시장 문제, SWIFT 구조의 유비, 그리고 창업자의 의무에 대해 설명합니다.
+            에테르힐이 존재하는 이유, 아커로프 시장 문제, SWIFT 구조의 유비, 그리고 창업자의 의무에 대해 설명합니다.
           </p>
           <Link
             href={`${prefix}/our-philosophy`}
@@ -140,7 +140,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
             href="/en"
             className="inline-flex items-center gap-2 text-brand-gold hover:text-white transition-colors font-semibold break-keep"
           >
-            AetherHeal 영문 사이트 바로가기
+            에테르힐 영문 사이트 바로가기
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

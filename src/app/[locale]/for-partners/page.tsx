@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake, XCircle, Monitor, UserCheck, Globe, Bot } from "lucide-react"
+import { ArrowRight, Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake, XCircle, Monitor, UserCheck, Globe, Bot, Car, Workflow } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
@@ -48,7 +48,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      {/* What is AetherHeal */}
+      {/* What is 에테르힐 */}
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">{t.whatIsAetherheal.title}</h2>
@@ -147,9 +147,9 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.provided.title}</h2>
           <p className="text-[15px] text-slate-700 text-center mb-12 break-keep">{t.provided.subtitle}</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {t.provided.items.map((item: { title: string; description: string }, i: number) => {
-              const icons = [Monitor, UserCheck, Globe]
+              const icons = [Monitor, UserCheck, Globe, Car]
               const Icon = icons[i % icons.length]
               return (
                 <div key={item.title} className="rounded-2xl border border-slate-200 bg-bg-light p-7">
@@ -170,9 +170,9 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.agentTech.title}</h2>
           <p className="text-[15px] text-slate-700 text-center mb-12 break-keep">{t.agentTech.subtitle}</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {t.agentTech.items.map((item: { title: string; description: string }, i: number) => {
-              const icons = [Bot, Globe, Activity]
+              const icons = [Bot, Globe, Activity, Workflow]
               const Icon = icons[i % icons.length]
               return (
                 <div key={item.title} className="rounded-2xl border border-brand-gold/20 bg-white p-7 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.1)]">
@@ -245,7 +245,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
           <p className="text-slate-300 text-lg leading-relaxed break-keep">{t.cta.description}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={`mailto:${t.cta.email}?subject=AetherHeal 파트너 문의`}
+              href={`mailto:${t.cta.email}?subject=에테르힐 파트너 문의`}
               className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-brand-navy bg-brand-gold rounded-full hover:bg-brand-gold/90 transition-all hover:shadow-lg break-keep"
             >
               {t.cta.buttonText}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, TrendingUp, AlertTriangle, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, FileText, MessageSquare, XCircle, Cpu, ArrowDown } from "lucide-react"
+import { ArrowRight, TrendingUp, AlertTriangle, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, FileText, MessageSquare, XCircle, Cpu, ArrowDown, Car } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const moatIcons = [ShieldCheck, Users, Bot, TrendingUp]
-const revenueIcons = [DollarSign, Target, Rocket]
+const revenueIcons = [DollarSign, Target, Rocket, Car]
 
 export default async function ForInvestorsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -100,7 +100,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.model.title}</h2>
           <p className="text-lg text-slate-700 leading-[1.8] mb-12 break-keep">{t.model.p1}</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {t.model.revenue.map((item: { title: string; description: string }, i: number) => {
               const Icon = revenueIcons[i % revenueIcons.length]
               return (
@@ -324,14 +324,14 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           <p className="text-slate-300 text-lg leading-relaxed break-keep">{t.cta.description}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={`mailto:${t.cta.email}?subject=AetherHeal 투자 문의`}
+              href={`mailto:${t.cta.email}?subject=에테르힐 투자 문의`}
               className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-brand-navy bg-brand-gold rounded-full hover:bg-brand-gold/90 transition-all hover:shadow-lg break-keep"
             >
               {t.cta.buttonText}
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href={`mailto:${t.cta.email}?subject=AetherHeal 사업계획서 요청`}
+              href={`mailto:${t.cta.email}?subject=에테르힐 사업계획서 요청`}
               className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-white border border-white/20 rounded-full hover:bg-white/5 transition-all break-keep"
             >
               {t.cta.deckText}

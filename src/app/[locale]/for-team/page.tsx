@@ -96,7 +96,7 @@ export default async function ForTeamPage({ params }: { params: Promise<{ locale
           <h2 className="font-serif text-3xl sm:text-4xl text-white mb-4 break-keep">{t.cta.title}</h2>
           <p className="text-white/70 text-[15px] sm:text-base mb-10 break-keep">{t.cta.description}</p>
           <a
-            href={`mailto:${t.cta.email}?subject=AetherHeal 팀 문의`}
+            href={`mailto:${t.cta.email}?subject=에테르힐 팀 문의`}
             className="inline-flex items-center gap-2 px-8 py-4 bg-brand-gold text-brand-navy font-semibold rounded-full hover:bg-brand-gold/90 transition-all"
           >
             <Mail className="w-4 h-4" />
