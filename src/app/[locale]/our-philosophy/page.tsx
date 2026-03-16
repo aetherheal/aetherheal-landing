@@ -247,7 +247,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                   </div>
 
                   <p>{t.theIncentive.p2}</p>
-                  <p>{t.theIncentive.p3}</p>
+                  {t.theIncentive.p3 && <p>{t.theIncentive.p3}</p>}
 
                   <Card accent="gold" className="p-6 sm:p-8">
                     <p className="font-serif text-lg sm:text-xl text-brand-navy leading-relaxed italic">
