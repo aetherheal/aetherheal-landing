@@ -1,9 +1,37 @@
 import type { Metadata } from "next"
+import { Playfair_Display, Inter, Noto_Sans_KR, Noto_Serif_KR } from "next/font/google"
 import { locales, ogLocales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { Navbar } from "@/components/layout/navbar"
 import { Footer } from "@/components/layout/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
+import { GoogleAnalytics } from "@/components/analytics/google-analytics"
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  display: "swap",
+})
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+})
+
+const notoSansKr = Noto_Sans_KR({
+  variable: "--font-noto-sans-kr",
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+})
+
+const notoSerifKr = Noto_Serif_KR({
+  variable: "--font-noto-serif-kr",
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+})
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -81,56 +109,54 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale as Locale)
 
   return (
-    <>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `document.documentElement.lang="${locale}";`,
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "MedicalBusiness",
-            name: "AetherHeal",
-            url: "https://aetherheal.com",
-            logo: "https://aetherheal.com/logo.png",
-            image: "https://aetherheal.com/og-image.jpg",
-            description: dict.home.meta.description,
-            areaServed: { "@type": "GeoShape", name: "Global" },
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Seoul",
-              addressCountry: "KR",
-            },
-            medicalSpecialty: [
-              "Hair Transplantation",
-              "Aesthetic Medicine",
-              "Plastic Surgery",
-              "Dermatology",
-              "Ophthalmology",
-              "Dentistry",
-              "Stem Cell Therapy",
-            ],
-            availableLanguage: [
-              "English",
-              "Korean",
-              "Chinese",
-              "Japanese",
-              "Thai",
-              "Russian",
-            ],
-            inLanguage: locale,
-          }),
-        }}
-      />
-      <ScrollToTop />
-      <div className={`flex flex-col min-h-full ${locale === "ko" ? "locale-ko" : ""}`}>
-        <Navbar dict={dict.common} locale={locale as Locale} />
-        <main id="main-content" className="flex-1">{children}</main>
-        <Footer dict={dict.common} locale={locale as Locale} />
-      </div>
-    </>
+    <html lang={locale} className={`${playfair.variable} ${inter.variable} ${notoSansKr.variable} ${notoSerifKr.variable} h-full`}>
+      <body className="h-full font-sans antialiased">
+        <GoogleAnalytics />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalBusiness",
+              name: "AetherHeal",
+              url: "https://aetherheal.com",
+              logo: "https://aetherheal.com/logo.png",
+              image: "https://aetherheal.com/og-image.jpg",
+              description: dict.home.meta.description,
+              areaServed: { "@type": "GeoShape", name: "Global" },
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Seoul",
+                addressCountry: "KR",
+              },
+              medicalSpecialty: [
+                "Hair Transplantation",
+                "Aesthetic Medicine",
+                "Plastic Surgery",
+                "Dermatology",
+                "Ophthalmology",
+                "Dentistry",
+                "Stem Cell Therapy",
+              ],
+              availableLanguage: [
+                "English",
+                "Korean",
+                "Chinese",
+                "Japanese",
+                "Thai",
+                "Russian",
+              ],
+              inLanguage: locale,
+            }),
+          }}
+        />
+        <ScrollToTop />
+        <div className={`flex flex-col min-h-full ${locale === "ko" ? "locale-ko" : ""}`}>
+          <Navbar dict={dict.common} locale={locale as Locale} />
+          <main id="main-content" className="flex-1">{children}</main>
+          <Footer dict={dict.common} locale={locale as Locale} />
+        </div>
+      </body>
+    </html>
   )
 }
