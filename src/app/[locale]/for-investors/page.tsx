@@ -340,7 +340,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           </div>
           <div className="pt-8">
             <Link href={`${prefix}/our-philosophy`} className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-brand-gold transition-colors break-keep">
-              우리의 철학 읽기
+              에테르힐 철학 읽기
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

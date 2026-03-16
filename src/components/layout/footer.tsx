@@ -53,11 +53,11 @@ export function Footer({ dict, locale }: FooterProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-2 md:grid-cols-12 gap-10 sm:gap-12 mb-14 sm:mb-20">
 
-          <div className="col-span-2 md:col-span-4 space-y-6">
-            <Link href={`/${locale}`}>
+          <div className="col-span-2 md:col-span-4">
+            <Link href={`/${locale}`} className="inline-block mb-5">
               <Logo size="md" theme="dark" />
             </Link>
-            <p className="text-sm text-slate-400 font-light leading-relaxed max-w-xs">
+            <p className="text-sm text-slate-400 font-light leading-relaxed max-w-xs mb-3">
               {dict.footer.brandDescription}
             </p>
             <p className="text-[10px] text-slate-500 font-medium uppercase tracking-wide">

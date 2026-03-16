@@ -367,7 +367,7 @@ export default async function HomePage({
               const Icon = concernIcons[i % concernIcons.length]
               return (
               <Link
-                key={item.href}
+                key={item.title}
                 href={`${prefix}${item.href}`}
                 className="group flex items-start gap-5 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-[0_20px_50px_-16px_rgba(15,23,42,0.12)] transition-all duration-300"
               >

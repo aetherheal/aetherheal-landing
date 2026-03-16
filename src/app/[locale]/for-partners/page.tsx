@@ -255,7 +255,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
               href={`${prefix}/our-philosophy`}
               className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-white border border-white/20 rounded-full hover:bg-white/5 transition-all break-keep"
             >
-              우리의 철학 읽기
+              에테르힐 철학 읽기
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
