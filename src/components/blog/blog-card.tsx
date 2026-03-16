@@ -53,20 +53,25 @@ export function BlogCard({ post, categoryLabel, readMoreLabel }: BlogCardProps) 
           </p>
 
           <div className="flex items-center justify-between pt-4 border-t border-slate-100">
-            <div className="flex items-center gap-4 text-xs text-text-muted">
-              <span className="flex items-center gap-1.5">
+            <div className="flex flex-col gap-2">
+              <span className="flex items-center gap-1.5 text-xs text-text-muted">
                 <Calendar className="w-3.5 h-3.5" />
                 {formattedDate}
               </span>
-              <span className="flex items-center gap-1.5">
+              <span className="text-xs font-medium text-brand-navy">
+                {post.author}
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="flex items-center gap-1.5 text-xs text-text-muted">
                 <Clock className="w-3.5 h-3.5" />
                 {post.readingTime}
               </span>
+              <span className="flex items-center gap-1 text-xs font-semibold text-brand-gold opacity-0 group-hover:opacity-100 transition-opacity">
+                {readMoreLabel}
+                <ArrowRight className="w-3.5 h-3.5" />
+              </span>
             </div>
-            <span className="flex items-center gap-1 text-xs font-semibold text-brand-gold opacity-0 group-hover:opacity-100 transition-opacity">
-              {readMoreLabel}
-              <ArrowRight className="w-3.5 h-3.5" />
-            </span>
           </div>
         </div>
       </article>
