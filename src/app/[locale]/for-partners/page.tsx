@@ -37,22 +37,22 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       <section className="relative w-full py-24 sm:py-32 lg:py-40 px-4 sm:px-6 bg-brand-navy overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(191,155,48,0.08),transparent_70%)]" />
         <div className="relative max-w-4xl mx-auto text-center space-y-8">
-          <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full text-[10px] font-bold text-brand-gold uppercase tracking-widest">
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full text-[10px] font-bold text-brand-gold uppercase tracking-widest break-keep">
             <Building2 className="w-3.5 h-3.5" />
             {t.hero.badge}
           </span>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight break-keep">
             {t.hero.h1} <span className="text-brand-gold">{t.hero.h1Highlight}</span>
           </h1>
-          <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-light">{t.hero.intro}</p>
+          <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-light break-keep">{t.hero.intro}</p>
         </div>
       </section>
 
       {/* What is AetherHeal */}
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8">{t.whatIsAetherheal.title}</h2>
-          <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">{t.whatIsAetherheal.title}</h2>
+          <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8] break-keep">
             <p>{t.whatIsAetherheal.p1}</p>
             <p>{t.whatIsAetherheal.p2}</p>
           </div>
@@ -67,8 +67,8 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
                   {i < t.whatIsAetherheal.layers.length - 1 && <div className="w-px flex-1 bg-brand-gold/20" />}
                 </div>
                 <div className="pb-8">
-                  <h3 className="font-serif text-lg text-brand-navy font-semibold">{layer.label}</h3>
-                  <p className="text-sm text-text-muted mt-1">{layer.detail}</p>
+                  <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{layer.label}</h3>
+                  <p className="text-sm text-text-muted mt-1 break-keep">{layer.detail}</p>
                 </div>
               </div>
             ))}
@@ -79,7 +79,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       {/* Benefits */}
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
         <div className="max-w-5xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-12 text-center">{t.benefits.title}</h2>
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-12 text-center break-keep">{t.benefits.title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {t.benefits.items.map((item: { title: string; description: string }, i: number) => {
               const Icon = benefitIcons[i % benefitIcons.length]
@@ -88,8 +88,8 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
                   <div className="w-11 h-11 rounded-2xl bg-brand-gold/10 flex items-center justify-center mb-5">
                     <Icon className="w-5 h-5 text-brand-gold" />
                   </div>
-                  <h3 className="font-serif text-xl text-brand-navy font-semibold mb-3">{item.title}</h3>
-                  <p className="text-sm text-text-body leading-relaxed">{item.description}</p>
+                  <h3 className="font-serif text-xl text-brand-navy font-semibold mb-3 break-keep">{item.title}</h3>
+                  <p className="text-sm text-text-body leading-relaxed break-keep">{item.description}</p>
                 </div>
               )
             })}
@@ -100,8 +100,8 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       {/* Trust Process */}
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{t.trustProcess.title}</h2>
-          <p className="text-lg text-text-muted mb-12 leading-relaxed">{t.trustProcess.intro}</p>
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.trustProcess.title}</h2>
+          <p className="text-lg text-text-muted mb-12 leading-relaxed break-keep">{t.trustProcess.intro}</p>
 
           <div className="space-y-6">
             {t.trustProcess.steps.map((step: { title: string; description: string }, i: number) => {
@@ -117,9 +117,9 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
                   <div className="pb-4">
                     <div className="flex items-center gap-3 mb-2">
                       <span className="text-[10px] font-bold text-brand-gold uppercase tracking-widest">STEP {i + 1}</span>
-                      <h3 className="font-serif text-lg text-brand-navy font-semibold">{step.title}</h3>
+                      <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{step.title}</h3>
                     </div>
-                    <p className="text-sm text-text-body leading-relaxed">{step.description}</p>
+                    <p className="text-sm text-text-body leading-relaxed break-keep">{step.description}</p>
                   </div>
                 </div>
               )
@@ -131,15 +131,15 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       {/* Expectations */}
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{t.expectations.title}</h2>
-          <p className="text-lg text-text-muted mb-10 leading-relaxed">{t.expectations.intro}</p>
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.expectations.title}</h2>
+          <p className="text-lg text-text-muted mb-10 leading-relaxed break-keep">{t.expectations.intro}</p>
 
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
             <ul className="space-y-4">
               {t.expectations.items.map((item: string) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" />
-                  <span className="text-sm text-text-body leading-relaxed">{item}</span>
+                  <span className="text-sm text-text-body leading-relaxed break-keep">{item}</span>
                 </li>
               ))}
             </ul>
@@ -150,19 +150,19 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       {/* CTA */}
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-brand-navy">
         <div className="max-w-3xl mx-auto text-center space-y-8">
-          <h2 className="font-serif text-3xl sm:text-4xl text-white">{t.cta.title}</h2>
-          <p className="text-slate-300 text-lg leading-relaxed">{t.cta.description}</p>
+          <h2 className="font-serif text-3xl sm:text-4xl text-white break-keep">{t.cta.title}</h2>
+          <p className="text-slate-300 text-lg leading-relaxed break-keep">{t.cta.description}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={`mailto:${t.cta.email}?subject=AetherHeal 파트너 문의`}
-              className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-brand-navy bg-brand-gold rounded-full hover:bg-brand-gold/90 transition-all hover:shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-brand-navy bg-brand-gold rounded-full hover:bg-brand-gold/90 transition-all hover:shadow-lg break-keep"
             >
               {t.cta.buttonText}
               <ArrowRight className="w-4 h-4" />
             </a>
             <Link
               href={`${prefix}/our-philosophy`}
-              className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-white border border-white/20 rounded-full hover:bg-white/5 transition-all"
+              className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-white border border-white/20 rounded-full hover:bg-white/5 transition-all break-keep"
             >
               우리의 철학 읽기
               <ArrowRight className="w-4 h-4" />
