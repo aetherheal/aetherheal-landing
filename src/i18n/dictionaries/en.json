@@ -4,7 +4,7 @@
       "howItWorks": "How It Works",
       "exploreFramework": "Explore",
       "trustSafety": "Trust Protocol",
-      "ourPhilosophy": "Our Philosophy",
+      "ourPhilosophy": "Why We Exist",
       "signIn": "Sign in",
       "beginJourney": "Begin Journey",
       "blog": "Blog"
@@ -25,7 +25,7 @@
       "platformLinks": {
         "howItWorks": "How It Works",
         "trustProtocol": "Trust Protocol",
-        "ourPhilosophy": "Our Philosophy",
+        "ourPhilosophy": "Why We Exist",
         "medicalJourney": "Medical Journey",
         "explore": "Explore",
         "blog": "Blog"
@@ -583,7 +583,7 @@
   },
   "ourPhilosophy": {
     "meta": {
-      "title": "Our Philosophy | AetherHeal",
+      "title": "Why We Exist | AetherHeal",
       "description": "Why AetherHeal exists, how it is architecturally different from medical tourism agencies, and the structural foundations that make corruption impossible by design."
     },
     "hero": {

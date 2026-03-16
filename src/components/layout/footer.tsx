@@ -14,9 +14,10 @@ export function Footer({ dict, locale }: FooterProps) {
 
   const platformLinks = isKo
     ? [
-        { href: `${prefix}/for-partners`, label: "파트너 병원" },
-        { href: `${prefix}/for-investors`, label: "투자자" },
-        { href: `${prefix}/our-philosophy`, label: "우리의 철학" },
+        { href: `${prefix}/for-partners`, label: dict.nav.forPartners ?? "파트너 병원" },
+        { href: `${prefix}/for-investors`, label: dict.nav.forInvestors ?? "투자자" },
+        { href: `${prefix}/for-team`, label: dict.nav.forTeam ?? "팀" },
+        { href: `${prefix}/our-philosophy`, label: dict.nav.philosophy ?? "에테르힐 철학" },
       ]
     : [
         { href: `${prefix}/how-it-works`, label: dict.footer.platformLinks.howItWorks },

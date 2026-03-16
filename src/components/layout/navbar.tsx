@@ -24,16 +24,16 @@ export function Navbar({ dict, locale }: NavbarProps) {
 
   const navItems = isKo
     ? [
-        { href: `/${locale}/for-partners`, label: "파트너 병원" },
-        { href: `/${locale}/for-investors`, label: "투자자" },
-        { href: `/${locale}/for-team`, label: "팀" },
-        { href: `/${locale}/our-philosophy`, label: "에테르힐 철학" },
+        { href: `/${locale}/for-partners`, label: dict.nav.forPartners ?? "파트너 병원" },
+        { href: `/${locale}/for-investors`, label: dict.nav.forInvestors ?? "투자자" },
+        { href: `/${locale}/for-team`, label: dict.nav.forTeam ?? "팀" },
+        { href: `/${locale}/our-philosophy`, label: dict.nav.philosophy ?? "에테르힐 철학" },
       ]
     : [
         { href: `/${locale}/how-it-works`, label: dict.nav.howItWorks },
         { href: `/${locale}/explore`, label: dict.nav.exploreFramework },
-        { href: `/${locale}/trust-protocol`, label: dict.nav.trustSafety },
         { href: `/${locale}/our-philosophy`, label: dict.nav.ourPhilosophy },
+        { href: `/${locale}/trust-protocol`, label: dict.nav.trustSafety },
         { href: `/${locale}/blog`, label: dict.nav.blog },
       ]
 

@@ -263,6 +263,17 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-12 text-center break-keep">{t.traction.title}</h2>
+
+          {/* Current Stats */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+            {t.traction.currentStats.map((stat: { number: string; label: string }) => (
+              <div key={stat.label} className="rounded-2xl border border-emerald-200/50 bg-emerald-50/30 p-6 text-center">
+                <p className="font-serif text-3xl sm:text-4xl text-brand-navy font-bold mb-2 break-keep">{stat.number}</p>
+                <p className="text-[15px] font-medium text-slate-700 break-keep">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+
           <div className="space-y-4 max-w-2xl mx-auto">
             {t.traction.milestones.map((m: { status: string; text: string }, i: number) => (
               <div key={i} className="flex items-start gap-4">
@@ -309,6 +320,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-brand-navy">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="font-serif text-3xl sm:text-4xl text-white break-keep">{t.cta.title}</h2>
+          <p className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/15 rounded-full text-[13px] font-semibold text-brand-gold tracking-wide break-keep">{t.cta.stage}</p>
           <p className="text-slate-300 text-lg leading-relaxed break-keep">{t.cta.description}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
