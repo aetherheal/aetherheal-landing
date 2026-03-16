@@ -95,6 +95,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.locale-ko {
+  font-family: var(--font-noto-sans-kr), var(--font-inter), sans-serif;
+}
+
+.locale-ko .font-serif {
+  font-family: var(--font-noto-serif-kr), var(--font-playfair), serif;
+}
+
 ::selection {
   background-color: color-mix(in srgb, var(--color-brand-gold) 35%, white);
   color: var(--color-text-deep);

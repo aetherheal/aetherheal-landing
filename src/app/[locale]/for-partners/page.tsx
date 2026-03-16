@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake } from "lucide-react"
+import { ArrowRight, Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake, XCircle, Monitor, UserCheck, Globe, Bot } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
@@ -44,7 +44,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight break-keep">
             {t.hero.h1} <span className="text-brand-gold">{t.hero.h1Highlight}</span>
           </h1>
-          <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-light break-keep">{t.hero.intro}</p>
+          <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed break-keep">{t.hero.intro}</p>
         </div>
       </section>
 
@@ -52,7 +52,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">{t.whatIsAetherheal.title}</h2>
-          <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8] break-keep">
+          <div className="space-y-6 text-lg text-slate-700 leading-[1.8] break-keep">
             <p>{t.whatIsAetherheal.p1}</p>
             <p>{t.whatIsAetherheal.p2}</p>
           </div>
@@ -68,10 +68,55 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
                 </div>
                 <div className="pb-8">
                   <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{layer.label}</h3>
-                  <p className="text-sm text-text-muted mt-1 break-keep">{layer.detail}</p>
+                  <p className="text-[15px] text-slate-600 mt-1 break-keep">{layer.detail}</p>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Market Problem — Lemon Market */}
+      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">{t.marketProblem.title}</h2>
+          <div className="space-y-5">
+            <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed break-keep">{t.marketProblem.p1}</p>
+            <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed break-keep">{t.marketProblem.p2}</p>
+            <p className="text-[15px] sm:text-base text-brand-navy font-medium leading-relaxed break-keep">{t.marketProblem.p3}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison */}
+      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.comparison.title}</h2>
+          <p className="text-[15px] text-slate-700 text-center mb-12 break-keep">{t.comparison.subtitle}</p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-slate-200">
+            <div className="bg-red-50/80 p-7 sm:p-8 border-b md:border-b-0 md:border-r border-slate-200">
+              <h3 className="text-[11px] font-bold uppercase tracking-widest text-red-600 mb-6 break-keep">{t.comparison.oldLabel}</h3>
+              <ul className="space-y-4">
+                {t.comparison.oldItems.map((item: string) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
+                    <span className="text-[15px] text-slate-700 leading-relaxed break-keep">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-emerald-50/80 p-7 sm:p-8">
+              <h3 className="text-[11px] font-bold uppercase tracking-widest text-emerald-600 mb-6 break-keep">{t.comparison.newLabel}</h3>
+              <ul className="space-y-4">
+                {t.comparison.newItems.map((item: string) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                    <span className="text-[15px] text-slate-700 leading-relaxed break-keep">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -89,7 +134,53 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
                     <Icon className="w-5 h-5 text-brand-gold" />
                   </div>
                   <h3 className="font-serif text-xl text-brand-navy font-semibold mb-3 break-keep">{item.title}</h3>
-                  <p className="text-sm text-text-body leading-relaxed break-keep">{item.description}</p>
+                  <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{item.description}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Provided */}
+      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.provided.title}</h2>
+          <p className="text-[15px] text-slate-700 text-center mb-12 break-keep">{t.provided.subtitle}</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {t.provided.items.map((item: { title: string; description: string }, i: number) => {
+              const icons = [Monitor, UserCheck, Globe]
+              const Icon = icons[i % icons.length]
+              return (
+                <div key={item.title} className="rounded-2xl border border-slate-200 bg-bg-light p-7">
+                  <div className="w-11 h-11 rounded-2xl bg-brand-navy flex items-center justify-center mb-5">
+                    <Icon className="w-5 h-5 text-brand-gold" />
+                  </div>
+                  <h3 className="font-serif text-lg text-brand-navy font-semibold mb-3 break-keep">{item.title}</h3>
+                  <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{item.description}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Agent Tech Benefits */}
+      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.agentTech.title}</h2>
+          <p className="text-[15px] text-slate-700 text-center mb-12 break-keep">{t.agentTech.subtitle}</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {t.agentTech.items.map((item: { title: string; description: string }, i: number) => {
+              const icons = [Bot, Globe, Activity]
+              const Icon = icons[i % icons.length]
+              return (
+                <div key={item.title} className="rounded-2xl border border-brand-gold/20 bg-white p-7 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.1)]">
+                  <div className="w-11 h-11 rounded-2xl bg-brand-gold/10 flex items-center justify-center mb-5">
+                    <Icon className="w-5 h-5 text-brand-gold" />
+                  </div>
+                  <h3 className="font-serif text-lg text-brand-navy font-semibold mb-3 break-keep">{item.title}</h3>
+                  <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{item.description}</p>
                 </div>
               )
             })}
@@ -101,7 +192,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.trustProcess.title}</h2>
-          <p className="text-lg text-text-muted mb-12 leading-relaxed break-keep">{t.trustProcess.intro}</p>
+          <p className="text-lg text-slate-700 mb-12 leading-relaxed break-keep">{t.trustProcess.intro}</p>
 
           <div className="space-y-6">
             {t.trustProcess.steps.map((step: { title: string; description: string }, i: number) => {
@@ -119,7 +210,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
                       <span className="text-[10px] font-bold text-brand-gold uppercase tracking-widest">STEP {i + 1}</span>
                       <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{step.title}</h3>
                     </div>
-                    <p className="text-sm text-text-body leading-relaxed break-keep">{step.description}</p>
+                    <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{step.description}</p>
                   </div>
                 </div>
               )
@@ -132,14 +223,14 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
       <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.expectations.title}</h2>
-          <p className="text-lg text-text-muted mb-10 leading-relaxed break-keep">{t.expectations.intro}</p>
+          <p className="text-lg text-slate-700 mb-10 leading-relaxed break-keep">{t.expectations.intro}</p>
 
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
             <ul className="space-y-4">
               {t.expectations.items.map((item: string) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" />
-                  <span className="text-sm text-text-body leading-relaxed break-keep">{item}</span>
+                  <span className="text-[15px] text-slate-700 leading-relaxed break-keep">{item}</span>
                 </li>
               ))}
             </ul>

@@ -42,9 +42,9 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
             {t.hero.h1}{" "}
             <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
           </h1>
-          <div className="max-w-3xl space-y-6 text-lg sm:text-xl text-slate-600 font-light leading-[1.8]">
+          <div className="max-w-3xl space-y-6 text-lg sm:text-xl text-slate-700 leading-[1.8] break-keep">
             <p className="text-xl sm:text-2xl font-serif text-brand-navy leading-relaxed">{t.hero.intro}</p>
-            <p className="text-sm text-text-muted">{t.hero.disclaimer}</p>
+            <p className="text-[15px] text-slate-600">{t.hero.disclaimer}</p>
           </div>
         </div>
       </section>
@@ -99,7 +99,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
                   {t.theProblem.title}
                 </h2>
-                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theProblem.p1}</p>
                   <p>{t.theProblem.p2}</p>
 
@@ -136,7 +136,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
                   {t.theArchitecture.title}
                 </h2>
-                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theArchitecture.p1}</p>
                   <p>{t.theArchitecture.p2}</p>
 
@@ -205,7 +205,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
                   {t.theIncentive.title}
                 </h2>
-                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theIncentive.p1}</p>
 
                   {/* Fee Comparison Table */}
@@ -271,7 +271,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
                   {t.theAiBoundary.title}
                 </h2>
-                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theAiBoundary.p1}</p>
                   <p>{t.theAiBoundary.p2}</p>
                   <p>{t.theAiBoundary.p3}</p>
@@ -292,7 +292,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
                   {t.theFounder.title}
                 </h2>
-                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
 
                   {/* Founder Timeline */}
                   <div className="rounded-3xl bg-slate-50/80 border border-slate-100 p-6 sm:p-8">

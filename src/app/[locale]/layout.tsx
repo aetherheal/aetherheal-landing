@@ -126,7 +126,7 @@ export default async function LocaleLayout({
         }}
       />
       <ScrollToTop />
-      <div className="flex flex-col min-h-full">
+      <div className={`flex flex-col min-h-full ${locale === "ko" ? "locale-ko" : ""}`}>
         <Navbar dict={dict.common} locale={locale as Locale} />
         <main id="main-content" className="flex-1">{children}</main>
         <Footer dict={dict.common} locale={locale as Locale} />

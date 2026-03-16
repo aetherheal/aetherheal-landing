@@ -26,7 +26,8 @@ export function Navbar({ dict, locale }: NavbarProps) {
     ? [
         { href: `/${locale}/for-partners`, label: "파트너 병원" },
         { href: `/${locale}/for-investors`, label: "투자자" },
-        { href: `/${locale}/our-philosophy`, label: "우리의 철학" },
+        { href: `/${locale}/for-team`, label: "팀" },
+        { href: `/${locale}/our-philosophy`, label: "에테르힐 철학" },
       ]
     : [
         { href: `/${locale}/how-it-works`, label: dict.nav.howItWorks },
@@ -89,16 +90,18 @@ export function Navbar({ dict, locale }: NavbarProps) {
               })}
             </div>
 
-            <div className="hidden lg:block w-px h-5 bg-slate-200 mr-2" />
+            {!isKo && <div className="hidden lg:block w-px h-5 bg-slate-200 mr-2" />}
 
-            <a
-              href={isKo ? "mailto:drjeeju@aetherheal.com" : "https://app.aetherheal.com/sign-in"}
-              target={isKo ? undefined : "_blank"}
-              rel={isKo ? undefined : "noopener noreferrer"}
-              className="hidden lg:inline-flex items-center px-3 py-2 text-[13px] tracking-wide font-medium text-text-muted hover:text-brand-navy rounded-full transition-all duration-200 hover:bg-slate-50"
-            >
-              {dict.nav.signIn}
-            </a>
+            {!isKo && (
+              <a
+                href="https://app.aetherheal.com/sign-in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden lg:inline-flex items-center px-3 py-2 text-[13px] tracking-wide font-medium text-text-muted hover:text-brand-navy rounded-full transition-all duration-200 hover:bg-slate-50"
+              >
+                {dict.nav.signIn}
+              </a>
+            )}
 
             <a
               href={isKo ? "mailto:drjeeju@aetherheal.com?subject=AetherHeal 문의" : "https://app.aetherheal.com/transition"}
@@ -183,14 +186,16 @@ export function Navbar({ dict, locale }: NavbarProps) {
             })}
 
             <div className="pt-3 mt-3 border-t border-slate-100 space-y-2">
-              <a
-                href={isKo ? "mailto:drjeeju@aetherheal.com" : "https://app.aetherheal.com/sign-in"}
-                target={isKo ? undefined : "_blank"}
-                rel={isKo ? undefined : "noopener noreferrer"}
-                className="block px-4 py-2.5 text-sm font-medium text-text-muted hover:text-brand-navy rounded-lg transition-colors"
-              >
-                {dict.nav.signIn}
-              </a>
+              {!isKo && (
+                <a
+                  href="https://app.aetherheal.com/sign-in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-2.5 text-sm font-medium text-text-muted hover:text-brand-navy rounded-lg transition-colors"
+                >
+                  {dict.nav.signIn}
+                </a>
+              )}
               <a
                 href={isKo ? "mailto:drjeeju@aetherheal.com?subject=AetherHeal 문의" : "https://app.aetherheal.com/transition"}
                 target={isKo ? undefined : "_blank"}
