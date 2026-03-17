@@ -219,7 +219,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
                   <div className="rounded-2xl border border-slate-200 bg-white p-6">
                     <div className="flex items-center gap-3 mb-2">
                       <span className="text-[10px] font-bold text-brand-gold uppercase tracking-widest">{phase.label}</span>
-                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{phase.period}</span>
+                      {phase.period && <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{phase.period}</span>}
                     </div>
                     <h4 className="font-serif text-[15px] text-brand-navy font-semibold mb-1 break-keep">{phase.title}</h4>
                     <p className="text-[14px] text-slate-600 leading-relaxed break-keep">{phase.description}</p>

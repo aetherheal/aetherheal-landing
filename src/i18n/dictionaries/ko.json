@@ -449,10 +449,11 @@
       ],
       "phasesTitle": "기술 개발 로드맵",
       "phases": [
-        { "label": "Phase 0 — 인프라 세팅", "period": "2주", "title": "Agent 서비스 스캐폴딩 & API 계약", "description": "OpenClaw 기반 Agent 서비스 초기 세팅. 백엔드와 API 스펙 합의 및 Mock API 구축. 서비스 간 인증 방식 확정." },
-        { "label": "Phase 1 — MVP", "period": "4주", "title": "상담 트리아지 + 다국어 브릿지", "description": "핵심 상담 Agent 구현. 병원 DB 연동. 5개 언어 대화 지원. 랜딩 사이트에 채팅 위젯 삽입. 에스컬레이션 기본 플로우." },
-        { "label": "Phase 2 — 확장", "period": "4주", "title": "견적 조율 + 서류 자동화", "description": "가격 비교, 일정 슬롯 매칭. 국적별 서류 템플릿 자동 생성. 알림 시스템 연동." },
-        { "label": "Phase 3 — 고도화", "period": "6주", "title": "팔로업 모니터링 + 콘텐츠 생성", "description": "수술 후 이미지 기반 회복 모니터링. 블로그 콘텐츠 자동 생성 파이프라인. 전체 환자 여정 자동화 완성." }
+        { "label": "2025년 8월", "period": "", "title": "창업 및 설계 시작", "description": "에테르힐 창업. 플랫폼 아키텍처 설계, Trust Protocol 프레임워크 수립, AI Agent 초기 설계." },
+        { "label": "2026년 1월", "period": "", "title": "파트너 병원 모집 시작", "description": "분야별 최고의 파트너 병원 모집 개시. 모발이식, 성형 전분야, 지방흡입/지방재배치술, Eye Center(노안/백내장/녹내장/Vision Correction), 줄기세포, 피부미용의학, 로봇 수술, 여성의학, 어린이 치과(교정과), 성인 치과, 건강검진 등." },
+        { "label": "2026년 7월", "period": "", "title": "글로벌 마케팅 시작", "description": "동남아·중화권·일본·러시아권 등 타겟 시장별 마케팅 본격화. 다국어 콘텐츠 및 채널 확대." },
+        { "label": "2026년 10월", "period": "", "title": "베타 오픈", "description": "AI Agent 상담 시스템, Angel Physician 검증 프로세스, 환자 대시보드 베타 런칭. 초기 글로벌 환자 코호트 온보딩." },
+        { "label": "2027년 1월", "period": "", "title": "정식 오픈", "description": "전체 플랫폼 정식 서비스 개시. 파트너 병원 네트워크 운영, AI 기반 환자 여정 자동화 완성." }
       ]
     },
     "cta": {
