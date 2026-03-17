@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake, Monitor, UserCheck, Globe, Bot, Car, Workflow } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
-import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, ArchitectureDiagram, PatientFunnelDiagram, FlowComparisonDiagram } from "@/components/landing"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, ArchitectureDiagram, PatientFunnelDiagram } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -68,13 +68,14 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
 
       {/* Comparison */}
       <PageSection bg="light">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.comparison.title}</h2>
-          {t.comparison.subtitle && <p className="text-lg text-slate-700 text-center mb-10 break-keep">{t.comparison.subtitle}</p>}
-          <div className="rounded-2xl bg-brand-navy p-6 sm:p-8">
-            <FlowComparisonDiagram />
-          </div>
-        </div>
+        <ComparisonTable
+          title={t.comparison.title}
+          subtitle={t.comparison.subtitle}
+          oldLabel={t.comparison.oldLabel}
+          oldItems={t.comparison.oldItems}
+          newLabel={t.comparison.newLabel}
+          newItems={t.comparison.newItems}
+        />
       </PageSection>
 
       {/* Benefits */}
