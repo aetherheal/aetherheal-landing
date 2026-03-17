@@ -212,10 +212,10 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           <div className="mt-16 max-w-2xl mx-auto">
             <h3 className="font-serif text-2xl text-brand-navy mb-8 text-center break-keep">{t.traction.phasesTitle}</h3>
             <div className="relative pl-10">
-              <div className="absolute left-[15px] top-0 bottom-0 w-0.5 bg-brand-gold/20" />
+              <div className="absolute left-[14px] top-0 bottom-0 w-0.5 bg-brand-gold/20" />
               {t.traction.phases.map((phase: { label: string; period: string; title: string; description: string }) => (
                 <div key={phase.label} className="relative mb-8 last:mb-0">
-                  <div className="absolute -left-[25px] top-1 w-3 h-3 rounded-full bg-brand-gold border-[3px] border-bg-light" />
+                  <div className="absolute -left-[26px] top-6 w-3 h-3 rounded-full bg-brand-gold border-[3px] border-bg-light" />
                   <div className="rounded-2xl border border-slate-200 bg-white p-6">
                     <div className="flex items-center gap-3 mb-2">
                       <span className="text-[10px] font-bold text-brand-gold uppercase tracking-widest">{phase.label}</span>
