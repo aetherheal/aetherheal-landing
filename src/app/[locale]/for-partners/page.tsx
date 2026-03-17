@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Building2, CheckCircle2, Users, ShieldCheck, Activity, Handshake, Monitor, UserCheck, Globe, Bot, Car, Workflow } from "lucide-react"
+import { Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake, Monitor, UserCheck, Globe, Bot, Car, Workflow } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, ArchitectureDiagram, PatientFunnelDiagram } from "@/components/landing"
@@ -116,8 +116,34 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.trustProcess.title}</h2>
           <p className="text-lg text-slate-700 mb-12 leading-relaxed break-keep">{t.trustProcess.intro}</p>
 
-          <div className="rounded-2xl bg-brand-navy p-6 sm:p-8">
+          {/* Visual funnel diagram */}
+          <div className="rounded-2xl bg-brand-navy p-6 sm:p-8 mb-12">
             <PatientFunnelDiagram />
+          </div>
+
+          {/* Step-by-step detail */}
+          <div className="space-y-6">
+            {t.trustProcess.steps.map((step: { title: string; description: string }, i: number) => {
+              const stepIcons = [FileText, Search, Activity, ShieldCheck]
+              const Icon = stepIcons[i % stepIcons.length]
+              return (
+                <div key={step.title} className="flex gap-5 items-start">
+                  <div className="flex flex-col items-center">
+                    <div className="w-12 h-12 rounded-2xl bg-brand-navy flex items-center justify-center shrink-0">
+                      <Icon className="w-5 h-5 text-brand-gold" />
+                    </div>
+                    {i < t.trustProcess.steps.length - 1 && <div className="w-px h-6 bg-slate-200 mt-2" />}
+                  </div>
+                  <div className="pb-4">
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="text-[10px] font-bold text-brand-gold uppercase tracking-widest">STEP {i + 1}</span>
+                      <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{step.title}</h3>
+                    </div>
+                    <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{step.description}</p>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </PageSection>
