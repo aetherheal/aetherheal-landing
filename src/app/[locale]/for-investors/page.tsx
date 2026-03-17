@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ArrowRight, TrendingUp, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Car } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
-import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram, ArchitectureDiagram } from "@/components/landing"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram, ArchitectureDiagram, FlowComparisonDiagram } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -151,14 +151,13 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
 
       {/* Tech Comparison */}
       <PageSection bg="light">
-        <ComparisonTable
-          title={t.techComparison.title}
-          subtitle={t.techComparison.subtitle}
-          oldLabel={t.techComparison.oldLabel}
-          oldItems={t.techComparison.oldItems}
-          newLabel={t.techComparison.newLabel}
-          newItems={t.techComparison.newItems}
-        />
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.techComparison.title}</h2>
+          {t.techComparison.subtitle && <p className="text-lg text-slate-700 text-center mb-10 break-keep">{t.techComparison.subtitle}</p>}
+          <div className="rounded-2xl bg-brand-navy p-6 sm:p-8">
+            <FlowComparisonDiagram />
+          </div>
+        </div>
       </PageSection>
 
       {/* Team Link */}
