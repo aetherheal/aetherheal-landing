@@ -6,7 +6,7 @@ import { useState, useRef, useEffect } from "react"
 import { Globe, ChevronDown, Menu, X, ArrowRight } from "lucide-react"
 import { Logo } from "@/components/ui/logo"
 import { cn } from "@/lib/utils"
-import { locales, localeNames, localeShort, type Locale } from "@/i18n/config"
+import { locales, localeNames, localeShort, isRouteAvailableForLocale, type Locale } from "@/i18n/config"
 import type { Dictionary } from "@/i18n/get-dictionary"
 
 interface NavbarProps {
@@ -53,7 +53,10 @@ export function Navbar({ dict, locale }: NavbarProps) {
 
   function switchLocale(newLocale: Locale) {
     const pathWithoutLocale = pathname.replace(`/${locale}`, "") || "/"
-    const newPath = `/${newLocale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`
+    const canNavigate = isRouteAvailableForLocale(pathWithoutLocale, newLocale)
+    const newPath = canNavigate
+      ? `/${newLocale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`
+      : `/${newLocale}`
     window.location.href = newPath
   }
 

@@ -31,3 +31,35 @@ export const ogLocales: Record<Locale, string> = {
   ru: "ru_RU",
   ko: "ko_KR",
 }
+
+const koOnlyRoutes = ["/for-partners", "/for-investors", "/for-team"]
+
+const patientOnlyRoutes = [
+  "/how-it-works",
+  "/explore",
+  "/trust-protocol",
+  "/blog",
+  "/how-to-choose-hospital-abroad",
+  "/aesthetic-clinic-seoul",
+  "/hair-transplant-korea",
+  "/plastic-surgery-korea",
+  "/medical-journey",
+  "/medical-boundary",
+  "/privacy-policy",
+  "/terms-of-service",
+  "/payment-refund-policy",
+]
+
+export function isRouteAvailableForLocale(path: string, locale: Locale): boolean {
+  const normalized = path.startsWith("/") ? path : `/${path}`
+  const segment = `/${normalized.split("/").filter(Boolean)[0] ?? ""}`
+
+  if (segment === "/") return true
+
+  if (koOnlyRoutes.includes(segment)) return locale === "ko"
+  if (patientOnlyRoutes.some((r) => segment.startsWith(r))) {
+    return (patientLocales as readonly string[]).includes(locale)
+  }
+
+  return true
+}
