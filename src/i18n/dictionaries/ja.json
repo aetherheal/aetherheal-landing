@@ -6,7 +6,7 @@
       "trustSafety": "Trust Protocol",
       "ourPhilosophy": "私たちが存在する理由",
       "signIn": "ログイン",
-      "beginJourney": "旅を始める",
+      "beginJourney": "ジャーニーを始めましょう",
       "blog": "ブログ"
     },
     "footer": {
@@ -59,7 +59,7 @@
       "descriptionEnd": "韓国での病院選択、ジャーニー実行、継続性計画の前に。",
       "disclaimer": "AIがプロセスを支援します。医師が権限を保持します。診断なし。治療なし。",
       "ctaHowItWorks": "仕組みを見る",
-      "ctaExplore": "探し始める"
+      "ctaExplore": "探索を始める"
     },
     "problemQuote": {
       "q1": "ほとんどのプラットフォームは、意思決定を構造化する前に紹介を最適化します。",
@@ -295,7 +295,7 @@
       "title": "決断前の自信",
       "subtitle": "いかなる病院のパスにコミットする前に、医師主導、AI支援のプロセスをご覧ください。",
       "ctaHowItWorks": "仕組み",
-      "ctaExplore": "探し始める",
+      "ctaExplore": "探索を始める",
       "signature": "Dr. Jee Hoon Ju"
     }
   },
@@ -313,7 +313,7 @@
       "descriptionHighlight": "before",
       "descriptionEnd": "病院へのコミットメント、ロジスティクス、治療後の継続性の前に。",
       "disclaimer": "AI支援。医師が承認。診断、治療、緊急医療ではありません。",
-      "ctaPrimary": "意思決定の旅を始める",
+      "ctaPrimary": "意思決定の旅を始めましょう",
       "ctaSecondary": "フレームワークを探る"
     },
     "angelRole": {
@@ -576,7 +576,7 @@
     "cta": {
       "title": "意思決定を",
       "titleHighlight": "整理する準備はできましたか？",
-      "ctaPrimary": "意思決定の旅を始める",
+      "ctaPrimary": "意思決定の旅を始めましょう",
       "ctaSecondary": "フレームワークを探る",
       "disclaimer": "AI支援。医師が承認。診断なし。治療なし。"
     }
