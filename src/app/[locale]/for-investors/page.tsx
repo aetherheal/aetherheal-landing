@@ -213,7 +213,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             <h3 className="font-serif text-2xl text-brand-navy mb-8 text-center break-keep">{t.traction.phasesTitle}</h3>
             <div className="relative pl-10">
               <div className="absolute left-[14px] top-0 bottom-0 w-0.5 bg-brand-gold/20" />
-              {t.traction.phases.map((phase: { label: string; period: string; title: string; description: string }) => (
+              {t.traction.phases.map((phase: { label: string; period: string; title: string; description: string; details?: string[] }) => (
                 <div key={phase.label} className="relative mb-8 last:mb-0">
                   <div className="absolute -left-[26px] top-6 w-3 h-3 rounded-full bg-brand-gold border-[3px] border-bg-light" />
                   <div className="rounded-2xl border border-slate-200 bg-white p-6">
@@ -223,6 +223,13 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
                     </div>
                     <h4 className="font-serif text-[15px] text-brand-navy font-semibold mb-1 break-keep">{phase.title}</h4>
                     <p className="text-[14px] text-slate-600 leading-relaxed break-keep">{phase.description}</p>
+                    {phase.details && phase.details.length > 0 && (
+                      <div className="flex flex-wrap gap-2 mt-3">
+                        {phase.details.map((d: string) => (
+                          <span key={d} className="inline-block px-2.5 py-1 rounded-lg bg-bg-light text-[12px] text-slate-600 border border-slate-100">{d}</span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}

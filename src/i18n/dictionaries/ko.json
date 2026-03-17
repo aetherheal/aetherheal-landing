@@ -449,11 +449,31 @@
       ],
       "phasesTitle": "기술 개발 로드맵",
       "phases": [
-        { "label": "2025년 8월", "period": "", "title": "창업 및 설계 시작", "description": "에테르힐 창업. 플랫폼 아키텍처 설계, Trust Protocol 프레임워크 수립, AI Agent 초기 설계." },
-        { "label": "2026년 1월", "period": "", "title": "파트너 병원 모집 시작", "description": "분야별 최고의 파트너 병원 모집 개시. 모발이식, 성형 전분야, 지방흡입/지방재배치술, Eye Center(노안/백내장/녹내장/Vision Correction), 줄기세포, 피부미용의학, 로봇 수술, 여성의학, 어린이 치과(교정과), 성인 치과, 건강검진 등." },
-        { "label": "2026년 7월", "period": "", "title": "글로벌 마케팅 시작", "description": "Primary Target: 영어권 국가(미국, 캐나다, 영국, 호주 등). Secondary Expansion: 중국. 다국어 콘텐츠 및 채널 확대." },
-        { "label": "2026년 10월", "period": "", "title": "베타 오픈", "description": "AI Agent 상담 시스템, Angel Physician 검증 프로세스, 환자 대시보드 베타 런칭. 초기 글로벌 환자 코호트 온보딩." },
-        { "label": "2027년 1월", "period": "", "title": "정식 오픈", "description": "전체 플랫폼 정식 서비스 개시. 파트너 병원 네트워크 운영, AI 기반 환자 여정 자동화 완성." }
+        {
+          "label": "2025년 8월", "period": "", "title": "창업 및 설계 시작",
+          "description": "에테르힐 창업. 플랫폼 아키텍처 설계, Trust Protocol 프레임워크 수립, AI Agent 초기 설계.",
+          "details": []
+        },
+        {
+          "label": "2026년 1월", "period": "", "title": "파트너 병원 모집 시작",
+          "description": "분야별 최고의 파트너 병원 모집 개시.",
+          "details": ["모발이식", "성형 전분야", "지방흡입 / 지방재배치술", "Eye Center (노안 · 백내장 · 녹내장 · Vision Correction)", "줄기세포", "피부미용의학", "로봇 수술", "여성의학", "어린이 치과 (교정과)", "성인 치과", "건강검진"]
+        },
+        {
+          "label": "2026년 7월", "period": "", "title": "글로벌 마케팅 시작",
+          "description": "다국어 콘텐츠 및 채널 확대.",
+          "details": ["Primary Target — 영어권 국가 (미국, 캐나다, 영국, 호주 등)", "Secondary Expansion — 중국"]
+        },
+        {
+          "label": "2026년 10월", "period": "", "title": "베타 오픈",
+          "description": "초기 글로벌 환자 코호트 온보딩.",
+          "details": ["AI Agent 상담 시스템", "Angel Physician 검증 프로세스", "환자 대시보드 베타 런칭"]
+        },
+        {
+          "label": "2027년 1월", "period": "", "title": "정식 오픈",
+          "description": "전체 플랫폼 정식 서비스 개시.",
+          "details": ["파트너 병원 네트워크 정식 운영", "AI 기반 환자 여정 자동화 완성"]
+        }
       ]
     },
     "cta": {
