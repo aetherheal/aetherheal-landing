@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, TrendingUp, AlertTriangle, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, FileText, XCircle, Cpu, ArrowDown, Car } from "lucide-react"
+import { ArrowRight, TrendingUp, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, Cpu, ArrowDown, Car } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
-import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection } from "@/components/landing"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -68,20 +68,13 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             <p>{t.problem.p2}</p>
           </div>
 
-          <div className="rounded-2xl border border-red-200/60 bg-white p-6 sm:p-8">
-            <div className="flex items-center gap-3 mb-6">
-              <AlertTriangle className="w-5 h-5 text-red-500" />
-              <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{t.problem.cycleLabel}</h3>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {t.problem.cycle.map((step: string, i: number) => (
-                <div key={i} className="flex items-start gap-3 p-3 rounded-xl bg-red-50/50">
-                  <span className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center shrink-0 text-xs font-bold text-red-600">{i + 1}</span>
-                  <span className="text-[15px] text-text-deep font-medium leading-relaxed break-keep">{step}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+          <LemonCycleDiagram
+            steps={t.problem.cycleSteps}
+            label={t.problem.cycleLabel}
+            subLabel={t.problem.cycleSubLabel}
+            caption={t.problem.cycleCaption}
+            captionSub={t.problem.cycleCaptionSub}
+          />
         </div>
       </PageSection>
 
