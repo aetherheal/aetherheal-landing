@@ -71,8 +71,9 @@ export default async function HomePage({
   return (
     <div className="min-h-full">
       <link rel="preload" as="video" href="/assets/hero-bg.mp4" type="video/mp4" />
-      {/* Hero: Video + Content (overlapping on desktop) */}
-      <section className="relative w-full">
+
+      {/* Desktop: Video + overlaid hero content */}
+      <section className="hidden md:block relative w-full">
         <div className="w-full max-h-[95vh] overflow-hidden">
           <video
             autoPlay
@@ -87,8 +88,7 @@ export default async function HomePage({
           </video>
         </div>
 
-        {/* Desktop: overlay on video */}
-        <div className="hidden md:block absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-40 pb-20 px-4">
+        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/95 to-transparent pt-40 pb-20 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center max-w-4xl mx-auto space-y-8">
             <div className="animate-fade-up">
@@ -132,7 +132,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Mobile: hero content below video */}
+      {/* Mobile: hero text first, then video */}
       <section className="md:hidden w-full py-14 px-4 bg-white">
         <div className="text-center max-w-4xl mx-auto space-y-5">
           <div className="animate-fade-up">
@@ -172,6 +172,21 @@ export default async function HomePage({
             </Link>
           </div>
         </div>
+      </section>
+
+      {/* Mobile: video after hero text */}
+      <section className="md:hidden w-full overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="/assets/hero-poster.jpg"
+          aria-label="AetherHeal brand video — physician-led medical journey to Seoul"
+          className="w-full h-auto block"
+        >
+          <source src="/assets/hero-bg.mp4" type="video/mp4" />
+        </video>
       </section>
 
       {/* Problem Quote */}
