@@ -28,6 +28,9 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
   const t = dict.ourPhilosophy
   const prefix = `/${locale}`
 
+  const isKo = locale === "ko"
+  const howItWorksPrefix = isKo ? "/en" : prefix
+
   return (
     <div className="min-h-full bg-white">
       {/* Hero */}
@@ -279,7 +282,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                     <p className="font-serif text-lg sm:text-xl text-brand-navy leading-relaxed italic mb-4">
                       {t.theAiBoundary.callout}
                     </p>
-                    <Link href={`/${locale}/how-it-works#ai-assistance`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors">
+                    <Link href={`${howItWorksPrefix}/how-it-works#ai-assistance`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors">
                       {t.theAiBoundary.ctaHowItWorks ?? "See the full AI governance breakdown"}
                       <ArrowRight className="w-4 h-4" />
                     </Link>
@@ -344,7 +347,7 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 </div>
                 <div className="text-center">
                   <Link
-                    href={`${prefix}/how-it-works`}
+                    href={`${howItWorksPrefix}/how-it-works`}
                     className="inline-flex items-center gap-2 px-8 py-4 bg-brand-navy text-white text-sm font-semibold rounded-full hover:bg-brand-navy/90 transition-colors shadow-sm"
                   >
                     {t.closing.cta}

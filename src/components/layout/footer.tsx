@@ -41,11 +41,12 @@ export function Footer({ dict, locale }: FooterProps) {
         { href: `${prefix}/aesthetic-clinic-seoul`, label: dict.footer.guideLinks.aestheticClinics },
       ]
 
+  const legalPrefix = isKo ? "/en" : prefix
   const legalLinks = [
-    { href: `${prefix}/medical-boundary`, label: dict.footer.medicalBoundaryNotice },
-    { href: `${prefix}/terms-of-service`, label: dict.footer.termsOfService },
-    { href: `${prefix}/privacy-policy`, label: dict.footer.privacyPolicy },
-    { href: `${prefix}/payment-refund-policy`, label: dict.footer.paymentRefundPolicy },
+    { href: `${legalPrefix}/medical-boundary`, label: dict.footer.medicalBoundaryNotice },
+    { href: `${legalPrefix}/terms-of-service`, label: dict.footer.termsOfService },
+    { href: `${legalPrefix}/privacy-policy`, label: dict.footer.privacyPolicy },
+    { href: `${legalPrefix}/payment-refund-policy`, label: dict.footer.paymentRefundPolicy },
   ]
 
   return (
