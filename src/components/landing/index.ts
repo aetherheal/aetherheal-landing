@@ -1,0 +1,5 @@
+export { PageSection } from "./page-section"
+export { HeroSection } from "./hero-section"
+export { ComparisonTable } from "./comparison-table"
+export { CTASection } from "./cta-section"
+export { IconCardGrid } from "./icon-card-grid"

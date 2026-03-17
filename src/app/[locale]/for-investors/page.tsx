@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, TrendingUp, AlertTriangle, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, FileText, MessageSquare, XCircle, Cpu, ArrowDown, Car } from "lucide-react"
+import { ArrowRight, TrendingUp, AlertTriangle, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, FileText, XCircle, Cpu, ArrowDown, Car } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -21,9 +22,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 }
 
-const moatIcons = [ShieldCheck, Users, Bot, TrendingUp]
-const revenueIcons = [DollarSign, Target, Rocket, Car]
-
 export default async function ForInvestorsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
   const dict = await getDictionary(locale as Locale)
@@ -33,23 +31,16 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
 
   return (
     <div className="min-h-full">
-      {/* Hero */}
-      <section className="relative w-full py-24 sm:py-32 lg:py-40 px-4 sm:px-6 bg-brand-navy overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(191,155,48,0.08),transparent_70%)]" />
-        <div className="relative max-w-4xl mx-auto text-center space-y-8">
-          <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full text-[10px] font-bold text-brand-gold uppercase tracking-widest break-keep">
-            <TrendingUp className="w-3.5 h-3.5" />
-            {t.hero.badge}
-          </span>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-medium leading-tight break-keep">
-            {t.hero.h1} <span className="text-brand-gold">{t.hero.h1Highlight}</span>
-          </h1>
-          <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed break-keep">{t.hero.intro}</p>
-        </div>
-      </section>
+      <HeroSection
+        icon={TrendingUp}
+        badge={t.hero.badge}
+        h1={t.hero.h1}
+        h1Highlight={t.hero.h1Highlight}
+        intro={t.hero.intro}
+      />
 
       {/* Market Opportunity */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
+      <PageSection>
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">{t.market.title}</h2>
           <div className="space-y-6 text-lg text-slate-700 leading-[1.8] mb-12 break-keep">
@@ -66,10 +57,10 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             ))}
           </div>
         </div>
-      </section>
+      </PageSection>
 
       {/* Problem */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+      <PageSection bg="light">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">{t.problem.title}</h2>
           <div className="space-y-6 text-lg text-slate-700 leading-[1.8] mb-12 break-keep">
@@ -80,7 +71,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           <div className="rounded-2xl border border-red-200/60 bg-white p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
               <AlertTriangle className="w-5 h-5 text-red-500" />
-              <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">레몬 시장 사이클</h3>
+              <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{t.problem.cycleLabel}</h3>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {t.problem.cycle.map((step: string, i: number) => (
@@ -92,54 +83,31 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             </div>
           </div>
         </div>
-      </section>
+      </PageSection>
 
       {/* Business Model */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.model.title}</h2>
-          <p className="text-lg text-slate-700 leading-[1.8] mb-12 break-keep">{t.model.p1}</p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.model.revenue.map((item: { title: string; description: string }, i: number) => {
-              const Icon = revenueIcons[i % revenueIcons.length]
-              return (
-                <div key={item.title} className="rounded-2xl border border-slate-200 bg-bg-light p-7">
-                  <div className="w-11 h-11 rounded-2xl bg-brand-navy flex items-center justify-center mb-5">
-                    <Icon className="w-5 h-5 text-brand-gold" />
-                  </div>
-                  <h3 className="font-serif text-lg text-brand-navy font-semibold mb-3 break-keep">{item.title}</h3>
-                  <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{item.description}</p>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+      <PageSection>
+        <IconCardGrid
+          title={t.model.title}
+          subtitle={t.model.p1}
+          items={t.model.revenue}
+          icons={[DollarSign, Target, Rocket, Car]}
+          variant="navy"
+        />
+      </PageSection>
 
       {/* Competitive Moat */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-12 text-center break-keep">{t.moat.title}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.moat.items.map((item: { title: string; description: string }, i: number) => {
-              const Icon = moatIcons[i % moatIcons.length]
-              return (
-                <div key={item.title} className="rounded-2xl border border-slate-200 bg-white p-7 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.1)]">
-                  <div className="w-11 h-11 rounded-2xl bg-brand-gold/10 flex items-center justify-center mb-5">
-                    <Icon className="w-5 h-5 text-brand-gold" />
-                  </div>
-                  <h3 className="font-serif text-xl text-brand-navy font-semibold mb-3 break-keep">{item.title}</h3>
-                  <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{item.description}</p>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+      <PageSection bg="light">
+        <IconCardGrid
+          title={t.moat.title}
+          items={t.moat.items}
+          icons={[ShieldCheck, Users, Bot, TrendingUp]}
+          variant="gold"
+        />
+      </PageSection>
 
       {/* Technology Architecture */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-white border-b border-slate-100">
+      <PageSection>
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.technology.title}</h2>
           <p className="text-lg text-slate-700 leading-relaxed mb-12 break-keep">{t.technology.subtitle}</p>
@@ -210,61 +178,39 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{t.technology.angelPhysicianDescription}</p>
           </div>
         </div>
-      </section>
+      </PageSection>
 
       {/* Tech Comparison */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 text-center break-keep">{t.techComparison.title}</h2>
-          <p className="text-[15px] text-slate-700 text-center mb-12 break-keep">{t.techComparison.subtitle}</p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-slate-200">
-            <div className="bg-red-50/80 p-7 sm:p-8 border-b md:border-b-0 md:border-r border-slate-200">
-              <h3 className="text-[11px] font-bold uppercase tracking-widest text-red-600 mb-6 break-keep">{t.techComparison.oldLabel}</h3>
-              <ul className="space-y-4">
-                {t.techComparison.oldItems.map((item: string) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
-                    <span className="text-[15px] text-slate-700 leading-relaxed break-keep">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="bg-emerald-50/80 p-7 sm:p-8">
-              <h3 className="text-[11px] font-bold uppercase tracking-widest text-emerald-600 mb-6 break-keep">{t.techComparison.newLabel}</h3>
-              <ul className="space-y-4">
-                {t.techComparison.newItems.map((item: string) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
-                    <span className="text-[15px] text-slate-700 leading-relaxed break-keep">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageSection bg="light">
+        <ComparisonTable
+          title={t.techComparison.title}
+          subtitle={t.techComparison.subtitle}
+          oldLabel={t.techComparison.oldLabel}
+          oldItems={t.techComparison.oldItems}
+          newLabel={t.techComparison.newLabel}
+          newItems={t.techComparison.newItems}
+        />
+      </PageSection>
 
       {/* Team Link */}
-      <section className="w-full py-16 sm:py-20 px-4 sm:px-6 bg-white border-b border-slate-100">
+      <PageSection bg="white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.team.title}</h2>
           <Link
             href={`/${locale}/for-team`}
             className="inline-flex items-center gap-2 text-brand-navy font-medium hover:text-brand-gold transition-colors"
           >
-            팀 소개 보기
+            {t.team.viewTeam}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
-      </section>
+      </PageSection>
 
       {/* Traction & Roadmap */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+      <PageSection bg="light">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-12 text-center break-keep">{t.traction.title}</h2>
 
-          {/* Current Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
             {t.traction.currentStats.map((stat: { number: string; label: string }) => (
               <div key={stat.label} className="rounded-2xl border border-emerald-200/50 bg-emerald-50/30 p-6 text-center">
@@ -298,7 +244,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             <h3 className="font-serif text-2xl text-brand-navy mb-8 text-center break-keep">{t.traction.phasesTitle}</h3>
             <div className="relative pl-10">
               <div className="absolute left-[15px] top-0 bottom-0 w-0.5 bg-brand-gold/20" />
-              {t.traction.phases.map((phase: { label: string; period: string; title: string; description: string }, i: number) => (
+              {t.traction.phases.map((phase: { label: string; period: string; title: string; description: string }) => (
                 <div key={phase.label} className="relative mb-8 last:mb-0">
                   <div className="absolute -left-[25px] top-1 w-3 h-3 rounded-full bg-brand-gold border-[3px] border-bg-light" />
                   <div className="rounded-2xl border border-slate-200 bg-white p-6">
@@ -314,38 +260,20 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             </div>
           </div>
         </div>
-      </section>
+      </PageSection>
 
       {/* CTA */}
-      <section className="w-full py-20 sm:py-28 px-4 sm:px-6 bg-brand-navy">
-        <div className="max-w-3xl mx-auto text-center space-y-8">
-          <h2 className="font-serif text-3xl sm:text-4xl text-white break-keep">{t.cta.title}</h2>
-          <p className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/15 rounded-full text-[13px] font-semibold text-brand-gold tracking-wide break-keep">{t.cta.stage}</p>
-          <p className="text-slate-300 text-lg leading-relaxed break-keep">{t.cta.description}</p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href={`mailto:${t.cta.email}?subject=에테르힐 투자 문의`}
-              className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-brand-navy bg-brand-gold rounded-full hover:bg-brand-gold/90 transition-all hover:shadow-lg break-keep"
-            >
-              {t.cta.buttonText}
-              <ArrowRight className="w-4 h-4" />
-            </a>
-            <a
-              href={`mailto:${t.cta.email}?subject=에테르힐 사업계획서 요청`}
-              className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-white border border-white/20 rounded-full hover:bg-white/5 transition-all break-keep"
-            >
-              {t.cta.deckText}
-              <ArrowRight className="w-4 h-4" />
-            </a>
-          </div>
-          <div className="pt-8">
-            <Link href={`${prefix}/our-philosophy`} className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-brand-gold transition-colors break-keep">
-              에테르힐 철학 읽기
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t.cta.title}
+        description={t.cta.description}
+        primaryHref={`mailto:${t.cta.email}?subject=${dict.common.contactSubjects.investor}`}
+        primaryLabel={t.cta.buttonText}
+        secondaryHref={`mailto:${t.cta.email}?subject=${dict.common.contactSubjects.deck}`}
+        secondaryLabel={t.cta.deckText}
+        stage={t.cta.stage}
+        tertiaryHref={`${prefix}/our-philosophy`}
+        tertiaryLabel={dict.common.readPhilosophy}
+      />
     </div>
   )
 }

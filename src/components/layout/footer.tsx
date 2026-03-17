@@ -14,10 +14,10 @@ export function Footer({ dict, locale }: FooterProps) {
 
   const platformLinks = isKo
     ? [
-        { href: `${prefix}/for-partners`, label: dict.nav.forPartners ?? "파트너 병원" },
-        { href: `${prefix}/for-investors`, label: dict.nav.forInvestors ?? "투자자" },
-        { href: `${prefix}/for-team`, label: dict.nav.forTeam ?? "팀" },
-        { href: `${prefix}/our-philosophy`, label: dict.nav.philosophy ?? "에테르힐 철학" },
+        { href: `${prefix}/for-partners`, label: dict.nav.forPartners },
+        { href: `${prefix}/for-investors`, label: dict.nav.forInvestors },
+        { href: `${prefix}/for-team`, label: dict.nav.forTeam },
+        { href: `${prefix}/our-philosophy`, label: dict.nav.philosophy },
       ]
     : [
         { href: `${prefix}/how-it-works`, label: dict.footer.platformLinks.howItWorks },
@@ -30,9 +30,9 @@ export function Footer({ dict, locale }: FooterProps) {
 
   const guideLinks = isKo
     ? [
-        { href: "/en", label: "영문 환자용 사이트" },
-        { href: "/en/how-it-works", label: "How It Works (EN)" },
-        { href: "/en/trust-protocol", label: "Trust Protocol (EN)" },
+        { href: "/en", label: dict.footer.koGuideLinks?.englishSite ?? "영문 환자용 사이트" },
+        { href: "/en/how-it-works", label: dict.footer.koGuideLinks?.howItWorksEn ?? "How It Works (EN)" },
+        { href: "/en/trust-protocol", label: dict.footer.koGuideLinks?.trustProtocolEn ?? "Trust Protocol (EN)" },
       ]
     : [
         { href: `${prefix}/how-to-choose-hospital-abroad`, label: dict.footer.guideLinks.choosingHospital },
