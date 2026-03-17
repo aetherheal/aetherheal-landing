@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, TrendingUp, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Car } from "lucide-react"
+import { ArrowRight, TrendingUp, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
-import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram, ArchitectureDiagram } from "@/components/landing"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram, ArchitectureDiagram, RevenuePipelineDiagram } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -80,13 +80,16 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
 
       {/* Business Model */}
       <PageSection>
-        <IconCardGrid
-          title={t.model.title}
-          subtitle={t.model.p1}
-          items={t.model.revenue}
-          icons={[DollarSign, Target, Rocket, Car]}
-          variant="navy"
-        />
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.model.title}</h2>
+          <p className="text-lg text-slate-700 leading-relaxed mb-12 break-keep">{t.model.p1}</p>
+
+          <div className="rounded-2xl bg-brand-navy p-6 sm:p-8 mb-12">
+            <RevenuePipelineDiagram />
+          </div>
+
+          <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{t.model.p2}</p>
+        </div>
       </PageSection>
 
       {/* Competitive Moat */}
