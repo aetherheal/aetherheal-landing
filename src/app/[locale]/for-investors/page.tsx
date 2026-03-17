@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, TrendingUp, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Layers, Globe, Cpu, ArrowDown, Car } from "lucide-react"
+import { ArrowRight, TrendingUp, DollarSign, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, Target, Car } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
-import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram } from "@/components/landing"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram, ArchitectureDiagram } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -105,33 +105,9 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.technology.title}</h2>
           <p className="text-lg text-slate-700 leading-relaxed mb-12 break-keep">{t.technology.subtitle}</p>
 
-          {/* 3-Layer Diagram */}
-          <div className="max-w-3xl mx-auto mb-16">
-            {t.technology.layers.map((layer: { label: string; detail: string }, i: number) => {
-              const layerIcons = [Globe, Cpu, Layers]
-              const LayerIcon = layerIcons[i]
-              const isEngine = i === 1
-              return (
-                <div key={layer.label}>
-                  <div className={`rounded-2xl p-6 sm:p-7 ${isEngine ? "bg-brand-navy text-white border-2 border-brand-gold/30" : "bg-bg-light border border-slate-200"}`}>
-                    <div className="flex items-center gap-4">
-                      <div className={`w-11 h-11 rounded-2xl flex items-center justify-center shrink-0 ${isEngine ? "bg-brand-gold/20" : "bg-brand-gold/10"}`}>
-                        <LayerIcon className="w-5 h-5 text-brand-gold" />
-                      </div>
-                      <div>
-                        <h3 className={`font-serif text-lg font-semibold break-keep ${isEngine ? "text-white" : "text-brand-navy"}`}>{layer.label}</h3>
-                        <p className={`text-[15px] break-keep ${isEngine ? "text-white/80" : "text-slate-600"}`}>{layer.detail}</p>
-                      </div>
-                    </div>
-                  </div>
-                  {i < t.technology.layers.length - 1 && (
-                    <div className="flex justify-center py-2">
-                      <ArrowDown className="w-5 h-5 text-brand-gold/50" />
-                    </div>
-                  )}
-                </div>
-              )
-            })}
+          {/* 3-Layer Architecture Diagram */}
+          <div className="max-w-3xl mx-auto mb-16 rounded-2xl bg-brand-navy p-6 sm:p-8">
+            <ArchitectureDiagram />
           </div>
 
           {/* Agent Tasks */}

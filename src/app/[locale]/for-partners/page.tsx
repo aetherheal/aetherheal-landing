@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ArrowRight, Building2, CheckCircle2, Users, ShieldCheck, FileText, Search, Activity, Handshake, Monitor, UserCheck, Globe, Bot, Car, Workflow } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
-import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection } from "@/components/landing"
+import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, ArchitectureDiagram } from "@/components/landing"
 
 export function generateStaticParams() {
   return [{ locale: "ko" }]
@@ -50,21 +50,8 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
             <p>{t.whatIsAetherheal.p2}</p>
           </div>
 
-          <div className="mt-12 space-y-0">
-            {t.whatIsAetherheal.layers.map((layer: { label: string; detail: string }, i: number) => (
-              <div key={layer.label} className="flex items-stretch">
-                <div className="flex flex-col items-center mr-6">
-                  <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center shrink-0 z-10">
-                    <span className="text-sm font-bold text-brand-gold">{i + 1}</span>
-                  </div>
-                  {i < t.whatIsAetherheal.layers.length - 1 && <div className="w-px flex-1 bg-brand-gold/20" />}
-                </div>
-                <div className="pb-8">
-                  <h3 className="font-serif text-lg text-brand-navy font-semibold break-keep">{layer.label}</h3>
-                  <p className="text-[15px] text-slate-600 mt-1 break-keep">{layer.detail}</p>
-                </div>
-              </div>
-            ))}
+          <div className="mt-12 rounded-2xl bg-brand-navy p-6 sm:p-8">
+            <ArchitectureDiagram highlightStakeholder="partner" />
           </div>
         </div>
       </PageSection>
