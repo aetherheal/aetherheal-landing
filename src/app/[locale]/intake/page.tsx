@@ -48,7 +48,10 @@ export default function IntakePage() {
 
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: data.message ?? "Something went wrong. Please try again." },
+        {
+          role: "assistant",
+          content: data.message ?? "Something went wrong. Please try again.",
+        },
       ])
 
       if (data.completed) setCompleted(true)
@@ -71,19 +74,20 @@ export default function IntakePage() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-light flex flex-col">
-      {/* Header */}
-      <header className="w-full border-b border-slate-200 bg-white px-4 py-4">
-        <div className="max-w-2xl mx-auto flex items-center gap-3">
-          <div className="w-2 h-2 rounded-full bg-brand-gold" />
-          <span className="font-serif text-brand-navy text-lg">AetherHeal</span>
-          <span className="text-text-muted text-sm">· Initial Consultation</span>
+    <div className="flex flex-col h-full bg-bg-light">
+      {/* Top label */}
+      <div className="w-full border-b border-slate-200 bg-white px-4 py-3">
+        <div className="max-w-2xl mx-auto flex items-center gap-2">
+          <div className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
+          <span className="text-xs font-bold uppercase tracking-widest text-text-muted">
+            Initial Consultation · Hair Transplant
+          </span>
         </div>
-      </header>
+      </div>
 
-      {/* Messages */}
-      <main className="flex-1 overflow-y-auto px-4 py-8">
-        <div className="max-w-2xl mx-auto space-y-6">
+      {/* Messages — scrollable */}
+      <div className="flex-1 overflow-y-auto px-4 py-6">
+        <div className="max-w-2xl mx-auto space-y-5">
           {messages.map((msg, i) => (
             <div
               key={i}
@@ -101,7 +105,7 @@ export default function IntakePage() {
                 )}
               >
                 {msg.content.split("\n").map((line, j) => (
-                  <p key={j} className={j > 0 ? "mt-2" : ""}>
+                  <p key={j} className={j > 0 && line ? "mt-2" : j > 0 ? "mt-1" : ""}>
                     {line}
                   </p>
                 ))}
@@ -119,13 +123,13 @@ export default function IntakePage() {
 
           <div ref={bottomRef} />
         </div>
-      </main>
+      </div>
 
-      {/* Input */}
-      <footer className="border-t border-slate-200 bg-white px-4 py-4">
+      {/* Input — pinned to bottom */}
+      <div className="border-t border-slate-200 bg-white px-4 py-4">
         <div className="max-w-2xl mx-auto">
           {completed ? (
-            <div className="text-center py-3">
+            <div className="text-center py-2">
               <p className="text-sm text-text-muted font-medium">
                 Your intake is complete. A physician will be in touch within 24–48 hours.
               </p>
@@ -156,11 +160,11 @@ export default function IntakePage() {
               </button>
             </div>
           )}
-          <p className="text-[10px] text-text-muted text-center mt-3">
-            This is not a medical consultation. Information is reviewed by a physician before any response.
+          <p className="text-[10px] text-text-muted text-center mt-2">
+            Not a medical consultation. Information is reviewed by a physician before any response.
           </p>
         </div>
-      </footer>
+      </div>
     </div>
   )
 }
