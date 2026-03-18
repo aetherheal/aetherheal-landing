@@ -1,11 +1,12 @@
 import type { Metadata } from "next"
 import { Playfair_Display, Inter, Noto_Sans_KR, Noto_Serif_KR } from "next/font/google"
-import { locales, ogLocales, type Locale } from "@/i18n/config"
+import { locales, patientLocales, ogLocales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { Navbar } from "@/components/layout/navbar"
 import { Footer } from "@/components/layout/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { GoogleAnalytics } from "@/components/analytics/google-analytics"
+import { ChatWidget } from "@/components/chat/chat-widget"
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -156,6 +157,9 @@ export default async function LocaleLayout({
           <main id="main-content" className="flex-1">{children}</main>
           <Footer dict={dict.common} locale={locale as Locale} />
         </div>
+        {(patientLocales as readonly string[]).includes(locale) && (
+          <ChatWidget locale={locale} />
+        )}
       </body>
     </html>
   )
