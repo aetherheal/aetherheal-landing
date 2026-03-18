@@ -21,10 +21,14 @@ export default function IntakePage() {
   const [sessionId, setSessionId] = useState<string | null>(null)
   const [completed, setCompleted] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
+  const scrollContainerRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" })
+    const container = scrollContainerRef.current
+    if (container) {
+      container.scrollTop = container.scrollHeight
+    }
   }, [messages])
 
   const send = async () => {
@@ -74,7 +78,7 @@ export default function IntakePage() {
   }
 
   return (
-    <div className="flex flex-col h-full bg-bg-light">
+    <div className="flex flex-col flex-1 bg-bg-light overflow-hidden">
       {/* Top label */}
       <div className="w-full border-b border-slate-200 bg-white px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center gap-2">
@@ -86,7 +90,7 @@ export default function IntakePage() {
       </div>
 
       {/* Messages — scrollable */}
-      <div className="flex-1 overflow-y-auto px-4 py-6">
+      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-5">
           {messages.map((msg, i) => (
             <div
