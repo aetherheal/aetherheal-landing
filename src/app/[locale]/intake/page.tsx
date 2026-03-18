@@ -146,14 +146,8 @@ export default function IntakePage() {
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKey}
                 placeholder="Type your message…"
-                rows={1}
+                rows={2}
                 className="flex-1 resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-text-body placeholder:text-slate-400 focus:outline-none focus:border-brand-navy/30 focus:bg-white transition-colors"
-                style={{ maxHeight: "120px" }}
-                onInput={(e) => {
-                  const el = e.currentTarget
-                  el.style.height = "auto"
-                  el.style.height = `${el.scrollHeight}px`
-                }}
               />
               <button
                 onClick={send}
