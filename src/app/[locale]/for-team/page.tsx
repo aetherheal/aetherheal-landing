@@ -28,9 +28,9 @@ export default async function ForTeamPage({ params }: { params: Promise<{ locale
   if (!t) return null
 
   const roleColors: Record<string, { bg: string; text: string; accent: string }> = {
-    "Operational Leadership": { bg: "bg-brand-navy", text: "text-white", accent: "text-brand-gold" },
-    "Technology Leadership": { bg: "bg-slate-800", text: "text-white", accent: "text-emerald-400" },
-    "Architecture Leadership": { bg: "bg-slate-700", text: "text-white", accent: "text-sky-400" },
+    "의료 운영 리더십": { bg: "bg-brand-navy", text: "text-white", accent: "text-brand-gold" },
+    "기술 리더십": { bg: "bg-slate-800", text: "text-white", accent: "text-emerald-400" },
+    "서비스 설계 리더십": { bg: "bg-slate-700", text: "text-white", accent: "text-sky-400" },
   }
 
   return (
@@ -73,7 +73,7 @@ export default async function ForTeamPage({ params }: { params: Promise<{ locale
                   )}
 
                   <div className="border-t border-slate-200 pt-6">
-                    <h3 className="text-xs font-semibold text-slate-400 tracking-widest uppercase mb-4">Credentials</h3>
+                    <h3 className="text-xs font-semibold text-slate-400 tracking-widest uppercase mb-4">{t.credentialsTitle}</h3>
                     <ul className="space-y-2.5">
                       {member.credentials.map((line: string, idx: number) => (
                         <li key={idx} className="flex items-start gap-2.5">
