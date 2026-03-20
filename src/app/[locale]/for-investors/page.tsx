@@ -89,6 +89,10 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
           </div>
 
           <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{t.model.p2}</p>
+
+          <div className="mt-8 rounded-2xl border border-brand-gold/20 bg-brand-gold/5 p-6">
+            <p className="text-[15px] text-brand-navy font-medium leading-relaxed break-keep">{t.model.unitEconomics}</p>
+          </div>
         </div>
       </PageSection>
 

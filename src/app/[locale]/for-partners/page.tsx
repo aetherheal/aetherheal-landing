@@ -167,6 +167,32 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
         </div>
       </PageSection>
 
+      {/* Partnership Process */}
+      <PageSection>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4 break-keep">{t.partnershipProcess.title}</h2>
+          <p className="text-lg text-slate-700 mb-10 leading-relaxed break-keep">{t.partnershipProcess.subtitle}</p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {t.partnershipProcess.steps.map((step: { step: string; title: string; description: string }) => (
+              <div key={step.step} className="rounded-2xl border border-slate-200 bg-white p-6 flex gap-4 items-start">
+                <div className="w-10 h-10 rounded-full bg-brand-navy flex items-center justify-center shrink-0">
+                  <span className="text-sm font-bold text-brand-gold">{step.step}</span>
+                </div>
+                <div>
+                  <h3 className="font-serif text-[15px] text-brand-navy font-semibold mb-1 break-keep">{step.title}</h3>
+                  <p className="text-[14px] text-slate-600 leading-relaxed break-keep">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 rounded-2xl border border-brand-gold/20 bg-brand-gold/5 p-6 text-center">
+            <p className="text-[15px] text-slate-700 leading-relaxed break-keep">{t.feeStructure.text}</p>
+          </div>
+        </div>
+      </PageSection>
+
       {/* CTA */}
       <CTASection
         title={t.cta.title}
