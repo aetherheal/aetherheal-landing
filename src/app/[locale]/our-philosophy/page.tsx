@@ -333,15 +333,15 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-8">{t.closing.title}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                   <Card className="p-6">
-                    <SectionLabel color="gold" className="mb-3">환자</SectionLabel>
+                    <SectionLabel color="gold" className="mb-3">Patient</SectionLabel>
                     <p className="text-sm text-text-body leading-relaxed">{t.closing.patient}</p>
                   </Card>
                   <Card className="p-6">
-                    <SectionLabel color="default" className="mb-3">병원</SectionLabel>
+                    <SectionLabel color="default" className="mb-3">Hospital</SectionLabel>
                     <p className="text-sm text-text-body leading-relaxed">{t.closing.hospital}</p>
                   </Card>
                   <Card className="p-6">
-                    <SectionLabel color="gold" className="mb-3">투자자</SectionLabel>
+                    <SectionLabel color="gold" className="mb-3">Investor</SectionLabel>
                     <p className="text-sm text-text-body leading-relaxed">{t.closing.investor}</p>
                   </Card>
                 </div>
