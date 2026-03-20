@@ -213,9 +213,18 @@
       "compactTitle": "Verified Partner Network",
       "compactDescription": "8 founding partners across 8 specialties — each verified under the AetherHeal Trust Protocol. Hospital selection follows decision readiness, not marketing.",
       "compactStats": [
-        { "number": "8", "label": "Founding Partners" },
-        { "number": "8", "label": "Medical Specialties" },
-        { "number": "1", "label": "Verification Standard" }
+        {
+          "number": "8",
+          "label": "Founding Partners"
+        },
+        {
+          "number": "8",
+          "label": "Medical Specialties"
+        },
+        {
+          "number": "1",
+          "label": "Verification Standard"
+        }
       ],
       "compactCta": "View Trust Protocol"
     },
@@ -594,11 +603,26 @@
       "disclaimer": "Written for investors, partners, physicians, and anyone who wants to understand the mechanism — not just the promise."
     },
     "toc": [
-      { "id": "the-problem", "label": "The Problem We Named" },
-      { "id": "the-architecture", "label": "The Architecture We Built" },
-      { "id": "the-incentive", "label": "The Incentive Structure" },
-      { "id": "the-ai-boundary", "label": "The AI Boundary" },
-      { "id": "the-founder", "label": "The Founder's Obligation" }
+      {
+        "id": "the-problem",
+        "label": "The Problem We Named"
+      },
+      {
+        "id": "the-architecture",
+        "label": "The Architecture We Built"
+      },
+      {
+        "id": "the-incentive",
+        "label": "The Incentive Structure"
+      },
+      {
+        "id": "the-ai-boundary",
+        "label": "The AI Boundary"
+      },
+      {
+        "id": "the-founder",
+        "label": "The Founder's Obligation"
+      }
     ],
     "theProblem": {
       "title": "The Problem We Named",
@@ -618,13 +642,22 @@
     "theArchitecture": {
       "title": "The Architecture We Built",
       "p1": "The solution is not a better marketplace. It is the institutional trust layer that the industry has never had — the verification standard that makes physician quality legible to patients who cannot evaluate it themselves.",
-      "p2": "Consider SWIFT: it is not a bank. It is the infrastructure through which banks trust each other across borders. Before SWIFT, every cross-border transaction required bilateral trust. After SWIFT, the standard itself carried the trust.",
+      "p2": "Consider the Michelin Guide: it is not a restaurant. It is the standard through which restaurants earn recognition across cities and countries. Before the Michelin Guide, diners had no reliable way to evaluate quality beyond word of mouth. After the Michelin Guide, the standard itself carried the trust. Chefs compete to meet the standard — because recognition from an independent, incentive-aligned authority cannot be purchased.",
       "p3": "AetherHeal occupies the same structural position for global medical travel. We are not a hospital. We are not an agency. We are the verification standard layer — separated from the execution layer, governed by physicians who have no financial interest in the outcome of any individual patient's decision.",
-      "callout": "We are not building a better medical tourism agency. We are building the SWIFT of physician-verified global healthcare.",
+      "callout": "We are not building a better medical tourism agency. We are building the Michelin Guide of physician-verified global healthcare.",
       "layers": [
-        { "label": "International Patients", "detail": "Cannot evaluate quality across borders" },
-        { "label": "AetherHeal Verification Standard", "detail": "Physician-governed, incentive-separated, publicly inspectable" },
-        { "label": "Hospitals & Physicians", "detail": "Clinical excellence, verified independently" }
+        {
+          "label": "International Patients",
+          "detail": "Cannot evaluate quality across borders"
+        },
+        {
+          "label": "AetherHeal Verification Standard",
+          "detail": "Physician-governed, incentive-separated, publicly inspectable"
+        },
+        {
+          "label": "Hospitals & Physicians",
+          "detail": "Clinical excellence, verified independently"
+        }
       ],
       "beforeLabel": "Before: Bilateral trust required for every transaction",
       "afterLabel": "After: The standard carries the trust"
@@ -639,19 +672,43 @@
         "traditional": {
           "label": "Traditional Agency",
           "items": [
-            { "text": "Commission on procedure cost", "negative": true },
-            { "text": "Same team refers and verifies", "negative": true },
-            { "text": "Earns more from expensive options", "negative": true },
-            { "text": "Physician tied to hospital revenue", "negative": true }
+            {
+              "text": "Commission on procedure cost",
+              "negative": true
+            },
+            {
+              "text": "Same team refers and verifies",
+              "negative": true
+            },
+            {
+              "text": "Earns more from expensive options",
+              "negative": true
+            },
+            {
+              "text": "Physician tied to hospital revenue",
+              "negative": true
+            }
           ]
         },
         "aetherheal": {
           "label": "AetherHeal",
           "items": [
-            { "text": "Flat fee regardless of procedure cost", "negative": false },
-            { "text": "Verification and navigation fully separated", "negative": false },
-            { "text": "Earns same from $2K or $20K procedure", "negative": false },
-            { "text": "Physician has zero hospital financial ties", "negative": false }
+            {
+              "text": "Flat fee regardless of procedure cost",
+              "negative": false
+            },
+            {
+              "text": "Verification and navigation fully separated",
+              "negative": false
+            },
+            {
+              "text": "Earns same from $2K or $20K procedure",
+              "negative": false
+            },
+            {
+              "text": "Physician has zero hospital financial ties",
+              "negative": false
+            }
           ]
         }
       },
@@ -685,10 +742,22 @@
       "p3": "The philosopher Emmanuel Levinas wrote that genuine moral obligation begins with the encounter — when you truly see someone's vulnerability and can no longer look away. This is not a pitch deck story. This is the reason the architecture will hold when the revenue is slow and the compromises feel rational.",
       "callout": "I am not building this because I identified a market opportunity. I am building this because I was blinded by the problem I am solving — and I became a physician specifically so I could understand what was done to me.",
       "timeline": [
-        { "year": "Patient", "event": "First hair transplant failed — price was the only signal available" },
-        { "year": "Student", "event": "Entered medical school to understand what went wrong" },
-        { "year": "Specialist", "event": "Board-certified in aesthetic medicine and hair transplant surgery — understood the structural failure" },
-        { "year": "Founder", "event": "Built AetherHeal to correct the market that blinded him" }
+        {
+          "year": "Patient",
+          "event": "First hair transplant failed — price was the only signal available"
+        },
+        {
+          "year": "Student",
+          "event": "Entered medical school to understand what went wrong"
+        },
+        {
+          "year": "Specialist",
+          "event": "Board-certified in aesthetic medicine and hair transplant surgery — understood the structural failure"
+        },
+        {
+          "year": "Founder",
+          "event": "Built AetherHeal to correct the market that blinded him"
+        }
       ]
     },
     "closing": {

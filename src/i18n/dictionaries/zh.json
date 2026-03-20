@@ -213,9 +213,18 @@
       "compactTitle": "认证合作网络",
       "compactDescription": "8家创始合作伙伴，覆盖8个医疗专科——均通过AetherHeal信任协议认证。医院选择遵循决策准备度，而非营销推广。",
       "compactStats": [
-        { "number": "8", "label": "创始合作伙伴" },
-        { "number": "8", "label": "医疗专科" },
-        { "number": "1", "label": "认证标准" }
+        {
+          "number": "8",
+          "label": "创始合作伙伴"
+        },
+        {
+          "number": "8",
+          "label": "医疗专科"
+        },
+        {
+          "number": "1",
+          "label": "认证标准"
+        }
       ],
       "compactCta": "查看信任协议"
     },
@@ -594,11 +603,26 @@
       "disclaimer": "面向投资者、合作伙伴、医师以及所有希望理解机制而非仅仅承诺的人。"
     },
     "toc": [
-      { "id": "the-problem", "label": "我们命名的问题" },
-      { "id": "the-architecture", "label": "我们构建的架构" },
-      { "id": "the-incentive", "label": "激励结构" },
-      { "id": "the-ai-boundary", "label": "AI边界" },
-      { "id": "the-founder", "label": "创始人的使命" }
+      {
+        "id": "the-problem",
+        "label": "我们命名的问题"
+      },
+      {
+        "id": "the-architecture",
+        "label": "我们构建的架构"
+      },
+      {
+        "id": "the-incentive",
+        "label": "激励结构"
+      },
+      {
+        "id": "the-ai-boundary",
+        "label": "AI边界"
+      },
+      {
+        "id": "the-founder",
+        "label": "创始人的使命"
+      }
     ],
     "theProblem": {
       "title": "我们命名的问题",
@@ -618,13 +642,22 @@
     "theArchitecture": {
       "title": "我们构建的架构",
       "p1": "解决方案不是一个更好的市场平台。而是行业从未拥有的制度性信任层——使医师质量对无法自行评估的患者变得可读的认证标准。",
-      "p2": "想想SWIFT：它不是银行。它是银行之间跨境相互信任的基础设施。在SWIFT之前，每笔跨境交易都需要双边信任。SWIFT之后，标准本身承载了信任。",
+      "p2": "想想米其林指南：它不是餐厅。它是让餐厅跨越城市和国家获得认可的标准。在米其林指南之前，食客没有可靠的方式评估陌生城市的餐厅质量。米其林之后，标准本身承载了信任。厨师们争相达到这个标准——因为来自独立、无利益冲突的权威机构的认可是无法购买的。",
       "p3": "AetherHeal在全球医疗旅行中占据相同的结构性位置。我们不是医院。我们不是中介。我们是认证标准层——与执行层分离，由对任何单个患者决策结果没有财务利益的医师管理。",
-      "callout": "我们不是在构建更好的医疗旅游中介。我们在构建医师认证全球医疗的SWIFT。",
+      "callout": "我们不是在构建更好的医疗旅游中介。我们在构建医师认证全球医疗的米其林指南。",
       "layers": [
-        { "label": "国际患者", "detail": "无法跨境评估质量" },
-        { "label": "AetherHeal认证标准", "detail": "医师治理、激励分离、公开可检查" },
-        { "label": "医院与医师", "detail": "临床卓越，独立认证" }
+        {
+          "label": "国际患者",
+          "detail": "无法跨境评估质量"
+        },
+        {
+          "label": "AetherHeal认证标准",
+          "detail": "医师治理、激励分离、公开可检查"
+        },
+        {
+          "label": "医院与医师",
+          "detail": "临床卓越，独立认证"
+        }
       ],
       "beforeLabel": "之前：每笔交易都需要双边信任",
       "afterLabel": "之后：标准本身承载信任"
@@ -639,19 +672,43 @@
         "traditional": {
           "label": "传统中介",
           "items": [
-            { "text": "按手术费用收取佣金", "negative": true },
-            { "text": "同一团队负责推荐和认证", "negative": true },
-            { "text": "从昂贵选项中赚更多", "negative": true },
-            { "text": "医师与医院收入挂钩", "negative": true }
+            {
+              "text": "按手术费用收取佣金",
+              "negative": true
+            },
+            {
+              "text": "同一团队负责推荐和认证",
+              "negative": true
+            },
+            {
+              "text": "从昂贵选项中赚更多",
+              "negative": true
+            },
+            {
+              "text": "医师与医院收入挂钩",
+              "negative": true
+            }
           ]
         },
         "aetherheal": {
           "label": "AetherHeal",
           "items": [
-            { "text": "固定费用，与手术费用无关", "negative": false },
-            { "text": "认证和导航完全分离", "negative": false },
-            { "text": "2千或2万美元手术收费相同", "negative": false },
-            { "text": "医师与医院零财务关联", "negative": false }
+            {
+              "text": "固定费用，与手术费用无关",
+              "negative": false
+            },
+            {
+              "text": "认证和导航完全分离",
+              "negative": false
+            },
+            {
+              "text": "2千或2万美元手术收费相同",
+              "negative": false
+            },
+            {
+              "text": "医师与医院零财务关联",
+              "negative": false
+            }
           ]
         }
       },
@@ -685,10 +742,22 @@
       "p3": "哲学家伊曼纽尔·列维纳斯写道，真正的道德义务始于相遇——当你真正看到某人的脆弱性而无法再转开视线。这不是路演故事。这是当收入缓慢、妥协看起来合理时，架构仍将坚持的原因。",
       "callout": "我不是因为发现了市场机会而构建这个。我构建这个是因为我被我正在解决的问题所蒙蔽——我成为医师正是为了理解对我做了什么。",
       "timeline": [
-        { "year": "患者", "event": "第一次毛发移植失败——价格是唯一可用的信号" },
-        { "year": "学生", "event": "进入医学院，理解问题所在" },
-        { "year": "专家", "event": "获得美容医学和毛发移植外科的专科认证——理解了结构性失败" },
-        { "year": "创始人", "event": "创建AetherHeal来纠正曾蒙蔽自己的市场" }
+        {
+          "year": "患者",
+          "event": "第一次毛发移植失败——价格是唯一可用的信号"
+        },
+        {
+          "year": "学生",
+          "event": "进入医学院，理解问题所在"
+        },
+        {
+          "year": "专家",
+          "event": "获得美容医学和毛发移植外科的专科认证——理解了结构性失败"
+        },
+        {
+          "year": "创始人",
+          "event": "创建AetherHeal来纠正曾蒙蔽自己的市场"
+        }
       ]
     },
     "closing": {
