@@ -103,6 +103,14 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                   {t.theProblem.title}
                 </h2>
                 <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
+                  {/* Scene intro — ko only */}
+                  {t.theProblem.scene && (
+                    <div className="rounded-2xl bg-brand-gold/5 border border-brand-gold/20 p-6 sm:p-8 mb-2">
+                      <p className="font-serif text-lg sm:text-xl text-brand-navy leading-relaxed italic">
+                        {t.theProblem.scene}
+                      </p>
+                    </div>
+                  )}
                   <p>{t.theProblem.p1}</p>
                   <p>{t.theProblem.p2}</p>
 
@@ -266,6 +274,25 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
                       </Card>
                     ))}
                   </div>
+
+                  {/* Never Do — ko only */}
+                  {t.theIncentive.neverDo && (
+                    <div className="mt-6 rounded-3xl bg-slate-900 p-8 sm:p-10 text-white">
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-6">
+                        {t.theIncentive.neverDo.title}
+                      </p>
+                      <ul className="space-y-4">
+                        {t.theIncentive.neverDo.items.map((item: string, i: number) => (
+                          <li key={i} className="flex items-start gap-4">
+                            <div className="w-6 h-6 rounded-full bg-red-500/20 border border-red-500/30 flex items-center justify-center shrink-0 mt-0.5">
+                              <span className="text-xs text-red-400 font-bold">✕</span>
+                            </div>
+                            <p className="text-sm text-white/80 leading-relaxed">{item}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
 

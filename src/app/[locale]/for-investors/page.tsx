@@ -96,6 +96,40 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
         </div>
       </PageSection>
 
+      {/* Trust Compounding — ko only */}
+      {t.model?.trustCompound && (
+        <PageSection>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 break-keep">
+              {t.model.trustCompound.title}
+            </h2>
+            <p className="text-lg text-slate-700 leading-[1.8] mb-10 break-keep">
+              {t.model.trustCompound.description}
+            </p>
+
+            {/* Trust Compound Cycle */}
+            <div className="rounded-3xl bg-brand-navy p-8 sm:p-10 text-white">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-8 text-center">
+                {t.model.trustCompound.cycleLabel}
+              </p>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 flex-wrap">
+                {t.model.trustCompound.cycle.map((step: string, i: number) => (
+                  <div key={i} className="flex items-center gap-3">
+                    <div className="rounded-xl bg-white/10 border border-white/20 px-4 py-3 text-center min-w-[120px]">
+                      <p className="text-sm text-white font-medium leading-snug">{step}</p>
+                    </div>
+                    {i < t.model.trustCompound.cycle.length - 1 && (
+                      <span className="text-brand-gold font-bold text-lg hidden sm:block">→</span>
+                    )}
+                  </div>
+                ))}
+              </div>
+              <p className="text-center text-brand-gold text-sm font-semibold mt-6">↻</p>
+            </div>
+          </div>
+        </PageSection>
+      )}
+
       {/* Competitive Moat */}
       <PageSection bg="light">
         <IconCardGrid
