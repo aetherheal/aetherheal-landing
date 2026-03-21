@@ -193,33 +193,6 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
         </div>
       </PageSection>
 
-      {/* Partnership Process — ko only */}
-      {t.cta?.process && (
-        <PageSection>
-          <div className="max-w-4xl mx-auto">
-            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-12 text-center break-keep">
-              {t.cta.process.title}
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {t.cta.process.steps.map((step: { step: string; label: string; detail: string }, i: number) => (
-                <div key={i} className="relative">
-                  {i < t.cta.process.steps.length - 1 && (
-                    <div className="hidden lg:block absolute top-8 left-full w-full h-px bg-brand-gold/20 z-0" style={{ width: 'calc(100% - 2rem)', left: 'calc(50% + 2rem)' }} />
-                  )}
-                  <div className="relative z-10 flex flex-col items-center text-center p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-12 h-12 rounded-full bg-brand-navy flex items-center justify-center mb-4 shadow-sm">
-                      <span className="text-xs font-bold text-white">{step.step}</span>
-                    </div>
-                    <h3 className="font-serif text-base text-brand-navy font-semibold mb-2 break-keep">{step.label}</h3>
-                    <p className="text-xs text-slate-500 leading-relaxed break-keep">{step.detail}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </PageSection>
-      )}
-
       {/* CTA */}
       <CTASection
         title={t.cta.title}
