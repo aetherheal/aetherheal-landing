@@ -104,11 +104,8 @@ export default async function HomePage({
             </h1>
 
             <p className="font-sans text-text-body text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
-              {t.hero.description}{" "}
-              <span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">
-                {t.hero.descriptionHighlight}
-              </span>{" "}
-              {t.hero.descriptionEnd}
+              {t.hero.description}
+              {t.hero.descriptionHighlight && (<>{" "}<span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">{t.hero.descriptionHighlight}</span>{" "}{t.hero.descriptionEnd}</>)}
             </p>
 
             <p className="text-sm text-text-muted font-medium tracking-wide animate-fade-up [animation-delay:250ms]">
@@ -148,11 +145,8 @@ export default async function HomePage({
           </h1>
 
           <p className="font-sans text-text-body text-lg leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
-            {t.hero.description}{" "}
-            <span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">
-              {t.hero.descriptionHighlight}
-            </span>{" "}
-            {t.hero.descriptionEnd}
+            {t.hero.description}
+            {t.hero.descriptionHighlight && (<>{" "}<span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">{t.hero.descriptionHighlight}</span>{" "}{t.hero.descriptionEnd}</>)}
           </p>
 
           <p className="text-sm text-text-muted font-medium animate-fade-up [animation-delay:250ms]">

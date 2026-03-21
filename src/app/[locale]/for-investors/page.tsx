@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, TrendingUp, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket } from "lucide-react"
+import { ArrowRight, TrendingUp, ShieldCheck, Bot, Users, CheckCircle2, Clock, Rocket, RefreshCw } from "lucide-react"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { HeroSection, PageSection, ComparisonTable, IconCardGrid, CTASection, LemonCycleDiagram, ArchitectureDiagram, RevenuePipelineDiagram } from "@/components/landing"
@@ -109,23 +109,47 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
             </p>
 
             {/* Trust Compound Cycle */}
-            <div className="rounded-3xl bg-brand-navy p-8 sm:p-10 text-white">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-8 text-center">
-                {t.model.trustCompound.cycleLabel}
-              </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 flex-wrap">
-                {t.model.trustCompound.cycle.map((step: string, i: number) => (
-                  <div key={i} className="flex items-center gap-3">
-                    <div className="rounded-xl bg-white/10 border border-white/20 px-4 py-3 text-center min-w-[120px]">
-                      <p className="text-sm text-white font-medium leading-snug">{step}</p>
+            <div className="rounded-3xl bg-brand-navy p-8 sm:p-12 text-white relative overflow-hidden">
+              {/* Subtle background glow */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg h-3/4 bg-brand-gold/10 blur-[80px] rounded-full pointer-events-none" />
+              
+              <div className="relative z-10">
+                <p className="text-[11px] font-bold uppercase tracking-widest text-brand-gold mb-10 text-center flex items-center justify-center gap-2">
+                  <RefreshCw className="w-3.5 h-3.5" />
+                  {t.model.trustCompound.cycleLabel}
+                </p>
+
+                <div className="relative max-w-[900px] mx-auto pb-4 sm:pb-8">
+                  {/* U-Turn Arrow (Desktop only) */}
+                  <div className="hidden lg:block absolute top-1/2 left-[10%] right-[10%] h-16 border-b border-l border-r border-brand-gold/30 border-dashed rounded-b-3xl pointer-events-none">
+                    <div className="absolute top-0 -left-[5px] text-brand-gold/50 -mt-1 bg-brand-navy pb-1">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 19V5M5 12l7-7 7 7"/>
+                      </svg>
                     </div>
-                    {i < t.model.trustCompound.cycle.length - 1 && (
-                      <span className="text-brand-gold font-bold text-lg hidden sm:block">→</span>
-                    )}
                   </div>
-                ))}
+
+                  <div className="flex flex-wrap justify-center items-center gap-y-4 sm:gap-y-6 relative z-10">
+                    {t.model.trustCompound.cycle.map((step: string, i: number) => (
+                      <div key={i} className="flex items-center">
+                        <div className="rounded-full bg-[#161f33] border border-white/10 px-6 sm:px-8 py-3.5 shadow-md">
+                          <p className="text-[14px] sm:text-[15px] text-white font-medium whitespace-nowrap tracking-wide">{step}</p>
+                        </div>
+                        {i < t.model.trustCompound.cycle.length - 1 && (
+                          <div className="mx-2 sm:mx-4 text-brand-gold/40">
+                            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-8 flex items-center justify-center gap-2">
+                  <span className="text-brand-gold/60 text-lg">↻</span>
+                  <p className="text-[12px] text-white/40 tracking-wide">마지막 단계가 다시 첫 번째로 연결되어 복리 효과를 만듭니다</p>
+                </div>
               </div>
-              <p className="text-center text-brand-gold text-sm font-semibold mt-6">↻</p>
             </div>
           </div>
         </PageSection>

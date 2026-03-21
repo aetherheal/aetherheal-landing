@@ -51,24 +51,24 @@
       "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
     },
     "hero": {
-      "badge": "Physician-led, AI-assisted decision infrastructure <br class=\"block sm:hidden\" />for premium care in Korea",
-      "h1": "Decide With Clarity",
-      "h1Highlight": "Before You Choose a Hospital",
-      "description": "Physician-led, AI-assisted decision infrastructure",
-      "descriptionHighlight": "before",
-      "descriptionEnd": "hospital selection, journey execution, and continuity planning in Korea.",
-      "disclaimer": "AI assists the process. Physicians retain authority. No diagnosis. No treatment.",
+      "badge": "Physician-led · AI-assisted · For international patients considering Korea",
+      "h1": "A physician reviews your case",
+      "h1Highlight": "before you choose a hospital.",
+      "description": "Physician oversight, AI assistance, and a flat fee — independent of which hospital you choose.",
+      "descriptionHighlight": "",
+      "descriptionEnd": "",
+      "disclaimer": "",
       "ctaHowItWorks": "See how it works",
-      "ctaExplore": "Start exploring"
+      "ctaExplore": "Start here"
     },
     "problemQuote": {
-      "q1": "Most platforms optimize introductions before they structure the decision.",
-      "q2": "In high-stake medicine, speed without clinical framing creates risk.",
-      "q3": "AetherHeal brings physician-led clarity before commitment."
+      "q1": "The best surgeon isn't always the most followed.",
+      "q2": "Some agencies charge hospitals up to 30% per procedure. That fee changes which hospital gets recommended.",
+      "q3": "Our fee is flat — the same regardless of where you go or what you spend."
     },
     "stakes": {
-      "title": "Not Every Choice Carries the Same Risk",
-      "subtitle": "In medicine, poor decisions can be hard to reverse. The framework for choosing must reflect the gravity of the outcome.",
+      "title": "Some decisions can't be undone",
+      "subtitle": "In elective medicine, the wrong choice is hard to reverse. The framework for deciding should reflect that weight.",
       "lowStake": {
         "label": "Low-Stake Domains",
         "items": [
