@@ -37,6 +37,7 @@ export default async function ForPartnersPage({ params }: { params: Promise<{ lo
         h1={t.hero.h1}
         h1Highlight={t.hero.h1Highlight}
         intro={t.hero.intro}
+        showBgImage={true}
       />
 
       {/* What is 에테르힐 */}

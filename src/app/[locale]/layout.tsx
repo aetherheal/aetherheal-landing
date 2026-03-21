@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Playfair_Display, Inter, Noto_Sans_KR, Noto_Serif_KR } from "next/font/google"
+import { Playfair_Display, Inter, Noto_Sans_KR, Noto_Serif_KR, Gowun_Batang } from "next/font/google"
 import { locales, ogLocales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { Navbar } from "@/components/layout/navbar"
@@ -22,6 +22,13 @@ const inter = Inter({
 const notoSansKr = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
   weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+})
+
+const gowunBatang = Gowun_Batang({
+  variable: "--font-gowun-batang",
+  weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
 })
@@ -109,7 +116,7 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale as Locale)
 
   return (
-    <html lang={locale} className={`${playfair.variable} ${inter.variable} ${notoSansKr.variable} ${notoSerifKr.variable} h-full`}>
+    <html lang={locale} className={`${playfair.variable} ${inter.variable} ${notoSansKr.variable} ${notoSerifKr.variable} ${gowunBatang.variable} h-full`}>
       <body className="h-full font-sans antialiased">
         <GoogleAnalytics />
         <script

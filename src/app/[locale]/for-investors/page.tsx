@@ -37,6 +37,7 @@ export default async function ForInvestorsPage({ params }: { params: Promise<{ l
         h1={t.hero.h1}
         h1Highlight={t.hero.h1Highlight}
         intro={t.hero.intro}
+        showBgImage={true}
       />
 
       {/* Market Opportunity */}

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Building2, TrendingUp, BookOpen, ShieldCheck, Bot, Users } from "lucide-react"
 import type { Dictionary } from "@/i18n/get-dictionary"
 
@@ -15,6 +16,16 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
   return (
     <div className="min-h-full">
       <section className="relative w-full py-24 sm:py-32 lg:py-40 px-4 sm:px-6 bg-brand-navy overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/og-image.jpg"
+            alt=""
+            fill
+            className="object-cover object-center opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-brand-navy/75" />
+        </div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(191,155,48,0.08),transparent_70%)]" />
         <div className="relative max-w-4xl mx-auto text-center space-y-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-gold/10 rounded-full">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, ArrowDown, AlertTriangle, CheckCircle2, XCircle, ShieldCheck, Users, Building2, RefreshCw } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Card } from "@/components/ui/card"
@@ -34,20 +35,32 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
   return (
     <div className="min-h-full bg-white">
       {/* Hero */}
-      <section className="pt-24 pb-16 sm:pt-32 sm:pb-24 px-4 sm:px-6 bg-gradient-to-b from-brand-navy/[0.02] to-white border-b border-slate-100">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 px-4 sm:px-6 bg-brand-navy overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/assets/hero-poster.jpg"
+            alt=""
+            fill
+            className="object-cover object-center opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-brand-navy/80" />
+        </div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(191,155,48,0.08),transparent_70%)]" />
+        <div className="relative max-w-4xl mx-auto">
           <div className="mb-8">
-            <span className="inline-flex items-center px-4 py-1.5 bg-brand-navy text-[10px] font-bold text-white uppercase tracking-widest rounded-full shadow-sm">
+            <span className="inline-flex items-center px-4 py-1.5 bg-brand-gold/10 text-[10px] font-bold text-brand-gold uppercase tracking-widest rounded-full shadow-sm">
               {t.hero.badge}
             </span>
           </div>
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-brand-navy mb-10 leading-[1.1] tracking-tight">
-            {t.hero.h1}{" "}
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-white mb-10 leading-[1.2] tracking-tight">
+            {t.hero.h1}
+            <br />
             <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
           </h1>
-          <div className="max-w-3xl space-y-6 text-lg sm:text-xl text-slate-700 leading-[1.8] break-keep">
-            <p className="text-xl sm:text-2xl font-serif text-brand-navy leading-relaxed">{t.hero.intro}</p>
-            <p className="text-[15px] text-slate-600">{t.hero.disclaimer}</p>
+          <div className="max-w-3xl space-y-6 text-lg sm:text-xl text-white/90 leading-[1.8] break-keep">
+            <p className="text-xl sm:text-2xl font-serif text-white leading-relaxed">{t.hero.intro}</p>
+            <p className="text-[15px] text-white/60">{t.hero.disclaimer}</p>
           </div>
         </div>
       </section>

@@ -26,7 +26,7 @@
   --shadow-glow: 0 0 15px rgba(180, 146, 80, 0.3);
 
   /* Fonts */
-  --font-serif: var(--font-playfair), "Playfair Display", serif;
+  --font-serif: var(--font-playfair), "Playfair Display", var(--font-gowun-batang), "Gowun Batang", var(--font-noto-serif-kr), "Noto Serif KR", serif;
   --font-sans: var(--font-inter), "Inter", sans-serif;
 
   /* Animations */
