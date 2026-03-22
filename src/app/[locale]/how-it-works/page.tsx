@@ -25,6 +25,8 @@ import {
   Phone,
   AlertTriangle,
   Brain,
+  HeartPulse,
+  ScanLine,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -32,7 +34,7 @@ import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
-const domainIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity, Brain]
+const domainIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity, Brain, HeartPulse, ScanLine]
 const angelDoesIcons = [Info, LayoutGrid, ArrowRightLeft]
 const authorityIcons = [User, Bot, ShieldCheck, Building2, Activity]
 const readinessIcons = [CircleDashed, Clock, CheckCircle2, Activity]
@@ -321,20 +323,29 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
       </section>
 
       {/* 04. Coverage */}
-      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100">
+      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-100 overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 rounded-full text-[10px] font-bold text-brand-navy uppercase tracking-widest mb-6">{t.coverage.badge}</span>
             <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-3">{t.coverage.title}</h2>
             <p className="text-text-muted text-lg max-w-xl mx-auto">{t.coverage.subtitle}</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.coverage.domains.map((label, i) => {
-              const Icon = domainIcons[i]
+        </div>
+        {/* Marquee scroll */}
+        <div className="relative">
+          <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-bg-light to-transparent z-10 pointer-events-none" />
+          <div className="flex animate-scroll-left">
+            {[...t.coverage.domains, ...t.coverage.domains].map((label, i) => {
+              const Icon = domainIcons[i % t.coverage.domains.length]
               return (
-                <div key={label} className="relative bg-white border border-slate-200 rounded-2xl p-6 text-center">
-                  <div className="w-12 h-12 mx-auto mb-4 rounded-2xl bg-brand-navy/5 flex items-center justify-center"><Icon className="w-5 h-5 text-brand-navy" /></div>
-                  <span className="text-brand-navy font-bold text-sm leading-tight block">{label}</span>
+                <div key={i} className="flex-shrink-0 mx-2">
+                  <div className="flex items-center gap-3 bg-white border border-slate-200 rounded-full px-6 py-3.5 shadow-sm">
+                    <div className="w-9 h-9 rounded-full bg-brand-navy/5 flex items-center justify-center shrink-0">
+                      <Icon className="w-4 h-4 text-brand-navy" />
+                    </div>
+                    <span className="text-brand-navy font-semibold text-sm whitespace-nowrap">{label}</span>
+                  </div>
                 </div>
               )
             })}
