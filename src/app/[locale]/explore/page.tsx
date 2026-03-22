@@ -4,6 +4,7 @@ import Image from "next/image"
 import {
   Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity,
   DollarSign, TrendingUp, Clock, Scale, FileSignature, Target, Info,
+  Brain, HeartPulse, ScanLine,
 } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Divider } from "@/components/ui/divider"
@@ -17,7 +18,7 @@ import { CaseCarousel, type CaseItem } from "./case-carousel"
 
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
 const aiOutputIcons = [Target, Scale, FileSignature, Bot]
-const disciplineIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity]
+const disciplineIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity, Brain, HeartPulse, ScanLine]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
