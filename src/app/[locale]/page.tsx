@@ -98,7 +98,7 @@ export default async function HomePage({
               />
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.15] text-brand-navy font-medium animate-fade-up [animation-delay:100ms] max-w-3xl mx-auto">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.15] text-brand-navy font-medium animate-fade-up [animation-delay:100ms] [text-wrap:balance]">
               {t.hero.h1} <br />
               <span className="italic text-brand-gold">{t.hero.h1Highlight}</span>
             </h1>
