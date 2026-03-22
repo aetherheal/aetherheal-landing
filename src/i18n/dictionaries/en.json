@@ -211,14 +211,14 @@
     "partners": {
       "subtitle": "Proof Layer",
       "compactTitle": "Verified Partner Network",
-      "compactDescription": "8 founding partners across 8 specialties — each verified under the AetherHeal Trust Protocol. Hospital selection follows decision readiness, not marketing.",
+      "compactDescription": "9 founding partners across 9 specialties — including 1 university hospital. Each verified under the AetherHeal Trust Protocol. Hospital selection follows decision readiness, not marketing.",
       "compactStats": [
         {
-          "number": "8",
+          "number": "9",
           "label": "Founding Partners"
         },
         {
-          "number": "8",
+          "number": "9",
           "label": "Medical Specialties"
         },
         {
@@ -445,7 +445,8 @@
         "Vision Correction",
         "Dental",
         "Stem Cell Therapy",
-        "Liposuction & Fat Repositioning"
+        "Liposuction & Fat Repositioning",
+        "Neurosurgery"
       ]
     },
     "scope": {

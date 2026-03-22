@@ -211,14 +211,14 @@
     "partners": {
       "subtitle": "信任证明层",
       "compactTitle": "认证合作网络",
-      "compactDescription": "8家创始合作伙伴，覆盖8个医疗专科——均通过AetherHeal信任协议认证。医院选择遵循决策准备度，而非营销推广。",
+      "compactDescription": "9家创始合作伙伴，覆盖9个医疗专科——含1家大学医院。均通过AetherHeal信任协议认证。医院选择遵循决策准备度，而非营销推广。",
       "compactStats": [
         {
-          "number": "8",
+          "number": "9",
           "label": "创始合作伙伴"
         },
         {
-          "number": "8",
+          "number": "9",
           "label": "医疗专科"
         },
         {
@@ -445,7 +445,8 @@
         "视力矫正",
         "牙科",
         "干细胞疗法",
-        "吸脂与脂肪重新分布"
+        "吸脂与脂肪重新分布",
+        "神经外科"
       ]
     },
     "scope": {

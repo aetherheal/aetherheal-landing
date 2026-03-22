@@ -24,6 +24,7 @@ import {
   Clock,
   Phone,
   AlertTriangle,
+  Brain,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -31,7 +32,7 @@ import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 
-const domainIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity]
+const domainIcons = [Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity, Brain]
 const angelDoesIcons = [Info, LayoutGrid, ArrowRightLeft]
 const authorityIcons = [User, Bot, ShieldCheck, Building2, Activity]
 const readinessIcons = [CircleDashed, Clock, CheckCircle2, Activity]
