@@ -383,7 +383,7 @@
         {
           "label": "Layer 5",
           "title": "Operational Coordination",
-          "description": "AetherHeal executes booking, travel, and continuity workflows only after the human decision chain is clear."
+          "description": "AetherHeal executes booking, travel, and continuity workflows only after the human decision chain is clear. Verified drivers, translators, and guides are dispatched through a real-time coordination platform — so logistics execution never falls on the patient."
         }
       ],
       "handoffLabel": "authority handoff",
@@ -767,7 +767,7 @@
       "title": "What This Means for You",
       "patient": "If you are a patient — you are entering a system designed so that no one profits from misleading you.",
       "hospital": "If you are a hospital — you are joining a standard that rewards the quality you already deliver.",
-      "investor": "If you are an investor — you are funding infrastructure, not a marketplace. Standards compound differently than transactions.",
+      "investor": "If you are an investor — you are funding infrastructure, not a marketplace. Standards compound differently than transactions. AetherHeal operates two compounding networks: a verified hospital network and a verified concierge network of drivers, translators, and guides. Each network reinforces the other — and neither can be replicated by simply building a better app.",
       "cta": "See How It Works"
     }
   },
@@ -1498,7 +1498,7 @@
           "items": [
             {
               "title": "Arrival and handoff",
-              "desc": "Airport arrival, transportation, appointment alignment, and on-site coordination are kept synchronized."
+              "desc": "A verified concierge — driver, translator, or guide — is assigned before you land. Real-time coordination keeps airport pickup, transport, and appointments synchronized without the patient managing logistics alone."
             },
             {
               "title": "Hospital-facing execution",
@@ -1506,7 +1506,7 @@
             },
             {
               "title": "Real-time support",
-              "desc": "Concierge and operations support help keep logistics visible so delays or missed steps can be escalated quickly."
+              "desc": "Your concierge team — verified freelance drivers, certified hospital interpreters, and local guides — coordinates on the ground through a live platform. Delays, missed handoffs, or escalations are visible in real time."
             }
           ],
           "aiTitle": "AI supports",
