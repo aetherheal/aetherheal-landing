@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, type ReactNode } from "react"
 import { Info } from "lucide-react"
 import { CaseCarousel, type CaseItem } from "./case-carousel"
 
@@ -23,6 +23,8 @@ interface CaseTabsProps {
   disclaimer: string
   contextBannerTitle: string
   contextBannerText: string
+  skinTab?: { id: string; label: string }
+  skinContent?: ReactNode
 }
 
 export function CaseTabs({
@@ -32,25 +34,35 @@ export function CaseTabs({
   disclaimer,
   contextBannerTitle,
   contextBannerText,
+  skinTab,
+  skinContent,
 }: CaseTabsProps) {
   const [activeTab, setActiveTab] = useState(tabs[0]?.id ?? "face")
 
+  const allTabHeaders = [
+    ...tabs.map((t) => ({ id: t.id, label: t.label })),
+    ...(skinTab ? [skinTab] : []),
+  ]
+
+  const isSkinActive = skinTab && activeTab === skinTab.id
   const activeTabData = tabs.find((t) => t.id === activeTab) ?? tabs[0]
 
   return (
     <div className="space-y-12 sm:space-y-16">
-      {/* Context Banner */}
-      <div className="px-4 sm:px-6 max-w-4xl mx-auto">
-        <div className="rounded-2xl border border-amber-200/60 bg-amber-50/50 p-5 sm:p-6 flex items-start gap-4">
-          <div className="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center shrink-0 mt-0.5">
-            <Info className="w-5 h-5 text-amber-600" />
-          </div>
-          <div>
-            <p className="text-sm font-semibold text-brand-navy mb-1">{contextBannerTitle}</p>
-            <p className="text-sm text-text-muted leading-relaxed">{contextBannerText}</p>
+      {/* Context Banner — hidden for skin tab */}
+      {!isSkinActive && (
+        <div className="px-4 sm:px-6 max-w-4xl mx-auto">
+          <div className="rounded-2xl border border-amber-200/60 bg-amber-50/50 p-5 sm:p-6 flex items-start gap-4">
+            <div className="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center shrink-0 mt-0.5">
+              <Info className="w-5 h-5 text-amber-600" />
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-brand-navy mb-1">{contextBannerTitle}</p>
+              <p className="text-sm text-text-muted leading-relaxed">{contextBannerText}</p>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Tab Bar */}
       <div className="sticky top-0 z-20 bg-slate-50/95 backdrop-blur-sm border-b border-slate-200">
@@ -59,7 +71,7 @@ export function CaseTabs({
             role="tablist"
             className="flex gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
           >
-            {tabs.map((tab) => (
+            {allTabHeaders.map((tab) => (
               <button
                 key={tab.id}
                 role="tab"
@@ -83,24 +95,28 @@ export function CaseTabs({
         </div>
       </div>
 
-      {/* Active Tab Categories */}
-      <div className="space-y-16 sm:space-y-24">
-        {activeTabData.categories.map((category) => (
-          <div key={category.id} className="space-y-6 sm:space-y-8">
-            <div className="px-4 sm:px-6 max-w-7xl mx-auto">
-              <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy border-b border-slate-200 pb-4">
-                {category.title}
-              </h3>
+      {/* Active Tab Content */}
+      {isSkinActive ? (
+        skinContent
+      ) : (
+        <div className="space-y-16 sm:space-y-24">
+          {activeTabData.categories.map((category) => (
+            <div key={category.id} className="space-y-6 sm:space-y-8">
+              <div className="px-4 sm:px-6 max-w-7xl mx-auto">
+                <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy border-b border-slate-200 pb-4">
+                  {category.title}
+                </h3>
+              </div>
+              <CaseCarousel
+                cases={category.cases}
+                caseLabel={caseLabel}
+                beforeAfterLabel={beforeAfterLabel}
+                disclaimer={disclaimer}
+              />
             </div>
-            <CaseCarousel
-              cases={category.cases}
-              caseLabel={caseLabel}
-              beforeAfterLabel={beforeAfterLabel}
-              disclaimer={disclaimer}
-            />
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }

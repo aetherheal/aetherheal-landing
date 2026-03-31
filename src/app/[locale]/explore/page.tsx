@@ -14,6 +14,7 @@ import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { ExploreFlipCards } from "./flip-cards"
 import { CaseTabs, type TabData } from "./case-tabs"
+import { SkinCatalog } from "./skin-catalog"
 
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
 const aiOutputIcons = [Target, Scale, FileSignature, Bot]
@@ -187,6 +188,13 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
             disclaimer={t.caseStudies.disclaimer}
             contextBannerTitle={t.caseStudies.contextBannerTitle ?? "These photos are for context, not comparison"}
             contextBannerText={t.caseStudies.contextBannerText ?? "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance."}
+            skinTab={{ id: "skin", label: tabs.tabLabels.skin }}
+            skinContent={
+              <SkinCatalog
+                categories={tabs.skinCategories}
+                popularLabel={tabs.skinPopularLabel}
+              />
+            }
           />
         </div>
       </section>

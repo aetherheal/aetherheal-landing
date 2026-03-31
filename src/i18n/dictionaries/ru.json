@@ -1145,18 +1145,982 @@
     "caseStudyTabs": {
       "title": "Комплексная галерея до и после",
       "subtitle": "Просмотрите реальные случаи пациентов в области лица, тела и волос.",
-      "tabLabels": { "face": "Лицо", "body": "Тело", "hair": "Волосы" },
+      "tabLabels": {
+        "face": "Лицо",
+        "body": "Тело",
+        "hair": "Волосы",
+        "skin": "Кожа"
+      },
       "categories": {
-        "facelift": { "title": "Подтяжка лица", "cases": [{ "title": "Подтяжка лица 1", "subtitle": "SMAS-лифтинг" }, { "title": "Подтяжка лица 2", "subtitle": "Глубокий лифтинг" }, { "title": "Подтяжка лица 3", "subtitle": "Нижняя подтяжка" }, { "title": "Подтяжка лица 4", "subtitle": "SMAS-лифтинг" }, { "title": "Подтяжка лица 5", "subtitle": "Средняя зона" }, { "title": "Подтяжка лица 6", "subtitle": "Полный SMAS-лифтинг" }, { "title": "Подтяжка лица 7", "subtitle": "Нижняя зона и шея" }] },
-        "rhinoplasty": { "title": "Ринопластика", "cases": [{ "title": "Ринопластика 1", "subtitle": "Коррекция спинки и кончика" }, { "title": "Ринопластика 2", "subtitle": "Удаление горбинки" }, { "title": "Ринопластика 3", "subtitle": "Коррекция кончика" }, { "title": "Ринопластика 4", "subtitle": "Полная ринопластика" }, { "title": "Ринопластика 5", "subtitle": "Выпрямление спинки" }, { "title": "Ринопластика 6", "subtitle": "Уменьшение крыльев" }, { "title": "Ринопластика 7", "subtitle": "Коррекция перегородки" }, { "title": "Ринопластика 8", "subtitle": "Повторная ринопластика" }] },
-        "facialContouring": { "title": "Контурная пластика лица", "cases": [{ "title": "Контурная 1", "subtitle": "V-лайн челюсть" }, { "title": "Контурная 2", "subtitle": "Скулы + челюсть" }, { "title": "Контурная 3", "subtitle": "Уменьшение челюсти" }, { "title": "Контурная 4", "subtitle": "Полная контурная" }, { "title": "Контурная 5", "subtitle": "Квадратная челюсть" }, { "title": "Контурная 6", "subtitle": "Уменьшение скул" }, { "title": "Контурная 7", "subtitle": "Контурная нижней челюсти" }, { "title": "Контурная 8", "subtitle": "Мини V-лайн" }] },
-        "eyes": { "title": "Глаза", "cases": [{ "title": "Двойное веко 1", "subtitle": "Разрезной метод" }, { "title": "Двойное веко 2", "subtitle": "Безразрезной метод" }, { "title": "Нижнее веко 1", "subtitle": "Перераспределение жира" }, { "title": "Нижнее веко 2", "subtitle": "Нижняя блефаропластика" }, { "title": "Двойное веко 3", "subtitle": "Коррекция птоза" }, { "title": "Двойное веко 4", "subtitle": "Ревизия разрезным методом" }, { "title": "Нижнее веко 3", "subtitle": "Удаление жира" }, { "title": "Нижнее веко 4", "subtitle": "Коррекция тёмных кругов" }] },
-        "doubleChin": { "title": "Двойной подбородок", "cases": [{ "title": "Двойной подбородок 1", "subtitle": "Субментальная липосакция" }, { "title": "Двойной подбородок 2", "subtitle": "Уменьшение подбородка" }, { "title": "Двойной подбородок 3", "subtitle": "Удаление жира" }, { "title": "Двойной подбородок 4", "subtitle": "Контурная подбородка" }, { "title": "Двойной подбородок 5", "subtitle": "Субментальная аспирация" }, { "title": "Двойной подбородок 6", "subtitle": "Липосакция шеи" }, { "title": "Двойной подбородок 7", "subtitle": "Линия челюсти" }, { "title": "Двойной подбородок 8", "subtitle": "Полная скульптура" }] },
-        "breastAugmentation": { "title": "Увеличение груди", "cases": [{ "title": "Увеличение 1", "subtitle": "Силиконовые импланты" }, { "title": "Увеличение 2", "subtitle": "Каплевидные импланты" }, { "title": "Увеличение 3", "subtitle": "Круглые импланты" }, { "title": "Увеличение 4", "subtitle": "Двухплоскостная" }, { "title": "Увеличение 5", "subtitle": "Субфасциальная установка" }, { "title": "Увеличение 6", "subtitle": "Подмышечная установка" }, { "title": "Увеличение 7", "subtitle": "Анатомические импланты" }, { "title": "Увеличение 8", "subtitle": "Когезивный гель" }] },
-        "breastReduction": { "title": "Уменьшение груди", "cases": [{ "title": "Уменьшение 1", "subtitle": "Вертикальная редукция" }, { "title": "Уменьшение 2", "subtitle": "Якорный метод" }, { "title": "Уменьшение 3", "subtitle": "Редукция груди" }, { "title": "Уменьшение 4", "subtitle": "Редукционная маммопластика" }, { "title": "Уменьшение 5", "subtitle": "Верхняя ножка" }, { "title": "Уменьшение 6", "subtitle": "Перевёрнутая Т-редукция" }, { "title": "Уменьшение 7", "subtitle": "Двусторонняя редукция" }, { "title": "Уменьшение 8", "subtitle": "Периареолярная техника" }] },
-        "liposuction": { "title": "Липосакция", "cases": [{ "title": "Живот 1", "subtitle": "Липосакция живота" }, { "title": "Бёдра 1", "subtitle": "Контурная бёдер" }, { "title": "Руки 1", "subtitle": "Липосакция рук" }, { "title": "Живот 2", "subtitle": "Полная скульптура живота" }, { "title": "Живот 3", "subtitle": "Нижняя часть живота" }, { "title": "Бёдра 2", "subtitle": "Внутренняя часть бёдер" }, { "title": "Бёдра 3", "subtitle": "Внешняя часть бёдер" }] },
-        "hairTransplant": { "title": "Пересадка волос", "cases": [{ "title": "Мужской случай 1", "subtitle": "FUE 2500 фолликулов" }, { "title": "Женский случай 1", "subtitle": "FUE 1500 фолликулов" }, { "title": "Мужская линия роста 2", "subtitle": "FUE 2000 фолликулов" }, { "title": "Женская линия роста 2", "subtitle": "FUE 1750 фолликулов" }] }
-      }
+        "facelift": {
+          "title": "Подтяжка лица",
+          "cases": [
+            {
+              "title": "Подтяжка лица 1",
+              "subtitle": "SMAS-лифтинг"
+            },
+            {
+              "title": "Подтяжка лица 2",
+              "subtitle": "Глубокий лифтинг"
+            },
+            {
+              "title": "Подтяжка лица 3",
+              "subtitle": "Нижняя подтяжка"
+            },
+            {
+              "title": "Подтяжка лица 4",
+              "subtitle": "SMAS-лифтинг"
+            },
+            {
+              "title": "Подтяжка лица 5",
+              "subtitle": "Средняя зона"
+            },
+            {
+              "title": "Подтяжка лица 6",
+              "subtitle": "Полный SMAS-лифтинг"
+            },
+            {
+              "title": "Подтяжка лица 7",
+              "subtitle": "Нижняя зона и шея"
+            }
+          ]
+        },
+        "rhinoplasty": {
+          "title": "Ринопластика",
+          "cases": [
+            {
+              "title": "Ринопластика 1",
+              "subtitle": "Коррекция спинки и кончика"
+            },
+            {
+              "title": "Ринопластика 2",
+              "subtitle": "Удаление горбинки"
+            },
+            {
+              "title": "Ринопластика 3",
+              "subtitle": "Коррекция кончика"
+            },
+            {
+              "title": "Ринопластика 4",
+              "subtitle": "Полная ринопластика"
+            },
+            {
+              "title": "Ринопластика 5",
+              "subtitle": "Выпрямление спинки"
+            },
+            {
+              "title": "Ринопластика 6",
+              "subtitle": "Уменьшение крыльев"
+            },
+            {
+              "title": "Ринопластика 7",
+              "subtitle": "Коррекция перегородки"
+            },
+            {
+              "title": "Ринопластика 8",
+              "subtitle": "Повторная ринопластика"
+            }
+          ]
+        },
+        "facialContouring": {
+          "title": "Контурная пластика лица",
+          "cases": [
+            {
+              "title": "Контурная 1",
+              "subtitle": "V-лайн челюсть"
+            },
+            {
+              "title": "Контурная 2",
+              "subtitle": "Скулы + челюсть"
+            },
+            {
+              "title": "Контурная 3",
+              "subtitle": "Уменьшение челюсти"
+            },
+            {
+              "title": "Контурная 4",
+              "subtitle": "Полная контурная"
+            },
+            {
+              "title": "Контурная 5",
+              "subtitle": "Квадратная челюсть"
+            },
+            {
+              "title": "Контурная 6",
+              "subtitle": "Уменьшение скул"
+            },
+            {
+              "title": "Контурная 7",
+              "subtitle": "Контурная нижней челюсти"
+            },
+            {
+              "title": "Контурная 8",
+              "subtitle": "Мини V-лайн"
+            }
+          ]
+        },
+        "eyes": {
+          "title": "Глаза",
+          "cases": [
+            {
+              "title": "Двойное веко 1",
+              "subtitle": "Разрезной метод"
+            },
+            {
+              "title": "Двойное веко 2",
+              "subtitle": "Безразрезной метод"
+            },
+            {
+              "title": "Нижнее веко 1",
+              "subtitle": "Перераспределение жира"
+            },
+            {
+              "title": "Нижнее веко 2",
+              "subtitle": "Нижняя блефаропластика"
+            },
+            {
+              "title": "Двойное веко 3",
+              "subtitle": "Коррекция птоза"
+            },
+            {
+              "title": "Двойное веко 4",
+              "subtitle": "Ревизия разрезным методом"
+            },
+            {
+              "title": "Нижнее веко 3",
+              "subtitle": "Удаление жира"
+            },
+            {
+              "title": "Нижнее веко 4",
+              "subtitle": "Коррекция тёмных кругов"
+            }
+          ]
+        },
+        "doubleChin": {
+          "title": "Двойной подбородок",
+          "cases": [
+            {
+              "title": "Двойной подбородок 1",
+              "subtitle": "Субментальная липосакция"
+            },
+            {
+              "title": "Двойной подбородок 2",
+              "subtitle": "Уменьшение подбородка"
+            },
+            {
+              "title": "Двойной подбородок 3",
+              "subtitle": "Удаление жира"
+            },
+            {
+              "title": "Двойной подбородок 4",
+              "subtitle": "Контурная подбородка"
+            },
+            {
+              "title": "Двойной подбородок 5",
+              "subtitle": "Субментальная аспирация"
+            },
+            {
+              "title": "Двойной подбородок 6",
+              "subtitle": "Липосакция шеи"
+            },
+            {
+              "title": "Двойной подбородок 7",
+              "subtitle": "Линия челюсти"
+            },
+            {
+              "title": "Двойной подбородок 8",
+              "subtitle": "Полная скульптура"
+            }
+          ]
+        },
+        "breastAugmentation": {
+          "title": "Увеличение груди",
+          "cases": [
+            {
+              "title": "Увеличение 1",
+              "subtitle": "Силиконовые импланты"
+            },
+            {
+              "title": "Увеличение 2",
+              "subtitle": "Каплевидные импланты"
+            },
+            {
+              "title": "Увеличение 3",
+              "subtitle": "Круглые импланты"
+            },
+            {
+              "title": "Увеличение 4",
+              "subtitle": "Двухплоскостная"
+            },
+            {
+              "title": "Увеличение 5",
+              "subtitle": "Субфасциальная установка"
+            },
+            {
+              "title": "Увеличение 6",
+              "subtitle": "Подмышечная установка"
+            },
+            {
+              "title": "Увеличение 7",
+              "subtitle": "Анатомические импланты"
+            },
+            {
+              "title": "Увеличение 8",
+              "subtitle": "Когезивный гель"
+            }
+          ]
+        },
+        "breastReduction": {
+          "title": "Уменьшение груди",
+          "cases": [
+            {
+              "title": "Уменьшение 1",
+              "subtitle": "Вертикальная редукция"
+            },
+            {
+              "title": "Уменьшение 2",
+              "subtitle": "Якорный метод"
+            },
+            {
+              "title": "Уменьшение 3",
+              "subtitle": "Редукция груди"
+            },
+            {
+              "title": "Уменьшение 4",
+              "subtitle": "Редукционная маммопластика"
+            },
+            {
+              "title": "Уменьшение 5",
+              "subtitle": "Верхняя ножка"
+            },
+            {
+              "title": "Уменьшение 6",
+              "subtitle": "Перевёрнутая Т-редукция"
+            },
+            {
+              "title": "Уменьшение 7",
+              "subtitle": "Двусторонняя редукция"
+            },
+            {
+              "title": "Уменьшение 8",
+              "subtitle": "Периареолярная техника"
+            }
+          ]
+        },
+        "liposuction": {
+          "title": "Липосакция",
+          "cases": [
+            {
+              "title": "Живот 1",
+              "subtitle": "Липосакция живота"
+            },
+            {
+              "title": "Бёдра 1",
+              "subtitle": "Контурная бёдер"
+            },
+            {
+              "title": "Руки 1",
+              "subtitle": "Липосакция рук"
+            },
+            {
+              "title": "Живот 2",
+              "subtitle": "Полная скульптура живота"
+            },
+            {
+              "title": "Живот 3",
+              "subtitle": "Нижняя часть живота"
+            },
+            {
+              "title": "Бёдра 2",
+              "subtitle": "Внутренняя часть бёдер"
+            },
+            {
+              "title": "Бёдра 3",
+              "subtitle": "Внешняя часть бёдер"
+            }
+          ]
+        },
+        "hairTransplant": {
+          "title": "Пересадка волос",
+          "cases": [
+            {
+              "title": "Мужской случай 1",
+              "subtitle": "FUE 2500 фолликулов"
+            },
+            {
+              "title": "Женский случай 1",
+              "subtitle": "FUE 1500 фолликулов"
+            },
+            {
+              "title": "Мужская линия роста 2",
+              "subtitle": "FUE 2000 фолликулов"
+            },
+            {
+              "title": "Женская линия роста 2",
+              "subtitle": "FUE 1750 фолликулов"
+            }
+          ]
+        }
+      },
+      "skinPopularLabel": "Популярно в Корее",
+      "skinCategories": [
+        {
+          "id": "lifting",
+          "title": "Лифтинг и подтяжка",
+          "treatments": [
+            {
+              "name": "Ultherapy",
+              "tag": "HIFU",
+              "origin": "Merz / USA",
+              "description": "FDA-cleared microfocused ultrasound for brow, neck, chin, and decollete lifting",
+              "kr": true
+            },
+            {
+              "name": "Ultraformer MPT (Shurink Universe)",
+              "tag": "HIFU",
+              "origin": "Classys / Korea",
+              "description": "Next-gen HIFU with Micro Pulsed Technology; CE MDR certified",
+              "kr": true
+            },
+            {
+              "name": "Doublo Gold",
+              "tag": "HIFU",
+              "origin": "Hironic / Korea",
+              "description": "HIFU combining microfocused ultrasound with RF for daily clinical use",
+              "kr": true
+            },
+            {
+              "name": "Sofwave",
+              "tag": "Ultrasound",
+              "origin": "Sofwave Medical / Israel",
+              "description": "SUPERB synchronous ultrasound parallel beam technology; FDA cleared for all skin types",
+              "kr": false
+            },
+            {
+              "name": "Thermage FLX",
+              "tag": "Monopolar RF",
+              "origin": "Solta Medical / USA",
+              "description": "4th-gen monopolar RF with AccuREP auto-tuning; single-session collagen remodeling",
+              "kr": true
+            },
+            {
+              "name": "Morpheus8",
+              "tag": "Microneedle RF",
+              "origin": "InMode / Israel-USA",
+              "description": "RF microneedling up to 8mm depth for deep remodeling and subdermal adipose treatment",
+              "kr": false
+            },
+            {
+              "name": "Potenza",
+              "tag": "Microneedle RF",
+              "origin": "Cynosure / USA",
+              "description": "Monopolar + bipolar RF microneedling with Tiger Tip semi-insulated needles",
+              "kr": false
+            },
+            {
+              "name": "SylfirmX",
+              "tag": "Microneedle RF",
+              "origin": "Viol / Korea",
+              "description": "Dual-wave RF (Pulsed + Continuous) effective for melasma and pigmentation",
+              "kr": true
+            },
+            {
+              "name": "Genius RF",
+              "tag": "Microneedle RF",
+              "origin": "Lutronic / Korea",
+              "description": "Real-time impedance feedback RF microneedling for precision energy delivery",
+              "kr": true
+            },
+            {
+              "name": "Volnewmer (Everesse)",
+              "tag": "Microneedle RF",
+              "origin": "Classys / Korea",
+              "description": "Micro-radiofrequency device for precision RF tightening",
+              "kr": true
+            },
+            {
+              "name": "Secret RF",
+              "tag": "Microneedle RF",
+              "origin": "Cutera / USA",
+              "description": "Adjustable-depth RF microneedling with gold-plated needles for scars and rejuvenation",
+              "kr": false
+            },
+            {
+              "name": "Scarlet RF",
+              "tag": "Microneedle RF",
+              "origin": "Viol / Korea",
+              "description": "Short-pulse RF microneedling with minimal downtime",
+              "kr": true
+            },
+            {
+              "name": "INTRAcel",
+              "tag": "Microneedle RF",
+              "origin": "Jeisys / Korea",
+              "description": "Fractional RF microneedling with biphasic waveform",
+              "kr": true
+            },
+            {
+              "name": "DENSITY",
+              "tag": "RF",
+              "origin": "Jeisys / Korea",
+              "description": "High-frequency facelifting device with Alpha Tip technology",
+              "kr": true
+            }
+          ]
+        },
+        {
+          "id": "rejuvenation",
+          "title": "Омоложение и бустеры",
+          "treatments": [
+            {
+              "name": "Rejuran Healer",
+              "tag": "PN/PDRN",
+              "origin": "Pharmaresearch / Korea",
+              "description": "Polynucleotide from salmon DNA for skin regeneration and collagen synthesis",
+              "kr": true
+            },
+            {
+              "name": "Rejuran I (Eye)",
+              "tag": "PN/PDRN",
+              "origin": "Pharmaresearch / Korea",
+              "description": "98.7% pure PDRN specialized for under-eye area rejuvenation",
+              "kr": true
+            },
+            {
+              "name": "Juvelook",
+              "tag": "Bio-stimulator",
+              "origin": "Hugel / Korea",
+              "description": "PDLLA + non-crosslinked HA booster that stimulates collagen for up to 18 months",
+              "kr": true
+            },
+            {
+              "name": "Sculptra",
+              "tag": "PLLA",
+              "origin": "Galderma / France",
+              "description": "Poly-L-lactic acid that stimulates Type 1 collagen production for gradual volume restoration",
+              "kr": true
+            },
+            {
+              "name": "Gouri",
+              "tag": "PCL",
+              "origin": "DEXLEVO / Korea",
+              "description": "World's first fully solubilized injectable PCL liquid collagen stimulator",
+              "kr": true
+            },
+            {
+              "name": "Radiesse",
+              "tag": "CaHA",
+              "origin": "Merz / USA-Germany",
+              "description": "Calcium hydroxylapatite biostimulator for skin firmness and long-term collagen renewal",
+              "kr": true
+            },
+            {
+              "name": "Profhilo",
+              "tag": "HA Bio-remodeler",
+              "origin": "IBSA / Italy",
+              "description": "High-concentration HA injectable for intense hydration with 5-point injection technique",
+              "kr": false
+            },
+            {
+              "name": "NCTF 135 HA",
+              "tag": "Mesotherapy",
+              "origin": "Fillmed / France",
+              "description": "HA + vitamins + amino acids + co-enzymes cocktail for cellular revitalization",
+              "kr": true
+            },
+            {
+              "name": "Sunekos",
+              "tag": "Amino Acid",
+              "origin": "Professional Derma / Italy",
+              "description": "Patented amino acid + HA formula for ECM regeneration",
+              "kr": false
+            },
+            {
+              "name": "Juvederm Skinvive",
+              "tag": "HA Hydrator",
+              "origin": "Allergan / USA",
+              "description": "Intradermal HA microdroplet injectable for skin smoothness lasting up to 6 months",
+              "kr": false
+            },
+            {
+              "name": "Elravie Re2O",
+              "tag": "ECM Booster",
+              "origin": "Humedix / Korea",
+              "description": "First ECM-based skin booster; replenishes extracellular matrix components",
+              "kr": true
+            },
+            {
+              "name": "Lituo (hADM)",
+              "tag": "ECM Booster",
+              "origin": "CGBio / Korea",
+              "description": "Human acellular dermal matrix booster that directly replenishes collagen and elastin",
+              "kr": true
+            },
+            {
+              "name": "Aesthefill",
+              "tag": "PDLLA",
+              "origin": "REGEN Biotech / Korea",
+              "description": "PDLLA microsphere collagen stimulator for volume and skin quality",
+              "kr": true
+            },
+            {
+              "name": "Exosome Therapy",
+              "tag": "Growth Factor",
+              "origin": "Various / Korea",
+              "description": "Stem cell-derived exosome therapy for cellular regeneration and enhanced healing",
+              "kr": true
+            },
+            {
+              "name": "LDM (Local Dynamic Micro)",
+              "tag": "Ultrasound",
+              "origin": "General Project / Germany",
+              "description": "Low-frequency ultrasound micromassage for hydration and cellular activation; zero downtime",
+              "kr": true
+            }
+          ]
+        },
+        {
+          "id": "laser",
+          "title": "Лазер и фототерапия",
+          "treatments": [
+            {
+              "name": "PicoSure Pro",
+              "tag": "Picosecond",
+              "origin": "Cynosure / USA",
+              "description": "755nm + 532nm picosecond laser with Focus Lens Array for pigment and collagen stimulation",
+              "kr": true
+            },
+            {
+              "name": "PicoWay",
+              "tag": "Picosecond",
+              "origin": "Candela / USA",
+              "description": "Multi-wavelength pico (532/730/1064nm) with Resolve fractional; excellent for melasma",
+              "kr": true
+            },
+            {
+              "name": "PicoLO",
+              "tag": "Picosecond",
+              "origin": "LASEROPTEK / Korea",
+              "description": "Korean-made picosecond Nd:YAG for pigmentation and acne scars",
+              "kr": true
+            },
+            {
+              "name": "Discovery Pico Plus",
+              "tag": "Picosecond",
+              "origin": "Quanta System / Italy",
+              "description": "Multi-wavelength pico + nano platform with fractional tips",
+              "kr": false
+            },
+            {
+              "name": "Stellar M22",
+              "tag": "IPL Platform",
+              "origin": "Lumenis / Israel",
+              "description": "Multi-application IPL + Nd:YAG + ResurFX platform treating 30+ skin conditions",
+              "kr": true
+            },
+            {
+              "name": "BBL (BroadBand Light)",
+              "tag": "IPL",
+              "origin": "Sciton / USA",
+              "description": "Advanced IPL with thermoelectrically cooled filters for photorejuvenation",
+              "kr": false
+            },
+            {
+              "name": "eCO2 3D",
+              "tag": "Fractional CO2",
+              "origin": "Lutronic / Korea",
+              "description": "40W fractional CO2 with Controlled Chaos scanning for deep resurfacing",
+              "kr": true
+            },
+            {
+              "name": "Fraxel DUAL",
+              "tag": "Non-ablative Fractional",
+              "origin": "Solta Medical / USA",
+              "description": "Dual-wavelength (1550/1927nm) non-ablative fractional for scars and pigment",
+              "kr": true
+            },
+            {
+              "name": "LaseMD Ultra",
+              "tag": "Thulium Laser",
+              "origin": "Lutronic / Korea",
+              "description": "1927nm thulium fractional laser for brightening and drug delivery",
+              "kr": true
+            },
+            {
+              "name": "Healite II",
+              "tag": "LED Therapy",
+              "origin": "Bio-Photas / Korea",
+              "description": "830nm + 633nm professional LED for cellular repair and post-procedure healing",
+              "kr": true
+            },
+            {
+              "name": "Omnilux",
+              "tag": "LED Therapy",
+              "origin": "GlobalMed / UK",
+              "description": "Medical-grade LED validated by 30+ peer-reviewed studies for acne and anti-aging",
+              "kr": false
+            },
+            {
+              "name": "CoolPeel",
+              "tag": "CO2 Laser",
+              "origin": "Cartessa / USA",
+              "description": "H-Pulse technology for fully ablative CO2 treatment with minimal downtime",
+              "kr": false
+            }
+          ]
+        },
+        {
+          "id": "injectables",
+          "title": "Инъекции",
+          "treatments": [
+            {
+              "name": "Botox",
+              "tag": "Botulinum Toxin",
+              "origin": "Allergan / USA",
+              "description": "World's most recognized botulinum toxin type A for wrinkles and hyperhidrosis",
+              "kr": true
+            },
+            {
+              "name": "Dysport",
+              "tag": "Botulinum Toxin",
+              "origin": "Galderma / France",
+              "description": "AbobotulinumtoxinA with broader diffusion pattern for glabellar lines",
+              "kr": true
+            },
+            {
+              "name": "Xeomin",
+              "tag": "Botulinum Toxin",
+              "origin": "Merz / Germany",
+              "description": "Pure botulinum toxin without complexing proteins; no refrigeration needed",
+              "kr": false
+            },
+            {
+              "name": "Nabota (Jeuveau)",
+              "tag": "Botulinum Toxin",
+              "origin": "Daewoong / Korea",
+              "description": "FDA-approved Korean botulinum toxin with patented high-purity manufacturing",
+              "kr": true
+            },
+            {
+              "name": "Botulax (Letybo)",
+              "tag": "Botulinum Toxin",
+              "origin": "Hugel / Korea",
+              "description": "FDA-approved Korean toxin; 12M+ vials sold annually worldwide",
+              "kr": true
+            },
+            {
+              "name": "Meditoxin",
+              "tag": "Botulinum Toxin",
+              "origin": "Medytox / Korea",
+              "description": "62.3% preference among Korean dermatologists; 40% domestic market share",
+              "kr": true
+            },
+            {
+              "name": "Juvederm (Voluma/Volift/Volbella)",
+              "tag": "HA Filler",
+              "origin": "Allergan / USA",
+              "description": "Vycross-technology HA filler family for cheeks, lips, and fine lines",
+              "kr": true
+            },
+            {
+              "name": "Restylane (Lyft/Kysse)",
+              "tag": "HA Filler",
+              "origin": "Galderma / Sweden",
+              "description": "NASHA and XpresHAn technology HA fillers for structural support and lips",
+              "kr": true
+            },
+            {
+              "name": "Teosyal (RHA)",
+              "tag": "HA Filler",
+              "origin": "Teoxane / Switzerland",
+              "description": "Resilient HA technology that adapts to facial movement",
+              "kr": false
+            },
+            {
+              "name": "Belotero",
+              "tag": "HA Filler",
+              "origin": "Merz / Germany",
+              "description": "CPM-technology HA fillers with smooth tissue integration",
+              "kr": false
+            },
+            {
+              "name": "Revolax",
+              "tag": "HA Filler",
+              "origin": "Across / Korea",
+              "description": "High-purity cross-linked HA filler; cost-effective for deep wrinkles and volume",
+              "kr": true
+            },
+            {
+              "name": "Neuramis",
+              "tag": "HA Filler",
+              "origin": "Medytox / Korea",
+              "description": "Korean HA filler for lip enhancement and facial contouring",
+              "kr": true
+            },
+            {
+              "name": "Yvoire",
+              "tag": "HA Filler",
+              "origin": "LG Chem / Korea",
+              "description": "Biphasic HA filler with strong structural support",
+              "kr": true
+            },
+            {
+              "name": "E.P.T.Q.",
+              "tag": "HA Filler",
+              "origin": "Hugel / Korea",
+              "description": "Premium monophasic HA filler for global markets",
+              "kr": true
+            },
+            {
+              "name": "Kybella (Belkyra)",
+              "tag": "Fat Dissolver",
+              "origin": "Allergan / USA",
+              "description": "Only FDA-approved deoxycholic acid injectable for submental fat reduction",
+              "kr": false
+            },
+            {
+              "name": "Kabelline",
+              "tag": "Fat Dissolver",
+              "origin": "Kabelline / Korea",
+              "description": "Synthetic deoxycholic acid fat dissolver for face and body contouring",
+              "kr": true
+            }
+          ]
+        },
+        {
+          "id": "threads",
+          "title": "Нитевой лифтинг",
+          "treatments": [
+            {
+              "name": "MINT Lift",
+              "tag": "PDO",
+              "origin": "HansBiomed / Korea",
+              "description": "Triple FDA-cleared PDO threads; gold standard in Korean thread lifting",
+              "kr": true
+            },
+            {
+              "name": "Miracu",
+              "tag": "PDO",
+              "origin": "CROMA / Korea",
+              "description": "Widely used Korean PDO threads for non-surgical face lifting",
+              "kr": true
+            },
+            {
+              "name": "Silhouette Soft",
+              "tag": "PLLA",
+              "origin": "Sinclair Pharma / UK",
+              "description": "PLLA bidirectional cone threads for immediate lift + gradual collagen stimulation",
+              "kr": false
+            },
+            {
+              "name": "Silhouette InstaLift",
+              "tag": "PLLA/PLGA",
+              "origin": "Sinclair / USA",
+              "description": "Absorbable suture with bidirectional cones; FDA cleared for midface",
+              "kr": false
+            },
+            {
+              "name": "Glamour Silhouline",
+              "tag": "PCL",
+              "origin": "Glamour / Korea",
+              "description": "PCL twist threads absorbed over 24 months; longest collagen stimulation",
+              "kr": true
+            },
+            {
+              "name": "Aptos",
+              "tag": "PDO/PLA",
+              "origin": "Aptos / Georgia",
+              "description": "Pioneer in thread lifting with Excellence and Nano lines for face and body",
+              "kr": false
+            }
+          ]
+        },
+        {
+          "id": "surface",
+          "title": "Поверхностные процедуры и пилинги",
+          "treatments": [
+            {
+              "name": "HydraFacial",
+              "tag": "Aqua Peel",
+              "origin": "BeautyHealth / USA",
+              "description": "Patented vortex technology for cleanse-exfoliate-extract-hydrate in one session",
+              "kr": true
+            },
+            {
+              "name": "Aqua Peel",
+              "tag": "Water Microderm",
+              "origin": "Various / Korea",
+              "description": "3-step water microdermabrasion (AHA, BHA, nutrition) standard in Korean clinics",
+              "kr": true
+            },
+            {
+              "name": "SkinPen",
+              "tag": "Microneedling",
+              "origin": "Crown Aesthetics / USA",
+              "description": "First FDA-cleared microneedling device for acne scars",
+              "kr": false
+            },
+            {
+              "name": "Dermapen 4",
+              "tag": "Microneedling",
+              "origin": "DermapenWorld / Australia",
+              "description": "Advanced microneedling pen with 16-needle cartridge for scar treatment",
+              "kr": false
+            },
+            {
+              "name": "ZO Skin Health Peels",
+              "tag": "Chemical Peel",
+              "origin": "ZO Skin Health / USA",
+              "description": "Medical-grade peel protocols by Dr. Zein Obagi",
+              "kr": false
+            },
+            {
+              "name": "SkinCeuticals Peels",
+              "tag": "Chemical Peel",
+              "origin": "SkinCeuticals / USA",
+              "description": "Professional chemical peel line including Micropeel and Advanced Corrective",
+              "kr": false
+            }
+          ]
+        },
+        {
+          "id": "pigment",
+          "title": "Пигментация и сосуды",
+          "treatments": [
+            {
+              "name": "Excel V+",
+              "tag": "Vascular Laser",
+              "origin": "Cutera / USA",
+              "description": "Dual-wavelength (532/1064nm) laser for rosacea, veins, and skin revitalization",
+              "kr": true
+            },
+            {
+              "name": "GentleMax Pro Plus",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Candela / USA",
+              "description": "Dual 755nm + 1064nm laser for vascular lesions, pigment, and hair removal",
+              "kr": true
+            },
+            {
+              "name": "Vbeam Prima",
+              "tag": "Pulsed Dye",
+              "origin": "Candela / USA",
+              "description": "595nm + 1064nm dual vascular laser; gold standard for rosacea and port wine stains",
+              "kr": false
+            },
+            {
+              "name": "RevLite SI",
+              "tag": "Q-switched Nd:YAG",
+              "origin": "Cynosure / USA",
+              "description": "Laser toning for melasma, pigmentation, and skin rejuvenation in Asian skin",
+              "kr": true
+            },
+            {
+              "name": "Spectra XT",
+              "tag": "Q-switched Nd:YAG",
+              "origin": "Lutronic / Korea",
+              "description": "Laser toning platform widely used in Korean clinics for melasma",
+              "kr": true
+            },
+            {
+              "name": "Clarity II",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Lutronic / Korea",
+              "description": "Long-pulse + Q-switch dual platform for pigment, vascular, and hair removal",
+              "kr": true
+            }
+          ]
+        },
+        {
+          "id": "bodyContouring",
+          "title": "Контурная пластика тела",
+          "treatments": [
+            {
+              "name": "CoolSculpting Elite",
+              "tag": "Cryolipolysis",
+              "origin": "Allergan / USA",
+              "description": "FDA-cleared controlled cooling to freeze and eliminate fat cells",
+              "kr": true
+            },
+            {
+              "name": "Emsculpt NEO",
+              "tag": "HIFEM + RF",
+              "origin": "BTL / USA-Czech",
+              "description": "Combines electromagnetic muscle stimulation + RF for simultaneous muscle building and fat reduction",
+              "kr": true
+            },
+            {
+              "name": "Vanquish ME",
+              "tag": "Contactless RF",
+              "origin": "BTL / USA-Czech",
+              "description": "Contactless selective RF for large-area fat reduction without touching the skin",
+              "kr": false
+            },
+            {
+              "name": "SculpSure",
+              "tag": "Laser Lipolysis",
+              "origin": "Cynosure / USA",
+              "description": "1060nm diode laser for non-invasive fat reduction across multiple body areas",
+              "kr": false
+            },
+            {
+              "name": "TightSculpting",
+              "tag": "Dual Laser",
+              "origin": "Fotona / Slovenia",
+              "description": "Er:YAG + Nd:YAG dual-wavelength laser for simultaneous sculpting and tightening",
+              "kr": false
+            },
+            {
+              "name": "Scizer",
+              "tag": "HIFU Body",
+              "origin": "Classys / Korea",
+              "description": "HIFU-based body contouring; FDA approved for non-invasive fat reduction",
+              "kr": true
+            }
+          ]
+        },
+        {
+          "id": "scalpHair",
+          "title": "Кожа головы и волосы",
+          "treatments": [
+            {
+              "name": "PRP Therapy (Scalp)",
+              "tag": "PRP",
+              "origin": "Various / Global",
+              "description": "Platelet-rich plasma injected into scalp to stimulate hair follicle regeneration",
+              "kr": true
+            },
+            {
+              "name": "Scalp Mesotherapy",
+              "tag": "Mesotherapy",
+              "origin": "Various / Korea",
+              "description": "Direct injection of growth factors, vitamins, and nutrients into the scalp",
+              "kr": true
+            },
+            {
+              "name": "Hair Filler (DR CYJ)",
+              "tag": "Peptide Filler",
+              "origin": "Caregen / Korea",
+              "description": "7 biomimetic peptide-based scalp injectable for hair growth stimulation",
+              "kr": true
+            },
+            {
+              "name": "HairMax LaserBand",
+              "tag": "LLLT",
+              "origin": "HairMax / USA",
+              "description": "First FDA-cleared low-level laser therapy device for hair loss treatment",
+              "kr": false
+            },
+            {
+              "name": "Healite II (Scalp)",
+              "tag": "LED Therapy",
+              "origin": "Bio-Photas / Korea",
+              "description": "830nm LED therapy for follicle stimulation and enhanced PRP absorption",
+              "kr": true
+            }
+          ]
+        }
+      ]
     }
   },
   "medicalBoundary": {
