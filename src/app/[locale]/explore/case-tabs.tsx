@@ -10,10 +10,16 @@ export interface TabCategory {
   cases: CaseItem[]
 }
 
+export interface TabSubgroup {
+  label: string
+  categories: TabCategory[]
+}
+
 export interface TabData {
   id: string
   label: string
   categories: TabCategory[]
+  subgroups?: TabSubgroup[]
 }
 
 interface CaseTabsProps {
@@ -98,6 +104,31 @@ export function CaseTabs({
       {/* Active Tab Content */}
       {isSkinActive ? (
         skinContent
+      ) : activeTabData.subgroups ? (
+        <div className="space-y-20 sm:space-y-28">
+          {activeTabData.subgroups.map((group) => (
+            <div key={group.label} className="space-y-12 sm:space-y-16">
+              <div className="px-4 sm:px-6 max-w-7xl mx-auto">
+                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold mb-1">{group.label}</p>
+              </div>
+              {group.categories.map((category) => (
+                <div key={category.id} className="space-y-6 sm:space-y-8">
+                  <div className="px-4 sm:px-6 max-w-7xl mx-auto">
+                    <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy border-b border-slate-200 pb-4">
+                      {category.title}
+                    </h3>
+                  </div>
+                  <CaseCarousel
+                    cases={category.cases}
+                    caseLabel={caseLabel}
+                    beforeAfterLabel={beforeAfterLabel}
+                    disclaimer={disclaimer}
+                  />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
       ) : (
         <div className="space-y-16 sm:space-y-24">
           {activeTabData.categories.map((category) => (

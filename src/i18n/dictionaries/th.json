@@ -1460,6 +1460,131 @@
               "subtitle": "FUE 1750 กราฟท์"
             }
           ]
+        },
+        "browLift": {
+          "title": "ยกคิ้ว/หน้าผาก",
+          "cases": [
+            {
+              "title": "Brow Lift Case 1",
+              "subtitle": "Endoscopic brow lift"
+            },
+            {
+              "title": "Brow Lift Case 2",
+              "subtitle": "Direct brow lift"
+            },
+            {
+              "title": "Brow Lift Case 3",
+              "subtitle": "Temporal lift"
+            },
+            {
+              "title": "Brow Lift Case 4",
+              "subtitle": "Forehead lift"
+            },
+            {
+              "title": "Brow Lift Case 5",
+              "subtitle": "Coronal brow lift"
+            }
+          ]
+        },
+        "neckLift": {
+          "title": "ยกคอ",
+          "cases": [
+            {
+              "title": "Neck Lift Case 1",
+              "subtitle": "Platysmaplasty"
+            },
+            {
+              "title": "Neck Lift Case 2",
+              "subtitle": "Cervicoplasty"
+            },
+            {
+              "title": "Neck Lift Case 3",
+              "subtitle": "Neck contouring"
+            }
+          ]
+        },
+        "tummyTuck": {
+          "title": "ดึงหน้าท้อง",
+          "cases": [
+            {
+              "title": "Abdominoplasty Case 1",
+              "subtitle": "Full tummy tuck"
+            },
+            {
+              "title": "Abdominoplasty Case 2",
+              "subtitle": "Mini abdominoplasty"
+            },
+            {
+              "title": "Abdominoplasty Case 3",
+              "subtitle": "Extended tummy tuck"
+            },
+            {
+              "title": "Abdominoplasty Case 4",
+              "subtitle": "Fleur-de-lis"
+            },
+            {
+              "title": "Abdominoplasty Case 5",
+              "subtitle": "Full abdominoplasty"
+            },
+            {
+              "title": "Abdominoplasty Case 6",
+              "subtitle": "Circumferential"
+            }
+          ]
+        },
+        "armLift": {
+          "title": "ยกแขน",
+          "cases": [
+            {
+              "title": "Brachioplasty Case 1",
+              "subtitle": "Full arm lift"
+            },
+            {
+              "title": "Brachioplasty Case 2",
+              "subtitle": "Upper arm lift"
+            },
+            {
+              "title": "Brachioplasty Case 3",
+              "subtitle": "Extended brachioplasty"
+            },
+            {
+              "title": "Brachioplasty Case 4",
+              "subtitle": "Minimal scar arm lift"
+            },
+            {
+              "title": "Brachioplasty Case 5",
+              "subtitle": "Upper arm contouring"
+            },
+            {
+              "title": "Brachioplasty Case 6",
+              "subtitle": "Arm reduction"
+            },
+            {
+              "title": "Brachioplasty Case 7",
+              "subtitle": "Full brachioplasty"
+            }
+          ]
+        },
+        "thighLift": {
+          "title": "ยกต้นขา",
+          "cases": [
+            {
+              "title": "Thigh Lift Case 1",
+              "subtitle": "Inner thigh lift"
+            },
+            {
+              "title": "Thigh Lift Case 2",
+              "subtitle": "Medial thighplasty"
+            },
+            {
+              "title": "Thigh Lift Case 3",
+              "subtitle": "Vertical thigh lift"
+            },
+            {
+              "title": "Thigh Lift Case 4",
+              "subtitle": "Full thigh contouring"
+            }
+          ]
         }
       },
       "skinPopularLabel": "ยอดนิยมในเกาหลี",
@@ -2258,6 +2383,14 @@
           "detail": "ทำความเข้าใจไลฟ์สไตล์ ความชอบ กิจวัตรประจำวัน การยอมรับช่วงพักฟื้น และเป้าหมายด้านความงาม แปลงบริบทชีวิตจริงเป็นพารามิเตอร์การรักษา"
         },
         "result": "จุดที่ความจริงทางคลินิกและบริบทส่วนตัวมาพบกัน — แผนเฉพาะของคุณถือกำเนิดที่นี่"
+      },
+      "subgroupLabels": {
+        "faceLift": "ยกกระชับ",
+        "faceContour": "โครงหน้า",
+        "faceFeatures": "ส่วนต่างๆ",
+        "bodyBreast": "หน้าอก",
+        "bodyContour": "ดูดไขมัน",
+        "bodyLift": "ยกกระชับ"
       }
     }
   },

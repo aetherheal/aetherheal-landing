@@ -76,25 +76,64 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
     { id: "ht-4", number: "04", title: tabs.categories.hairTransplant.cases[3].title, subtitle: tabs.categories.hairTransplant.cases[3].subtitle, image: `${imgBase}/hair-transplant-female-case-2-combined.png`, alt: `${tabs.categories.hairTransplant.cases[3].title} — ${tabs.categories.hairTransplant.cases[3].subtitle}` },
   ]
 
+  const sg = tabs.subgroupLabels
+
   const tabsData: TabData[] = [
     {
       id: "face",
       label: tabs.tabLabels.face,
-      categories: [
-        { id: "facelift", title: tabs.categories.facelift.title, cases: buildCases("facelift", "facelift") },
-        { id: "rhinoplasty", title: tabs.categories.rhinoplasty.title, cases: buildCases("rhinoplasty", "rhinoplasty") },
-        { id: "facial-contouring", title: tabs.categories.facialContouring.title, cases: buildCases("facial-contouring", "facialContouring") },
-        { id: "eyes", title: tabs.categories.eyes.title, cases: buildCases("eyes", "eyes") },
-        { id: "double-chin", title: tabs.categories.doubleChin.title, cases: buildCases("double-chin", "doubleChin") },
+      categories: [],
+      subgroups: [
+        {
+          label: sg.faceLift,
+          categories: [
+            { id: "facelift", title: tabs.categories.facelift.title, cases: buildCases("facelift", "facelift") },
+            { id: "brow-lift", title: tabs.categories.browLift.title, cases: buildCases("brow-lift", "browLift") },
+            { id: "neck-lift", title: tabs.categories.neckLift.title, cases: buildCases("neck-lift", "neckLift") },
+          ],
+        },
+        {
+          label: sg.faceContour,
+          categories: [
+            { id: "facial-contouring", title: tabs.categories.facialContouring.title, cases: buildCases("facial-contouring", "facialContouring") },
+            { id: "double-chin", title: tabs.categories.doubleChin.title, cases: buildCases("double-chin", "doubleChin") },
+          ],
+        },
+        {
+          label: sg.faceFeatures,
+          categories: [
+            { id: "rhinoplasty", title: tabs.categories.rhinoplasty.title, cases: buildCases("rhinoplasty", "rhinoplasty") },
+            { id: "eyes", title: tabs.categories.eyes.title, cases: buildCases("eyes", "eyes") },
+          ],
+        },
       ],
     },
     {
       id: "body",
       label: tabs.tabLabels.body,
-      categories: [
-        { id: "breast-augmentation", title: tabs.categories.breastAugmentation.title, cases: buildCases("breast-augmentation", "breastAugmentation") },
-        { id: "breast-reduction", title: tabs.categories.breastReduction.title, cases: buildCases("breast-reduction", "breastReduction") },
-        { id: "liposuction", title: tabs.categories.liposuction.title, cases: buildCases("liposuction", "liposuction") },
+      categories: [],
+      subgroups: [
+        {
+          label: sg.bodyBreast,
+          categories: [
+            { id: "breast-augmentation", title: tabs.categories.breastAugmentation.title, cases: buildCases("breast-augmentation", "breastAugmentation") },
+            { id: "breast-reduction", title: tabs.categories.breastReduction.title, cases: buildCases("breast-reduction", "breastReduction") },
+          ],
+        },
+        {
+          label: sg.bodyContour,
+          categories: [
+            { id: "liposuction", title: tabs.categories.liposuction.title, cases: buildCases("liposuction", "liposuction") },
+            { id: "tummy-tuck", title: tabs.categories.tummyTuck.title, cases: buildCases("tummy-tuck", "tummyTuck") },
+          ],
+        },
+        {
+          label: sg.bodyLift,
+          categories: [
+            { id: "arm-lift", title: tabs.categories.armLift.title, cases: buildCases("arm-lift", "armLift") },
+            { id: "thigh-lift", title: tabs.categories.thighLift.title, cases: buildCases("thigh-lift", "thighLift") },
+          ],
+        },
       ],
     },
     {

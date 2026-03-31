@@ -1460,6 +1460,131 @@
               "subtitle": "FUE 1750毛囊"
             }
           ]
+        },
+        "browLift": {
+          "title": "眉部/额部提升",
+          "cases": [
+            {
+              "title": "Brow Lift Case 1",
+              "subtitle": "Endoscopic brow lift"
+            },
+            {
+              "title": "Brow Lift Case 2",
+              "subtitle": "Direct brow lift"
+            },
+            {
+              "title": "Brow Lift Case 3",
+              "subtitle": "Temporal lift"
+            },
+            {
+              "title": "Brow Lift Case 4",
+              "subtitle": "Forehead lift"
+            },
+            {
+              "title": "Brow Lift Case 5",
+              "subtitle": "Coronal brow lift"
+            }
+          ]
+        },
+        "neckLift": {
+          "title": "颈部提升",
+          "cases": [
+            {
+              "title": "Neck Lift Case 1",
+              "subtitle": "Platysmaplasty"
+            },
+            {
+              "title": "Neck Lift Case 2",
+              "subtitle": "Cervicoplasty"
+            },
+            {
+              "title": "Neck Lift Case 3",
+              "subtitle": "Neck contouring"
+            }
+          ]
+        },
+        "tummyTuck": {
+          "title": "腹部拉皮",
+          "cases": [
+            {
+              "title": "Abdominoplasty Case 1",
+              "subtitle": "Full tummy tuck"
+            },
+            {
+              "title": "Abdominoplasty Case 2",
+              "subtitle": "Mini abdominoplasty"
+            },
+            {
+              "title": "Abdominoplasty Case 3",
+              "subtitle": "Extended tummy tuck"
+            },
+            {
+              "title": "Abdominoplasty Case 4",
+              "subtitle": "Fleur-de-lis"
+            },
+            {
+              "title": "Abdominoplasty Case 5",
+              "subtitle": "Full abdominoplasty"
+            },
+            {
+              "title": "Abdominoplasty Case 6",
+              "subtitle": "Circumferential"
+            }
+          ]
+        },
+        "armLift": {
+          "title": "手臂提升",
+          "cases": [
+            {
+              "title": "Brachioplasty Case 1",
+              "subtitle": "Full arm lift"
+            },
+            {
+              "title": "Brachioplasty Case 2",
+              "subtitle": "Upper arm lift"
+            },
+            {
+              "title": "Brachioplasty Case 3",
+              "subtitle": "Extended brachioplasty"
+            },
+            {
+              "title": "Brachioplasty Case 4",
+              "subtitle": "Minimal scar arm lift"
+            },
+            {
+              "title": "Brachioplasty Case 5",
+              "subtitle": "Upper arm contouring"
+            },
+            {
+              "title": "Brachioplasty Case 6",
+              "subtitle": "Arm reduction"
+            },
+            {
+              "title": "Brachioplasty Case 7",
+              "subtitle": "Full brachioplasty"
+            }
+          ]
+        },
+        "thighLift": {
+          "title": "大腿提升",
+          "cases": [
+            {
+              "title": "Thigh Lift Case 1",
+              "subtitle": "Inner thigh lift"
+            },
+            {
+              "title": "Thigh Lift Case 2",
+              "subtitle": "Medial thighplasty"
+            },
+            {
+              "title": "Thigh Lift Case 3",
+              "subtitle": "Vertical thigh lift"
+            },
+            {
+              "title": "Thigh Lift Case 4",
+              "subtitle": "Full thigh contouring"
+            }
+          ]
         }
       },
       "skinPopularLabel": "韩国热门",
@@ -2258,6 +2383,14 @@
           "detail": "了解您的生活方式、偏好、日常习惯、恢复期承受力和美学目标。将您的真实生活背景转化为治疗参数。"
         },
         "result": "临床现实与个人需求交汇之处 — 您独一无二的方案由此诞生。"
+      },
+      "subgroupLabels": {
+        "faceLift": "提升",
+        "faceContour": "轮廓",
+        "faceFeatures": "五官",
+        "bodyBreast": "胸部",
+        "bodyContour": "塑形",
+        "bodyLift": "提升"
       }
     }
   },
