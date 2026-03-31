@@ -1565,6 +1565,27 @@
               "origin": "Jeisys / Korea",
               "description": "High-frequency facelifting device with Alpha Tip technology",
               "kr": true
+            },
+            {
+              "name": "CoolSonic",
+              "tag": "Ultrasound",
+              "origin": "CoolSonic / Korea",
+              "description": "Non-invasive ultrasound lifting and tightening with cooling technology for enhanced comfort",
+              "kr": true
+            },
+            {
+              "name": "Oligio",
+              "tag": "Monopolar RF",
+              "origin": "Classys / Korea",
+              "description": "Monopolar RF skin tightening with AI-powered energy control; next-gen Thermage alternative",
+              "kr": true
+            },
+            {
+              "name": "ONDA Coolwaves",
+              "tag": "Microwave",
+              "origin": "DEKA / Italy",
+              "description": "Microwave technology (Coolwaves) for skin tightening, fat reduction, and cellulite treatment",
+              "kr": true
             }
           ]
         },
@@ -1594,24 +1615,10 @@
               "kr": true
             },
             {
-              "name": "Sculptra",
-              "tag": "PLLA",
-              "origin": "Galderma / France",
-              "description": "Poly-L-lactic acid that stimulates Type 1 collagen production for gradual volume restoration",
-              "kr": true
-            },
-            {
               "name": "Gouri",
               "tag": "PCL",
               "origin": "DEXLEVO / Korea",
               "description": "World's first fully solubilized injectable PCL liquid collagen stimulator",
-              "kr": true
-            },
-            {
-              "name": "Radiesse",
-              "tag": "CaHA",
-              "origin": "Merz / USA-Germany",
-              "description": "Calcium hydroxylapatite biostimulator for skin firmness and long-term collagen renewal",
               "kr": true
             },
             {
@@ -1766,12 +1773,26 @@
               "origin": "Cartessa / USA",
               "description": "H-Pulse technology for fully ablative CO2 treatment with minimal downtime",
               "kr": false
+            },
+            {
+              "name": "Cutera Excel HR",
+              "tag": "Nd:YAG/Alex",
+              "origin": "Cutera / USA",
+              "description": "Dual-wavelength laser platform for hair removal, vascular lesions, and skin rejuvenation",
+              "kr": true
+            },
+            {
+              "name": "Clarity II",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Lutronic / Korea",
+              "description": "Long-pulse + Q-switch dual platform for pigment, vascular, and hair removal",
+              "kr": true
             }
           ]
         },
         {
           "id": "injectables",
-          "title": "ฉีดยา",
+          "title": "โบท็อกซ์",
           "treatments": [
             {
               "name": "Botox",
@@ -1814,75 +1835,109 @@
               "origin": "Medytox / Korea",
               "description": "62.3% preference among Korean dermatologists; 40% domestic market share",
               "kr": true
-            },
+            }
+          ]
+        },
+        {
+          "id": "fillers",
+          "title": "ฟิลเลอร์",
+          "treatments": [
             {
               "name": "Juvederm (Voluma/Volift/Volbella)",
               "tag": "HA Filler",
               "origin": "Allergan / USA",
-              "description": "Vycross-technology HA filler family for cheeks, lips, and fine lines",
+              "description": "Vycross-technology HA filler family for cheeks, lips, and fine lines. Areas: Full face (cheeks, chin, lips, nasolabial folds, tear troughs), body (hands)",
               "kr": true
             },
             {
               "name": "Restylane (Lyft/Kysse)",
               "tag": "HA Filler",
               "origin": "Galderma / Sweden",
-              "description": "NASHA and XpresHAn technology HA fillers for structural support and lips",
+              "description": "NASHA and XpresHAn technology HA fillers for structural support and lips. Areas: Full face (cheeks, lips, chin, jawline, under-eyes), body (hands, earlobes)",
               "kr": true
             },
             {
               "name": "Teosyal (RHA)",
               "tag": "HA Filler",
               "origin": "Teoxane / Switzerland",
-              "description": "Resilient HA technology that adapts to facial movement",
+              "description": "Resilient HA technology that adapts to facial movement. Areas: Full face (lips, cheeks, nasolabial folds, tear troughs, jawline)",
               "kr": false
             },
             {
               "name": "Belotero",
               "tag": "HA Filler",
               "origin": "Merz / Germany",
-              "description": "CPM-technology HA fillers with smooth tissue integration",
+              "description": "CPM-technology HA fillers with smooth tissue integration. Areas: Full face (fine lines, lips, nasolabial folds, tear troughs)",
               "kr": false
             },
             {
               "name": "Revolax",
               "tag": "HA Filler",
               "origin": "Across / Korea",
-              "description": "High-purity cross-linked HA filler; cost-effective for deep wrinkles and volume",
+              "description": "High-purity cross-linked HA filler; cost-effective for deep wrinkles and volume. Areas: Full face (deep wrinkles, cheeks, chin, nose, lips)",
               "kr": true
             },
             {
               "name": "Neuramis",
               "tag": "HA Filler",
               "origin": "Medytox / Korea",
-              "description": "Korean HA filler for lip enhancement and facial contouring",
+              "description": "Korean HA filler for lip enhancement and facial contouring. Areas: Full face (lips, nasolabial folds, chin, cheeks)",
               "kr": true
             },
             {
               "name": "Yvoire",
               "tag": "HA Filler",
               "origin": "LG Chem / Korea",
-              "description": "Biphasic HA filler with strong structural support",
+              "description": "Biphasic HA filler with strong structural support. Areas: Full face (cheeks, chin, jawline, nose bridge), body (hands)",
               "kr": true
             },
             {
               "name": "E.P.T.Q.",
               "tag": "HA Filler",
               "origin": "Hugel / Korea",
-              "description": "Premium monophasic HA filler for global markets",
+              "description": "Premium monophasic HA filler for global markets. Areas: Full face (cheeks, jawline, lips, nose), body (hands)",
               "kr": true
             },
             {
               "name": "Kybella (Belkyra)",
               "tag": "Fat Dissolver",
               "origin": "Allergan / USA",
-              "description": "Only FDA-approved deoxycholic acid injectable for submental fat reduction",
+              "description": "Only FDA-approved deoxycholic acid injectable for submental fat reduction. Areas: Face (submental/double chin), body (bra fat, inner thighs)",
               "kr": false
             },
             {
               "name": "Kabelline",
               "tag": "Fat Dissolver",
               "origin": "Kabelline / Korea",
-              "description": "Synthetic deoxycholic acid fat dissolver for face and body contouring",
+              "description": "Synthetic deoxycholic acid fat dissolver for face and body contouring. Areas: Face (double chin, jowls), body (abdomen, love handles, inner thighs, upper arms)",
+              "kr": true
+            },
+            {
+              "name": "Sculptra",
+              "tag": "PLLA",
+              "origin": "Galderma / France",
+              "description": "Poly-L-lactic acid that stimulates Type 1 collagen production for gradual volume restoration. Areas: Full face (temples, cheeks, jawline, nasolabial folds), body (buttocks, shoulders, upper arms, hips/pelvis area)",
+              "kr": true
+            },
+            {
+              "name": "Radiesse",
+              "tag": "CaHA",
+              "origin": "Merz / USA-Germany",
+              "description": "Calcium hydroxylapatite biostimulator for skin firmness and long-term collagen renewal. Areas: Full face (cheeks, jawline, chin, hands), body (shoulders, decollete, upper arms, knees)",
+              "kr": true
+            },
+            {
+              "name": "Dermalax",
+              "tag": "HA Filler",
+              "origin": "Across / Korea",
+              "description": "Cross-linked HA filler range for face and body. Areas: Full face (cheeks, chin, lips, forehead), body (hands)",
+              "kr": true
+            },
+            {
+              "name": "Rejeunesse",
+              "tag": "HA Filler",
+              "origin": "Humedix / Korea",
+              "description": "High cross-linked HA for natural, subtle enhancements. Areas: Full face (lips, nasolabial folds, cheeks, chin)",
               "kr": true
             }
           ]
@@ -2020,13 +2075,6 @@
               "tag": "Q-switched Nd:YAG",
               "origin": "Lutronic / Korea",
               "description": "Laser toning platform widely used in Korean clinics for melasma",
-              "kr": true
-            },
-            {
-              "name": "Clarity II",
-              "tag": "Alex/Nd:YAG",
-              "origin": "Lutronic / Korea",
-              "description": "Long-pulse + Q-switch dual platform for pigment, vascular, and hair removal",
               "kr": true
             }
           ]
