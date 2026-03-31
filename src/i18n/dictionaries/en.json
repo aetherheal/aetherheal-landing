@@ -1142,20 +1142,126 @@
       "ctaHowItWorks": "How AetherHeal works",
       "ctaMedicalBoundary": "Read medical boundary"
     },
-    "moreCategories": {
-      "badge": "Other Domains",
-      "title": "Comprehensive Case Library",
-      "subtitle": "Swipe to explore our expanding range of specialized procedure categories.",
-      "comingSoon": "Detailed cases are being prepared.",
-      "modalDescription": "We are carefully curating high-quality, verified case photos for this category to demonstrate our physician-led process and realistic outcomes. Please check back later.",
+    "caseStudyTabs": {
+      "title": "Comprehensive Before & After Gallery",
+      "subtitle": "Browse real patient cases across face, body, and hair procedures.",
+      "tabLabels": {
+        "face": "Face",
+        "body": "Body",
+        "hair": "Hair"
+      },
       "categories": {
-        "threadLifting": "Thread Lifting",
-        "facelift": "Facelift",
-        "rhinoplasty": "Rhinoplasty",
-        "fatGrafting": "Fat Grafting",
-        "liposuction": "Liposuction",
-        "orthognathic": "Orthognathic Surgery",
-        "orthodontics": "Orthodontics"
+        "facelift": {
+          "title": "Facelift",
+          "cases": [
+            { "title": "Facelift Case 1", "subtitle": "SMAS facelift" },
+            { "title": "Facelift Case 2", "subtitle": "Deep plane lift" },
+            { "title": "Facelift Case 3", "subtitle": "Lower face lift" },
+            { "title": "Facelift Case 4", "subtitle": "SMAS facelift" },
+            { "title": "Facelift Case 5", "subtitle": "Mid-face lift" },
+            { "title": "Facelift Case 6", "subtitle": "Full SMAS lift" },
+            { "title": "Facelift Case 7", "subtitle": "Lower face and neck" }
+          ]
+        },
+        "rhinoplasty": {
+          "title": "Rhinoplasty",
+          "cases": [
+            { "title": "Rhinoplasty Case 1", "subtitle": "Bridge and tip correction" },
+            { "title": "Rhinoplasty Case 2", "subtitle": "Dorsal hump reduction" },
+            { "title": "Rhinoplasty Case 3", "subtitle": "Tip refinement" },
+            { "title": "Rhinoplasty Case 4", "subtitle": "Full rhinoplasty" },
+            { "title": "Rhinoplasty Case 5", "subtitle": "Bridge straightening" },
+            { "title": "Rhinoplasty Case 6", "subtitle": "Alar reduction" },
+            { "title": "Rhinoplasty Case 7", "subtitle": "Deviated septum correction" },
+            { "title": "Rhinoplasty Case 8", "subtitle": "Revision rhinoplasty" }
+          ]
+        },
+        "facialContouring": {
+          "title": "Facial Contouring",
+          "cases": [
+            { "title": "Contouring Case 1", "subtitle": "V-line jaw reduction" },
+            { "title": "Contouring Case 2", "subtitle": "Zygoma + mandible" },
+            { "title": "Contouring Case 3", "subtitle": "Jaw reduction" },
+            { "title": "Contouring Case 4", "subtitle": "Full contouring" },
+            { "title": "Contouring Case 5", "subtitle": "Square jaw reduction" },
+            { "title": "Contouring Case 6", "subtitle": "Cheekbone reduction" },
+            { "title": "Contouring Case 7", "subtitle": "Mandible contouring" },
+            { "title": "Contouring Case 8", "subtitle": "Mini V-line" }
+          ]
+        },
+        "eyes": {
+          "title": "Eyes",
+          "cases": [
+            { "title": "Double Eyelid Case 1", "subtitle": "Incisional method" },
+            { "title": "Double Eyelid Case 2", "subtitle": "Non-incisional" },
+            { "title": "Under-Eye Case 1", "subtitle": "Fat repositioning" },
+            { "title": "Under-Eye Case 2", "subtitle": "Lower blepharoplasty" },
+            { "title": "Double Eyelid Case 3", "subtitle": "Ptosis correction" },
+            { "title": "Double Eyelid Case 4", "subtitle": "Incisional revision" },
+            { "title": "Under-Eye Case 3", "subtitle": "Fat removal" },
+            { "title": "Under-Eye Case 4", "subtitle": "Dark circle correction" }
+          ]
+        },
+        "doubleChin": {
+          "title": "Double Chin",
+          "cases": [
+            { "title": "Double Chin Case 1", "subtitle": "Submental liposuction" },
+            { "title": "Double Chin Case 2", "subtitle": "Chin reduction" },
+            { "title": "Double Chin Case 3", "subtitle": "Fat removal" },
+            { "title": "Double Chin Case 4", "subtitle": "Chin contouring" },
+            { "title": "Double Chin Case 5", "subtitle": "Submental suction" },
+            { "title": "Double Chin Case 6", "subtitle": "Neck liposuction" },
+            { "title": "Double Chin Case 7", "subtitle": "Jawline definition" },
+            { "title": "Double Chin Case 8", "subtitle": "Full chin sculpting" }
+          ]
+        },
+        "breastAugmentation": {
+          "title": "Breast Augmentation",
+          "cases": [
+            { "title": "Augmentation Case 1", "subtitle": "Silicone implants" },
+            { "title": "Augmentation Case 2", "subtitle": "Teardrop implants" },
+            { "title": "Augmentation Case 3", "subtitle": "Round implants" },
+            { "title": "Augmentation Case 4", "subtitle": "Dual plane" },
+            { "title": "Augmentation Case 5", "subtitle": "Subfascial placement" },
+            { "title": "Augmentation Case 6", "subtitle": "Under-muscle implants" },
+            { "title": "Augmentation Case 7", "subtitle": "Anatomical implants" },
+            { "title": "Augmentation Case 8", "subtitle": "Cohesive gel" }
+          ]
+        },
+        "breastReduction": {
+          "title": "Breast Reduction",
+          "cases": [
+            { "title": "Reduction Case 1", "subtitle": "Vertical reduction" },
+            { "title": "Reduction Case 2", "subtitle": "Anchor pattern" },
+            { "title": "Reduction Case 3", "subtitle": "Breast reduction" },
+            { "title": "Reduction Case 4", "subtitle": "Reduction mammoplasty" },
+            { "title": "Reduction Case 5", "subtitle": "Superior pedicle" },
+            { "title": "Reduction Case 6", "subtitle": "Inverted-T reduction" },
+            { "title": "Reduction Case 7", "subtitle": "Bilateral reduction" },
+            { "title": "Reduction Case 8", "subtitle": "Circumareolar technique" }
+          ]
+        },
+        "liposuction": {
+          "title": "Liposuction",
+          "cases": [
+            { "title": "Abdomen Case 1", "subtitle": "Abdominal liposuction" },
+            { "title": "Thigh Case 1", "subtitle": "Thigh contouring" },
+            { "title": "Arm Case 1", "subtitle": "Arm liposuction" },
+            { "title": "Abdomen Case 2", "subtitle": "Full abdomen sculpting" },
+            { "title": "Abdomen Case 3", "subtitle": "Lower abdomen" },
+            { "title": "Thigh Case 2", "subtitle": "Inner thigh contouring" },
+            { "title": "Thigh Case 3", "subtitle": "Outer thigh sculpting" }
+          ]
+        },
+        "hairTransplant": {
+          "title": "Hair Transplant",
+          "cases": [
+            { "title": "Male Case 1", "subtitle": "FUE 2500 follicles" },
+            { "title": "Female Case 1", "subtitle": "FUE 1500 follicles" },
+            { "title": "Male Hairline Case 2", "subtitle": "FUE 2000 follicles" },
+            { "title": "Female Hairline Case 2", "subtitle": "FUE 1750 follicles" }
+          ]
+        }
       }
     }
   },

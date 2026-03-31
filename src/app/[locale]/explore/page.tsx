@@ -1,9 +1,8 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import Image from "next/image"
 import {
   Scissors, Sparkles, PenTool, Bot, Eye, Smile, Microscope, Activity,
-  DollarSign, TrendingUp, Clock, Scale, FileSignature, Target, Info,
+  DollarSign, TrendingUp, Clock, Scale, FileSignature, Target,
   Brain, HeartPulse, ScanLine,
 } from "lucide-react"
 import { SectionLabel } from "@/components/ui/section-label"
@@ -14,7 +13,7 @@ import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
 import { ExploreFlipCards } from "./flip-cards"
-import { CaseCarousel, type CaseItem } from "./case-carousel"
+import { CaseTabs, type TabData } from "./case-tabs"
 
 const failureIcons = [Eye, DollarSign, TrendingUp, Clock]
 const aiOutputIcons = [Target, Scale, FileSignature, Bot]
@@ -54,60 +53,56 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
   const t = dict.explore
   const prefix = `/${locale}`
   
-  const generatePlaceholders = (categoryName: string): CaseItem[] => [
-    { id: `${categoryName}-1`, number: "01", title: `${categoryName} Case 1`, subtitle: "", isPlaceholder: true },
-    { id: `${categoryName}-2`, number: "02", title: `${categoryName} Case 2`, subtitle: "", isPlaceholder: true },
-    { id: `${categoryName}-3`, number: "03", title: `${categoryName} Case 3`, subtitle: "", isPlaceholder: true },
+  const tabs = t.caseStudyTabs
+  const imgBase = "/assets/explore-gallery"
+
+  const buildCases = (slug: string, catKey: keyof typeof tabs.categories) => {
+    const cat = tabs.categories[catKey]
+    return cat.cases.map((c, i) => ({
+      id: `${slug}-${i + 1}`,
+      number: String(i + 1).padStart(2, "0"),
+      title: c.title,
+      subtitle: c.subtitle,
+      image: `${imgBase}/${slug}-case-${i + 1}.png`,
+      alt: `${c.title} — ${c.subtitle}`,
+    }))
+  }
+
+  const hairCases = [
+    { id: "ht-1", number: "01", title: tabs.categories.hairTransplant.cases[0].title, subtitle: tabs.categories.hairTransplant.cases[0].subtitle, image: `${imgBase}/hair-transplant-male-case-1.png`, alt: `${tabs.categories.hairTransplant.cases[0].title} — ${tabs.categories.hairTransplant.cases[0].subtitle}` },
+    { id: "ht-2", number: "02", title: tabs.categories.hairTransplant.cases[1].title, subtitle: tabs.categories.hairTransplant.cases[1].subtitle, image: `${imgBase}/hair-transplant-female-case-1.png`, alt: `${tabs.categories.hairTransplant.cases[1].title} — ${tabs.categories.hairTransplant.cases[1].subtitle}` },
+    { id: "ht-3", number: "03", title: tabs.categories.hairTransplant.cases[2].title, subtitle: tabs.categories.hairTransplant.cases[2].subtitle, image: `${imgBase}/hair-transplant-male-case-2.png`, alt: `${tabs.categories.hairTransplant.cases[2].title} — ${tabs.categories.hairTransplant.cases[2].subtitle}` },
+    { id: "ht-4", number: "04", title: tabs.categories.hairTransplant.cases[3].title, subtitle: tabs.categories.hairTransplant.cases[3].subtitle, image: `${imgBase}/hair-transplant-female-case-2-combined.png`, alt: `${tabs.categories.hairTransplant.cases[3].title} — ${tabs.categories.hairTransplant.cases[3].subtitle}` },
   ]
 
-  const categoriesData = [
+  const tabsData: TabData[] = [
     {
-      id: "hair-transplant",
-      title: t.caseStudies.title,
-      cases: [
-        {
-          id: "ht-1",
-          number: "01",
-          title: t.caseStudies.maleCaseTitle,
-          subtitle: "FUE 2500 follicles",
-          image: "/assets/explore-gallery/hair-transplant-male-case-1.png",
-          alt: `${t.caseStudies.maleCaseTitle} — FUE 2500 follicles`,
-        },
-        {
-          id: "ht-2",
-          number: "02",
-          title: t.caseStudies.femaleCaseTitle,
-          subtitle: "FUE 1500 follicles",
-          image: "/assets/explore-gallery/hair-transplant-female-case-1.png",
-          alt: `${t.caseStudies.femaleCaseTitle} — FUE 1500 follicles`,
-        },
-        {
-          id: "ht-3",
-          number: "03",
-          title: t.caseStudies.maleCase2Title,
-          subtitle: "FUE 2000 follicles",
-          image: "/assets/explore-gallery/hair-transplant-male-case-2.png",
-          alt: `${t.caseStudies.maleCase2Title} — FUE 2000 follicles`,
-        },
-        {
-          id: "ht-4",
-          number: "04",
-          title: t.caseStudies.femaleCase2Title,
-          subtitle: "FUE 1750 follicles",
-          image: "/assets/explore-gallery/hair-transplant-female-case-2-combined.png",
-          alt: `${t.caseStudies.femaleCase2Title} — FUE 1750 follicles`,
-        },
-      ]
+      id: "face",
+      label: tabs.tabLabels.face,
+      categories: [
+        { id: "facelift", title: tabs.categories.facelift.title, cases: buildCases("facelift", "facelift") },
+        { id: "rhinoplasty", title: tabs.categories.rhinoplasty.title, cases: buildCases("rhinoplasty", "rhinoplasty") },
+        { id: "facial-contouring", title: tabs.categories.facialContouring.title, cases: buildCases("facial-contouring", "facialContouring") },
+        { id: "eyes", title: tabs.categories.eyes.title, cases: buildCases("eyes", "eyes") },
+        { id: "double-chin", title: tabs.categories.doubleChin.title, cases: buildCases("double-chin", "doubleChin") },
+      ],
     },
-    ...(t.moreCategories ? [
-      { id: "threadLifting", title: t.moreCategories.categories.threadLifting, cases: generatePlaceholders(t.moreCategories.categories.threadLifting) },
-      { id: "facelift", title: t.moreCategories.categories.facelift, cases: generatePlaceholders(t.moreCategories.categories.facelift) },
-      { id: "rhinoplasty", title: t.moreCategories.categories.rhinoplasty, cases: generatePlaceholders(t.moreCategories.categories.rhinoplasty) },
-      { id: "fatGrafting", title: t.moreCategories.categories.fatGrafting, cases: generatePlaceholders(t.moreCategories.categories.fatGrafting) },
-      { id: "liposuction", title: t.moreCategories.categories.liposuction, cases: generatePlaceholders(t.moreCategories.categories.liposuction) },
-      { id: "orthognathic", title: t.moreCategories.categories.orthognathic, cases: generatePlaceholders(t.moreCategories.categories.orthognathic) },
-      { id: "orthodontics", title: t.moreCategories.categories.orthodontics, cases: generatePlaceholders(t.moreCategories.categories.orthodontics) },
-    ] : [])
+    {
+      id: "body",
+      label: tabs.tabLabels.body,
+      categories: [
+        { id: "breast-augmentation", title: tabs.categories.breastAugmentation.title, cases: buildCases("breast-augmentation", "breastAugmentation") },
+        { id: "breast-reduction", title: tabs.categories.breastReduction.title, cases: buildCases("breast-reduction", "breastReduction") },
+        { id: "liposuction", title: tabs.categories.liposuction.title, cases: buildCases("liposuction", "liposuction") },
+      ],
+    },
+    {
+      id: "hair",
+      label: tabs.tabLabels.hair,
+      categories: [
+        { id: "hair-transplant", title: tabs.categories.hairTransplant.title, cases: hairCases },
+      ],
+    },
   ]
 
   return (
@@ -178,44 +173,21 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
       </section>
 
       <section className="w-full py-16 sm:py-20 lg:py-24 px-0 bg-slate-50 border-b border-slate-200">
-        <div className="max-w-7xl mx-auto space-y-16 sm:space-y-20">
+        <div className="max-w-7xl mx-auto space-y-12 sm:space-y-16">
           <div className="text-center px-4 sm:px-0">
             <SectionLabel color="gold" className="block mb-2">{t.caseStudies.badge}</SectionLabel>
-            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{t.moreCategories?.title || t.caseStudies.title}</h2>
-            <p className="text-text-body text-sm max-w-2xl mx-auto">{t.moreCategories?.subtitle || t.caseStudies.subtitle}</p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">{tabs.title}</h2>
+            <p className="text-text-body text-sm max-w-2xl mx-auto">{tabs.subtitle}</p>
           </div>
 
-          <div className="px-4 sm:px-6 max-w-4xl mx-auto">
-            <div className="rounded-2xl border border-amber-200/60 bg-amber-50/50 p-5 sm:p-6 flex items-start gap-4">
-              <div className="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center shrink-0 mt-0.5">
-                <Info className="w-5 h-5 text-amber-600" />
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-brand-navy mb-1">{t.caseStudies.contextBannerTitle ?? "These photos are for context, not comparison"}</p>
-                <p className="text-sm text-text-muted leading-relaxed">{t.caseStudies.contextBannerText ?? "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance."}</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="space-y-16 sm:space-y-24">
-            {categoriesData.map(category => (
-              <div key={category.id} className="space-y-6 sm:space-y-8">
-                <div className="px-4 sm:px-6 max-w-7xl mx-auto">
-                  <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy border-b border-slate-200 pb-4">
-                    {category.title}
-                  </h3>
-                </div>
-                <CaseCarousel 
-                  cases={category.cases} 
-                  caseLabel={t.caseStudies.caseLabel}
-                  beforeAfterLabel={t.caseStudies.beforeAfterLabel}
-                  disclaimer={t.caseStudies.disclaimer}
-                  comingSoonText={t.moreCategories?.comingSoon}
-                  placeholderDescription={t.moreCategories?.modalDescription}
-                />
-              </div>
-            ))}
-          </div>
+          <CaseTabs
+            tabs={tabsData}
+            caseLabel={t.caseStudies.caseLabel}
+            beforeAfterLabel={t.caseStudies.beforeAfterLabel}
+            disclaimer={t.caseStudies.disclaimer}
+            contextBannerTitle={t.caseStudies.contextBannerTitle ?? "These photos are for context, not comparison"}
+            contextBannerText={t.caseStudies.contextBannerText ?? "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance."}
+          />
         </div>
       </section>
 

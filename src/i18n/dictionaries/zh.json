@@ -1142,20 +1142,20 @@
       "ctaHowItWorks": "AetherHeal 运作方式",
       "ctaMedicalBoundary": "阅读医疗边界声明"
     },
-    "moreCategories": {
-      "badge": "更多领域",
-      "title": "综合案例库",
-      "subtitle": "滑动以探索我们不断扩展的专业手术类别。",
-      "comingSoon": "详细案例照片准备中",
-      "modalDescription": "我们正在精心策划高质量、经过验证的案例照片，以展示我们由医生主导的流程和现实的预期效果。请稍后再来查看。",
+    "caseStudyTabs": {
+      "title": "综合术前术后案例库",
+      "subtitle": "浏览面部、身体和毛发领域的真实患者案例。",
+      "tabLabels": { "face": "面部", "body": "身体", "hair": "毛发" },
       "categories": {
-        "threadLifting": "埋线提升",
-        "facelift": "面部提升",
-        "rhinoplasty": "鼻部整形",
-        "fatGrafting": "脂肪移植",
-        "liposuction": "吸脂",
-        "orthognathic": "双颚手术",
-        "orthodontics": "牙齿矫正"
+        "facelift": { "title": "面部提升", "cases": [{ "title": "面部提升案例 1", "subtitle": "SMAS拉皮" }, { "title": "面部提升案例 2", "subtitle": "深层拉皮" }, { "title": "面部提升案例 3", "subtitle": "下面部提升" }, { "title": "面部提升案例 4", "subtitle": "SMAS拉皮" }, { "title": "面部提升案例 5", "subtitle": "中面部提升" }, { "title": "面部提升案例 6", "subtitle": "全SMAS提升" }, { "title": "面部提升案例 7", "subtitle": "下面部及颈部" }] },
+        "rhinoplasty": { "title": "鼻部整形", "cases": [{ "title": "鼻整形案例 1", "subtitle": "鼻梁鼻尖矫正" }, { "title": "鼻整形案例 2", "subtitle": "驼峰鼻矫正" }, { "title": "鼻整形案例 3", "subtitle": "鼻尖精细化" }, { "title": "鼻整形案例 4", "subtitle": "全鼻整形" }, { "title": "鼻整形案例 5", "subtitle": "鼻梁矫直" }, { "title": "鼻整形案例 6", "subtitle": "鼻翼缩小" }, { "title": "鼻整形案例 7", "subtitle": "鼻中隔矫正" }, { "title": "鼻整形案例 8", "subtitle": "修复鼻整形" }] },
+        "facialContouring": { "title": "面部轮廓", "cases": [{ "title": "轮廓案例 1", "subtitle": "V型下颌缩小" }, { "title": "轮廓案例 2", "subtitle": "颧骨+下颌" }, { "title": "轮廓案例 3", "subtitle": "下颌缩小" }, { "title": "轮廓案例 4", "subtitle": "全面轮廓" }, { "title": "轮廓案例 5", "subtitle": "方形下颌缩小" }, { "title": "轮廓案例 6", "subtitle": "颧骨缩小" }, { "title": "轮廓案例 7", "subtitle": "下颌轮廓" }, { "title": "轮廓案例 8", "subtitle": "迷你V线" }] },
+        "eyes": { "title": "眼部", "cases": [{ "title": "双眼皮案例 1", "subtitle": "切开法" }, { "title": "双眼皮案例 2", "subtitle": "埋线法" }, { "title": "眼袋案例 1", "subtitle": "脂肪重置" }, { "title": "眼袋案例 2", "subtitle": "下睑成形" }, { "title": "双眼皮案例 3", "subtitle": "上睑下垂矫正" }, { "title": "双眼皮案例 4", "subtitle": "切开修复" }, { "title": "眼袋案例 3", "subtitle": "脂肪去除" }, { "title": "眼袋案例 4", "subtitle": "黑眼圈矫正" }] },
+        "doubleChin": { "title": "双下巴", "cases": [{ "title": "双下巴案例 1", "subtitle": "下颌吸脂" }, { "title": "双下巴案例 2", "subtitle": "下巴缩小" }, { "title": "双下巴案例 3", "subtitle": "脂肪去除" }, { "title": "双下巴案例 4", "subtitle": "下巴塑形" }, { "title": "双下巴案例 5", "subtitle": "下颌抽吸" }, { "title": "双下巴案例 6", "subtitle": "颈部吸脂" }, { "title": "双下巴案例 7", "subtitle": "下颌线条" }, { "title": "双下巴案例 8", "subtitle": "全下巴雕塑" }] },
+        "breastAugmentation": { "title": "隆胸", "cases": [{ "title": "隆胸案例 1", "subtitle": "硅胶假体" }, { "title": "隆胸案例 2", "subtitle": "水滴型假体" }, { "title": "隆胸案例 3", "subtitle": "圆形假体" }, { "title": "隆胸案例 4", "subtitle": "双平面" }, { "title": "隆胸案例 5", "subtitle": "筋膜下放置" }, { "title": "隆胸案例 6", "subtitle": "肌肉下假体" }, { "title": "隆胸案例 7", "subtitle": "解剖型假体" }, { "title": "隆胸案例 8", "subtitle": "凝聚力胶" }] },
+        "breastReduction": { "title": "缩胸", "cases": [{ "title": "缩胸案例 1", "subtitle": "垂直缩小" }, { "title": "缩胸案例 2", "subtitle": "锚形切口" }, { "title": "缩胸案例 3", "subtitle": "乳房缩小" }, { "title": "缩胸案例 4", "subtitle": "缩乳成形" }, { "title": "缩胸案例 5", "subtitle": "上蒂法" }, { "title": "缩胸案例 6", "subtitle": "倒T切口" }, { "title": "缩胸案例 7", "subtitle": "双侧缩小" }, { "title": "缩胸案例 8", "subtitle": "环乳晕法" }] },
+        "liposuction": { "title": "吸脂", "cases": [{ "title": "腹部案例 1", "subtitle": "腹部吸脂" }, { "title": "大腿案例 1", "subtitle": "大腿塑形" }, { "title": "手臂案例 1", "subtitle": "手臂吸脂" }, { "title": "腹部案例 2", "subtitle": "全腹雕塑" }, { "title": "腹部案例 3", "subtitle": "下腹部" }, { "title": "大腿案例 2", "subtitle": "内侧大腿塑形" }, { "title": "大腿案例 3", "subtitle": "外侧大腿雕塑" }] },
+        "hairTransplant": { "title": "毛发移植", "cases": [{ "title": "男性案例 1", "subtitle": "FUE 2500毛囊" }, { "title": "女性案例 1", "subtitle": "FUE 1500毛囊" }, { "title": "男性发际线案例 2", "subtitle": "FUE 2000毛囊" }, { "title": "女性发际线案例 2", "subtitle": "FUE 1750毛囊" }] }
       }
     }
   },
