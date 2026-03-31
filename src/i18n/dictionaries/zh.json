@@ -2167,6 +2167,82 @@
               "kr": true
             }
           ]
+        },
+        {
+          "id": "stemCell",
+          "title": "干细胞 & 再生医学",
+          "treatments": [
+            {
+              "name": "Autologous Stem Cell Therapy",
+              "tag": "Stem Cell",
+              "origin": "Various / Korea",
+              "description": "Patient-derived adipose or bone marrow stem cells for skin regeneration, wound healing, and anti-aging",
+              "kr": true
+            },
+            {
+              "name": "Umbilical Cord Stem Cell (UC-MSC)",
+              "tag": "Stem Cell",
+              "origin": "Various / Korea",
+              "description": "Allogeneic mesenchymal stem cells from umbilical cord for anti-aging, immune modulation, and tissue repair",
+              "kr": true
+            },
+            {
+              "name": "MCT (MicroCoring Technology)",
+              "tag": "Skin Resurfacing",
+              "origin": "Cytrellis / USA",
+              "description": "Micro-cores of skin are removed to tighten and rejuvenate without thermal damage; FDA-cleared for wrinkle reduction",
+              "kr": false
+            },
+            {
+              "name": "Exosome IV Therapy",
+              "tag": "Exosome",
+              "origin": "Various / Korea",
+              "description": "Intravenous stem cell-derived exosome infusion for systemic anti-aging, skin rejuvenation, and cellular repair",
+              "kr": true
+            },
+            {
+              "name": "SVF (Stromal Vascular Fraction)",
+              "tag": "Stem Cell",
+              "origin": "Various / Korea",
+              "description": "Concentrated adipose-derived stem cells and growth factors for facial rejuvenation and volume restoration",
+              "kr": true
+            },
+            {
+              "name": "PRP + Stem Cell Combination",
+              "tag": "Regenerative",
+              "origin": "Various / Korea",
+              "description": "Platelet-rich plasma combined with stem cell therapy for enhanced skin regeneration and collagen production",
+              "kr": true
+            },
+            {
+              "name": "NK Cell Therapy",
+              "tag": "Immune Cell",
+              "origin": "Various / Korea",
+              "description": "Natural killer cell infusion therapy for immune boosting, anti-aging, and cellular health optimization",
+              "kr": true
+            },
+            {
+              "name": "Fibroblast Therapy",
+              "tag": "Cell Therapy",
+              "origin": "Various / Korea",
+              "description": "Autologous fibroblast injection for natural collagen and elastin production; long-term skin quality improvement",
+              "kr": true
+            },
+            {
+              "name": "Growth Factor Cocktail (GFC)",
+              "tag": "Growth Factor",
+              "origin": "Various / Korea",
+              "description": "Concentrated autologous growth factor injection for skin rejuvenation, hair growth, and wound healing",
+              "kr": true
+            },
+            {
+              "name": "Placental Extract Therapy",
+              "tag": "Regenerative",
+              "origin": "Various / Korea-Japan",
+              "description": "Human placental extract (Laennec/Melsmon) injection for anti-aging, fatigue recovery, and liver function",
+              "kr": true
+            }
+          ]
         }
       ],
       "skinConsulting": {
