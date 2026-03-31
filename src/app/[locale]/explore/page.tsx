@@ -193,6 +193,7 @@ export default async function ExplorePage({ params }: { params: Promise<{ locale
               <SkinCatalog
                 categories={tabs.skinCategories}
                 popularLabel={tabs.skinPopularLabel}
+                consultingBanner={tabs.skinConsulting}
               />
             }
           />

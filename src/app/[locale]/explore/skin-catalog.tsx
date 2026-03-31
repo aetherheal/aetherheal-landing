@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, Stethoscope, User } from "lucide-react"
 
 export interface SkinTreatment {
   name: string
@@ -17,12 +17,22 @@ export interface SkinCategory {
   treatments: SkinTreatment[]
 }
 
+export interface SkinConsultingBanner {
+  badge: string
+  title: string
+  description: string
+  physician: { label: string; detail: string }
+  coordinator: { label: string; detail: string }
+  result: string
+}
+
 interface SkinCatalogProps {
   categories: SkinCategory[]
   popularLabel: string
+  consultingBanner?: SkinConsultingBanner
 }
 
-export function SkinCatalog({ categories, popularLabel }: SkinCatalogProps) {
+export function SkinCatalog({ categories, popularLabel, consultingBanner }: SkinCatalogProps) {
   const [expanded, setExpanded] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(categories.map((c) => [c.id, true]))
   )
@@ -32,6 +42,39 @@ export function SkinCatalog({ categories, popularLabel }: SkinCatalogProps) {
 
   return (
     <div className="space-y-10 sm:space-y-14 px-4 sm:px-6 max-w-6xl mx-auto">
+      {consultingBanner && (
+        <div className="rounded-2xl border border-brand-gold/20 bg-gradient-to-br from-white to-brand-gold/5 p-6 sm:p-8 space-y-6">
+          <div>
+            <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold">{consultingBanner.badge}</span>
+            <h3 className="font-serif text-xl sm:text-2xl text-brand-navy mt-2 mb-3">{consultingBanner.title}</h3>
+            <p className="text-sm text-text-body leading-relaxed max-w-3xl">{consultingBanner.description}</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex items-start gap-4 bg-white rounded-xl border border-border-light p-5">
+              <div className="w-10 h-10 rounded-full bg-brand-navy/5 flex items-center justify-center shrink-0">
+                <Stethoscope className="w-5 h-5 text-brand-navy" />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-brand-navy mb-1">{consultingBanner.physician.label}</p>
+                <p className="text-xs text-text-body leading-relaxed">{consultingBanner.physician.detail}</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4 bg-white rounded-xl border border-border-light p-5">
+              <div className="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center shrink-0">
+                <User className="w-5 h-5 text-brand-gold" />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-brand-navy mb-1">{consultingBanner.coordinator.label}</p>
+                <p className="text-xs text-text-body leading-relaxed">{consultingBanner.coordinator.detail}</p>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-brand-gold/10 pt-4">
+            <p className="text-sm text-brand-navy font-medium text-center">{consultingBanner.result}</p>
+          </div>
+        </div>
+      )}
+
       {categories.map((cat) => (
         <div key={cat.id}>
           <button

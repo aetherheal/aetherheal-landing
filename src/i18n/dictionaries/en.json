@@ -2168,7 +2168,21 @@
             }
           ]
         }
-      ]
+      ],
+      "skinConsulting": {
+        "badge": "AetherHeal Trusted Skin Clinics",
+        "title": "Two-Axis Personalized Consulting",
+        "description": "At AetherHeal trusted skin aesthetic clinics, your treatment plan is not a menu pick — it is built from two independent axes of expertise that converge on a plan made only for you.",
+        "physician": {
+          "label": "Medical Director",
+          "detail": "Diagnoses skin condition, bone structure, and tone from a clinical perspective. Evaluates tissue quality, aging patterns, and contraindications to determine what is medically appropriate."
+        },
+        "coordinator": {
+          "label": "Patient Coordinator",
+          "detail": "Maps your lifestyle, preferences, daily routine, downtime tolerance, and aesthetic goals. Translates your real-world context into treatment parameters."
+        },
+        "result": "Where these two axes meet — clinical reality and personal context — your one-of-a-kind plan is born."
+      }
     }
   },
   "medicalBoundary": {
