@@ -45,3 +45,6 @@ next-env.d.ts
 
 # pnpm store
 .pnpm-store/
+
+# Local Netlify folder
+.netlify

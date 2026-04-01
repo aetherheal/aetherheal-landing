@@ -605,6 +605,10 @@
       "intro": "This is not a company pitch. It is an explanation of why a specific structural failure in global healthcare requires a specific architectural response — and why no amount of better marketing, nicer websites, or more reviews will fix it.",
       "disclaimer": "Written for investors, partners, physicians, and anyone who wants to understand the mechanism — not just the promise."
     },
+    "tldr": {
+      "badge": "The Short Answer",
+      "text": "Medical tourism is broken because the people who recommend hospitals profit from the recommendation. AetherHeal fixes this structurally: the physicians who advise you earn the same flat fee regardless of which hospital you choose. That separation is not a policy — it is built into the architecture."
+    },
     "toc": [
       {
         "id": "the-problem",
@@ -629,6 +633,7 @@
     ],
     "theProblem": {
       "title": "The Problem We Named",
+      "summary": "Why patients can't trust medical tourism — and why better marketing won't fix it.",
       "p1": "In 1970, economist George Akerlof described how markets fail when buyers cannot verify quality before purchase. Sellers of low-quality goods drive out sellers of high-quality goods — because the buyer cannot tell the difference. The market fills with lemons. Akerlof won the Nobel Prize for this insight in 2001.",
       "p2": "Global medical tourism is a textbook Akerlof market. Patients cannot evaluate surgical skill, hospital safety, or post-operative care quality from another country. The only signals visible are price, marketing spend, and before-and-after photos — none of which correlate reliably with clinical outcomes.",
       "p3": "The result is predictable: agencies that spend the most on marketing win the most patients. Physicians with the best clinical outcomes have no credible way to signal their quality. Patients make consequential decisions about their bodies based on information that is structurally unreliable.",
@@ -644,6 +649,7 @@
     },
     "theArchitecture": {
       "title": "The Architecture We Built",
+      "summary": "An independent verification layer between patients and hospitals — like the Michelin Guide for healthcare.",
       "p1": "The solution is not a better marketplace. It is the institutional trust layer that the industry has never had — the verification standard that makes physician quality legible to patients who cannot evaluate it themselves.",
       "p2": "Consider the Michelin Guide: it is not a restaurant. It is the standard through which restaurants earn recognition across cities and countries. Before the Michelin Guide, diners had no reliable way to evaluate quality beyond word of mouth. After the Michelin Guide, the standard itself carried the trust. Chefs compete to meet the standard — because recognition from an independent, incentive-aligned authority cannot be purchased.",
       "p3": "AetherHeal occupies the same structural position for global medical travel. We are not a hospital. We are not an agency. We are the verification standard layer — separated from the execution layer, governed by physicians who have no financial interest in the outcome of any individual patient's decision.",
@@ -667,6 +673,7 @@
     },
     "theIncentive": {
       "title": "The Incentive Structure",
+      "summary": "A flat fee that makes our financial interests identical to the patient's medical interests.",
       "p1": "Anyone can claim physician leadership. Anyone can write a Trust Protocol page. What no competitor can replicate is a fee structure where the platform literally earns the same amount whether a patient chooses a $2,000 procedure or a $20,000 one.",
       "p2": "AetherHeal's patient navigation fee is flat. The team that verifies hospitals is structurally separated from the team that navigates patients. The physician who reviews your case has no financial relationship with any hospital in the network.",
       "p3": "These are not policies. Policies require enforcement and can be quietly abandoned when revenue is slow. These are architectural decisions — built into the fee structure, the organizational chart, and the governance model. They make corruption structurally impossible, not merely discouraged.",
@@ -732,6 +739,7 @@
     },
     "theAiBoundary": {
       "title": "The AI Boundary",
+      "summary": "AI assists with organization and logistics. It never makes medical decisions or chooses your hospital.",
       "p1": "AI inside AetherHeal organizes complexity. It structures intake information, surfaces missing records, supports multilingual coordination, and extends post-treatment continuity monitoring.",
       "p2": "It does not make medical decisions. It does not choose your hospital. It does not override physician judgment. This is not a limitation we impose reluctantly — it is the foundational design principle.",
       "p3": "The philosopher Martin Heidegger warned that technology's deepest danger is not that it fails, but that it reframes everything as a resource to be optimized. Edmund Pellegrino, the philosopher of medicine, argued that medicine is a moral enterprise — not a technical one. The moment an AI layer replaces the physician's reading of the human being in front of them, the system has failed at the deepest level, even if every metric looks good.",
@@ -740,6 +748,7 @@
     },
     "theFounder": {
       "title": "The Founder's Obligation",
+      "bridge": "The sections above describe the structural logic. But structures don't build themselves — they come from people who have a reason to care. Here is why this one exists.",
       "p1": "Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified skin aesthetic medicine specialist and hair transplant surgeon who had two procedures as a patient. The first failed — because price was the only signal he could read. He only understood what had been done to him after he became a specialist in the field.",
       "p2": "AetherHeal is not built because a founder identified a market opportunity. It is built because a physician was blinded by the problem he is solving — and spent years acquiring the clinical expertise to understand exactly what went wrong and why the market made it inevitable.",
       "p3": "The philosopher Emmanuel Levinas wrote that genuine moral obligation begins with the encounter — when you truly see someone's vulnerability and can no longer look away. This is not a pitch deck story. This is the reason the architecture will hold when the revenue is slow and the compromises feel rational.",
@@ -782,6 +791,15 @@
       "h1Highlight": "Trust Protocol",
       "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable.",
       "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met."
+    },
+    "tldr": {
+      "badge": "In Short",
+      "points": [
+        "Physicians review every case — AI assists but never decides.",
+        "The people who advise you don't profit from which hospital you choose.",
+        "Partner hospitals are selectively verified and re-evaluated regularly.",
+        "Every decision is logged, auditable, and traceable to a responsible human."
+      ]
     },
     "toc": [
       {
@@ -1095,7 +1113,10 @@
       "placeholder": "Image placeholder",
       "disclaimer": "Patient photos shown for layout and presentation purposes.",
       "contextBannerTitle": "These photos are for context, not comparison",
-      "contextBannerText": "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance."
+      "contextBannerText": "Before/after images show procedural range, not promised outcomes. Every case is unique. AetherHeal uses these references to support informed decision-making — not to encourage shopping by appearance.",
+      "searchPlaceholder": "Search procedures...",
+      "jumpToLabel": "Jump to",
+      "noResultsLabel": "No matching procedures found."
     },
     "aiPreparation": {
       "badge": "Before You Book",

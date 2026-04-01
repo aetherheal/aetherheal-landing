@@ -43,6 +43,24 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
             <p className="text-xl sm:text-2xl font-serif text-brand-navy leading-relaxed">{t.hero.intro}</p>
             <p>{t.hero.disclaimer}</p>
           </div>
+
+          {/* TL;DR Summary */}
+          <div className="mt-12 p-6 sm:p-8 bg-brand-navy/[0.03] border border-brand-gold/20 rounded-2xl">
+            <p className="text-xs font-bold uppercase tracking-widest text-brand-gold mb-4">{t.tldr?.badge ?? "In Short"}</p>
+            <ul className="space-y-3">
+              {(t.tldr?.points ?? [
+                "Physicians review every case — AI assists but never decides.",
+                "The people who advise you don't profit from which hospital you choose.",
+                "Partner hospitals are selectively verified and re-evaluated regularly.",
+                "Every decision is logged, auditable, and traceable to a responsible human.",
+              ]).map((point: string) => (
+                <li key={point} className="flex items-start gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" />
+                  <span className="text-base text-brand-navy font-medium leading-snug">{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -113,7 +131,10 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                   <div className="p-6 sm:p-8 bg-brand-gold/5 border border-brand-gold/15 rounded-2xl">
                     <p className="text-base text-brand-navy font-serif font-medium leading-relaxed">{t.incentiveSeparation.akerlofFraming}</p>
                   </div>
-                  <p>{t.incentiveSeparation.p1}</p><p>{t.incentiveSeparation.p2}</p>
+                  <p>{t.incentiveSeparation.p1}</p>
+                  <div className="border-l-2 border-slate-200 pl-6">
+                    <p>{t.incentiveSeparation.p2}</p>
+                  </div>
                   <div className="flex items-center justify-center py-4"><Split className="w-6 h-6 text-brand-gold" /></div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
                     <div className="p-6 sm:p-10 bg-brand-navy text-white flex flex-col justify-between">
@@ -182,13 +203,37 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.trustScope.title}</h2>
                 <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]"><p>{t.trustScope.intro}</p></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                  <div className="bg-white rounded-2xl border border-slate-100 p-6 sm:p-8 shadow-sm">
-                    <div className="flex items-center gap-3 mb-6"><CheckCircle className="w-5 h-5 text-emerald-600" /><h3 className="text-sm font-bold uppercase tracking-widest text-emerald-700">{t.trustScope.doTitle}</h3></div>
-                    <ul className="space-y-4">{t.trustScope.doItems.map((item) => (<li key={item} className="flex items-start gap-3"><CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" /><span className="text-sm text-text-body">{item}</span></li>))}</ul>
+                  <div className="bg-white rounded-2xl border border-emerald-100 p-6 sm:p-8 shadow-sm">
+                    <div className="flex items-center gap-3 mb-6">
+                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center shrink-0">
+                        <CheckCircle className="w-5 h-5 text-emerald-600" />
+                      </div>
+                      <h3 className="text-sm font-bold uppercase tracking-widest text-emerald-700">{t.trustScope.doTitle}</h3>
+                    </div>
+                    <ul className="space-y-4">{t.trustScope.doItems.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-emerald-50 flex items-center justify-center" aria-label="Yes">
+                          <CheckCircle className="w-3.5 h-3.5 text-emerald-500" />
+                        </span>
+                        <span className="text-sm text-text-body">{item}</span>
+                      </li>
+                    ))}</ul>
                   </div>
-                  <div className="bg-white rounded-2xl border border-slate-100 p-6 sm:p-8 shadow-sm">
-                    <div className="flex items-center gap-3 mb-6"><XCircle className="w-5 h-5 text-danger" /><h3 className="text-sm font-bold uppercase tracking-widest text-danger">{t.trustScope.dontTitle}</h3></div>
-                    <ul className="space-y-4">{t.trustScope.dontItems.map((item) => (<li key={item} className="flex items-start gap-3"><XCircle className="w-4 h-4 text-danger mt-0.5 shrink-0" /><span className="text-sm text-text-body">{item}</span></li>))}</ul>
+                  <div className="bg-white rounded-2xl border border-red-100 p-6 sm:p-8 shadow-sm">
+                    <div className="flex items-center gap-3 mb-6">
+                      <div className="w-8 h-8 rounded-lg bg-red-50 flex items-center justify-center shrink-0">
+                        <XCircle className="w-5 h-5 text-danger" />
+                      </div>
+                      <h3 className="text-sm font-bold uppercase tracking-widest text-danger">{t.trustScope.dontTitle}</h3>
+                    </div>
+                    <ul className="space-y-4">{t.trustScope.dontItems.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-red-50 flex items-center justify-center" aria-label="No">
+                          <XCircle className="w-3.5 h-3.5 text-danger" />
+                        </span>
+                        <span className="text-sm text-text-body">{item}</span>
+                      </li>
+                    ))}</ul>
                   </div>
                 </div>
               </div>

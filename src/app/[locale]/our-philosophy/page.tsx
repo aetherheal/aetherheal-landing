@@ -62,6 +62,16 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
             <p className="text-xl sm:text-2xl font-serif text-white leading-relaxed">{t.hero.intro}</p>
             <p className="text-[15px] text-white/60">{t.hero.disclaimer}</p>
           </div>
+
+          {/* The Short Answer */}
+          {t.tldr && (
+            <div className="relative mt-14 p-6 sm:p-8 bg-white/[0.07] border border-white/10 rounded-2xl backdrop-blur-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-brand-gold mb-4">{t.tldr.badge}</p>
+              <p className="text-base sm:text-lg text-white/90 font-serif leading-relaxed">
+                {t.tldr.text}
+              </p>
+            </div>
+          )}
         </div>
       </section>
 
@@ -112,9 +122,13 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
 
               {/* ──────── Section 1: The Problem We Named ──────── */}
               <div id="the-problem" className="scroll-mt-32">
-                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-2 leading-tight">
                   {t.theProblem.title}
                 </h2>
+                {t.theProblem.summary && (
+                  <p className="text-sm text-text-muted mb-8 pb-4 border-b border-slate-100">{t.theProblem.summary}</p>
+                )}
+                {!t.theProblem.summary && <div className="mb-8 pb-4 border-b border-slate-100" />}
                 <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   {/* Scene intro — ko only */}
                   {t.theProblem.scene && (
@@ -157,9 +171,13 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
 
               {/* ──────── Section 2: The Architecture We Built ──────── */}
               <div id="the-architecture" className="scroll-mt-32">
-                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-2 leading-tight">
                   {t.theArchitecture.title}
                 </h2>
+                {t.theArchitecture.summary && (
+                  <p className="text-sm text-text-muted mb-8 pb-4 border-b border-slate-100">{t.theArchitecture.summary}</p>
+                )}
+                {!t.theArchitecture.summary && <div className="mb-8 pb-4 border-b border-slate-100" />}
                 <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theArchitecture.p1}</p>
                   <p>{t.theArchitecture.p2}</p>
@@ -226,9 +244,13 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
 
               {/* ──────── Section 3: The Incentive Structure ──────── */}
               <div id="the-incentive" className="scroll-mt-32">
-                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-2 leading-tight">
                   {t.theIncentive.title}
                 </h2>
+                {t.theIncentive.summary && (
+                  <p className="text-sm text-text-muted mb-8 pb-4 border-b border-slate-100">{t.theIncentive.summary}</p>
+                )}
+                {!t.theIncentive.summary && <div className="mb-8 pb-4 border-b border-slate-100" />}
                 <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theIncentive.p1}</p>
 
@@ -311,9 +333,13 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
 
               {/* ──────── Section 4: The AI Boundary ──────── */}
               <div id="the-ai-boundary" className="scroll-mt-32">
-                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-2 leading-tight">
                   {t.theAiBoundary.title}
                 </h2>
+                {t.theAiBoundary.summary && (
+                  <p className="text-sm text-text-muted mb-8 pb-4 border-b border-slate-100">{t.theAiBoundary.summary}</p>
+                )}
+                {!t.theAiBoundary.summary && <div className="mb-8 pb-4 border-b border-slate-100" />}
                 <div className="space-y-8 text-lg text-slate-700 leading-[1.8] break-keep">
                   <p>{t.theAiBoundary.p1}</p>
                   <p>{t.theAiBoundary.p2}</p>
@@ -332,6 +358,12 @@ export default async function OurPhilosophyPage({ params }: { params: Promise<{ 
 
               {/* ──────── Section 5: The Founder's Obligation ──────── */}
               <div id="the-founder" className="scroll-mt-32">
+                {/* Transition bridge */}
+                {t.theFounder.bridge && (
+                  <div className="mb-10 p-6 sm:p-8 bg-slate-50/80 border border-slate-100 rounded-2xl">
+                    <p className="text-base text-slate-600 leading-relaxed italic">{t.theFounder.bridge}</p>
+                  </div>
+                )}
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">
                   {t.theFounder.title}
                 </h2>
