@@ -1,9 +1,21 @@
 import Anthropic from "@anthropic-ai/sdk"
 import { Resend } from "resend"
 import { supabaseAdmin } from "@/lib/supabase-admin"
+import { checkRateLimit, getRateLimitKey } from "@/lib/rate-limit"
+import { corsHeaders, handleCorsOptions } from "@/lib/cors"
+import { sanitizeMessage, escapeHtml } from "@/lib/sanitize"
 
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! })
-const resend = new Resend(process.env.RESEND_API_KEY!)
+const apiKey = process.env.ANTHROPIC_API_KEY
+if (!apiKey) throw new Error("Missing ANTHROPIC_API_KEY")
+const anthropic = new Anthropic({ apiKey })
+
+const resendKey = process.env.RESEND_API_KEY
+if (!resendKey) throw new Error("Missing RESEND_API_KEY")
+const resend = new Resend(resendKey)
+
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-20250514"
+const INTAKE_NOTIFICATION_EMAIL = process.env.INTAKE_NOTIFICATION_EMAIL || "drjeeju@aetherheal.com"
+const API_TIMEOUT_MS = 30_000
 
 // ─────────────────────────────────────────────
 // SYSTEM PROMPT — authored by Dr. Jee Hoon Ju
@@ -104,7 +116,8 @@ function parseCaseFile(text: string) {
   const raw = match[1]
   const extract = (label: string) => {
     const re = new RegExp(`${label}:\\s*([^\\n]+(?:\\n(?![A-Z ]+:)[^\\n]*)*)`, "i")
-    return raw.match(re)?.[1]?.trim() ?? ""
+    const value = raw.match(re)?.[1]?.trim() ?? ""
+    return value.slice(0, 5000)
   }
 
   return {
@@ -122,44 +135,73 @@ function parseCaseFile(text: string) {
 // POST /api/intake
 // ─────────────────────────────────────────────
 
-export async function POST(request: Request) {
-  try {
-    const body = await request.json()
-    const { message, sessionId } = body
+export async function OPTIONS(request: Request) {
+  return handleCorsOptions(request)
+}
 
-    if (!message || typeof message !== "string") {
-      return Response.json({ error: "Message is required" }, { status: 400 })
+export async function POST(request: Request) {
+  const cors = corsHeaders(request)
+
+  try {
+    const ip = getRateLimitKey(request)
+    if (!checkRateLimit(ip, 6, 60_000)) {
+      return Response.json(
+        { error: "Too many requests. Please wait a moment." },
+        { status: 429, headers: cors }
+      )
     }
 
-    if (message.length > 3000) {
-      return Response.json({ error: "Message too long" }, { status: 400 })
+    const body = await request.json()
+    const { message, sessionId, sessionToken } = body
+
+    if (!message || typeof message !== "string") {
+      return Response.json({ error: "Message is required" }, { status: 400, headers: cors })
+    }
+
+    const sanitized = sanitizeMessage(message)
+    if (sanitized.length === 0) {
+      return Response.json({ error: "Message is required" }, { status: 400, headers: cors })
+    }
+
+    if (sanitized.length > 3000) {
+      return Response.json({ error: "Message too long" }, { status: 400, headers: cors })
     }
 
     // Get or create session
     let activeSessionId = sessionId
+    let activeSessionToken = sessionToken
     let existingMessages: { role: string; content: string }[] = []
 
     if (!activeSessionId) {
+      const newToken = crypto.randomUUID()
       const { data: session, error } = await supabaseAdmin
         .from("intake_sessions")
-        .insert({ specialty: "hair-transplant", locale: "en" })
+        .insert({ specialty: "hair-transplant", locale: "en", session_token: newToken })
         .select("id")
         .single()
 
       if (error) throw error
       activeSessionId = session.id
+      activeSessionToken = newToken
     } else {
+      // Validate session ownership
+      if (!sessionToken) {
+        return Response.json({ error: "Session token required" }, { status: 401, headers: cors })
+      }
       const { data, error } = await supabaseAdmin
         .from("intake_sessions")
         .select("messages, status")
         .eq("id", activeSessionId)
+        .eq("session_token", sessionToken)
         .single()
 
-      if (error) throw error
+      if (error || !data) {
+        return Response.json({ error: "Invalid session" }, { status: 403, headers: cors })
+      }
       if (data.status === "completed") {
         return Response.json(
           { error: "This intake session is already complete." },
-          { status: 400 }
+          { status: 400, headers: cors }
         )
       }
       existingMessages = data.messages ?? []
@@ -170,18 +212,32 @@ export async function POST(request: Request) {
       role: m.role as "user" | "assistant",
       content: m.content,
     }))
-    history.push({ role: "user", content: message })
+    history.push({ role: "user", content: sanitized })
 
-    // Call Claude
-    const response = await anthropic.messages.create({
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
-      system: SYSTEM_PROMPT,
-      messages: history,
-    })
+    // Call Claude with timeout
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS)
 
-    const assistantText =
-      response.content[0].type === "text" ? response.content[0].text : ""
+    let response: Anthropic.Message
+    try {
+      response = await anthropic.messages.create(
+        {
+          model: CLAUDE_MODEL,
+          max_tokens: 1024,
+          system: SYSTEM_PROMPT,
+          messages: history,
+        },
+        { signal: controller.signal }
+      )
+    } finally {
+      clearTimeout(timeout)
+    }
+
+    if (!response.content[0] || response.content[0].type !== "text") {
+      throw new Error("Unexpected response format from Claude")
+    }
+
+    const assistantText = response.content[0].text
 
     // Check for completed case file
     const caseFile = parseCaseFile(assistantText)
@@ -195,7 +251,7 @@ export async function POST(request: Request) {
     // Update session in Supabase
     const updatedMessages = [
       ...existingMessages,
-      { role: "user", content: message },
+      { role: "user", content: sanitized },
       { role: "assistant", content: assistantText },
     ]
 
@@ -224,36 +280,36 @@ export async function POST(request: Request) {
     if (isCompleted && caseFile) {
       await resend.emails.send({
         from: "AetherHeal Intake <intake@aetherheal.com>",
-        to: "drjeeju@aetherheal.com",
+        to: INTAKE_NOTIFICATION_EMAIL,
         subject: `New Intake Case — Hair Transplant [${activeSessionId.slice(0, 8)}]`,
         html: `
           <h2>New Intake Case Ready for Review</h2>
-          <p><strong>Session ID:</strong> ${activeSessionId}</p>
+          <p><strong>Session ID:</strong> ${escapeHtml(activeSessionId)}</p>
           <p><strong>Specialty:</strong> Hair Transplant</p>
           <hr />
 
           <h3>Patient Goals (verbatim)</h3>
           <blockquote style="border-left: 3px solid #B49250; padding-left: 16px; color: #444;">
-            ${caseFile.patientGoals}
+            ${escapeHtml(caseFile.patientGoals)}
           </blockquote>
 
           <h3>Clinical Summary</h3>
-          <p>${caseFile.clinicalSummary}</p>
+          <p>${escapeHtml(caseFile.clinicalSummary)}</p>
 
           <h3>Previous Treatments</h3>
-          <p>${caseFile.previousTreatments || "None reported"}</p>
+          <p>${escapeHtml(caseFile.previousTreatments || "None reported")}</p>
 
           <h3>Medical History Flags</h3>
-          <p>${caseFile.medicalHistoryFlags || "None reported"}</p>
+          <p>${escapeHtml(caseFile.medicalHistoryFlags || "None reported")}</p>
 
           <h3>Risk Flags</h3>
-          <p>${caseFile.riskFlags || "None"}</p>
+          <p>${escapeHtml(caseFile.riskFlags || "None")}</p>
 
           <h3>Missing Information</h3>
-          <p>${caseFile.missingInfo || "None"}</p>
+          <p>${escapeHtml(caseFile.missingInfo || "None")}</p>
 
           <h3>Clarifying Questions for Physician</h3>
-          <p>${caseFile.clarifyingQuestions || "None"}</p>
+          <p>${escapeHtml(caseFile.clarifyingQuestions || "None")}</p>
 
           <hr />
           <p style="color: #888; font-size: 12px;">
@@ -264,13 +320,20 @@ export async function POST(request: Request) {
       })
     }
 
-    return Response.json({
-      sessionId: activeSessionId,
-      message: patientResponse,
-      completed: isCompleted,
-    })
+    return Response.json(
+      {
+        sessionId: activeSessionId,
+        sessionToken: activeSessionToken,
+        message: patientResponse,
+        completed: isCompleted,
+      },
+      { headers: cors }
+    )
   } catch (err) {
-    console.error("Intake API error:", err)
-    return Response.json({ error: "Internal server error" }, { status: 500 })
+    console.error("Intake API error:", err instanceof Error ? err.message : "Unknown error")
+    return Response.json(
+      { error: "An error occurred processing your request. Please try again." },
+      { status: 500, headers: cors }
+    )
   }
 }

@@ -19,6 +19,7 @@ export default function IntakePage() {
   const [input, setInput] = useState("")
   const [loading, setLoading] = useState(false)
   const [sessionId, setSessionId] = useState<string | null>(null)
+  const [sessionToken, setSessionToken] = useState<string | null>(null)
   const [completed, setCompleted] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
   const scrollContainerRef = useRef<HTMLDivElement>(null)
@@ -43,12 +44,13 @@ export default function IntakePage() {
       const res = await fetch("/api/intake", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text, sessionId }),
+        body: JSON.stringify({ message: text, sessionId, sessionToken }),
       })
 
       const data = await res.json()
 
       if (data.sessionId && !sessionId) setSessionId(data.sessionId)
+      if (data.sessionToken && !sessionToken) setSessionToken(data.sessionToken)
 
       setMessages((prev) => [
         ...prev,

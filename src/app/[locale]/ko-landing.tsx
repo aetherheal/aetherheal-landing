@@ -19,7 +19,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
         <div className="absolute inset-0">
           <Image
             src="/og-image.jpg"
-            alt=""
+            alt="AetherHeal 의료 여정 배경"
             fill
             className="object-cover object-center opacity-20"
             priority

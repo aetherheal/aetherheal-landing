@@ -9,6 +9,7 @@ interface ChatWidgetProps {
 }
 
 interface Message {
+  id: string
   role: "user" | "assistant"
   content: string
 }
@@ -35,12 +36,16 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
   const [input, setInput] = useState("")
   const [isLoading, setIsLoading] = useState(false)
   const [sessionId, setSessionId] = useState<string | null>(null)
+  const [sessionToken, setSessionToken] = useState<string | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
+  const msgCounter = useRef(0)
 
   useEffect(() => {
     const stored = sessionStorage.getItem("aetherheal-chat-session")
+    const storedToken = sessionStorage.getItem("aetherheal-chat-token")
     if (stored) setSessionId(stored)
+    if (storedToken) setSessionToken(storedToken)
   }, [])
 
   useEffect(() => {
@@ -57,7 +62,7 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
     setIsOpen(true)
     if (messages.length === 0) {
       const greeting = GREETING[locale] || GREETING.en
-      setMessages([{ role: "assistant", content: greeting }])
+      setMessages([{ id: `msg-${++msgCounter.current}`, role: "assistant", content: greeting }])
     }
   }, [locale, messages.length])
 
@@ -65,7 +70,7 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
     const trimmed = input.trim()
     if (!trimmed || isLoading) return
 
-    const userMsg: Message = { role: "user", content: trimmed }
+    const userMsg: Message = { id: `msg-${++msgCounter.current}`, role: "user", content: trimmed }
     setMessages((prev) => [...prev, userMsg])
     setInput("")
     setIsLoading(true)
@@ -77,6 +82,7 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
         body: JSON.stringify({
           message: trimmed,
           sessionId,
+          sessionToken,
           locale,
         }),
       })
@@ -91,7 +97,8 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
 
       const decoder = new TextDecoder()
       let assistantContent = ""
-      setMessages((prev) => [...prev, { role: "assistant", content: "" }])
+      const assistantMsgId = `msg-${++msgCounter.current}`
+      setMessages((prev) => [...prev, { id: assistantMsgId, role: "assistant", content: "" }])
 
       while (true) {
         const { done, value } = await reader.read()
@@ -114,12 +121,17 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
               sessionStorage.setItem("aetherheal-chat-session", parsed.sessionId)
             }
 
+            if (parsed.sessionToken && !sessionToken) {
+              setSessionToken(parsed.sessionToken)
+              sessionStorage.setItem("aetherheal-chat-token", parsed.sessionToken)
+            }
+
             if (parsed.text) {
               assistantContent += parsed.text
               const content = assistantContent
               setMessages((prev) => {
                 const updated = [...prev]
-                updated[updated.length - 1] = { role: "assistant", content }
+                updated[updated.length - 1] = { id: assistantMsgId, role: "assistant", content }
                 return updated
               })
             }
@@ -127,19 +139,25 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
             if (parsed.error) {
               throw new Error(parsed.error)
             }
-          } catch {
-            // skip malformed chunks
+          } catch (e) {
+            if (e instanceof Error && e.message) {
+              throw e
+            }
+            // skip malformed JSON chunks
           }
         }
       }
     } catch (err) {
       const errorMsg =
         err instanceof Error ? err.message : "Something went wrong. Please try again."
-      setMessages((prev) => [...prev, { role: "assistant", content: `⚠ ${errorMsg}` }])
+      setMessages((prev) => [
+        ...prev,
+        { id: `msg-${++msgCounter.current}`, role: "assistant", content: `⚠ ${errorMsg}` },
+      ])
     } finally {
       setIsLoading(false)
     }
-  }, [input, isLoading, sessionId, locale])
+  }, [input, isLoading, sessionId, sessionToken, locale])
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
@@ -195,7 +213,7 @@ export function ChatWidget({ locale }: ChatWidgetProps) {
       <div className="flex-1 overflow-y-auto px-4 py-4 space-y-4 bg-slate-50/50">
         {messages.map((msg, i) => (
           <div
-            key={i}
+            key={msg.id}
             className={cn(
               "flex",
               msg.role === "user" ? "justify-end" : "justify-start"

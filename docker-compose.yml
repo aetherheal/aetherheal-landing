@@ -2,7 +2,15 @@ services:
   app:
     build: .
     container_name: aetherheal-landing
-    network_mode: host
+    ports:
+      - "3021:3021"
     environment:
       - PORT=3021
+      - NODE_ENV=production
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3021/en"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

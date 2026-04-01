@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { locales, patientLocales, type Locale } from "@/i18n/config"
 import { getAllPosts } from "@/lib/blog"
 
-const BASE = "https://aetherheal.com"
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://aetherheal.com"
 
 const koOnlyRoutes = ["/for-partners", "/for-investors", "/for-team"]
 
@@ -86,12 +86,13 @@ function alternates(path: string, availableLocales: readonly string[]) {
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries = buildEntries()
   const results: MetadataRoute.Sitemap = []
+  const buildDate = new Date()
 
   for (const entry of entries) {
     for (const locale of entry.locales) {
       results.push({
         url: `${BASE}/${locale}${entry.path}`,
-        lastModified: new Date(),
+        lastModified: buildDate,
         changeFrequency: entry.changeFrequency,
         priority: entry.priority,
         alternates: alternates(entry.path, entry.locales),
@@ -99,18 +100,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  results.push({
-    url: `${BASE}/en/blog`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 0.7,
-    alternates: alternates("/blog", patientLocales),
-  })
   for (const locale of patientLocales) {
-    if (locale === "en") continue
     results.push({
       url: `${BASE}/${locale}/blog`,
-      lastModified: new Date(),
+      lastModified: buildDate,
       changeFrequency: "weekly",
       priority: 0.7,
       alternates: alternates("/blog", patientLocales),

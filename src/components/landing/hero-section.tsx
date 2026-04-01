@@ -17,7 +17,7 @@ export function HeroSection({ icon: Icon, badge, h1, h1Highlight, intro, showBgI
         <div className="absolute inset-0">
           <Image
             src="/og-image.jpg"
-            alt=""
+            alt="AetherHeal medical journey background"
             fill
             className="object-cover object-center opacity-20"
             priority

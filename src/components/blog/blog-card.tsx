@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Calendar, Clock, ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { BlogPostMeta } from "@/lib/blog"
@@ -29,10 +30,12 @@ export function BlogCard({ post, categoryLabel, readMoreLabel }: BlogCardProps) 
       >
         {post.coverImage && (
           <div className="relative w-full aspect-[16/9] overflow-hidden rounded-t-2xl bg-slate-100">
-            <img
+            <Image
               src={post.coverImage}
               alt={post.title}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
         )}

@@ -1,7 +1,14 @@
 import Anthropic from "@anthropic-ai/sdk"
 import { supabaseAdmin } from "@/lib/supabase-admin"
+import { checkRateLimit, getRateLimitKey } from "@/lib/rate-limit"
+import { corsHeaders, handleCorsOptions } from "@/lib/cors"
+import { sanitizeMessage } from "@/lib/sanitize"
 
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! })
+const apiKey = process.env.ANTHROPIC_API_KEY
+if (!apiKey) throw new Error("Missing ANTHROPIC_API_KEY")
+const anthropic = new Anthropic({ apiKey })
+
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-20250514"
 
 const SYSTEM_PROMPT = `You are AetherHeal's patient consultation assistant. You help international patients who are considering medical care in South Korea.
 
@@ -47,34 +54,72 @@ IMPORTANT BOUNDARIES:
 
 const MAX_MESSAGES_PER_SESSION = 50
 const MAX_MESSAGE_LENGTH = 2000
+const API_TIMEOUT_MS = 30_000
+
+export async function OPTIONS(request: Request) {
+  return handleCorsOptions(request)
+}
 
 export async function POST(request: Request) {
-  try {
-    const body = await request.json()
-    const { message, sessionId, locale = "en" } = body
+  const cors = corsHeaders(request)
 
-    if (!message || typeof message !== "string") {
-      return Response.json({ error: "Message is required" }, { status: 400 })
+  try {
+    const ip = getRateLimitKey(request)
+    if (!checkRateLimit(ip, 10, 60_000)) {
+      return Response.json(
+        { error: "Too many requests. Please wait a moment." },
+        { status: 429, headers: cors }
+      )
     }
 
-    if (message.length > MAX_MESSAGE_LENGTH) {
+    const body = await request.json()
+    const { message, sessionId, sessionToken, locale = "en" } = body
+
+    if (!message || typeof message !== "string") {
+      return Response.json({ error: "Message is required" }, { status: 400, headers: cors })
+    }
+
+    const sanitized = sanitizeMessage(message)
+    if (sanitized.length === 0) {
+      return Response.json({ error: "Message is required" }, { status: 400, headers: cors })
+    }
+
+    if (sanitized.length > MAX_MESSAGE_LENGTH) {
       return Response.json(
         { error: `Message too long (max ${MAX_MESSAGE_LENGTH} characters)` },
-        { status: 400 }
+        { status: 400, headers: cors }
       )
     }
 
     let activeSessionId = sessionId
+    let activeSessionToken = sessionToken
 
     if (!activeSessionId) {
+      const newToken = crypto.randomUUID()
       const { data: session, error } = await supabaseAdmin
         .from("chat_sessions")
-        .insert({ locale })
+        .insert({ locale, session_token: newToken })
         .select("id")
         .single()
 
       if (error) throw error
       activeSessionId = session.id
+      activeSessionToken = newToken
+    } else {
+      // Validate session ownership
+      if (!sessionToken) {
+        return Response.json({ error: "Session token required" }, { status: 401, headers: cors })
+      }
+      const { data: session, error } = await supabaseAdmin
+        .from("chat_sessions")
+        .select("id")
+        .eq("id", activeSessionId)
+        .eq("session_token", sessionToken)
+        .single()
+
+      if (error || !session) {
+        return Response.json({ error: "Invalid session" }, { status: 403, headers: cors })
+      }
     }
 
     const { data: existingMessages, error: fetchError } = await supabaseAdmin
@@ -89,7 +134,7 @@ export async function POST(request: Request) {
     if (existingMessages && existingMessages.length >= MAX_MESSAGES_PER_SESSION) {
       return Response.json(
         { error: "Session message limit reached. Please start a new conversation." },
-        { status: 429 }
+        { status: 429, headers: cors }
       )
     }
 
@@ -98,23 +143,31 @@ export async function POST(request: Request) {
       content: m.content,
     }))
 
-    history.push({ role: "user", content: message })
+    history.push({ role: "user", content: sanitized })
 
-    const stream = anthropic.messages.stream({
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
-      system: SYSTEM_PROMPT,
-      messages: history,
-    })
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS)
+
+    const stream = anthropic.messages.stream(
+      {
+        model: CLAUDE_MODEL,
+        max_tokens: 1024,
+        system: SYSTEM_PROMPT,
+        messages: history,
+      },
+      { signal: controller.signal }
+    )
 
     let fullResponse = ""
 
     const encoder = new TextEncoder()
     const readable = new ReadableStream({
-      async start(controller) {
+      async start(ctrl) {
         try {
-          controller.enqueue(
-            encoder.encode(`data: ${JSON.stringify({ sessionId: activeSessionId })}\n\n`)
+          ctrl.enqueue(
+            encoder.encode(
+              `data: ${JSON.stringify({ sessionId: activeSessionId, sessionToken: activeSessionToken })}\n\n`
+            )
           )
 
           for await (const event of stream) {
@@ -123,25 +176,32 @@ export async function POST(request: Request) {
               event.delta.type === "text_delta"
             ) {
               fullResponse += event.delta.text
-              controller.enqueue(
+              ctrl.enqueue(
                 encoder.encode(`data: ${JSON.stringify({ text: event.delta.text })}\n\n`)
               )
             }
           }
 
           await supabaseAdmin.from("chat_messages").insert([
-            { session_id: activeSessionId, role: "user", content: message },
+            { session_id: activeSessionId, role: "user", content: sanitized },
             { session_id: activeSessionId, role: "assistant", content: fullResponse },
           ])
 
-          controller.enqueue(encoder.encode("data: [DONE]\n\n"))
-          controller.close()
+          ctrl.enqueue(encoder.encode("data: [DONE]\n\n"))
+          ctrl.close()
         } catch (err) {
-          const errMsg = err instanceof Error ? err.message : "Stream error"
-          controller.enqueue(
+          const errMsg =
+            err instanceof Error && err.name === "AbortError"
+              ? "Request timed out"
+              : err instanceof Error
+                ? err.message
+                : "Stream error"
+          ctrl.enqueue(
             encoder.encode(`data: ${JSON.stringify({ error: errMsg })}\n\n`)
           )
-          controller.close()
+          ctrl.close()
+        } finally {
+          clearTimeout(timeout)
         }
       },
     })
@@ -151,10 +211,14 @@ export async function POST(request: Request) {
         "Content-Type": "text/event-stream",
         "Cache-Control": "no-cache",
         Connection: "keep-alive",
+        ...cors,
       },
     })
   } catch (err) {
-    console.error("Chat API error:", err)
-    return Response.json({ error: "Internal server error" }, { status: 500 })
+    console.error("Chat API error:", err instanceof Error ? err.message : "Unknown error")
+    return Response.json(
+      { error: "An error occurred processing your request. Please try again." },
+      { status: 500, headers: cors }
+    )
   }
 }
