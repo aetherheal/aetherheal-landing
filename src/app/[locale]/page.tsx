@@ -33,7 +33,7 @@ import { KoLanding } from "./ko-landing"
 
 const journeyIcons = [User, Stethoscope, GitFork, Building2, CreditCard, Compass, Infinity]
 const problemQuoteIcons = [GitFork, AlertTriangle, Stethoscope]
-const concernIcons = [Building2, RefreshCw, HelpCircle, Globe, Layers]
+// concernIcons removed — Patient Concerns section folded into Explore
 const exploreIcons = [Scissors, Sparkles, Building2, Eye, Heart, Stethoscope]
 const journeySides = ["right", "left", "center", "right", "left", "right", "left"] as const
 const aiLayerIcons = [Bot, ShieldCheck, Activity]
@@ -357,46 +357,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Patient Concerns — Decision Mode */}
-      <section className="w-full py-20 sm:py-24 lg:py-28 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-navy/5 border border-brand-navy/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-brand-navy mb-6">
-              {t.patientConcerns.badge}
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-brand-navy leading-tight mb-4">
-              {t.patientConcerns.title}
-            </h2>
-            <p className="text-text-muted text-lg max-w-2xl mx-auto">
-              {t.patientConcerns.subtitle}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.patientConcerns.items.map((item, i) => {
-              const Icon = concernIcons[i % concernIcons.length]
-              return (
-              <Link
-                key={item.title}
-                href={`${prefix}${item.href}`}
-                className="group flex items-start gap-5 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-[0_20px_50px_-16px_rgba(15,23,42,0.12)] transition-all duration-300"
-              >
-                <div className="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-brand-gold/10 transition-colors">
-                  <Icon className="w-5 h-5 text-brand-navy group-hover:text-brand-gold transition-colors" />
-                </div>
-                <div className="flex flex-col">
-                  <h3 className="font-serif text-lg text-brand-navy font-semibold leading-snug mb-2 group-hover:text-brand-gold transition-colors">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-text-muted leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
-              </Link>
-              )
-            })}
-          </div>
-        </div>
-      </section>
+      {/* Patient Concerns — folded into Explore section below */}
 
       {/* Journey Timeline */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200 overflow-hidden">
@@ -609,20 +570,14 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* CTA Repeat */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light">
-        <div className="max-w-3xl mx-auto text-center space-y-8">
-          <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy">{t.cta.title}</h2>
+      {/* Single closing CTA — after FAQ */}
+      <section className="w-full py-16 sm:py-20 px-4 sm:px-6 bg-bg-light">
+        <div className="max-w-2xl mx-auto text-center space-y-6">
+          <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.cta.title}</h2>
           <p className="text-text-body max-w-xl mx-auto leading-relaxed">{t.cta.subtitle}</p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href={`${prefix}/how-it-works`}>
-              <Button variant="navy" size="lg" className="min-w-[200px]">{t.cta.ctaHowItWorks}</Button>
-            </Link>
-            <Link href={`${prefix}/explore`}>
-              <Button variant="outline" size="lg" className="min-w-[200px]">{t.cta.ctaExplore}</Button>
-            </Link>
-          </div>
-          <p className="text-sm font-serif italic text-text-muted opacity-60">{t.cta.signature}</p>
+          <Link href={`${prefix}/how-it-works`}>
+            <Button variant="navy" size="lg" className="min-w-[200px]">{t.cta.ctaHowItWorks}</Button>
+          </Link>
         </div>
       </section>
     </div>

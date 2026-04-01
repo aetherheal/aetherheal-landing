@@ -48,7 +48,7 @@
   "home": {
     "meta": {
       "title": "AetherHeal | Physician-Led Global Medical Journey to Seoul",
-      "description": "AetherHeal is physician-led, AI-assisted decision infrastructure for international patients considering care in Korea. Structured clarity before hospital commitment, coordination, and continuity."
+      "description": "AetherHeal is a physician-led, AI-assisted platform for international patients considering medical care in Korea. Get independent medical guidance before choosing a hospital."
     },
     "hero": {
       "badge": "Physician-led · AI-assisted · For international patients considering Korea",
@@ -98,7 +98,7 @@
       "badge": "AI Assistance Layer",
       "title": "AI Support,",
       "titleHighlight": "Under Physician Authority",
-      "subtitle": "AetherHeal uses AI to organize complexity, surface missing information, and extend continuity monitoring. It does not replace physician judgment or hospital authority.",
+      "subtitle": "AetherHeal uses AI to organize your medical records, flag missing information, and help coordinate follow-up care. It does not replace physician judgment or hospital authority.",
       "cards": [
         {
           "title": "Before Physician Review",
@@ -110,10 +110,10 @@
         },
         {
           "title": "After Treatment",
-          "description": "AI can support continuity monitoring by organizing check-ins and surfacing follow-up signals, while humans decide whether action or escalation is needed."
+          "description": "AI helps organize your post-treatment check-ins and flags anything that may need attention, while your care team decides on next steps."
         }
       ],
-      "footnote": "AetherHeal is not an AI doctor. AI supports the infrastructure; physicians and hospitals remain the decision-makers."
+      "footnote": "AetherHeal is not an AI doctor. AI handles the logistics; physicians and hospitals remain the decision-makers."
     },
     "patientConcerns": {
       "badge": "Where Are You in Your Decision?",
