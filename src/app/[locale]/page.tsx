@@ -1,5 +1,6 @@
 import Link from "next/link"
 import {
+  ArrowRight,
   User,
   Stethoscope,
   GitFork,
@@ -11,12 +12,7 @@ import {
   AlertTriangle,
   CheckCircle2,
   CreditCard,
-  Bot,
   ShieldCheck,
-  Activity,
-  HelpCircle,
-  Globe,
-  Layers,
   RefreshCw,
   Scissors,
   Sparkles,
@@ -36,7 +32,55 @@ const problemQuoteIcons = [GitFork, AlertTriangle, Stethoscope]
 // concernIcons removed — Patient Concerns section folded into Explore
 const exploreIcons = [Scissors, Sparkles, Building2, Eye, Heart, Stethoscope]
 const journeySides = ["right", "left", "center", "right", "left", "right", "left"] as const
-const aiLayerIcons = [Bot, ShieldCheck, Activity]
+const trustPillarIcons = [ShieldCheck, CreditCard, RefreshCw, UserCheck]
+const storyArcCardClasses = [
+  "border-slate-200 bg-white",
+  "border-slate-200 bg-slate-50/80",
+  "border-brand-gold/30 bg-brand-gold/10",
+  "border-brand-navy/15 bg-brand-navy/5",
+  "border-brand-navy bg-brand-navy text-white",
+]
+const storyArcPillClasses = [
+  "bg-slate-100 text-text-muted",
+  "bg-slate-200/80 text-text-muted",
+  "bg-brand-gold/15 text-brand-gold",
+  "bg-brand-navy/10 text-brand-navy",
+  "bg-white/10 text-white",
+]
+const storyArcArrowClasses = [
+  "text-slate-300",
+  "text-slate-300",
+  "text-brand-gold/60",
+  "text-brand-navy/40",
+]
+const first48CardClasses = [
+  "border-slate-200 bg-white",
+  "border-slate-200 bg-slate-50/80",
+  "border-brand-gold/30 bg-brand-gold/10",
+]
+const first48PillClasses = [
+  "bg-brand-navy/5 text-brand-navy",
+  "bg-slate-200/80 text-text-muted",
+  "bg-brand-gold/15 text-brand-gold",
+]
+const first48ArrowClasses = [
+  "text-slate-300",
+  "text-brand-gold/60",
+]
+const continuityCardClasses = [
+  "border-white/10 bg-white/5",
+  "border-white/15 bg-white/10",
+  "border-brand-gold/25 bg-brand-gold/10",
+]
+const continuityPillClasses = [
+  "bg-white/10 text-white",
+  "bg-white/15 text-white",
+  "bg-brand-gold/15 text-brand-gold",
+]
+const continuityArrowClasses = [
+  "text-white/20",
+  "text-brand-gold/50",
+]
 
 const exploreHrefs = [
   "/hair-transplant-korea",
@@ -67,6 +111,47 @@ export default async function HomePage({
     question: item.question,
     answer: item.answer,
   }))
+  const problemQuoteSection = t.problemQuote as typeof t.problemQuote & {
+    title?: string
+    subtitle?: string
+    items?: { title: string; quote: string }[]
+  }
+  const problemItems = problemQuoteSection.items ?? [
+    { title: "Risk", quote: t.problemQuote.q1 },
+    { title: "Incentives", quote: t.problemQuote.q2 },
+    { title: "Trust", quote: t.problemQuote.q3 },
+  ]
+  const partnersSection = t.partners as typeof t.partners & {
+    proofPoints?: string[]
+  }
+  const journeySection = t.journey as typeof t.journey & {
+    steps: Array<{
+      label: string
+      badge: string | null
+      description: string
+      details: string | null
+      owner?: string
+      next?: string
+    }>
+    storyArc?: {
+      badge?: string
+      title?: string
+      subtitle?: string
+      items?: { phase: string; title: string; owner: string }[]
+    }
+    first48Hours?: {
+      badge?: string
+      title?: string
+      subtitle?: string
+      items?: { time: string; title: string; description: string; owner?: string; next?: string }[]
+    }
+    continuityYear?: {
+      badge?: string
+      title?: string
+      subtitle?: string
+      items?: { phase: string; title: string; description: string; owner?: string; next?: string }[]
+    }
+  }
 
   return (
     <div className="min-h-full">
@@ -113,12 +198,12 @@ export default async function HomePage({
             </p>
 
             <div className="w-full pt-4 flex flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:300ms]">
-              <Link href={`${prefix}/how-it-works`}>
+              <Link href={`${prefix}/intake`}>
                 <Button variant="navy" size="lg" className="min-w-[200px]">
                   {t.hero.ctaHowItWorks}
                 </Button>
               </Link>
-              <Link href={`${prefix}/explore`}>
+              <Link href={`${prefix}/how-it-works`}>
                 <Button variant="outline" size="lg" className="min-w-[200px]">
                   {t.hero.ctaExplore}
                 </Button>
@@ -154,12 +239,12 @@ export default async function HomePage({
           </p>
 
           <div className="w-full pt-2 flex flex-col items-center justify-center gap-3 animate-fade-up [animation-delay:300ms]">
-            <Link href={`${prefix}/how-it-works`}>
+            <Link href={`${prefix}/intake`}>
               <Button variant="navy" size="lg" className="w-full min-w-[200px]">
                 {t.hero.ctaHowItWorks}
               </Button>
             </Link>
-            <Link href={`${prefix}/explore`}>
+            <Link href={`${prefix}/how-it-works`}>
               <Button variant="outline" size="lg" className="w-full min-w-[200px]">
                 {t.hero.ctaExplore}
               </Button>
@@ -185,28 +270,56 @@ export default async function HomePage({
 
       {/* Problem Quote */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-3xl mx-auto space-y-10">
-          <div className="w-px h-16 bg-brand-gold mx-auto mb-8" />
-          {[t.problemQuote.q1, t.problemQuote.q2, t.problemQuote.q3].map((q, i) => {
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <SectionLabel color="gold" className="mb-4 block">
+              {problemQuoteSection.title ?? "Why patients hesitate"}
+            </SectionLabel>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-4">
+              {problemQuoteSection.title ?? "Why patients hesitate"}
+            </h2>
+            <p className="text-text-body text-lg leading-relaxed">
+              {problemQuoteSection.subtitle ??
+                "Behind every medical tourism search is a patient trying to avoid a decision they may regret for years."}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {problemItems.map((item, i) => {
             const Icon = problemQuoteIcons[i]
-            const isLast = i === 2
+            const isLast = i === problemItems.length - 1
             return (
-              <div key={i} className="flex items-start gap-5">
+              <div
+                key={item.title}
+                className={cn(
+                  "rounded-[28px] border p-8 shadow-[0_20px_50px_-16px_rgba(15,23,42,0.08)]",
+                  isLast
+                    ? "border-brand-navy bg-brand-navy text-white"
+                    : "border-slate-200 bg-slate-50/50"
+                )}
+              >
                 <div className={cn(
-                  "w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 mt-1",
-                  isLast ? "bg-brand-navy shadow-md" : "bg-slate-100"
+                  "w-12 h-12 rounded-2xl flex items-center justify-center mb-6",
+                  isLast ? "bg-brand-gold/10" : "bg-white border border-slate-200"
                 )}>
-                  <Icon className={cn("w-6 h-6", isLast ? "text-brand-gold" : "text-slate-400")} />
+                  <Icon className={cn("w-5 h-5", isLast ? "text-brand-gold" : "text-brand-navy")} />
                 </div>
                 <p className={cn(
-                  "font-serif leading-relaxed",
-                  isLast ? "text-3xl text-brand-navy font-bold italic" : "text-2xl text-text-body"
+                  "text-[10px] font-bold uppercase tracking-widest mb-3",
+                  isLast ? "text-brand-gold" : "text-text-muted"
                 )}>
-                  &ldquo;{q}&rdquo;
+                  {item.title}
+                </p>
+                <p className={cn(
+                  "font-serif text-2xl leading-relaxed",
+                  isLast ? "text-white" : "text-brand-navy"
+                )}>
+                  &ldquo;{item.quote}&rdquo;
                 </p>
               </div>
             )
           })}
+          </div>
         </div>
       </section>
 
@@ -265,11 +378,11 @@ export default async function HomePage({
             <div className="bg-brand-navy md:bg-transparent p-10 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-3 md:order-2 overflow-hidden md:overflow-visible">
               <div className="md:hidden absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-0" />
               <div className="relative z-10">
-                <div className="flex items-center gap-4 mb-10">
-                  <span className="inline-block px-4 py-1.5 rounded-full bg-brand-gold/10 text-brand-gold text-[10px] font-bold uppercase tracking-widest border border-brand-gold/20">
+                <div className="flex flex-wrap items-start gap-3 mb-10">
+                  <span className="inline-flex items-center self-start px-4 py-1.5 rounded-full bg-brand-gold/10 text-brand-gold text-[10px] leading-none font-bold uppercase tracking-widest border border-brand-gold/20">
                     {t.stakes.highStake.label}
                   </span>
-                  <span className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-red-400 animate-pulse bg-red-500/10 px-3 py-1.5 rounded-full border border-red-500/20">
+                  <span className="inline-flex items-center self-start gap-2 text-[10px] leading-none font-bold uppercase tracking-widest text-red-400 animate-pulse bg-red-500/10 px-3 py-1.5 rounded-full border border-red-500/20">
                     <span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>
                     {t.stakes.highStake.critical}
                   </span>
@@ -316,7 +429,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* AI Assistance Layer */}
+      {/* Trust Architecture */}
       <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
         <div className="max-w-6xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -332,9 +445,9 @@ export default async function HomePage({
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
             {t.aiLayer.cards.map((card, idx) => {
-              const Icon = aiLayerIcons[idx]
+              const Icon = trustPillarIcons[idx % trustPillarIcons.length]
 
               return (
                 <div
@@ -384,7 +497,7 @@ export default async function HomePage({
           <div className="absolute left-6 md:left-1/2 top-24 bottom-24 w-px bg-brand-gold/50 md:-translate-x-1/2 z-0 shadow-[0_0_10px_#B49250]" />
 
           <div className="relative z-10 space-y-12 md:space-y-20">
-            {t.journey.steps.map((step, idx) => {
+            {journeySection.steps.map((step, idx) => {
               const Icon = journeyIcons[idx]
               const side = journeySides[idx]
               const isCenter = side === "center"
@@ -423,7 +536,15 @@ export default async function HomePage({
                           )}
                           <h3 className="font-serif text-2xl text-brand-navy mb-2">{step.label}</h3>
                           <p className="text-sm text-text-body leading-relaxed">{step.description}</p>
+                          {step.owner && (
+                            <div className="mt-3">
+                              <span className="inline-flex items-center rounded-full bg-brand-navy/5 px-3 py-1 text-[11px] font-semibold text-brand-navy">
+                                {step.owner}
+                              </span>
+                            </div>
+                          )}
                           {step.details && <p className="text-xs text-text-muted mt-2 font-medium">{step.details}</p>}
+                          {step.next && <p className="text-xs text-text-muted mt-2 font-medium">Next: {step.next}</p>}
                           </div>
                         </div>
                         <div className="hidden md:block md:w-[45%]" />
@@ -440,7 +561,14 @@ export default async function HomePage({
                           )}
                           <h3 className="font-serif text-2xl text-brand-navy mb-2">{step.label}</h3>
                           <p className="text-sm text-text-body leading-relaxed">{step.description}</p>
-                          {step.label === t.journey.steps[5]?.label && (
+                          {step.owner && (
+                            <div className="mt-3">
+                              <span className="inline-flex items-center rounded-full bg-brand-navy/5 px-3 py-1 text-[11px] font-semibold text-brand-navy">
+                                {step.owner}
+                              </span>
+                            </div>
+                          )}
+                          {step.label === journeySection.steps[5]?.label && (
                             <div className="grid gap-2 mt-4">
                               <div className="flex items-center gap-2 text-sm text-text-body">
                                 <Plane className="w-4 h-4 text-brand-gold" />
@@ -452,6 +580,8 @@ export default async function HomePage({
                               </div>
                             </div>
                           )}
+                          {step.details && <p className="text-xs text-text-muted mt-2 font-medium">{step.details}</p>}
+                          {step.next && <p className="text-xs text-text-muted mt-2 font-medium">Next: {step.next}</p>}
                           </div>
                         </div>
                       </>
@@ -461,6 +591,13 @@ export default async function HomePage({
                       <div className="relative z-10 w-[calc(100%-4rem)] ml-16 md:ml-0 md:w-[600px] bg-white border-2 border-brand-navy p-5 sm:p-8 md:pl-8 rounded-[28px] text-left md:text-center shadow-[0_30px_80px_-35px_rgba(15,23,42,0.3)] mt-0 md:mt-6">
                         <h3 className="font-serif text-2xl text-brand-navy mt-0 md:mt-4 mb-2">{step.label}</h3>
                         <p className="text-sm text-text-body italic mb-8">&ldquo;{step.description}&rdquo;</p>
+                        {step.owner && (
+                          <div className="mb-6">
+                            <span className="inline-flex items-center rounded-full bg-brand-navy/5 px-3 py-1 text-[11px] font-semibold text-brand-navy">
+                              {step.owner}
+                            </span>
+                          </div>
+                        )}
                         <div className="flex flex-col md:flex-row gap-4 justify-center items-stretch">
                           <div className="flex-1 border border-slate-200 bg-bg-light p-4 rounded">
                             <div className="flex items-center justify-center gap-2 text-text-muted mb-2">
@@ -477,6 +614,7 @@ export default async function HomePage({
                             <p className="text-brand-navy font-serif text-lg">{t.journey.decisionReadiness.proceed}</p>
                           </div>
                         </div>
+                        {step.next && <p className="text-xs text-text-muted mt-4 font-medium">Next: {step.next}</p>}
                       </div>
                     )}
                   </div>
@@ -487,7 +625,7 @@ export default async function HomePage({
           <div className="absolute bottom-0 left-[28px] md:left-1/2 w-3 h-3 bg-brand-gold rounded-full -translate-x-1/2 translate-y-1/2 shadow-[0_0_15px_rgba(180,146,80,0.8)] z-20" />
 
           <div className="relative mt-20 text-center z-10 pl-14 md:pl-0">
-            <div className="max-w-2xl mx-auto rounded-[28px] border border-slate-100 bg-slate-50/60 px-6 py-8 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.18)] relative overflow-hidden">
+            <div className="max-w-2xl mx-auto rounded-[28px] border border-slate-100 bg-white px-6 py-8 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.18)] relative overflow-hidden">
             <p className="relative z-10 font-serif text-xl sm:text-2xl text-brand-gold italic max-w-2xl mx-auto">
               &ldquo;{t.journey.closingQuote}&rdquo;
             </p>
@@ -496,6 +634,206 @@ export default async function HomePage({
             </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* First 48 Hours + Continuity Monitoring */}
+      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+        <div className="max-w-6xl mx-auto space-y-8">
+          <div className="rounded-[32px] border border-slate-200 bg-white px-6 py-8 sm:px-8 sm:py-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
+            <div className="max-w-3xl">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                {journeySection.storyArc?.badge ?? "The full story"}
+              </p>
+              <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">
+                {journeySection.storyArc?.title ?? "What the patient journey is building toward"}
+              </h2>
+              <p className="text-text-body leading-relaxed">
+                {journeySection.storyArc?.subtitle ??
+                  "Patients should understand not only what happens first, but what the whole path will ask of them over time."}
+              </p>
+            </div>
+            <div className="mt-8 flex flex-col gap-4 xl:flex-row xl:items-stretch xl:gap-3">
+              {(journeySection.storyArc?.items ?? []).map((item, idx, items) => {
+                const isLast = idx === items.length - 1
+                return (
+                  <div key={`${item.phase}-${item.title}`} className="contents">
+                    <div
+                      className={cn(
+                        "h-full min-w-0 rounded-2xl border p-5 flex flex-col xl:flex-1",
+                        storyArcCardClasses[idx] ?? storyArcCardClasses[storyArcCardClasses.length - 1]
+                      )}
+                    >
+                      <p
+                        className={cn(
+                          "text-[10px] font-bold uppercase tracking-widest mb-2",
+                          idx === items.length - 1 ? "text-white/70" : "text-text-muted"
+                        )}
+                      >
+                        {item.phase}
+                      </p>
+                      <h3
+                        className={cn(
+                          "font-serif text-lg leading-snug mb-4 min-h-[3.5rem]",
+                          idx === items.length - 1 ? "text-white" : "text-brand-navy"
+                        )}
+                      >
+                        {item.title}
+                      </h3>
+                      <div className="mt-auto min-h-[3rem]">
+                        <p
+                          className={cn(
+                            "text-[10px] font-bold uppercase tracking-widest mb-1",
+                            idx === items.length - 1 ? "text-white/60" : "text-text-muted"
+                          )}
+                        >
+                          Responsibility
+                        </p>
+                        <p
+                          className={cn(
+                            "text-xs font-semibold leading-snug",
+                            idx === items.length - 1 ? "text-white" : "text-brand-navy"
+                          )}
+                        >
+                          {item.owner}
+                        </p>
+                      </div>
+                    </div>
+                    {!isLast && (
+                      <div className="hidden xl:flex items-center justify-center px-1">
+                        <ArrowRight
+                          className={cn(
+                            "w-5 h-5",
+                            storyArcArrowClasses[idx] ?? storyArcArrowClasses[storyArcArrowClasses.length - 1]
+                          )}
+                        />
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
+          <div className="h-full rounded-[32px] border border-slate-200 bg-white p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)] flex flex-col">
+            <div className="mb-8 xl:min-h-[11.5rem]">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                {journeySection.first48Hours?.badge ?? "First 48 hours"}
+              </p>
+              <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">
+                {journeySection.first48Hours?.title ?? "What happens in your first 48 hours"}
+              </h2>
+              <p className="text-text-body leading-relaxed">
+                {journeySection.first48Hours?.subtitle ??
+                  "The first two days should reduce uncertainty, not create more of it. AetherHeal keeps the early journey structured and visible."}
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 flex-1">
+              {(journeySection.first48Hours?.items ?? []).map((item, idx, items) => {
+                const isLast = idx === items.length - 1
+                return (
+                  <div key={`${item.time}-${item.title}`} className="contents">
+                    <div
+                      className={cn(
+                        "rounded-2xl border p-5 flex flex-col xl:min-h-[17rem]",
+                        first48CardClasses[idx] ?? first48CardClasses[first48CardClasses.length - 1]
+                      )}
+                    >
+                      <div className="mb-3">
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{item.time}</p>
+                      </div>
+                      {item.owner && (
+                        <div className="mb-3 min-h-[3rem]">
+                          <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-1">Responsibility</p>
+                          <p className="text-xs font-semibold leading-snug text-brand-navy">{item.owner}</p>
+                        </div>
+                      )}
+                      <h3 className="font-serif text-xl leading-snug text-brand-navy mb-2 xl:min-h-[3.5rem]">{item.title}</h3>
+                      <p className="text-sm text-text-body leading-relaxed xl:min-h-[4.75rem]">{item.description}</p>
+                      {item.next && (
+                        <div className="mt-auto pt-4">
+                          <span className="inline-flex items-center rounded-full bg-slate-200/70 px-3 py-1 text-[11px] font-semibold text-text-muted">
+                            Then: {item.next}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    {!isLast && (
+                      <div className="flex justify-center">
+                        <ArrowRight
+                          className={cn(
+                            "hidden sm:block w-4 h-4 rotate-90",
+                            first48ArrowClasses[idx] ?? first48ArrowClasses[first48ArrowClasses.length - 1]
+                          )}
+                        />
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+
+          <div className="h-full rounded-[32px] border border-brand-navy/10 bg-brand-navy p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.24)] flex flex-col">
+            <div className="mb-8 xl:min-h-[11.5rem]">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                {journeySection.continuityYear?.badge ?? "1-year continuity"}
+              </p>
+              <h2 className="font-serif text-3xl sm:text-4xl text-white mb-4">
+                {journeySection.continuityYear?.title ?? "Post-treatment continuity monitoring"}
+              </h2>
+              <p className="text-slate-300 leading-relaxed">
+                {journeySection.continuityYear?.subtitle ??
+                  "Care does not end when the procedure ends. Recovery signals, follow-up questions, and escalation paths should remain visible long after the patient flies home."}
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 flex-1">
+              {(journeySection.continuityYear?.items ?? []).map((item, idx, items) => {
+                const isLast = idx === items.length - 1
+                return (
+                  <div key={`${item.phase}-${item.title}`} className="contents">
+                    <div
+                      className={cn(
+                        "rounded-2xl border p-5 backdrop-blur-sm flex flex-col xl:min-h-[17rem]",
+                        continuityCardClasses[idx] ?? continuityCardClasses[continuityCardClasses.length - 1]
+                      )}
+                    >
+                      <div className="mb-3">
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.phase}</p>
+                      </div>
+                      {item.owner && (
+                        <div className="mb-3 min-h-[3rem]">
+                          <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold/70 mb-1">Responsibility</p>
+                          <p className="text-xs font-semibold leading-snug text-white">{item.owner}</p>
+                        </div>
+                      )}
+                      <h3 className="font-serif text-xl leading-snug text-white mb-2 xl:min-h-[3.5rem]">{item.title}</h3>
+                      <p className="text-sm text-slate-300 leading-relaxed xl:min-h-[4.75rem]">{item.description}</p>
+                      {item.next && (
+                        <div className="mt-auto pt-4">
+                          <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-[11px] font-semibold text-slate-300">
+                            Then: {item.next}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    {!isLast && (
+                      <div className="flex justify-center">
+                        <ArrowRight
+                          className={cn(
+                            "hidden sm:block w-4 h-4 rotate-90",
+                            continuityArrowClasses[idx] ?? continuityArrowClasses[continuityArrowClasses.length - 1]
+                          )}
+                        />
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
         </div>
       </section>
 
@@ -508,6 +846,16 @@ export default async function HomePage({
             <p className="text-text-body text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mb-10">
               {t.partners.compactDescription}
             </p>
+            {partnersSection.proofPoints && partnersSection.proofPoints.length > 0 && (
+              <div className="max-w-2xl mx-auto grid gap-3 text-left mb-10">
+                {partnersSection.proofPoints.map((point) => (
+                  <div key={point} className="flex items-start gap-3 text-sm text-text-body">
+                    <div className="w-2 h-2 rounded-full bg-brand-gold shrink-0 mt-1.5" />
+                    <p>{point}</p>
+                  </div>
+                ))}
+              </div>
+            )}
             <div className="flex flex-wrap justify-center gap-8 sm:gap-14 mb-10">
               {t.partners.compactStats.map((stat: { number: string; label: string }) => (
                 <div key={stat.label} className="text-center">
@@ -524,17 +872,6 @@ export default async function HomePage({
               <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-4xl mx-auto rounded-[32px] border border-slate-200 bg-slate-50/40 px-5 py-10 sm:px-8 sm:py-12 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
-          <div className="text-center mb-16">
-            <h2 className="font-serif text-4xl text-brand-navy mb-4">{t.faq.title}</h2>
-            <p className="text-text-body max-w-2xl mx-auto">{t.faq.subtitle}</p>
-          </div>
-          <Accordion items={faqItems} />
         </div>
       </section>
 
@@ -570,12 +907,23 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* FAQ */}
+      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
+        <div className="max-w-4xl mx-auto rounded-[32px] border border-slate-200 bg-slate-50/40 px-5 py-10 sm:px-8 sm:py-12 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
+          <div className="text-center mb-16">
+            <h2 className="font-serif text-4xl text-brand-navy mb-4">{t.faq.title}</h2>
+            <p className="text-text-body max-w-2xl mx-auto">{t.faq.subtitle}</p>
+          </div>
+          <Accordion items={faqItems} />
+        </div>
+      </section>
+
       {/* Single closing CTA — after FAQ */}
       <section className="w-full py-16 sm:py-20 px-4 sm:px-6 bg-bg-light">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.cta.title}</h2>
           <p className="text-text-body max-w-xl mx-auto leading-relaxed">{t.cta.subtitle}</p>
-          <Link href={`${prefix}/how-it-works`}>
+          <Link href={`${prefix}/intake`}>
             <Button variant="navy" size="lg" className="min-w-[200px]">{t.cta.ctaHowItWorks}</Button>
           </Link>
         </div>

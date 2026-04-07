@@ -11,6 +11,7 @@ const trustRoleIcons = [Eye, Scale, FileCheck, Lock]
 const aiPrincipleIcons = [Eye, Users, Lock, Scale]
 const audienceIcons = [Users, Building2, Landmark]
 const audienceColors = ["bg-brand-gold/10 text-brand-gold", "bg-brand-navy/10 text-brand-navy", "bg-slate-100 text-slate-600"]
+const responsibilityIcons = [Lock, Shield, Landmark]
 const relatedHrefs = ["/how-to-choose-hospital-abroad", "/medical-journey", "/how-it-works"]
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -32,6 +33,35 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
   const dict = await getDictionary(locale as Locale)
   const t = dict.trustProtocol
   const prefix = `/${locale}`
+  const responsibilitySection = t.responsibilityArchitecture ?? {
+    title: "Responsibility Architecture",
+    intro:
+      "The more authority a platform claims over a decision, the more clearly it must define the responsibility it carries.",
+    positions: [
+      {
+        title: "Pure Intermediary",
+        body: "A platform that only connects parties can try to minimize responsibility, but trust stays weak and fragmented.",
+      },
+      {
+        title: "Credentialing Platform",
+        body: "A platform that sets standards carries more authority and must be accountable for whether those standards mean anything.",
+      },
+      {
+        title: "Decision Infrastructure",
+        body: "A platform that structures and shapes decisions enters the chain of responsibility directly. That is the position AetherHeal takes.",
+      },
+    ],
+    principleIntro: "The governing principle is simple:",
+    principleText:
+      "Influence and responsibility must expand together. If a platform helps shape a medical decision, it should not hide behind neutrality.",
+    guardrails: [
+      "Define clearly what AetherHeal is responsible for and what remains provider responsibility.",
+      "Treat legal boundaries and moral responsibility as related but not identical.",
+      "Use adverse outcomes, audits, and patient feedback as learning inputs rather than reputation leaks to bury.",
+    ],
+    callout:
+      "Trust without responsibility is only marketing language. If a platform asks for trust, it should make its responsibility legible.",
+  }
 
   return (
     <div className="min-h-full bg-white">
@@ -86,6 +116,43 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
                   <Card accent="gold" className="p-5 sm:p-8 space-y-4"><h3 className="font-serif text-xl text-text-deep">{t.purpose.purposeTitle}</h3><p className="text-sm text-text-body leading-relaxed">{t.purpose.purposeText}</p></Card>
                   <Card accent="navy" className="p-5 sm:p-8 space-y-4"><h3 className="font-serif text-xl text-text-deep">{t.purpose.authorityTitle}</h3><p className="text-sm text-text-body leading-relaxed">{t.purpose.authorityText}</p></Card>
                   <Card accent="muted" className="p-5 sm:p-8 space-y-4"><h3 className="font-serif text-xl text-text-deep">{t.purpose.independenceTitle}</h3><p className="text-sm text-text-body leading-relaxed">{t.purpose.independenceText}</p></Card>
+                </div>
+              </div>
+
+              {/* Responsibility Architecture */}
+              <div id="responsibility-architecture" className="scroll-mt-32">
+                <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{responsibilitySection.title}</h2>
+                <div className="space-y-8 text-lg text-slate-600 font-light leading-[1.8]">
+                  <p>{responsibilitySection.intro}</p>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                    {responsibilitySection.positions.map((item, i) => {
+                      const Icon = responsibilityIcons[i % responsibilityIcons.length]
+                      return (
+                        <Card key={item.title} className="p-6 sm:p-8 space-y-4">
+                          <div className="w-11 h-11 rounded-2xl bg-brand-navy/5 flex items-center justify-center">
+                            <Icon className="w-5 h-5 text-brand-navy" />
+                          </div>
+                          <h3 className="font-serif text-2xl text-text-deep">{item.title}</h3>
+                          <p className="text-sm text-text-body leading-relaxed">{item.body}</p>
+                        </Card>
+                      )
+                    })}
+                  </div>
+                  <div className="p-6 sm:p-8 bg-brand-navy/[0.02] border-l-2 border-brand-gold rounded-r-2xl">
+                    <p className="text-base text-brand-navy font-serif font-medium leading-relaxed mb-3">{responsibilitySection.principleIntro}</p>
+                    <p className="text-base text-slate-700 leading-relaxed italic m-0">{responsibilitySection.principleText}</p>
+                  </div>
+                  <div className="grid grid-cols-1 gap-3">
+                    {responsibilitySection.guardrails.map((item) => (
+                      <div key={item} className="flex items-start gap-4 p-5 bg-white border border-slate-100 rounded-xl shadow-sm">
+                        <CheckCircle2 className="w-5 h-5 text-brand-gold shrink-0 mt-0.5" />
+                        <span className="text-brand-navy font-medium text-base">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="p-6 sm:p-8 bg-brand-navy rounded-2xl">
+                    <p className="text-base text-white font-serif font-medium leading-relaxed italic">{responsibilitySection.callout}</p>
+                  </div>
                 </div>
               </div>
 

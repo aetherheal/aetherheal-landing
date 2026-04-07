@@ -47,73 +47,94 @@
   },
   "home": {
     "meta": {
-      "title": "AetherHeal | Physician-Led Global Medical Journey to Seoul",
-      "description": "AetherHeal is a physician-led, AI-assisted platform for international patients considering medical care in Korea. Get independent medical guidance before choosing a hospital."
+      "title": "AetherHeal | Verified Clinic Matching for International Patients",
+      "description": "AetherHeal helps international patients choose clinics in Korea without guessing. Verified hospitals, flat-fee navigation, physician governance, and visible accountability."
     },
     "hero": {
-      "badge": "Physician-led · AI-assisted · For international patients considering Korea",
-      "h1": "A physician reviews your case",
-      "h1Highlight": "before you choose a hospital.",
-      "description": "Physician oversight, AI assistance, and a flat fee — independent of which hospital you choose.",
+      "badge": "Verified clinic matching for international patients considering Korea",
+      "h1": "You are not short of clinics.",
+      "h1Highlight": "You are short of trust.",
+      "description": "AetherHeal helps you choose care in Korea through a physician-led trust system: verified hospitals, flat-fee navigation, and visible accountability before you commit.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "disclaimer": "",
-      "ctaHowItWorks": "See how it works",
-      "ctaExplore": "Start here"
+      "disclaimer": "Decision support before hospital commitment. Not medical treatment or emergency care.",
+      "ctaHowItWorks": "Start your intake",
+      "ctaExplore": "See how trust works"
     },
     "problemQuote": {
-      "q1": "The best surgeon isn't always the most followed.",
-      "q2": "Some agencies charge hospitals up to 30% per procedure. That fee changes which hospital gets recommended.",
-      "q3": "Our fee is flat — the same regardless of where you go or what you spend."
+      "title": "What patients are really afraid of",
+      "subtitle": "The barrier is not access. It is knowing what to trust.",
+      "items": [
+        {
+          "title": "Misleading signals",
+          "quote": "A polished website does not tell you who is right for your case."
+        },
+        {
+          "title": "Conflicted incentives",
+          "quote": "Some intermediaries earn more when you spend more."
+        },
+        {
+          "title": "Broken trust",
+          "quote": "Trust breaks when guidance is tied to your uncertainty."
+        }
+      ],
+      "q1": "A polished website does not tell you who is right for your case.",
+      "q2": "Some intermediaries earn more when you spend more.",
+      "q3": "Trust breaks when guidance is tied to your uncertainty."
     },
     "stakes": {
-      "title": "Some decisions can't be undone",
-      "subtitle": "In elective medicine, the wrong choice is hard to reverse. The framework for deciding should reflect that weight.",
+      "title": "Why this decision feels so heavy",
+      "subtitle": "The challenge is not access. It is making a lasting decision in a market that is hard to verify from abroad.",
       "lowStake": {
-        "label": "Low-Stake Domains",
+        "label": "What patients feel",
         "items": [
-          "Music Streaming",
-          "Social Content",
-          "Fashion & Retail"
+          "Being misled",
+          "Regret",
+          "Going through it alone"
         ],
-        "consequenceLabel": "Consequence of Failure",
-        "consequence": "Disappointment",
-        "principle": "More Choice = More Value"
+        "consequenceLabel": "What they need",
+        "consequence": "Clarity",
+        "principle": "Less noise. Better decisions."
       },
       "highStake": {
-        "label": "High-Stake Domains",
-        "critical": "Critical",
+        "label": "What the market offers",
+        "critical": "Structural problem",
         "items": [
-          "Aviation",
-          "Nuclear Energy"
+          "Claims without proof",
+          "Hidden commissions",
+          "No accountability after payment"
         ],
-        "medicine": "Medicine",
-        "consequenceLabel": "Consequence of Failure",
-        "consequence": "Irreversible Harm",
-        "principle": "Unstructured Decision = Risk",
-        "structuralNote": "In markets where patients cannot verify quality before purchase, the system rewards the wrong actors. This is not a trust problem. It is a structural failure."
+        "medicine": "Trust Deficit",
+        "consequenceLabel": "What it creates",
+        "consequence": "Irreversible regret",
+        "principle": "Unstructured markets reward marketing over fit.",
+        "structuralNote": "When patients cannot verify quality, marketing wins. AetherHeal is built to change that."
       }
     },
     "aiLayer": {
-      "badge": "AI Assistance Layer",
-      "title": "AI Support,",
-      "titleHighlight": "Under Physician Authority",
-      "subtitle": "AetherHeal uses AI to organize your medical records, flag missing information, and help coordinate follow-up care. It does not replace physician judgment or hospital authority.",
+      "badge": "Trust Architecture",
+      "title": "How AetherHeal",
+      "titleHighlight": "creates trust",
+      "subtitle": "Trust should come from structure, not claims.",
       "cards": [
         {
-          "title": "Before Physician Review",
-          "description": "AI helps structure intake, records, and questions so the physician starts from a clearer case file, not from scattered fragments."
+          "title": "Verified Hospital Network",
+          "description": "Not an open directory. A curated network."
         },
         {
-          "title": "Inside a Governed Workflow",
-          "description": "Every AI-assisted output remains subordinate to physician review, patient confirmation, and hospital feasibility. Authority never transfers to the model."
+          "title": "Flat Navigation Fee",
+          "description": "The fee does not change with hospital or procedure."
         },
         {
-          "title": "After Treatment",
-          "description": "AI helps organize your post-treatment check-ins and flags anything that may need attention, while your care team decides on next steps."
+          "title": "Journey Assurance",
+          "description": "Accountability should continue after payment."
+        },
+        {
+          "title": "Physician Governance",
+          "description": "Clinical authority stays with physicians. AI supports the workflow."
         }
       ],
-      "footnote": "AetherHeal is not an AI doctor. AI handles the logistics; physicians and hospitals remain the decision-makers."
+      "footnote": "Trust is built into the system."
     },
     "patientConcerns": {
       "badge": "Where Are You in Your Decision?",
@@ -148,52 +169,66 @@
       ]
     },
     "journey": {
-      "sectionLabel": "Decision Infrastructure in Motion",
-      "title": "From Decision to Recovery,",
-      "titleHighlight": "Responsibility Stays Visible",
-      "subtitle": "This is how physician authority, hospital authority, and AI support remain separated across the journey.",
+      "sectionLabel": "Patient Journey",
+      "title": "What your journey",
+      "titleHighlight": "actually looks like",
+      "subtitle": "AetherHeal is designed to make each step legible: what happens first, who is responsible, and when commitment should happen.",
       "steps": [
         {
           "label": "Patient Intent",
           "badge": null,
           "description": "Goals, constraints, timeline, and risk tolerance are captured.",
-          "details": null
+          "details": null,
+          "owner": "Patient intake with AetherHeal",
+          "next": "AI-assisted case structuring"
         },
         {
           "label": "AI-Assisted Case Structuring",
           "badge": "PRE-PHYSICIAN SUPPORT",
           "description": "Records, questions, and missing inputs are organized before physician review.",
-          "details": "AI assists. Physician reviews every output."
+          "details": "AI assists. Physician reviews every output.",
+          "owner": "Case structuring by AetherHeal",
+          "next": "Physician readiness review"
         },
         {
-          "label": "Physician Readiness Review",
+          "label": "Korean Licensed Physician Review",
           "badge": null,
           "description": "The physician decides whether the case is sufficiently clear to move forward.",
-          "details": null
+          "details": null,
+          "owner": "Licensed physician review",
+          "next": "Hospital feasibility review"
         },
         {
           "label": "Partner Hospital Feasibility Review",
           "badge": "HOSPITAL AUTHORITY",
           "description": "Partner hospitals assess feasibility within the physician-defined decision scope.",
-          "details": null
+          "details": null,
+          "owner": "Hospital feasibility review",
+          "next": "Decision commitment"
         },
         {
           "label": "Decision Commitment Deposit",
           "badge": "ACCOUNTABILITY TRIGGER",
           "description": "Confirms intent, secures coordination, and aligns the next operational step.",
-          "details": null
+          "details": null,
+          "owner": "Decision commitment by Patient",
+          "next": "Arrival, booking, and support"
         },
         {
           "label": "Journey Orchestration",
           "badge": "ARRIVAL, BOOKING & SUPPORT",
           "description": "Concierge execution begins only after physician-ready, patient-confirmed alignment.",
-          "details": null
+          "details": null,
+          "owner": "1:1 Concierge by AetherHeal",
+          "next": "Post-treatment continuity monitoring"
         },
         {
           "label": "Post-Treatment Continuity Monitoring",
           "badge": "AI-SUPPORTED FOLLOW-THROUGH",
           "description": "Check-ins, recovery signals, and follow-up coordination remain visible after treatment.",
-          "details": null
+          "details": null,
+          "owner": "Continuity monitoring by AetherHeal + Patient",
+          "next": "Escalation if concerns emerge"
         }
       ],
       "journeyOrchestrationDetails": {
@@ -206,31 +241,124 @@
         "ready": "Ready for Release",
         "proceed": "Proceed to Hospital Review"
       },
-      "closingQuote": "AI can accelerate the process. Responsibility still belongs to humans."
+      "storyArc": {
+        "badge": "The full story",
+        "title": "What the patient journey is building toward",
+        "subtitle": "The patient should be able to see the whole arc from the beginning: who guides the decision, who performs the treatment, and who keeps continuity visible afterward.",
+        "items": [
+          {
+            "phase": "Before travel",
+            "title": "Decision clarity",
+            "owner": "AetherHeal + Physician"
+          },
+          {
+            "phase": "Arrival",
+            "title": "Operational handoff",
+            "owner": "AetherHeal"
+          },
+          {
+            "phase": "Treatment",
+            "title": "Clinical authority",
+            "owner": "Hospital"
+          },
+          {
+            "phase": "Recovery",
+            "title": "Follow-up visibility",
+            "owner": "AetherHeal + Patient"
+          },
+          {
+            "phase": "Up to 1 year",
+            "title": "Continuity and escalation",
+            "owner": "AetherHeal + Hospital"
+          }
+        ]
+      },
+      "first48Hours": {
+        "badge": "First 48 hours",
+        "title": "Your first 48 hours",
+        "subtitle": "Arrival, handoff, and clinical alignment. Treatment may happen within that window or later.",
+        "items": [
+          {
+            "time": "Arrival",
+            "title": "Arrival coordination",
+            "description": "We meet the patient, confirm the plan, and clarify the next step.",
+            "owner": "1:1 Concierge by AetherHeal",
+            "next": "Hospital handoff"
+          },
+          {
+            "time": "First 24 hours",
+            "title": "Translation, scheduling, and handoff",
+            "description": "The hospital receives the case context. The patient receives language and scheduling support.",
+            "owner": "Clinical coordination by AetherHeal + Hospital",
+            "next": "Clinical confirmation"
+          },
+          {
+            "time": "24-48 hours",
+            "title": "Treatment readiness",
+            "description": "The patient and hospital confirm whether treatment happens now, later in the trip, or after more preparation.",
+            "owner": "Clinical confirmation by Hospital",
+            "next": "Treatment or further coordination"
+          }
+        ]
+      },
+      "continuityYear": {
+        "badge": "1-year continuity",
+        "title": "Post-treatment continuity",
+        "subtitle": "After the patient returns home, recovery remains visible and easier to escalate if needed.",
+        "items": [
+          {
+            "phase": "Week 1",
+            "title": "Early recovery check-ins",
+            "description": "Symptoms, photos, and questions are gathered early so concerns are not missed.",
+            "owner": "Early check-ins by AetherHeal + Patient",
+            "next": "Expectation tracking"
+          },
+          {
+            "phase": "Month 1-3",
+            "title": "Follow-up and expectation tracking",
+            "description": "Recovery is tracked against the expected timeline across distance and language.",
+            "owner": "Recovery tracking by AetherHeal",
+            "next": "Long-tail follow-up"
+          },
+          {
+            "phase": "Month 3-12",
+            "title": "Long-tail continuity",
+            "description": "If delayed concerns appear, the case history stays organized so follow-up does not restart from zero.",
+            "owner": "Escalation by AetherHeal + Hospital",
+            "next": "Documented continuity"
+          }
+        ]
+      },
+      "closingQuote": "The goal is not to push you faster. The goal is to help you decide with less regret."
     },
     "partners": {
-      "subtitle": "Proof Layer",
-      "compactTitle": "Verified Partner Network",
-      "compactDescription": "9 founding partners across 9 specialties — including 1 university hospital. Each verified under the AetherHeal Trust Protocol. Hospital selection follows decision readiness, not marketing.",
+      "subtitle": "Early Proof",
+      "compactTitle": "A trust story needs proof",
+      "compactDescription": "13 reviewed. 4 rejected. 9 admitted.",
+      "proofPoints": [
+        "31% rejection rate.",
+        "Candidates came through angel physicians, direct applications, and peer provider referrals.",
+        "Verification continues."
+      ],
       "compactStats": [
         {
-          "number": "9",
-          "label": "Founding Partners"
+          "number": "13",
+          "label": "Reviewed"
+        },
+        {
+          "number": "31%",
+          "label": "Rejected"
         },
         {
           "number": "9",
-          "label": "Medical Specialties"
-        },
-        {
-          "number": "1",
-          "label": "Verification Standard"
+          "label": "Verified Partners"
         }
       ],
-      "compactCta": "View Trust Protocol"
+      "compactCta": "Trust Protocol"
     },
     "faq": {
       "title": "Common Questions",
-      "subtitle": "Understanding the AetherHeal Infrastructure.",
+      "subtitle": "The questions patients ask when trust matters more than volume.",
       "items": [
         {
           "question": "Is AetherHeal an AI doctor?",
@@ -249,20 +377,12 @@
           "answer": "No. AetherHeal is not medical consultation. It is decision preparation. Our physicians help you structure your thinking before you enter a hospital — they do not diagnose or treat. This separation preserves clarity and accountability."
         },
         {
-          "question": "How are physicians and hospitals selected?",
-          "answer": "Participation is limited and based on clinical expertise and scope, ethical practice standards, cross-border care experience, and alignment with our decision-first philosophy. Physicians are not performance-ranked."
-        },
-        {
           "question": "Who is responsible at each stage of the process?",
           "answer": "Responsibilities are clearly separated. Physicians support decision clarity. Hospitals deliver medical care. AetherHeal governs the process, coordination, and accountability at every step."
         },
         {
           "question": "Is AetherHeal a medical tourism agency?",
           "answer": "No. AetherHeal is a decision infrastructure. Travel logistics are handled only after a structured medical decision has been made — not before."
-        },
-        {
-          "question": "Can I use AetherHeal if I'm not ready to decide yet?",
-          "answer": "Yes. You can explore the framework without creating an account. Our process respects your pace — there is no pressure to commit."
         },
         {
           "question": "Is my information safe?",
@@ -272,7 +392,7 @@
     },
     "explore": {
       "badge": "Explore by Topic",
-      "title": "Where Clarity Begins",
+      "title": "Learn before you choose",
       "items": [
         {
           "title": "Hair Transplant in Korea",
@@ -301,10 +421,10 @@
       ]
     },
     "cta": {
-      "title": "Confidence Before Commitment",
-      "subtitle": "Explore the physician-led, AI-assisted process before you commit to any hospital path.",
-      "ctaHowItWorks": "How it works",
-      "ctaExplore": "Start exploring",
+      "title": "Clarity before commitment",
+      "subtitle": "If you are considering care in Korea, start with a process designed to protect your decision before anyone tries to close it.",
+      "ctaHowItWorks": "Start your intake",
+      "ctaExplore": "See how trust works",
       "signature": "Dr. Jee Hoon Ju"
     }
   },
@@ -602,12 +722,12 @@
       "badge": "Foundational Architecture",
       "h1": "Why AetherHeal",
       "h1Highlight": "Exists",
-      "intro": "This is not a company pitch. It is an explanation of why a specific structural failure in global healthcare requires a specific architectural response — and why no amount of better marketing, nicer websites, or more reviews will fix it.",
-      "disclaimer": "Written for investors, partners, physicians, and anyone who wants to understand the mechanism — not just the promise."
+      "intro": "This is not a company pitch. It is an explanation of why a structural failure in global healthcare requires not just a better matching system, but a responsibility architecture strong enough to carry the authority it claims.",
+      "disclaimer": "Written for investors, partners, physicians, and anyone who wants to understand not just the promise, but the responsibility structure underneath it."
     },
     "tldr": {
       "badge": "The Short Answer",
-      "text": "Medical tourism is broken because the people who recommend hospitals profit from the recommendation. AetherHeal fixes this structurally: the physicians who advise you earn the same flat fee regardless of which hospital you choose. That separation is not a policy — it is built into the architecture."
+      "text": "Medical tourism is broken because the people who recommend hospitals profit from the recommendation while carrying too little visible responsibility for the outcome. AetherHeal fixes this structurally: the physicians who advise you earn the same flat fee regardless of which hospital you choose, and the platform is designed to define, trace, and carry responsibility instead of hiding behind marketing language."
     },
     "toc": [
       {
@@ -650,10 +770,10 @@
     "theArchitecture": {
       "title": "The Architecture We Built",
       "summary": "An independent verification layer between patients and hospitals — like the Michelin Guide for healthcare.",
-      "p1": "The solution is not a better marketplace. It is the institutional trust layer that the industry has never had — the verification standard that makes physician quality legible to patients who cannot evaluate it themselves.",
+      "p1": "The solution is not a better marketplace. It is the institutional trust layer that the industry has never had — the verification standard that makes physician quality legible to patients who cannot evaluate it themselves, while also making the platform's own responsibilities visible.",
       "p2": "Consider the Michelin Guide: it is not a restaurant. It is the standard through which restaurants earn recognition across cities and countries. Before the Michelin Guide, diners had no reliable way to evaluate quality beyond word of mouth. After the Michelin Guide, the standard itself carried the trust. Chefs compete to meet the standard — because recognition from an independent, incentive-aligned authority cannot be purchased.",
-      "p3": "AetherHeal occupies the same structural position for global medical travel. We are not a hospital. We are not an agency. We are the verification standard layer — separated from the execution layer, governed by physicians who have no financial interest in the outcome of any individual patient's decision.",
-      "callout": "We are not building a better medical tourism agency. We are building the Michelin Guide of physician-verified global healthcare.",
+      "p3": "AetherHeal occupies the same structural position for global medical travel. We are not a hospital. We are not an agency. We are the verification standard layer — separated from the execution layer, governed by physicians who have no financial interest in the outcome of any individual patient's decision, and explicit about where platform responsibility begins and ends.",
+      "callout": "We are not building a better medical tourism agency. We are building a physician-governed trust standard with a responsibility architecture strong enough to deserve trust.",
       "layers": [
         {
           "label": "International Patients",
@@ -676,8 +796,8 @@
       "summary": "A flat fee that makes our financial interests identical to the patient's medical interests.",
       "p1": "Anyone can claim physician leadership. Anyone can write a Trust Protocol page. What no competitor can replicate is a fee structure where the platform literally earns the same amount whether a patient chooses a $2,000 procedure or a $20,000 one.",
       "p2": "AetherHeal's patient navigation fee is flat. The team that verifies hospitals is structurally separated from the team that navigates patients. The physician who reviews your case has no financial relationship with any hospital in the network.",
-      "p3": "These are not policies. Policies require enforcement and can be quietly abandoned when revenue is slow. These are architectural decisions — built into the fee structure, the organizational chart, and the governance model. They make corruption structurally impossible, not merely discouraged.",
-      "callout": "Our business model is designed so that our financial interests are permanently identical to our patients' medical interests — not as a policy, but as a structural fact.",
+      "p3": "These are not policies. Policies require enforcement and can be quietly abandoned when revenue is slow. These are architectural decisions — built into the fee structure, the organizational chart, and the governance model. They make it harder to profit from uncertainty without carrying visible accountability for the decision process.",
+      "callout": "Our business model is designed so that as influence increases, responsibility becomes more visible — not less. That is not a policy. It is a structural fact.",
       "comparison": {
         "traditional": {
           "label": "Traditional Agency",
@@ -751,8 +871,8 @@
       "bridge": "The sections above describe the structural logic. But structures don't build themselves — they come from people who have a reason to care. Here is why this one exists.",
       "p1": "Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified skin aesthetic medicine specialist and hair transplant surgeon who had two procedures as a patient. The first failed — because price was the only signal he could read. He only understood what had been done to him after he became a specialist in the field.",
       "p2": "AetherHeal is not built because a founder identified a market opportunity. It is built because a physician was blinded by the problem he is solving — and spent years acquiring the clinical expertise to understand exactly what went wrong and why the market made it inevitable.",
-      "p3": "The philosopher Emmanuel Levinas wrote that genuine moral obligation begins with the encounter — when you truly see someone's vulnerability and can no longer look away. This is not a pitch deck story. This is the reason the architecture will hold when the revenue is slow and the compromises feel rational.",
-      "callout": "I am not building this because I identified a market opportunity. I am building this because I was blinded by the problem I am solving — and I became a physician specifically so I could understand what was done to me.",
+      "p3": "The philosopher Emmanuel Levinas wrote that genuine moral obligation begins with the encounter — when you truly see someone's vulnerability and can no longer look away. This is not a pitch deck story. It is the reason a trust platform cannot claim authority without also designing how it will bear responsibility when the stakes are real.",
+      "callout": "I am not building this because I identified a market opportunity. I am building this because I was blinded by the problem I am solving — and because trust without responsibility is only marketing language.",
       "timeline": [
         {
           "year": "Patient",
@@ -789,8 +909,8 @@
       "badge": "Governance",
       "h1": "The AetherHeal",
       "h1Highlight": "Trust Protocol",
-      "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable.",
-      "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met."
+      "intro": "Independent governance oversees both human and AI-assisted decision support so each case remains clinically bounded, auditable, and accountable. The goal is not only to make trust visible, but to make responsibility visible wherever authority is claimed.",
+      "disclaimer": "Trust reviewers remain read-only reviewers. They may halt, defer, or request re-clarification when protocol standards are not met. Their role is not to escape responsibility, but to define and enforce it clearly."
     },
     "tldr": {
       "badge": "In Short",
@@ -805,6 +925,10 @@
       {
         "id": "purpose",
         "label": "Purpose, Authority & Independence"
+      },
+      {
+        "id": "responsibility-architecture",
+        "label": "Responsibility Architecture"
       },
       {
         "id": "ai-governance",
@@ -839,11 +963,37 @@
       "title": "Purpose, Authority & Independence",
       "protocolDocument": "Protocol Document",
       "purposeTitle": "Purpose",
-      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process across both human and AI-assisted workflows. It is independent from clinical operations and reports directly to platform governance.",
+      "purposeText": "The Trust Protocol exists to maintain the integrity of AetherHeal's decision support process across both human and AI-assisted workflows. It is independent from clinical operations, reports directly to platform governance, and helps define what responsibility the platform does and does not carry at each layer.",
       "authorityTitle": "Authority",
-      "authorityText": "Trust reviewers have read-only access to completed decision summaries, protocol logs, and governed AI artifacts used in the case flow. They can flag concerns, request review, and escalate issues, but they cannot rewrite patient-facing documents or alter clinical recommendations.",
+      "authorityText": "Trust reviewers have read-only access to completed decision summaries, protocol logs, and governed AI artifacts used in the case flow. They can flag concerns, request review, and escalate issues, but they cannot rewrite patient-facing documents or alter clinical recommendations. This preserves accountability instead of blurring it.",
       "independenceTitle": "Independence",
       "independenceText": "The Trust Protocol team operates on a separate reporting line from clinical operations, provider relations, and commercial execution. This separation protects oversight quality from operational pressure, referral incentives, and automation convenience."
+    },
+    "responsibilityArchitecture": {
+      "title": "Responsibility Architecture",
+      "intro": "AetherHeal does not describe itself as a simple marketplace. That matters. The more authority a platform claims over a decision, the more clearly it must define the responsibility it carries.",
+      "positions": [
+        {
+          "title": "Pure Intermediary",
+          "body": "A platform that only connects buyers and sellers can try to minimize responsibility by claiming the outcome belongs entirely to the two parties. The tradeoff is that trust stays weak and fragmented."
+        },
+        {
+          "title": "Credentialing Platform",
+          "body": "A platform that sets standards and verifies participants carries more authority. Trust can transfer through the standard, but the platform is now accountable for whether that standard is meaningful."
+        },
+        {
+          "title": "Decision Infrastructure",
+          "body": "A platform that structures cases, filters options, and shapes decision paths enters the chain of responsibility directly. That is AetherHeal's position, which is why accountability must be designed into the system."
+        }
+      ],
+      "principleIntro": "The governing principle is simple:",
+      "principleText": "Influence and responsibility must expand together. If a platform helps shape a medical decision, it should not hide behind the language of neutrality.",
+      "guardrails": [
+        "Define clearly what AetherHeal is responsible for and what remains provider responsibility.",
+        "Treat legal boundaries and moral responsibility as related but not identical.",
+        "Use adverse outcomes, audits, and patient feedback as learning inputs rather than reputation leaks to bury."
+      ],
+      "callout": "Trust without responsibility is only marketing language. AetherHeal's claim is stronger: if we ask for trust, we must make our responsibility legible."
     },
     "aiGovernance": {
       "title": "AI Governance, Auditability & Enforcement",
@@ -891,7 +1041,7 @@
       "akerlofFraming": "In 1970, economist George Akerlof described how markets fail when buyers cannot verify quality. Medical tourism is a textbook case. AetherHeal's incentive architecture is designed to structurally correct this failure.",
       "p1": "In most medical travel platforms, the same entity that recommends a hospital also profits from the referral. That conflict can affect both people and software: case flow begins optimizing for conversion rather than judgment quality.",
       "p2": "AetherHeal is architecturally different. We separate the platform into independent layers with distinct incentives, reporting lines, and controls. AI systems, where used, are governed inside those same boundaries and are not allowed to optimize provider steering or case closure for commercial gain.",
-      "structuralCallout": "Our business model is designed so that our financial interests are permanently identical to our patients' medical interests — not as a policy, but as a structural fact.",
+      "structuralCallout": "Our business model is designed so that influence cannot expand without visible responsibility expanding with it. That alignment is structural, not aspirational.",
       "angelLayer": {
         "label": "Layer 1",
         "title": "Angel Layer",
@@ -934,7 +1084,7 @@
       "audiences": [
         {
           "label": "For Patients",
-          "body": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation."
+          "body": "When AetherHeal matches you with a partner hospital, that match is based on your clinical profile, documented constraints, and reviewed decision summary — not on commissions, marketing pressure, or opaque automation. The point is not only to guide you, but to make the chain of responsibility legible."
         },
         {
           "label": "For Hospitals",
@@ -991,7 +1141,7 @@
     },
     "ongoing": {
       "title": "Ongoing Accountability",
-      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, and periodic re-evaluation.",
+      "text": "Verification is not a one-time event. AetherHeal maintains ongoing review of partner institutions, human reviewer performance, and AI-assisted workflow behavior through audits, patient feedback, adverse-outcome learning, and periodic re-evaluation.",
       "checklist": [
         "Quarterly protocol compliance audits",
         "Annual partner re-verification reviews",
@@ -999,7 +1149,7 @@
         "Patient feedback integration into standards"
       ],
       "boxTitle": "Standards remain enforceable",
-      "boxText": "If repeated deviations, undocumented overrides, or unsafe automation patterns appear, the relevant workflow or partner relationship may be paused, remediated, or removed."
+      "boxText": "If repeated deviations, undocumented overrides, unsafe automation patterns, or serious outcome concerns appear, the relevant workflow or partner relationship may be paused, remediated, or removed. Accountability is part of the product, not an afterthought."
     },
     "relatedPages": [
       {
