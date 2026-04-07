@@ -62,58 +62,79 @@
       "ctaExplore": "开始探索"
     },
     "problemQuote": {
-      "q1": "大多数平台在构建决策之前就优化了推介。",
-      "q2": "在高风险医学中，没有临床框架的速度只会带来风险。",
-      "q3": "AetherHeal 在承诺之前带来医师主导的清晰度。"
+      "title": "患者真正恐惧的是什么",
+      "subtitle": "障碍不是获取渠道，而是不知道该信任什么。",
+      "items": [
+        {
+          "title": "误导性信号",
+          "quote": "精美的网站无法告诉你谁适合你的案例。"
+        },
+        {
+          "title": "利益冲突",
+          "quote": "某些中介在你花费更多时赚得更多。"
+        },
+        {
+          "title": "信任崩塌",
+          "quote": "当指导与你的不确定性捆绑时，信任即破裂。"
+        }
+      ],
+      "q1": "精美的网站无法告诉你谁适合你的案例。",
+      "q2": "某些中介在你花费更多时赚得更多。",
+      "q3": "当指导与你的不确定性捆绑时，信任即破裂。"
     },
     "stakes": {
-      "title": "并非每个选择都承担相同风险",
-      "subtitle": "在医学领域，错误的决策可能难以逆转。选择的框架必须体现结果的严重性。",
+      "title": "为什么这个决定如此沉重",
+      "subtitle": "挑战不在于获取渠道，而在于在一个从海外难以验证的市场中，做出一个持久的决定。",
       "lowStake": {
-        "label": "低风险领域",
+        "label": "患者的感受",
         "items": [
-          "音乐流媒体",
-          "社交内容",
-          "时尚与零售"
+          "被误导",
+          "后悔",
+          "独自面对"
         ],
-        "consequenceLabel": "失败后果",
-        "consequence": "失望",
-        "principle": "选择越多 = 价值越大"
+        "consequenceLabel": "他们需要的",
+        "consequence": "清晰",
+        "principle": "更少噪音，更好的决策。"
       },
       "highStake": {
-        "label": "高风险领域",
-        "critical": "关键",
+        "label": "市场提供的",
+        "critical": "结构性问题",
         "items": [
-          "航空",
-          "核能"
+          "无证据的宣称",
+          "隐性佣金",
+          "付款后无人负责"
         ],
-        "medicine": "医学",
-        "consequenceLabel": "失败后果",
-        "consequence": "不可逆伤害",
-        "principle": "非结构化决策 = 风险",
-        "structuralNote": "在患者无法在购买前验证质量的市场中，系统奖励的是错误的参与者。这不是信任问题，而是结构性失败。"
+        "medicine": "信任赤字",
+        "consequenceLabel": "它造成的后果",
+        "consequence": "不可逆的遗憾",
+        "principle": "非结构化市场奖励营销，而非匹配度。",
+        "structuralNote": "当患者无法验证质量时，营销胜出。AetherHeal 为此而建。"
       }
     },
     "aiLayer": {
-      "badge": "AI 辅助层",
-      "title": "AI 支持，",
-      "titleHighlight": "在医师权限之下",
-      "subtitle": "AetherHeal 使用AI来组织复杂性、发现缺失信息并延伸连续性监控。它不替代医师判断或医院权限。",
+      "badge": "信任架构",
+      "title": "AetherHeal 如何",
+      "titleHighlight": "构建信任",
+      "subtitle": "信任源于结构，而非宣称。",
       "cards": [
         {
-          "title": "医师审核之前",
-          "description": "AI帮助整理接诊信息、记录和问题，使医师从更清晰的案例文件开始，而非从零散的碎片开始。"
+          "title": "认证合作网络",
+          "description": "非开放目录，而是精选网络。"
         },
         {
-          "title": "在受治理的工作流内",
-          "description": "每项AI辅助输出均服从于医师审核、患者确认和医院可行性。权限绝不会转移给模型。"
+          "title": "固定导航费",
+          "description": "费用不随医院或手术变化。"
         },
         {
-          "title": "治疗后",
-          "description": "AI可以通过组织回访和发现随访信号来支持连续性监控，而人类决定是否需要采取行动或升级处理。"
+          "title": "旅程保障",
+          "description": "问责应在付款之后延续。"
+        },
+        {
+          "title": "医师治理",
+          "description": "临床权限归医师所有。AI支持工作流。"
         }
       ],
-      "footnote": "AetherHeal 不是AI医生。AI支持基础设施；医师和医院仍是决策者。"
+      "footnote": "信任内嵌于系统之中。"
     },
     "patientConcerns": {
       "badge": "您的决策阶段",
@@ -157,43 +178,57 @@
           "label": "患者意向",
           "badge": null,
           "description": "采集目标、限制条件、时间线和风险耐受度。",
-          "details": null
+          "details": null,
+          "owner": "患者通过 AetherHeal 提交",
+          "next": "AI辅助案例梳理"
         },
         {
           "label": "AI辅助案例梳理",
           "badge": "医师前期支持",
           "description": "在医师审核之前整理记录、问题和缺失的输入。",
-          "details": "AI辅助。医师审核每项输出。"
+          "details": "AI辅助。医师审核每项输出。",
+          "owner": "AetherHeal 案例梳理",
+          "next": "医师就绪审核"
         },
         {
-          "label": "医师就绪审核",
+          "label": "韩国执业医师审核",
           "badge": null,
           "description": "医师决定案例是否足够清晰以继续推进。",
-          "details": null
+          "details": null,
+          "owner": "执业医师审核",
+          "next": "医院可行性审核"
         },
         {
           "label": "合作医院可行性审核",
           "badge": "医院权限",
           "description": "合作医院在医师定义的决策范围内评估可行性。",
-          "details": null
+          "details": null,
+          "owner": "医院可行性审核",
+          "next": "决策承诺"
         },
         {
           "label": "决策承诺订金",
           "badge": "问责触发",
           "description": "确认意向、保障协调并对齐下一运营步骤。",
-          "details": null
+          "details": null,
+          "owner": "患者决策承诺",
+          "next": "抵达、预约与支持"
         },
         {
           "label": "旅程执行",
           "badge": "抵达、预约与支持",
           "description": "礼宾执行仅在医师就绪、患者确认对齐后才开始。",
-          "details": null
+          "details": null,
+          "owner": "AetherHeal 1:1 礼宾",
+          "next": "治疗后连续性监控"
         },
         {
           "label": "治疗后连续性监控",
           "badge": "AI支持的跟进执行",
           "description": "治疗后，回访、恢复信号和随访协调保持可见。",
-          "details": null
+          "details": null,
+          "owner": "AetherHeal + 患者 连续性监控",
+          "next": "如有顾虑则升级处理"
         }
       ],
       "journeyOrchestrationDetails": {
@@ -206,27 +241,120 @@
         "ready": "已准备好发布",
         "proceed": "继续进入医院审核"
       },
-      "closingQuote": "AI可以加速流程。责任仍然属于人类。"
+      "storyArc": {
+        "badge": "完整旅程",
+        "title": "患者旅程的最终目标",
+        "subtitle": "患者应从一开始就看清全貌：谁引导决策，谁执行治疗，谁在之后保持连续性可见。",
+        "items": [
+          {
+            "phase": "出发前",
+            "title": "决策清晰",
+            "owner": "AetherHeal + 医师"
+          },
+          {
+            "phase": "抵达",
+            "title": "运营交接",
+            "owner": "AetherHeal"
+          },
+          {
+            "phase": "治疗",
+            "title": "临床权限",
+            "owner": "医院"
+          },
+          {
+            "phase": "恢复",
+            "title": "随访可见性",
+            "owner": "AetherHeal + 患者"
+          },
+          {
+            "phase": "长达一年",
+            "title": "连续性与升级",
+            "owner": "AetherHeal + 医院"
+          }
+        ]
+      },
+      "first48Hours": {
+        "badge": "最初48小时",
+        "title": "抵达后的48小时",
+        "subtitle": "抵达、交接与临床对齐。治疗可能在此窗口内开始，也可能在之后。",
+        "items": [
+          {
+            "time": "抵达",
+            "title": "抵达协调",
+            "description": "我们接机、确认计划，并说明下一步。",
+            "owner": "AetherHeal 1:1 礼宾",
+            "next": "医院交接"
+          },
+          {
+            "time": "前24小时",
+            "title": "翻译、排程与交接",
+            "description": "医院收到案例背景，患者获得语言和排程支持。",
+            "owner": "AetherHeal + 医院 临床协调",
+            "next": "临床确认"
+          },
+          {
+            "time": "24-48小时",
+            "title": "治疗就绪",
+            "description": "患者与医院确认治疗是否现在进行、稍后安排或需进一步准备。",
+            "owner": "医院临床确认",
+            "next": "治疗或进一步协调"
+          }
+        ]
+      },
+      "continuityYear": {
+        "badge": "一年持续关怀",
+        "title": "治疗后连续性",
+        "subtitle": "患者回国后，恢复状况保持可见，必要时可升级处理。",
+        "items": [
+          {
+            "phase": "第1周",
+            "title": "早期恢复回访",
+            "description": "及早收集症状、照片和问题，确保不遗漏任何顾虑。",
+            "owner": "AetherHeal + 患者 早期回访",
+            "next": "预期追踪"
+          },
+          {
+            "phase": "第1-3个月",
+            "title": "随访与预期追踪",
+            "description": "跨越距离和语言，对照预期时间线追踪恢复进程。",
+            "owner": "AetherHeal 恢复追踪",
+            "next": "长期随访"
+          },
+          {
+            "phase": "第3-12个月",
+            "title": "长期连续性",
+            "description": "如出现延迟性顾虑，案例记录保持有序，随访无需从零开始。",
+            "owner": "AetherHeal + 医院 升级处理",
+            "next": "有据可查的连续性"
+          }
+        ]
+      },
+      "closingQuote": "目标不是催促你更快决定。目标是帮助你以更少的遗憾做出选择。"
     },
     "partners": {
-      "subtitle": "信任证明层",
-      "compactTitle": "认证合作网络",
-      "compactDescription": "9家创始合作伙伴，覆盖9个医疗专科——含1家大学医院。均通过AetherHeal信任协议认证。医院选择遵循决策准备度，而非营销推广。",
+      "subtitle": "早期验证",
+      "compactTitle": "信任需要证据",
+      "compactDescription": "13家审核，4家拒绝，9家通过。",
+      "proofPoints": [
+        "31%拒绝率。",
+        "候选机构来自Angel医师推荐、直接申请和同行转介。",
+        "验证持续进行中。"
+      ],
       "compactStats": [
         {
-          "number": "9",
-          "label": "创始合作伙伴"
+          "number": "13",
+          "label": "已审核"
+        },
+        {
+          "number": "31%",
+          "label": "已拒绝"
         },
         {
           "number": "9",
-          "label": "医疗专科"
-        },
-        {
-          "number": "1",
-          "label": "认证标准"
+          "label": "认证合作伙伴"
         }
       ],
-      "compactCta": "查看信任协议"
+      "compactCta": "信任协议"
     },
     "faq": {
       "title": "常见问题",
