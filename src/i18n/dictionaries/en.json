@@ -329,7 +329,8 @@
           }
         ]
       },
-      "closingQuote": "The goal is not to push you faster. The goal is to help you decide with less regret."
+      "closingQuote": "The goal is not to push you faster. The goal is to help you decide with less regret.",
+      "uiLabels": { "responsibility": "Responsibility", "then": "Then:" }
     },
     "partners": {
       "subtitle": "Early Proof",

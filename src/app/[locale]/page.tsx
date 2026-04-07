@@ -151,7 +151,13 @@ export default async function HomePage({
       subtitle?: string
       items?: { phase: string; title: string; description: string; owner?: string; next?: string }[]
     }
+    uiLabels?: {
+      responsibility?: string
+      then?: string
+    }
   }
+  const responsibilityLabel = journeySection.uiLabels?.responsibility ?? "Responsibility"
+  const thenLabel = journeySection.uiLabels?.then ?? "Then:"
 
   return (
     <div className="min-h-full">
@@ -687,7 +693,7 @@ export default async function HomePage({
                             idx === items.length - 1 ? "text-white/60" : "text-text-muted"
                           )}
                         >
-                          Responsibility
+                          {responsibilityLabel}
                         </p>
                         <p
                           className={cn(
@@ -745,7 +751,7 @@ export default async function HomePage({
                       </div>
                       {item.owner && (
                         <div className="mb-3 min-h-[3rem]">
-                          <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-1">Responsibility</p>
+                          <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-1">{responsibilityLabel}</p>
                           <p className="text-xs font-semibold leading-snug text-brand-navy">{item.owner}</p>
                         </div>
                       )}
@@ -754,7 +760,7 @@ export default async function HomePage({
                       {item.next && (
                         <div className="mt-auto pt-4">
                           <span className="inline-flex items-center rounded-full bg-slate-200/70 px-3 py-1 text-[11px] font-semibold text-text-muted">
-                            Then: {item.next}
+                            {thenLabel} {item.next}
                           </span>
                         </div>
                       )}
@@ -804,7 +810,7 @@ export default async function HomePage({
                       </div>
                       {item.owner && (
                         <div className="mb-3 min-h-[3rem]">
-                          <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold/70 mb-1">Responsibility</p>
+                          <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold/70 mb-1">{responsibilityLabel}</p>
                           <p className="text-xs font-semibold leading-snug text-white">{item.owner}</p>
                         </div>
                       )}
@@ -813,7 +819,7 @@ export default async function HomePage({
                       {item.next && (
                         <div className="mt-auto pt-4">
                           <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-[11px] font-semibold text-slate-300">
-                            Then: {item.next}
+                            {thenLabel} {item.next}
                           </span>
                         </div>
                       )}

@@ -329,7 +329,8 @@
           }
         ]
       },
-      "closingQuote": "急がせることが目的ではない。後悔の少ない決断を支えること。"
+      "closingQuote": "急がせることが目的ではない。後悔の少ない決断を支えること。",
+      "uiLabels": { "responsibility": "担当", "then": "次:" }
     },
     "partners": {
       "subtitle": "実証の証拠",

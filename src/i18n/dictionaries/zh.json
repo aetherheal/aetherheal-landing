@@ -329,7 +329,8 @@
           }
         ]
       },
-      "closingQuote": "目标不是催促你更快决定。目标是帮助你以更少的遗憾做出选择。"
+      "closingQuote": "目标不是催促你更快决定。目标是帮助你以更少的遗憾做出选择。",
+      "uiLabels": { "responsibility": "负责方", "then": "下一步:" }
     },
     "partners": {
       "subtitle": "早期验证",

@@ -346,7 +346,8 @@
           }
         ]
       },
-      "closingQuote": "목표는 더 빨리 결정하게 하는 것이 아닙니다. 후회 없이 결정하도록 돕는 것입니다."
+      "closingQuote": "목표는 더 빨리 결정하게 하는 것이 아닙니다. 후회 없이 결정하도록 돕는 것입니다.",
+      "uiLabels": { "responsibility": "담당", "then": "다음:" }
     },
     "partners": {
       "subtitle": "초기 증거",
@@ -371,7 +372,7 @@
           "label": "검증된 파트너"
         }
       ],
-      "compactCta": "Trust Protocol"
+      "compactCta": "신뢰 프로토콜"
     },
     "faq": {
       "title": "자주 묻는 질문",
