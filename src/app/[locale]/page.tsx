@@ -22,6 +22,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Accordion } from "@/components/ui/accordion"
+import { MobileDisclosure } from "@/components/landing/mobile-disclosure"
 import { cn } from "@/lib/utils"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
@@ -275,9 +276,9 @@ export default async function HomePage({
       </section>
 
       {/* Problem Quote */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-14">
+          <div className="text-center max-w-3xl mx-auto mb-8 md:mb-14">
             <SectionLabel color="gold" className="mb-4 block">
               {problemQuoteSection.title ?? "Why patients hesitate"}
             </SectionLabel>
@@ -298,14 +299,14 @@ export default async function HomePage({
               <div
                 key={item.title}
                 className={cn(
-                  "rounded-[28px] border p-8 shadow-[0_20px_50px_-16px_rgba(15,23,42,0.08)]",
+                  "rounded-[28px] border p-5 md:p-8 shadow-[0_20px_50px_-16px_rgba(15,23,42,0.08)]",
                   isLast
                     ? "border-brand-navy bg-brand-navy text-white"
                     : "border-slate-200 bg-slate-50/50"
                 )}
               >
                 <div className={cn(
-                  "w-12 h-12 rounded-2xl flex items-center justify-center mb-6",
+                  "w-12 h-12 rounded-2xl flex items-center justify-center mb-4 md:mb-6",
                   isLast ? "bg-brand-gold/10" : "bg-white border border-slate-200"
                 )}>
                   <Icon className={cn("w-5 h-5", isLast ? "text-brand-gold" : "text-brand-navy")} />
@@ -317,7 +318,7 @@ export default async function HomePage({
                   {item.title}
                 </p>
                 <p className={cn(
-                  "font-serif text-2xl leading-relaxed",
+                  "font-serif text-lg md:text-2xl leading-relaxed",
                   isLast ? "text-white" : "text-brand-navy"
                 )}>
                   &ldquo;{item.quote}&rdquo;
@@ -330,9 +331,9 @@ export default async function HomePage({
       </section>
 
       {/* Stakes Comparison */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-4">
               {t.stakes.title}
             </h2>
@@ -349,7 +350,7 @@ export default async function HomePage({
             </div>
 
             {/* Left Top */}
-            <div className="bg-slate-50 md:bg-transparent p-10 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-1">
+            <div className="bg-slate-50 md:bg-transparent p-6 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-1">
               <div>
                 <span className="inline-block px-4 py-1.5 rounded-full bg-slate-200/70 text-text-muted text-[10px] font-bold uppercase tracking-widest mb-10">
                   {t.stakes.lowStake.label}
@@ -366,7 +367,7 @@ export default async function HomePage({
             </div>
 
             {/* Left Bottom */}
-            <div className="bg-slate-50 md:bg-transparent p-10 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-2 md:order-3">
+            <div className="bg-slate-50 md:bg-transparent p-6 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-2 md:order-3">
               <div className="pt-8 border-t border-slate-200 h-full">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-3">
                   {t.stakes.lowStake.consequenceLabel}
@@ -381,7 +382,7 @@ export default async function HomePage({
             </div>
 
             {/* Right Top */}
-            <div className="bg-brand-navy md:bg-transparent p-10 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-3 md:order-2 overflow-hidden md:overflow-visible">
+            <div className="bg-brand-navy md:bg-transparent p-6 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-3 md:order-2 overflow-hidden md:overflow-visible">
               <div className="md:hidden absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-0" />
               <div className="relative z-10">
                 <div className="flex flex-wrap items-start gap-3 mb-10">
@@ -404,7 +405,7 @@ export default async function HomePage({
                 <div className="relative">
                   <div className="absolute inset-0 bg-brand-gold/20 blur-xl rounded-2xl" />
                   <div className="relative bg-white/5 border border-brand-gold/30 rounded-2xl p-6 sm:p-8 backdrop-blur-sm">
-                    <p className="font-serif text-5xl sm:text-6xl font-bold text-white tracking-tight">
+                    <p className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
                       {t.stakes.highStake.medicine}
                     </p>
                   </div>
@@ -413,7 +414,7 @@ export default async function HomePage({
             </div>
 
             {/* Right Bottom */}
-            <div className="bg-brand-navy md:bg-transparent p-10 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-4 md:order-4 overflow-hidden md:overflow-visible">
+            <div className="bg-brand-navy md:bg-transparent p-6 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-4 md:order-4 overflow-hidden md:overflow-visible">
               <div className="pt-8 border-t border-white/10 relative z-10 h-full">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-red-400 mb-3">
                   {t.stakes.highStake.consequenceLabel}
@@ -425,7 +426,7 @@ export default async function HomePage({
                   {t.stakes.highStake.principle}
                 </div>
                 {t.stakes.highStake.structuralNote && (
-                  <p className="mt-6 text-sm text-slate-400 leading-relaxed max-w-md italic">
+                  <p className="hidden md:block mt-6 text-sm text-slate-400 leading-relaxed max-w-md italic">
                     {t.stakes.highStake.structuralNote}
                   </p>
                 )}
@@ -436,9 +437,9 @@ export default async function HomePage({
       </section>
 
       {/* Trust Architecture */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
         <div className="max-w-6xl mx-auto">
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-10 md:mb-16">
             <SectionLabel color="gold" className="mb-4 block">
               {t.aiLayer.badge}
             </SectionLabel>
@@ -478,8 +479,8 @@ export default async function HomePage({
 
       {/* Patient Concerns — folded into Explore section below */}
 
-      {/* Journey Timeline */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200 overflow-hidden">
+      {/* Journey Timeline — desktop only, mobile uses Story Arc instead */}
+      <section className="hidden md:block w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center mb-24 relative z-10">
           <SectionLabel color="gold" className="mb-4 block">
             {t.journey.sectionLabel}
@@ -491,7 +492,7 @@ export default async function HomePage({
         </div>
 
         <div className="max-w-3xl mx-auto relative z-10">
-          <div className="relative mb-16 text-center">
+          <div className="relative mb-10 md:mb-16 text-center">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-full h-px bg-slate-200" />
             </div>
@@ -644,7 +645,7 @@ export default async function HomePage({
       </section>
 
       {/* First 48 Hours + Continuity Monitoring */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
         <div className="max-w-6xl mx-auto space-y-8">
           <div className="rounded-[32px] border border-slate-200 bg-white px-6 py-8 sm:px-8 sm:py-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
             <div className="max-w-3xl">
@@ -735,6 +736,7 @@ export default async function HomePage({
                   "The first two days should reduce uncertainty, not create more of it. AetherHeal keeps the early journey structured and visible."}
               </p>
             </div>
+            <MobileDisclosure buttonLabel="See details" className="flex-1">
             <div className="flex flex-col gap-4 flex-1">
               {(journeySection.first48Hours?.items ?? []).map((item, idx, items) => {
                 const isLast = idx === items.length - 1
@@ -779,6 +781,7 @@ export default async function HomePage({
                 )
               })}
             </div>
+            </MobileDisclosure>
           </div>
 
           <div className="h-full rounded-[32px] border border-brand-navy/10 bg-brand-navy p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.24)] flex flex-col">
@@ -794,6 +797,7 @@ export default async function HomePage({
                   "Care does not end when the procedure ends. Recovery signals, follow-up questions, and escalation paths should remain visible long after the patient flies home."}
               </p>
             </div>
+            <MobileDisclosure buttonLabel="See details" variant="dark" className="flex-1">
             <div className="flex flex-col gap-4 flex-1">
               {(journeySection.continuityYear?.items ?? []).map((item, idx, items) => {
                 const isLast = idx === items.length - 1
@@ -838,6 +842,7 @@ export default async function HomePage({
                 )
               })}
             </div>
+            </MobileDisclosure>
           </div>
         </div>
         </div>
@@ -853,7 +858,7 @@ export default async function HomePage({
               {t.partners.compactDescription}
             </p>
             {partnersSection.proofPoints && partnersSection.proofPoints.length > 0 && (
-              <div className="max-w-2xl mx-auto grid gap-3 text-left mb-10">
+              <div className="hidden md:grid max-w-2xl mx-auto gap-3 text-left mb-10">
                 {partnersSection.proofPoints.map((point) => (
                   <div key={point} className="flex items-start gap-3 text-sm text-text-body">
                     <div className="w-2 h-2 rounded-full bg-brand-gold shrink-0 mt-1.5" />
@@ -897,7 +902,10 @@ export default async function HomePage({
               <Link
                 key={exploreHrefs[idx]}
                 href={`${prefix}${exploreHrefs[idx]}`}
-                className="group flex items-start gap-4 p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all"
+                className={cn(
+                  "group flex items-start gap-4 p-6 bg-white border border-slate-200 rounded-2xl hover:border-brand-gold/40 hover:shadow-md transition-all",
+                  idx >= 3 && "hidden sm:flex"
+                )}
               >
                 <div className="w-10 h-10 rounded-xl bg-brand-gold/10 flex items-center justify-center shrink-0 mt-0.5">
                   <Icon className="w-5 h-5 text-brand-gold" />
@@ -910,13 +918,24 @@ export default async function HomePage({
               )
             })}
           </div>
+          {t.explore.items.length > 3 && (
+            <div className="sm:hidden mt-4 text-center">
+              <Link
+                href={`${prefix}/explore`}
+                className="inline-flex items-center gap-1 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+              >
+                See all {t.explore.items.length} topics
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="w-full py-20 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-4xl mx-auto rounded-[32px] border border-slate-200 bg-slate-50/40 px-5 py-10 sm:px-8 sm:py-12 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <h2 className="font-serif text-4xl text-brand-navy mb-4">{t.faq.title}</h2>
             <p className="text-text-body max-w-2xl mx-auto">{t.faq.subtitle}</p>
           </div>
