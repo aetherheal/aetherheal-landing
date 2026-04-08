@@ -74,11 +74,11 @@
       "items": [
         {
           "title": "Misleading signals",
-          "quote": "A polished website does not tell you who is right for your case."
+          "quote": "Cheaper prices and Google reviews don't tell you what's right for your case."
         },
         {
           "title": "Conflicted incentives",
-          "quote": "Some intermediaries earn more when you spend more."
+          "quote": "If your intermediary profits from upselling, their recommendation isn't yours."
         },
         {
           "title": "Broken trust",
@@ -139,6 +139,10 @@
         {
           "title": "Physician Governance",
           "description": "Clinical authority stays with physicians. AI supports the workflow."
+        },
+        {
+          "title": "Procedure Transparency",
+          "description": "All procedures under sedation are recorded via CCTV and close-up camera. Genuine products, verified dosage. Footage available upon request. Hospitals that decline recording may be grounds for rejection."
         }
       ],
       "footnote": "Trust is built into the system."
@@ -367,7 +371,7 @@
     "coverage": {
       "badge": "Coverage",
       "title": "High-Stake Domains",
-      "subtitle": "We operate only in high-stake, difficult-to-reverse medical domains.",
+      "subtitle": "Where getting it right the first time matters.",
       "items": [
         "Hair Transplant",
         "Skin Aesthetic",
@@ -418,7 +422,7 @@
     },
     "explore": {
       "badge": "Explore by Topic",
-      "title": "Blogs written by doctors",
+      "title": "Blog written by our doctors",
       "items": [
         {
           "title": "Hair Transplant in Korea",
@@ -586,7 +590,7 @@
     "coverage": {
       "badge": "04 — Coverage",
       "title": "High-Stake Domains",
-      "subtitle": "We operate only in high-stake, difficult-to-reverse medical domains.",
+      "subtitle": "Where getting it right the first time matters.",
       "domains": [
         "Hair Transplant",
         "Skin Aesthetic",

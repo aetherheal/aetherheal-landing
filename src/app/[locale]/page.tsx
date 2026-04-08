@@ -23,6 +23,7 @@ import {
   Dna,
   Activity,
   ScanLine,
+  Video,
   type LucideIcon,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -41,7 +42,7 @@ const problemQuoteIcons = [GitFork, AlertTriangle, Stethoscope]
 // concernIcons removed — Patient Concerns section folded into Explore
 const exploreIcons = [Scissors, Sparkles, Building2, Eye, Heart, Stethoscope]
 const journeySides = ["right", "left", "center", "right", "left", "right", "left"] as const
-const trustPillarIcons = [ShieldCheck, CreditCard, RefreshCw, UserCheck]
+const trustPillarIcons = [ShieldCheck, CreditCard, RefreshCw, UserCheck, Video]
 const storyArcCardClasses = [
   "border-slate-200 bg-white",
   "border-slate-200 bg-slate-50/80",
@@ -439,8 +440,8 @@ export default async function HomePage({
                 </p>
               </div>
 
-              <div className="grid grid-cols-4 gap-6">
-                {t.aiLayer.cards.map((card, idx) => {
+              <div className="grid grid-cols-4 gap-5">
+                {t.aiLayer.cards.slice(0, 4).map((card, idx) => {
                   const Icon = trustPillarIcons[idx % trustPillarIcons.length]
                   return (
                     <div
@@ -460,6 +461,18 @@ export default async function HomePage({
                   )
                 })}
               </div>
+
+              {t.aiLayer.cards[4] && (
+                <div className="mt-5 rounded-3xl border border-brand-gold/20 bg-brand-gold/[0.06] p-8 flex items-center gap-8">
+                  <div className="w-14 h-14 rounded-xl bg-brand-gold/15 flex items-center justify-center border border-brand-gold/25 shrink-0">
+                    <Video className="w-6 h-6 text-brand-gold" />
+                  </div>
+                  <div>
+                    <h3 className="font-serif text-2xl text-white mb-2">{t.aiLayer.cards[4].title}</h3>
+                    <p className="text-sm text-white/60 leading-relaxed">{t.aiLayer.cards[4].description}</p>
+                  </div>
+                </div>
+              )}
 
               <div className="mt-12 text-center">
                 <div className="inline-flex items-center gap-3">
@@ -602,7 +615,7 @@ export default async function HomePage({
           </div>
 
           <div className="grid grid-cols-2 gap-3">
-            {t.aiLayer.cards.map((card, idx) => {
+            {t.aiLayer.cards.slice(0, 4).map((card, idx) => {
               const Icon = trustPillarIcons[idx % trustPillarIcons.length]
               return (
                 <div
@@ -621,6 +634,18 @@ export default async function HomePage({
               )
             })}
           </div>
+
+          {t.aiLayer.cards[4] && (
+            <div className="mt-3 rounded-2xl border border-brand-gold/20 bg-brand-gold/[0.06] p-5 flex items-start gap-4">
+              <div className="w-10 h-10 rounded-xl bg-brand-gold/15 flex items-center justify-center border border-brand-gold/25 shrink-0 mt-0.5">
+                <Video className="w-5 h-5 text-brand-gold" />
+              </div>
+              <div>
+                <h3 className="font-serif text-base text-white mb-1">{t.aiLayer.cards[4].title}</h3>
+                <p className="text-xs text-white/60 leading-relaxed">{t.aiLayer.cards[4].description}</p>
+              </div>
+            </div>
+          )}
 
           <div className="mt-8 text-center">
             <p className="text-sm font-medium text-brand-gold/80 italic tracking-wide">{t.aiLayer.footnote}</p>
@@ -1050,7 +1075,7 @@ export default async function HomePage({
                   <p className="text-slate-400 text-base sm:text-lg max-w-xl mx-auto">{coverage.subtitle}</p>
                 )}
               </div>
-              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
+              <div className="hidden sm:grid grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
                 {coverage.items.map((item, i) => {
                   const Icon = coverageIcons[i] ?? Stethoscope
                   return (
@@ -1059,6 +1084,17 @@ export default async function HomePage({
                         <Icon className="w-4 h-4 text-brand-gold" />
                       </div>
                       <span className="text-white/80 font-semibold text-xs sm:text-sm leading-tight block">{item}</span>
+                    </div>
+                  )
+                })}
+              </div>
+              <div className="sm:hidden grid grid-cols-3 gap-2">
+                {coverage.items.map((item, i) => {
+                  const Icon = coverageIcons[i] ?? Stethoscope
+                  return (
+                    <div key={item} className="rounded-xl border border-white/[0.08] bg-white/[0.04] px-2 py-3 text-center">
+                      <Icon className="w-4 h-4 text-brand-gold/70 mx-auto mb-1.5" />
+                      <span className="text-white/80 font-semibold text-[11px] leading-tight block">{item}</span>
                     </div>
                   )
                 })}
