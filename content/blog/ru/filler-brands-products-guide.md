@@ -1,10 +1,10 @@
 ---
-title: "Филлеры: бренды и продукты — что нужно знать пациенту перед выбором"
+title: "Бренды дермальных филлеров: руководство врача"
 description: "Практикующий врач разбирает ведущие бренды филлеров, их технологии и принципы выбора продукта в зависимости от зоны и цели лечения."
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
-tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler"]
+tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler", "filler-comparison", "korean-fillers"]
 coverImage: ""
 published: true
 ---

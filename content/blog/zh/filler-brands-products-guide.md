@@ -1,10 +1,10 @@
 ---
-title: "皮肤填充剂品牌与产品指南 — 患者在选择前应了解的内容"
+title: "皮肤填充剂品牌：医生指南"
 description: "执业医师解析主要填充剂品牌、技术及根据治疗部位和目的选择产品的原则。"
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
-tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler"]
+tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler", "filler-comparison", "korean-fillers"]
 coverImage: ""
 published: true
 ---

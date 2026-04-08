@@ -1,10 +1,10 @@
 ---
-title: "FUE vs. FUT — 모발이식 전문의가 솔직하게 비교하는 두 가지 수술법"
-description: "모발이식 전문의가 FUE와 FUT의 실질적인 차이를 설명합니다. 어느 쪽이 '더 좋은지'가 아니라, 당신의 탈모 유형과 라이프스타일, 그리고 목표에 맞는 방법은 무엇인지 안내합니다."
+title: "FUE vs. FUT: 어떤 모발이식이 적합할까?"
+description: "FUE와 FUT 모발이식 방법에 대한 전문의의 분석 — 장점, 한계, 그리고 탈모 유형, 예산, 라이프스타일에 따른 선택 방법."
 date: "2026-04-04"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison"]
+tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison", "graft-survival", "hair-transplant-cost"]
 coverImage: ""
 published: true
 ---

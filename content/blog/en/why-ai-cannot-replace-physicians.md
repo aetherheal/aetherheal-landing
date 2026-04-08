@@ -1,6 +1,6 @@
 ---
-title: "Why AI Cannot Replace Physicians — And What It Should Do Instead"
-description: "Everyone is asking the wrong question about AI in medicine. The question isn't whether AI can replace doctors. It's what physicians are actually doing that cannot be delegated — and why understanding that distinction changes how we build AI systems for healthcare."
+title: "Why AI Cannot Replace Physicians in Healthcare"
+description: "The question isn't whether AI can replace doctors — it's what physicians do that cannot be delegated. A physician-founder explains the structural reason AI should support, not substitute."
 date: "2026-03-22"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
@@ -99,4 +99,4 @@ That's the question I'm building around. I don't think it has been answered yet.
 
 ---
 
-*Dr. Jee Hoon Ju is a physician and the founder of AetherHeal, a physician-led decision infrastructure platform for international patients considering medical care in Korea.*
+*Dr. Jee Hoon Ju is a physician and the founder of [AetherHeal](/en/how-it-works), a physician-led platform for international patients considering medical care in Korea. Read more about [how AI is governed within AetherHeal's process](/en/trust-protocol), or explore [why Korea has become a destination for medical care](/en/blog/why-korea-for-medical-care).*

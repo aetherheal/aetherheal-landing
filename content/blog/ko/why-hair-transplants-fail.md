@@ -1,10 +1,10 @@
 ---
-title: "모발이식이 실패하는 이유 — 한국에서 예약하기 전에 꼭 물어야 할 질문들"
-description: "환자로서 모발이식 실패를 경험한 모발이식 전문의가 설명합니다. 대부분의 나쁜 결과 뒤에 있는 세 가지 임상적 실패와, 이를 피하기 위해 반드시 물어야 할 질문들."
+title: "모발이식이 실패하는 이유: 실패를 피하는 방법"
+description: "대부분의 나쁜 모발이식 결과 뒤에 숨겨진 세 가지 임상적 실패 — 그리고 담당 의사에게 반드시 물어야 할 질문들. 환자로서 실패한 모발이식을 경험한 전문의가 직접 작성했습니다."
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide"]
+tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: ""
 published: true
 ---

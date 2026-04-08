@@ -1,10 +1,10 @@
 ---
-title: "FUE vs. FUT — 外科医が正直に比較する2つの植毛手術法"
-description: "植毛外科医が、FUEとFUTの本当の違いを解説します。どちらが「優れている」かではなく、あなたの薄毛の状態、ライフスタイル、目標に合った方法はどちらかをお伝えします。"
+title: "FUE vs. FUT：どちらの植毛が適切か？"
+description: "外科医によるFUEとFUT植毛法の分析 — それぞれの利点、限界、そして薄毛の状態・予算・ライフスタイルに基づく選び方。"
 date: "2026-04-04"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison"]
+tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison", "graft-survival", "hair-transplant-cost"]
 coverImage: ""
 published: true
 ---

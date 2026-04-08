@@ -1,10 +1,10 @@
 ---
-title: "MCT: The Skin Rejuvenation Technology That Removes Skin Instead of Burning It"
-description: "MicroCoring Technology (MCT) takes a counterintuitive approach to skin tightening — removing thousands of micro-columns of skin rather than applying heat. Here's why dermatologists are paying attention, and what patients should understand before considering it."
+title: "MCT (MicroCoring): Skin Rejuvenation Without Heat"
+description: "MCT removes micro-columns of skin without heat, tightening from within. No risk of post-inflammatory hyperpigmentation. A physician explains how it works and who it's for."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
-tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor"]
+tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
 coverImage: ""
 published: true
 ---
@@ -88,3 +88,5 @@ At AetherHeal, we approach new technologies the same way we approach established
 ---
 
 *This article is for informational purposes only and does not constitute medical advice. Treatment decisions should be made in consultation with a qualified physician who can evaluate your individual presentation, medical history, and goals.*
+
+**Related reading:** [Thread Lifting: PDO vs. PCL vs. PLLA](/en/blog/thread-lifting-pdo-pcl-plla-guide) — a biostimulatory approach to skin lifting. [Dermal Filler Brands Guide](/en/blog/filler-brands-products-guide) — how to choose the right filler for each treatment area. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — why Seoul is a hub for aesthetic innovation.

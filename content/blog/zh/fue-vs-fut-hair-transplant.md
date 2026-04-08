@@ -1,10 +1,10 @@
 ---
-title: "FUE vs. FUT — 一位外科医生对两种植发方法的真诚对比"
-description: "一位植发外科医生为您详解FUE与FUT的真正区别——不是告诉您哪种'更好'，而是帮您找到最适合您脱发情况、生活方式和个人目标的方案。"
+title: "FUE vs. FUT：哪种植发方式适合您？"
+description: "外科医生详解FUE与FUT植发方法——各自的优势、局限性，以及如何根据脱发类型、预算和生活方式做出选择。"
 date: "2026-04-04"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison"]
+tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison", "graft-survival", "hair-transplant-cost"]
 coverImage: ""
 published: true
 ---

@@ -1,10 +1,10 @@
 ---
-title: "Why Hair Transplants Fail — And the Questions You Should Ask Before Booking in Korea"
-description: "A hair transplant surgeon who experienced a failed transplant as a patient explains the three clinical failures behind most bad outcomes — and the exact questions that can help you avoid them."
+title: "Why Hair Transplants Fail: How to Avoid Them"
+description: "Three clinical failures behind most bad hair transplant outcomes — and the exact questions to ask your surgeon. Written by a surgeon who experienced a failed transplant as a patient."
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide"]
+tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: ""
 published: true
 ---
@@ -114,4 +114,6 @@ If you're in the early stages of researching hair transplant surgery in Korea, t
 
 ---
 
-*Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified hair transplant surgeon and the founder of [AetherHeal](/en/trust-protocol), a physician-led medical decision infrastructure for international patients considering care in Korea.*
+*Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified hair transplant surgeon and the founder of [AetherHeal](/en/trust-protocol), a physician-led platform for international patients considering care in Korea.*
+
+**Related reading:** [FUE vs. FUT: Which Hair Transplant Method Is Right?](/en/blog/fue-vs-fut-hair-transplant) — an honest comparison of both techniques. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — what makes Korean medicine different.

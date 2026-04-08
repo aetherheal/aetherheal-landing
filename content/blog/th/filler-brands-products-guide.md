@@ -1,10 +1,10 @@
 ---
-title: "คู่มือแบรนด์และผลิตภัณฑ์ฟิลเลอร์ — สิ่งที่ผู้ป่วยควรรู้ก่อนเลือก"
+title: "แบรนด์เดอร์มอลฟิลเลอร์: คู่มือจากแพทย์"
 description: "แพทย์ผู้เชี่ยวชาญอธิบายแบรนด์ฟิลเลอร์หลัก เทคโนโลยี และหลักการเลือกผลิตภัณฑ์ตามพื้นที่การรักษาและวัตถุประสงค์"
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
-tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler"]
+tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler", "filler-comparison", "korean-fillers"]
 coverImage: ""
 published: true
 ---

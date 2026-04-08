@@ -1,10 +1,10 @@
 ---
-title: "MCT：皮膚を焼くのではなく除去するスキンリジュビネーション技術"
-description: "マイクロコアリング技術（MCT）は、皮膚の引き締めに対して直感に反するアプローチを取ります。熱を加えるのではなく、数千本の微小な皮膚柱を除去するのです。皮膚科医が注目する理由と、患者が治療を検討する前に理解すべきことを解説します。"
+title: "MCT（マイクロコアリング）：熱を使わないスキンリジュビネーション"
+description: "MCTは熱を使わずに皮膚の微小柱を除去し、内側から引き締めます。炎症後色素沈着のリスクがありません。医師がその仕組みと適応対象を解説します。"
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
-tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor"]
+tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
 coverImage: ""
 published: true
 ---

@@ -1,10 +1,10 @@
 ---
-title: "フィラーブランド＆製品ガイド — 選ぶ前に患者が知るべきこと"
+title: "ダーマルフィラーブランド：医師によるガイド"
 description: "現役医師が主要フィラーブランド、技術、治療部位と目的に基づく製品選択の考え方を解説。"
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
-tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler"]
+tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler", "filler-comparison", "korean-fillers"]
 coverImage: ""
 published: true
 ---

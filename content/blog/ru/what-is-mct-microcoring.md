@@ -1,10 +1,10 @@
 ---
-title: "MCT: технология омоложения кожи, которая удаляет кожу, а не сжигает её"
-description: "Технология микрокоринга (MCT) использует контринтуитивный подход к подтяжке кожи — удаляет тысячи микростолбиков кожи вместо воздействия теплом. Вот почему дерматологи обращают на неё внимание и что пациентам следует знать перед тем, как рассматривать эту процедуру."
+title: "MCT (микрокоринг): омоложение кожи без теплового воздействия"
+description: "MCT удаляет микростолбики кожи без тепла, подтягивая изнутри. Без риска поствоспалительной гиперпигментации. Врач объясняет принцип работы и кому подходит эта процедура."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
-tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor"]
+tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
 coverImage: ""
 published: true
 ---

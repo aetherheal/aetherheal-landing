@@ -1,10 +1,10 @@
 ---
-title: "MCT：一种去除皮肤而非灼烧皮肤的皮肤年轻化技术"
-description: "微取皮技术（MCT）采用了一种反直觉的皮肤紧致方法——去除数千个微柱状皮肤组织，而非施加热能。以下是皮肤科医生关注这项技术的原因，以及患者在考虑该治疗前应了解的要点。"
+title: "MCT（微取皮技术）：无热量的皮肤年轻化"
+description: "MCT无需热能即可去除皮肤微柱，从内部实现紧致。无炎症后色素沉着风险。专业医生解析其原理及适用人群。"
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
-tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor"]
+tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
 coverImage: ""
 published: true
 ---

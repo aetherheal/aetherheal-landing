@@ -1,6 +1,6 @@
 ---
-title: "Thread Lifting Explained — PDO, PCL, and PLLA: What Actually Happens Under Your Skin"
-description: "A physician breaks down how thread lifting works beyond just 'pulling skin tight' — the biology of PDO, PCL, and PLLA threads, what each material does differently, and how to choose the right one."
+title: "Thread Lifting: PDO vs. PCL vs. PLLA Compared"
+description: "How thread lifting actually works — the biology of PDO, PCL, and PLLA threads, what each material does differently, and how to choose the right one for your skin."
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
@@ -182,3 +182,5 @@ A physician who answers these clearly — without rushing — is one worth trust
 ---
 
 *Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified specialist in aesthetic medicine and hair transplantation, with clinical experience in thread lifting, energy-based devices, and injectable treatments.*
+
+**Related reading:** [Dermal Filler Brands Guide](/en/blog/filler-brands-products-guide) — how fillers and threads work together for volume + lift. [MCT: Skin Rejuvenation Without Heat](/en/blog/what-is-mct-microcoring) — a mechanical alternative for skin tightening. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — why Seoul leads in non-surgical aesthetics.

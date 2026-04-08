@@ -1,6 +1,6 @@
 ---
-title: "スレッドリフト徹底解説 — PDO、PCL、PLLA：肌の下で実際に起きていること"
-description: "スレッドリフトは単に「肌を引っ張る」だけではありません。PDO、PCL、PLLAスレッドの生物学的メカニズム、各素材の違い、そして最適な選び方を医師が詳しく解説します。"
+title: "スレッドリフト：PDO vs. PCL vs. PLLA 比較"
+description: "スレッドリフトの実際の仕組み — PDO、PCL、PLLAスレッドの生物学的メカニズム、各素材の違い、そしてあなたの肌に合った選び方。"
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

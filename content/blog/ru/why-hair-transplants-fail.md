@@ -1,10 +1,10 @@
 ---
-title: "Почему пересадка волос терпит неудачу — и какие вопросы задать перед бронированием в Корее"
-description: "Хирург по пересадке волос, который сам пережил неудачную пересадку как пациент, объясняет три клинические причины большинства плохих результатов — и точные вопросы, которые помогут их избежать."
+title: "Почему пересадка волос терпит неудачу: как этого избежать"
+description: "Три клинические причины большинства неудачных результатов пересадки волос — и конкретные вопросы, которые нужно задать хирургу. Написано хирургом, который сам пережил неудачную пересадку как пациент."
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide"]
+tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: ""
 published: true
 ---

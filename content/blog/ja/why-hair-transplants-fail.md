@@ -1,10 +1,10 @@
 ---
-title: "植毛が失敗する理由 — 韓国で予約する前に聞くべき質問"
-description: "患者として植毛の失敗を経験した植毛外科医が、ほとんどの悪い結果の背後にある3つの臨床的失敗と、それを避けるために聞くべき正確な質問を解説します。"
+title: "植毛が失敗する理由：失敗を避ける方法"
+description: "植毛の悪い結果の大半に共通する3つの臨床的失敗 — そして担当医に聞くべき具体的な質問。患者として失敗した植毛を経験した外科医が執筆しました。"
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide"]
+tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: ""
 published: true
 ---

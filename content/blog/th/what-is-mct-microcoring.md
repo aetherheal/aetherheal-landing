@@ -1,10 +1,10 @@
 ---
-title: "MCT: เทคโนโลยีฟื้นฟูผิวที่เอาผิวออกแทนการเผาผิว"
-description: "เทคโนโลยีไมโครคอริง (MCT) ใช้แนวทางที่ขัดกับสัญชาตญาณในการกระชับผิว — โดยนำคอลัมน์ผิวขนาดจิ๋วนับพันออกแทนที่จะใช้ความร้อน นี่คือเหตุผลที่แพทย์ผิวหนังให้ความสนใจ และสิ่งที่ผู้ป่วยควรเข้าใจก่อนพิจารณาเข้ารับการรักษา"
+title: "MCT (ไมโครคอริง): ฟื้นฟูผิวโดยไม่ใช้ความร้อน"
+description: "MCT นำคอลัมน์ผิวขนาดจิ๋วออกโดยไม่ใช้ความร้อน กระชับผิวจากภายใน ไม่มีความเสี่ยงต่อภาวะสีผิวเข้มหลังอักเสบ แพทย์อธิบายหลักการและผู้ที่เหมาะสมกับการรักษานี้"
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
-tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor"]
+tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
 coverImage: ""
 published: true
 ---

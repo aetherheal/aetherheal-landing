@@ -1,10 +1,10 @@
 ---
-title: "필러 브랜드와 제품 가이드 — 시술 전 환자가 알아야 할 것"
+title: "더마 필러 브랜드: 의사의 가이드"
 description: "의사가 설명하는 주요 필러 브랜드, 기술, 그리고 부위와 목적에 따른 제품 선택 기준."
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
-tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler"]
+tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler", "filler-comparison", "korean-fillers"]
 coverImage: ""
 published: true
 ---

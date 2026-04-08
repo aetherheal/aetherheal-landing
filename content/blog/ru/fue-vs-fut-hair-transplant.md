@@ -1,10 +1,10 @@
 ---
-title: "FUE или FUT — честное сравнение двух методов пересадки волос от хирурга"
-description: "Хирург по пересадке волос объясняет реальные различия между FUE и FUT — не какой метод «лучше», а какой подходит именно вам с учётом вашего типа выпадения волос, образа жизни и целей."
+title: "FUE или FUT: какая пересадка волос подходит вам?"
+description: "Анализ методов пересадки волос FUE и FUT от хирурга — преимущества, ограничения и как выбрать с учётом типа выпадения волос, бюджета и образа жизни."
 date: "2026-04-04"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison"]
+tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison", "graft-survival", "hair-transplant-cost"]
 coverImage: ""
 published: true
 ---

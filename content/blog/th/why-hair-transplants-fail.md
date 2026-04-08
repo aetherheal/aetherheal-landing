@@ -1,10 +1,10 @@
 ---
-title: "ทำไมการปลูกผมถึงล้มเหลว — และคำถามที่คุณควรถามก่อนจองในเกาหลี"
-description: "ศัลยแพทย์ปลูกผมที่เคยประสบปัญหาการปลูกผมล้มเหลวในฐานะผู้ป่วย อธิบายความล้มเหลวทางคลินิก 3 ประการที่อยู่เบื้องหลังผลลัพธ์ที่ไม่ดีส่วนใหญ่ — และคำถามที่จะช่วยให้คุณหลีกเลี่ยงปัญหาเหล่านั้น"
+title: "ทำไมการปลูกผมถึงล้มเหลว: วิธีหลีกเลี่ยงความล้มเหลว"
+description: "ความล้มเหลวทางคลินิก 3 ประการที่อยู่เบื้องหลังผลลัพธ์การปลูกผมที่ไม่ดีส่วนใหญ่ — และคำถามที่คุณควรถามศัลยแพทย์ เขียนโดยศัลยแพทย์ที่เคยประสบปัญหาการปลูกผมล้มเหลวในฐานะผู้ป่วย"
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide"]
+tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: ""
 published: true
 ---

@@ -1,10 +1,10 @@
 ---
-title: "植发为什么会失败 — 在韩国预约前你应该问的问题"
-description: "一位曾作为患者经历植发失败的植发外科医生，解释了大多数不良结果背后的三个临床失败原因，以及能帮助你避免这些问题的关键提问。"
+title: "植发为什么会失败：如何避免失败"
+description: "大多数植发不良结果背后的三个临床失败原因——以及你应该向外科医生提出的关键问题。由一位曾作为患者经历植发失败的外科医生撰写。"
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide"]
+tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: ""
 published: true
 ---

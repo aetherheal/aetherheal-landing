@@ -1,10 +1,10 @@
 ---
-title: "MCT: 피부를 태우지 않고 제거하는 피부 재생 기술"
-description: "마이크로코어링 기술(MCT)은 열을 가하는 대신 수천 개의 미세 피부 기둥을 제거하는 역발상적 접근법으로 피부를 탄력 있게 조여줍니다. 피부과 전문의들이 주목하는 이유와 시술을 고려하기 전에 환자가 알아야 할 사항을 정리했습니다."
+title: "MCT(마이크로코어링): 열 없이 피부를 재생하는 기술"
+description: "MCT는 열 없이 피부의 미세 기둥을 제거하여 내부에서부터 탄력을 회복시킵니다. 염증 후 색소침착 위험이 없습니다. 전문의가 원리와 적합한 대상을 설명합니다."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
-tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor"]
+tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
 coverImage: ""
 published: true
 ---

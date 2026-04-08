@@ -1,10 +1,10 @@
 ---
-title: "FUE vs. FUT — การเปรียบเทียบอย่างตรงไปตรงมาจากมุมมองของศัลยแพทย์ระหว่างสองวิธีปลูกผม"
-description: "ศัลยแพทย์ปลูกผมอธิบายความแตกต่างที่แท้จริงระหว่าง FUE และ FUT — ไม่ใช่ว่าวิธีไหน 'ดีกว่า' แต่วิธีไหนเหมาะกับรูปแบบผมร่วง ไลฟ์สไตล์ และเป้าหมายของคุณ"
+title: "FUE vs. FUT: การปลูกผมแบบไหนเหมาะกับคุณ?"
+description: "ศัลยแพทย์วิเคราะห์วิธีปลูกผม FUE และ FUT — ข้อดี ข้อจำกัด และวิธีเลือกตามรูปแบบผมร่วง งบประมาณ และไลฟ์สไตล์ของคุณ"
 date: "2026-04-04"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
-tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison"]
+tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison", "graft-survival", "hair-transplant-cost"]
 coverImage: ""
 published: true
 ---
