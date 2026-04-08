@@ -1,6 +1,6 @@
 ---
 title: "Why AI Cannot Replace Physicians in Healthcare"
-description: "The question isn't whether AI can replace doctors — it's what physicians do that cannot be delegated. A physician-founder explains the structural reason AI should support, not substitute."
+description: "The question isn't whether AI can replace doctors — it's what physicians do that cannot be delegated. Why AI should support, not substitute."
 date: "2026-03-22"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
@@ -45,7 +45,7 @@ What AI can do extraordinarily well:
 
 **Surface what is missing.** One of the most consistent failures in clinical intake is not collecting the wrong information — it's failing to notice that critical information is absent. AI can flag gaps systematically, without the fatigue that causes human reviewers to miss them.
 
-**Maintain continuity across time.** Post-treatment monitoring requires consistent attention across weeks or months. AI can sustain that attention without degradation. It doesn't get tired. It doesn't forget to follow up.
+**Maintain continuity across time.** Post-treatment monitoring requires consistent attention across weeks or months. AI can sustain that attention without degradation. It doesn't get tired. It doesn't forget to follow up. (This is how we've designed the [AetherHeal process](/en/how-it-works) — AI handles continuity while physicians hold authority.)
 
 **Reduce language and cultural barriers.** In international medical contexts, miscommunication isn't just inconvenient — it's a patient safety issue. AI can mediate across languages with a consistency no human coordinator can match at scale.
 

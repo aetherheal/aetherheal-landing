@@ -1,6 +1,6 @@
 ---
 title: "Why Korea for Medical Care: A Physician's Perspective"
-description: "Why Seoul became a global medical destination. A physician explains the real advantages, the hidden risks, and what to consider before booking any procedure in Korea."
+description: "Why Seoul became a global medical destination. A physician explains the real advantages, hidden risks, and what to know before booking."
 date: "2026-03-09"
 author: "Dr. Jee Hoon Ju"
 category: "insights"
@@ -74,7 +74,7 @@ Korean dermatologists routinely design multi-layered treatment plans — combini
 
 ### Skin Rejuvenation
 
-From fractional lasers to [MCT (MicroCoring Technology)](/en/blog/what-is-mct-microcoring), Korean clinics offer a broader toolkit for skin rejuvenation than most markets. The competitive landscape means physicians must stay at the leading edge of technology to attract patients — which benefits the patient.
+From fractional lasers to [MCT (MicroCoring Technology)](/en/blog/mct-microcoring-skin-rejuvenation), Korean clinics offer a broader toolkit for skin rejuvenation than most markets. The competitive landscape means physicians must stay at the leading edge of technology to attract patients — which benefits the patient.
 
 ---
 

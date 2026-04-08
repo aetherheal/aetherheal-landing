@@ -1,6 +1,6 @@
 ---
 title: "线雕提升：PDO vs. PCL vs. PLLA 对比"
-description: "线雕提升的实际工作原理——PDO、PCL和PLLA线材的生物学机制，各种材料的不同作用，以及如何为您的皮肤选择合适的方案。"
+description: "线雕提升的工作原理——PDO、PCL和PLLA线材的生物学，各材料的差异，以及如何选择。"
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

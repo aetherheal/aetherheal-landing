@@ -1,6 +1,6 @@
 ---
 title: "MCT (MicroCoring): Skin Rejuvenation Without Heat"
-description: "MCT removes micro-columns of skin without heat, tightening from within. No risk of post-inflammatory hyperpigmentation. A physician explains how it works and who it's for."
+description: "MCT removes micro-columns of skin without heat — no risk of hyperpigmentation. A physician explains how it works and who it's for."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
@@ -47,7 +47,7 @@ MCT's mechanism is more direct. Skin is removed; the remaining skin contracts. T
 
 ### 3. It Can Be Combined With Almost Everything
 
-Because MCT doesn't create thermal zones or inflammatory cascades, it doesn't compete with other modalities for the skin's healing resources in the same way. Clinicians are beginning to explore MCT in combination with RF microneedling, PRP, exosome therapy, and topical growth factors — using the micro-channels as drug delivery pathways while simultaneously achieving mechanical skin reduction.
+Because MCT doesn't create thermal zones or inflammatory cascades, it doesn't compete with other modalities for the skin's healing resources in the same way. It can also complement biostimulatory approaches like [thread lifting](/en/blog/thread-lifting-pdo-pcl-plla-guide) or [collagen-stimulating fillers](/en/blog/filler-brands-products-guide). Clinicians are beginning to explore MCT in combination with RF microneedling, PRP, exosome therapy, and topical growth factors — using the micro-channels as drug delivery pathways while simultaneously achieving mechanical skin reduction.
 
 This is early-stage clinical exploration, not established protocol. But the theoretical compatibility is sound, and the initial reports from practitioners running combination protocols are generating interest.
 

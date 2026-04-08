@@ -1,6 +1,6 @@
 ---
 title: "AI为什么无法在医疗领域取代医生"
-description: "问题不在于AI能否取代医生，而在于医生的哪些工作不可委托。一位医生创始人解释AI应当辅助而非替代医生的结构性原因。"
+description: "问题不在于AI能否取代医生，而在于医生的哪些工作不可委托。为什么AI应当辅助而非替代。"
 date: "2026-03-22"
 author: "Dr. Jee Hoon Ju"
 category: "technology"

@@ -1,6 +1,6 @@
 ---
 title: "Thread Lifting: PDO vs. PCL vs. PLLA Compared"
-description: "How thread lifting actually works — the biology of PDO, PCL, and PLLA threads, what each material does differently, and how to choose the right one for your skin."
+description: "How thread lifting works — the biology of PDO, PCL, and PLLA threads, what each does differently, and how to choose."
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
@@ -87,7 +87,7 @@ PLLA is the same material used in Sculptra, one of the most established collagen
 
 Beyond material, threads come in different physical designs:
 
-- **Smooth threads** — No barbs. Placed in the upper skin layers to stimulate collagen and improve skin quality. No significant lifting effect.
+- **Smooth threads** — No barbs. Placed in the upper skin layers to stimulate collagen and improve skin quality. No significant lifting effect. For an alternative approach to collagen stimulation without threads, see [MCT (MicroCoring)](/en/blog/mct-microcoring-skin-rejuvenation).
 - **Mono cog threads** — Barbs in one direction. Placed in the fat layer for moderate lifting.
 - **Bidirectional cog threads** — Barbs in two directions, anchoring from the center outward. Placed deeper (near the SMAS layer) for the strongest lift. Requires the most skill.
 
@@ -159,7 +159,7 @@ Rather than asking "which thread is best?" — ask these questions:
 - Severe laxity → Threads alone may not be enough; surgical options should be discussed
 
 **4. Are you combining with other treatments?**
-- Thread lifting pairs well with HIFU (energy-based tightening), fillers (volume), and botox (muscle relaxation). A skilled physician designs these as a system, not isolated procedures.
+- Thread lifting pairs well with HIFU (energy-based tightening), [fillers](/en/blog/filler-brands-products-guide) (volume), and botox (muscle relaxation). A skilled physician designs these as a system, not isolated procedures.
 
 ---
 
@@ -183,4 +183,4 @@ A physician who answers these clearly — without rushing — is one worth trust
 
 *Dr. Jee Hoon Ju is an American Board of Aesthetic Medicine certified specialist in aesthetic medicine and hair transplantation, with clinical experience in thread lifting, energy-based devices, and injectable treatments.*
 
-**Related reading:** [Dermal Filler Brands Guide](/en/blog/filler-brands-products-guide) — how fillers and threads work together for volume + lift. [MCT: Skin Rejuvenation Without Heat](/en/blog/what-is-mct-microcoring) — a mechanical alternative for skin tightening. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — why Seoul leads in non-surgical aesthetics.
+**Related reading:** [Dermal Filler Brands Guide](/en/blog/filler-brands-products-guide) — how fillers and threads work together for volume + lift. [MCT: Skin Rejuvenation Without Heat](/en/blog/mct-microcoring-skin-rejuvenation) — a mechanical alternative for skin tightening. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — why Seoul leads in non-surgical aesthetics.

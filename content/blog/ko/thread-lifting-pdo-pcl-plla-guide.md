@@ -1,6 +1,6 @@
 ---
 title: "실 리프팅: PDO vs. PCL vs. PLLA 비교"
-description: "실 리프팅의 실제 작동 원리 — PDO, PCL, PLLA 실의 생물학적 메커니즘, 각 소재의 차이점, 그리고 피부에 맞는 실을 선택하는 방법."
+description: "실 리프팅의 작동 원리 — PDO, PCL, PLLA 실의 생물학, 각 소재의 차이점, 그리고 선택하는 방법."
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

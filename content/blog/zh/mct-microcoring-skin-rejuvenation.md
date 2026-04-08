@@ -1,6 +1,6 @@
 ---
 title: "MCT（微取皮技术）：无热量的皮肤年轻化"
-description: "MCT无需热能即可去除皮肤微柱，从内部实现紧致。无炎症后色素沉着风险。专业医生解析其原理及适用人群。"
+description: "MCT无需热能即可去除皮肤微柱——无色素沉着风险。医生解析其原理及适用人群。"
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"

@@ -1,6 +1,6 @@
 ---
 title: "スレッドリフト：PDO vs. PCL vs. PLLA 比較"
-description: "スレッドリフトの実際の仕組み — PDO、PCL、PLLAスレッドの生物学的メカニズム、各素材の違い、そしてあなたの肌に合った選び方。"
+description: "スレッドリフトの仕組み — PDO、PCL、PLLAスレッドの生物学、各素材の違い、そして選び方。"
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

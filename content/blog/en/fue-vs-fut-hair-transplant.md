@@ -81,7 +81,7 @@ If you keep your hair at medium length or longer, FUT's linear scar will be hidd
 
 FUE: back to work in 2–3 days. FUT: plan for 10–14 days of limited activity.
 
-If you're traveling to Korea for the procedure, factor in your total trip duration.
+If you're traveling to [Korea for the procedure](/en/blog/why-korea-for-medical-care), factor in your total trip duration.
 
 ### 4. What is your budget?
 
@@ -115,7 +115,7 @@ Here is what I tell every patient who asks me this question:
 
 **The surgeon matters more than the technique.**
 
-A great surgeon using FUT will deliver better results than a mediocre surgeon using FUE — and vice versa. The method is the tool; the surgeon is the craftsman.
+A great surgeon using FUT will deliver better results than a mediocre surgeon using FUE — and vice versa. The method is the tool; the surgeon is the craftsman. For more on what separates good outcomes from bad ones, read [Why Hair Transplants Fail](/en/blog/why-hair-transplants-fail).
 
 When evaluating a clinic, look for:
 

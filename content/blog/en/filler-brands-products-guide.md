@@ -145,7 +145,7 @@ These are a different category. Instead of filling, they stimulate collagen prod
 | Ellanse | PCL + CMC | Immediate volume + collagen stimulation | 12–48 months |
 | Gouri | PCL | Skin tightening + collagen stimulation | 12–24 months |
 
-**Important:** Non-HA fillers cannot be reversed with hyaluronidase. If complications occur, management is more limited. These products should only be used by experienced practitioners.
+**Important:** Non-HA fillers cannot be reversed with hyaluronidase. If complications occur, management is more limited. These products should only be used by experienced practitioners. Some of these biostimulators share mechanisms with [thread lifting materials like PLLA and PCL](/en/blog/thread-lifting-pdo-pcl-plla-guide) — understanding both helps you evaluate combination treatment plans.
 
 ---
 
@@ -174,7 +174,7 @@ The right product is determined by what the treatment area needs, not by brand l
 
 3. **Multiple products in one session is normal.** A physician might use Voluma for cheeks, Kysse for lips, and Defyne for folds — each optimized for its area.
 
-4. **Korean-made fillers are not inferior.** Many have strong clinical data, international certifications, and are used daily in Korean clinics alongside global brands.
+4. **Korean-made fillers are not inferior.** Many have strong clinical data, international certifications, and are used daily in Korean clinics alongside global brands. Learn more about [why Korea leads in aesthetic medicine](/en/blog/why-korea-for-medical-care).
 
 5. **Non-HA fillers are powerful but less reversible.** Make sure you understand the trade-off before choosing a collagen stimulator.
 
@@ -184,4 +184,4 @@ The right product is determined by what the treatment area needs, not by brand l
 
 *This article is written by a practicing physician for informational purposes. It is not a substitute for medical consultation. Product availability and regulatory status vary by country.*
 
-**Related reading:** [Thread Lifting: PDO vs. PCL vs. PLLA](/en/blog/thread-lifting-pdo-pcl-plla-guide) — another collagen-stimulating approach. [MCT: Skin Rejuvenation Without Heat](/en/blog/what-is-mct-microcoring) — a mechanical alternative to energy-based tightening. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — why Seoul leads in aesthetic medicine.
+**Related reading:** [Thread Lifting: PDO vs. PCL vs. PLLA](/en/blog/thread-lifting-pdo-pcl-plla-guide) — another collagen-stimulating approach. [MCT: Skin Rejuvenation Without Heat](/en/blog/mct-microcoring-skin-rejuvenation) — a mechanical alternative to energy-based tightening. [Why Korea for Medical Care](/en/blog/why-korea-for-medical-care) — why Seoul leads in aesthetic medicine.

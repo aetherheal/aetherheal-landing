@@ -1,6 +1,6 @@
 ---
 title: "Why Hair Transplants Fail: How to Avoid Them"
-description: "Three clinical failures behind most bad hair transplant outcomes — and the exact questions to ask your surgeon. Written by a surgeon who experienced a failed transplant as a patient."
+description: "Three clinical failures behind most bad hair transplant outcomes — and the exact questions to ask your surgeon before booking."
 date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
@@ -84,7 +84,7 @@ Based on what I've described above, here is the practical question set I would u
 ### Before the Consultation
 
 - Is the operating surgeon's full credential history publicly available?
-- Does the clinic perform both FUE and FUT — or only one method? A clinic that only offers one approach may be optimizing for their workflow, not your outcome.
+- Does the clinic perform both [FUE and FUT](/en/blog/fue-vs-fut-hair-transplant) — or only one method? A clinic that only offers one approach may be optimizing for their workflow, not your outcome.
 - Can you speak directly with the surgeon before committing, not just a coordinator?
 
 ### During the Consultation
