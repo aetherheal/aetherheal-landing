@@ -160,6 +160,7 @@ export default async function HomePage({
   }
   const responsibilityLabel = journeySection.uiLabels?.responsibility ?? "Responsibility"
   const thenLabel = journeySection.uiLabels?.then ?? "Then:"
+  const heroBranches = (t.hero as typeof t.hero & { branches?: string[]; branchConclusion?: string })
 
   return (
     <div className="min-h-full">
@@ -198,11 +199,42 @@ export default async function HomePage({
 
             <p className="font-sans text-text-body text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
               {t.hero.description}
-              {t.hero.descriptionHighlight && (<>{" "}<span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">{t.hero.descriptionHighlight}</span>{" "}{t.hero.descriptionEnd}</>)}
+              {t.hero.descriptionHighlight && (<>{" "}<span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">{t.hero.descriptionHighlight}</span></>)}
+              {t.hero.descriptionEnd && (<><br />{t.hero.descriptionEnd}</>)}
             </p>
 
+            {heroBranches.branches && heroBranches.branches.length > 0 && (
+              <div className="w-full max-w-lg mx-auto animate-fade-up [animation-delay:220ms]">
+                <div className="w-px h-5 bg-brand-gold/40 mx-auto" />
+                <div className="relative">
+                  <div className="absolute top-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
+                </div>
+                <div className="grid grid-cols-3 gap-2">
+                  {heroBranches.branches.map((b) => (
+                    <div key={b} className="flex flex-col items-center">
+                      <div className="w-px h-4 bg-brand-gold/40" />
+                      <div className="rounded-lg border border-brand-gold/20 bg-brand-gold/5 px-3 py-2">
+                        <p className="text-xs font-semibold text-brand-navy text-center">{b}</p>
+                      </div>
+                      <div className="w-px h-4 bg-brand-gold/40" />
+                    </div>
+                  ))}
+                </div>
+                <div className="relative">
+                  <div className="absolute bottom-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
+                </div>
+                <div className="w-px h-5 bg-brand-gold/40 mx-auto" />
+                <div className="flex justify-center">
+                  <ArrowRight className="w-4 h-4 text-brand-gold rotate-90" />
+                </div>
+                <p className="text-center font-serif text-base text-brand-gold italic mt-1">
+                  {heroBranches.branchConclusion}
+                </p>
+              </div>
+            )}
+
             <p className="text-sm text-text-muted font-medium tracking-wide animate-fade-up [animation-delay:250ms]">
-              {t.hero.disclaimer}
+              {t.hero.disclaimer}<br />{t.hero.disclaimer2}
             </p>
 
             <div className="w-full pt-4 flex flex-col items-center gap-4 animate-fade-up [animation-delay:300ms]">
@@ -244,11 +276,42 @@ export default async function HomePage({
 
           <p className="font-sans text-text-body text-lg leading-relaxed max-w-2xl mx-auto animate-fade-up [animation-delay:200ms]">
             {t.hero.description}
-            {t.hero.descriptionHighlight && (<>{" "}<span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">{t.hero.descriptionHighlight}</span>{" "}{t.hero.descriptionEnd}</>)}
+            {t.hero.descriptionHighlight && (<>{" "}<span className="font-semibold text-brand-navy border-b-2 border-brand-gold/40">{t.hero.descriptionHighlight}</span></>)}
+            {t.hero.descriptionEnd && (<><br />{t.hero.descriptionEnd}</>)}
           </p>
 
+          {heroBranches.branches && heroBranches.branches.length > 0 && (
+            <div className="w-full max-w-sm mx-auto animate-fade-up [animation-delay:220ms]">
+              <div className="w-px h-4 bg-brand-gold/40 mx-auto" />
+              <div className="relative">
+                <div className="absolute top-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
+              </div>
+              <div className="grid grid-cols-3 gap-1.5">
+                {heroBranches.branches.map((b) => (
+                  <div key={b} className="flex flex-col items-center">
+                    <div className="w-px h-3 bg-brand-gold/40" />
+                    <div className="rounded-lg border border-brand-gold/20 bg-brand-gold/5 px-2 py-1.5">
+                      <p className="text-[10px] font-semibold text-brand-navy text-center leading-tight">{b}</p>
+                    </div>
+                    <div className="w-px h-3 bg-brand-gold/40" />
+                  </div>
+                ))}
+              </div>
+              <div className="relative">
+                <div className="absolute bottom-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
+              </div>
+              <div className="w-px h-4 bg-brand-gold/40 mx-auto" />
+              <div className="flex justify-center">
+                <ArrowRight className="w-3.5 h-3.5 text-brand-gold rotate-90" />
+              </div>
+              <p className="text-center font-serif text-sm text-brand-gold italic mt-1">
+                {heroBranches.branchConclusion}
+              </p>
+            </div>
+          )}
+
           <p className="text-sm text-text-muted font-medium animate-fade-up [animation-delay:250ms]">
-            {t.hero.disclaimer}
+            {t.hero.disclaimer}<br />{t.hero.disclaimer2}
           </p>
 
           <div className="w-full pt-2 flex flex-col items-center gap-3 animate-fade-up [animation-delay:300ms]">
@@ -287,22 +350,19 @@ export default async function HomePage({
       </section>
 
       {/* Problem Quote */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-brand-navy border-b border-slate-200">
         <div className="max-w-5xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-8 md:mb-14">
-            <SectionLabel color="gold" className="mb-4 block">
-              {problemQuoteSection.title ?? "Why patients hesitate"}
-            </SectionLabel>
-            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-4">
+            <h2 className="font-serif text-3xl sm:text-5xl text-white mb-4">
               {problemQuoteSection.title ?? "Why patients hesitate"}
             </h2>
-            <p className="text-text-body text-lg leading-relaxed">
+            <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
               {problemQuoteSection.subtitle ??
                 "Behind every medical tourism search is a patient trying to avoid a decision they may regret for years."}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {problemItems.map((item, i) => {
             const Icon = problemQuoteIcons[i]
             const isLast = i === problemItems.length - 1
@@ -310,27 +370,27 @@ export default async function HomePage({
               <div
                 key={item.title}
                 className={cn(
-                  "rounded-[28px] border p-5 md:p-8 shadow-[0_20px_50px_-16px_rgba(15,23,42,0.08)]",
+                  "rounded-[28px] border p-5 md:p-8",
                   isLast
-                    ? "border-brand-navy bg-brand-navy text-white"
-                    : "border-slate-200 bg-slate-50/50"
+                    ? "border-brand-gold/30 bg-brand-gold/10"
+                    : "border-white/10 bg-white/5 backdrop-blur-sm"
                 )}
               >
                 <div className={cn(
-                  "w-12 h-12 rounded-2xl flex items-center justify-center mb-4 md:mb-6",
-                  isLast ? "bg-brand-gold/10" : "bg-white border border-slate-200"
+                  "w-10 h-10 md:w-12 md:h-12 rounded-2xl flex items-center justify-center mb-4 md:mb-6",
+                  isLast ? "bg-brand-gold/20" : "bg-white/10"
                 )}>
-                  <Icon className={cn("w-5 h-5", isLast ? "text-brand-gold" : "text-brand-navy")} />
+                  <Icon className={cn("w-5 h-5", isLast ? "text-brand-gold" : "text-brand-gold")} />
                 </div>
                 <p className={cn(
-                  "text-[10px] font-bold uppercase tracking-widest mb-3",
-                  isLast ? "text-brand-gold" : "text-text-muted"
+                  "text-[10px] font-bold uppercase tracking-widest mb-2 md:mb-3",
+                  isLast ? "text-brand-gold" : "text-brand-gold/70"
                 )}>
                   {item.title}
                 </p>
                 <p className={cn(
                   "font-serif text-lg md:text-2xl leading-relaxed",
-                  isLast ? "text-white" : "text-brand-navy"
+                  isLast ? "text-white" : "text-white/90"
                 )}>
                   &ldquo;{item.quote}&rdquo;
                 </p>
@@ -341,8 +401,68 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Stakes Comparison */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
+      {/* Mobile: compact journey vertebra */}
+      <section className="md:hidden w-full py-10 px-4 bg-white border-b border-slate-200">
+        <div className="max-w-md mx-auto">
+          <div className="text-center mb-8">
+            <SectionLabel color="gold" className="mb-3 block">
+              {t.journey.sectionLabel}
+            </SectionLabel>
+            <h2 className="font-serif text-2xl text-brand-navy leading-tight">
+              {t.journey.title}{" "}
+              <span className="italic text-brand-gold">{t.journey.titleHighlight}</span>
+            </h2>
+          </div>
+          <div className="relative pl-8">
+            <div className="absolute left-[11px] top-2 bottom-2 w-px bg-brand-gold/40" />
+            {journeySection.steps.map((step, idx) => {
+              const Icon = journeyIcons[idx]
+              const isCenter = journeySides[idx] === "center"
+              return (
+                <div key={step.label} className="relative pb-6 last:pb-0">
+                  <div className={cn(
+                    "absolute left-[-21px] w-6 h-6 rounded-full flex items-center justify-center",
+                    isCenter
+                      ? "bg-brand-navy border border-brand-gold text-brand-gold"
+                      : "bg-white border border-brand-gold text-brand-gold"
+                  )}>
+                    <Icon className="w-3 h-3" />
+                  </div>
+                  <div className={cn(
+                    "rounded-xl px-4 py-3",
+                    isCenter ? "bg-brand-navy" : "bg-slate-50"
+                  )}>
+                    {step.badge && (
+                      <span className={cn(
+                        "text-[9px] font-bold uppercase tracking-widest block mb-1",
+                        isCenter ? "text-brand-gold" : "text-brand-gold"
+                      )}>{step.badge}</span>
+                    )}
+                    <h3 className={cn(
+                      "font-serif text-base leading-snug",
+                      isCenter ? "text-white" : "text-brand-navy"
+                    )}>{step.label}</h3>
+                    {step.owner && (
+                      <p className={cn(
+                        "text-[10px] font-semibold mt-1",
+                        isCenter ? "text-white/70" : "text-text-muted"
+                      )}>{step.owner}</p>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+          <div className="mt-6 text-center">
+            <p className="font-serif text-sm text-brand-gold italic">
+              &ldquo;{t.journey.closingQuote}&rdquo;
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Stakes Comparison — desktop only */}
+      <section className="hidden md:block w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16">
             <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-4">
@@ -448,42 +568,54 @@ export default async function HomePage({
       </section>
 
       {/* Trust Architecture */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200 overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-10 md:mb-16">
             <SectionLabel color="gold" className="mb-4 block">
               {t.aiLayer.badge}
             </SectionLabel>
-            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy leading-tight">
+            <h2 className="font-serif text-3xl sm:text-5xl text-brand-navy leading-tight">
               {t.aiLayer.title}{" "}
               <span className="italic text-brand-gold">{t.aiLayer.titleHighlight}</span>
             </h2>
-            <p className="text-text-body text-lg max-w-2xl mx-auto leading-relaxed mt-4">
+            <p className="text-text-body text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mt-4">
               {t.aiLayer.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 xl:grid-cols-4 gap-3 md:gap-5">
             {t.aiLayer.cards.map((card, idx) => {
               const Icon = trustPillarIcons[idx % trustPillarIcons.length]
+              const pillarColors = [
+                "from-brand-navy to-brand-navy/90",
+                "from-slate-800 to-slate-700",
+                "from-brand-navy/90 to-brand-navy/80",
+                "from-slate-700 to-slate-600",
+              ]
 
               return (
                 <div
                   key={card.title}
-                  className="bg-white border border-slate-200 rounded-3xl p-8 shadow-[0_20px_50px_-16px_rgba(15,23,42,0.08)]"
+                  className={cn(
+                    "relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-gradient-to-br text-white overflow-hidden",
+                    pillarColors[idx % pillarColors.length]
+                  )}
                 >
-                  <div className="w-12 h-12 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-navy mb-6 border border-brand-navy/10">
-                    <Icon className="w-5 h-5" />
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+                  <div className="relative z-10">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-white/10 flex items-center justify-center mb-5 border border-white/10">
+                      <Icon className="w-5 h-5 text-brand-gold" />
+                    </div>
+                    <h3 className="font-serif text-xl sm:text-2xl text-white mb-2 sm:mb-3">{card.title}</h3>
+                    <p className="text-sm text-white/70 leading-relaxed">{card.description}</p>
                   </div>
-                  <h3 className="font-serif text-2xl text-brand-navy mb-3">{card.title}</h3>
-                  <p className="text-sm text-text-body leading-relaxed">{card.description}</p>
                 </div>
               )
             })}
           </div>
 
           <div className="mt-8 text-center">
-            <p className="text-sm text-text-muted italic max-w-3xl mx-auto">{t.aiLayer.footnote}</p>
+            <p className="text-sm font-semibold text-brand-navy italic max-w-3xl mx-auto">{t.aiLayer.footnote}</p>
           </div>
         </div>
       </section>
@@ -655,8 +787,8 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* First 48 Hours + Continuity Monitoring */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+      {/* First 48 Hours + Continuity Monitoring — desktop only */}
+      <section className="hidden md:block w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
         <div className="max-w-6xl mx-auto space-y-8">
           <div className="rounded-[32px] border border-slate-200 bg-white px-6 py-8 sm:px-8 sm:py-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
             <div className="max-w-3xl">

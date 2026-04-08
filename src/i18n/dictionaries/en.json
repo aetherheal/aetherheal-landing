@@ -54,10 +54,13 @@
       "badge": "Verified clinic matching for international patients considering Korea",
       "h1": "The world doesn't lack clinics.",
       "h1Highlight": "It lacks trust.",
-      "description": "Work with our Angel Physicians — they verify the hospitals, lock the pricing, and stay accountable so you don't have to navigate Korea alone.",
+      "description": "Work with our Angel Physicians.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "disclaimer": "Decision support before hospital commitment. Not medical treatment or emergency care.",
+      "branches": ["Verify hospitals", "Medical-grade consult", "Stay accountable"],
+      "branchConclusion": "So you're never alone.",
+      "disclaimer": "Decision support before hospital commitment.",
+      "disclaimer2": "Not medical treatment or emergency care.",
       "openingDate": "Opening September 1, 2026",
       "waitlistButton": "Join the Waitlist",
       "waitlistPlaceholder": "Enter your email",
@@ -397,7 +400,7 @@
     },
     "explore": {
       "badge": "Explore by Topic",
-      "title": "Learn before you choose",
+      "title": "Blogs written by doctors",
       "items": [
         {
           "title": "Hair Transplant in Korea",
