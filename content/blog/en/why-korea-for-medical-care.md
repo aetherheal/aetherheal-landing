@@ -5,7 +5,7 @@ date: "2026-03-09"
 author: "Dr. Jee Hoon Ju"
 category: "insights"
 tags: ["korea", "medical-tourism", "physician-perspective", "seoul", "medical-tourism-cost", "international-patients", "hospital-comparison"]
-coverImage: ""
+coverImage: "/assets/blog/why-korea-cover.png"
 published: true
 ---
 

@@ -5,7 +5,7 @@ date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
 tags: ["thread-lifting", "PDO", "PCL", "PLLA", "skin-lifting", "collagen", "korea", "non-surgical"]
-coverImage: ""
+coverImage: "/assets/blog/thread-lifting-cover.png"
 published: true
 ---
 

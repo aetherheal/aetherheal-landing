@@ -5,7 +5,7 @@ date: "2026-03-22"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
 tags: ["AI in healthcare", "AI replace doctors", "physician AI", "medical AI", "agentic AI", "healthcare technology", "medical decision making", "AI limitations", "patient safety"]
-coverImage: ""
+coverImage: "/assets/blog/ai-physicians-cover.png"
 published: true
 ---
 
