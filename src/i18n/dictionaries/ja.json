@@ -54,11 +54,15 @@
       "badge": "韓国でのプレミアム医療のための<br class=\"block sm:hidden\" />医師主導、AI支援の意思決定インフラストラクチャ",
       "h1": "明確に決める",
       "h1Highlight": "病院を選ぶ前に",
-      "description": "医師主導、AI支援の意思決定インフラストラクチャ",
-      "descriptionHighlight": "before",
-      "descriptionEnd": "韓国での病院選択、ジャーニー実行、継続性計画の前に。",
+      "description": "Angel Physicianと共に — 病院を検証し、価格を固定し、責任を明確にすることで、韓国の医療を一人で迷う必要はありません。",
+      "descriptionHighlight": "",
+      "descriptionEnd": "",
       "disclaimer": "AIがプロセスを支援します。医師が権限を保持します。診断なし。治療なし。",
-      "ctaHowItWorks": "仕組みを見る",
+      "openingDate": "2026年9月1日オープン",
+      "waitlistButton": "ウェイトリストに参加",
+      "waitlistPlaceholder": "メールアドレスを入力",
+      "waitlistSuccess": "登録完了！ご連絡いたします。",
+      "waitlistDuplicate": "既に登録されています！",
       "ctaExplore": "探索を始める"
     },
     "problemQuote": {
@@ -432,7 +436,11 @@
     "cta": {
       "title": "決断前の自信",
       "subtitle": "いかなる病院のパスにコミットする前に、医師主導、AI支援のプロセスをご覧ください。",
-      "ctaHowItWorks": "仕組み",
+      "openingDate": "2026年9月1日オープン",
+      "waitlistButton": "ウェイトリストに参加",
+      "waitlistPlaceholder": "メールアドレスを入力",
+      "waitlistSuccess": "登録完了！ご連絡いたします。",
+      "waitlistDuplicate": "既に登録されています！",
       "ctaExplore": "探索を始める",
       "signature": "Dr. Jee Hoon Ju"
     }

@@ -54,11 +54,15 @@
       "badge": "Verified clinic matching for international patients considering Korea",
       "h1": "You are not short of clinics.",
       "h1Highlight": "You are short of trust.",
-      "description": "AetherHeal helps you choose care in Korea through a physician-led trust system: verified hospitals, flat-fee navigation, and visible accountability before you commit.",
+      "description": "Work with our Angel Physicians — they verify the hospitals, lock the pricing, and stay accountable so you don't have to navigate Korea alone.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
       "disclaimer": "Decision support before hospital commitment. Not medical treatment or emergency care.",
-      "ctaHowItWorks": "Start your intake",
+      "openingDate": "Opening September 1, 2026",
+      "waitlistButton": "Join the Waitlist",
+      "waitlistPlaceholder": "Enter your email",
+      "waitlistSuccess": "You're on the list! We'll be in touch.",
+      "waitlistDuplicate": "You're already on the list!",
       "ctaExplore": "See how trust works"
     },
     "problemQuote": {
@@ -424,7 +428,11 @@
     "cta": {
       "title": "Clarity before commitment",
       "subtitle": "If you are considering care in Korea, start with a process designed to protect your decision before anyone tries to close it.",
-      "ctaHowItWorks": "Start your intake",
+      "openingDate": "Opening September 1, 2026",
+      "waitlistButton": "Join the Waitlist",
+      "waitlistPlaceholder": "Enter your email",
+      "waitlistSuccess": "You're on the list! We'll be in touch.",
+      "waitlistDuplicate": "You're already on the list!",
       "ctaExplore": "See how trust works",
       "signature": "Dr. Jee Hoon Ju"
     }

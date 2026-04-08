@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Building2, TrendingUp, BookOpen, ShieldCheck, Bot, Users } from "lucide-react"
+import { WaitlistForm } from "@/components/landing/waitlist-form"
 import type { Dictionary } from "@/i18n/get-dictionary"
 
 interface KoLandingProps {
@@ -12,6 +13,7 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
   const prefix = `/${locale}`
   const t = dict.koLanding
   const arch = t.architecture
+  const waitlist = (t as typeof t & { waitlist?: { title?: string; openingDate?: string; waitlistButton?: string; waitlistPlaceholder?: string; waitlistSuccess?: string; waitlistDuplicate?: string } }).waitlist
 
   return (
     <div className="min-h-full">
@@ -129,6 +131,24 @@ export function KoLanding({ dict, locale }: KoLandingProps) {
             {t.philosophy.cta}
             <ArrowRight className="w-4 h-4" />
           </Link>
+        </div>
+      </section>
+
+      <section className="w-full py-16 sm:py-20 px-4 sm:px-6 bg-bg-light border-t border-slate-100">
+        <div className="max-w-2xl mx-auto text-center space-y-6">
+          <h2 className="font-serif text-2xl sm:text-3xl text-brand-navy break-keep">
+            {waitlist?.title ?? "사전 등록 안내"}
+          </h2>
+          <p className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-sm font-semibold text-brand-gold">
+            {waitlist?.openingDate ?? "2026년 9월 1일 정식 오픈"}
+          </p>
+          <WaitlistForm
+            placeholder={waitlist?.waitlistPlaceholder ?? "이메일을 입력하세요"}
+            buttonLabel={waitlist?.waitlistButton ?? "대기자 명단 등록"}
+            successMessage={waitlist?.waitlistSuccess ?? "등록되었습니다! 곧 연락드리겠습니다."}
+            duplicateMessage={waitlist?.waitlistDuplicate ?? "이미 등록되어 있습니다!"}
+            locale={locale}
+          />
         </div>
       </section>
 

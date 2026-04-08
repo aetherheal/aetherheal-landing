@@ -54,11 +54,15 @@
       "badge": "面向韩国高端医疗的<br class=\"block sm:hidden\" />医师主导、AI辅助决策基础设施",
       "h1": "清晰决策",
       "h1Highlight": "在选择医院之前",
-      "description": "医师主导、AI辅助决策基础设施",
-      "descriptionHighlight": "在",
-      "descriptionEnd": "韩国的医院选择、旅程执行和连续性规划。",
+      "description": "与我们的 Angel Physician 合作 — 他们验证医院、锁定价格、承担责任，让您无需独自面对韩国医疗。",
+      "descriptionHighlight": "",
+      "descriptionEnd": "",
       "disclaimer": "AI辅助流程。医师保留权限。不提供诊断。不提供治疗。",
-      "ctaHowItWorks": "了解运作方式",
+      "openingDate": "2026年9月1日正式开放",
+      "waitlistButton": "加入候补名单",
+      "waitlistPlaceholder": "输入您的邮箱",
+      "waitlistSuccess": "您已加入名单！我们会尽快联系您。",
+      "waitlistDuplicate": "您已在名单中！",
       "ctaExplore": "开始探索"
     },
     "problemQuote": {
@@ -432,7 +436,11 @@
     "cta": {
       "title": "承诺之前先建立信心",
       "subtitle": "在承诺任何医院路径之前，先了解医师主导、AI辅助的流程。",
-      "ctaHowItWorks": "运作方式",
+      "openingDate": "2026年9月1日正式开放",
+      "waitlistButton": "加入候补名单",
+      "waitlistPlaceholder": "输入您的邮箱",
+      "waitlistSuccess": "您已加入名单！我们会尽快联系您。",
+      "waitlistDuplicate": "您已在名单中！",
       "ctaExplore": "开始探索",
       "signature": "Dr. Jee Hoon Ju"
     }

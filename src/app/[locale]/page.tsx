@@ -23,6 +23,7 @@ import { Button } from "@/components/ui/button"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Accordion } from "@/components/ui/accordion"
 import { MobileDisclosure } from "@/components/landing/mobile-disclosure"
+import { WaitlistForm } from "@/components/landing/waitlist-form"
 import { cn } from "@/lib/utils"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
@@ -204,12 +205,17 @@ export default async function HomePage({
               {t.hero.disclaimer}
             </p>
 
-            <div className="w-full pt-4 flex flex-row items-center justify-center gap-4 animate-fade-up [animation-delay:300ms]">
-              <Link href={`${prefix}/intake`}>
-                <Button variant="navy" size="lg" className="min-w-[200px]">
-                  {t.hero.ctaHowItWorks}
-                </Button>
-              </Link>
+            <div className="w-full pt-4 flex flex-col items-center gap-4 animate-fade-up [animation-delay:300ms]">
+              <p className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-sm font-semibold text-brand-gold">
+                {t.hero.openingDate}
+              </p>
+              <WaitlistForm
+                placeholder={t.hero.waitlistPlaceholder}
+                buttonLabel={t.hero.waitlistButton}
+                successMessage={t.hero.waitlistSuccess}
+                duplicateMessage={t.hero.waitlistDuplicate}
+                locale={locale}
+              />
               <Link href={`${prefix}/how-it-works`}>
                 <Button variant="outline" size="lg" className="min-w-[200px]">
                   {t.hero.ctaExplore}
@@ -245,12 +251,17 @@ export default async function HomePage({
             {t.hero.disclaimer}
           </p>
 
-          <div className="w-full pt-2 flex flex-col items-center justify-center gap-3 animate-fade-up [animation-delay:300ms]">
-            <Link href={`${prefix}/intake`}>
-              <Button variant="navy" size="lg" className="w-full min-w-[200px]">
-                {t.hero.ctaHowItWorks}
-              </Button>
-            </Link>
+          <div className="w-full pt-2 flex flex-col items-center gap-3 animate-fade-up [animation-delay:300ms]">
+            <p className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-sm font-semibold text-brand-gold">
+              {t.hero.openingDate}
+            </p>
+            <WaitlistForm
+              placeholder={t.hero.waitlistPlaceholder}
+              buttonLabel={t.hero.waitlistButton}
+              successMessage={t.hero.waitlistSuccess}
+              duplicateMessage={t.hero.waitlistDuplicate}
+              locale={locale}
+            />
             <Link href={`${prefix}/how-it-works`}>
               <Button variant="outline" size="lg" className="w-full min-w-[200px]">
                 {t.hero.ctaExplore}
@@ -948,8 +959,18 @@ export default async function HomePage({
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy">{t.cta.title}</h2>
           <p className="text-text-body max-w-xl mx-auto leading-relaxed">{t.cta.subtitle}</p>
-          <Link href={`${prefix}/intake`}>
-            <Button variant="navy" size="lg" className="min-w-[200px]">{t.cta.ctaHowItWorks}</Button>
+          <p className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-brand-gold/30 bg-brand-gold/5 text-sm font-semibold text-brand-gold">
+            {t.cta.openingDate}
+          </p>
+          <WaitlistForm
+            placeholder={t.cta.waitlistPlaceholder}
+            buttonLabel={t.cta.waitlistButton}
+            successMessage={t.cta.waitlistSuccess}
+            duplicateMessage={t.cta.waitlistDuplicate}
+            locale={locale}
+          />
+          <Link href={`${prefix}/how-it-works`} className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors">
+            {t.cta.ctaExplore} <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
       </section>

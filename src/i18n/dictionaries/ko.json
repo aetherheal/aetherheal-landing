@@ -71,11 +71,15 @@
       "badge": "한국 의료를 고려하는 해외 환자를 위한 검증된 병원 매칭",
       "h1": "병원이 부족한 게 아닙니다.",
       "h1Highlight": "신뢰가 부족합니다.",
-      "description": "에테르힐은 의사 주도 신뢰 시스템으로 한국 의료 선택을 돕습니다. 검증된 병원, 정액 수수료, 결정 전 가시적 책임 구조.",
+      "description": "에테르힐의 Angel Physician과 함께하세요 — 병원을 검증하고, 가격을 확정하고, 책임 소재를 명확히 하여 혼자 한국 의료를 헤매지 않도록 합니다.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
       "disclaimer": "병원 결정 전 의사결정 지원. 직접 치료나 응급 의료 아님.",
-      "ctaHowItWorks": "상담 시작하기",
+      "openingDate": "2026년 9월 1일 오픈",
+      "waitlistButton": "대기자 명단 등록",
+      "waitlistPlaceholder": "이메일을 입력하세요",
+      "waitlistSuccess": "등록되었습니다! 곧 연락드리겠습니다.",
+      "waitlistDuplicate": "이미 등록되어 있습니다!",
       "ctaExplore": "신뢰 구조 보기"
     },
     "problemQuote": {
@@ -441,7 +445,11 @@
     "cta": {
       "title": "결정 전 명확성",
       "subtitle": "한국 의료를 고려하고 있다면, 누군가 결정을 닫으려 하기 전에 당신의 결정을 보호하도록 설계된 프로세스에서 시작하세요.",
-      "ctaHowItWorks": "상담 시작하기",
+      "openingDate": "2026년 9월 1일 오픈",
+      "waitlistButton": "대기자 명단 등록",
+      "waitlistPlaceholder": "이메일을 입력하세요",
+      "waitlistSuccess": "등록되었습니다! 곧 연락드리겠습니다.",
+      "waitlistDuplicate": "이미 등록되어 있습니다!",
       "ctaExplore": "신뢰 구조 보기",
       "signature": "Dr. Jee Hoon Ju"
     }
@@ -493,6 +501,14 @@
     "englishSite": {
       "label": "영문 환자용 사이트를 방문하시려면",
       "cta": "에테르힐 영문 사이트 바로가기"
+    },
+    "waitlist": {
+      "title": "사전 등록 안내",
+      "openingDate": "2026년 9월 1일 정식 오픈",
+      "waitlistButton": "대기자 명단 등록",
+      "waitlistPlaceholder": "이메일을 입력하세요",
+      "waitlistSuccess": "등록되었습니다! 곧 연락드리겠습니다.",
+      "waitlistDuplicate": "이미 등록되어 있습니다!"
     }
   },
   "forPartners": {
