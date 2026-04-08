@@ -24,6 +24,7 @@ import { SectionLabel } from "@/components/ui/section-label"
 import { Accordion } from "@/components/ui/accordion"
 import { MobileDisclosure } from "@/components/landing/mobile-disclosure"
 import { WaitlistForm } from "@/components/landing/waitlist-form"
+import { ScrollSlideSection } from "@/components/landing/scroll-slide-section"
 import { cn } from "@/lib/utils"
 import { type Locale } from "@/i18n/config"
 import { getDictionary } from "@/i18n/get-dictionary"
@@ -205,27 +206,31 @@ export default async function HomePage({
 
             {heroBranches.branches && heroBranches.branches.length > 0 && (
               <div className="w-full max-w-lg mx-auto animate-fade-up [animation-delay:220ms]">
-                <div className="w-px h-5 bg-brand-gold/40 mx-auto" />
-                <div className="relative">
-                  <div className="absolute top-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
-                </div>
-                <div className="grid grid-cols-3 gap-2">
-                  {heroBranches.branches.map((b) => (
+                <div className="w-px h-6 bg-brand-gold/40 mx-auto" />
+                <div className="grid grid-cols-3">
+                  {heroBranches.branches.map((b, i) => (
                     <div key={b} className="flex flex-col items-center">
-                      <div className="w-px h-4 bg-brand-gold/40" />
+                      <div className="w-full flex items-stretch h-px">
+                        <div className={cn("flex-1 border-b border-brand-gold/40", i === 0 && "border-b-0")} />
+                        <div className="w-px bg-brand-gold/40" />
+                        <div className={cn("flex-1 border-b border-brand-gold/40", i === heroBranches.branches.length - 1 && "border-b-0")} />
+                      </div>
+                      <div className="w-px h-3 bg-brand-gold/40" />
                       <div className="rounded-lg border border-brand-gold/20 bg-brand-gold/5 px-3 py-2">
                         <p className="text-xs font-semibold text-brand-navy text-center">{b}</p>
                       </div>
-                      <div className="w-px h-4 bg-brand-gold/40" />
+                      <div className="w-px h-3 bg-brand-gold/40" />
+                      <div className="w-full flex items-stretch h-px">
+                        <div className={cn("flex-1 border-b border-brand-gold/40", i === 0 && "border-b-0")} />
+                        <div className="w-px bg-brand-gold/40" />
+                        <div className={cn("flex-1 border-b border-brand-gold/40", i === heroBranches.branches.length - 1 && "border-b-0")} />
+                      </div>
                     </div>
                   ))}
                 </div>
-                <div className="relative">
-                  <div className="absolute bottom-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
-                </div>
-                <div className="w-px h-5 bg-brand-gold/40 mx-auto" />
+                <div className="w-px h-6 bg-brand-gold/40 mx-auto" />
                 <div className="flex justify-center">
-                  <ArrowRight className="w-4 h-4 text-brand-gold rotate-90" />
+                  <ArrowRight className="w-4 h-4 text-brand-gold rotate-90 -mt-1" />
                 </div>
                 <p className="text-center font-serif text-base text-brand-gold italic mt-1">
                   {heroBranches.branchConclusion}
@@ -282,27 +287,31 @@ export default async function HomePage({
 
           {heroBranches.branches && heroBranches.branches.length > 0 && (
             <div className="w-full max-w-sm mx-auto animate-fade-up [animation-delay:220ms]">
-              <div className="w-px h-4 bg-brand-gold/40 mx-auto" />
-              <div className="relative">
-                <div className="absolute top-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
-              </div>
-              <div className="grid grid-cols-3 gap-1.5">
-                {heroBranches.branches.map((b) => (
+              <div className="w-px h-5 bg-brand-gold/40 mx-auto" />
+              <div className="grid grid-cols-3">
+                {heroBranches.branches.map((b, i) => (
                   <div key={b} className="flex flex-col items-center">
-                    <div className="w-px h-3 bg-brand-gold/40" />
+                    <div className="w-full flex items-stretch h-px">
+                      <div className={cn("flex-1 border-b border-brand-gold/40", i === 0 && "border-b-0")} />
+                      <div className="w-px bg-brand-gold/40" />
+                      <div className={cn("flex-1 border-b border-brand-gold/40", i === heroBranches.branches.length - 1 && "border-b-0")} />
+                    </div>
+                    <div className="w-px h-2.5 bg-brand-gold/40" />
                     <div className="rounded-lg border border-brand-gold/20 bg-brand-gold/5 px-2 py-1.5">
                       <p className="text-[10px] font-semibold text-brand-navy text-center leading-tight">{b}</p>
                     </div>
-                    <div className="w-px h-3 bg-brand-gold/40" />
+                    <div className="w-px h-2.5 bg-brand-gold/40" />
+                    <div className="w-full flex items-stretch h-px">
+                      <div className={cn("flex-1 border-b border-brand-gold/40", i === 0 && "border-b-0")} />
+                      <div className="w-px bg-brand-gold/40" />
+                      <div className={cn("flex-1 border-b border-brand-gold/40", i === heroBranches.branches.length - 1 && "border-b-0")} />
+                    </div>
                   </div>
                 ))}
               </div>
-              <div className="relative">
-                <div className="absolute bottom-0 left-[16.67%] right-[16.67%] h-px bg-brand-gold/40" />
-              </div>
-              <div className="w-px h-4 bg-brand-gold/40 mx-auto" />
+              <div className="w-px h-5 bg-brand-gold/40 mx-auto" />
               <div className="flex justify-center">
-                <ArrowRight className="w-3.5 h-3.5 text-brand-gold rotate-90" />
+                <ArrowRight className="w-3.5 h-3.5 text-brand-gold rotate-90 -mt-1" />
               </div>
               <p className="text-center font-serif text-sm text-brand-gold italic mt-1">
                 {heroBranches.branchConclusion}
@@ -349,20 +358,124 @@ export default async function HomePage({
         </video>
       </section>
 
-      {/* Problem Quote */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-brand-navy border-b border-slate-200">
+      {/* Desktop: Sticky scroll slide — Problem Quote → Trust Architecture */}
+      <ScrollSlideSection
+        panelA={
+          <div className="w-full px-6">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center max-w-3xl mx-auto mb-14">
+                <h2 className="font-serif text-5xl text-white mb-4">
+                  {problemQuoteSection.title ?? "Why patients hesitate"}
+                </h2>
+                <p className="text-slate-300 text-lg leading-relaxed">
+                  {problemQuoteSection.subtitle ??
+                    "Behind every medical tourism search is a patient trying to avoid a decision they may regret for years."}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-3 gap-6">
+              {problemItems.map((item, i) => {
+                const Icon = problemQuoteIcons[i]
+                const isLast = i === problemItems.length - 1
+                return (
+                  <div
+                    key={item.title}
+                    className={cn(
+                      "rounded-[28px] border p-8",
+                      isLast
+                        ? "border-brand-gold/30 bg-brand-gold/10"
+                        : "border-white/10 bg-white/5 backdrop-blur-sm"
+                    )}
+                  >
+                    <div className={cn(
+                      "w-12 h-12 rounded-2xl flex items-center justify-center mb-6",
+                      isLast ? "bg-brand-gold/20" : "bg-white/10"
+                    )}>
+                      <Icon className="w-5 h-5 text-brand-gold" />
+                    </div>
+                    <p className={cn(
+                      "text-[10px] font-bold uppercase tracking-widest mb-3",
+                      isLast ? "text-brand-gold" : "text-brand-gold/70"
+                    )}>
+                      {item.title}
+                    </p>
+                    <p className={cn(
+                      "font-serif text-2xl leading-relaxed",
+                      isLast ? "text-white" : "text-white/90"
+                    )}>
+                      &ldquo;{item.quote}&rdquo;
+                    </p>
+                  </div>
+                )
+              })}
+              </div>
+            </div>
+          </div>
+        }
+        panelB={
+          <div className="w-full px-6 relative h-full">
+            <div className="max-w-6xl mx-auto flex flex-col items-center justify-center h-full">
+              <div className="max-w-3xl mx-auto text-center mb-20">
+                <SectionLabel color="gold" className="mb-4 block">
+                  {t.aiLayer.badge}
+                </SectionLabel>
+                <h2 className="font-serif text-5xl text-white leading-tight">
+                  {t.aiLayer.title}{" "}
+                  <span className="italic text-brand-gold">{t.aiLayer.titleHighlight}</span>
+                </h2>
+                <p className="text-slate-400 text-lg max-w-2xl mx-auto leading-relaxed mt-5">
+                  {t.aiLayer.subtitle}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-4 gap-6">
+                {t.aiLayer.cards.map((card, idx) => {
+                  const Icon = trustPillarIcons[idx % trustPillarIcons.length]
+                  return (
+                    <div
+                      key={card.title}
+                      className="group relative rounded-3xl p-8 bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm overflow-hidden transition-all duration-500 hover:bg-white/[0.08] hover:border-brand-gold/20"
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-br from-brand-gold/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                      <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-brand-gold/[0.04] rounded-full blur-2xl group-hover:bg-brand-gold/[0.08] transition-all duration-700" />
+                      <div className="relative z-10">
+                        <div className="w-13 h-13 rounded-xl bg-brand-gold/10 flex items-center justify-center mb-6 border border-brand-gold/15 group-hover:border-brand-gold/30 transition-colors duration-500">
+                          <Icon className="w-5 h-5 text-brand-gold" />
+                        </div>
+                        <h3 className="font-serif text-2xl text-white mb-4 leading-snug">{card.title}</h3>
+                        <p className="text-sm text-white/50 leading-relaxed group-hover:text-white/70 transition-colors duration-500">{card.description}</p>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+
+              <div className="mt-12 text-center">
+                <div className="inline-flex items-center gap-3">
+                  <div className="w-8 h-px bg-brand-gold/30" />
+                  <p className="text-sm font-medium text-brand-gold/80 italic tracking-wide">{t.aiLayer.footnote}</p>
+                  <div className="w-8 h-px bg-brand-gold/30" />
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      />
+
+      {/* Mobile: Problem Quote */}
+      <section className="md:hidden w-full py-12 px-4 bg-brand-navy">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-8 md:mb-14">
-            <h2 className="font-serif text-3xl sm:text-5xl text-white mb-4">
+          <div className="text-center max-w-3xl mx-auto mb-8">
+            <h2 className="font-serif text-3xl text-white mb-4">
               {problemQuoteSection.title ?? "Why patients hesitate"}
             </h2>
-            <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
+            <p className="text-slate-300 text-base leading-relaxed">
               {problemQuoteSection.subtitle ??
                 "Behind every medical tourism search is a patient trying to avoid a decision they may regret for years."}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+          <div className="grid grid-cols-1 gap-4">
           {problemItems.map((item, i) => {
             const Icon = problemQuoteIcons[i]
             const isLast = i === problemItems.length - 1
@@ -370,26 +483,26 @@ export default async function HomePage({
               <div
                 key={item.title}
                 className={cn(
-                  "rounded-[28px] border p-5 md:p-8",
+                  "rounded-[28px] border p-5",
                   isLast
                     ? "border-brand-gold/30 bg-brand-gold/10"
                     : "border-white/10 bg-white/5 backdrop-blur-sm"
                 )}
               >
                 <div className={cn(
-                  "w-10 h-10 md:w-12 md:h-12 rounded-2xl flex items-center justify-center mb-4 md:mb-6",
+                  "w-10 h-10 rounded-2xl flex items-center justify-center mb-4",
                   isLast ? "bg-brand-gold/20" : "bg-white/10"
                 )}>
-                  <Icon className={cn("w-5 h-5", isLast ? "text-brand-gold" : "text-brand-gold")} />
+                  <Icon className="w-5 h-5 text-brand-gold" />
                 </div>
                 <p className={cn(
-                  "text-[10px] font-bold uppercase tracking-widest mb-2 md:mb-3",
+                  "text-[10px] font-bold uppercase tracking-widest mb-2",
                   isLast ? "text-brand-gold" : "text-brand-gold/70"
                 )}>
                   {item.title}
                 </p>
                 <p className={cn(
-                  "font-serif text-lg md:text-2xl leading-relaxed",
+                  "font-serif text-lg leading-relaxed",
                   isLast ? "text-white" : "text-white/90"
                 )}>
                   &ldquo;{item.quote}&rdquo;
@@ -461,153 +574,37 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Stakes Comparison — desktop only */}
-      <section className="hidden md:block w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-10 md:mb-16">
-            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-4">
-              {t.stakes.title}
-            </h2>
-            <p className="text-text-body text-lg max-w-2xl mx-auto leading-relaxed">
-              {t.stakes.subtitle}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-[1fr_auto] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(15,23,42,0.15)] border border-slate-200 relative">
-            {/* Desktop Backgrounds */}
-            <div className="hidden md:block absolute inset-y-0 left-0 w-1/2 bg-slate-50 z-0"></div>
-            <div className="hidden md:block absolute inset-y-0 right-0 w-1/2 bg-brand-navy z-0 overflow-hidden">
-              <div className="absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
-            </div>
-
-            {/* Left Top */}
-            <div className="bg-slate-50 md:bg-transparent p-6 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-1">
-              <div>
-                <span className="inline-block px-4 py-1.5 rounded-full bg-slate-200/70 text-text-muted text-[10px] font-bold uppercase tracking-widest mb-10">
-                  {t.stakes.lowStake.label}
-                </span>
-                <ul className="space-y-6">
-                  {t.stakes.lowStake.items.map((item) => (
-                    <li key={item} className="flex items-center gap-4 text-text-body font-medium text-lg">
-                      <div className="w-2 h-2 rounded-full bg-slate-300 shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            {/* Left Bottom */}
-            <div className="bg-slate-50 md:bg-transparent p-6 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-2 md:order-3">
-              <div className="pt-8 border-t border-slate-200 h-full">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-3">
-                  {t.stakes.lowStake.consequenceLabel}
-                </p>
-                <p className="font-serif text-3xl sm:text-4xl italic text-slate-400 mb-5">
-                  {t.stakes.lowStake.consequence}
-                </p>
-                <div className="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-xs text-text-muted font-bold tracking-wide">
-                  {t.stakes.lowStake.principle}
-                </div>
-              </div>
-            </div>
-
-            {/* Right Top */}
-            <div className="bg-brand-navy md:bg-transparent p-6 md:p-14 lg:p-16 md:pb-12 lg:pb-16 flex flex-col relative z-10 order-3 md:order-2 overflow-hidden md:overflow-visible">
-              <div className="md:hidden absolute top-0 right-0 w-80 h-80 bg-brand-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-0" />
-              <div className="relative z-10">
-                <div className="flex flex-wrap items-start gap-3 mb-10">
-                  <span className="inline-flex items-center self-start px-4 py-1.5 rounded-full bg-brand-gold/10 text-brand-gold text-[10px] leading-none font-bold uppercase tracking-widest border border-brand-gold/20">
-                    {t.stakes.highStake.label}
-                  </span>
-                  <span className="inline-flex items-center self-start gap-2 text-[10px] leading-none font-bold uppercase tracking-widest text-red-400 animate-pulse bg-red-500/10 px-3 py-1.5 rounded-full border border-red-500/20">
-                    <span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>
-                    {t.stakes.highStake.critical}
-                  </span>
-                </div>
-                <ul className="space-y-6 mb-8">
-                  {t.stakes.highStake.items.map((item) => (
-                    <li key={item} className="flex items-center gap-4 text-slate-300 font-medium text-lg opacity-60">
-                      <div className="w-2 h-2 rounded-full bg-slate-600 shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-                <div className="relative">
-                  <div className="absolute inset-0 bg-brand-gold/20 blur-xl rounded-2xl" />
-                  <div className="relative bg-white/5 border border-brand-gold/30 rounded-2xl p-6 sm:p-8 backdrop-blur-sm">
-                    <p className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
-                      {t.stakes.highStake.medicine}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Bottom */}
-            <div className="bg-brand-navy md:bg-transparent p-6 md:p-14 lg:p-16 pt-0 md:pt-0 lg:pt-0 relative z-10 order-4 md:order-4 overflow-hidden md:overflow-visible">
-              <div className="pt-8 border-t border-white/10 relative z-10 h-full">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-red-400 mb-3">
-                  {t.stakes.highStake.consequenceLabel}
-                </p>
-                <p className="font-serif text-3xl sm:text-4xl italic text-white mb-5">
-                  {t.stakes.highStake.consequence}
-                </p>
-                <div className="inline-flex items-center px-4 py-2 bg-red-500/10 border border-red-500/20 rounded-lg text-xs text-red-300 font-bold tracking-widest">
-                  {t.stakes.highStake.principle}
-                </div>
-                {t.stakes.highStake.structuralNote && (
-                  <p className="hidden md:block mt-6 text-sm text-slate-400 leading-relaxed max-w-md italic">
-                    {t.stakes.highStake.structuralNote}
-                  </p>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Architecture */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-white border-b border-slate-200 overflow-hidden">
-        <div className="max-w-6xl mx-auto">
-          <div className="max-w-3xl mx-auto text-center mb-10 md:mb-16">
+      {/* Mobile: Trust Architecture */}
+      <section className="md:hidden w-full py-12 px-4 bg-brand-navy overflow-hidden relative">
+        <div className="max-w-6xl mx-auto relative z-10">
+          <div className="max-w-3xl mx-auto text-center mb-14">
             <SectionLabel color="gold" className="mb-4 block">
               {t.aiLayer.badge}
             </SectionLabel>
-            <h2 className="font-serif text-3xl sm:text-5xl text-brand-navy leading-tight">
+            <h2 className="font-serif text-3xl text-white leading-tight">
               {t.aiLayer.title}{" "}
               <span className="italic text-brand-gold">{t.aiLayer.titleHighlight}</span>
             </h2>
-            <p className="text-text-body text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mt-4">
+            <p className="text-slate-400 text-base max-w-2xl mx-auto leading-relaxed mt-4">
               {t.aiLayer.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-2 xl:grid-cols-4 gap-3 md:gap-5">
+          <div className="grid grid-cols-2 gap-3">
             {t.aiLayer.cards.map((card, idx) => {
               const Icon = trustPillarIcons[idx % trustPillarIcons.length]
-              const pillarColors = [
-                "from-brand-navy to-brand-navy/90",
-                "from-slate-800 to-slate-700",
-                "from-brand-navy/90 to-brand-navy/80",
-                "from-slate-700 to-slate-600",
-              ]
-
               return (
                 <div
                   key={card.title}
-                  className={cn(
-                    "relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-gradient-to-br text-white overflow-hidden",
-                    pillarColors[idx % pillarColors.length]
-                  )}
+                  className="group relative rounded-2xl p-6 bg-white/[0.04] border border-white/[0.08] backdrop-blur-sm overflow-hidden"
                 >
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+                  <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-brand-gold/[0.04] rounded-full blur-2xl" />
                   <div className="relative z-10">
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-white/10 flex items-center justify-center mb-5 border border-white/10">
+                    <div className="w-11 h-11 rounded-xl bg-brand-gold/10 flex items-center justify-center mb-5 border border-brand-gold/15">
                       <Icon className="w-5 h-5 text-brand-gold" />
                     </div>
-                    <h3 className="font-serif text-xl sm:text-2xl text-white mb-2 sm:mb-3">{card.title}</h3>
-                    <p className="text-sm text-white/70 leading-relaxed">{card.description}</p>
+                    <h3 className="font-serif text-lg text-white mb-2 leading-snug">{card.title}</h3>
+                    <p className="text-sm text-white/50 leading-relaxed">{card.description}</p>
                   </div>
                 </div>
               )
@@ -615,7 +612,7 @@ export default async function HomePage({
           </div>
 
           <div className="mt-8 text-center">
-            <p className="text-sm font-semibold text-brand-navy italic max-w-3xl mx-auto">{t.aiLayer.footnote}</p>
+            <p className="text-sm font-medium text-brand-gold/80 italic tracking-wide">{t.aiLayer.footnote}</p>
           </div>
         </div>
       </section>
