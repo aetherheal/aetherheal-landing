@@ -18,6 +18,12 @@ import {
   Sparkles,
   Eye,
   Heart,
+  Syringe,
+  Brain,
+  Dna,
+  Activity,
+  ScanLine,
+  type LucideIcon,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SectionLabel } from "@/components/ui/section-label"
@@ -83,6 +89,11 @@ const continuityPillClasses = [
 const continuityArrowClasses = [
   "text-white/20",
   "text-brand-gold/50",
+]
+
+const coverageIcons: LucideIcon[] = [
+  Scissors, Sparkles, Stethoscope, Building2, Eye,
+  Heart, Dna, Syringe, Brain, Activity, ScanLine,
 ]
 
 const exploreHrefs = [
@@ -1025,6 +1036,37 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+
+      {/* Coverage — Static Grid */}
+      {(t as typeof t & { coverage?: { badge: string; title: string; subtitle?: string; items: string[] } }).coverage && (() => {
+        const coverage = (t as typeof t & { coverage: { badge: string; title: string; subtitle?: string; items: string[] } }).coverage
+        return (
+          <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-brand-navy">
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-10 md:mb-14">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold/70 mb-3">{coverage.badge}</p>
+                <h2 className="font-serif text-2xl sm:text-3xl text-white mb-3">{coverage.title}</h2>
+                {coverage.subtitle && (
+                  <p className="text-slate-400 text-base sm:text-lg max-w-xl mx-auto">{coverage.subtitle}</p>
+                )}
+              </div>
+              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
+                {coverage.items.map((item, i) => {
+                  const Icon = coverageIcons[i] ?? Stethoscope
+                  return (
+                    <div key={item} className="rounded-2xl border border-white/[0.08] bg-white/[0.04] p-4 sm:p-5 text-center">
+                      <div className="w-10 h-10 mx-auto mb-3 rounded-xl bg-brand-gold/10 flex items-center justify-center border border-brand-gold/15">
+                        <Icon className="w-4 h-4 text-brand-gold" />
+                      </div>
+                      <span className="text-white/80 font-semibold text-xs sm:text-sm leading-tight block">{item}</span>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          </section>
+        )
+      })()}
 
       {/* Explore — SEO Internal Links */}
       <section className="w-full py-16 sm:py-24 px-4 sm:px-6 bg-bg-light border-b border-slate-200">

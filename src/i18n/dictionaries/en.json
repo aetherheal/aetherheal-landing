@@ -364,6 +364,24 @@
       ],
       "compactCta": "Trust Protocol"
     },
+    "coverage": {
+      "badge": "Coverage",
+      "title": "High-Stake Domains",
+      "subtitle": "We operate only in high-stake, difficult-to-reverse medical domains.",
+      "items": [
+        "Hair Transplant",
+        "Skin Aesthetic",
+        "Plastic Surgery",
+        "Robotic Surgery",
+        "Vision Correction",
+        "Dental",
+        "Stem Cell Therapy",
+        "Liposuction & Fat Repositioning",
+        "Neurosurgery",
+        "General Health Check-up",
+        "Full Body MRI"
+      ]
+    },
     "faq": {
       "title": "Common Questions",
       "subtitle": "The questions patients ask when trust matters more than volume.",
