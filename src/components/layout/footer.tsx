@@ -26,6 +26,7 @@ export function Footer({ dict, locale }: FooterProps) {
         { href: `${prefix}/medical-journey`, label: dict.footer.platformLinks.medicalJourney },
         { href: `${prefix}/explore`, label: dict.footer.platformLinks.explore },
         { href: `${prefix}/blog`, label: dict.footer.platformLinks.blog },
+        { href: `${prefix}/journey-assurance`, label: dict.footer.platformLinks.journeyAssurance },
       ]
 
   const guideLinks = isKo

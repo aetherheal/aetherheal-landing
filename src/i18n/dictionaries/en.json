@@ -28,7 +28,8 @@
         "ourPhilosophy": "Why We Exist",
         "medicalJourney": "Medical Journey",
         "explore": "Explore",
-        "blog": "Blog"
+        "blog": "Blog",
+        "journeyAssurance": "Journey Assurance"
       },
       "guideLinks": {
         "choosingHospital": "Choosing a Hospital Abroad",
@@ -3362,6 +3363,10 @@
     "allCategories": "All",
     "noPosts": "No posts yet. Check back soon.",
     "readMore": "Read",
+    "sortNewest": "Newest",
+    "sortOldest": "Oldest",
+    "sortReadingTime": "Quick reads",
+    "articlesCount": "{count} articles",
     "backToBlog": "Back to Blog",
     "availableIn": "Also available in",
     "categories": {
@@ -3371,6 +3376,108 @@
       "medical-tourism": "Medical Tourism",
       "patient-guide": "Patient Guide",
       "technology": "Technology"
+    }
+  },
+  "journeyAssurance": {
+    "meta": {
+      "title": "Journey Assurance Guarantee | AetherHeal",
+      "description": "AetherHeal is the only medical tourism platform that puts its own revenue at risk when matching fails. Learn how Journey Assurance protects your investment."
+    },
+    "hero": {
+      "badge": "Patient Protection",
+      "h1": "The AetherHeal",
+      "h1Highlight": "Journey Assurance",
+      "intro": "AetherHeal is the only medical tourism platform that puts its own revenue at risk when matching fails. Journey Assurance means we bear real financial consequences if your experience falls short."
+    },
+    "toc": [
+      { "id": "how-it-works", "label": "How It Works" },
+      { "id": "coverage", "label": "What's Covered & What's Not" },
+      { "id": "faq", "label": "Frequently Asked Questions" },
+      { "id": "cta", "label": "Get Started" }
+    ],
+    "howItWorks": {
+      "title": "How Journey Assurance Works",
+      "intro": "Journey Assurance is a structural commitment, not a marketing promise. A portion of your navigation fee is held in escrow until your journey is complete and your satisfaction is confirmed. No other medical tourism intermediary offers this.",
+      "stepLabel": "Step",
+      "steps": [
+        {
+          "title": "You pay a flat navigation fee",
+          "body": "The same fee regardless of hospital or procedure. No hidden commissions, no incentive for us to steer you toward higher-cost options."
+        },
+        {
+          "title": "A portion is held in escrow",
+          "body": "Part of your fee is reserved in escrow until your journey is complete and your satisfaction is confirmed through our post-treatment evaluation."
+        },
+        {
+          "title": "If unsatisfied, the escrow is returned",
+          "body": "If your post-treatment satisfaction score falls below our defined threshold, the escrowed portion is automatically returned to you. No negotiation required."
+        }
+      ]
+    },
+    "coverage": {
+      "title": "What's Covered & What's Not",
+      "coveredTitle": "What's Covered",
+      "coveredItems": [
+        "Hospital matching quality — was the recommended hospital appropriate for your case?",
+        "Pre-arrival preparation accuracy",
+        "Concierge service quality during your stay",
+        "Communication and coordination throughout the journey",
+        "Post-treatment follow-up as promised"
+      ],
+      "notCoveredTitle": "What's Not Covered",
+      "notCoveredItems": [
+        {
+          "label": "Clinical outcomes",
+          "detail": "Medical results depend on your body's response — no platform can guarantee surgical outcomes."
+        },
+        {
+          "label": "Patient non-compliance",
+          "detail": "Non-adherence to pre-operative or post-operative instructions provided by your medical team."
+        },
+        {
+          "label": "Changes in patient preference",
+          "detail": "Preference changes after booking that are unrelated to service quality."
+        },
+        {
+          "label": "Force majeure",
+          "detail": "Travel disruptions, natural disasters, pandemics, or other events beyond anyone's control."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "label": "Common Questions",
+      "items": [
+        {
+          "id": "faq-1",
+          "question": "How is the satisfaction threshold defined?",
+          "answer": "We use a structured post-treatment evaluation that covers matching accuracy, communication quality, concierge performance, and follow-up delivery. The threshold is set before your journey begins and disclosed in your service agreement. It is not a subjective feeling — it is a measurable standard."
+        },
+        {
+          "id": "faq-2",
+          "question": "What percentage of the fee is held in escrow?",
+          "answer": "The exact escrow percentage is outlined in your service agreement before you commit. It is meaningful enough that AetherHeal bears real financial consequences for poor matching — this is not a token gesture."
+        },
+        {
+          "id": "faq-3",
+          "question": "How long after my procedure can I claim?",
+          "answer": "The evaluation window is defined in your service agreement and is calibrated to the type of procedure. For most journeys, the satisfaction evaluation occurs within 30 days of your return. This allows enough time for a fair assessment without unnecessary delay."
+        },
+        {
+          "id": "faq-4",
+          "question": "Does this replace medical malpractice insurance?",
+          "answer": "No. Journey Assurance covers AetherHeal's matching and coordination services — not clinical outcomes. Medical malpractice is a matter between you and the treating hospital. We encourage all patients to confirm their provider's malpractice coverage and to consider independent travel medical insurance."
+        },
+        {
+          "id": "faq-5",
+          "question": "Has anyone actually received a refund through Journey Assurance?",
+          "answer": "Journey Assurance is designed so that refunds are rare — because the system is designed to prevent poor matches in the first place. When our process works as intended, satisfaction stays well above the threshold. But the mechanism exists precisely so that the incentive structure remains honest."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Your journey starts with trust — not a leap of faith.",
+      "button": "See How It Works"
     }
   }
 }

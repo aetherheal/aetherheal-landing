@@ -175,8 +175,25 @@ export default async function HomePage({
   const thenLabel = journeySection.uiLabels?.then ?? "Then:"
   const heroBranches = (t.hero as typeof t.hero & { branches?: string[]; branchConclusion?: string })
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: t.faq.items.map((item: { question: string; answer: string }) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  }
+
   return (
     <div className="min-h-full">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <link rel="preload" as="video" href="/assets/hero-bg.mp4" type="video/mp4" />
 
       {/* Desktop: Video + overlaid hero content */}

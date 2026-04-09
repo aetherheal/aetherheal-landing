@@ -1,0 +1,2376 @@
+{
+  "common": {
+    "nav": {
+      "howItWorks": "Comment ca marche",
+      "exploreFramework": "Explorer",
+      "trustSafety": "Protocole de confiance",
+      "ourPhilosophy": "Pourquoi nous existons",
+      "signIn": "Se connecter",
+      "beginJourney": "Commencer le parcours",
+      "blog": "Blog"
+    },
+    "footer": {
+      "brandDescription": "Infrastructure decisionnelle dirigee par des medecins pour les soins medicaux a enjeux eleves.",
+      "brandSubtitle": "Pour les patients internationaux envisageant des soins en Coree.",
+      "platform": "Plateforme",
+      "guides": "Guides",
+      "company": "Entreprise",
+      "contact": "Contact",
+      "copyright": "AetherHeal. Tous droits reserves.",
+      "disclaimer": "AetherHeal fournit uniquement un soutien a la decision et ne delivre pas de soins medicaux. En cas d'urgence, contactez immediatement les services medicaux locaux.",
+      "companyName": "AetherHeal Co., Ltd.",
+      "representative": "Representant : Dr. Jee Hoon Ju",
+      "bizRegNo": "N° d'enregistrement : 874-87-03734",
+      "address": "B1, 64, Gingorang-ro 14-gil, Gwangjin-gu, Seoul, Republique de Coree",
+      "platformLinks": {
+        "howItWorks": "Comment ca marche",
+        "trustProtocol": "Protocole de confiance",
+        "ourPhilosophy": "Pourquoi nous existons",
+        "medicalJourney": "Parcours medical",
+        "explore": "Explorer",
+        "blog": "Blog",
+        "journeyAssurance": "Garantie de parcours"
+      },
+      "guideLinks": {
+        "choosingHospital": "Choisir un hopital a l'etranger",
+        "hairTransplant": "Greffe de cheveux en Coree",
+        "plasticSurgery": "Chirurgie esthetique en Coree",
+        "aestheticClinics": "Cliniques esthetiques a Seoul"
+      },
+      "medicalBoundaryNotice": "Avis de limites medicales",
+      "termsOfService": "Conditions d'utilisation",
+      "privacyPolicy": "Politique de confidentialite",
+      "paymentRefundPolicy": "Politique de paiement et remboursement"
+    },
+    "continueReading": "Continuer la lecture",
+    "contents": "Sommaire",
+    "tableOfContents": "Table des matieres"
+  },
+  "home": {
+    "meta": {
+      "title": "AetherHeal | Mise en relation verifiee avec des cliniques pour les patients internationaux",
+      "description": "AetherHeal aide les patients internationaux a choisir des cliniques en Coree sans incertitude. Hopitaux verifies, frais de navigation forfaitaires, gouvernance medicale et responsabilite visible."
+    },
+    "hero": {
+      "badge": "Mise en relation verifiee avec des cliniques pour les patients internationaux envisageant la Coree",
+      "h1": "Le monde ne manque pas de cliniques.",
+      "h1Highlight": "Il manque de confiance.",
+      "description": "Travaillez avec nos medecins Angel.",
+      "descriptionHighlight": "",
+      "descriptionEnd": "",
+      "branches": ["Verifier les hopitaux", "Consultation de niveau medical", "Rester responsable"],
+      "branchConclusion": "Pour que vous ne soyez jamais seul(e).",
+      "disclaimer": "Soutien a la decision avant l'engagement hospitalier.",
+      "disclaimer2": "Ni traitement medical ni soins d'urgence.",
+      "openingDate": "Ouverture le 1er septembre 2026",
+      "waitlistButton": "Rejoindre la liste d'attente",
+      "waitlistPlaceholder": "Entrez votre e-mail",
+      "waitlistSuccess": "Vous etes inscrit(e) ! Nous vous recontacterons.",
+      "waitlistDuplicate": "Vous etes deja inscrit(e) !",
+      "ctaExplore": "Decouvrir comment fonctionne la confiance"
+    },
+    "problemQuote": {
+      "title": "Ce que les patients redoutent vraiment",
+      "subtitle": "L'obstacle n'est pas l'acces. C'est de savoir a qui faire confiance.",
+      "items": [
+        {
+          "title": "Signaux trompeurs",
+          "quote": "Les prix bas et les avis Google ne vous disent pas ce qui convient a votre cas."
+        },
+        {
+          "title": "Incitations biaisees",
+          "quote": "Si votre intermediaire profite de la surconsommation, sa recommandation ne sert pas vos interets."
+        },
+        {
+          "title": "Confiance rompue",
+          "quote": "La confiance se brise quand l'accompagnement est lie a votre incertitude."
+        }
+      ],
+      "q1": "Un site web soigne ne vous dit pas quel medecin convient a votre cas.",
+      "q2": "Certains intermediaires gagnent plus quand vous depensez plus.",
+      "q3": "La confiance se brise quand l'accompagnement est lie a votre incertitude."
+    },
+    "stakes": {
+      "title": "Pourquoi cette decision pese autant",
+      "subtitle": "Le defi n'est pas l'acces. C'est de prendre une decision durable dans un marche difficile a verifier depuis l'etranger.",
+      "lowStake": {
+        "label": "Ce que ressentent les patients",
+        "items": [
+          "Etre induit en erreur",
+          "Le regret",
+          "Traverser cela seul(e)"
+        ],
+        "consequenceLabel": "Ce dont ils ont besoin",
+        "consequence": "Clarte",
+        "principle": "Moins de bruit. De meilleures decisions."
+      },
+      "highStake": {
+        "label": "Ce que le marche propose",
+        "critical": "Probleme structurel",
+        "items": [
+          "Des affirmations sans preuves",
+          "Des commissions cachees",
+          "Aucune responsabilite apres le paiement"
+        ],
+        "medicine": "Deficit de confiance",
+        "consequenceLabel": "Ce que cela engendre",
+        "consequence": "Un regret irreversible",
+        "principle": "Les marches non structures recompensent le marketing plutot que la pertinence.",
+        "structuralNote": "Quand les patients ne peuvent pas verifier la qualite, le marketing l'emporte. AetherHeal est concu pour changer cela."
+      }
+    },
+    "aiLayer": {
+      "badge": "Architecture de confiance",
+      "title": "Comment AetherHeal",
+      "titleHighlight": "cree la confiance",
+      "subtitle": "La confiance doit venir de la structure, pas des discours.",
+      "cards": [
+        {
+          "title": "Reseau hospitalier verifie",
+          "description": "Pas un annuaire ouvert. Un reseau selectionne."
+        },
+        {
+          "title": "Frais de navigation forfaitaires",
+          "description": "Les frais ne changent pas en fonction de l'hopital ou de la procedure."
+        },
+        {
+          "title": "Garantie de parcours",
+          "description": "La responsabilite doit se poursuivre apres le paiement."
+        },
+        {
+          "title": "Gouvernance medicale",
+          "description": "L'autorite clinique reste aux medecins. L'IA soutient le processus."
+        },
+        {
+          "title": "Transparence des procedures",
+          "description": "Toutes les procedures sous sedation sont enregistrees par CCTV et camera rapprochee. Produits authentiques, dosage verifie. Images disponibles sur demande. Les hopitaux refusant l'enregistrement peuvent etre motifs de rejet."
+        }
+      ],
+      "footnote": "La confiance est integree au systeme."
+    },
+    "patientConcerns": {
+      "badge": "Ou en etes-vous dans votre decision ?",
+      "title": "Qu'est-ce qui vous amene a envisager des soins en Coree ?",
+      "subtitle": "Ceci n'est pas un catalogue de procedures. Commencez par votre situation — pas par une liste de courses.",
+      "items": [
+        {
+          "title": "J'ai besoin d'une procedure mais je ne sais pas a quel hopital faire confiance",
+          "description": "Nous vous aidons a evaluer les hopitaux sur la base de references verifiees, pas du marketing.",
+          "href": "/how-it-works"
+        },
+        {
+          "title": "J'ai deja subi une procedure qui s'est mal passee",
+          "description": "Les cas de revision necessitent un niveau different de soutien a la decision. Nous structurons ce processus.",
+          "href": "/how-it-works"
+        },
+        {
+          "title": "Je veux comprendre mes options avant de m'engager",
+          "description": "Explorez le cadre de decision sans pression. Pas de reservation, pas d'argumentaire de vente.",
+          "href": "/explore"
+        },
+        {
+          "title": "J'ai besoin d'aide pour naviguer les soins dans un pays dont je ne parle pas la langue",
+          "description": "Coordination dirigee par un medecin, de la decision a la convalescence — dans votre langue.",
+          "href": "/medical-journey"
+        },
+        {
+          "title": "Je veux savoir en quoi AetherHeal differe d'une agence de tourisme medical",
+          "description": "Nous sommes une infrastructure decisionnelle, pas une plateforme de reservation. La difference est structurelle.",
+          "href": "/our-philosophy"
+        }
+      ]
+    },
+    "journey": {
+      "sectionLabel": "Parcours du patient",
+      "title": "A quoi ressemble",
+      "titleHighlight": "vraiment votre parcours",
+      "subtitle": "AetherHeal est concu pour rendre chaque etape lisible : ce qui se passe d'abord, qui est responsable, et quand l'engagement doit intervenir.",
+      "steps": [
+        {
+          "label": "Intention du patient",
+          "badge": null,
+          "description": "Objectifs, contraintes, calendrier et tolerance au risque sont recueillis.",
+          "details": null,
+          "owner": "Accueil du patient avec AetherHeal",
+          "next": "Structuration du cas assistee par IA"
+        },
+        {
+          "label": "Structuration du cas assistee par IA",
+          "badge": "SOUTIEN PRE-MEDECIN",
+          "description": "Les dossiers, questions et informations manquantes sont organises avant l'examen medical.",
+          "details": "L'IA assiste. Le medecin examine chaque resultat.",
+          "owner": "Structuration du cas par AetherHeal",
+          "next": "Evaluation de la preparation par le medecin"
+        },
+        {
+          "label": "Examen par un medecin coreen agree",
+          "badge": null,
+          "description": "Le medecin decide si le cas est suffisamment clair pour avancer.",
+          "details": null,
+          "owner": "Examen par un medecin agree",
+          "next": "Etude de faisabilite hospitaliere"
+        },
+        {
+          "label": "Etude de faisabilite par l'hopital partenaire",
+          "badge": "AUTORITE HOSPITALIERE",
+          "description": "Les hopitaux partenaires evaluent la faisabilite dans le cadre defini par le medecin.",
+          "details": null,
+          "owner": "Etude de faisabilite hospitaliere",
+          "next": "Engagement de decision"
+        },
+        {
+          "label": "Depot d'engagement de decision",
+          "badge": "DECLENCHEUR DE RESPONSABILITE",
+          "description": "Confirme l'intention, securise la coordination et aligne l'etape operationnelle suivante.",
+          "details": null,
+          "owner": "Engagement de decision par le patient",
+          "next": "Arrivee, reservation et accompagnement"
+        },
+        {
+          "label": "Orchestration du parcours",
+          "badge": "ARRIVEE, RESERVATION ET ACCOMPAGNEMENT",
+          "description": "L'execution du service de conciergerie ne commence qu'apres l'alignement valide par le medecin et confirme par le patient.",
+          "details": null,
+          "owner": "Conciergerie 1:1 par AetherHeal",
+          "next": "Suivi de continuite post-traitement"
+        },
+        {
+          "label": "Suivi de continuite post-traitement",
+          "badge": "SUIVI ASSISTE PAR IA",
+          "description": "Les bilans, signaux de recuperation et coordination de suivi restent visibles apres le traitement.",
+          "details": null,
+          "owner": "Suivi de continuite par AetherHeal + Patient",
+          "next": "Escalade si des preoccupations surviennent"
+        }
+      ],
+      "journeyOrchestrationDetails": {
+        "arrival": "Arrivee et planification",
+        "concierge": "Conciergerie et traduction 1:1"
+      },
+      "decisionReadiness": {
+        "notReady": "Necessite plus de clarte",
+        "pause": "Pause / Collecter plus d'informations",
+        "ready": "Pret pour transmission",
+        "proceed": "Passer a l'evaluation hospitaliere"
+      },
+      "storyArc": {
+        "badge": "L'histoire complete",
+        "title": "Ce que le parcours patient construit",
+        "subtitle": "Le patient devrait pouvoir voir l'ensemble de l'arc des le depart : qui guide la decision, qui effectue le traitement, et qui maintient la continuite visible apres.",
+        "items": [
+          {
+            "phase": "Avant le voyage",
+            "title": "Clarte decisionnelle",
+            "owner": "AetherHeal + Medecin"
+          },
+          {
+            "phase": "Arrivee",
+            "title": "Transfert operationnel",
+            "owner": "AetherHeal"
+          },
+          {
+            "phase": "Traitement",
+            "title": "Autorite clinique",
+            "owner": "Hopital"
+          },
+          {
+            "phase": "Convalescence",
+            "title": "Visibilite du suivi",
+            "owner": "AetherHeal + Patient"
+          },
+          {
+            "phase": "Jusqu'a 1 an",
+            "title": "Continuite et escalade",
+            "owner": "AetherHeal + Hopital"
+          }
+        ]
+      },
+      "first48Hours": {
+        "badge": "Premieres 48 heures",
+        "title": "Vos premieres 48 heures",
+        "subtitle": "Arrivee, transfert et alignement clinique. Le traitement peut avoir lieu dans ce delai ou plus tard.",
+        "items": [
+          {
+            "time": "Arrivee",
+            "title": "Coordination d'arrivee",
+            "description": "Nous accueillons le patient, confirmons le plan et clarifions l'etape suivante.",
+            "owner": "Conciergerie 1:1 par AetherHeal",
+            "next": "Transfert hospitalier"
+          },
+          {
+            "time": "Premieres 24 heures",
+            "title": "Traduction, planification et transfert",
+            "description": "L'hopital recoit le contexte du cas. Le patient beneficie d'un soutien linguistique et de planification.",
+            "owner": "Coordination clinique par AetherHeal + Hopital",
+            "next": "Confirmation clinique"
+          },
+          {
+            "time": "24-48 heures",
+            "title": "Preparation au traitement",
+            "description": "Le patient et l'hopital confirment si le traitement a lieu maintenant, plus tard pendant le sejour, ou apres preparation supplementaire.",
+            "owner": "Confirmation clinique par l'hopital",
+            "next": "Traitement ou coordination supplementaire"
+          }
+        ]
+      },
+      "continuityYear": {
+        "badge": "Continuite sur 1 an",
+        "title": "Continuite post-traitement",
+        "subtitle": "Apres le retour du patient, la convalescence reste visible et plus facile a escalader si necessaire.",
+        "items": [
+          {
+            "phase": "Semaine 1",
+            "title": "Bilans de convalescence precoce",
+            "description": "Symptomes, photos et questions sont recueillis tot pour ne manquer aucune preoccupation.",
+            "owner": "Bilans precoces par AetherHeal + Patient",
+            "next": "Suivi des attentes"
+          },
+          {
+            "phase": "Mois 1-3",
+            "title": "Suivi et gestion des attentes",
+            "description": "La convalescence est suivie par rapport au calendrier prevu, a travers la distance et la langue.",
+            "owner": "Suivi de convalescence par AetherHeal",
+            "next": "Suivi a long terme"
+          },
+          {
+            "phase": "Mois 3-12",
+            "title": "Continuite a long terme",
+            "description": "Si des preoccupations tardives apparaissent, l'historique du cas reste organise pour que le suivi ne reparte pas de zero.",
+            "owner": "Escalade par AetherHeal + Hopital",
+            "next": "Continuite documentee"
+          }
+        ]
+      },
+      "closingQuote": "L'objectif n'est pas de vous pousser plus vite. L'objectif est de vous aider a decider avec moins de regret.",
+      "uiLabels": { "responsibility": "Responsabilite", "then": "Ensuite :" }
+    },
+    "partners": {
+      "subtitle": "Preuves initiales",
+      "compactTitle": "Une histoire de confiance necessite des preuves",
+      "compactDescription": "13 examines. 4 rejetes. 9 admis.",
+      "proofPoints": [
+        "Taux de rejet de 31 %.",
+        "Les candidats sont venus par des medecins Angel, des candidatures directes et des recommandations entre praticiens.",
+        "La verification continue."
+      ],
+      "compactStats": [
+        {
+          "number": "13",
+          "label": "Examines"
+        },
+        {
+          "number": "31%",
+          "label": "Rejetes"
+        },
+        {
+          "number": "9",
+          "label": "Partenaires verifies"
+        }
+      ],
+      "compactCta": "Protocole de confiance"
+    },
+    "coverage": {
+      "badge": "Couverture",
+      "title": "Domaines a enjeux eleves",
+      "subtitle": "La ou bien faire du premier coup est essentiel.",
+      "items": [
+        "Greffe de cheveux",
+        "Esthetique cutanee",
+        "Chirurgie esthetique",
+        "Chirurgie robotique",
+        "Correction de la vision",
+        "Dentaire",
+        "Therapie par cellules souches",
+        "Liposuccion et repositionnement graisseux",
+        "Neurochirurgie",
+        "Bilan de sante general",
+        "IRM corps entier"
+      ]
+    },
+    "faq": {
+      "title": "Questions frequentes",
+      "subtitle": "Les questions que posent les patients quand la confiance compte plus que le volume.",
+      "items": [
+        {
+          "question": "AetherHeal est-il un medecin IA ?",
+          "answer": "Non. AetherHeal n'est pas un medecin IA et nous ne presentons pas l'IA comme un substitut au medecin. L'IA soutient la structuration de l'information et les flux de continuite, mais les medecins agrees et les hopitaux partenaires conservent l'autorite medicale."
+        },
+        {
+          "question": "Que fait concretement l'IA au sein d'AetherHeal ?",
+          "answer": "L'IA aide a organiser l'accueil, a identifier les informations manquantes, a soutenir la coordination multilingue et a maintenir la visibilite des signaux de continuite post-traitement. Elle accelere le processus ; elle ne prend pas la decision medicale."
+        },
+        {
+          "question": "L'IA peut-elle contredire un medecin ou choisir mon hopital ?",
+          "answer": "Non. L'IA ne peut pas contredire un medecin, selectionner votre hopital final, poser un diagnostic, recommander un traitement ou reserver de maniere autonome. Le jugement du medecin, le consentement du patient et la faisabilite hospitaliere restent les couches de controle."
+        },
+        {
+          "question": "S'agit-il d'une consultation medicale ou de telemedecine ?",
+          "answer": "Non. AetherHeal n'est pas une consultation medicale. C'est une preparation a la decision. Nos medecins vous aident a structurer votre reflexion avant d'entrer dans un hopital — ils ne diagnostiquent ni ne traitent. Cette separation preserve la clarte et la responsabilite."
+        },
+        {
+          "question": "Qui est responsable a chaque etape du processus ?",
+          "answer": "Les responsabilites sont clairement separees. Les medecins soutiennent la clarte decisionnelle. Les hopitaux delivrent les soins medicaux. AetherHeal gouverne le processus, la coordination et la responsabilite a chaque etape."
+        },
+        {
+          "question": "AetherHeal est-il une agence de tourisme medical ?",
+          "answer": "Non. AetherHeal est une infrastructure decisionnelle. La logistique de voyage n'est geree qu'apres qu'une decision medicale structuree a ete prise — pas avant."
+        },
+        {
+          "question": "Mes informations sont-elles en securite ?",
+          "answer": "Nous ne collectons que ce qui est necessaire au soutien decisionnel et a la coordination. Les telechargements sont facultatifs. L'acces est restreint par role (medecin, operateur) et utilise uniquement pour votre cas. Nous ne vendons pas les informations medicales personnelles."
+        }
+      ]
+    },
+    "explore": {
+      "badge": "Explorer par sujet",
+      "title": "Blog redige par nos medecins",
+      "items": [
+        {
+          "title": "Greffe de cheveux en Coree",
+          "desc": "FUE, DHI et greffes avancees — evalues avec un soutien decisionnel dirige par un medecin avant tout contact avec une clinique."
+        },
+        {
+          "title": "Cliniques esthetiques a Seoul",
+          "desc": "Naviguez le paysage esthetique de Seoul avec un accompagnement structure pour les traitements cutanes et la dermatologie cosmetique."
+        },
+        {
+          "title": "Chirurgie esthetique en Coree",
+          "desc": "Rhinoplastie, remodelage facial et plus — prenez des decisions eclairees avec un medecin avant de vous engager."
+        },
+        {
+          "title": "Votre parcours medical",
+          "desc": "De la decision a la convalescence, AetherHeal coordonne chaque etape de votre voyage a Seoul."
+        },
+        {
+          "title": "Le protocole de confiance AetherHeal",
+          "desc": "Comment nous evaluons et maintenons les normes de notre reseau d'hopitaux partenaires selectionnes."
+        },
+        {
+          "title": "Choisir un hopital a l'etranger",
+          "desc": "Un cadre structure pour reduire les risques lors du choix d'un hopital dans un autre pays."
+        }
+      ]
+    },
+    "cta": {
+      "title": "La clarte avant l'engagement",
+      "subtitle": "Si vous envisagez des soins en Coree, commencez par un processus concu pour proteger votre decision avant que quiconque ne tente de la conclure.",
+      "openingDate": "Ouverture le 1er septembre 2026",
+      "waitlistButton": "Rejoindre la liste d'attente",
+      "waitlistPlaceholder": "Entrez votre e-mail",
+      "waitlistSuccess": "Vous etes inscrit(e) ! Nous vous recontacterons.",
+      "waitlistDuplicate": "Vous etes deja inscrit(e) !",
+      "ctaExplore": "Decouvrir comment fonctionne la confiance",
+      "signature": "Dr. Jee Hoon Ju"
+    }
+  },
+  "howItWorks": {
+    "meta": {
+      "title": "Comment fonctionne AetherHeal | Specification du systeme",
+      "description": "Decouvrez comment fonctionne l'infrastructure decisionnelle d'AetherHeal, dirigee par des medecins et assistee par l'IA. Explorez la chaine d'autorite, les etats de preparation et le modele de suivi de continuite pour les soins medicaux en Coree."
+    },
+    "hero": {
+      "badge": "Specification du systeme 2.0",
+      "h1": "Comment fonctionne",
+      "h1Highlight": "AetherHeal",
+      "tagline": "Infrastructure decisionnelle dirigee par des medecins, assistee par l'IA, pour la Coree",
+      "description": "Decisions medicales structurees",
+      "descriptionHighlight": "avant",
+      "descriptionEnd": "l'engagement hospitalier, la logistique et la continuite post-traitement.",
+      "disclaimer": "Assiste par l'IA. Autorise par le medecin. Ni diagnostic, ni traitement, ni soins d'urgence.",
+      "ctaPrimary": "Commencer votre parcours decisionnel",
+      "ctaSecondary": "Explorer le cadre"
+    },
+    "angelRole": {
+      "badge": "01 — Gouvernance",
+      "title": "Le role de l'Angel",
+      "subtitle": "Soutien a l'information medicale, pas de la vente.",
+      "doesTitle": "Ce que l'Angel FAIT",
+      "keyDefinitionLabel": "Definition cle",
+      "keyDefinition": "Les Angels sont des medecins agrees en Coree qui detiennent l'autorite d'interpretation sur le cas et examinent toute structuration assistee par l'IA avant transmission.",
+      "does": [
+        {
+          "title": "Examine les informations structurees",
+          "description": "Examine l'organisation de l'accueil assistee par IA, les signalements de donnees manquantes et les objectifs du patient avant toute action vis-a-vis de l'hopital."
+        },
+        {
+          "title": "Detient l'autorite decisionnelle",
+          "description": "Clarifie les risques, contraintes et attentes, puis decide si le cas est pret a avancer."
+        },
+        {
+          "title": "Traduit les objectifs en cadre clinique",
+          "description": "Convertit l'intention du patient en un cadre decisionnel redige par le medecin que les hopitaux peuvent examiner pour la faisabilite."
+        }
+      ],
+      "notTitle": "Ce que l'Angel N'EST PAS",
+      "not": [
+        "Ne diagnostique pas",
+        "Ne traite pas",
+        "Ne prescrit pas",
+        "Ne delegue pas le jugement final a l'IA",
+        "Ne remplace pas l'hopital"
+      ]
+    },
+    "authorityChain": {
+      "badge": "02 — Chaine d'autorite",
+      "title": "Qui detient l'autorite, et quand",
+      "subtitle": "AetherHeal est concu pour que l'assistance, l'interpretation, le traitement et les operations restent clairement separes.",
+      "levels": [
+        {
+          "label": "Couche 1",
+          "title": "Intention du patient",
+          "description": "Le patient definit ses objectifs, contraintes, calendrier et tolerance au risque."
+        },
+        {
+          "label": "Couche 2",
+          "title": "Couche de soutien IA",
+          "description": "L'IA structure l'information, identifie les lacunes et soutient le suivi, mais n'a aucune autorite pour decider."
+        },
+        {
+          "label": "Couche 3",
+          "title": "Autorite du medecin",
+          "description": "Le medecin Angel interprete le cas, definit le cadre decisionnel et autorise la transmission a l'etape suivante."
+        },
+        {
+          "label": "Couche 4",
+          "title": "Autorite hospitaliere",
+          "description": "L'hopital partenaire decide de la faisabilite clinique, de l'approche therapeutique et de l'acceptation du cas."
+        },
+        {
+          "label": "Couche 5",
+          "title": "Coordination operationnelle",
+          "description": "AetherHeal execute les reservations, le voyage et les flux de continuite uniquement apres que la chaine de decision humaine est claire. Des chauffeurs, traducteurs et guides verifies sont envoyes via une plateforme de coordination en temps reel — pour que la logistique ne repose jamais sur le patient."
+        }
+      ],
+      "handoffLabel": "transfert d'autorite",
+      "footnote": "L'IA peut soutenir le processus, mais l'autorite ne passe qu'entre des acteurs humains responsables."
+    },
+    "incentiveStructure": {
+      "badge": "Integrite structurelle",
+      "title": "Pourquoi cette structure existe",
+      "subtitle": "L'architecture d'AetherHeal n'est pas seulement organisationnelle — elle est concue pour rendre la corruption structurellement impossible.",
+      "items": [
+        {
+          "title": "Frais de navigation forfaitaires",
+          "description": "Les frais de navigation d'AetherHeal sont forfaitaires — les memes que vous choisissiez une procedure a 2 000 $ ou a 20 000 $. Pas de commission. Pas d'incitation a la surconsommation. Votre navigateur n'a aucune raison financiere de recommander autre chose que ce qui convient a vos besoins medicaux."
+        },
+        {
+          "title": "Separation structurelle",
+          "description": "L'equipe qui verifie les hopitaux est structurellement separee de celle qui accompagne les patients. Ce n'est pas une politique modifiable en silence — c'est integre dans l'architecture organisationnelle."
+        },
+        {
+          "title": "Independance du medecin",
+          "description": "Le medecin qui examine votre cas n'a aucune relation financiere avec aucun hopital du reseau. Son jugement n'est pas a vendre car il n'existe aucun mecanisme par lequel il pourrait etre achete."
+        }
+      ],
+      "footnote": "Ce ne sont pas des politiques. Ce sont des decisions architecturales qui rendent la corruption structurellement impossible.",
+      "ctaPhilosophy": "Voir l'architecture complete des incitations"
+    },
+    "aiAssistance": {
+      "badge": "03 — Assistance IA",
+      "title": "La couche d'assistance IA",
+      "subtitle": "L'IA est utilisee comme soutien operationnel et informationnel, pas comme decideur clinique.",
+      "summaryLabel": "Role du systeme",
+      "summary": "La couche IA existe pour reduire la fragmentation : elle prepare les apports pour le medecin, aide l'equipe a suivre ce qui manque et soutient le suivi de continuite apres le traitement. Chaque resultat assiste par l'IA reste subordonne a l'examen du medecin, a la confirmation du patient et a l'autorite de l'hopital.",
+      "doesTitle": "Ce que fait l'IA",
+      "doesItems": [
+        "Structure l'accueil, les dossiers et les questions avant l'interpretation par le medecin",
+        "Identifie les documents manquants, les contradictions et les taches de suivi pour l'equipe humaine",
+        "Soutient la coordination multilingue et la continuite du processus tout au long du parcours",
+        "Organise les bilans post-traitement et la visibilite pour le suivi de continuite"
+      ],
+      "notTitle": "Ce que l'IA NE fait PAS",
+      "notItems": [
+        "Ne diagnostique pas",
+        "Ne recommande pas de traitement",
+        "Ne selectionne pas l'hopital final",
+        "Ne reserve pas de maniere autonome",
+        "Ne contredit pas un medecin ou un hopital"
+      ],
+      "footnote": "Aucune decision de l'IA n'est valide seule. L'autorite humaine reste la couche de controle."
+    },
+    "coverage": {
+      "badge": "04 — Couverture",
+      "title": "Domaines a enjeux eleves",
+      "subtitle": "La ou bien faire du premier coup est essentiel.",
+      "domains": [
+        "Greffe de cheveux",
+        "Esthetique cutanee",
+        "Chirurgie esthetique",
+        "Chirurgie robotique",
+        "Correction de la vision",
+        "Dentaire",
+        "Therapie par cellules souches",
+        "Liposuccion et repositionnement graisseux",
+        "Neurochirurgie",
+        "Bilan de sante general",
+        "IRM corps entier"
+      ]
+    },
+    "scope": {
+      "badge": "05 — Perimetre",
+      "title": "Ce que nous faisons / Ce que nous ne faisons pas",
+      "subtitle": "Des limites operationnelles et medicales strictes empechent les fausses attentes.",
+      "doTitle": "Ce que nous faisons",
+      "doItems": [
+        "Preparation a la decision avec examen medical de la structuration assistee par IA",
+        "Mise en relation hospitaliere basee sur l'adequation au sein de notre reseau partenaire apres confirmation de la preparation",
+        "Coordination de l'etude de faisabilite avec les hopitaux partenaires",
+        "Execution du parcours et flux de continuite avec supervision humaine responsable"
+      ],
+      "dontTitle": "Ce que nous ne faisons pas",
+      "dontBadges": [
+        "Pas de diagnostic",
+        "Pas de recommandation de traitement",
+        "Pas de reservation autonome",
+        "Pas de selection finale d'hopital",
+        "Pas de decision par l'IA"
+      ],
+      "notes": [
+        "Ne convient pas aux urgences. Consultez immediatement les services medicaux locaux en cas de symptomes urgents.",
+        "Les medecins conservent l'autorite interpretative. Les hopitaux conservent l'autorite therapeutique.",
+        "Ne remplace pas les soins hospitaliers ni votre medecin traitant."
+      ]
+    },
+    "readinessStates": {
+      "badge": "06 — Etats de preparation",
+      "title": "Quand un cas est pret",
+      "subtitle": "AetherHeal ne fait pas avancer tous les cas a la meme vitesse. La preparation doit etre meritee.",
+      "items": [
+        {
+          "state": "Etat 1",
+          "title": "Necessite plus de clarte",
+          "description": "Les informations sont incompletes, les objectifs encore vagues, ou la tolerance au risque n'a pas ete clairement exprimee."
+        },
+        {
+          "state": "Etat 2",
+          "title": "Pret pour le cadrage medical",
+          "description": "Le cas dispose de suffisamment d'informations organisees pour qu'un medecin puisse interpreter les compromis et definir le perimetre."
+        },
+        {
+          "state": "Etat 3",
+          "title": "Pret pour l'evaluation hospitaliere",
+          "description": "Le medecin a redige le cadre decisionnel et le perimetre peut maintenant etre transmis pour etude de faisabilite."
+        },
+        {
+          "state": "Etat 4",
+          "title": "Suivi de continuite actif",
+          "description": "Apres le traitement, les signaux de suivi et les bilans restent visibles pour que l'equipe puisse coordonner la continuite."
+        }
+      ],
+      "footnote": "Un cas peut se mettre en pause a n'importe quel etat. L'avancement depend de la clarte, pas de l'elan."
+    },
+    "systemFlow": {
+      "badge": "07 — Flux du systeme",
+      "titleParts": [
+        "Accueil",
+        "Interpretation",
+        "Continuite"
+      ],
+      "subtitle": "Les roles sont strictement definis a chaque etape. Le soutien IA intervient avant l'interpretation medicale et apres le traitement, pas a la place de l'autorite medicale.",
+      "steps": [
+        {
+          "step": 1,
+          "actor": "Patient",
+          "title": "Accueil structure",
+          "description": "Objectifs, contraintes, calendrier, tolerance au risque"
+        },
+        {
+          "step": 2,
+          "actor": "Couche de soutien IA",
+          "title": "Organisation du cas",
+          "description": "Informations organisees, lacunes identifiees, questions preparees"
+        },
+        {
+          "step": 3,
+          "actor": "Angel (MD)",
+          "title": "Interpretation medicale",
+          "description": "Contexte, compromis et preparation evalues",
+          "emphasis": "key"
+        },
+        {
+          "step": 4,
+          "actor": "Angel (MD)",
+          "title": "Resume decisionnel",
+          "description": "Cadre decisionnel redige pour examen en aval",
+          "emphasis": "key"
+        },
+        {
+          "step": 5,
+          "actor": "Plateforme",
+          "title": "Verrouillage de preparation",
+          "description": "Le perimetre est fige avant toute execution vis-a-vis de l'hopital",
+          "emphasis": "key"
+        },
+        {
+          "step": 6,
+          "actor": "Hopital partenaire",
+          "title": "Etude de faisabilite",
+          "description": "Accepter, refuser ou demander des clarifications"
+        },
+        {
+          "step": 7,
+          "actor": "Plateforme + Conciergerie",
+          "title": "Devis + Coordination",
+          "description": "Depot, planification, voyage et preparation de l'arrivee"
+        },
+        {
+          "step": 8,
+          "actor": "IA + Equipe de parcours",
+          "title": "Suivi de continuite",
+          "description": "Visibilite post-traitement, bilans et soutien a l'escalade",
+          "emphasis": "final"
+        }
+      ],
+      "closingQuote": "L'IA peut soutenir le processus. L'autorite du medecin definit le resultat."
+    },
+    "safety": {
+      "title": "Securite juridique et medicale",
+      "items": [
+        {
+          "title": "Securite",
+          "body": "Ne convient pas aux urgences. En cas de symptomes urgents, consultez immediatement les services medicaux locaux."
+        },
+        {
+          "title": "Limite de l'IA",
+          "body": "Les resultats de l'IA sont uniquement un soutien preparatoire et de suivi. Ils ne diagnostiquent pas, ne recommandent pas de traitement et ne decident pas des hopitaux."
+        },
+        {
+          "title": "Donnees et confidentialite",
+          "body": "Les telechargements sont facultatifs. L'acces est limite par role. Utilise uniquement pour le soutien decisionnel, la coordination et le suivi de continuite."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pret a structurer",
+      "titleHighlight": "votre decision ?",
+      "ctaPrimary": "Commencer votre parcours decisionnel",
+      "ctaSecondary": "Explorer le cadre",
+      "disclaimer": "Assiste par l'IA. Autorise par le medecin. Pas de diagnostic. Pas de traitement."
+    }
+  },
+  "ourPhilosophy": {
+    "meta": {
+      "title": "Pourquoi nous existons | AetherHeal",
+      "description": "Pourquoi AetherHeal existe, en quoi il est architecturalement different des agences de tourisme medical, et les fondations structurelles qui rendent la corruption impossible par conception."
+    },
+    "hero": {
+      "badge": "Architecture fondamentale",
+      "h1": "Pourquoi AetherHeal",
+      "h1Highlight": "existe",
+      "intro": "Ceci n'est pas un argumentaire commercial. C'est une explication de la raison pour laquelle une defaillance structurelle dans la sante mondiale necessite non seulement un meilleur systeme de mise en relation, mais une architecture de responsabilite suffisamment solide pour porter l'autorite qu'elle revendique.",
+      "disclaimer": "Redige pour les investisseurs, partenaires, medecins et toute personne souhaitant comprendre non seulement la promesse, mais la structure de responsabilite qui la sous-tend."
+    },
+    "tldr": {
+      "badge": "En bref",
+      "text": "Le tourisme medical est defaillant parce que ceux qui recommandent les hopitaux profitent de la recommandation tout en portant trop peu de responsabilite visible sur le resultat. AetherHeal corrige cela structurellement : les medecins qui vous conseillent percoivent les memes honoraires forfaitaires quel que soit l'hopital que vous choisissez, et la plateforme est concue pour definir, tracer et assumer la responsabilite plutot que de se cacher derriere un discours marketing."
+    },
+    "toc": [
+      {
+        "id": "the-problem",
+        "label": "Le probleme que nous avons identifie"
+      },
+      {
+        "id": "the-architecture",
+        "label": "L'architecture que nous avons construite"
+      },
+      {
+        "id": "the-incentive",
+        "label": "La structure des incitations"
+      },
+      {
+        "id": "the-ai-boundary",
+        "label": "Les limites de l'IA"
+      },
+      {
+        "id": "the-founder",
+        "label": "L'obligation du fondateur"
+      }
+    ],
+    "theProblem": {
+      "title": "Le probleme que nous avons identifie",
+      "summary": "Pourquoi les patients ne peuvent pas faire confiance au tourisme medical — et pourquoi un meilleur marketing ne resoudra pas le probleme.",
+      "p1": "En 1970, l'economiste George Akerlof a decrit comment les marches echouent quand les acheteurs ne peuvent pas verifier la qualite avant l'achat. Les vendeurs de produits de faible qualite chassent les vendeurs de produits de haute qualite — parce que l'acheteur ne peut pas faire la difference. Le marche se remplit de « citrons ». Akerlof a remporte le prix Nobel pour cette decouverte en 2001.",
+      "p2": "Le tourisme medical mondial est un cas d'ecole du marche d'Akerlof. Les patients ne peuvent pas evaluer les competences chirurgicales, la securite hospitaliere ou la qualite des soins postoperatoires depuis un autre pays. Les seuls signaux visibles sont le prix, les depenses marketing et les photos avant-apres — aucun ne correle de maniere fiable avec les resultats cliniques.",
+      "p3": "Le resultat est previsible : les agences qui depensent le plus en marketing attirent le plus de patients. Les medecins avec les meilleurs resultats cliniques n'ont aucun moyen credible de signaler leur qualite. Les patients prennent des decisions consequentes sur leur corps a partir d'informations structurellement peu fiables.",
+      "callout": "Ce n'est pas un probleme de confiance. C'est un probleme d'Akerlof — et les problemes d'Akerlof necessitent des solutions institutionnelles, pas un meilleur marketing.",
+      "cycleTitle": "Le cycle du marche des citrons",
+      "cycleSteps": [
+        "Les agences touchent des commissions sur les procedures couteuses",
+        "Les patients choisissent selon le marketing, pas la qualite clinique",
+        "Les bons medecins n'ont aucun signal credible",
+        "Le marche se remplit d'acteurs de faible qualite"
+      ],
+      "cycleResult": "Equilibre : stable et nefaste"
+    },
+    "theArchitecture": {
+      "title": "L'architecture que nous avons construite",
+      "summary": "Une couche de verification independante entre les patients et les hopitaux — comme le Guide Michelin pour la sante.",
+      "p1": "La solution n'est pas un meilleur marche. C'est la couche de confiance institutionnelle que l'industrie n'a jamais eue — la norme de verification qui rend la qualite des medecins lisible pour les patients qui ne peuvent pas l'evaluer eux-memes, tout en rendant les responsabilites propres de la plateforme visibles.",
+      "p2": "Considerez le Guide Michelin : ce n'est pas un restaurant. C'est la norme par laquelle les restaurants obtiennent une reconnaissance a travers les villes et les pays. Avant le Guide Michelin, les convives n'avaient aucun moyen fiable d'evaluer la qualite au-dela du bouche-a-oreille. Apres le Guide Michelin, la norme elle-meme portait la confiance. Les chefs rivalisent pour atteindre la norme — car la reconnaissance d'une autorite independante, alignee en termes d'incitations, ne peut pas etre achetee.",
+      "p3": "AetherHeal occupe la meme position structurelle pour le voyage medical mondial. Nous ne sommes pas un hopital. Nous ne sommes pas une agence. Nous sommes la couche de norme de verification — separee de la couche d'execution, gouvernee par des medecins qui n'ont aucun interet financier dans le resultat de la decision d'un patient individuel, et explicite quant a ou commence et ou finit la responsabilite de la plateforme.",
+      "callout": "Nous ne construisons pas une meilleure agence de tourisme medical. Nous construisons une norme de confiance gouvernee par des medecins avec une architecture de responsabilite suffisamment solide pour meriter la confiance.",
+      "layers": [
+        {
+          "label": "Patients internationaux",
+          "detail": "Ne peuvent pas evaluer la qualite a travers les frontieres"
+        },
+        {
+          "label": "Norme de verification AetherHeal",
+          "detail": "Gouvernee par des medecins, separee en termes d'incitations, publiquement inspectable"
+        },
+        {
+          "label": "Hopitaux et medecins",
+          "detail": "Excellence clinique, verifiee independamment"
+        }
+      ],
+      "beforeLabel": "Avant : Confiance bilaterale requise pour chaque transaction",
+      "afterLabel": "Apres : La norme porte la confiance"
+    },
+    "theIncentive": {
+      "title": "La structure des incitations",
+      "summary": "Des honoraires forfaitaires qui alignent nos interets financiers avec les interets medicaux du patient.",
+      "p1": "N'importe qui peut pretendre a un leadership medical. N'importe qui peut rediger une page de protocole de confiance. Ce qu'aucun concurrent ne peut reproduire, c'est une structure de tarification ou la plateforme gagne litteralement le meme montant que le patient choisisse une procedure a 2 000 $ ou a 20 000 $.",
+      "p2": "Les frais de navigation d'AetherHeal sont forfaitaires. L'equipe qui verifie les hopitaux est structurellement separee de celle qui accompagne les patients. Le medecin qui examine votre cas n'a aucune relation financiere avec aucun hopital du reseau.",
+      "p3": "Ce ne sont pas des politiques. Les politiques necessitent une application et peuvent etre discretement abandonnees quand le chiffre d'affaires est faible. Ce sont des decisions architecturales — integrees dans la structure tarifaire, l'organigramme et le modele de gouvernance. Elles rendent plus difficile de profiter de l'incertitude sans porter une responsabilite visible sur le processus decisionnel.",
+      "callout": "Notre modele economique est concu pour que, a mesure que l'influence augmente, la responsabilite devienne plus visible — pas moins. Ce n'est pas une politique. C'est un fait structurel.",
+      "comparison": {
+        "traditional": {
+          "label": "Agence traditionnelle",
+          "items": [
+            {
+              "text": "Commission sur le cout de la procedure",
+              "negative": true
+            },
+            {
+              "text": "La meme equipe oriente et verifie",
+              "negative": true
+            },
+            {
+              "text": "Gagne plus avec les options couteuses",
+              "negative": true
+            },
+            {
+              "text": "Medecin lie au chiffre d'affaires de l'hopital",
+              "negative": true
+            }
+          ]
+        },
+        "aetherheal": {
+          "label": "AetherHeal",
+          "items": [
+            {
+              "text": "Honoraires forfaitaires quel que soit le cout de la procedure",
+              "negative": false
+            },
+            {
+              "text": "Verification et accompagnement totalement separes",
+              "negative": false
+            },
+            {
+              "text": "Meme remuneration pour une procedure a 2 000 $ ou 20 000 $",
+              "negative": false
+            },
+            {
+              "text": "Le medecin n'a aucun lien financier avec les hopitaux",
+              "negative": false
+            }
+          ]
+        }
+      },
+      "principles": [
+        {
+          "title": "Frais de navigation forfaitaires",
+          "body": "Les memes honoraires que la procedure coute 2 000 $ ou 20 000 $. Pas de commission. Pas d'incitation a la surconsommation."
+        },
+        {
+          "title": "Principe de separation",
+          "body": "L'equipe qui verifie les hopitaux n'accompagne jamais les patients. L'equipe qui accompagne les patients ne verifie jamais les hopitaux."
+        },
+        {
+          "title": "Independance du medecin",
+          "body": "Les medecins examinateurs n'ont aucune participation, aucun frais de recommandation ni aucune relation financiere avec les hopitaux partenaires."
+        }
+      ]
+    },
+    "theAiBoundary": {
+      "title": "Les limites de l'IA",
+      "summary": "L'IA assiste l'organisation et la logistique. Elle ne prend jamais de decisions medicales et ne choisit pas votre hopital.",
+      "p1": "L'IA au sein d'AetherHeal organise la complexite. Elle structure les informations d'accueil, identifie les dossiers manquants, soutient la coordination multilingue et etend le suivi de continuite post-traitement.",
+      "p2": "Elle ne prend pas de decisions medicales. Elle ne choisit pas votre hopital. Elle ne contredit pas le jugement du medecin. Ce n'est pas une limitation que nous imposons a contrecoeur — c'est le principe fondamental de conception.",
+      "p3": "Le philosophe Martin Heidegger avertissait que le danger le plus profond de la technologie n'est pas qu'elle echoue, mais qu'elle recadre tout comme une ressource a optimiser. Edmund Pellegrino, philosophe de la medecine, soutenait que la medecine est une entreprise morale — pas technique. Le moment ou une couche d'IA remplace la lecture que le medecin fait de l'etre humain face a lui, le systeme a echoue au niveau le plus profond, meme si toutes les metriques semblent bonnes.",
+      "callout": "L'IA organise l'information pour que le medecin puisse se concentrer sur l'humain. Le medecin lit d'abord l'humain, ensuite le profil.",
+      "ctaHowItWorks": "Voir le detail complet de la gouvernance IA"
+    },
+    "theFounder": {
+      "title": "L'obligation du fondateur",
+      "bridge": "Les sections ci-dessus decrivent la logique structurelle. Mais les structures ne se construisent pas toutes seules — elles viennent de personnes qui ont une raison de s'en soucier. Voici pourquoi celle-ci existe.",
+      "p1": "Le Dr. Jee Hoon Ju est un specialiste en medecine esthetique cutanee et chirurgien greffeur de cheveux certifie par l'American Board of Aesthetic Medicine, qui a subi deux procedures en tant que patient. La premiere a echoue — parce que le prix etait le seul signal qu'il pouvait lire. Il n'a compris ce qui lui avait ete fait qu'apres etre devenu specialiste dans le domaine.",
+      "p2": "AetherHeal n'est pas construit parce qu'un fondateur a identifie une opportunite de marche. Il est construit parce qu'un medecin a ete aveugle par le probleme qu'il resout — et a passe des annees a acquerir l'expertise clinique pour comprendre exactement ce qui avait mal tourne et pourquoi le marche rendait cela inevitable.",
+      "p3": "Le philosophe Emmanuel Levinas ecrivait que l'obligation morale veritable commence avec la rencontre — quand on voit vraiment la vulnerabilite de quelqu'un et qu'on ne peut plus detourner le regard. Ce n'est pas une histoire de pitch deck. C'est la raison pour laquelle une plateforme de confiance ne peut pas revendiquer d'autorite sans aussi concevoir comment elle assumera la responsabilite quand les enjeux sont reels.",
+      "callout": "Je ne construis pas cela parce que j'ai identifie une opportunite de marche. Je construis cela parce que j'ai ete aveugle par le probleme que je resous — et parce que la confiance sans responsabilite n'est que du langage marketing.",
+      "timeline": [
+        {
+          "year": "Patient",
+          "event": "Premiere greffe de cheveux echouee — le prix etait le seul signal disponible"
+        },
+        {
+          "year": "Etudiant",
+          "event": "Entree en faculte de medecine pour comprendre ce qui avait mal tourne"
+        },
+        {
+          "year": "Specialiste",
+          "event": "Certifie par l'American Board of Aesthetic Medicine — a compris la defaillance structurelle du point de vue du medecin"
+        },
+        {
+          "year": "Fondateur",
+          "event": "A construit AetherHeal pour corriger le marche qui l'avait aveugle"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Ce que cela signifie pour vous",
+      "patient": "Si vous etes un patient — vous entrez dans un systeme concu pour que personne ne profite de vous induire en erreur.",
+      "hospital": "Si vous etes un hopital — vous rejoignez une norme qui recompense la qualite que vous delivrez deja.",
+      "investor": "Si vous etes un investisseur — vous financez une infrastructure, pas un marche. Les normes se composent differemment des transactions. AetherHeal exploite deux reseaux a effet compose : un reseau d'hopitaux verifies et un reseau de conciergerie verifie de chauffeurs, traducteurs et guides. Chaque reseau renforce l'autre — et aucun ne peut etre reproduit simplement en construisant une meilleure application.",
+      "cta": "Voir comment ca marche"
+    }
+  },
+  "trustProtocol": {
+    "meta": {
+      "title": "Le protocole de confiance AetherHeal | AetherHeal",
+      "description": "Comment AetherHeal gouverne le soutien decisionnel humain et assiste par IA a travers une supervision independante, une application de protocole auditable et des normes selectionnees pour les hopitaux partenaires."
+    },
+    "hero": {
+      "badge": "Gouvernance",
+      "h1": "Le protocole de confiance",
+      "h1Highlight": "AetherHeal",
+      "intro": "La gouvernance independante supervise le soutien decisionnel humain et assiste par IA pour que chaque cas reste cliniquement encadre, auditable et responsable. L'objectif n'est pas seulement de rendre la confiance visible, mais de rendre la responsabilite visible partout ou l'autorite est revendiquee.",
+      "disclaimer": "Les auditeurs de confiance restent des examinateurs en lecture seule. Ils peuvent arreter, differer ou demander une re-clarification lorsque les normes du protocole ne sont pas respectees. Leur role n'est pas d'echapper a la responsabilite, mais de la definir et de l'appliquer clairement."
+    },
+    "tldr": {
+      "badge": "En bref",
+      "points": [
+        "Les medecins examinent chaque cas — l'IA assiste mais ne decide jamais.",
+        "Les personnes qui vous conseillent ne profitent pas du choix de l'hopital.",
+        "Les hopitaux partenaires sont selectivement verifies et reevalues regulierement.",
+        "Chaque decision est enregistree, auditable et tracable jusqu'a un humain responsable."
+      ]
+    },
+    "toc": [
+      {
+        "id": "purpose",
+        "label": "Objectif, autorite et independance"
+      },
+      {
+        "id": "responsibility-architecture",
+        "label": "Architecture de responsabilite"
+      },
+      {
+        "id": "ai-governance",
+        "label": "Gouvernance IA, auditabilite et application"
+      },
+      {
+        "id": "incentive-separation",
+        "label": "Separation des incitations"
+      },
+      {
+        "id": "partner-criteria",
+        "label": "Criteres pour les hopitaux partenaires"
+      },
+      {
+        "id": "what-this-means",
+        "label": "Ce que cela signifie pour les patients"
+      },
+      {
+        "id": "trust-scope",
+        "label": "Perimetre du protocole de confiance"
+      },
+      {
+        "id": "team",
+        "label": "Qui gere le protocole de confiance"
+      },
+      {
+        "id": "ongoing",
+        "label": "Responsabilite continue"
+      }
+    ],
+    "purpose": {
+      "title": "Objectif, autorite et independance",
+      "protocolDocument": "Document de protocole",
+      "purposeTitle": "Objectif",
+      "purposeText": "Le protocole de confiance existe pour maintenir l'integrite du processus de soutien decisionnel d'AetherHeal a travers les flux de travail humains et assistes par IA. Il est independant des operations cliniques, rend compte directement a la gouvernance de la plateforme et aide a definir quelle responsabilite la plateforme porte et ne porte pas a chaque couche.",
+      "authorityTitle": "Autorite",
+      "authorityText": "Les auditeurs de confiance ont un acces en lecture seule aux resumes decisionnels completes, aux journaux de protocole et aux artefacts IA gouvernes utilises dans le flux de cas. Ils peuvent signaler des preoccupations, demander un examen et escalader les problemes, mais ils ne peuvent pas reecrire les documents destines aux patients ni modifier les recommandations cliniques. Cela preserve la responsabilite plutot que de la brouiller.",
+      "independenceTitle": "Independance",
+      "independenceText": "L'equipe du protocole de confiance fonctionne sur une ligne hierarchique separee des operations cliniques, des relations avec les prestataires et de l'execution commerciale. Cette separation protege la qualite de la supervision contre la pression operationnelle, les incitations de recommandation et la commodite de l'automatisation."
+    },
+    "responsibilityArchitecture": {
+      "title": "Architecture de responsabilite",
+      "intro": "AetherHeal ne se decrit pas comme un simple marche. Cela compte. Plus une plateforme revendique d'autorite sur une decision, plus elle doit definir clairement la responsabilite qu'elle porte.",
+      "positions": [
+        {
+          "title": "Intermediaire pur",
+          "body": "Une plateforme qui ne fait que connecter acheteurs et vendeurs peut tenter de minimiser la responsabilite en affirmant que le resultat appartient entierement aux deux parties. Le compromis est que la confiance reste faible et fragmentee."
+        },
+        {
+          "title": "Plateforme de certification",
+          "body": "Une plateforme qui etablit des normes et verifie les participants porte plus d'autorite. La confiance peut se transferer a travers la norme, mais la plateforme est alors responsable de la pertinence de cette norme."
+        },
+        {
+          "title": "Infrastructure decisionnelle",
+          "body": "Une plateforme qui structure les cas, filtre les options et faconne les voies decisionnelles entre directement dans la chaine de responsabilite. C'est la position d'AetherHeal, c'est pourquoi la responsabilite doit etre concue dans le systeme."
+        }
+      ],
+      "principleIntro": "Le principe directeur est simple :",
+      "principleText": "L'influence et la responsabilite doivent croitre ensemble. Si une plateforme aide a faconner une decision medicale, elle ne devrait pas se cacher derriere le langage de la neutralite.",
+      "guardrails": [
+        "Definir clairement ce dont AetherHeal est responsable et ce qui releve de la responsabilite du prestataire.",
+        "Traiter les limites legales et la responsabilite morale comme liees mais non identiques.",
+        "Utiliser les resultats indesirables, les audits et les retours patients comme des sources d'apprentissage plutot que des fuites de reputation a enterrer."
+      ],
+      "callout": "La confiance sans responsabilite n'est que du langage marketing. La revendication d'AetherHeal est plus forte : si nous demandons la confiance, nous devons rendre notre responsabilite lisible."
+    },
+    "aiGovernance": {
+      "title": "Gouvernance IA, auditabilite et application",
+      "intro": "L'IA peut soutenir des parties limitees du processus, mais uniquement dans des limites operationnelles definies. La norme directrice n'est pas la vitesse ou le volume d'automatisation. C'est la qualite decisionnelle, la tracabilite et l'escalade en securite.",
+      "principles": [
+        {
+          "title": "Utilisation contrainte",
+          "body": "L'IA peut aider a structurer l'accueil, resumer les dossiers, soutenir la traduction et identifier les informations manquantes dans les regles approuvees. Il ne lui est pas permis d'elargir le perimetre clinique, de simuler la certitude ou de remplacer un examen humain responsable."
+        },
+        {
+          "title": "Examen humain",
+          "body": "Les resumes destines aux patients, les exceptions de protocole et les decisions de routage des prestataires necessitent un examen humain responsable avant d'etre utilises. L'IA peut assister la preparation, mais la responsabilite reste aux medecins agrees, auditeurs de confiance ou personnel operationnel designe."
+        },
+        {
+          "title": "Piste d'audit",
+          "body": "Les requetes cles, resultats, modifications, approbations et exceptions sont enregistres pour qu'un cas puisse etre reconstitue et examine. L'auditabilite est traitee comme une exigence de controle, pas comme une fonctionnalite optionnelle."
+        },
+        {
+          "title": "Application du protocole",
+          "body": "Quand les informations sont incompletes, ambigues, hors perimetre ou pertinentes pour la securite, la reponse gouvernee est d'arreter, differer ou demander une re-clarification. La poursuite n'est valide que lorsque le dossier est suffisamment clair et responsable."
+        }
+      ],
+      "validTitle": "Issues valides du protocole",
+      "outcomes": [
+        {
+          "label": "Arret",
+          "body": "Utilise quand le cas est hors perimetre, pertinent pour la securite, ou ne peut pas avancer sans intervention humaine directe."
+        },
+        {
+          "label": "Report",
+          "body": "Utilise quand le cas peut avancer plus tard, mais le calendrier, la documentation ou la preparation ne sont pas encore suffisants."
+        },
+        {
+          "label": "Re-clarification",
+          "body": "Utilise quand le cas peut rester actif, mais les affirmations, objectifs, dossiers ou hypotheses doivent etre reformules plus precisement."
+        },
+        {
+          "label": "Poursuite",
+          "body": "Utilise uniquement apres que le cas a passe les controles de protocole pertinents et que les humains responsables confirment que l'etape suivante est appropriee."
+        }
+      ]
+    },
+    "incentiveSeparation": {
+      "title": "Integrite decisionnelle par separation des incitations",
+      "akerlofFraming": "En 1970, l'economiste George Akerlof a decrit comment les marches echouent quand les acheteurs ne peuvent pas verifier la qualite. Le tourisme medical est un cas d'ecole. L'architecture d'incitations d'AetherHeal est concue pour corriger structurellement cette defaillance.",
+      "p1": "Dans la plupart des plateformes de voyage medical, la meme entite qui recommande un hopital profite egalement de la recommandation. Ce conflit peut affecter les personnes et les logiciels : le flux de cas commence a s'optimiser pour la conversion plutot que pour la qualite du jugement.",
+      "p2": "AetherHeal est architecturalement different. Nous separons la plateforme en couches independantes avec des incitations, des lignes hierarchiques et des controles distincts. Les systemes d'IA, la ou ils sont utilises, sont gouvernes dans les memes limites et ne sont pas autorises a optimiser l'orientation vers des prestataires ou la cloture de cas pour un gain commercial.",
+      "structuralCallout": "Notre modele economique est concu pour que l'influence ne puisse pas s'etendre sans que la responsabilite visible s'etende avec elle. Cet alignement est structurel, pas aspirationnel.",
+      "angelLayer": {
+        "label": "Couche 1",
+        "title": "Couche Angel",
+        "description": "Les medecins conseillers guident le processus decisionnel du patient. Les outils IA peuvent assister la documentation dans cette couche, mais ne peuvent pas introduire de preference de prestataire, faire des choix de routage finaux ou clore un cas de maniere autonome.",
+        "incentiveLabel": "Incitations liees a",
+        "incentives": [
+          "Qualite et completude du soutien decisionnel examine par le clinicien",
+          "Comprehension du patient et consentement eclaire",
+          "Respect du protocole, y compris la conformite aux contraintes IA"
+        ]
+      },
+      "providerLayer": {
+        "label": "Couche 2",
+        "title": "Prestataire medical",
+        "description": "Les hopitaux et cliniques partenaires delivrent les soins cliniques uniquement apres que le cadre decisionnel, les controles de protocole et les approbations responsables sont satisfaits. Leur role est la prestation de traitement, pas la formation de la decision en amont.",
+        "incentiveLabel": "Incitations liees a",
+        "incentives": [
+          "Resultats cliniques et prestation de traitement",
+          "Satisfaction du patient et qualite de la convalescence",
+          "Respect des protocoles de soins et de continuite convenus"
+        ]
+      },
+      "principleIntro": "Le principe structurel est simple :",
+      "principleText": "Les personnes et systemes qui aident a structurer votre decision ne sont pas recompenses pour vous orienter vers un prestataire particulier. Les examinateurs humains et les flux de travail IA gouvernes sont contraints pour que le soutien decisionnel reste separe du profit du traitement."
+    },
+    "partnerCriteria": {
+      "title": "Criteres pour les hopitaux partenaires",
+      "intro": "Tous les hopitaux de Seoul ne repondent pas a nos normes. AetherHeal exploite un reseau partenaire selectif ou chaque institution est evaluee selon plusieurs dimensions avant d'etre admise :",
+      "items": [
+        "Expertise clinique et profondeur de specialisation du chirurgien",
+        "Normes des installations et certification des equipements",
+        "Historique de pratiques ethiques et registre de plaintes des patients",
+        "Experience avec les patients internationaux et soutien linguistique",
+        "Alignement avec la philosophie de priorite a la decision d'AetherHeal",
+        "Protocoles de suivi post-traitement et de continuite"
+      ]
+    },
+    "whatThisMeans": {
+      "title": "Ce que cela signifie",
+      "audiences": [
+        {
+          "label": "Pour les patients",
+          "body": "Quand AetherHeal vous met en relation avec un hopital partenaire, cette mise en relation est basee sur votre profil clinique, vos contraintes documentees et votre resume decisionnel examine — pas sur des commissions, la pression marketing ou une automatisation opaque. L'objectif n'est pas seulement de vous guider, mais de rendre la chaine de responsabilite lisible."
+        },
+        {
+          "label": "Pour les hopitaux",
+          "body": "La verification s'obtient par la conformite structurelle, pas par le paiement. Le maintien du statut AetherHeal Verifie necessite le respect continu des normes de communication, de documentation et de soins evaluees independamment de l'equipe commerciale."
+        },
+        {
+          "label": "Pour les regulateurs",
+          "body": "Si un cas est incomplet ou ambigu, l'arret, le report et la re-clarification sont traites comme des mesures de protection valides plutot que comme des defaillances de service. Chaque decision de protocole est enregistree, auditable et tracable jusqu'a un humain responsable."
+        }
+      ]
+    },
+    "trustScope": {
+      "title": "Perimetre du protocole de confiance",
+      "intro": "Des limites claires definissent ce que les auditeurs de confiance font et ne font pas.",
+      "doTitle": "Les auditeurs de confiance font",
+      "doItems": [
+        "Examiner la qualite du resume decisionnel",
+        "Verifier les journaux de processus IA et humains",
+        "Auditer l'application du protocole et le traitement des exceptions",
+        "Assurer l'integrite du consentement du patient",
+        "Surveiller les tendances a l'echelle du systeme",
+        "Signaler les preoccupations de securite ou de conformite"
+      ],
+      "dontTitle": "Les auditeurs de confiance ne font pas",
+      "dontItems": [
+        "Contredire les decisions de traitement au niveau du prestataire",
+        "Contacter directement les patients en tant que cliniciens traitants",
+        "Modifier retroactivement les resumes decisionnels ou les journaux",
+        "Fournir des diagnostics, prescriptions ou avis medicaux",
+        "Partager des donnees patients en dehors du processus autorise",
+        "Contourner les controles d'arret, de report ou de re-clarification"
+      ]
+    },
+    "team": {
+      "title": "Qui gere le protocole de confiance ?",
+      "roles": [
+        {
+          "title": "Auditeur de qualite medicale",
+          "description": "Examine la clarte clinique et la completude des resumes decisionnels avant qu'ils ne soient utilises en aval."
+        },
+        {
+          "title": "Auditeur de gouvernance IA",
+          "description": "Verifie que les etapes assistees par IA sont restees dans les contraintes approuvees, les regles de journalisation et les normes d'escalade."
+        },
+        {
+          "title": "Auditeur d'integrite des processus",
+          "description": "Valide que les portes de protocole requises, les approbations et les exceptions ont ete traitees correctement pour chaque cas."
+        },
+        {
+          "title": "Auditeur de securite des patients",
+          "description": "Surveille les violations de perimetre, les affirmations dangereuses ou les tendances de flux de travail qui pourraient compromettre la protection des patients."
+        }
+      ]
+    },
+    "ongoing": {
+      "title": "Responsabilite continue",
+      "text": "La verification n'est pas un evenement ponctuel. AetherHeal maintient un examen continu des institutions partenaires, des performances des examinateurs humains et du comportement des flux de travail assistes par IA a travers des audits, des retours patients, l'apprentissage des resultats indesirables et une reevaluation periodique.",
+      "checklist": [
+        "Audits de conformite au protocole trimestriels",
+        "Examens de re-verification annuels des partenaires",
+        "Surveillance continue du comportement des flux de travail IA",
+        "Integration des retours patients dans les normes"
+      ],
+      "boxTitle": "Les normes restent applicables",
+      "boxText": "Si des ecarts repetes, des contournements non documentes, des schemas d'automatisation dangereux ou des preoccupations graves de resultats apparaissent, le flux de travail ou la relation partenaire concerne(e) peut etre mis(e) en pause, remedie(e) ou retire(e). La responsabilite fait partie du produit, pas une reflexion apres coup."
+    },
+    "relatedPages": [
+      {
+        "label": "Comment choisir un hopital a l'etranger",
+        "desc": "Un cadre pour des decisions plus sures"
+      },
+      {
+        "label": "Votre parcours medical",
+        "desc": "Coordination phase par phase avec une responsabilite claire"
+      },
+      {
+        "label": "Comment fonctionne AetherHeal",
+        "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins"
+      }
+    ]
+  },
+  "explore": {
+    "meta": {
+      "title": "Explorer le cadre | AetherHeal",
+      "description": "Decouvrez comment fonctionne le soutien decisionnel medical structure. Apprenez le cadre AetherHeal avant de vous engager dans un traitement ou un hopital."
+    },
+    "hero": {
+      "badge": "Mode exploration",
+      "h1": "Apprenez le cadre avant de vous engager",
+      "subtitle": "Decouvrez comment fonctionne le soutien decisionnel medical structure. Pas de compte, pas de pression et aucune decision de traitement requise pour le moment.",
+      "cta": "Continuer vers le fonctionnement"
+    },
+    "concepts": {
+      "title": "Concepts fondamentaux",
+      "subtitle": "Chaque concept aide a prevenir les regrets evitables.",
+      "items": [
+        {
+          "title": "Tolerance au risque",
+          "front": "Vous ne choisissez pas seulement une procedure. Vous choisissez quels risques vous etes pret(e) a tolerer.",
+          "back": "Chaque procedure comporte un profil de risque. Votre medecin Angel vous aide a comprendre les risques specifiques a votre cas et a determiner quels compromis sont acceptables pour vous."
+        },
+        {
+          "title": "Contrat biologique",
+          "front": "Vous concluez un contrat avec votre corps concernant la charge de recuperation et le temps de guerison.",
+          "back": "La convalescence n'est pas facultative — c'est une obligation biologique. Comprendre le calendrier de guerison et ses exigences est essentiel avant tout engagement."
+        },
+        {
+          "title": "Resultat acceptable",
+          "front": "L'objectif est un resultat qui reste acceptable meme s'il n'est pas structurellement parfait.",
+          "back": "La perfection n'est pas une norme clinique. Votre medecin vous aide a definir a quoi ressemble un resultat acceptable pour votre anatomie et vos objectifs."
+        }
+      ]
+    },
+    "failureReasons": {
+      "badge": "Pourquoi les decisions echouent",
+      "title": "Schemas de regret courants",
+      "items": [
+        {
+          "label": "Biais visuel",
+          "description": "Decider uniquement sur la base de photos « meilleur cas »"
+        },
+        {
+          "label": "Optimisation par le prix",
+          "description": "Traiter les changements biologiques comme des achats de commodite"
+        },
+        {
+          "label": "Confusion de popularite",
+          "description": "Supposer que les procedures tendance sont appropriees"
+        },
+        {
+          "label": "Deni des contraintes",
+          "description": "Ne pas definir le calendrier de convalescence"
+        }
+      ]
+    },
+    "caseStudies": {
+      "badge": "Galerie avant et apres",
+      "title": "Greffe de cheveux avant et apres",
+      "subtitle": "Premiers cas de greffe de cheveux FUE approuves.",
+      "cases": [
+        {
+          "id": "HT-8291",
+          "number": "01",
+          "title": "Greffe de cheveux",
+          "goal": "Reconstruire la densite frontale sans surexploiter la zone donneuse",
+          "constraint": "Zone donneuse limitee et fenetre de convalescence courte",
+          "preparation": "L'IA a separe les objectifs de densite de l'abaissement de la ligne frontale, signale le desequilibre de la zone donneuse et mis en file d'attente les questions manquantes sur l'historique du cuir chevelu pour examen medical."
+        },
+        {
+          "id": "RH-1044",
+          "number": "02",
+          "title": "Rhinoplastie",
+          "goal": "Redresser l'arete et affiner la pointe tout en conservant un aspect naturel",
+          "constraint": "Peau epaisse et faible tolerance a la revision",
+          "preparation": "L'IA a cartographie la tension entre le raffinement dramatique et les limites tissulaires, puis a assemble un resume pret pour le medecin incluant l'anatomie, les priorites et l'historique de fillers anterieurs."
+        },
+        {
+          "id": "SK-3302",
+          "number": "03",
+          "title": "Lifting cutane",
+          "badge": "NON CHIRURGICAL",
+          "goal": "Restaurer la definition de la machoire avec un temps d'arret minimal",
+          "constraint": "Non chirurgical uniquement et traitement recent par appareil a energie",
+          "preparation": "L'IA a mis en evidence l'inadequation entre les attentes de lifting et les limites de temps d'arret, suscite les details manquants de l'historique des appareils et prepare un resume concis pour l'interpretation medicale."
+        }
+      ],
+      "caseLabel": "Cas",
+      "maleCaseTitle": "Cas homme 1",
+      "femaleCaseTitle": "Cas femme 1",
+      "maleCase2Title": "Cas ligne frontale homme 2",
+      "femaleCase2Title": "Cas ligne frontale femme 2",
+      "hairlineCaseLabel": "Cas de ligne frontale",
+      "beforeAfterLabel": "Avant / Apres",
+      "beforeLabel": "Avant",
+      "afterLabel": "Apres",
+      "placeholder": "Espace reserve a l'image",
+      "disclaimer": "Photos de patients montrees a des fins de mise en page et de presentation.",
+      "contextBannerTitle": "Ces photos sont pour le contexte, pas pour la comparaison",
+      "contextBannerText": "Les images avant/apres montrent l'etendue des procedures, pas des resultats promis. Chaque cas est unique. AetherHeal utilise ces references pour soutenir la prise de decision eclairee — pas pour encourager le choix par l'apparence.",
+      "searchPlaceholder": "Rechercher des procedures...",
+      "jumpToLabel": "Aller a",
+      "noResultsLabel": "Aucune procedure correspondante trouvee."
+    },
+    "aiPreparation": {
+      "badge": "Avant de reserver",
+      "title": "Ce que l'IA aide les patients a preparer",
+      "intro": "Avant qu'un hopital ne soit contacte, l'IA aide a transformer les objectifs, contraintes et questions eparpilles du patient en un point de depart plus structure pour l'examen medical.",
+      "outputs": [
+        {
+          "title": "Hierarchie des objectifs",
+          "body": "Organise les objectifs principaux, preferences secondaires et points non negociables pour que les compromis deviennent visibles tot."
+        },
+        {
+          "title": "Carte des incoherences",
+          "body": "Met en evidence la ou l'anatomie, le calendrier, le budget, les attentes de convalescence ou les objectifs declares peuvent entrer en conflit."
+        },
+        {
+          "title": "Questions sur les informations manquantes",
+          "body": "Identifie les questions sans reponse et les details manquants dont un medecin aura besoin avant une interpretation significative."
+        },
+        {
+          "title": "Resume pret pour le medecin",
+          "body": "Regroupe le cas en un resume concis qu'un medecin peut examiner, affiner, contester et traduire en jugement pour l'etape suivante."
+        }
+      ],
+      "boundaryLabel": "Note de limite",
+      "boundaryNote": "L'IA prepare et structure l'information. Les medecins interpretent la signification medicale, evaluent la faisabilite et decident de ce qui compte cliniquement."
+    },
+    "disciplines": {
+      "badge": "Couverture",
+      "title": "Disciplines cliniques prises en charge",
+      "items": [
+        "Greffe de cheveux",
+        "Esthetique cutanee",
+        "Chirurgie esthetique",
+        "Chirurgie robotique",
+        "Correction de la vision",
+        "Dentaire",
+        "Therapie par cellules souches",
+        "Liposuccion et repositionnement graisseux",
+        "Neurochirurgie",
+        "Bilan de sante general",
+        "IRM corps entier"
+      ],
+      "cta": "Pret a voir le processus complet etape par etape ?",
+      "ctaHowItWorks": "Comment fonctionne AetherHeal",
+      "ctaMedicalBoundary": "Lire les limites medicales"
+    },
+    "caseStudyTabs": {
+      "title": "Galerie complete avant et apres",
+      "subtitle": "Parcourez les cas reels de patients pour le visage, le corps et les cheveux.",
+      "tabLabels": {
+        "face": "Visage",
+        "body": "Corps",
+        "hair": "Cheveux",
+        "skin": "Peau"
+      },
+      "categories": {
+        "facelift": {
+          "title": "Lifting du visage",
+          "cases": [
+            { "title": "Lifting cas 1", "subtitle": "Lifting SMAS" },
+            { "title": "Lifting cas 2", "subtitle": "Lifting plan profond" },
+            { "title": "Lifting cas 3", "subtitle": "Lifting du bas du visage" },
+            { "title": "Lifting cas 4", "subtitle": "Lifting SMAS" },
+            { "title": "Lifting cas 5", "subtitle": "Lifting du milieu du visage" },
+            { "title": "Lifting cas 6", "subtitle": "Lifting SMAS complet" },
+            { "title": "Lifting cas 7", "subtitle": "Bas du visage et cou" }
+          ]
+        },
+        "rhinoplasty": {
+          "title": "Rhinoplastie",
+          "cases": [
+            { "title": "Rhinoplastie cas 1", "subtitle": "Correction de l'arete et de la pointe" },
+            { "title": "Rhinoplastie cas 2", "subtitle": "Reduction de la bosse dorsale" },
+            { "title": "Rhinoplastie cas 3", "subtitle": "Affinement de la pointe" },
+            { "title": "Rhinoplastie cas 4", "subtitle": "Rhinoplastie complete" },
+            { "title": "Rhinoplastie cas 5", "subtitle": "Redressement de l'arete" },
+            { "title": "Rhinoplastie cas 6", "subtitle": "Reduction alaire" },
+            { "title": "Rhinoplastie cas 7", "subtitle": "Correction de la cloison deviee" },
+            { "title": "Rhinoplastie cas 8", "subtitle": "Rhinoplastie de revision" }
+          ]
+        },
+        "facialContouring": {
+          "title": "Remodelage facial",
+          "cases": [
+            { "title": "Remodelage cas 1", "subtitle": "Reduction machoire V-line" },
+            { "title": "Remodelage cas 2", "subtitle": "Zygoma + mandibule" },
+            { "title": "Remodelage cas 3", "subtitle": "Reduction de la machoire" },
+            { "title": "Remodelage cas 4", "subtitle": "Remodelage complet" },
+            { "title": "Remodelage cas 5", "subtitle": "Reduction machoire carree" },
+            { "title": "Remodelage cas 6", "subtitle": "Reduction des pommettes" },
+            { "title": "Remodelage cas 7", "subtitle": "Remodelage mandibulaire" },
+            { "title": "Remodelage cas 8", "subtitle": "Mini V-line" }
+          ]
+        },
+        "eyes": {
+          "title": "Yeux",
+          "cases": [
+            { "title": "Double paupiere cas 1", "subtitle": "Methode incisionnelle" },
+            { "title": "Double paupiere cas 2", "subtitle": "Methode non incisionnelle" },
+            { "title": "Cernes cas 1", "subtitle": "Repositionnement graisseux" },
+            { "title": "Cernes cas 2", "subtitle": "Blepharoplastie inferieure" },
+            { "title": "Double paupiere cas 3", "subtitle": "Correction du ptosis" },
+            { "title": "Double paupiere cas 4", "subtitle": "Revision incisionnelle" },
+            { "title": "Cernes cas 3", "subtitle": "Retrait de graisse" },
+            { "title": "Cernes cas 4", "subtitle": "Correction des cernes" }
+          ]
+        },
+        "doubleChin": {
+          "title": "Double menton",
+          "cases": [
+            { "title": "Double menton cas 1", "subtitle": "Liposuccion sous-mentonniere" },
+            { "title": "Double menton cas 2", "subtitle": "Reduction du menton" },
+            { "title": "Double menton cas 3", "subtitle": "Retrait de graisse" },
+            { "title": "Double menton cas 4", "subtitle": "Remodelage du menton" },
+            { "title": "Double menton cas 5", "subtitle": "Aspiration sous-mentonniere" },
+            { "title": "Double menton cas 6", "subtitle": "Liposuccion du cou" },
+            { "title": "Double menton cas 7", "subtitle": "Definition de la machoire" },
+            { "title": "Double menton cas 8", "subtitle": "Sculpture complete du menton" }
+          ]
+        },
+        "breastAugmentation": {
+          "title": "Augmentation mammaire",
+          "cases": [
+            { "title": "Augmentation cas 1", "subtitle": "Implants en silicone" },
+            { "title": "Augmentation cas 2", "subtitle": "Implants anatomiques" },
+            { "title": "Augmentation cas 3", "subtitle": "Implants ronds" },
+            { "title": "Augmentation cas 4", "subtitle": "Double plan" },
+            { "title": "Augmentation cas 5", "subtitle": "Placement sous-fascial" },
+            { "title": "Augmentation cas 6", "subtitle": "Implants sous-musculaires" },
+            { "title": "Augmentation cas 7", "subtitle": "Implants anatomiques" },
+            { "title": "Augmentation cas 8", "subtitle": "Gel cohesif" }
+          ]
+        },
+        "breastReduction": {
+          "title": "Reduction mammaire",
+          "cases": [
+            { "title": "Reduction cas 1", "subtitle": "Reduction verticale" },
+            { "title": "Reduction cas 2", "subtitle": "Patron en ancre" },
+            { "title": "Reduction cas 3", "subtitle": "Reduction mammaire" },
+            { "title": "Reduction cas 4", "subtitle": "Mammoplastie de reduction" },
+            { "title": "Reduction cas 5", "subtitle": "Pedicule superieur" },
+            { "title": "Reduction cas 6", "subtitle": "Reduction en T inverse" },
+            { "title": "Reduction cas 7", "subtitle": "Reduction bilaterale" },
+            { "title": "Reduction cas 8", "subtitle": "Technique circumareolaire" }
+          ]
+        },
+        "liposuction": {
+          "title": "Liposuccion",
+          "cases": [
+            { "title": "Abdomen cas 1", "subtitle": "Liposuccion abdominale" },
+            { "title": "Cuisses cas 1", "subtitle": "Remodelage des cuisses" },
+            { "title": "Bras cas 1", "subtitle": "Liposuccion des bras" },
+            { "title": "Abdomen cas 2", "subtitle": "Sculpture abdominale complete" },
+            { "title": "Abdomen cas 3", "subtitle": "Bas de l'abdomen" },
+            { "title": "Cuisses cas 2", "subtitle": "Remodelage interieur des cuisses" },
+            { "title": "Cuisses cas 3", "subtitle": "Sculpture exterieur des cuisses" }
+          ]
+        },
+        "hairTransplant": {
+          "title": "Greffe de cheveux",
+          "cases": [
+            { "title": "Cas homme 1", "subtitle": "FUE 2500 follicules" },
+            { "title": "Cas femme 1", "subtitle": "FUE 1500 follicules" },
+            { "title": "Cas ligne frontale homme 2", "subtitle": "FUE 2000 follicules" },
+            { "title": "Cas ligne frontale femme 2", "subtitle": "FUE 1750 follicules" }
+          ]
+        },
+        "browLift": {
+          "title": "Lifting des sourcils et du front",
+          "cases": [
+            { "title": "Lifting sourcils cas 1", "subtitle": "Lifting endoscopique des sourcils" },
+            { "title": "Lifting sourcils cas 2", "subtitle": "Lifting direct des sourcils" },
+            { "title": "Lifting sourcils cas 3", "subtitle": "Lifting temporal" },
+            { "title": "Lifting sourcils cas 4", "subtitle": "Lifting du front" },
+            { "title": "Lifting sourcils cas 5", "subtitle": "Lifting coronal des sourcils" }
+          ]
+        },
+        "neckLift": {
+          "title": "Lifting du cou",
+          "cases": [
+            { "title": "Lifting cou cas 1", "subtitle": "Platysmaplastie" },
+            { "title": "Lifting cou cas 2", "subtitle": "Cervicoplastie" },
+            { "title": "Lifting cou cas 3", "subtitle": "Remodelage du cou" }
+          ]
+        },
+        "tummyTuck": {
+          "title": "Abdominoplastie",
+          "cases": [
+            { "title": "Abdominoplastie cas 1", "subtitle": "Abdominoplastie complete" },
+            { "title": "Abdominoplastie cas 2", "subtitle": "Mini abdominoplastie" },
+            { "title": "Abdominoplastie cas 3", "subtitle": "Abdominoplastie etendue" },
+            { "title": "Abdominoplastie cas 4", "subtitle": "Fleur de lys" },
+            { "title": "Abdominoplastie cas 5", "subtitle": "Abdominoplastie complete" },
+            { "title": "Abdominoplastie cas 6", "subtitle": "Circumferentielle" }
+          ]
+        },
+        "armLift": {
+          "title": "Lifting des bras",
+          "cases": [
+            { "title": "Brachioplastie cas 1", "subtitle": "Lifting complet des bras" },
+            { "title": "Brachioplastie cas 2", "subtitle": "Lifting haut des bras" },
+            { "title": "Brachioplastie cas 3", "subtitle": "Brachioplastie etendue" },
+            { "title": "Brachioplastie cas 4", "subtitle": "Lifting bras cicatrice minimale" },
+            { "title": "Brachioplastie cas 5", "subtitle": "Remodelage haut des bras" },
+            { "title": "Brachioplastie cas 6", "subtitle": "Reduction des bras" },
+            { "title": "Brachioplastie cas 7", "subtitle": "Brachioplastie complete" }
+          ]
+        },
+        "thighLift": {
+          "title": "Lifting des cuisses",
+          "cases": [
+            { "title": "Lifting cuisses cas 1", "subtitle": "Lifting interieur des cuisses" },
+            { "title": "Lifting cuisses cas 2", "subtitle": "Cruroplastie mediale" },
+            { "title": "Lifting cuisses cas 3", "subtitle": "Lifting vertical des cuisses" },
+            { "title": "Lifting cuisses cas 4", "subtitle": "Remodelage complet des cuisses" }
+          ]
+        }
+      },
+      "skinPopularLabel": "Populaire en Coree",
+      "skinCategories": [
+        {
+          "id": "lifting",
+          "title": "Lifting et raffermissement",
+          "treatments": [
+            { "name": "Ultherapy", "tag": "HIFU", "origin": "Merz / USA", "description": "Ultrasons microfocalises agrees par la FDA pour le lifting des sourcils, du cou, du menton et du decollete", "kr": true },
+            { "name": "Ultraformer MPT (Shurink Universe)", "tag": "HIFU", "origin": "Classys / Coree", "description": "HIFU nouvelle generation avec technologie Micro Pulsed ; certifie CE MDR", "kr": true },
+            { "name": "Doublo Gold", "tag": "HIFU", "origin": "Hironic / Coree", "description": "HIFU combinant ultrasons microfocalises et RF pour utilisation clinique quotidienne", "kr": true },
+            { "name": "Sofwave", "tag": "Ultrasons", "origin": "Sofwave Medical / Israel", "description": "Technologie SUPERB d'ultrasons paralleles synchrones ; agree FDA pour tous types de peau", "kr": false },
+            { "name": "Thermage FLX", "tag": "RF monopolaire", "origin": "Solta Medical / USA", "description": "RF monopolaire 4e generation avec auto-reglage AccuREP ; remodelage du collagene en une seance", "kr": true },
+            { "name": "Morpheus8", "tag": "RF micro-aiguilles", "origin": "InMode / Israel-USA", "description": "RF micro-aiguilles jusqu'a 8 mm de profondeur pour remodelage profond et traitement adipeux sous-dermique", "kr": false },
+            { "name": "Potenza", "tag": "RF micro-aiguilles", "origin": "Cynosure / USA", "description": "RF micro-aiguilles monopolaire + bipolaire avec aiguilles semi-isolees Tiger Tip", "kr": false },
+            { "name": "SylfirmX", "tag": "RF micro-aiguilles", "origin": "Viol / Coree", "description": "RF double onde (pulsee + continue) efficace pour le melasma et la pigmentation", "kr": true },
+            { "name": "Genius RF", "tag": "RF micro-aiguilles", "origin": "Lutronic / Coree", "description": "RF micro-aiguilles a retour d'impedance en temps reel pour une delivrance d'energie de precision", "kr": true },
+            { "name": "Volnewmer (Everesse)", "tag": "RF micro-aiguilles", "origin": "Classys / Coree", "description": "Dispositif de micro-radiofrequence pour raffermissement RF de precision", "kr": true },
+            { "name": "Secret RF", "tag": "RF micro-aiguilles", "origin": "Cutera / USA", "description": "RF micro-aiguilles a profondeur reglable avec aiguilles plaquees or pour cicatrices et rajeunissement", "kr": false },
+            { "name": "Scarlet RF", "tag": "RF micro-aiguilles", "origin": "Viol / Coree", "description": "RF micro-aiguilles a impulsions courtes avec temps d'arret minimal", "kr": true },
+            { "name": "INTRAcel", "tag": "RF micro-aiguilles", "origin": "Jeisys / Coree", "description": "RF micro-aiguilles fractionnee avec forme d'onde biphasee", "kr": true },
+            { "name": "DENSITY", "tag": "RF", "origin": "Jeisys / Coree", "description": "Dispositif de lifting facial haute frequence avec technologie Alpha Tip", "kr": true },
+            { "name": "CoolSonic", "tag": "Ultrasons", "origin": "CoolSonic / Coree", "description": "Lifting et raffermissement ultrasonore non invasif avec technologie de refroidissement pour un confort accru", "kr": true },
+            { "name": "Oligio", "tag": "RF monopolaire", "origin": "Classys / Coree", "description": "Raffermissement cutane par RF monopolaire avec controle d'energie par IA ; alternative nouvelle generation au Thermage", "kr": true },
+            { "name": "ONDA Coolwaves", "tag": "Micro-ondes", "origin": "DEKA / Italie", "description": "Technologie micro-ondes (Coolwaves) pour raffermissement cutane, reduction graisseuse et traitement de la cellulite", "kr": true }
+          ]
+        },
+        {
+          "id": "rejuvenation",
+          "title": "Rajeunissement cutane et boosters",
+          "treatments": [
+            { "name": "Rejuran Healer", "tag": "PN/PDRN", "origin": "Pharmaresearch / Coree", "description": "Polynucleotide derive de l'ADN de saumon pour la regeneration cutanee et la synthese du collagene", "kr": true },
+            { "name": "Rejuran I (Eye)", "tag": "PN/PDRN", "origin": "Pharmaresearch / Coree", "description": "PDRN pur a 98,7 % specialise pour le rajeunissement du contour des yeux", "kr": true },
+            { "name": "Juvelook", "tag": "Bio-stimulateur", "origin": "Hugel / Coree", "description": "Booster PDLLA + HA non reticule qui stimule le collagene pendant 18 mois", "kr": true },
+            { "name": "Gouri", "tag": "PCL", "origin": "DEXLEVO / Coree", "description": "Premier stimulateur de collagene PCL liquide injectable entierement solubilise au monde", "kr": true },
+            { "name": "Profhilo", "tag": "Bio-remodeleur HA", "origin": "IBSA / Italie", "description": "Injectable HA haute concentration pour hydratation intense avec technique d'injection en 5 points", "kr": false },
+            { "name": "NCTF 135 HA", "tag": "Mesotherapie", "origin": "Fillmed / France", "description": "Cocktail HA + vitamines + acides amines + co-enzymes pour revitalisation cellulaire", "kr": true },
+            { "name": "Sunekos", "tag": "Acides amines", "origin": "Professional Derma / Italie", "description": "Formule brevetee acides amines + HA pour la regeneration de la matrice extracellulaire", "kr": false },
+            { "name": "Juvederm Skinvive", "tag": "Hydratant HA", "origin": "Allergan / USA", "description": "Injectable intradermique HA en microgouttelettes pour un lissage cutane durant jusqu'a 6 mois", "kr": false },
+            { "name": "Elravie Re2O", "tag": "Booster MEC", "origin": "Humedix / Coree", "description": "Premier booster cutane a base de MEC ; reconstitue les composants de la matrice extracellulaire", "kr": true },
+            { "name": "Lituo (hADM)", "tag": "Booster MEC", "origin": "CGBio / Coree", "description": "Booster de matrice dermique acellulaire humaine qui reconstitue directement le collagene et l'elastine", "kr": true },
+            { "name": "Aesthefill", "tag": "PDLLA", "origin": "REGEN Biotech / Coree", "description": "Stimulateur de collagene a microspheres PDLLA pour le volume et la qualite cutanee", "kr": true },
+            { "name": "Exosome Therapy", "tag": "Facteur de croissance", "origin": "Divers / Coree", "description": "Therapie par exosomes derives de cellules souches pour la regeneration cellulaire et la guerison amelioree", "kr": true },
+            { "name": "LDM (Local Dynamic Micro)", "tag": "Ultrasons", "origin": "General Project / Allemagne", "description": "Micromassage ultrasonore basse frequence pour hydratation et activation cellulaire ; zero temps d'arret", "kr": true }
+          ]
+        },
+        {
+          "id": "laser",
+          "title": "Laser et luminotherapie",
+          "treatments": [
+            { "name": "PicoSure Pro", "tag": "Picoseconde", "origin": "Cynosure / USA", "description": "Laser picoseconde 755nm + 532nm avec Focus Lens Array pour pigment et stimulation du collagene", "kr": true },
+            { "name": "PicoWay", "tag": "Picoseconde", "origin": "Candela / USA", "description": "Pico multi-longueurs d'onde (532/730/1064nm) avec fractionnement Resolve ; excellent pour le melasma", "kr": true },
+            { "name": "PicoLO", "tag": "Picoseconde", "origin": "LASEROPTEK / Coree", "description": "Laser picoseconde Nd:YAG coreen pour pigmentation et cicatrices d'acne", "kr": true },
+            { "name": "Discovery Pico Plus", "tag": "Picoseconde", "origin": "Quanta System / Italie", "description": "Plateforme pico + nano multi-longueurs d'onde avec embouts fractionnels", "kr": false },
+            { "name": "Stellar M22", "tag": "Plateforme IPL", "origin": "Lumenis / Israel", "description": "Plateforme multi-applications IPL + Nd:YAG + ResurFX traitant 30+ affections cutanees", "kr": true },
+            { "name": "BBL (BroadBand Light)", "tag": "IPL", "origin": "Sciton / USA", "description": "IPL avancee avec filtres refroidis thermoelectriquement pour le photorajeunissement", "kr": false },
+            { "name": "eCO2 3D", "tag": "CO2 fractionne", "origin": "Lutronic / Coree", "description": "CO2 fractionne 40W avec balayage Controlled Chaos pour resurfacage profond", "kr": true },
+            { "name": "Fraxel DUAL", "tag": "Fractionne non ablatif", "origin": "Solta Medical / USA", "description": "Fractionne double longueur d'onde (1550/1927nm) non ablatif pour cicatrices et pigment", "kr": true },
+            { "name": "LaseMD Ultra", "tag": "Laser thulium", "origin": "Lutronic / Coree", "description": "Laser fractionne thulium 1927nm pour l'eclaircissement et l'administration de principes actifs", "kr": true },
+            { "name": "Healite II", "tag": "LED Therapie", "origin": "Bio-Photas / Coree", "description": "LED professionnelle 830nm + 633nm pour reparation cellulaire et guerison post-procedure", "kr": true },
+            { "name": "Omnilux", "tag": "LED Therapie", "origin": "GlobalMed / Royaume-Uni", "description": "LED de grade medical validee par 30+ etudes evaluees par des pairs pour l'acne et l'anti-age", "kr": false },
+            { "name": "CoolPeel", "tag": "Laser CO2", "origin": "Cartessa / USA", "description": "Technologie H-Pulse pour traitement CO2 entierement ablatif avec temps d'arret minimal", "kr": false },
+            { "name": "Cutera Excel HR", "tag": "Nd:YAG/Alex", "origin": "Cutera / USA", "description": "Plateforme laser double longueur d'onde pour epilation, lesions vasculaires et rajeunissement cutane", "kr": true },
+            { "name": "Clarity II", "tag": "Alex/Nd:YAG", "origin": "Lutronic / Coree", "description": "Plateforme double impulsion longue + Q-switch pour pigment, vasculaire et epilation", "kr": true }
+          ]
+        },
+        {
+          "id": "injectables",
+          "title": "Injectables",
+          "treatments": [
+            { "name": "Botox", "tag": "Toxine botulique", "origin": "Allergan / USA", "description": "Toxine botulique de type A la plus reconnue au monde pour les rides et l'hyperhidrose", "kr": true },
+            { "name": "Dysport", "tag": "Toxine botulique", "origin": "Galderma / France", "description": "AbobotulinumtoxineA avec schema de diffusion plus large pour les rides glabellaires", "kr": true },
+            { "name": "Xeomin", "tag": "Toxine botulique", "origin": "Merz / Allemagne", "description": "Toxine botulique pure sans proteines complexantes ; pas de refrigeration necessaire", "kr": false },
+            { "name": "Nabota (Jeuveau)", "tag": "Toxine botulique", "origin": "Daewoong / Coree", "description": "Toxine botulique coreenne agreee FDA avec fabrication haute purete brevetee", "kr": true },
+            { "name": "Botulax (Letybo)", "tag": "Toxine botulique", "origin": "Hugel / Coree", "description": "Toxine coreenne agreee FDA ; 12M+ flacons vendus annuellement dans le monde", "kr": true },
+            { "name": "Meditoxin", "tag": "Toxine botulique", "origin": "Medytox / Coree", "description": "62,3 % de preference parmi les dermatologues coreens ; 40 % de part de marche nationale", "kr": true }
+          ]
+        },
+        {
+          "id": "fillers",
+          "title": "Fillers dermiques",
+          "treatments": [
+            { "name": "Juvederm (Voluma/Volift/Volbella)", "tag": "Filler HA", "origin": "Allergan / USA", "description": "Famille de fillers HA technologie Vycross pour les joues, les levres et les rides fines. Zones : visage complet (joues, menton, levres, sillons nasogeniens, cernes), corps (mains)", "kr": true },
+            { "name": "Restylane (Lyft/Kysse)", "tag": "Filler HA", "origin": "Galderma / Suede", "description": "Fillers HA technologie NASHA et XpresHAn pour soutien structurel et levres. Zones : visage complet (joues, levres, menton, machoire, cernes), corps (mains, lobes d'oreilles)", "kr": true },
+            { "name": "Teosyal (RHA)", "tag": "Filler HA", "origin": "Teoxane / Suisse", "description": "Technologie HA resiliente qui s'adapte aux mouvements du visage. Zones : visage complet (levres, joues, sillons nasogeniens, cernes, machoire)", "kr": false },
+            { "name": "Belotero", "tag": "Filler HA", "origin": "Merz / Allemagne", "description": "Fillers HA technologie CPM avec integration tissulaire lisse. Zones : visage complet (rides fines, levres, sillons nasogeniens, cernes)", "kr": false },
+            { "name": "Revolax", "tag": "Filler HA", "origin": "Across / Coree", "description": "Filler HA reticule haute purete ; rapport cout-efficacite pour rides profondes et volume. Zones : visage complet (rides profondes, joues, menton, nez, levres)", "kr": true },
+            { "name": "Neuramis", "tag": "Filler HA", "origin": "Medytox / Coree", "description": "Filler HA coreen pour augmentation des levres et remodelage facial. Zones : visage complet (levres, sillons nasogeniens, menton, joues)", "kr": true },
+            { "name": "Yvoire", "tag": "Filler HA", "origin": "LG Chem / Coree", "description": "Filler HA biphasique avec fort soutien structurel. Zones : visage complet (joues, menton, machoire, arete du nez), corps (mains)", "kr": true },
+            { "name": "E.P.T.Q.", "tag": "Filler HA", "origin": "Hugel / Coree", "description": "Filler HA monophasique premium pour les marches mondiaux. Zones : visage complet (joues, machoire, levres, nez), corps (mains)", "kr": true },
+            { "name": "Kybella (Belkyra)", "tag": "Dissolveur de graisse", "origin": "Allergan / USA", "description": "Seul injectable d'acide deoxycholique agree FDA pour reduction de la graisse sous-mentonniere. Zones : visage (double menton), corps (bourrelets, interieur des cuisses)", "kr": false },
+            { "name": "Kabelline", "tag": "Dissolveur de graisse", "origin": "Kabelline / Coree", "description": "Dissolveur de graisse a base d'acide deoxycholique synthetique pour remodelage du visage et du corps. Zones : visage (double menton, bajoues), corps (abdomen, poignees d'amour, interieur des cuisses, haut des bras)", "kr": true },
+            { "name": "Sculptra", "tag": "PLLA", "origin": "Galderma / France", "description": "Acide poly-L-lactique qui stimule la production de collagene de type 1 pour une restauration progressive du volume. Zones : visage complet (tempes, joues, machoire, sillons nasogeniens), corps (fessiers, epaules, haut des bras, hanches)", "kr": true },
+            { "name": "Radiesse", "tag": "CaHA", "origin": "Merz / USA-Allemagne", "description": "Biostimulateur a l'hydroxyapatite de calcium pour la fermete cutanee et le renouvellement du collagene a long terme. Zones : visage complet (joues, machoire, menton, mains), corps (epaules, decollete, haut des bras, genoux)", "kr": true },
+            { "name": "Dermalax", "tag": "Filler HA", "origin": "Across / Coree", "description": "Gamme de fillers HA reticules pour le visage et le corps. Zones : visage complet (joues, menton, levres, front), corps (mains)", "kr": true },
+            { "name": "Rejeunesse", "tag": "Filler HA", "origin": "Humedix / Coree", "description": "HA hautement reticule pour des ameliorations naturelles et subtiles. Zones : visage complet (levres, sillons nasogeniens, joues, menton)", "kr": true }
+          ]
+        },
+        {
+          "id": "threads",
+          "title": "Lifting par fils",
+          "treatments": [
+            { "name": "MINT Lift", "tag": "PDO", "origin": "HansBiomed / Coree", "description": "Fils PDO triple agrement FDA ; reference en lifting par fils coreen", "kr": true },
+            { "name": "Miracu", "tag": "PDO", "origin": "CROMA / Coree", "description": "Fils PDO coreens largement utilises pour le lifting non chirurgical du visage", "kr": true },
+            { "name": "Silhouette Soft", "tag": "PLLA", "origin": "Sinclair Pharma / Royaume-Uni", "description": "Fils PLLA a cones bidirectionnels pour lifting immediat + stimulation progressive du collagene", "kr": false },
+            { "name": "Silhouette InstaLift", "tag": "PLLA/PLGA", "origin": "Sinclair / USA", "description": "Suture resorbable avec cones bidirectionnels ; agree FDA pour le milieu du visage", "kr": false },
+            { "name": "Glamour Silhouline", "tag": "PCL", "origin": "Glamour / Coree", "description": "Fils PCL torsades resorbes en 24 mois ; plus longue stimulation du collagene", "kr": true },
+            { "name": "Aptos", "tag": "PDO/PLA", "origin": "Aptos / Georgie", "description": "Pionnier du lifting par fils avec les gammes Excellence et Nano pour le visage et le corps", "kr": false }
+          ]
+        },
+        {
+          "id": "surface",
+          "title": "Traitements de surface et peelings",
+          "treatments": [
+            { "name": "HydraFacial", "tag": "Aqua Peel", "origin": "BeautyHealth / USA", "description": "Technologie vortex brevetee pour nettoyage-exfoliation-extraction-hydratation en une seance", "kr": true },
+            { "name": "Aqua Peel", "tag": "Microdermabrasion a l'eau", "origin": "Divers / Coree", "description": "Microdermabrasion a l'eau en 3 etapes (AHA, BHA, nutrition) standard dans les cliniques coreennes", "kr": true },
+            { "name": "SkinPen", "tag": "Microneedling", "origin": "Crown Aesthetics / USA", "description": "Premier dispositif de microneedling agree FDA pour les cicatrices d'acne", "kr": false },
+            { "name": "Dermapen 4", "tag": "Microneedling", "origin": "DermapenWorld / Australie", "description": "Stylo de microneedling avance avec cartouche 16 aiguilles pour le traitement des cicatrices", "kr": false },
+            { "name": "ZO Skin Health Peels", "tag": "Peeling chimique", "origin": "ZO Skin Health / USA", "description": "Protocoles de peeling de grade medical par le Dr Zein Obagi", "kr": false },
+            { "name": "SkinCeuticals Peels", "tag": "Peeling chimique", "origin": "SkinCeuticals / USA", "description": "Gamme professionnelle de peelings chimiques incluant Micropeel et Advanced Corrective", "kr": false }
+          ]
+        },
+        {
+          "id": "pigment",
+          "title": "Pigmentation et vasculaire",
+          "treatments": [
+            { "name": "Excel V+", "tag": "Laser vasculaire", "origin": "Cutera / USA", "description": "Laser double longueur d'onde (532/1064nm) pour rosacee, veines et revitalisation cutanee", "kr": true },
+            { "name": "GentleMax Pro Plus", "tag": "Alex/Nd:YAG", "origin": "Candela / USA", "description": "Laser double 755nm + 1064nm pour lesions vasculaires, pigment et epilation", "kr": true },
+            { "name": "Vbeam Prima", "tag": "Colorant pulse", "origin": "Candela / USA", "description": "Laser vasculaire double 595nm + 1064nm ; reference pour la rosacee et les angiomes plans", "kr": false },
+            { "name": "RevLite SI", "tag": "Q-switched Nd:YAG", "origin": "Cynosure / USA", "description": "Laser toning pour melasma, pigmentation et rajeunissement cutane sur peau asiatique", "kr": true },
+            { "name": "Spectra XT", "tag": "Q-switched Nd:YAG", "origin": "Lutronic / Coree", "description": "Plateforme laser toning largement utilisee dans les cliniques coreennes pour le melasma", "kr": true }
+          ]
+        },
+        {
+          "id": "bodyContouring",
+          "title": "Remodelage corporel non chirurgical",
+          "treatments": [
+            { "name": "CoolSculpting Elite", "tag": "Cryolipolyse", "origin": "Allergan / USA", "description": "Refroidissement controle agree FDA pour geler et eliminer les cellules graisseuses", "kr": true },
+            { "name": "Emsculpt NEO", "tag": "HIFEM + RF", "origin": "BTL / USA-Tcheque", "description": "Combine stimulation electromagnetique musculaire + RF pour developpement musculaire et reduction graisseuse simultanees", "kr": true },
+            { "name": "Vanquish ME", "tag": "RF sans contact", "origin": "BTL / USA-Tcheque", "description": "RF selective sans contact pour reduction graisseuse sur grande surface sans toucher la peau", "kr": false },
+            { "name": "SculpSure", "tag": "Lipolyse laser", "origin": "Cynosure / USA", "description": "Laser diode 1060nm pour reduction graisseuse non invasive sur plusieurs zones corporelles", "kr": false },
+            { "name": "TightSculpting", "tag": "Double laser", "origin": "Fotona / Slovenie", "description": "Laser double longueur d'onde Er:YAG + Nd:YAG pour sculpture et raffermissement simultanes", "kr": false },
+            { "name": "Scizer", "tag": "HIFU corps", "origin": "Classys / Coree", "description": "Remodelage corporel par HIFU ; agree FDA pour reduction graisseuse non invasive", "kr": true }
+          ]
+        },
+        {
+          "id": "scalpHair",
+          "title": "Cuir chevelu et cheveux (non chirurgical)",
+          "treatments": [
+            { "name": "PRP Therapy (Scalp)", "tag": "PRP", "origin": "Divers / Mondial", "description": "Plasma riche en plaquettes injecte dans le cuir chevelu pour stimuler la regeneration folliculaire", "kr": true },
+            { "name": "Scalp Mesotherapy", "tag": "Mesotherapie", "origin": "Divers / Coree", "description": "Injection directe de facteurs de croissance, vitamines et nutriments dans le cuir chevelu", "kr": true },
+            { "name": "Hair Filler (DR CYJ)", "tag": "Filler peptidique", "origin": "Caregen / Coree", "description": "Injectable pour cuir chevelu a base de 7 peptides biomimetiques pour stimuler la pousse des cheveux", "kr": true },
+            { "name": "HairMax LaserBand", "tag": "LLLT", "origin": "HairMax / USA", "description": "Premier dispositif LLLT agree FDA pour le traitement de la perte de cheveux", "kr": false },
+            { "name": "Healite II (Scalp)", "tag": "LED Therapie", "origin": "Bio-Photas / Coree", "description": "LED 830nm pour stimulation folliculaire et absorption amelioree du PRP", "kr": true }
+          ]
+        },
+        {
+          "id": "stemCell",
+          "title": "Cellules souches et medecine regenerative",
+          "treatments": [
+            { "name": "Autologous Stem Cell Therapy", "tag": "Cellules souches", "origin": "Divers / Coree", "description": "Cellules souches derivees du tissu adipeux ou de la moelle osseuse du patient pour regeneration cutanee, cicatrisation et anti-age", "kr": true },
+            { "name": "Umbilical Cord Stem Cell (UC-MSC)", "tag": "Cellules souches", "origin": "Divers / Coree", "description": "Cellules souches mesenchymateuses allogeniques du cordon ombilical pour anti-age, modulation immunitaire et reparation tissulaire", "kr": true },
+            { "name": "MCT (MicroCoring Technology)", "tag": "Resurfacage cutane", "origin": "Cytrellis / USA", "description": "Des micro-carottes de peau sont retirees pour raffermir et rajeunir sans dommage thermique ; agree FDA pour reduction des rides", "kr": false },
+            { "name": "Exosome IV Therapy", "tag": "Exosome", "origin": "Divers / Coree", "description": "Perfusion intraveineuse d'exosomes derives de cellules souches pour anti-age systemique, rajeunissement cutane et reparation cellulaire", "kr": true },
+            { "name": "SVF (Stromal Vascular Fraction)", "tag": "Cellules souches", "origin": "Divers / Coree", "description": "Cellules souches et facteurs de croissance concentres derives du tissu adipeux pour rajeunissement facial et restauration du volume", "kr": true },
+            { "name": "PRP + Stem Cell Combination", "tag": "Regeneratif", "origin": "Divers / Coree", "description": "Plasma riche en plaquettes combine a la therapie par cellules souches pour une regeneration cutanee et une production de collagene ameliorees", "kr": true },
+            { "name": "NK Cell Therapy", "tag": "Cellule immunitaire", "origin": "Divers / Coree", "description": "Therapie par perfusion de cellules NK pour le renforcement immunitaire, l'anti-age et l'optimisation de la sante cellulaire", "kr": true },
+            { "name": "Fibroblast Therapy", "tag": "Therapie cellulaire", "origin": "Divers / Coree", "description": "Injection de fibroblastes autologues pour production naturelle de collagene et d'elastine ; amelioration a long terme de la qualite cutanee", "kr": true },
+            { "name": "Growth Factor Cocktail (GFC)", "tag": "Facteur de croissance", "origin": "Divers / Coree", "description": "Injection concentree de facteurs de croissance autologues pour rajeunissement cutane, pousse des cheveux et cicatrisation", "kr": true },
+            { "name": "Placental Extract Therapy", "tag": "Regeneratif", "origin": "Divers / Coree-Japon", "description": "Injection d'extrait placentaire humain (Laennec/Melsmon) pour anti-age, recuperation de la fatigue et fonction hepatique", "kr": true }
+          ]
+        }
+      ],
+      "skinConsulting": {
+        "badge": "Cliniques cutanees de confiance AetherHeal",
+        "title": "Consultation personnalisee a deux axes",
+        "description": "Dans les cliniques esthetiques cutanees de confiance AetherHeal, votre plan de traitement n'est pas un choix de menu — il est construit a partir de deux axes d'expertise independants qui convergent vers un plan concu uniquement pour vous.",
+        "physician": {
+          "label": "Directeur medical",
+          "detail": "Diagnostique l'etat de la peau, la structure osseuse et le teint d'un point de vue clinique. Evalue la qualite tissulaire, les schemas de vieillissement et les contre-indications pour determiner ce qui est medicalement approprie."
+        },
+        "coordinator": {
+          "label": "Coordinateur patient",
+          "detail": "Cartographie votre style de vie, preferences, routine quotidienne, tolerance aux temps d'arret et objectifs esthetiques. Traduit votre contexte concret en parametres de traitement."
+        },
+        "result": "La ou ces deux axes se rencontrent — realite clinique et contexte personnel — nait votre plan unique."
+      },
+      "subgroupLabels": {
+        "faceLift": "Lifting",
+        "faceContour": "Remodelage",
+        "faceFeatures": "Traits",
+        "bodyBreast": "Poitrine",
+        "bodyContour": "Remodelage",
+        "bodyLift": "Lifting"
+      }
+    }
+  },
+  "medicalBoundary": {
+    "meta": {
+      "title": "Avis de limites medicales | AetherHeal",
+      "description": "Comprenez les limites medicales et operationnelles IA d'AetherHeal. Cet avis explique ce que la plateforme peut soutenir et ce qui reste strictement de la responsabilite humaine et clinique."
+    },
+    "hero": {
+      "badge": "Juridique et securite",
+      "h1": "Avis de limites medicales",
+      "subtitle": "Cette page definit les limites cliniques, juridiques et operationnelles IA d'AetherHeal. La comprehension de ces limites est requise avant utilisation."
+    },
+    "boundaries": [
+      {
+        "title": "Pas un prestataire medical",
+        "description": "AetherHeal ne fournit pas de diagnostic medical, de traitement, de prescriptions ni de soins hospitaliers. Nous sommes une plateforme de soutien decisionnel et de coordination, pas un hopital, une clinique ou un service de telemedecine."
+      },
+      {
+        "title": "L'IA ne diagnostique ni ne prescrit",
+        "description": "Les outils assistes par IA utilises par AetherHeal ne diagnostiquent pas de conditions, ne recommandent pas de medicaments, ne prescrivent pas de traitements et ne produisent pas de conclusions medicales independantes."
+      },
+      {
+        "title": "L'IA ne remplace pas la consultation medicale",
+        "description": "Les resumes ou traductions assistes par IA peuvent soutenir la communication, mais ne remplacent pas la consultation directe avec un medecin agree ou l'hopital traitant."
+      },
+      {
+        "title": "L'IA ne determine pas les soins d'urgence",
+        "description": "Ni AetherHeal ni ses outils assistes par IA ne determinent si une situation est une urgence. En cas de symptomes urgents ou graves, consultez immediatement les services medicaux d'urgence locaux."
+      },
+      {
+        "title": "L'IA ne fait pas la selection finale du prestataire",
+        "description": "L'IA peut aider a organiser les informations du cas, mais la selection finale du prestataire, le routage hospitalier et les approbations des etapes suivantes restent des decisions humaines responsables."
+      },
+      {
+        "title": "Pas de garantie de resultats",
+        "description": "Le soutien decisionnel peut ameliorer la clarte, mais ne garantit pas un resultat medical particulier. Les resultats du traitement dependent de facteurs cliniques hors du controle de la plateforme."
+      }
+    ],
+    "aiSupport": {
+      "badge": "Soutien IA autorise",
+      "title": "Ce que l'IA peut soutenir",
+      "intro": "Dans ces limites, l'IA peut etre utilisee pour un soutien administratif et informationnel strictement encadre sous supervision humaine.",
+      "items": [
+        "Structuration des informations d'accueil et des dossiers telecharges en brouillons standardises",
+        "Resume des materiaux de cas pour examen par le medecin, l'auditeur ou les operations",
+        "Traduction de messages de routine et de contenu de coordination non diagnostique",
+        "Identification des informations manquantes, incoherences ou retards de flux de travail pour suivi humain",
+        "Surveillance de l'etat operationnel, de la livraison des messages et des exceptions de service"
+      ]
+    },
+    "emergency": {
+      "title": "Avis d'urgence",
+      "text": "N'utilisez pas cette plateforme pour des symptomes urgents ou des conditions mettant la vie en danger. Contactez immediatement les services d'urgence locaux.",
+      "phone": "Urgence : Appelez votre numero d'urgence local (911, 112, 119)"
+    },
+    "responsibilities": {
+      "badge": "Vos responsabilites",
+      "title": "Votre role en tant qu'utilisateur de la plateforme",
+      "items": [
+        "Fournir des informations d'accueil completes et exactes",
+        "Verifier les resumes, traductions et details de coordination pour leur exactitude factuelle",
+        "Consulter votre medecin ou hopital traitant pour des conseils medicaux directs",
+        "Prendre vos propres decisions de traitement apres un examen clinique approprie",
+        "Utiliser les services d'urgence pour les conditions medicales urgentes",
+        "Comprendre qu'AetherHeal fournit uniquement un soutien decisionnel et de coordination encadre"
+      ],
+      "ctaProcess": "Examiner le processus",
+      "ctaOversight": "Voir la supervision"
+    }
+  },
+  "hairTransplant": {
+    "meta": {
+      "title": "Greffe de cheveux en Coree | AetherHeal",
+      "description": "Vous envisagez une greffe de cheveux en Coree ? AetherHeal fournit un soutien decisionnel dirige par un medecin pour vous aider a evaluer les cliniques, comprendre les procedures et planifier votre voyage a Seoul."
+    },
+    "hero": {
+      "badge": "Greffe de cheveux",
+      "h1": "Greffe de cheveux en Coree :",
+      "h1Highlight": "Ce qu'il faut savoir avant de decider",
+      "intro": "La Coree est l'une des destinations les plus recherchees pour la greffe de cheveux.",
+      "introDetail": "Avec des techniques FUE avancees, des chirurgiens experimentes et des prix competitifs, Seoul est devenue un centre mondial. Mais choisir la bonne clinique exige plus qu'une recherche Google."
+    },
+    "toc": [
+      { "id": "why-korea", "label": "Pourquoi les patients choisissent la Coree" },
+      { "id": "what-we-offer", "label": "Ce qu'offre AetherHeal" },
+      { "id": "common-procedures", "label": "Procedures courantes couvertes" }
+    ],
+    "whyKorea": {
+      "title": "Pourquoi les patients choisissent la Coree pour la greffe de cheveux",
+      "p1": "Les cliniques coreennes sont reconnues pour leur precision dans l'extraction d'unites folliculaires (FUE) et les procedures assistees par robot. Les chirurgiens a Seoul se specialisent souvent exclusivement dans la restauration capillaire, effectuant des milliers de procedures par an.",
+      "p2": "Cependant, toutes les cliniques ne fonctionnent pas au meme standard. Le marketing peut masquer la qualite clinique, et les barrieres linguistiques compliquent l'evaluation pre-operatoire. Un processus decisionnel structure est essentiel."
+    },
+    "whatWeOffer": {
+      "title": "Ce qu'offre AetherHeal",
+      "intro": "AetherHeal n'effectue pas de greffes de cheveux. Nous fournissons un soutien decisionnel dirige par un medecin qui vous aide a clarifier vos objectifs, comprendre les compromis des differentes techniques et vous connecter avec des cliniques partenaires verifiees en fonction de votre cas specifique.",
+      "items": [
+        "Consultation 1:1 avec un medecin coreen agree",
+        "Resume decisionnel couvrant le nombre de greffons, l'evaluation de la zone donneuse et la comparaison des techniques",
+        "Mise en relation avec une clinique partenaire basee sur votre profil clinique",
+        "Coordination du parcours de l'arrivee au suivi"
+      ]
+    },
+    "commonProcedures": {
+      "title": "Procedures courantes couvertes",
+      "text": "FUE (extraction d'unites folliculaires), DHI (implantation capillaire directe), micropigmentation du cuir chevelu, consultation de design de la ligne frontale et cas de revision.",
+      "boxTitle": "Evaluation individuelle",
+      "boxText": "Chaque cas est evalue individuellement. Nous veillons a ce qu'aucune recommandation standardisee ne soit formulee."
+    },
+    "relatedPages": [
+      { "label": "Cliniques esthetiques a Seoul", "desc": "Naviguez les traitements cutanes et la dermatologie" },
+      { "label": "Comment choisir un hopital a l'etranger", "desc": "Un cadre pour des decisions plus sures" },
+      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment nous evaluons les hopitaux partenaires" },
+      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+    ]
+  },
+  "plasticSurgery": {
+    "meta": {
+      "title": "Chirurgie esthetique en Coree | AetherHeal",
+      "description": "Vous envisagez une chirurgie esthetique en Coree ? AetherHeal offre un soutien decisionnel dirige par un medecin pour la rhinoplastie, le remodelage facial, la blepharoplastie et plus — un accompagnement structure avant tout contact hospitalier."
+    },
+    "hero": {
+      "badge": "Chirurgie esthetique",
+      "h1": "Chirurgie esthetique en Coree :",
+      "h1Highlight": "Structurez d'abord votre decision",
+      "intro": "La Coree realise plus de procedures cosmetiques par habitant que presque tout autre pays.",
+      "introDetail": "Pour les patients internationaux, cela cree a la fois des opportunites et de la complexite. AetherHeal vous aide a naviguer cette complexite avec un soutien decisionnel dirige par un medecin — avant de contacter un hopital."
+    },
+    "toc": [
+      { "id": "common-procedures", "label": "Procedures couramment envisagees" },
+      { "id": "risk-of-unstructured", "label": "Le risque des decisions non structurees" },
+      { "id": "how-aetherheal-helps", "label": "Comment AetherHeal aide" }
+    ],
+    "commonProcedures": {
+      "title": "Procedures couramment envisagees",
+      "text": "Rhinoplastie (remodelage et revision du nez), blepharoplastie (chirurgie de la double paupiere et correction du ptosis), remodelage facial (reduction de la machoire V-line, reduction des pommettes), augmentation mammaire, remodelage corporel et greffe de graisse font partie des procedures les plus discutees.",
+      "callout": "Chaque procedure comporte des risques specifiques et des exigences de recuperation. Les comprendre avant de s'engager aupres d'une clinique n'est pas optionnel — c'est essentiel."
+    },
+    "riskOfUnstructured": {
+      "title": "Le risque des decisions non structurees",
+      "text": "De nombreux patients choisissent des cliniques sur la base d'avis sur les reseaux sociaux, de comparaisons de prix ou de recommandations d'agences. Ces methodes prennent rarement en compte l'adequation clinique, la specialisation du chirurgien ou le risque de revision.",
+      "callout": "AetherHeal comble cette lacune en fournissant une evaluation de votre cas dirigee par un medecin avant toute presentation hospitaliere."
+    },
+    "howWeHelp": {
+      "title": "Comment AetherHeal aide",
+      "items": [
+        "Consultation medicale pour definir des attentes et contraintes realistes",
+        "Resume decisionnel avec documentation des risques specifiques a la procedure",
+        "Mise en relation avec un hopital partenaire basee sur la specialisation chirurgicale",
+        "Accompagnement complet du parcours incluant la coordination du suivi postoperatoire"
+      ]
+    },
+    "relatedPages": [
+      { "label": "Greffe de cheveux en Coree", "desc": "Accompagnement dirige par un medecin pour la restauration capillaire" },
+      { "label": "Cliniques esthetiques a Seoul", "desc": "Naviguez les traitements cutanes et la dermatologie" },
+      { "label": "Comment choisir un hopital a l'etranger", "desc": "Un cadre pour des decisions plus sures" },
+      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+    ]
+  },
+  "aestheticClinic": {
+    "meta": {
+      "title": "Cliniques esthetiques a Seoul | AetherHeal",
+      "description": "Trouvez des cliniques esthetiques verifiees par des medecins a Seoul. AetherHeal aide les patients internationaux a naviguer les traitements cutanes, les procedures anti-age et la dermatologie cosmetique avec clarte decisionnelle."
+    },
+    "hero": {
+      "badge": "Medecine esthetique",
+      "h1": "Cliniques esthetiques a Seoul :",
+      "h1Highlight": "Naviguez en toute confiance",
+      "intro": "Le quartier de Gangnam a Seoul compte a lui seul des milliers de cliniques esthetiques.",
+      "introDetail": "La densite d'options peut etre ecrasante pour les patients internationaux. AetherHeal fournit un accompagnement structure pour vous aider a prendre des decisions eclairees sur les traitements cutanes et les procedures cosmetiques."
+    },
+    "toc": [
+      { "id": "why-seoul", "label": "Pourquoi Seoul pour les traitements esthetiques" },
+      { "id": "how-we-support", "label": "Comment AetherHeal soutient votre decision" },
+      { "id": "treatments-discussed", "label": "Traitements couramment discutes" }
+    ],
+    "whySeoul": {
+      "title": "Pourquoi Seoul pour les traitements esthetiques",
+      "p1": "La Coree est reconnue mondialement pour sa recherche dermatologique avancee et sa technologie esthetique. Des traitements comme les boosters cutanes, le lifting par fils, le HIFU et la therapie laser sont realises avec des equipements et protocoles specialises developpes dans des environnements cliniques coreens.",
+      "p2": "Des marques populaires comme Rejuran, Juvelook, Sculptra et Ulthera sont largement administrees par des dermatologues hautement specialises.",
+      "callout": "Le defi pour les patients internationaux est d'identifier quelle clinique — et quel medecin — est adapte a leurs besoins specifiques."
+    },
+    "howWeSupport": {
+      "title": "Comment AetherHeal soutient votre decision",
+      "items": [
+        "Consultation dirigee par un medecin pour clarifier les objectifs de traitement et les preoccupations cutanees",
+        "Evaluation objective des options de procedure sans biais de marque",
+        "Mise en relation avec des cliniques partenaires specialisees dans votre domaine d'interet",
+        "Resume decisionnel pre-traitement avec resultats attendus et limites"
+      ]
+    },
+    "treatmentsDiscussed": {
+      "title": "Traitements couramment discutes",
+      "text": "Boosters cutanes et biostimulateurs, lifting par fils, HIFU et raffermissement RF, resurfacage laser, fillers et restauration volumetrique, et protocoles anti-age.",
+      "callout": "Chaque plan de traitement est discute avec un medecin agree avant tout contact avec une clinique."
+    },
+    "relatedPages": [
+      { "label": "Greffe de cheveux en Coree", "desc": "Accompagnement dirige par un medecin pour la restauration capillaire" },
+      { "label": "Chirurgie esthetique en Coree", "desc": "Soutien decisionnel structure pour les procedures cosmetiques" },
+      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment nous evaluons les hopitaux partenaires" },
+      { "label": "Votre parcours medical", "desc": "Coordination de bout en bout de la decision a la convalescence" }
+    ]
+  },
+  "medicalJourney": {
+    "meta": {
+      "title": "Votre parcours medical a Seoul | AetherHeal",
+      "description": "Un parcours medical a Seoul en trois etapes avec une responsabilite claire avant le voyage, en Coree et apres le retour. L'IA soutient la coordination tandis que les humains conservent la responsabilite clinique et decisionnelle finale."
+    },
+    "hero": {
+      "badge": "Coordination du parcours",
+      "h1": "Votre parcours medical a Seoul :",
+      "h1Highlight": "Coordonne en trois etapes",
+      "intro": "Les soins medicaux transfrontaliers deviennent plus surs quand chaque phase a une responsabilite claire.",
+      "introDetail": "AetherHeal separe le parcours en avant le voyage, en Coree et apres le retour pour que le soutien IA, l'examen medical, les soins hospitaliers et la responsabilite de la conciergerie ne se confondent pas."
+    },
+    "toc": [
+      { "id": "before-travel", "label": "Avant le voyage" },
+      { "id": "in-korea", "label": "En Coree" },
+      { "id": "after-return", "label": "Apres le retour" },
+      { "id": "what-makes-different", "label": "Ce qui rend cela different" }
+    ],
+    "journeyStages": {
+      "title": "Trois etapes, un parcours responsable",
+      "intro": "Chaque etape a un objectif defini. L'IA peut soutenir la clarte administrative et la continuite, mais le jugement clinique, le traitement, l'escalade et les approbations finales restent des responsabilites humaines.",
+      "stages": [
+        {
+          "id": "before-travel",
+          "label": "Etape 1",
+          "title": "Avant le voyage",
+          "summary": "Cette etape sert a structurer le cas avant que tout parcours de traitement ne commence. L'objectif est la preparation a la decision, pas la vitesse.",
+          "milestonesTitle": "Jalons principaux",
+          "items": [
+            { "title": "Structuration de la decision", "desc": "Objectifs, contraintes, dossiers anterieurs et questions ouvertes sont organises en un cadre decisionnel plus clair avant la prise de contact avec les partenaires." },
+            { "title": "Preparation de la faisabilite", "desc": "Les documents appropries, contraintes de voyage et hypotheses de perimetre sont verifies pour que le cas soit adapte a l'examen hospitalier." },
+            { "title": "Preparation de la coordination", "desc": "L'intention de planification, les calendriers probables et la planification pratique du voyage ne sont prepares qu'apres que le cas est suffisamment clarifie." }
+          ],
+          "aiTitle": "L'IA soutient",
+          "aiItems": [
+            "Structuration des informations d'accueil et des brouillons de resume pour examen",
+            "Soutien a la traduction de dossiers ou de messages de coordination de routine",
+            "Identification des documents manquants, details contradictoires ou questions non resolues"
+          ],
+          "humanTitle": "Les humains decident",
+          "humanItems": [
+            "Definir les limites cliniques et le veritable objet du cas",
+            "Confirmer si le cas est pret a avancer, a etre differe ou a etre re-clarifie",
+            "Approuver la prise de contact avec les partenaires, la planification et les engagements d'etapes suivantes"
+          ]
+        },
+        {
+          "id": "in-korea",
+          "label": "Etape 2",
+          "title": "En Coree",
+          "summary": "Une fois le patient sur place, la coordination doit rester precise tandis que l'autorite de traitement reste a l'institution traitante et aux cliniciens responsables.",
+          "milestonesTitle": "Jalons principaux",
+          "items": [
+            { "title": "Arrivee et transfert", "desc": "Un concierge verifie — chauffeur, traducteur ou guide — est assigne avant votre atterrissage. La coordination en temps reel synchronise la prise en charge a l'aeroport, le transport et les rendez-vous sans que le patient ne gere seul la logistique." },
+            { "title": "Execution hospitaliere", "desc": "Consultation, consentement eclaire et planification du traitement ont lieu dans l'environnement de l'hopital ou de la clinique agrees." },
+            { "title": "Soutien en temps reel", "desc": "Votre equipe de conciergerie — chauffeurs freelance verifies, interpretes hospitaliers certifies et guides locaux — coordonne sur le terrain via une plateforme en direct. Les retards, transferts manques ou escalades sont visibles en temps reel." }
+          ],
+          "aiTitle": "L'IA soutient",
+          "aiItems": [
+            "Synchronisation des itineraires, rappels et coordination de routine",
+            "Assistance a la traduction de communications non diagnostiques de routine",
+            "Surveillance des lacunes de flux de travail, transferts manques ou risques de calendrier pour suivi humain"
+          ],
+          "humanTitle": "Les humains decident",
+          "humanItems": [
+            "Consultation hospitaliere, consentement eclaire et toutes les decisions de traitement medical",
+            "Escalade quand quelque chose parait urgent, flou ou hors du flux de travail normal",
+            "Jugement operationnel final par la conciergerie et le personnel de la plateforme sur place"
+          ]
+        },
+        {
+          "id": "after-return",
+          "label": "Etape 3",
+          "title": "Apres le retour",
+          "summary": "Apres le retour du patient, la continuite est essentielle. L'objectif est de preserver la communication, le suivi et l'escalade documentee si necessaire.",
+          "milestonesTitle": "Jalons principaux",
+          "items": [
+            { "title": "Continuite du suivi", "desc": "Mises a jour, bilans et continuite des soins sont coordonnes pour que la communication de convalescence ne se fragmente pas a travers les frontieres." },
+            { "title": "Hygiene documentaire", "desc": "Notes de convalescence, images et messages de suivi sont organises pour examen et continuite du cas." },
+            { "title": "Discipline d'escalade", "desc": "Si des preoccupations de convalescence surviennent, le patient est oriente vers le medecin traitant ou local approprie plutot que vers une reassurance informelle." }
+          ],
+          "aiTitle": "L'IA soutient",
+          "aiItems": [
+            "Organisation des messages de suivi et mises a jour de convalescence en notes de cas structurees",
+            "Soutien a la traduction et a la redaction de resumes pour les flux de continuite",
+            "Signalement des bilans sans reponse ou lacunes de coordination necessitant une attention humaine"
+          ],
+          "humanTitle": "Les humains decident",
+          "humanItems": [
+            "Interpretation clinique de l'etat de convalescence par les medecins appropries",
+            "Conseil sur le moment ou le patient doit contacter l'hopital traitant ou le medecin local",
+            "Gestion de la continuite, de l'escalade et du suivi documente"
+          ]
+        }
+      ]
+    },
+    "whatMakesDifferent": {
+      "title": "Ce qui rend cela different",
+      "text": "Contrairement aux modeles de tourisme medical qui melangent vente, logistique et jugement medical, AetherHeal separe le parcours en phases explicites avec une responsabilite explicite.",
+      "boxTitle": "L'IA soutient le processus",
+      "boxText": "mais ne possede pas le diagnostic, le traitement, le jugement d'urgence ou la selection finale du prestataire. Ceux-ci restent des responsabilites humaines tout au long du parcours.",
+      "ctaPhilosophy": "Lire la philosophie complete"
+    },
+    "relatedPages": [
+      { "label": "Comment choisir un hopital a l'etranger", "desc": "Un cadre pour des decisions plus sures" },
+      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment fonctionnent la gouvernance, l'audit et l'application" },
+      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+    ]
+  },
+  "hospitalAbroad": {
+    "meta": {
+      "title": "Le guide ultime pour choisir un hopital a l'etranger | AetherHeal",
+      "description": "Un guide dirige par des medecins expliquant comment les patients internationaux peuvent evaluer les hopitaux a l'etranger et prendre des decisions medicales plus sures."
+    },
+    "hero": {
+      "badge": "Guide patient",
+      "h1": "Le guide ultime pour choisir un hopital a l'etranger",
+      "intro": "Chaque annee, des millions de patients voyagent a l'international pour un traitement medical.",
+      "p1": "Certains voyagent pour des procedures avancees. D'autres recherchent des soins plus abordables. Beaucoup cherchent des specialistes difficiles d'acces dans leur pays d'origine.",
+      "p2": "Mais choisir un hopital a l'etranger n'est pas une decision de consommation ordinaire.",
+      "callout": "C'est une decision a enjeux eleves dans l'incertitude.",
+      "selectingLabel": "Vous selectionnez :",
+      "selectingItems": ["une equipe medicale", "un plan de traitement", "un systeme de sante"],
+      "selectingEnd": "dans un pays que vous ne comprenez peut-etre pas entierement.",
+      "p3": "Internet offre une information infinie : avis, forums, photos avant-apres, sites de cliniques.",
+      "p4": "Mais plus d'information ne cree pas necessairement de la clarte. Dans de nombreux cas, cela cree une surcharge decisionnelle.",
+      "guideIntro": "Ce guide explique comment les medecins experimentes et les systemes de sante evaluent les hopitaux — et comment les patients internationaux peuvent appliquer la meme logique pour choisir un traitement a l'etranger."
+    },
+    "toc": [
+      { "id": "why-different", "label": "Pourquoi choisir un hopital a l'etranger est different" },
+      { "id": "common-mistakes", "label": "Erreurs courantes des patients internationaux" },
+      { "id": "hospital-quality", "label": "Ce qui determine reellement la qualite d'un hopital" },
+      { "id": "reviews-rankings", "label": "Pourquoi les avis et classements ne suffisent pas" },
+      { "id": "physician-led", "label": "Le modele de verification dirige par des medecins" },
+      { "id": "patient-journey", "label": "Le parcours du patient international" },
+      { "id": "south-korea", "label": "Pourquoi de nombreux patients choisissent la Coree du Sud" },
+      { "id": "structured-approach", "label": "Une approche structuree du voyage medical" },
+      { "id": "faq", "label": "Questions frequentes" }
+    ],
+    "whyDifferent": {
+      "title": "Pourquoi choisir un hopital a l'etranger est different",
+      "p1": "La plupart des decisions de consommation suivent une structure simple.",
+      "p2": "Vous comparez les produits. Vous lisez les avis. Vous evaluez prix et qualite.",
+      "p3": "Les decisions de sante sont fondamentalement differentes.",
+      "whoNote": "Selon l'Organisation mondiale de la sante, les soins de sante transfrontaliers continuent de croitre mondialement — mais les cadres de securite des patients n'ont pas suivi le rythme de la demande.",
+      "p4": "Trois caracteristiques rendent les decisions de sante uniques :",
+      "characteristics": [
+        {
+          "title": "1. Asymetrie d'information",
+          "p1": "En medecine, les patients possedent rarement les memes connaissances que les cliniciens.",
+          "p2": "Comprendre la qualite d'un traitement necessite :",
+          "items": ["une formation medicale", "une experience des complications", "une familiarite avec les resultats cliniques"],
+          "conclusion": "Cela rend difficile l'evaluation des prestataires a l'aide de signaux de consommation standard."
+        },
+        {
+          "title": "2. Les resultats sont incertains",
+          "p1": "Contrairement a l'achat d'un produit, les traitements medicaux impliquent des systemes biologiques.",
+          "p2": "Meme dans d'excellents hopitaux :",
+          "items": ["les resultats peuvent varier", "des complications peuvent survenir", "les delais de recuperation different"],
+          "conclusion": "Un bon processus decisionnel doit tenir compte de l'incertitude."
+        },
+        {
+          "title": "3. Le cout des erreurs est eleve",
+          "p1": "Si un achat de consommation echoue, il peut etre remplace.",
+          "p2": "Si une decision medicale echoue, les consequences peuvent inclure :",
+          "items": ["des procedures de revision", "de longues periodes de recuperation", "un stress emotionnel significatif"],
+          "conclusion": "Pour cette raison, le choix d'un hopital a l'etranger devrait etre aborde comme un processus decisionnel structure, pas comme une comparaison rapide."
+        }
+      ]
+    },
+    "commonMistakes": {
+      "title": "Erreurs courantes des patients internationaux",
+      "intro1": "Les patients recherchant un traitement a l'etranger s'appuient souvent sur des signaux qui semblent utiles mais sont incomplets.",
+      "intro2": "Comprendre ces limites peut ameliorer significativement la qualite de la decision.",
+      "mistakes": [
+        {
+          "title": "Erreur 1 : Se fier fortement aux avis en ligne",
+          "p1": "Les avis peuvent fournir un contexte utile, mais ils ont des limites structurelles.",
+          "p2": "Ils ont tendance a refleter :",
+          "items": ["des experiences extremement positives", "des experiences extremement negatives"],
+          "p3": "plutot que des resultats typiques.",
+          "p4": "De plus, les avis incluent rarement des informations medicales detaillees sur :",
+          "items2": ["la selection des patients", "la complexite du traitement", "le suivi clinique"],
+          "scenario": "De nombreux patients internationaux commencent leur recherche par les avis en ligne. Bien que les avis puissent mettre en lumiere les experiences des patients, ils refletent rarement la complexite clinique. Un patient subissant une procedure de routine peut laisser un avis cinq etoiles, tandis qu'un cas plus complexe — impliquant une chirurgie de revision, une anatomie inhabituelle ou un risque de complication plus eleve — peut necessiter un niveau d'expertise fondamentalement different que les avis ne capturent pas."
+        },
+        {
+          "title": "Erreur 2 : Comparer les cliniques principalement par le prix",
+          "p1": "Les differences de prix entre pays sont souvent importantes.",
+          "p2": "Cependant, se concentrer uniquement sur le cout ignore d'autres variables essentielles :",
+          "items": ["experience du chirurgien", "infrastructure hospitaliere", "gestion des complications", "soins de suivi"],
+          "conclusion": "Des prix plus bas peuvent refleter des couts operationnels plus faibles — mais aussi des differences de formation ou de systemes."
+        },
+        {
+          "title": "Erreur 3 : Evaluer le marketing plutot que la medecine",
+          "p1": "De nombreux sites de cliniques mettent en avant :",
+          "items": ["des photos avant-apres", "des temoignages", "la visibilite sur les reseaux sociaux"],
+          "p2": "Bien que ces elements puissent demontrer la satisfaction des patients, ils ne sont pas des substituts a l'evaluation clinique.",
+          "p3": "La qualite medicale est determinee par :",
+          "items2": ["l'expertise du medecin", "les normes institutionnelles", "les resultats a long terme"]
+        }
+      ]
+    },
+    "hospitalQuality": {
+      "title": "Ce qui determine reellement la qualite d'un hopital",
+      "intro1": "D'un point de vue clinique, les hopitaux sont evalues selon plusieurs facteurs fondamentaux.",
+      "intro2": "Comprendre ces facteurs peut aider les patients a interpreter plus efficacement les informations disponibles.",
+      "factors": [
+        {
+          "title": "Formation et specialisation du medecin",
+          "p1": "Le parcours de formation du medecin realisant la procedure est souvent la variable la plus importante.",
+          "p2": "Les considerations cles incluent :",
+          "items": ["formation medicale et internat", "experience specifique a la procedure", "implication dans la recherche ou l'enseignement"]
+        },
+        {
+          "title": "Normes institutionnelles",
+          "p1": "Les hopitaux different significativement dans leurs systemes et infrastructures.",
+          "p2": "Les elements importants incluent :",
+          "items": ["protocoles de bloc operatoire", "normes de sterilisation", "expertise infirmiere", "systemes de gestion des complications"]
+        },
+        {
+          "title": "Volume de procedures",
+          "p1": "Dans de nombreuses specialites, l'experience est fortement correlee aux resultats.",
+          "p2": "Les hopitaux qui effectuent un volume eleve d'une procedure specifique developpent souvent des systemes et techniques affines."
+        },
+        {
+          "title": "Gestion post-soins",
+          "p1": "Le voyage medical ne s'arrete pas quand la procedure est terminee.",
+          "p2": "La recuperation et les soins de suivi sont des parties essentielles du processus.",
+          "p3": "Les hopitaux avec des protocoles de post-soins clairs tendent a offrir des experiences patients plus previsibles."
+        }
+      ]
+    },
+    "reviewsRankings": {
+      "title": "Pourquoi les avis et classements ne suffisent pas",
+      "p1": "Les plateformes en ligne classent frequemment les cliniques selon :",
+      "items1": ["nombre d'avis", "notes", "indicateurs de popularite"],
+      "p2": "Ces systemes peuvent etre utiles pour identifier des prestataires largement connus.",
+      "p3": "Cependant, ils integrent rarement des signaux cliniques plus profonds tels que :",
+      "items2": ["planification du traitement", "selection des cas par le medecin", "gestion des complications"],
+      "p4": "En consequence, les plateformes basees sur les avis optimisent souvent pour la visibilite plutot que pour la rigueur clinique.",
+      "trustProtocolNote": {
+        "before": "C'est la qu'un ",
+        "linkText": "protocole de confiance",
+        "after": " structure devient essentiel — un protocole qui evalue les hopitaux sur le merite clinique, pas sur la performance marketing."
+      }
+    },
+    "physicianLed": {
+      "title": "Le modele de verification structure par l'IA, dirige par les medecins",
+      "p1": "Une facon de reduire l'incertitude est de laisser l'IA structurer les informations brutes des patients avant que la verification medicale ne commence.",
+      "p2": "Dans un modele structure par l'IA, dirige par les medecins :",
+      "items": [
+        "les objectifs, contraintes et contexte du patient sont organises avant qu'un hopital ne soit considere",
+        "les medecins examinent le cas structure, interpretent la signification clinique et testent la faisabilite",
+        "les hopitaux sont evalues selon des criteres cliniques examines par le medecin, pas seulement le marketing"
+      ],
+      "p3": "Ce modele utilise l'IA pour ameliorer la preparation et la coherence tout en conservant l'interpretation medicale, le jugement et la responsabilite aux medecins agrees.",
+      "trustNote": "Le protocole de confiance d'AetherHeal suit cette logique : l'IA aide a structurer le cas, et les medecins dirigent la verification de chaque institution partenaire."
+    },
+    "patientJourney": {
+      "title": "Comprendre le parcours du patient international",
+      "p1": "Choisir un hopital a l'etranger n'est pas une decision unique. C'est une sequence d'etapes coordonnees.",
+      "p2": "Un parcours patient typique comprend :",
+      "steps": [
+        "Preparation a la decision",
+        "Planification du traitement",
+        "Selection de l'hopital",
+        "Coordination du voyage",
+        "Traitement et recuperation",
+        "Suivi post-soins"
+      ],
+      "p3": "Quand ces etapes sont correctement structurees, les soins medicaux internationaux peuvent devenir significativement plus previsibles.",
+      "journeyNote": "Decouvrez comment AetherHeal coordonne chaque etape dans notre apercu du parcours medical."
+    },
+    "southKorea": {
+      "title": "Pourquoi de nombreux patients choisissent la Coree du Sud",
+      "p1": "La Coree du Sud est devenue l'une des destinations leaders pour certaines specialites medicales, notamment :",
+      "specialties": ["greffe de cheveux", "medecine esthetique", "chirurgie esthetique", "ophtalmologie"],
+      "p2": "Plusieurs facteurs contribuent a cette reputation :",
+      "factors": ["medecins hautement specialises", "infrastructure medicale avancee", "fort accent sur les resultats techniques"],
+      "oecdNote": "La Coree du Sud a developpe l'une des plus fortes densites de medecins en Asie, selon les donnees de sante de l'OCDE. Pour les patients internationaux, Seoul en particulier a developpe un ecosysteme dense de cliniques specialisees.",
+      "hairNote": "Explorez l'accompagnement dirige par des medecins pour des procedures specifiques comme la greffe de cheveux en Coree."
+    },
+    "structuredApproach": {
+      "title": "Une approche structuree du voyage medical",
+      "p1": "En fin de compte, la strategie la plus efficace pour choisir un hopital a l'etranger n'est pas simplement de rassembler plus d'informations.",
+      "p2": "C'est de structurer le processus decisionnel.",
+      "p3": "Cela signifie :",
+      "items": ["identifier les facteurs cliniques pertinents", "verifier les capacites de l'hopital", "aligner les plans de traitement avec les objectifs du patient"],
+      "p4": "Quand ces elements sont organises systematiquement, les patients peuvent passer de l'incertitude a la clarte."
+    },
+    "closing": {
+      "p1": "Choisir un hopital a l'etranger est une decision importante.",
+      "p2": "Mais avec le bon cadre, ce n'est pas necessairement une decision accablante.",
+      "p3": "L'objectif n'est pas simplement de trouver un hopital.",
+      "p4": "L'objectif est de prendre une decision claire et eclairee concernant vos soins."
+    },
+    "faq": {
+      "title": "Questions frequentes",
+      "items": [
+        {
+          "question": "Est-il sur de voyager a l'etranger pour un traitement medical ?",
+          "answer": "Le voyage medical international peut etre sur lorsque les patients evaluent la formation du medecin, l'infrastructure hospitaliere et les soins de suivi. Un processus decisionnel structure reduit significativement les risques."
+        },
+        {
+          "question": "Comment verifier un hopital a l'etranger ?",
+          "answer": "Les patients devraient examiner les references du medecin, les systemes hospitaliers, le volume de procedures et les protocoles de gestion des complications plutot que de se fier uniquement aux avis en ligne."
+        },
+        {
+          "question": "Combien peut couter un traitement medical a l'etranger ?",
+          "answer": "Les couts varient largement selon la procedure, le pays et l'hopital. Bien que le traitement international puisse etre plus abordable que les options nationales, le cout total devrait prendre en compte le voyage, les soins de suivi et les procedures de revision potentielles — pas seulement le prix annonce."
+        },
+        {
+          "question": "Pourquoi les patients voyagent-ils en Coree du Sud pour la chirurgie ?",
+          "answer": "La Coree du Sud offre des medecins hautement specialises, une infrastructure medicale avancee et un fort accent sur les resultats techniques — particulierement en greffe de cheveux, medecine esthetique, chirurgie esthetique et ophtalmologie."
+        },
+        {
+          "question": "Que faut-il verifier avant de choisir une clinique a l'etranger ?",
+          "answer": "Les facteurs cles incluent la formation et la specialisation du medecin, les normes institutionnelles, le volume de procedures, les protocoles de gestion post-soins et si l'hopital a de l'experience dans le traitement de patients internationaux avec votre condition specifique."
+        }
+      ]
+    },
+    "relatedPages": [
+      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment nous evaluons les hopitaux partenaires" },
+      { "label": "Votre parcours medical", "desc": "Coordination de bout en bout de la decision a la convalescence" },
+      { "label": "Greffe de cheveux en Coree", "desc": "Accompagnement dirige par un medecin pour la restauration capillaire" },
+      { "label": "Chirurgie esthetique en Coree", "desc": "Soutien decisionnel structure pour les procedures cosmetiques" },
+      { "label": "Cliniques esthetiques a Seoul", "desc": "Naviguez les traitements cutanes et la dermatologie a Seoul" },
+      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog | AetherHeal — Perspectives medicales sur les soins en Coree",
+      "description": "Perspectives d'une plateforme dirigee par des medecins sur les soins medicaux en Coree, les cadres decisionnels et ce que les patients internationaux devraient savoir."
+    },
+    "badge": "Blog",
+    "heading": "Perspectives et analyses",
+    "subheading": "Perspectives dirigees par des medecins sur les soins medicaux en Coree, la prise de decision et ce qui compte avant de vous engager.",
+    "allCategories": "Tous",
+    "noPosts": "Aucun article pour le moment. Revenez bientot.",
+    "readMore": "Lire",
+    "sortNewest": "Plus recents",
+    "sortOldest": "Plus anciens",
+    "sortReadingTime": "Lectures rapides",
+    "articlesCount": "{count} articles",
+    "backToBlog": "Retour au blog",
+    "availableIn": "Egalement disponible en",
+    "categories": {
+      "insights": "Analyses",
+      "hair-transplant": "Greffe de cheveux",
+      "plastic-surgery": "Chirurgie esthetique",
+      "medical-tourism": "Tourisme medical",
+      "patient-guide": "Guide patient",
+      "technology": "Technologie"
+    }
+  },
+  "journeyAssurance": {
+    "meta": {
+      "title": "Garantie de parcours | AetherHeal",
+      "description": "AetherHeal est la seule plateforme de tourisme medical qui met en jeu ses propres revenus lorsque la mise en relation echoue. Decouvrez comment la garantie de parcours protege votre investissement."
+    },
+    "hero": {
+      "badge": "Protection du patient",
+      "h1": "La garantie de parcours",
+      "h1Highlight": "AetherHeal",
+      "intro": "AetherHeal est la seule plateforme de tourisme medical qui met en jeu ses propres revenus lorsque la mise en relation echoue. La garantie de parcours signifie que nous supportons des consequences financieres reelles si votre experience est insuffisante."
+    },
+    "toc": [
+      { "id": "how-it-works", "label": "Comment ca fonctionne" },
+      { "id": "coverage", "label": "Ce qui est couvert et ce qui ne l'est pas" },
+      { "id": "faq", "label": "Questions frequentes" },
+      { "id": "cta", "label": "Commencer" }
+    ],
+    "howItWorks": {
+      "title": "Comment fonctionne la garantie de parcours",
+      "intro": "La garantie de parcours est un engagement structurel, pas une promesse marketing. Une partie de vos frais de navigation est detenue en sequestre jusqu'a ce que votre parcours soit termine et votre satisfaction confirmee. Aucun autre intermediaire de tourisme medical n'offre cela.",
+      "stepLabel": "Etape",
+      "steps": [
+        {
+          "title": "Vous payez des frais de navigation forfaitaires",
+          "body": "Les memes frais quel que soit l'hopital ou la procedure. Pas de commissions cachees, pas d'incitation a vous orienter vers des options plus couteuses."
+        },
+        {
+          "title": "Une partie est detenue en sequestre",
+          "body": "Une partie de vos frais est reservee en sequestre jusqu'a ce que votre parcours soit termine et votre satisfaction confirmee par notre evaluation post-traitement."
+        },
+        {
+          "title": "En cas d'insatisfaction, le sequestre est restitue",
+          "body": "Si votre score de satisfaction post-traitement tombe en dessous de notre seuil defini, la partie en sequestre vous est automatiquement restituee. Aucune negociation requise."
+        }
+      ]
+    },
+    "coverage": {
+      "title": "Ce qui est couvert et ce qui ne l'est pas",
+      "coveredTitle": "Ce qui est couvert",
+      "coveredItems": [
+        "Qualite de la mise en relation hospitaliere — l'hopital recommande etait-il adapte a votre cas ?",
+        "Precision de la preparation pre-arrivee",
+        "Qualite du service de conciergerie pendant votre sejour",
+        "Communication et coordination tout au long du parcours",
+        "Suivi post-traitement tel que promis"
+      ],
+      "notCoveredTitle": "Ce qui n'est pas couvert",
+      "notCoveredItems": [
+        {
+          "label": "Resultats cliniques",
+          "detail": "Les resultats medicaux dependent de la reponse de votre corps — aucune plateforme ne peut garantir les resultats chirurgicaux."
+        },
+        {
+          "label": "Non-conformite du patient",
+          "detail": "Non-respect des instructions pre-operatoires ou post-operatoires fournies par votre equipe medicale."
+        },
+        {
+          "label": "Changements de preference du patient",
+          "detail": "Changements de preference apres la reservation sans lien avec la qualite du service."
+        },
+        {
+          "label": "Force majeure",
+          "detail": "Perturbations de voyage, catastrophes naturelles, pandemies ou autres evenements hors du controle de quiconque."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions frequentes",
+      "label": "Questions courantes",
+      "items": [
+        {
+          "id": "faq-1",
+          "question": "Comment le seuil de satisfaction est-il defini ?",
+          "answer": "Nous utilisons une evaluation post-traitement structuree qui couvre la precision de la mise en relation, la qualite de la communication, la performance de la conciergerie et la qualite du suivi. Le seuil est fixe avant le debut de votre parcours et communique dans votre contrat de service. Ce n'est pas un sentiment subjectif — c'est une norme mesurable."
+        },
+        {
+          "id": "faq-2",
+          "question": "Quel pourcentage des frais est detenu en sequestre ?",
+          "answer": "Le pourcentage exact du sequestre est indique dans votre contrat de service avant votre engagement. Il est suffisamment significatif pour qu'AetherHeal supporte de reelles consequences financieres en cas de mise en relation defaillante — ce n'est pas un geste symbolique."
+        },
+        {
+          "id": "faq-3",
+          "question": "Combien de temps apres ma procedure puis-je faire une reclamation ?",
+          "answer": "La fenetre d'evaluation est definie dans votre contrat de service et est calibree selon le type de procedure. Pour la plupart des parcours, l'evaluation de satisfaction a lieu dans les 30 jours suivant votre retour. Cela laisse suffisamment de temps pour une evaluation equitable sans delai inutile."
+        },
+        {
+          "id": "faq-4",
+          "question": "Cela remplace-t-il l'assurance responsabilite medicale ?",
+          "answer": "Non. La garantie de parcours couvre les services de mise en relation et de coordination d'AetherHeal — pas les resultats cliniques. La responsabilite medicale est une question entre vous et l'hopital traitant. Nous encourageons tous les patients a confirmer la couverture en responsabilite de leur prestataire et a envisager une assurance voyage medicale independante."
+        },
+        {
+          "id": "faq-5",
+          "question": "Quelqu'un a-t-il effectivement recu un remboursement via la garantie de parcours ?",
+          "answer": "La garantie de parcours est concue pour que les remboursements soient rares — car le systeme est concu pour prevenir les mauvaises mises en relation des le depart. Quand notre processus fonctionne comme prevu, la satisfaction reste bien au-dessus du seuil. Mais le mecanisme existe precisement pour que la structure d'incitations reste honnete."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Votre parcours commence par la confiance — pas par un acte de foi.",
+      "button": "Voir comment ca marche"
+    }
+  }
+}

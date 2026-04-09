@@ -1,10 +1,13 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useMemo } from "react"
+import { ArrowUpDown, Clock, TrendingUp } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { BlogCard } from "@/components/blog/blog-card"
 import { SectionLabel } from "@/components/ui/section-label"
 import type { BlogPostMeta } from "@/lib/blog"
+
+type SortOption = "newest" | "oldest" | "reading-time"
 
 interface BlogListingClientProps {
   posts: BlogPostMeta[]
@@ -18,6 +21,10 @@ interface BlogListingClientProps {
     noPosts: string
     readMore: string
     categories: Record<string, string>
+    sortNewest?: string
+    sortOldest?: string
+    sortReadingTime?: string
+    articlesCount?: string
   }
 }
 
@@ -28,10 +35,35 @@ export function BlogListingClient({
   dict,
 }: BlogListingClientProps) {
   const [currentCategory, setCurrentCategory] = useState<string | null>(null)
+  const [sortBy, setSortBy] = useState<SortOption>("newest")
 
-  const filtered = currentCategory
-    ? posts.filter((p) => p.category === currentCategory)
-    : posts
+  const filtered = useMemo(() => {
+    const base = currentCategory
+      ? posts.filter((p) => p.category === currentCategory)
+      : posts
+
+    return [...base].sort((a, b) => {
+      switch (sortBy) {
+        case "oldest":
+          return new Date(a.date).getTime() - new Date(b.date).getTime()
+        case "reading-time": {
+          const aMin = parseInt(a.readingTime) || 0
+          const bMin = parseInt(b.readingTime) || 0
+          return aMin - bMin
+        }
+        case "newest":
+        default:
+          return new Date(b.date).getTime() - new Date(a.date).getTime()
+      }
+    })
+  }, [posts, currentCategory, sortBy])
+
+  const categoriesWithCount = useMemo(() => {
+    return categories.map((cat) => ({
+      ...cat,
+      count: posts.filter((p) => p.category === cat.id).length,
+    })).filter((cat) => cat.count > 0)
+  }, [categories, posts])
 
   return (
     <div className="min-h-full">
@@ -51,32 +83,86 @@ export function BlogListingClient({
 
       <section className="w-full py-10 px-4 sm:px-6 bg-bg-light min-h-[50vh]">
         <div className="max-w-6xl mx-auto">
-          <div className="mb-10 flex flex-wrap gap-2">
-            <button
-              onClick={() => setCurrentCategory(null)}
-              className={cn(
-                "px-4 py-2 rounded-full text-[13px] font-medium tracking-wide transition-all duration-200",
-                !currentCategory
-                  ? "bg-brand-navy text-white shadow-md"
-                  : "bg-white border border-slate-200 text-text-muted hover:text-brand-navy hover:border-brand-navy/20"
-              )}
-            >
-              {dict.allCategories}
-            </button>
-            {categories.map((cat) => (
+          {/* Filter + Sort Bar */}
+          <div className="mb-10 space-y-4">
+            {/* Categories */}
+            <div className="flex flex-wrap gap-2">
               <button
-                key={cat.id}
-                onClick={() => setCurrentCategory(cat.id)}
+                onClick={() => setCurrentCategory(null)}
                 className={cn(
                   "px-4 py-2 rounded-full text-[13px] font-medium tracking-wide transition-all duration-200",
-                  currentCategory === cat.id
+                  !currentCategory
                     ? "bg-brand-navy text-white shadow-md"
                     : "bg-white border border-slate-200 text-text-muted hover:text-brand-navy hover:border-brand-navy/20"
                 )}
               >
-                {cat.label}
+                {dict.allCategories}
+                <span className="ml-1.5 text-[11px] opacity-70">{posts.length}</span>
               </button>
-            ))}
+              {categoriesWithCount.map((cat) => (
+                <button
+                  key={cat.id}
+                  onClick={() => setCurrentCategory(cat.id)}
+                  className={cn(
+                    "px-4 py-2 rounded-full text-[13px] font-medium tracking-wide transition-all duration-200",
+                    currentCategory === cat.id
+                      ? "bg-brand-navy text-white shadow-md"
+                      : "bg-white border border-slate-200 text-text-muted hover:text-brand-navy hover:border-brand-navy/20"
+                  )}
+                >
+                  {cat.label}
+                  <span className="ml-1.5 text-[11px] opacity-70">{cat.count}</span>
+                </button>
+              ))}
+            </div>
+
+            {/* Sort + Count */}
+            <div className="flex items-center justify-between">
+              <p className="text-sm text-text-muted">
+                {dict.articlesCount
+                  ? dict.articlesCount.replace("{count}", String(filtered.length))
+                  : `${filtered.length} articles`}
+              </p>
+              <div className="flex items-center gap-1">
+                <ArrowUpDown className="w-3.5 h-3.5 text-text-muted mr-1" />
+                <button
+                  onClick={() => setSortBy("newest")}
+                  className={cn(
+                    "inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all",
+                    sortBy === "newest"
+                      ? "bg-brand-navy/5 text-brand-navy"
+                      : "text-text-muted hover:text-brand-navy"
+                  )}
+                >
+                  <TrendingUp className="w-3 h-3" />
+                  {dict.sortNewest ?? "Newest"}
+                </button>
+                <button
+                  onClick={() => setSortBy("oldest")}
+                  className={cn(
+                    "inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all",
+                    sortBy === "oldest"
+                      ? "bg-brand-navy/5 text-brand-navy"
+                      : "text-text-muted hover:text-brand-navy"
+                  )}
+                >
+                  <Clock className="w-3 h-3" />
+                  {dict.sortOldest ?? "Oldest"}
+                </button>
+                <button
+                  onClick={() => setSortBy("reading-time")}
+                  className={cn(
+                    "inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all",
+                    sortBy === "reading-time"
+                      ? "bg-brand-navy/5 text-brand-navy"
+                      : "text-text-muted hover:text-brand-navy"
+                  )}
+                >
+                  <Clock className="w-3 h-3" />
+                  {dict.sortReadingTime ?? "Quick reads"}
+                </button>
+              </div>
+            </div>
           </div>
 
           {filtered.length === 0 ? (

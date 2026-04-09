@@ -1,8 +1,8 @@
-export const locales = ["en", "zh", "ja", "th", "ru", "ko"] as const
+export const locales = ["en", "zh", "ja", "th", "ru", "ar", "hu", "de", "fr", "ko"] as const
 export type Locale = (typeof locales)[number]
 export const defaultLocale: Locale = "en"
 
-export const patientLocales = ["en", "zh", "ja", "th", "ru"] as const
+export const patientLocales = ["en", "zh", "ja", "th", "ru", "ar", "hu", "de", "fr"] as const
 export type PatientLocale = (typeof patientLocales)[number]
 
 export const localeNames: Record<Locale, string> = {
@@ -11,6 +11,10 @@ export const localeNames: Record<Locale, string> = {
   ja: "日本語",
   th: "ภาษาไทย",
   ru: "Русский",
+  ar: "العربية",
+  hu: "Magyar",
+  de: "Deutsch",
+  fr: "Français",
   ko: "한국어",
 }
 
@@ -20,6 +24,10 @@ export const localeShort: Record<Locale, string> = {
   ja: "JP",
   th: "TH",
   ru: "RU",
+  ar: "AR",
+  hu: "HU",
+  de: "DE",
+  fr: "FR",
   ko: "KO",
 }
 
@@ -29,6 +37,10 @@ export const ogLocales: Record<Locale, string> = {
   ja: "ja_JP",
   th: "th_TH",
   ru: "ru_RU",
+  ar: "ar_SA",
+  hu: "hu_HU",
+  de: "de_DE",
+  fr: "fr_FR",
   ko: "ko_KR",
 }
 
@@ -48,6 +60,7 @@ const patientOnlyRoutes = [
   "/privacy-policy",
   "/terms-of-service",
   "/payment-refund-policy",
+  "/journey-assurance",
 ]
 
 export function isRouteAvailableForLocale(path: string, locale: Locale): boolean {

@@ -1,0 +1,2384 @@
+{
+  "common": {
+    "nav": {
+      "howItWorks": "Hogyan Működik",
+      "exploreFramework": "Felfedezés",
+      "trustSafety": "Bizalmi Protokoll",
+      "ourPhilosophy": "Miért Létezünk",
+      "signIn": "Bejelentkezés",
+      "beginJourney": "Út Megkezdése",
+      "blog": "Blog"
+    },
+    "footer": {
+      "brandDescription": "Orvos által vezetett döntéstámogató infrastruktúra magas kockázatú orvosi ellátáshoz.",
+      "brandSubtitle": "Koreai ellátást fontolgató nemzetközi páciensek számára.",
+      "platform": "Platform",
+      "guides": "Útmutatók",
+      "company": "Cég",
+      "contact": "Kapcsolat",
+      "copyright": "AetherHeal. Minden jog fenntartva.",
+      "disclaimer": "Az AetherHeal kizárólag döntéstámogatást nyújt, orvosi ellátást nem végez. Vészhelyzet esetén azonnal forduljon a helyi sürgősségi szolgálathoz.",
+      "companyName": "AetherHeal Co., Ltd.",
+      "representative": "Képviselő: Dr. Jee Hoon Ju",
+      "bizRegNo": "Cégjegyzékszám: 874-87-03734",
+      "address": "B1, 64, Gingorang-ro 14-gil, Gwangjin-gu, Szöul, Koreai Köztársaság",
+      "platformLinks": {
+        "howItWorks": "Hogyan Működik",
+        "trustProtocol": "Bizalmi Protokoll",
+        "ourPhilosophy": "Miért Létezünk",
+        "medicalJourney": "Orvosi Út",
+        "explore": "Felfedezés",
+        "blog": "Blog",
+        "journeyAssurance": "Utazásbiztosítás"
+      },
+      "guideLinks": {
+        "choosingHospital": "Kórházválasztás Külföldön",
+        "hairTransplant": "Hajbeültetés Koreában",
+        "plasticSurgery": "Plasztikai Sebészet Koreában",
+        "aestheticClinics": "Esztétikai Klinikák Szöulban"
+      },
+      "medicalBoundaryNotice": "Orvosi Hatáskörre Vonatkozó Nyilatkozat",
+      "termsOfService": "Felhasználási Feltételek",
+      "privacyPolicy": "Adatvédelmi Irányelvek",
+      "paymentRefundPolicy": "Fizetési és Visszatérítési Szabályzat"
+    },
+    "continueReading": "Tovább Olvasom",
+    "contents": "Tartalom",
+    "tableOfContents": "Tartalomjegyzék"
+  },
+  "home": {
+    "meta": {
+      "title": "AetherHeal | Ellenőrzött Klinika-egyeztetés Nemzetközi Pácienseknek",
+      "description": "Az AetherHeal segít a nemzetközi pácienseknek klinikát választani Koreában, találgatás nélkül. Ellenőrzött kórházak, fix díjú navigáció, orvosi irányítás és átlátható felelősség."
+    },
+    "hero": {
+      "badge": "Ellenőrzött klinika-egyeztetés Koreát fontolgató külföldi páciensek számára",
+      "h1": "A világ nem klinikákban szűkölködik.",
+      "h1Highlight": "Bizalomban.",
+      "description": "Dolgozzon együtt Angel Orvosainkkal.",
+      "descriptionHighlight": "",
+      "descriptionEnd": "",
+      "branches": ["Kórházak ellenőrzése", "Orvosi szintű konzultáció", "Folyamatos felelősségvállalás"],
+      "branchConclusion": "Hogy soha ne legyen egyedül.",
+      "disclaimer": "Döntéstámogatás a kórházi elköteleződés előtt.",
+      "disclaimer2": "Nem orvosi kezelés vagy sürgősségi ellátás.",
+      "openingDate": "Nyitás: 2026. szeptember 1.",
+      "waitlistButton": "Feliratkozás a Várólistára",
+      "waitlistPlaceholder": "Írja be e-mail címét",
+      "waitlistSuccess": "Felkerült a listára! Hamarosan jelentkezünk.",
+      "waitlistDuplicate": "Már szerepel a listán!",
+      "ctaExplore": "Hogyan épül fel a bizalom"
+    },
+    "problemQuote": {
+      "title": "Amitől a páciensek valójában félnek",
+      "subtitle": "Az akadály nem a hozzáférés. Hanem az, hogy miben bízzanak.",
+      "items": [
+        {
+          "title": "Megtévesztő jelek",
+          "quote": "Az alacsonyabb árak és a Google-értékelések nem árulják el, mi a helyes az Ön esetében."
+        },
+        {
+          "title": "Összeférhetetlenség",
+          "quote": "Ha a közvetítő a drágább kezelések eladásán nyer, az ajánlata nem az Ön érdekét szolgálja."
+        },
+        {
+          "title": "Megtört bizalom",
+          "quote": "A bizalom akkor törik meg, amikor a tanácsadás az Ön bizonytalanságából profitál."
+        }
+      ],
+      "q1": "Egy csiszolt weboldal nem árulja el, ki illik az Ön esetéhez.",
+      "q2": "Egyes közvetítők annál többet keresnek, minél többet költ Ön.",
+      "q3": "A bizalom akkor törik meg, amikor a tanácsadás az Ön bizonytalanságából profitál."
+    },
+    "stakes": {
+      "title": "Miért érzi ezt a döntést olyan nehéznek",
+      "subtitle": "A kihívás nem a hozzáférés. Hanem egy maradandó döntés meghozatala egy olyan piacon, amelyet külföldről nehéz ellenőrizni.",
+      "lowStake": {
+        "label": "Amit a páciensek éreznek",
+        "items": [
+          "Félrevezetés",
+          "Megbánás",
+          "Magukra maradás"
+        ],
+        "consequenceLabel": "Amire szükségük van",
+        "consequence": "Tisztánlátás",
+        "principle": "Kevesebb zaj. Jobb döntések."
+      },
+      "highStake": {
+        "label": "Amit a piac kínál",
+        "critical": "Strukturális probléma",
+        "items": [
+          "Bizonyítatlan állítások",
+          "Rejtett jutalékok",
+          "Fizetés utáni felelősség hiánya"
+        ],
+        "medicine": "Bizalomhiány",
+        "consequenceLabel": "Ami ebből következik",
+        "consequence": "Visszafordíthatatlan megbánás",
+        "principle": "A szabályozatlan piacok a marketinget jutalmazzák, nem a megfelelőséget.",
+        "structuralNote": "Amikor a páciensek nem tudják ellenőrizni a minőséget, a marketing nyer. Az AetherHeal ezt hivatott megváltoztatni."
+      }
+    },
+    "aiLayer": {
+      "badge": "Bizalmi Felépítés",
+      "title": "Hogyan teremt az AetherHeal",
+      "titleHighlight": "bizalmat",
+      "subtitle": "A bizalom struktúrából fakadjon, ne ígéretekből.",
+      "cards": [
+        {
+          "title": "Ellenőrzött Kórházhálózat",
+          "description": "Nem nyílt adatbázis. Válogatott hálózat."
+        },
+        {
+          "title": "Fix Navigációs Díj",
+          "description": "A díj nem változik kórháztól vagy beavatkozástól függően."
+        },
+        {
+          "title": "Út-garancia",
+          "description": "A felelősségvállalás a fizetés után is fennáll."
+        },
+        {
+          "title": "Orvosi Irányítás",
+          "description": "A klinikai döntési jogkör az orvosoknál marad. Az AI a munkafolyamatot támogatja."
+        },
+        {
+          "title": "Beavatkozás Átláthatósága",
+          "description": "Az altatás alatt végzett beavatkozásokat CCTV-vel és közeli kamerával rögzítik. Eredeti termékek, ellenőrzött dózisok. A felvétel kérésre megtekinthető. Azok a kórházak, amelyek visszautasítják a felvételt, elutasíthatók."
+        }
+      ],
+      "footnote": "A bizalom a rendszerbe van építve."
+    },
+    "patientConcerns": {
+      "badge": "Hol Tart a Döntésben?",
+      "title": "Miért Gondolkodik Koreai Ellátáson?",
+      "subtitle": "Ez nem beavatkozás-katalógus. Induljon ki a helyzetéből — ne egy bevásárlólistából.",
+      "items": [
+        {
+          "title": "Szükségem van egy beavatkozásra, de nem tudom, melyik kórházban bízzak",
+          "description": "Segítünk a kórházak értékelésében, igazolt adatok alapján, nem marketing alapján.",
+          "href": "/how-it-works"
+        },
+        {
+          "title": "Korábban volt egy beavatkozásom, ami nem sikerült jól",
+          "description": "A revíziós esetek más szintű döntéstámogatást igényelnek. Mi strukturáljuk ezt a folyamatot.",
+          "href": "/how-it-works"
+        },
+        {
+          "title": "Szeretném megérteni a lehetőségeimet, mielőtt elköteleződöm",
+          "description": "Nyomás nélkül ismerje meg a döntési keretrendszert. Nincs foglalás, nincs értékesítés.",
+          "href": "/explore"
+        },
+        {
+          "title": "Segítségre van szükségem egy olyan országban, ahol nem beszélem a nyelvet",
+          "description": "Orvos által vezetett koordináció a döntéstől a felépülésig — az Ön nyelvén.",
+          "href": "/medical-journey"
+        },
+        {
+          "title": "Szeretném tudni, miben különbözik az AetherHeal egy orvosi turisztikai ügynökségtől",
+          "description": "Mi döntéstámogató infrastruktúra vagyunk, nem foglalási platform. A különbség strukturális.",
+          "href": "/our-philosophy"
+        }
+      ]
+    },
+    "journey": {
+      "sectionLabel": "Páciens Útja",
+      "title": "Hogyan néz ki az útja",
+      "titleHighlight": "a valóságban",
+      "subtitle": "Az AetherHeal célja, hogy minden lépés áttekinthető legyen: mi történik először, ki a felelős, és mikor kerüljön sor az elköteleződésre.",
+      "steps": [
+        {
+          "label": "Páciens Szándéka",
+          "badge": null,
+          "description": "Célok, feltételek, időterv és kockázattűrés rögzítése.",
+          "details": null,
+          "owner": "Páciens felvétel az AetherHeal-nél",
+          "next": "AI-támogatott eset-strukturálás"
+        },
+        {
+          "label": "AI-támogatott Eset-strukturálás",
+          "badge": "ORVOSI ELŐKÉSZÍTÉS",
+          "description": "Dokumentumok, kérdések és hiányzó adatok rendszerezése az orvosi felülvizsgálat előtt.",
+          "details": "Az AI segít. Az orvos minden kimenetet felülvizsgál.",
+          "owner": "Eset-strukturálás az AetherHeal által",
+          "next": "Orvosi készültségi felülvizsgálat"
+        },
+        {
+          "label": "Koreai Engedéllyel Rendelkező Orvos Felülvizsgálata",
+          "badge": null,
+          "description": "Az orvos dönt arról, hogy az eset kellően tisztázott-e a továbblépéshez.",
+          "details": null,
+          "owner": "Engedéllyel rendelkező orvos felülvizsgálata",
+          "next": "Kórházi megvalósíthatósági felülvizsgálat"
+        },
+        {
+          "label": "Partnerkórház Megvalósíthatósági Felülvizsgálata",
+          "badge": "KÓRHÁZI HATÁSKÖR",
+          "description": "A partnerkórházak az orvos által meghatározott döntési kereten belül értékelik a megvalósíthatóságot.",
+          "details": null,
+          "owner": "Kórházi megvalósíthatósági felülvizsgálat",
+          "next": "Döntési elköteleződés"
+        },
+        {
+          "label": "Döntési Elköteleződés (Előleg)",
+          "badge": "FELELŐSSÉG KIVÁLTÓ",
+          "description": "Megerősíti a szándékot, biztosítja a koordinációt, és összhangolja a következő lépést.",
+          "details": null,
+          "owner": "Döntési elköteleződés a Páciens által",
+          "next": "Érkezés, foglalás és támogatás"
+        },
+        {
+          "label": "Út-koordináció",
+          "badge": "ÉRKEZÉS, FOGLALÁS ÉS TÁMOGATÁS",
+          "description": "A concierge-szolgáltatás csak az orvosi készültség és a páciens visszaigazolása után kezdődik.",
+          "details": null,
+          "owner": "1:1 Concierge az AetherHeal által",
+          "next": "Kezelés utáni folyamatos ellenőrzés"
+        },
+        {
+          "label": "Kezelés Utáni Folyamatos Ellenőrzés",
+          "badge": "AI-TÁMOGATOTT UTÁNKÖVETÉS",
+          "description": "Ellenőrzések, felépülési jelek és utólagos koordináció a kezelés után is nyomon követhetők.",
+          "details": null,
+          "owner": "Folyamatos ellenőrzés: AetherHeal + Páciens",
+          "next": "Eszkaláció, ha aggályok merülnek fel"
+        }
+      ],
+      "journeyOrchestrationDetails": {
+        "arrival": "Érkezés és Időpontegyeztetés",
+        "concierge": "1:1 Concierge és Fordítás"
+      },
+      "decisionReadiness": {
+        "notReady": "További Tisztázás Szükséges",
+        "pause": "Szünet / További Információ Gyűjtése",
+        "ready": "Kész a Továbbításra",
+        "proceed": "Tovább a Kórházi Felülvizsgálathoz"
+      },
+      "storyArc": {
+        "badge": "A teljes történet",
+        "title": "Mi felé halad a páciens útja",
+        "subtitle": "A páciensnek az elejétől látnia kell a teljes ívet: ki irányítja a döntést, ki végzi a kezelést, és ki biztosítja az utánkövetés átláthatóságát.",
+        "items": [
+          {
+            "phase": "Utazás előtt",
+            "title": "Döntési tisztánlátás",
+            "owner": "AetherHeal + Orvos"
+          },
+          {
+            "phase": "Érkezés",
+            "title": "Operatív átadás",
+            "owner": "AetherHeal"
+          },
+          {
+            "phase": "Kezelés",
+            "title": "Klinikai hatáskör",
+            "owner": "Kórház"
+          },
+          {
+            "phase": "Felépülés",
+            "title": "Utánkövetés átláthatósága",
+            "owner": "AetherHeal + Páciens"
+          },
+          {
+            "phase": "Akár 1 évig",
+            "title": "Folytonosság és eszkaláció",
+            "owner": "AetherHeal + Kórház"
+          }
+        ]
+      },
+      "first48Hours": {
+        "badge": "Első 48 óra",
+        "title": "Az első 48 órája",
+        "subtitle": "Érkezés, átadás és klinikai összehangolás. A kezelés ezen az időszakon belül vagy később is történhet.",
+        "items": [
+          {
+            "time": "Érkezés",
+            "title": "Érkezési koordináció",
+            "description": "Találkozunk a pácienssel, megerősítjük a tervet, és tisztázzuk a következő lépést.",
+            "owner": "1:1 Concierge az AetherHeal által",
+            "next": "Kórházi átadás"
+          },
+          {
+            "time": "Első 24 óra",
+            "title": "Fordítás, időpontegyeztetés és átadás",
+            "description": "A kórház megkapja az eset kontextusát. A páciens nyelvi és ütemezési támogatást kap.",
+            "owner": "Klinikai koordináció: AetherHeal + Kórház",
+            "next": "Klinikai megerősítés"
+          },
+          {
+            "time": "24-48 óra",
+            "title": "Kezelési készültség",
+            "description": "A páciens és a kórház megerősíti, hogy a kezelés most, az utazás során később, vagy további előkészítés után történik-e.",
+            "owner": "Klinikai megerősítés: Kórház",
+            "next": "Kezelés vagy további koordináció"
+          }
+        ]
+      },
+      "continuityYear": {
+        "badge": "1 éves folytonosság",
+        "title": "Kezelés utáni folytonosság",
+        "subtitle": "Miután a páciens hazatér, a felépülés nyomon követhető marad, és szükség esetén könnyebben eszkalálható.",
+        "items": [
+          {
+            "phase": "1. hét",
+            "title": "Korai felépülési ellenőrzések",
+            "description": "Tünetek, fotók és kérdések korai összegyűjtése, hogy az aggályok ne maradjanak észrevétlenek.",
+            "owner": "Korai ellenőrzések: AetherHeal + Páciens",
+            "next": "Elvárások nyomon követése"
+          },
+          {
+            "phase": "1-3. hónap",
+            "title": "Utánkövetés és elvárások nyomon követése",
+            "description": "A felépülés az elvárt ütemtervhez képest kerül nyomon követésre, távolságon és nyelvi határokon át.",
+            "owner": "Felépülés nyomon követése: AetherHeal",
+            "next": "Hosszú távú utánkövetés"
+          },
+          {
+            "phase": "3-12. hónap",
+            "title": "Hosszú távú folytonosság",
+            "description": "Ha késleltetett aggályok merülnek fel, az eset előzményei rendezetten megmaradnak, így az utánkövetés nem nulláról indul újra.",
+            "owner": "Eszkaláció: AetherHeal + Kórház",
+            "next": "Dokumentált folytonosság"
+          }
+        ]
+      },
+      "closingQuote": "A cél nem az, hogy gyorsabban döntsön. A cél az, hogy kevesebb megbánással dönthessen.",
+      "uiLabels": { "responsibility": "Felelősség", "then": "Ezután:" }
+    },
+    "partners": {
+      "subtitle": "Korai Bizonyíték",
+      "compactTitle": "A bizalomnak bizonyíték kell",
+      "compactDescription": "13 felülvizsgálva. 4 elutasítva. 9 elfogadva.",
+      "proofPoints": [
+        "31%-os elutasítási arány.",
+        "A jelöltek angel orvosokon, közvetlen jelentkezéseken és kollegiális ajánlásokon keresztül érkeztek.",
+        "Az ellenőrzés folytatódik."
+      ],
+      "compactStats": [
+        {
+          "number": "13",
+          "label": "Felülvizsgálva"
+        },
+        {
+          "number": "31%",
+          "label": "Elutasítva"
+        },
+        {
+          "number": "9",
+          "label": "Igazolt Partner"
+        }
+      ],
+      "compactCta": "Bizalmi Protokoll"
+    },
+    "coverage": {
+      "badge": "Lefedettség",
+      "title": "Magas Kockázatú Szakterületek",
+      "subtitle": "Ahol az első alkalommal fontos jól csinálni.",
+      "items": [
+        "Hajbeültetés",
+        "Bőresztétika",
+        "Plasztikai Sebészet",
+        "Robotsebészet",
+        "Látáskorrekció",
+        "Fogászat",
+        "Őssejt-terápia",
+        "Liposucció és Zsírátrendezés",
+        "Idegsebészet",
+        "Általános Szűrővizsgálat",
+        "Teljes Test MRI"
+      ]
+    },
+    "faq": {
+      "title": "Gyakori Kérdések",
+      "subtitle": "Kérdések, amelyeket a páciensek akkor tesznek fel, amikor a bizalom fontosabb a mennyiségnél.",
+      "items": [
+        {
+          "question": "Az AetherHeal egy AI orvos?",
+          "answer": "Nem. Az AetherHeal nem AI orvos, és nem állítjuk be az AI-t orvosi helyettesítőként. Az AI az információ strukturálását és a folytonossági munkafolyamatokat támogatja, de az orvosi hatáskör az engedéllyel rendelkező orvosok és partnerkórházak kezében marad."
+        },
+        {
+          "question": "Mit csinál valójában az AI az AetherHeal-en belül?",
+          "answer": "Az AI segít a felvétel szervezésében, a hiányzó információk felszínre hozásában, a többnyelvű koordináció támogatásában, és a kezelés utáni folytonossági jelek nyomon követésében. Gyorsítja a munkafolyamatot; nem hoz orvosi döntést."
+        },
+        {
+          "question": "Felülbírálhatja az AI az orvost vagy választhatja ki a kórházamat?",
+          "answer": "Nem. Az AI nem bírálhatja felül az orvost, nem választhatja ki a végső kórházat, nem állíthat fel diagnózist, nem ajánlhat kezelést, és nem foglalhat önállóan. Az orvosi ítélet, a páciens beleegyezése és a kórházi megvalósíthatóság marad az irányadó."
+        },
+        {
+          "question": "Ez orvosi konzultáció vagy telemedicina?",
+          "answer": "Nem. Az AetherHeal nem orvosi konzultáció. Döntés-előkészítés. Orvosaink segítenek gondolatai strukturálásában, mielőtt belépne egy kórházba — nem diagnosztizálnak és nem kezelnek. Ez a szétválasztás megőrzi a tisztánlátást és a felelősséget."
+        },
+        {
+          "question": "Ki a felelős a folyamat egyes szakaszaiban?",
+          "answer": "A felelősségek egyértelműen el vannak választva. Az orvosok a döntési tisztánlátást támogatják. A kórházak nyújtják az orvosi ellátást. Az AetherHeal irányítja a folyamatot, a koordinációt és a felelősségvállalást minden lépésnél."
+        },
+        {
+          "question": "Az AetherHeal egy orvosi turisztikai ügynökség?",
+          "answer": "Nem. Az AetherHeal döntéstámogató infrastruktúra. Az utazási logisztikát csak egy strukturált orvosi döntés meghozatala után kezeljük — nem előtte."
+        },
+        {
+          "question": "Biztonságban vannak az adataim?",
+          "answer": "Csak a döntéstámogatáshoz és a koordinációhoz szükséges adatokat gyűjtjük. A feltöltés opcionális. A hozzáférés szerepkör-alapú (orvos, operátor), és kizárólag az Ön ügyéhez használjuk. Személyes orvosi információkat nem értékesítünk."
+        }
+      ]
+    },
+    "explore": {
+      "badge": "Témakörök szerinti böngészés",
+      "title": "Orvosaink által írt blog",
+      "items": [
+        {
+          "title": "Hajbeültetés Koreában",
+          "desc": "FUE, DHI és fejlett beültetési technikák — orvos által vezetett döntéstámogatással, klinika-megkeresés előtt."
+        },
+        {
+          "title": "Esztétikai Klinikák Szöulban",
+          "desc": "Navigáljon Szöul esztétikai kínálatában strukturált iránymutatással bőrkezelésekhez és kozmetikai dermatológiához."
+        },
+        {
+          "title": "Plasztikai Sebészet Koreában",
+          "desc": "Orrplasztika, kontúrozás és sok más — hozzon tájékozott döntést orvos segítségével, mielőtt elköteleződik."
+        },
+        {
+          "title": "Az Ön Orvosi Útja",
+          "desc": "A döntéstől a felépülésig az AetherHeal koordinálja szöuli útjának minden lépését."
+        },
+        {
+          "title": "Az AetherHeal Bizalmi Protokollja",
+          "desc": "Hogyan értékeljük és tartjuk fenn a színvonalat válogatott partnerkórházi hálózatunkban."
+        },
+        {
+          "title": "Kórházválasztás Külföldön",
+          "desc": "Strukturált keretrendszer a kockázat csökkentésére külföldi kórházválasztáskor."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Tisztánlátás az elköteleződés előtt",
+      "subtitle": "Ha koreai ellátáson gondolkodik, kezdje egy olyan folyamattal, amely megvédi a döntését, mielőtt bárki megpróbálná lezárni azt.",
+      "openingDate": "Nyitás: 2026. szeptember 1.",
+      "waitlistButton": "Feliratkozás a Várólistára",
+      "waitlistPlaceholder": "Írja be e-mail címét",
+      "waitlistSuccess": "Felkerült a listára! Hamarosan jelentkezünk.",
+      "waitlistDuplicate": "Már szerepel a listán!",
+      "ctaExplore": "Hogyan épül fel a bizalom",
+      "signature": "Dr. Jee Hoon Ju"
+    }
+  },
+  "howItWorks": {
+    "meta": {
+      "title": "Hogyan Működik az AetherHeal | Rendszer-specifikáció",
+      "description": "Ismerje meg az AetherHeal orvos által vezetett, AI-támogatott döntéstámogató infrastruktúráját. Tekintse meg a hatásköri láncot, a készültségi állapotokat és a folytonossági ellenőrzési modellt a koreai orvosi ellátáshoz."
+    },
+    "hero": {
+      "badge": "Rendszer-specifikáció 2.0",
+      "h1": "Hogyan Működik az",
+      "h1Highlight": "AetherHeal",
+      "tagline": "Orvos által vezetett, AI-támogatott döntéstámogató infrastruktúra Koreában",
+      "description": "Strukturált orvosi döntések",
+      "descriptionHighlight": "még a",
+      "descriptionEnd": "kórházi elköteleződés, logisztika és kezelés utáni folytonosság előtt.",
+      "disclaimer": "AI-támogatott. Orvos által engedélyezett. Nem diagnózis, kezelés vagy sürgősségi ellátás.",
+      "ctaPrimary": "Kezdje el Döntési Útját",
+      "ctaSecondary": "Keretrendszer Felfedezése"
+    },
+    "angelRole": {
+      "badge": "01 — Irányítás",
+      "title": "Az Angel Szerep",
+      "subtitle": "Orvosi Információs Támogatás, nem Értékesítés.",
+      "doesTitle": "Miben segít az Angel",
+      "keyDefinitionLabel": "Kulcsfogalom",
+      "keyDefinition": "Az Angelek engedéllyel rendelkező orvosok Koreában, akik az eset értelmezési hatáskörével rendelkeznek, és minden AI-támogatott strukturálást felülvizsgálnak a továbbítás előtt.",
+      "does": [
+        {
+          "title": "Strukturált Bemenet Felülvizsgálata",
+          "description": "Megvizsgálja az AI-támogatott felvételi rendszerezést, a hiányzó adatok jelzéseit és a páciens céljait, mielőtt bármilyen kórházi lépés történne."
+        },
+        {
+          "title": "Döntési Hatáskör",
+          "description": "Tisztázza a kockázatokat, feltételeket és elvárásokat, majd eldönti, hogy az eset készen áll-e a továbblépésre."
+        },
+        {
+          "title": "Célok Klinikai Keretbe Fordítása",
+          "description": "A páciens szándékát orvos által készített döntési keretté alakítja, amelyet a kórházak megvalósíthatóság szempontjából felülvizsgálhatnak."
+        }
+      ],
+      "notTitle": "Mi NEM az Angel feladata",
+      "not": [
+        "Nem diagnosztizál",
+        "Nem kezel",
+        "Nem ír fel gyógyszert",
+        "Nem delegálja a végső ítéletet az AI-ra",
+        "Nem helyettesíti a kórházat"
+      ]
+    },
+    "authorityChain": {
+      "badge": "02 — Hatásköri Lánc",
+      "title": "Ki Rendelkezik Hatáskörrel és Mikor",
+      "subtitle": "Az AetherHeal úgy van kialakítva, hogy a segítségnyújtás, az értelmezés, a kezelés és az operatív feladatok egyértelműen elkülönüljenek.",
+      "levels": [
+        {
+          "label": "1. Réteg",
+          "title": "Páciens Szándéka",
+          "description": "A páciens határozza meg a célokat, feltételeket, ütemezést és személyes kockázattűrését."
+        },
+        {
+          "label": "2. Réteg",
+          "title": "AI Támogató Réteg",
+          "description": "Az AI strukturálja az információt, jelzi a hiányosságokat és támogatja az ellenőrzést, de nincs döntési hatásköre."
+        },
+        {
+          "label": "3. Réteg",
+          "title": "Orvosi Hatáskör",
+          "description": "Az Angel orvos értelmezi az esetet, meghatározza a döntési kereteket, és engedélyezi a továbblépést a következő szakaszba."
+        },
+        {
+          "label": "4. Réteg",
+          "title": "Kórházi Hatáskör",
+          "description": "A partnerkórház dönt a klinikai megvalósíthatóságról, a kezelési megközelítésről, és arról, hogy elvállalja-e az esetet."
+        },
+        {
+          "label": "5. Réteg",
+          "title": "Operatív Koordináció",
+          "description": "Az AetherHeal a foglalást, utazást és folytonossági munkafolyamatokat csak az emberi döntési lánc tisztázása után hajtja végre. Ellenőrzött sofőrök, tolmácsok és kísérők valós idejű koordinációs platformon keresztül kerülnek kijelölésre — így a logisztikai feladatok soha nem a páciensre hárulnak."
+        }
+      ],
+      "handoffLabel": "hatáskör átadás",
+      "footnote": "Az AI támogathatja a munkafolyamatot, de a hatáskör kizárólag felelős emberi szereplők között adódik át."
+    },
+    "incentiveStructure": {
+      "badge": "Strukturális Integritás",
+      "title": "Miért Létezik Ez a Struktúra",
+      "subtitle": "Az AetherHeal felépítése nem csak szervezeti — úgy tervezett, hogy a korrupciót strukturálisan lehetetlenné tegye.",
+      "items": [
+        {
+          "title": "Fix Navigációs Díj",
+          "description": "Az AetherHeal navigációs díja fix — ugyanannyi, akár egy 2 000, akár egy 20 000 dolláros beavatkozást választ. Nincs jutalék. Nincs upsell ösztönző. Navigátorának semmilyen anyagi érdeke nem fűződik ahhoz, hogy bármit ajánljon, ami nem felel meg orvosi szükségleteinek."
+        },
+        {
+          "title": "Strukturális Szétválasztás",
+          "description": "A kórházakat ellenőrző csapat strukturálisan el van választva a pácienseket navigáló csapattól. Ez nem egy csendben megváltoztatható irányelv — a szervezeti felépítésbe van beágyazva."
+        },
+        {
+          "title": "Orvosi Függetlenség",
+          "description": "Az Ön ügyét felülvizsgáló orvosnak nincs pénzügyi kapcsolata a hálózat egyetlen kórházával sem. Ítélete nem eladó, mert nincs mechanizmus, amelyen keresztül megvásárolható lenne."
+        }
+      ],
+      "footnote": "Ezek nem irányelvek. Ezek olyan építészeti döntések, amelyek strukturálisan lehetetlenné teszik a korrupciót.",
+      "ctaPhilosophy": "Tekintse meg a teljes ösztönzői felépítést"
+    },
+    "aiAssistance": {
+      "badge": "03 — AI Támogatás",
+      "title": "Az AI Támogató Réteg",
+      "subtitle": "Az AI operatív és információs támogatásként van alkalmazva, nem klinikai döntéshozóként.",
+      "summaryLabel": "Rendszerszerep",
+      "summary": "Az AI réteg a töredezettség csökkentésére szolgál: előkészíti az orvosi inputokat, segíti a csapatot a hiányok nyomon követésében, és támogatja a kezelés utáni folytonossági ellenőrzést. Minden AI-támogatott kimenet alárendelt az orvosi felülvizsgálatnak, a páciens megerősítésének és a kórházi hatáskörnek.",
+      "doesTitle": "Mit Tesz az AI",
+      "doesItems": [
+        "Strukturálja a felvételt, dokumentumokat és kérdéseket az orvosi értelmezés előtt",
+        "Felszínre hozza a hiányzó dokumentumokat, ellentmondásokat és utánkövetési feladatokat az emberi csapat számára",
+        "Támogatja a többnyelvű koordinációt és a munkafolyamat folytonosságát az út során",
+        "Szervezi a kezelés utáni ellenőrzéseket és a folytonossági ellenőrzés átláthatóságát"
+      ],
+      "notTitle": "Mit NEM Tesz az AI",
+      "notItems": [
+        "Nem diagnosztizál",
+        "Nem ajánl kezelést",
+        "Nem választja ki a végső kórházat",
+        "Nem foglal önállóan",
+        "Nem bírálja felül az orvost vagy a kórházat"
+      ],
+      "footnote": "Egyetlen AI döntés sem érvényes önmagában. Az emberi hatáskör marad az irányadó réteg."
+    },
+    "coverage": {
+      "badge": "04 — Lefedettség",
+      "title": "Magas Kockázatú Szakterületek",
+      "subtitle": "Ahol az első alkalommal fontos jól csinálni.",
+      "domains": [
+        "Hajbeültetés",
+        "Bőresztétika",
+        "Plasztikai Sebészet",
+        "Robotsebészet",
+        "Látáskorrekció",
+        "Fogászat",
+        "Őssejt-terápia",
+        "Liposucció és Zsírátrendezés",
+        "Idegsebészet",
+        "Általános Szűrővizsgálat",
+        "Teljes Test MRI"
+      ]
+    },
+    "scope": {
+      "badge": "05 — Hatáskör",
+      "title": "Mit Teszünk / Mit Nem Teszünk",
+      "subtitle": "Szigorú operatív és orvosi határok előzik meg a hamis elvárásokat.",
+      "doTitle": "Mit Teszünk",
+      "doItems": [
+        "Döntés-előkészítés az AI-támogatott strukturálás orvosi felülvizsgálatával",
+        "Megfelelőségen alapuló kórházi párosítás partnerhálózatunkból, a döntési készültség megerősítése után",
+        "Megvalósíthatósági felülvizsgálat koordinálása partnerkórházakkal",
+        "Az út végrehajtása és folytonossági munkafolyamatok felelős emberi felügyelettel"
+      ],
+      "dontTitle": "Mit Nem Teszünk",
+      "dontBadges": [
+        "Nincs Diagnózis",
+        "Nincs Kezelési Ajánlás",
+        "Nincs Önálló Foglalás",
+        "Nincs Végső Kórházválasztás",
+        "Nincs AI Döntés"
+      ],
+      "notes": [
+        "Nem vészhelyzetre való. Sürgős tünetek esetén azonnal forduljon helyi orvoshoz.",
+        "Az orvosok tartják az értelmezési hatáskört. A kórházak tartják a kezelési hatáskört.",
+        "Nem helyettesíti a kórházi ellátást vagy a helyi orvosát."
+      ]
+    },
+    "readinessStates": {
+      "badge": "06 — Készültségi Állapotok",
+      "title": "Mikor Áll Készen egy Eset",
+      "subtitle": "Az AetherHeal nem viszi előre minden esetet azonos sebességgel. A készültséget ki kell érdemelni.",
+      "items": [
+        {
+          "state": "1. Állapot",
+          "title": "További Tisztázás Szükséges",
+          "description": "Az információ hiányos, a célok még homályosak, vagy a kockázattűrés nincs egyértelműen kifejezve."
+        },
+        {
+          "state": "2. Állapot",
+          "title": "Kész az Orvosi Keretezésre",
+          "description": "Az eset elegendő rendezett információval rendelkezik ahhoz, hogy az orvos értelmezze az átváltásokat és meghatározza a kereteket."
+        },
+        {
+          "state": "3. Állapot",
+          "title": "Kész a Kórházi Felülvizsgálatra",
+          "description": "Az orvos elkészítette a döntési keretet, és a keret megvalósíthatósági felülvizsgálatra kiadható."
+        },
+        {
+          "state": "4. Állapot",
+          "title": "Folytonossági Ellenőrzés Aktív",
+          "description": "A kezelés után az utánkövetési jelek és ellenőrzések nyomon követhetők maradnak, hogy a csapat koordinálhassa a folytonosságot."
+        }
+      ],
+      "footnote": "Egy eset bármelyik állapotban szünetelhet. A továbblépés a tisztánlátástól függ, nem a lendülettől."
+    },
+    "systemFlow": {
+      "badge": "07 — Rendszerfolyamat",
+      "titleParts": [
+        "Felvétel",
+        "Értelmezés",
+        "Folytonosság"
+      ],
+      "subtitle": "A szerepek minden lépésnél szigorúan meghatározottak. Az AI támogatás az orvosi értelmezés előtt és a kezelés után jelenik meg, nem az orvosi hatáskör helyett.",
+      "steps": [
+        {
+          "step": 1,
+          "actor": "Páciens",
+          "title": "Strukturált Felvétel",
+          "description": "Célok, feltételek, időterv, kockázattűrés"
+        },
+        {
+          "step": 2,
+          "actor": "AI Támogató Réteg",
+          "title": "Eset Rendszerezése",
+          "description": "Bemenetek rendszerezve, hiányosságok jelezve, kérdések előkészítve"
+        },
+        {
+          "step": 3,
+          "actor": "Angel (Orvos)",
+          "title": "Orvosi Értelmezés",
+          "description": "Kontextus, átváltások és készültség értékelése",
+          "emphasis": "key"
+        },
+        {
+          "step": 4,
+          "actor": "Angel (Orvos)",
+          "title": "Döntési Összefoglaló",
+          "description": "Döntési keret kidolgozása a további felülvizsgálathoz",
+          "emphasis": "key"
+        },
+        {
+          "step": 5,
+          "actor": "Platform",
+          "title": "Készültségi Zárolás",
+          "description": "A keret rögzítése bármilyen kórházi lépés előtt",
+          "emphasis": "key"
+        },
+        {
+          "step": 6,
+          "actor": "Partnerkórház",
+          "title": "Megvalósíthatósági Felülvizsgálat",
+          "description": "Elfogadás, elutasítás vagy tisztázás kérése"
+        },
+        {
+          "step": 7,
+          "actor": "Platform + Concierge",
+          "title": "Árajánlat + Koordináció",
+          "description": "Előleg, ütemezés, utazás és érkezési tervezés"
+        },
+        {
+          "step": 8,
+          "actor": "AI + Utazási Csapat",
+          "title": "Folytonossági Ellenőrzés",
+          "description": "Kezelés utáni átláthatóság, ellenőrzések és eszkalációs támogatás",
+          "emphasis": "final"
+        }
+      ],
+      "closingQuote": "Az AI támogathatja a munkafolyamatot. Az orvosi hatáskör határozza meg az eredményt."
+    },
+    "safety": {
+      "title": "Jogi és Orvosi Biztonság",
+      "items": [
+        {
+          "title": "Biztonság",
+          "body": "Nem sürgősségi célra. Ha sürgős tünetek jelentkeznek, azonnal forduljon helyi orvoshoz."
+        },
+        {
+          "title": "AI Határ",
+          "body": "Az AI kimenetek kizárólag előkészítő és ellenőrzési támogatás jellegűek. Nem diagnosztizálnak, nem ajánlanak kezelést, és nem döntenek kórházakról."
+        },
+        {
+          "title": "Adatok és Adatvédelem",
+          "body": "A feltöltés opcionális. A hozzáférés szerepkör-korlátozott. Kizárólag döntéstámogatásra, koordinációra és folytonossági ellenőrzésre használjuk."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Készen áll döntése",
+      "titleHighlight": "strukturálására?",
+      "ctaPrimary": "Kezdje el Döntési Útját",
+      "ctaSecondary": "Keretrendszer Felfedezése",
+      "disclaimer": "AI-támogatott. Orvos által engedélyezett. Nincs diagnózis. Nincs kezelés."
+    }
+  },
+  "ourPhilosophy": {
+    "meta": {
+      "title": "Miért Létezünk | AetherHeal",
+      "description": "Miért létezik az AetherHeal, miben különbözik strukturálisan az orvosi turisztikai ügynökségektől, és milyen strukturális alapok teszik a korrupciót tervezetten lehetetlenné."
+    },
+    "hero": {
+      "badge": "Alapozó Felépítés",
+      "h1": "Miért Létezik az",
+      "h1Highlight": "AetherHeal",
+      "intro": "Ez nem céges prezentáció. Annak magyarázata, hogy miért teszi szükségessé a globális egészségügy strukturális hibája nem csupán egy jobb párosító rendszert, hanem egy olyan felelősségi architektúrát, amely elég erős ahhoz, hogy hordozza az általa igényelt tekintélyt.",
+      "disclaimer": "Befektetőknek, partnereknek, orvosoknak és mindenkinek, aki nem csak az ígéretet, hanem az alatta lévő felelősségi struktúrát is meg akarja érteni."
+    },
+    "tldr": {
+      "badge": "Röviden",
+      "text": "Az orvosi turizmus azért nem működik, mert a kórházakat ajánló személyek profitálnak az ajánlásból, miközben túl kevés látható felelősséget viselnek az eredményért. Az AetherHeal ezt strukturálisan javítja: az Önt tanácsadó orvosok ugyanazt a fix díjat kapják, függetlenül attól, melyik kórházat választja, és a platform úgy van tervezve, hogy a felelősséget meghatározza, nyomon kövesse és viselje, ahelyett hogy marketing-nyelv mögé bújna."
+    },
+    "toc": [
+      {
+        "id": "the-problem",
+        "label": "A Probléma, Amit Megneveztünk"
+      },
+      {
+        "id": "the-architecture",
+        "label": "A Felépítés, Amit Létrehoztunk"
+      },
+      {
+        "id": "the-incentive",
+        "label": "Az Ösztönzői Struktúra"
+      },
+      {
+        "id": "the-ai-boundary",
+        "label": "Az AI Határ"
+      },
+      {
+        "id": "the-founder",
+        "label": "Az Alapító Kötelezettsége"
+      }
+    ],
+    "theProblem": {
+      "title": "A Probléma, Amit Megneveztünk",
+      "summary": "Miért nem bízhatnak a páciensek az orvosi turizmusban — és miért nem oldja meg a jobb marketing.",
+      "p1": "1970-ben George Akerlof közgazdász leírta, hogyan buknak meg a piacok, amikor a vásárlók nem tudják ellenőrizni a minőséget vásárlás előtt. Az alacsony minőségű áruk eladói kiszorítják a magas minőségű áruk eladóit — mert a vásárló nem tud különbséget tenni. A piac „tragacsokkal\u201D telik meg. Akerlof 2001-ben Nobel-díjat kapott ezért a felismerésért.",
+      "p2": "A globális orvosi turizmus tankönyvi Akerlof-piac. A páciensek nem tudják értékelni a sebészeti tudást, a kórházi biztonságot vagy a műtét utáni ellátás minőségét egy másik országból. Az egyetlen látható jelek az ár, a marketingkiadás és az előtte-utána fotók — amelyek egyike sem korrelál megbízhatóan a klinikai eredményekkel.",
+      "p3": "Az eredmény kiszámítható: azok az ügynökségek nyerik el a legtöbb pácienst, amelyek a legtöbbet költik marketingre. A legjobb klinikai eredményeket produkáló orvosoknak nincs hiteles módjuk minőségük jelzésére. A páciensek testükkel kapcsolatos következményes döntéseket hoznak strukturálisan megbízhatatlan információk alapján.",
+      "callout": "Ez nem bizalmi probléma. Ez egy Akerlof-probléma — és az Akerlof-problémák intézményi megoldásokat igényelnek, nem jobb marketinget.",
+      "cycleTitle": "A „Tragacsok Piaca\u201D Ciklus",
+      "cycleSteps": [
+        "Az ügynökségek jutalékot keresnek a drága beavatkozásokon",
+        "A páciensek marketing alapján választanak, nem klinikai minőség alapján",
+        "A jó orvosoknak nincs hiteles jelzésük",
+        "A piacot alacsony minőségű szereplők töltik meg"
+      ],
+      "cycleResult": "Egyensúly: stabil és ártalmas"
+    },
+    "theArchitecture": {
+      "title": "A Felépítés, Amit Létrehoztunk",
+      "summary": "Független ellenőrzési réteg a páciensek és a kórházak között — mint a Michelin Kalauz az egészségügy számára.",
+      "p1": "A megoldás nem egy jobb piactér. Hanem az az intézményi bizalmi réteg, amellyel az iparág soha nem rendelkezett — az az ellenőrzési szabvány, amely az orvosi minőséget érthetővé teszi a páciensek számára, akik maguk nem tudják értékelni, miközben a platform saját felelősségét is láthatóvá teszi.",
+      "p2": "Gondoljon a Michelin Kalauzra: nem étterem. Hanem az a szabvány, amelyen keresztül az éttermek elismerést szereznek városok és országok között. A Michelin Kalauz előtt az étkezőknek nem volt megbízható módja a minőség értékelésére a szájhagyományon kívül. A Michelin Kalauz után maga a szabvány hordozta a bizalmat. A séfek a szabvány eléréséért versenyeznek — mert egy független, megfelelő ösztönzőkkel rendelkező tekintélytől származó elismerés nem vásárolható meg.",
+      "p3": "Az AetherHeal ugyanezt a strukturális pozíciót tölti be a globális orvosi utazás számára. Nem vagyunk kórház. Nem vagyunk ügynökség. Mi az ellenőrzési szabvány réteg vagyunk — elkülönítve a végrehajtási rétegtől, irányítva olyan orvosok által, akiknek semmilyen pénzügyi érdeke nem fűződik egyetlen páciens döntésének kimeneteléhez sem, és egyértelműen meghatározva, hol kezdődik és hol végződik a platform felelőssége.",
+      "callout": "Nem egy jobb orvosi turisztikai ügynökséget építünk. Egy orvos-irányítású bizalmi szabványt építünk, olyan felelősségi architektúrával, amely elég erős ahhoz, hogy kiérdemelje a bizalmat.",
+      "layers": [
+        {
+          "label": "Nemzetközi Páciensek",
+          "detail": "Nem tudják értékelni a minőséget határokon átívelően"
+        },
+        {
+          "label": "AetherHeal Ellenőrzési Szabvány",
+          "detail": "Orvos-irányítású, ösztönzői szempontból szétválasztott, nyilvánosan ellenőrizhető"
+        },
+        {
+          "label": "Kórházak és Orvosok",
+          "detail": "Klinikai kiválóság, függetlenül ellenőrizve"
+        }
+      ],
+      "beforeLabel": "Előtte: Kétoldalú bizalom szükséges minden tranzakcióhoz",
+      "afterLabel": "Utána: A szabvány hordozza a bizalmat"
+    },
+    "theIncentive": {
+      "title": "Az Ösztönzői Struktúra",
+      "summary": "Fix díj, amely pénzügyi érdekeinket azonossá teszi a páciens orvosi érdekeivel.",
+      "p1": "Bárki állíthatja az orvosi vezetést. Bárki írhat egy Bizalmi Protokoll oldalt. Amit egyetlen versenytárs sem tud lemásolni, az egy olyan díjstruktúra, ahol a platform szó szerint ugyanannyit keres, akár egy 2 000, akár egy 20 000 dolláros beavatkozást választ a páciens.",
+      "p2": "Az AetherHeal páciens-navigációs díja fix. A kórházakat ellenőrző csapat strukturálisan el van választva a pácienseket navigáló csapattól. Az Ön ügyét felülvizsgáló orvosnak nincs pénzügyi kapcsolata a hálózat egyetlen kórházával sem.",
+      "p3": "Ezek nem irányelvek. Az irányelvek betartatást igényelnek, és csendben elhagyhatók, amikor lassú a bevétel. Ezek építészeti döntések — a díjstruktúrába, a szervezeti felépítésbe és az irányítási modellbe beépítve. Nehezebbé teszik a bizonytalanságból való profitszerzést anélkül, hogy a döntési folyamatért látható felelősséget viselnénk.",
+      "callout": "Üzleti modellünk úgy van kialakítva, hogy a befolyás növekedésével a felelősség is egyre láthatóbbá válik — nem kevésbé. Ez nem irányelv. Ez strukturális tény.",
+      "comparison": {
+        "traditional": {
+          "label": "Hagyományos Ügynökség",
+          "items": [
+            {
+              "text": "Jutalék a beavatkozás költsége után",
+              "negative": true
+            },
+            {
+              "text": "Ugyanaz a csapat ajánl és ellenőriz",
+              "negative": true
+            },
+            {
+              "text": "Többet keres a drágább opciókon",
+              "negative": true
+            },
+            {
+              "text": "Orvos a kórházi bevételhez kötve",
+              "negative": true
+            }
+          ]
+        },
+        "aetherheal": {
+          "label": "AetherHeal",
+          "items": [
+            {
+              "text": "Fix díj a beavatkozás költségétől függetlenül",
+              "negative": false
+            },
+            {
+              "text": "Az ellenőrzés és a navigáció teljesen szétválasztva",
+              "negative": false
+            },
+            {
+              "text": "Ugyanannyit keres 2 000 és 20 000 dolláros beavatkozásnál",
+              "negative": false
+            },
+            {
+              "text": "Az orvosnak semmilyen kórházi pénzügyi kötődése nincs",
+              "negative": false
+            }
+          ]
+        }
+      },
+      "principles": [
+        {
+          "title": "Fix Navigációs Díj",
+          "body": "Ugyanaz a díj, akár 2 000, akár 20 000 dollárba kerül a beavatkozás. Nincs jutalék. Nincs upsell ösztönző."
+        },
+        {
+          "title": "Szétválasztási Elv",
+          "body": "A kórházakat ellenőrző csapat soha nem navigál pácienseket. A pácienseket navigáló csapat soha nem ellenőriz kórházakat."
+        },
+        {
+          "title": "Orvosi Függetlenség",
+          "body": "A felülvizsgáló orvosoknak nincs tulajdonrészük, ajánlási díjuk vagy pénzügyi kapcsolatuk egyetlen partnerkórházzal sem."
+        }
+      ]
+    },
+    "theAiBoundary": {
+      "title": "Az AI Határ",
+      "summary": "Az AI szervezéssel és logisztikával segít. Soha nem hoz orvosi döntést és nem választja ki kórházát.",
+      "p1": "Az AetherHeal-en belüli AI a komplexitást rendszerezi. Strukturálja a felvételi információkat, felszínre hozza a hiányzó dokumentumokat, támogatja a többnyelvű koordinációt, és kiterjeszti a kezelés utáni folytonossági ellenőrzést.",
+      "p2": "Nem hoz orvosi döntéseket. Nem választja ki kórházát. Nem bírálja felül az orvosi ítéletet. Ez nem egy vonakodva bevezetett korlátozás — ez az alapvető tervezési elv.",
+      "p3": "Martin Heidegger filozófus arra figyelmeztetett, hogy a technológia legmélyebb veszélye nem az, hogy meghibásodik, hanem hogy mindent optimalizálandó erőforrásként keretez át. Edmund Pellegrino, az orvostudomány filozófusa azzal érvelt, hogy az orvoslás erkölcsi vállalkozás — nem technikai. Abban a pillanatban, amikor egy AI réteg felváltja az orvos olvasatát az előtte álló emberről, a rendszer a legmélyebb szinten csődöt mondott, még ha minden mutató jónak is tűnik.",
+      "callout": "Az AI rendszerezi az információt, hogy az orvos az emberre koncentrálhasson. Az orvos először az embert olvassa, aztán a profilt.",
+      "ctaHowItWorks": "Tekintse meg az AI irányítás teljes leírását"
+    },
+    "theFounder": {
+      "title": "Az Alapító Kötelezettsége",
+      "bridge": "A fenti szakaszok a strukturális logikát írják le. De a struktúrák nem épülnek maguktól — emberektől származnak, akiknek okuk van törődni. Íme, miért létezik ez.",
+      "p1": "Dr. Jee Hoon Ju az American Board of Aesthetic Medicine által minősített bőresztétikai orvos és hajbeültetési sebész, aki két beavatkozást élt át páciensként. Az első sikertelen volt — mert az ár volt az egyetlen jel, amit olvasni tudott. Csak azután értette meg, mit tettek vele, miután a szakterület specialistája lett.",
+      "p2": "Az AetherHeal nem azért épül, mert egy alapító piaci lehetőséget azonosított. Azért épül, mert egy orvost vakított meg az a probléma, amelyet megoldani próbál — és éveket töltött azzal, hogy megszerezze a klinikai szaktudást, amellyel pontosan megérti, mi ment rosszul és miért tette azt a piac elkerülhetetlenné.",
+      "p3": "Emmanuel Levinas filozófus azt írta, hogy a valódi erkölcsi kötelezettség a találkozással kezdődik — amikor igazán meglátja valaki sebezhetőségét, és többé nem tud elfordulni. Ez nem egy pitch deck történet. Ez az oka annak, hogy egy bizalmi platform nem igényelhet tekintélyt anélkül, hogy megtervezné, hogyan viseli a felelősséget, amikor a tét valódi.",
+      "callout": "Nem azért építem ezt, mert piaci lehetőséget azonosítottam. Azért építem, mert megvakított a probléma, amelyet megoldok — és mert a felelősség nélküli bizalom csak marketing-nyelv.",
+      "timeline": [
+        {
+          "year": "Páciens",
+          "event": "Az első hajbeültetés sikertelen volt — az ár volt az egyetlen elérhető jel"
+        },
+        {
+          "year": "Hallgató",
+          "event": "Felvételt nyert az orvosi egyetemre, hogy megértse, mi ment rosszul"
+        },
+        {
+          "year": "Specialista",
+          "event": "Az American Board of Aesthetic Medicine által minősítve — megértette a strukturális hibát az orvos oldaláról"
+        },
+        {
+          "year": "Alapító",
+          "event": "Létrehozta az AetherHeal-t, hogy kijavítsa a piacot, amely megvakította"
+        }
+      ]
+    },
+    "closing": {
+      "title": "Mit Jelent Ez Önnek",
+      "patient": "Ha páciens — egy olyan rendszerbe lép be, amely úgy van tervezve, hogy senkinek ne legyen érdeke félrevezetni Önt.",
+      "hospital": "Ha kórház — egy olyan szabványhoz csatlakozik, amely jutalmazza az Ön által már nyújtott minőséget.",
+      "investor": "Ha befektető — infrastruktúrát finanszíroz, nem piacteret. A szabványok másképp kamatoznak, mint a tranzakciók. Az AetherHeal két növekvő hálózatot működtet: egy ellenőrzött kórházhálózatot és egy ellenőrzött concierge-hálózatot sofőrökkel, tolmácsokkal és kísérőkkel. Mindkét hálózat erősíti a másikat — és egyiket sem lehet lemásolni pusztán egy jobb app megépítésével.",
+      "cta": "Hogyan Működik"
+    }
+  },
+  "trustProtocol": {
+    "meta": {
+      "title": "Az AetherHeal Bizalmi Protokoll | AetherHeal",
+      "description": "Hogyan irányítja az AetherHeal az emberi és AI-támogatott döntéstámogatást független felügyelet, auditálható protokoll-végrehajtás és szelektív partnerkórházi szabványok révén."
+    },
+    "hero": {
+      "badge": "Irányítás",
+      "h1": "Az AetherHeal",
+      "h1Highlight": "Bizalmi Protokoll",
+      "intro": "Független irányítás felügyeli mind az emberi, mind az AI-támogatott döntéstámogatást, hogy minden eset klinikailag körülhatárolt, auditálható és elszámoltatható maradjon. A cél nem csupán a bizalom láthatóvá tétele, hanem a felelősség láthatóvá tétele mindenhol, ahol hatáskört igényelnek.",
+      "disclaimer": "A bizalmi felülvizsgálók kizárólag olvasási jogosultsággal rendelkező felülvizsgálók maradnak. Felfüggeszthetik, elhalaszthatják vagy újbóli tisztázást kérhetnek, ha a protokoll-szabványok nem teljesülnek. Szerepük nem a felelősség elkerülése, hanem annak egyértelmű meghatározása és betartatása."
+    },
+    "tldr": {
+      "badge": "Röviden",
+      "points": [
+        "Orvosok vizsgálnak felül minden esetet — az AI segít, de soha nem dönt.",
+        "Az Önt tanácsadó személyek nem profitálnak abból, melyik kórházat választja.",
+        "A partnerkórházak szelektíven ellenőrzöttek és rendszeresen újraértékeltek.",
+        "Minden döntés naplózott, auditálható és visszakövethető egy felelős személyig."
+      ]
+    },
+    "toc": [
+      {
+        "id": "purpose",
+        "label": "Cél, Hatáskör és Függetlenség"
+      },
+      {
+        "id": "responsibility-architecture",
+        "label": "Felelősségi Architektúra"
+      },
+      {
+        "id": "ai-governance",
+        "label": "AI Irányítás, Auditálhatóság és Végrehajtás"
+      },
+      {
+        "id": "incentive-separation",
+        "label": "Ösztönzői Szétválasztás"
+      },
+      {
+        "id": "partner-criteria",
+        "label": "Partnerkórházi Kritériumok"
+      },
+      {
+        "id": "what-this-means",
+        "label": "Mit Jelent Ez a Pácienseknek"
+      },
+      {
+        "id": "trust-scope",
+        "label": "Bizalmi Protokoll Hatáskör"
+      },
+      {
+        "id": "team",
+        "label": "Ki Üzemelteti a Bizalmi Protokollt"
+      },
+      {
+        "id": "ongoing",
+        "label": "Folyamatos Elszámoltathatóság"
+      }
+    ],
+    "purpose": {
+      "title": "Cél, Hatáskör és Függetlenség",
+      "protocolDocument": "Protokoll Dokumentum",
+      "purposeTitle": "Cél",
+      "purposeText": "A Bizalmi Protokoll az AetherHeal döntéstámogató folyamatának integritását hivatott fenntartani mind az emberi, mind az AI-támogatott munkafolyamatokban. Független a klinikai műveletektől, közvetlenül a platformirányításnak jelent, és segít meghatározni, hogy a platform milyen felelősséget visel és milyet nem az egyes rétegekben.",
+      "authorityTitle": "Hatáskör",
+      "authorityText": "A bizalmi felülvizsgálók olvasási jogosultsággal rendelkeznek a befejezett döntési összefoglalókhoz, protokollnaplókhoz és az eseti folyamatban használt irányított AI termékekhez. Jelezhetik aggályaikat, felülvizsgálatot kérhetnek és eszkalálhatnak, de nem írhatják át a páciens felé irányuló dokumentumokat és nem módosíthatják a klinikai ajánlásokat. Ez megőrzi a felelősséget, ahelyett hogy elmosná.",
+      "independenceTitle": "Függetlenség",
+      "independenceText": "A Bizalmi Protokoll csapata a klinikai műveletektől, a szolgáltatói kapcsolatoktól és a kereskedelmi végrehajtástól külön jelentési vonalon működik. Ez a szétválasztás védi a felügyeleti minőséget az operatív nyomástól, az ajánlási ösztönzőktől és az automatizálási kényelemtől."
+    },
+    "responsibilityArchitecture": {
+      "title": "Felelősségi Architektúra",
+      "intro": "Az AetherHeal nem egyszerű piactérként írja le magát. Ez számít. Minél több hatáskört igényel egy platform egy döntés felett, annál egyértelműbben kell meghatároznia a viselt felelősséget.",
+      "positions": [
+        {
+          "title": "Egyszerű Közvetítő",
+          "body": "Egy platform, amely csak vásárlókat és eladókat köt össze, megpróbálhatja minimalizálni a felelősséget azzal, hogy az eredmény teljes egészében a két fél dolga. Az átváltás az, hogy a bizalom gyenge és töredezett marad."
+        },
+        {
+          "title": "Minősítő Platform",
+          "body": "Egy platform, amely szabványokat állít és résztvevőket ellenőriz, nagyobb hatáskörrel rendelkezik. A bizalom átvihető a szabványon keresztül, de a platform most felelős azért, hogy ez a szabvány értelmes legyen."
+        },
+        {
+          "title": "Döntéstámogató Infrastruktúra",
+          "body": "Egy platform, amely eseteket strukturál, opciókat szűr és döntési utakat formál, közvetlenül a felelősségi láncba lép. Ez az AetherHeal pozíciója, ezért a felelősséget a rendszerbe kell tervezni."
+        }
+      ],
+      "principleIntro": "Az irányadó elv egyszerű:",
+      "principleText": "A befolyás és a felelősség együtt kell növekedjen. Ha egy platform segít formálni egy orvosi döntést, nem bújhat a semlegesség nyelve mögé.",
+      "guardrails": [
+        "Egyértelműen meghatározni, miért felelős az AetherHeal és mi marad a szolgáltató felelőssége.",
+        "A jogi határokat és az erkölcsi felelősséget összefüggőként, de nem azonosként kezelni.",
+        "A kedvezőtlen eredményeket, auditokat és páciens-visszajelzéseket tanulási inputként kezelni, nem pedig elrejtendő reputációs kockázatként."
+      ],
+      "callout": "A felelősség nélküli bizalom csak marketing-nyelv. Az AetherHeal állítása erősebb: ha bizalmat kérünk, felelősségünket is olvashatóvá kell tennünk."
+    },
+    "aiGovernance": {
+      "title": "AI Irányítás, Auditálhatóság és Végrehajtás",
+      "intro": "Az AI támogathatja a folyamat szűk részeit, de kizárólag meghatározott operatív határokon belül. Az irányadó szabvány nem a sebesség vagy az automatizálás volumene. Hanem a döntési minőség, a nyomon követhetőség és a biztonságos eszkaláció.",
+      "principles": [
+        {
+          "title": "Korlátozott Használat",
+          "body": "Az AI segíthet a felvétel strukturálásában, dokumentumok összefoglalásában, fordítás támogatásában és hiányzó információk felszínre hozásában a jóváhagyott szabályokon belül. Nem terjesztheti ki a klinikai hatáskört, nem szimulálhat bizonyosságot, és nem helyettesítheti a felelős emberi felülvizsgálatot."
+        },
+        {
+          "title": "Emberi Felülvizsgálat",
+          "body": "A páciens felé irányuló összefoglalók, protokoll-kivételek és szolgáltatói irányítási döntések felelős emberi felülvizsgálatot igényelnek, mielőtt alapul szolgálnának. Az AI segíthet az előkészítésben, de a tulajdonjog az engedéllyel rendelkező orvosoknál, bizalmi felülvizsgálóknál vagy kijelölt operatív személyzetnél marad."
+        },
+        {
+          "title": "Auditnapló",
+          "body": "A kulcsfontosságú promptok, kimenetek, szerkesztések, jóváhagyások és kivételek naplózásra kerülnek, hogy az eset rekonstruálható és felülvizsgálható legyen. Az auditálhatóság ellenőrzési követelmény, nem opcionális funkció."
+        },
+        {
+          "title": "Protokoll Végrehajtás",
+          "body": "Amikor a bemenetek hiányosak, kétértelműek, hatáskörön kívüliek vagy biztonsági szempontból relevánsak, az irányított válasz a felfüggesztés, elhalasztás vagy újbóli tisztázás kérése. A továbblépés csak akkor érvényes, ha a dokumentáció kellően egyértelmű és elszámoltatható."
+        }
+      ],
+      "validTitle": "Érvényes protokoll-eredmények",
+      "outcomes": [
+        {
+          "label": "Felfüggesztés",
+          "body": "Akkor alkalmazzák, amikor az eset a hatáskörön kívül esik, biztonsági szempontból releváns, vagy közvetlen emberi beavatkozás nélkül nem léphet tovább."
+        },
+        {
+          "label": "Elhalasztás",
+          "body": "Akkor alkalmazzák, amikor az eset később folytatódhat, de az időzítés, a dokumentáció vagy a készültség még nem elegendő."
+        },
+        {
+          "label": "Újbóli Tisztázás",
+          "body": "Akkor alkalmazzák, amikor az eset aktív maradhat, de az állításokat, célokat, dokumentumokat vagy feltételezéseket pontosabban kell újrafogalmazni."
+        },
+        {
+          "label": "Továbblépés",
+          "body": "Csak azután alkalmazzák, hogy az eset átment a vonatkozó protokoll-ellenőrzéseken, és a felelős személyek megerősítették a következő lépés megfelelőségét."
+        }
+      ]
+    },
+    "incentiveSeparation": {
+      "title": "Döntési Integritás az Ösztönzők Szétválasztásán Keresztül",
+      "akerlofFraming": "1970-ben George Akerlof közgazdász leírta, hogyan buknak meg a piacok, amikor a vásárlók nem tudják ellenőrizni a minőséget. Az orvosi turizmus tankönyvi eset. Az AetherHeal ösztönzői architektúrája e hiba strukturális korrekciójára készült.",
+      "p1": "A legtöbb orvosi utazási platformon ugyanaz a szervezet ajánlja a kórházat, amely profitál is az ajánlásból. Ez a konfliktus embereket és szoftvert egyaránt érinthet: az esetfolyamat az ítéletminőség helyett a konverzióra kezd optimalizálni.",
+      "p2": "Az AetherHeal strukturálisan más. A platformot független rétegekre osztjuk, eltérő ösztönzőkkel, jelentési vonalakkal és kontrollokkal. Az AI rendszerek, ahol alkalmazottak, ugyanazon határokon belül vannak irányítva, és nem optimalizálhatnak szolgáltató-irányítást vagy eset-lezárást kereskedelmi haszonra.",
+      "structuralCallout": "Üzleti modellünk úgy van kialakítva, hogy a befolyás nem tud növekedni anélkül, hogy a látható felelősség vele együtt ne növekedne. Ez az összehangolás strukturális, nem törekvés.",
+      "angelLayer": {
+        "label": "1. Réteg",
+        "title": "Angel Réteg",
+        "description": "Az orvos tanácsadók irányítják a páciens döntési folyamatát. AI eszközök segíthetik a dokumentálást ezen a rétegen belül, de nem vezethetnek be szolgáltatói preferenciát, nem hozhatnak végső irányítási döntéseket, és nem zárhatnak le esetet önállóan.",
+        "incentiveLabel": "Ösztönző Kötődik",
+        "incentives": [
+          "Az orvos által felülvizsgált döntéstámogatás minősége és teljessége",
+          "A páciens megértése és tájékozott beleegyezése",
+          "Protokoll-betartás, beleértve az AI korlát-megfelelőséget"
+        ]
+      },
+      "providerLayer": {
+        "label": "2. Réteg",
+        "title": "Orvosi Szolgáltató",
+        "description": "A partnerkórházak és klinikák csak a döntési keret, a protokoll-ellenőrzések és a felelős jóváhagyások teljesítése után nyújtanak klinikai ellátást. Szerepük a kezelés nyújtása, nem a felsőbb szintű döntésformálás.",
+        "incentiveLabel": "Ösztönző Kötődik",
+        "incentives": [
+          "Klinikai eredmények és kezelés nyújtása",
+          "Páciens-elégedettség és felépülés minősége",
+          "A megállapodott ellátási és folytonossági protokollok betartása"
+        ]
+      },
+      "principleIntro": "A strukturális elv egyszerű:",
+      "principleText": "Az emberek és rendszerek, amelyek segítenek döntése strukturálásában, nem kapnak juttatást azért, mert egy bizonyos szolgáltató felé terelik. Az emberi felülvizsgálók és az irányított AI munkafolyamatok úgy vannak korlátozva, hogy a döntéstámogatás a kezelési nyereségtől elkülönülten maradjon."
+    },
+    "partnerCriteria": {
+      "title": "Partnerkórházi Kritériumok",
+      "intro": "Nem minden szöuli kórház felel meg szabványainknak. Az AetherHeal szelektív partnerhálózatot működtet, ahol minden intézményt több dimenzióban értékelnek a csatlakozás előtt:",
+      "items": [
+        "Klinikai szakértelem és sebészi specializáció mélysége",
+        "Létesítményi szabványok és felszerelés-tanúsítás",
+        "Etikus gyakorlat története és pácienspanasz-nyilvántartás",
+        "Határon átnyúló páciens-tapasztalat és nyelvi támogatás",
+        "Összehangolás az AetherHeal döntés-elsődleges filozófiájával",
+        "Kezelés utáni utánkövetés és folytonossági protokollok"
+      ]
+    },
+    "whatThisMeans": {
+      "title": "Mit Jelent Ez",
+      "audiences": [
+        {
+          "label": "Pácienseknek",
+          "body": "Amikor az AetherHeal partnerkórházhoz párosítja, ez a párosítás az Ön klinikai profiljára, dokumentált feltételeire és felülvizsgált döntési összefoglalójára épül — nem jutalékokra, marketing nyomásra vagy átláthatatlan automatizálásra. A lényeg nem csupán az iránymutatás, hanem a felelősségi lánc olvashatóvá tétele."
+        },
+        {
+          "label": "Kórházaknak",
+          "body": "Az ellenőrzés strukturális megfelelésen keresztül érhető el, nem fizetéssel. Az AetherHeal Ellenőrzött státusz fenntartása folyamatos kommunikációs, dokumentációs és ellátási szabványok betartását igényli, amelyeket a kereskedelmi csapattól függetlenül vizsgálnak felül."
+        },
+        {
+          "label": "Szabályozóknak",
+          "body": "Ha egy eset hiányos vagy kétértelmű, a felfüggesztés, elhalasztás és újbóli tisztázás érvényes biztonsági intézkedésekként kezelendők, nem szolgáltatási hibaként. Minden protokoll-döntés naplózott, auditálható és visszakövethető egy felelős személyig."
+        }
+      ]
+    },
+    "trustScope": {
+      "title": "Bizalmi Protokoll Hatáskör",
+      "intro": "Egyértelmű határok határozzák meg, mit tesznek és mit nem tesznek a bizalmi felülvizsgálók.",
+      "doTitle": "A Bizalmi Felülvizsgálók Feladatai",
+      "doItems": [
+        "Döntési összefoglaló minőségének felülvizsgálata",
+        "AI és emberi folyamatnaplók ellenőrzése",
+        "Protokoll-végrehajtás és kivételkezelés auditálása",
+        "Páciens-beleegyezés integritásának biztosítása",
+        "Rendszerszintű minták figyelése",
+        "Biztonsági vagy megfelelőségi aggályok jelzése"
+      ],
+      "dontTitle": "Amit a Bizalmi Felülvizsgálók NEM Tesznek",
+      "dontItems": [
+        "Nem bírálják felül a kezelési döntéseket szolgáltatói szinten",
+        "Nem keresik meg közvetlenül a pácienseket kezelőorvosként",
+        "Nem módosítják utólag a döntési összefoglalókat vagy naplókat",
+        "Nem nyújtanak diagnózist, receptet vagy orvosi tanácsot",
+        "Nem osztanak meg páciens-adatokat külsőleg az engedélyezett folyamaton kívül",
+        "Nem kerülik meg a felfüggesztési, elhalasztási vagy újbóli tisztázási kontrollokat"
+      ]
+    },
+    "team": {
+      "title": "Ki Üzemelteti a Bizalmi Protokollt?",
+      "roles": [
+        {
+          "title": "Orvosi Minőségi Felülvizsgáló",
+          "description": "Felülvizsgálja a döntési összefoglalók klinikai tisztaságát és teljességét, mielőtt azokra a későbbiekben támaszkodnának."
+        },
+        {
+          "title": "AI Irányítási Felülvizsgáló",
+          "description": "Ellenőrzi, hogy az AI-támogatott lépések betartották-e a jóváhagyott korlátokat, naplózási szabályokat és eszkalációs szabványokat."
+        },
+        {
+          "title": "Folyamat-integritási Felülvizsgáló",
+          "description": "Validálja, hogy a szükséges protokoll-kapuk, jóváhagyások és kivételek minden esetnél megfelelően kezelve lettek."
+        },
+        {
+          "title": "Páciens-biztonsági Felülvizsgáló",
+          "description": "Figyeli a hatáskör-megsértéseket, nem biztonságos állításokat vagy olyan munkafolyamat-mintákat, amelyek veszélyeztethetik a páciens védelmét."
+        }
+      ]
+    },
+    "ongoing": {
+      "title": "Folyamatos Elszámoltathatóság",
+      "text": "Az ellenőrzés nem egyszeri esemény. Az AetherHeal a partnerintézmények, emberi felülvizsgálók és AI-támogatott munkafolyamatok folyamatos felülvizsgálatát tartja fenn auditok, páciens-visszajelzések, kedvezőtlen kimenetelekből való tanulás és időszakos újraértékelés révén.",
+      "checklist": [
+        "Negyedéves protokoll-megfelelőségi auditok",
+        "Éves partner-újraellenőrzési felülvizsgálatok",
+        "Folyamatos AI munkafolyamat-viselkedés nyomon követés",
+        "Páciens-visszajelzés integrálása a szabványokba"
+      ],
+      "boxTitle": "A szabványok betartathatók maradnak",
+      "boxText": "Ha ismétlődő eltérések, dokumentálatlan felülbírálások, nem biztonságos automatizálási minták vagy súlyos kimeneteli aggályok merülnek fel, az érintett munkafolyamat vagy partnerkapcsolat szüneteltethető, korrigálható vagy megszüntethető. A felelősségvállalás a termék része, nem utólagos kiegészítés."
+    },
+    "relatedPages": [
+      {
+        "label": "Kórházválasztás Külföldön",
+        "desc": "Keretrendszer a biztonságosabb döntésekhez"
+      },
+      {
+        "label": "Az Ön Orvosi Útja",
+        "desc": "Fázisonkénti koordináció egyértelmű felelősséggel"
+      },
+      {
+        "label": "Hogyan Működik az AetherHeal",
+        "desc": "Az orvos által vezetett döntéstámogatás rendszere"
+      }
+    ]
+  },
+  "explore": {
+    "meta": {
+      "title": "Keretrendszer Felfedezése | AetherHeal",
+      "description": "Tekintse át, hogyan működik a strukturált orvosi döntéstámogatás. Ismerje meg az AetherHeal keretrendszerét, mielőtt bármilyen kezelés vagy kórház mellett elköteleződne."
+    },
+    "hero": {
+      "badge": "Felfedezési Mód",
+      "h1": "Ismerje Meg a Keretrendszert, Mielőtt Elköteleződik",
+      "subtitle": "Tekintse át, hogyan működik a strukturált orvosi döntéstámogatás. Nincs fiók szükséges, nincs nyomás, és még nem szükséges kezelési döntés.",
+      "cta": "Tovább a működéshez"
+    },
+    "concepts": {
+      "title": "Alapfogalmak",
+      "subtitle": "Minden fogalom segít megelőzni az elkerülhető megbánást.",
+      "items": [
+        {
+          "title": "Kockázattűrés",
+          "front": "Nem csupán beavatkozást választ. Azt választja, milyen kockázatokat hajlandó elfogadni.",
+          "back": "Minden beavatkozásnak van kockázati profilja. Angel orvosa segít megérteni az Ön esetére jellemző kockázatokat, és meghatározni, milyen kompromisszumok elfogadhatók az Ön számára."
+        },
+        {
+          "title": "Biológiai Szerződés",
+          "front": "Szerződést köt testével a felépülési teher és a gyógyulási idő tekintetében.",
+          "back": "A felépülés nem opcionális — biológiai kötelezettség. A gyógyulási ütemterv és igényeinek megértése elengedhetetlen minden elköteleződés előtt."
+        },
+        {
+          "title": "Elfogadható Eredmény",
+          "front": "A cél egy olyan eredmény, amely akkor is elfogadható marad, ha nem strukturálisan tökéletes.",
+          "back": "A tökéletesség nem klinikai szabvány. Orvosa segít meghatározni, hogyan néz ki egy elfogadható eredmény az Ön anatómiája és céljai alapján."
+        }
+      ]
+    },
+    "failureReasons": {
+      "badge": "Miért Vallanak Kudarcot a Döntések",
+      "title": "Gyakori Megbánási Minták",
+      "items": [
+        {
+          "label": "Vizuális Elfogultság",
+          "description": "Döntés kizárólag „legjobb eset\u201D fotók alapján"
+        },
+        {
+          "label": "Ár-optimalizálás",
+          "description": "Biológiai változások kezelése piaci termékként"
+        },
+        {
+          "label": "Népszerűségi Téveszme",
+          "description": "Feltételezés, hogy a trendi beavatkozások megfelelőek"
+        },
+        {
+          "label": "Korlát-tagadás",
+          "description": "A felépülési időterv meghatározásának elmulasztása"
+        }
+      ]
+    },
+    "caseStudies": {
+      "badge": "Előtte & Utána Galéria",
+      "title": "Hajbeültetés Előtte & Utána",
+      "subtitle": "Kezdeti jóváhagyott FUE hajbeültetési esetek.",
+      "cases": [
+        {
+          "id": "HT-8291",
+          "number": "01",
+          "title": "Hajbeültetés",
+          "goal": "Frontális denzitás újjáépítése a donorterület túlzott kiaknázása nélkül",
+          "constraint": "Korlátozott donorterület és rövid felépülési idő",
+          "preparation": "Az AI elválasztotta a denzitási célokat a hajvonal-lejjebb helyezéstől, jelezte a donorkészlet-eltérést, és az orvosi felülvizsgálathoz szükséges hiányzó fejbőr-kórtörténeti kérdéseket sorba állította."
+        },
+        {
+          "id": "RH-1044",
+          "number": "02",
+          "title": "Orrplasztika",
+          "goal": "Az orrnyereg egyenesítése és az orrhegy finomítása természetes megjelenés megőrzésével",
+          "constraint": "Vastag bőr és alacsony revíziós tolerancia",
+          "preparation": "Az AI feltérképezte a drámai finomítás és a szöveti korlátok közötti feszültséget, majd orvos-kész összefoglalót készített az anatómiáról, prioritásokról és korábbi filler-történetről."
+        },
+        {
+          "id": "SK-3302",
+          "number": "03",
+          "title": "Bőrfeszesítés",
+          "badge": "NEM-SEBÉSZI",
+          "goal": "Állkapocs kontúr helyreállítása minimális kieséssel",
+          "constraint": "Csak nem-sebészi és korábbi energiaalapú eszközös kezelés",
+          "preparation": "Az AI kiemelte a feszesítési elvárások és a kiesési korlátok közötti eltérést, kérte a hiányzó eszköz-történeti adatokat, és tömör összefoglalót készített az orvosi értelmezéshez."
+        }
+      ],
+      "caseLabel": "Eset",
+      "maleCaseTitle": "Férfi Eset 1",
+      "femaleCaseTitle": "Női Eset 1",
+      "maleCase2Title": "Férfi Hajvonal Eset 2",
+      "femaleCase2Title": "Női Hajvonal Eset 2",
+      "hairlineCaseLabel": "Hajvonal eset",
+      "beforeAfterLabel": "Előtte / Utána",
+      "beforeLabel": "Előtte",
+      "afterLabel": "Utána",
+      "placeholder": "Kép helyőrző",
+      "disclaimer": "A páciensfotók elrendezési és bemutatási célból láthatók.",
+      "contextBannerTitle": "Ezek a fotók kontextusként szolgálnak, nem összehasonlításként",
+      "contextBannerText": "Az előtte/utána képek a beavatkozási spektrumot mutatják, nem ígért eredményeket. Minden eset egyedi. Az AetherHeal ezeket a referenciákat a tájékozott döntéshozatal támogatására használja — nem a megjelenés alapján történő vásárlás ösztönzésére.",
+      "searchPlaceholder": "Beavatkozások keresése...",
+      "jumpToLabel": "Ugrás",
+      "noResultsLabel": "Nem található egyező beavatkozás."
+    },
+    "aiPreparation": {
+      "badge": "Foglalás Előtt",
+      "title": "Miben Segít az AI a Páciensek Felkészítésében",
+      "intro": "Mielőtt bármely kórházat megkeresnénk, az AI segít az elszórt pácienscélokat, feltételeket és kérdéseket strukturáltabb kiindulási ponttá alakítani az orvosi felülvizsgálathoz.",
+      "outputs": [
+        {
+          "title": "Célhierarchia",
+          "body": "Rendszerezi az elsődleges célokat, másodlagos preferenciákat és nem tárgyalható feltételeket, hogy a kompromisszumok korán láthatóvá váljanak."
+        },
+        {
+          "title": "Eltérés-térkép",
+          "body": "Kiemeli, hol ütközhetnek egymással az anatómia, az időterv, a költségvetés, a felépülési elvárások vagy a kitűzött célok."
+        },
+        {
+          "title": "Hiányzó-információ kérdések",
+          "body": "Felszínre hozza a megválaszolatlan kérdéseket és hiányzó részleteket, amelyekre az orvosnak szüksége lesz az érdemi értelmezés előtt."
+        },
+        {
+          "title": "Orvos-kész összefoglaló",
+          "body": "Tömör összefoglalóba csomagolja az esetet, amelyet az orvos felülvizsgálhat, finomíthat, megkérdőjelezhet és a következő lépés mérlegelésére fordíthat."
+        }
+      ],
+      "boundaryLabel": "Határ Megjegyzés",
+      "boundaryNote": "Az AI előkészíti és strukturálja az információt. Az orvosok értelmezik az orvosi jelentést, értékelik a megvalósíthatóságot, és döntik el, mi számít klinikailag."
+    },
+    "disciplines": {
+      "badge": "Lefedettség",
+      "title": "Támogatott Klinikai Szakterületek",
+      "items": [
+        "Hajbeültetés",
+        "Bőresztétika",
+        "Plasztikai Sebészet",
+        "Robotsebészet",
+        "Látáskorrekció",
+        "Fogászat",
+        "Őssejt-terápia",
+        "Liposucció és Zsírátrendezés",
+        "Idegsebészet",
+        "Általános Szűrővizsgálat",
+        "Teljes Test MRI"
+      ],
+      "cta": "Készen áll a teljes lépésről lépésre folyamat megtekintésére?",
+      "ctaHowItWorks": "Hogyan működik az AetherHeal",
+      "ctaMedicalBoundary": "Orvosi hatáskör elolvasása"
+    },
+    "caseStudyTabs": {
+      "title": "Átfogó Előtte & Utána Galéria",
+      "subtitle": "Böngésszen valós páciens-esetek között arc-, test- és hajbeavatkozásokból.",
+      "tabLabels": {
+        "face": "Arc",
+        "body": "Test",
+        "hair": "Haj",
+        "skin": "Bőr"
+      },
+      "categories": {
+        "facelift": {
+          "title": "Arcfeszesítés",
+          "cases": [
+            { "title": "Arcfeszesítés Eset 1", "subtitle": "SMAS arcfeszesítés" },
+            { "title": "Arcfeszesítés Eset 2", "subtitle": "Mélyréteges feszesítés" },
+            { "title": "Arcfeszesítés Eset 3", "subtitle": "Alsó arcfeszesítés" },
+            { "title": "Arcfeszesítés Eset 4", "subtitle": "SMAS arcfeszesítés" },
+            { "title": "Arcfeszesítés Eset 5", "subtitle": "Középarc-feszesítés" },
+            { "title": "Arcfeszesítés Eset 6", "subtitle": "Teljes SMAS feszesítés" },
+            { "title": "Arcfeszesítés Eset 7", "subtitle": "Alsó arc és nyak" }
+          ]
+        },
+        "rhinoplasty": {
+          "title": "Orrplasztika",
+          "cases": [
+            { "title": "Orrplasztika Eset 1", "subtitle": "Orrnyereg és hegy korrekció" },
+            { "title": "Orrplasztika Eset 2", "subtitle": "Orrtő-púp csökkentés" },
+            { "title": "Orrplasztika Eset 3", "subtitle": "Orrhegy finomítás" },
+            { "title": "Orrplasztika Eset 4", "subtitle": "Teljes orrplasztika" },
+            { "title": "Orrplasztika Eset 5", "subtitle": "Orrnyereg egyenesítés" },
+            { "title": "Orrplasztika Eset 6", "subtitle": "Orrszárny-csökkentés" },
+            { "title": "Orrplasztika Eset 7", "subtitle": "Orrsövényferdülés korrekció" },
+            { "title": "Orrplasztika Eset 8", "subtitle": "Revíziós orrplasztika" }
+          ]
+        },
+        "facialContouring": {
+          "title": "Arcformázás",
+          "cases": [
+            { "title": "Kontúrozás Eset 1", "subtitle": "V-vonal állkapocs-csökkentés" },
+            { "title": "Kontúrozás Eset 2", "subtitle": "Járomcsont + állkapocs" },
+            { "title": "Kontúrozás Eset 3", "subtitle": "Állkapocs-csökkentés" },
+            { "title": "Kontúrozás Eset 4", "subtitle": "Teljes kontúrozás" },
+            { "title": "Kontúrozás Eset 5", "subtitle": "Szögletes állkapocs csökkentés" },
+            { "title": "Kontúrozás Eset 6", "subtitle": "Járomcsont-csökkentés" },
+            { "title": "Kontúrozás Eset 7", "subtitle": "Állkapocs-formázás" },
+            { "title": "Kontúrozás Eset 8", "subtitle": "Mini V-vonal" }
+          ]
+        },
+        "eyes": {
+          "title": "Szem",
+          "cases": [
+            { "title": "Dupla Szemhéj Eset 1", "subtitle": "Incíziós módszer" },
+            { "title": "Dupla Szemhéj Eset 2", "subtitle": "Nem-incíziós" },
+            { "title": "Szem Alatti Eset 1", "subtitle": "Zsírátrendezés" },
+            { "title": "Szem Alatti Eset 2", "subtitle": "Alsó szemhéjplasztika" },
+            { "title": "Dupla Szemhéj Eset 3", "subtitle": "Ptosis korrekció" },
+            { "title": "Dupla Szemhéj Eset 4", "subtitle": "Incíziós revízió" },
+            { "title": "Szem Alatti Eset 3", "subtitle": "Zsíreltávolítás" },
+            { "title": "Szem Alatti Eset 4", "subtitle": "Karikás szem korrekció" }
+          ]
+        },
+        "doubleChin": {
+          "title": "Dupla Áll",
+          "cases": [
+            { "title": "Dupla Áll Eset 1", "subtitle": "Áll alatti liposucció" },
+            { "title": "Dupla Áll Eset 2", "subtitle": "Állcsökkentés" },
+            { "title": "Dupla Áll Eset 3", "subtitle": "Zsíreltávolítás" },
+            { "title": "Dupla Áll Eset 4", "subtitle": "Áll-kontúrozás" },
+            { "title": "Dupla Áll Eset 5", "subtitle": "Áll alatti szívás" },
+            { "title": "Dupla Áll Eset 6", "subtitle": "Nyak liposucció" },
+            { "title": "Dupla Áll Eset 7", "subtitle": "Állvonal kiemelés" },
+            { "title": "Dupla Áll Eset 8", "subtitle": "Teljes áll-formázás" }
+          ]
+        },
+        "breastAugmentation": {
+          "title": "Mellnagyobbítás",
+          "cases": [
+            { "title": "Augmentáció Eset 1", "subtitle": "Szilikon implantátumok" },
+            { "title": "Augmentáció Eset 2", "subtitle": "Csepp alakú implantátumok" },
+            { "title": "Augmentáció Eset 3", "subtitle": "Kerek implantátumok" },
+            { "title": "Augmentáció Eset 4", "subtitle": "Dual plane" },
+            { "title": "Augmentáció Eset 5", "subtitle": "Subfascialis elhelyezés" },
+            { "title": "Augmentáció Eset 6", "subtitle": "Izom alatti implantátumok" },
+            { "title": "Augmentáció Eset 7", "subtitle": "Anatómiai implantátumok" },
+            { "title": "Augmentáció Eset 8", "subtitle": "Kohezív gél" }
+          ]
+        },
+        "breastReduction": {
+          "title": "Mellkisebbítés",
+          "cases": [
+            { "title": "Redukció Eset 1", "subtitle": "Vertikális redukció" },
+            { "title": "Redukció Eset 2", "subtitle": "Horgony mintázat" },
+            { "title": "Redukció Eset 3", "subtitle": "Mellkisebbítés" },
+            { "title": "Redukció Eset 4", "subtitle": "Redukciós mammoplasztika" },
+            { "title": "Redukció Eset 5", "subtitle": "Superior pedicle" },
+            { "title": "Redukció Eset 6", "subtitle": "Fordított-T redukció" },
+            { "title": "Redukció Eset 7", "subtitle": "Kétoldali redukció" },
+            { "title": "Redukció Eset 8", "subtitle": "Circumareoláris technika" }
+          ]
+        },
+        "liposuction": {
+          "title": "Liposucció",
+          "cases": [
+            { "title": "Has Eset 1", "subtitle": "Hasi liposucció" },
+            { "title": "Comb Eset 1", "subtitle": "Comb kontúrozás" },
+            { "title": "Kar Eset 1", "subtitle": "Kar liposucció" },
+            { "title": "Has Eset 2", "subtitle": "Teljes has formázás" },
+            { "title": "Has Eset 3", "subtitle": "Alhas" },
+            { "title": "Comb Eset 2", "subtitle": "Belső comb kontúrozás" },
+            { "title": "Comb Eset 3", "subtitle": "Külső comb formázás" }
+          ]
+        },
+        "hairTransplant": {
+          "title": "Hajbeültetés",
+          "cases": [
+            { "title": "Férfi Eset 1", "subtitle": "FUE 2500 tüsző" },
+            { "title": "Női Eset 1", "subtitle": "FUE 1500 tüsző" },
+            { "title": "Férfi Hajvonal Eset 2", "subtitle": "FUE 2000 tüsző" },
+            { "title": "Női Hajvonal Eset 2", "subtitle": "FUE 1750 tüsző" }
+          ]
+        },
+        "browLift": {
+          "title": "Szemöldök- és Homlokfeszesítés",
+          "cases": [
+            { "title": "Szemöldökfeszesítés Eset 1", "subtitle": "Endoszkópos szemöldökfeszesítés" },
+            { "title": "Szemöldökfeszesítés Eset 2", "subtitle": "Direkt szemöldökfeszesítés" },
+            { "title": "Szemöldökfeszesítés Eset 3", "subtitle": "Temporális feszesítés" },
+            { "title": "Szemöldökfeszesítés Eset 4", "subtitle": "Homlokfeszesítés" },
+            { "title": "Szemöldökfeszesítés Eset 5", "subtitle": "Koronális szemöldökfeszesítés" }
+          ]
+        },
+        "neckLift": {
+          "title": "Nyakfeszesítés",
+          "cases": [
+            { "title": "Nyakfeszesítés Eset 1", "subtitle": "Platizmaplasztika" },
+            { "title": "Nyakfeszesítés Eset 2", "subtitle": "Cervikoplasztika" },
+            { "title": "Nyakfeszesítés Eset 3", "subtitle": "Nyak-kontúrozás" }
+          ]
+        },
+        "tummyTuck": {
+          "title": "Hasplasztika",
+          "cases": [
+            { "title": "Abdominoplasztika Eset 1", "subtitle": "Teljes hasplasztika" },
+            { "title": "Abdominoplasztika Eset 2", "subtitle": "Mini abdominoplasztika" },
+            { "title": "Abdominoplasztika Eset 3", "subtitle": "Kiterjesztett hasplasztika" },
+            { "title": "Abdominoplasztika Eset 4", "subtitle": "Fleur-de-lis" },
+            { "title": "Abdominoplasztika Eset 5", "subtitle": "Teljes abdominoplasztika" },
+            { "title": "Abdominoplasztika Eset 6", "subtitle": "Körkörös" }
+          ]
+        },
+        "armLift": {
+          "title": "Karfeszesítés",
+          "cases": [
+            { "title": "Brachioplasztika Eset 1", "subtitle": "Teljes karfeszesítés" },
+            { "title": "Brachioplasztika Eset 2", "subtitle": "Felkar-feszesítés" },
+            { "title": "Brachioplasztika Eset 3", "subtitle": "Kiterjesztett brachioplasztika" },
+            { "title": "Brachioplasztika Eset 4", "subtitle": "Minimális hegű karfeszesítés" },
+            { "title": "Brachioplasztika Eset 5", "subtitle": "Felkar-kontúrozás" },
+            { "title": "Brachioplasztika Eset 6", "subtitle": "Kar redukció" },
+            { "title": "Brachioplasztika Eset 7", "subtitle": "Teljes brachioplasztika" }
+          ]
+        },
+        "thighLift": {
+          "title": "Combfeszesítés",
+          "cases": [
+            { "title": "Combfeszesítés Eset 1", "subtitle": "Belső comb feszesítés" },
+            { "title": "Combfeszesítés Eset 2", "subtitle": "Mediális combplasztika" },
+            { "title": "Combfeszesítés Eset 3", "subtitle": "Vertikális combfeszesítés" },
+            { "title": "Combfeszesítés Eset 4", "subtitle": "Teljes comb-kontúrozás" }
+          ]
+        }
+      },
+      "skinPopularLabel": "Népszerű Koreában",
+      "skinCategories": [
+        {
+          "id": "lifting",
+          "title": "Feszesítés és Lifting",
+          "treatments": [
+            { "name": "Ultherapy", "tag": "HIFU", "origin": "Merz / USA", "description": "FDA-engedélyezett mikrofókuszált ultrahang szemöldök, nyak, áll és dekoltázs feszesítésre", "kr": true },
+            { "name": "Ultraformer MPT (Shurink Universe)", "tag": "HIFU", "origin": "Classys / Korea", "description": "Új generációs HIFU Mikro Impulzus Technológiával; CE MDR tanúsítvánnyal", "kr": true },
+            { "name": "Doublo Gold", "tag": "HIFU", "origin": "Hironic / Korea", "description": "HIFU mikrofókuszált ultrahang és RF kombinációjával napi klinikai használatra", "kr": true },
+            { "name": "Sofwave", "tag": "Ultrahang", "origin": "Sofwave Medical / Izrael", "description": "SUPERB szinkronizált ultrahang párhuzamos sugártechnológia; FDA engedélyezett minden bőrtípusra", "kr": false },
+            { "name": "Thermage FLX", "tag": "Monopoláris RF", "origin": "Solta Medical / USA", "description": "4. generációs monopoláris RF AccuREP auto-hangoló rendszerrel; egyszeri kezelés kollagén-átépítésre", "kr": true },
+            { "name": "Morpheus8", "tag": "Mikrotűs RF", "origin": "InMode / Izrael-USA", "description": "RF mikrotűzés 8 mm mélységig mély átépítésre és szubdermális zsírszövet-kezelésre", "kr": false },
+            { "name": "Potenza", "tag": "Mikrotűs RF", "origin": "Cynosure / USA", "description": "Monopoláris + bipoláris RF mikrotűzés Tiger Tip félig szigetelt tűkkel", "kr": false },
+            { "name": "SylfirmX", "tag": "Mikrotűs RF", "origin": "Viol / Korea", "description": "Kettős hullámú RF (impulzus + folyamatos) hatékony melasma és pigmentáció kezelésre", "kr": true },
+            { "name": "Genius RF", "tag": "Mikrotűs RF", "origin": "Lutronic / Korea", "description": "Valós idejű impedancia-visszacsatolásos RF mikrotűzés precíziós energiaszolgáltatásra", "kr": true },
+            { "name": "Volnewmer (Everesse)", "tag": "Mikrotűs RF", "origin": "Classys / Korea", "description": "Mikro-rádiófrekvenciás eszköz precíziós RF feszesítésre", "kr": true },
+            { "name": "Secret RF", "tag": "Mikrotűs RF", "origin": "Cutera / USA", "description": "Állítható mélységű RF mikrotűzés aranyozott tűkkel hegek és bőrmegújítás kezelésére", "kr": false },
+            { "name": "Scarlet RF", "tag": "Mikrotűs RF", "origin": "Viol / Korea", "description": "Rövid impulzusú RF mikrotűzés minimális kieséssel", "kr": true },
+            { "name": "INTRAcel", "tag": "Mikrotűs RF", "origin": "Jeisys / Korea", "description": "Frakcionált RF mikrotűzés kétfázisú hullámformával", "kr": true },
+            { "name": "DENSITY", "tag": "RF", "origin": "Jeisys / Korea", "description": "Nagyfrekvenciás arcfeszesítő eszköz Alpha Tip technológiával", "kr": true },
+            { "name": "CoolSonic", "tag": "Ultrahang", "origin": "CoolSonic / Korea", "description": "Nem-invazív ultrahangos feszesítés hűtési technológiával a fokozott komfortért", "kr": true },
+            { "name": "Oligio", "tag": "Monopoláris RF", "origin": "Classys / Korea", "description": "Monopoláris RF bőrfeszesítés AI-vezérelt energiaszabályozással; új generációs Thermage alternatíva", "kr": true },
+            { "name": "ONDA Coolwaves", "tag": "Mikrohullám", "origin": "DEKA / Olaszország", "description": "Mikrohullámú technológia (Coolwaves) bőrfeszesítésre, zsírcsökkentésre és cellulitkezelésre", "kr": true }
+          ]
+        },
+        {
+          "id": "rejuvenation",
+          "title": "Bőrmegújítás és Bőrboosterek",
+          "treatments": [
+            { "name": "Rejuran Healer", "tag": "PN/PDRN", "origin": "Pharmaresearch / Korea", "description": "Lazac DNS-ből nyert polinukleotid bőrregenerációra és kollagénszintézisre", "kr": true },
+            { "name": "Rejuran I (Eye)", "tag": "PN/PDRN", "origin": "Pharmaresearch / Korea", "description": "98,7% tisztaságú PDRN speciálisan szem alatti terület megújítására", "kr": true },
+            { "name": "Juvelook", "tag": "Bio-stimulátor", "origin": "Hugel / Korea", "description": "PDLLA + nem-keresztkötésű HA booster kollagén-stimulálásra akár 18 hónapig", "kr": true },
+            { "name": "Gouri", "tag": "PCL", "origin": "DEXLEVO / Korea", "description": "A világ első teljesen oldott injektálható PCL folyékony kollagénstimulátor", "kr": true },
+            { "name": "Profhilo", "tag": "HA Bio-remodelláló", "origin": "IBSA / Olaszország", "description": "Magas koncentrációjú HA injektálható intenzív hidratálásra 5 pontos injekciós technikával", "kr": false },
+            { "name": "NCTF 135 HA", "tag": "Mezoterápia", "origin": "Fillmed / Franciaország", "description": "HA + vitaminok + aminosavak + ko-enzimek koktél sejt-revitalizálásra", "kr": true },
+            { "name": "Sunekos", "tag": "Aminosav", "origin": "Professional Derma / Olaszország", "description": "Szabadalmazott aminosav + HA formula ECM regenerálásra", "kr": false },
+            { "name": "Juvederm Skinvive", "tag": "HA Hidratáló", "origin": "Allergan / USA", "description": "Intradermális HA mikrocseppes injekció bőrsimításra akár 6 hónapig", "kr": false },
+            { "name": "Elravie Re2O", "tag": "ECM Booster", "origin": "Humedix / Korea", "description": "Első ECM-alapú bőrbooster; pótolja az extracelluláris mátrix komponenseit", "kr": true },
+            { "name": "Lituo (hADM)", "tag": "ECM Booster", "origin": "CGBio / Korea", "description": "Humán acelluláris dermális mátrix booster, amely közvetlenül pótolja a kollagént és elasztint", "kr": true },
+            { "name": "Aesthefill", "tag": "PDLLA", "origin": "REGEN Biotech / Korea", "description": "PDLLA mikrogömb kollagénstimulátor volumen és bőrminőség javítására", "kr": true },
+            { "name": "Exosome Therapy", "tag": "Növekedési Faktor", "origin": "Különböző / Korea", "description": "Őssejt-eredetű exoszóma terápia sejt-regenerálásra és fokozott gyógyulásra", "kr": true },
+            { "name": "LDM (Local Dynamic Micro)", "tag": "Ultrahang", "origin": "General Project / Németország", "description": "Alacsony frekvenciájú ultrahangos mikro-masszázs hidratálásra és sejtaktivációra; nulla kiesés", "kr": true }
+          ]
+        },
+        {
+          "id": "laser",
+          "title": "Lézer és Fényterápia",
+          "treatments": [
+            { "name": "PicoSure Pro", "tag": "Pikoszekundum", "origin": "Cynosure / USA", "description": "755nm + 532nm pikoszekundumos lézer Focus Lens Array-vel pigment és kollagén stimulálásra", "kr": true },
+            { "name": "PicoWay", "tag": "Pikoszekundum", "origin": "Candela / USA", "description": "Többhullámhosszú piko (532/730/1064nm) Resolve frakcionált; kiváló melasma kezelésre", "kr": true },
+            { "name": "PicoLO", "tag": "Pikoszekundum", "origin": "LASEROPTEK / Korea", "description": "Koreai gyártású pikoszekundumos Nd:YAG pigmentációra és akné hegekre", "kr": true },
+            { "name": "Discovery Pico Plus", "tag": "Pikoszekundum", "origin": "Quanta System / Olaszország", "description": "Többhullámhosszú piko + nano platform frakcionált fejekkel", "kr": false },
+            { "name": "Stellar M22", "tag": "IPL Platform", "origin": "Lumenis / Izrael", "description": "Több alkalmazási IPL + Nd:YAG + ResurFX platform 30+ bőrállapot kezelésére", "kr": true },
+            { "name": "BBL (BroadBand Light)", "tag": "IPL", "origin": "Sciton / USA", "description": "Fejlett IPL termoelektromosan hűtött szűrőkkel fotorejuvenációra", "kr": false },
+            { "name": "eCO2 3D", "tag": "Frakcionált CO2", "origin": "Lutronic / Korea", "description": "40W frakcionált CO2 Controlled Chaos szkenneléssel mély bőrfelszín-megújításra", "kr": true },
+            { "name": "Fraxel DUAL", "tag": "Nem-ablatív Frakcionált", "origin": "Solta Medical / USA", "description": "Kettős hullámhosszú (1550/1927nm) nem-ablatív frakcionált hegekre és pigmentre", "kr": true },
+            { "name": "LaseMD Ultra", "tag": "Thulium Lézer", "origin": "Lutronic / Korea", "description": "1927nm thulium frakcionált lézer bőrvilágosításra és hatóanyag-bejuttatásra", "kr": true },
+            { "name": "Healite II", "tag": "LED Terápia", "origin": "Bio-Photas / Korea", "description": "830nm + 633nm professzionális LED sejt-helyreállításra és beavatkozás utáni gyógyulásra", "kr": true },
+            { "name": "Omnilux", "tag": "LED Terápia", "origin": "GlobalMed / UK", "description": "Orvosi minőségű LED 30+ lektorált tanulmánnyal igazolva akné és öregedés ellen", "kr": false },
+            { "name": "CoolPeel", "tag": "CO2 Lézer", "origin": "Cartessa / USA", "description": "H-Pulse technológia teljesen ablatív CO2 kezelésre minimális kieséssel", "kr": false },
+            { "name": "Cutera Excel HR", "tag": "Nd:YAG/Alex", "origin": "Cutera / USA", "description": "Kettős hullámhosszú lézerplatform szőrtelenítésre, vaszkuláris léziókra és bőrmegújításra", "kr": true },
+            { "name": "Clarity II", "tag": "Alex/Nd:YAG", "origin": "Lutronic / Korea", "description": "Hosszú impulzusú + Q-switch kettős platform pigmentre, vaszkuláris és szőrtelenítésre", "kr": true }
+          ]
+        },
+        {
+          "id": "injectables",
+          "title": "Injektálható Kezelések",
+          "treatments": [
+            { "name": "Botox", "tag": "Botulinum Toxin", "origin": "Allergan / USA", "description": "A világ legismertebb A típusú botulinum toxinja ráncokra és hyperhidrosisra", "kr": true },
+            { "name": "Dysport", "tag": "Botulinum Toxin", "origin": "Galderma / Franciaország", "description": "AbobotulinumtoxinA szélesebb diffúziós mintával glabellaris vonalakra", "kr": true },
+            { "name": "Xeomin", "tag": "Botulinum Toxin", "origin": "Merz / Németország", "description": "Tiszta botulinum toxin komplexképző fehérjék nélkül; nem igényel hűtést", "kr": false },
+            { "name": "Nabota (Jeuveau)", "tag": "Botulinum Toxin", "origin": "Daewoong / Korea", "description": "FDA-engedélyezett koreai botulinum toxin szabadalmazott nagy tisztaságú gyártással", "kr": true },
+            { "name": "Botulax (Letybo)", "tag": "Botulinum Toxin", "origin": "Hugel / Korea", "description": "FDA-engedélyezett koreai toxin; évi 12M+ fiolát értékesítenek világszerte", "kr": true },
+            { "name": "Meditoxin", "tag": "Botulinum Toxin", "origin": "Medytox / Korea", "description": "62,3% preferencia a koreai bőrgyógyászok körében; 40% belföldi piaci részesedés", "kr": true }
+          ]
+        },
+        {
+          "id": "fillers",
+          "title": "Dermális Fillerek",
+          "treatments": [
+            { "name": "Juvederm (Voluma/Volift/Volbella)", "tag": "HA Filler", "origin": "Allergan / USA", "description": "Vycross-technológiás HA filler család arcra, ajkakra és finom vonalakra. Területek: teljes arc (arccsont, áll, ajkak, nazolabiális redők, könnycsat), test (kéz)", "kr": true },
+            { "name": "Restylane (Lyft/Kysse)", "tag": "HA Filler", "origin": "Galderma / Svédország", "description": "NASHA és XpresHAn technológiás HA fillerek strukturális támogatásra és ajkakra. Területek: teljes arc (arccsont, ajkak, áll, állvonal, szem alatti terület), test (kéz, fülcimpa)", "kr": true },
+            { "name": "Teosyal (RHA)", "tag": "HA Filler", "origin": "Teoxane / Svájc", "description": "Rugalmas HA technológia, amely alkalmazkodik az arcmozgásokhoz. Területek: teljes arc (ajkak, arccsont, nazolabiális redők, könnycsat, állvonal)", "kr": false },
+            { "name": "Belotero", "tag": "HA Filler", "origin": "Merz / Németország", "description": "CPM-technológiás HA fillerek sima szöveti integrációval. Területek: teljes arc (finom vonalak, ajkak, nazolabiális redők, könnycsat)", "kr": false },
+            { "name": "Revolax", "tag": "HA Filler", "origin": "Across / Korea", "description": "Nagy tisztaságú keresztkötésű HA filler; kedvező ár-érték arány mély ráncokra és volumenre. Területek: teljes arc (mély ráncok, arccsont, áll, orr, ajkak)", "kr": true },
+            { "name": "Neuramis", "tag": "HA Filler", "origin": "Medytox / Korea", "description": "Koreai HA filler ajak-feltöltésre és arcformálásra. Területek: teljes arc (ajkak, nazolabiális redők, áll, arccsont)", "kr": true },
+            { "name": "Yvoire", "tag": "HA Filler", "origin": "LG Chem / Korea", "description": "Bifázisos HA filler erős strukturális támogatással. Területek: teljes arc (arccsont, áll, állvonal, orrnyereg), test (kéz)", "kr": true },
+            { "name": "E.P.T.Q.", "tag": "HA Filler", "origin": "Hugel / Korea", "description": "Prémium monofázisos HA filler globális piacokra. Területek: teljes arc (arccsont, állvonal, ajkak, orr), test (kéz)", "kr": true },
+            { "name": "Kybella (Belkyra)", "tag": "Zsírbontó", "origin": "Allergan / USA", "description": "Egyetlen FDA-engedélyezett deoxikólsav injekció a szubmentális zsír csökkentésére. Területek: arc (szubmentális/dupla áll), test (melltartózsír, belső comb)", "kr": false },
+            { "name": "Kabelline", "tag": "Zsírbontó", "origin": "Kabelline / Korea", "description": "Szintetikus deoxikólsav zsírbontó arc- és testkontúrozásra. Területek: arc (dupla áll, toka), test (has, csípőzsír, belső comb, felkar)", "kr": true },
+            { "name": "Sculptra", "tag": "PLLA", "origin": "Galderma / Franciaország", "description": "Poli-L-tejsav, amely I-es típusú kollagéntermelést stimulál fokozatos volumen-visszaállításra. Területek: teljes arc (halánték, arccsont, állvonal, nazolabiális redők), test (fenék, vállak, felkarok, csípő/medenceterület)", "kr": true },
+            { "name": "Radiesse", "tag": "CaHA", "origin": "Merz / USA-Németország", "description": "Kalcium-hidroxilapatit biostimulátor bőrfeszességre és hosszú távú kollagén-megújulásra. Területek: teljes arc (arccsont, állvonal, áll, kéz), test (vállak, dekoltázs, felkarok, térdek)", "kr": true },
+            { "name": "Dermalax", "tag": "HA Filler", "origin": "Across / Korea", "description": "Keresztkötésű HA filler választék arcra és testre. Területek: teljes arc (arccsont, áll, ajkak, homlok), test (kéz)", "kr": true },
+            { "name": "Rejeunesse", "tag": "HA Filler", "origin": "Humedix / Korea", "description": "Erősen keresztkötésű HA természetes, finom kiemelésekre. Területek: teljes arc (ajkak, nazolabiális redők, arccsont, áll)", "kr": true }
+          ]
+        },
+        {
+          "id": "threads",
+          "title": "Szálbehúzásos Feszesítés",
+          "treatments": [
+            { "name": "MINT Lift", "tag": "PDO", "origin": "HansBiomed / Korea", "description": "Háromszorosan FDA-engedélyezett PDO szálak; a koreai szálbehúzás aranyszabványa", "kr": true },
+            { "name": "Miracu", "tag": "PDO", "origin": "CROMA / Korea", "description": "Széles körben használt koreai PDO szálak nem-sebészi arcfeszesítésre", "kr": true },
+            { "name": "Silhouette Soft", "tag": "PLLA", "origin": "Sinclair Pharma / UK", "description": "PLLA kétirányú kúpos szálak azonnali feszesítéssel + fokozatos kollagén-stimulálással", "kr": false },
+            { "name": "Silhouette InstaLift", "tag": "PLLA/PLGA", "origin": "Sinclair / USA", "description": "Felszívódó varrat kétirányú kúpokkal; FDA engedélyezett középarcra", "kr": false },
+            { "name": "Glamour Silhouline", "tag": "PCL", "origin": "Glamour / Korea", "description": "PCL csavart szálak 24 hónap alatt szívódnak fel; leghosszabb kollagén-stimuláció", "kr": true },
+            { "name": "Aptos", "tag": "PDO/PLA", "origin": "Aptos / Grúzia", "description": "A szálbehúzás úttörője Excellence és Nano vonalakkal arcra és testre", "kr": false }
+          ]
+        },
+        {
+          "id": "surface",
+          "title": "Felszíni és Hámlasztó Kezelések",
+          "treatments": [
+            { "name": "HydraFacial", "tag": "Aqua Peel", "origin": "BeautyHealth / USA", "description": "Szabadalmazott vortex technológia tisztítás-hámlasztás-kinyerés-hidratálás egy kezelésben", "kr": true },
+            { "name": "Aqua Peel", "tag": "Vízi Mikroderm", "origin": "Különböző / Korea", "description": "3 lépéses vízi mikrodermabráció (AHA, BHA, táplálás) a koreai klinikák alap kezelése", "kr": true },
+            { "name": "SkinPen", "tag": "Mikrotűzés", "origin": "Crown Aesthetics / USA", "description": "Az első FDA-engedélyezett mikrotűzős eszköz akné hegekre", "kr": false },
+            { "name": "Dermapen 4", "tag": "Mikrotűzés", "origin": "DermapenWorld / Ausztrália", "description": "Fejlett mikrotűzős toll 16 tűs patronnal hegkezelésre", "kr": false },
+            { "name": "ZO Skin Health Peels", "tag": "Kémiai Hámlasztás", "origin": "ZO Skin Health / USA", "description": "Orvosi minőségű hámlasztó protokollok Dr. Zein Obagi-tól", "kr": false },
+            { "name": "SkinCeuticals Peels", "tag": "Kémiai Hámlasztás", "origin": "SkinCeuticals / USA", "description": "Professzionális kémiai hámlasztó vonal Micropeel és Advanced Corrective készítményekkel", "kr": false }
+          ]
+        },
+        {
+          "id": "pigment",
+          "title": "Pigmentáció és Vaszkuláris",
+          "treatments": [
+            { "name": "Excel V+", "tag": "Vaszkuláris Lézer", "origin": "Cutera / USA", "description": "Kettős hullámhosszú (532/1064nm) lézer rosaceare, erekre és bőr-revitalizálásra", "kr": true },
+            { "name": "GentleMax Pro Plus", "tag": "Alex/Nd:YAG", "origin": "Candela / USA", "description": "Kettős 755nm + 1064nm lézer vaszkuláris léziókra, pigmentre és szőrtelenítésre", "kr": true },
+            { "name": "Vbeam Prima", "tag": "Impulzus Festéklézer", "origin": "Candela / USA", "description": "595nm + 1064nm kettős vaszkuláris lézer; arany szabvány rosaceara és porborfolyamokra", "kr": false },
+            { "name": "RevLite SI", "tag": "Q-switched Nd:YAG", "origin": "Cynosure / USA", "description": "Lézer toning melasma, pigmentáció és bőrmegújítás kezelésére ázsiai bőrön", "kr": true },
+            { "name": "Spectra XT", "tag": "Q-switched Nd:YAG", "origin": "Lutronic / Korea", "description": "Lézer toning platform széles körben használt a koreai klinikákon melasma kezelésre", "kr": true }
+          ]
+        },
+        {
+          "id": "bodyContouring",
+          "title": "Nem-sebészi Testformázás",
+          "treatments": [
+            { "name": "CoolSculpting Elite", "tag": "Kriolízis", "origin": "Allergan / USA", "description": "FDA-engedélyezett szabályozott hűtés zsírsejtek fagyasztására és eltávolítására", "kr": true },
+            { "name": "Emsculpt NEO", "tag": "HIFEM + RF", "origin": "BTL / USA-Csehország", "description": "Elektromágneses izomstimulálás és RF kombinációja egyidejű izomépítésre és zsírcsökkentésre", "kr": true },
+            { "name": "Vanquish ME", "tag": "Kontaktmentes RF", "origin": "BTL / USA-Csehország", "description": "Kontaktmentes szelektív RF nagy területű zsírcsökkentésre a bőr érintése nélkül", "kr": false },
+            { "name": "SculpSure", "tag": "Lézer Lipolízis", "origin": "Cynosure / USA", "description": "1060nm dióda lézer nem-invazív zsírcsökkentésre több testterületen", "kr": false },
+            { "name": "TightSculpting", "tag": "Kettős Lézer", "origin": "Fotona / Szlovénia", "description": "Er:YAG + Nd:YAG kettős hullámhosszú lézer egyidejű formázásra és feszesítésre", "kr": false },
+            { "name": "Scizer", "tag": "HIFU Test", "origin": "Classys / Korea", "description": "HIFU-alapú testformázás; FDA engedélyezett nem-invazív zsírcsökkentésre", "kr": true }
+          ]
+        },
+        {
+          "id": "scalpHair",
+          "title": "Fejbőr és Haj (Nem-sebészi)",
+          "treatments": [
+            { "name": "PRP Therapy (Scalp)", "tag": "PRP", "origin": "Különböző / Globális", "description": "Trombocita-gazdag plazma injektálása a fejbőrbe hajtüsző-regeneráció stimulálására", "kr": true },
+            { "name": "Scalp Mesotherapy", "tag": "Mezoterápia", "origin": "Különböző / Korea", "description": "Növekedési faktorok, vitaminok és tápanyagok közvetlen injektálása a fejbőrbe", "kr": true },
+            { "name": "Hair Filler (DR CYJ)", "tag": "Peptid Filler", "origin": "Caregen / Korea", "description": "7 biomimetikus peptid alapú fejbőr-injektálható hajnövekedés-stimulálásra", "kr": true },
+            { "name": "HairMax LaserBand", "tag": "LLLT", "origin": "HairMax / USA", "description": "Első FDA-engedélyezett alacsony szintű lézerterápiás eszköz hajhullás kezelésére", "kr": false },
+            { "name": "Healite II (Scalp)", "tag": "LED Terápia", "origin": "Bio-Photas / Korea", "description": "830nm LED terápia tüsző-stimulálásra és fokozott PRP felszívódásra", "kr": true }
+          ]
+        },
+        {
+          "id": "stemCell",
+          "title": "Őssejt- és Regeneratív Medicina",
+          "treatments": [
+            { "name": "Autologous Stem Cell Therapy", "tag": "Őssejt", "origin": "Különböző / Korea", "description": "Páciens-eredetű zsír- vagy csontvelői őssejtek bőrregenerációra, sebgyógyulásra és öregedésgátlásra", "kr": true },
+            { "name": "Umbilical Cord Stem Cell (UC-MSC)", "tag": "Őssejt", "origin": "Különböző / Korea", "description": "Allogén mezenchimális őssejtek köldökzsinórból öregedésgátlásra, immunmodulációra és szövetjavításra", "kr": true },
+            { "name": "MCT (MicroCoring Technology)", "tag": "Bőrfelszín-megújítás", "origin": "Cytrellis / USA", "description": "Bőr mikro-oszlopait távolítják el feszesítésre és megújításra hőkárosodás nélkül; FDA-engedélyezett ránccsökkentésre", "kr": false },
+            { "name": "Exosome IV Therapy", "tag": "Exoszóma", "origin": "Különböző / Korea", "description": "Intravénás őssejt-eredetű exoszóma infúzió szisztémás öregedésgátlásra, bőrmegújításra és sejtjavításra", "kr": true },
+            { "name": "SVF (Stromal Vascular Fraction)", "tag": "Őssejt", "origin": "Különböző / Korea", "description": "Koncentrált zsír-eredetű őssejtek és növekedési faktorok arcmegújításra és volumen-visszaállításra", "kr": true },
+            { "name": "PRP + Stem Cell Combination", "tag": "Regeneratív", "origin": "Különböző / Korea", "description": "Trombocita-gazdag plazma őssejtterápiával kombinálva fokozott bőrregenerációra és kollagéntermelésre", "kr": true },
+            { "name": "NK Cell Therapy", "tag": "Immunsejt", "origin": "Különböző / Korea", "description": "Természetes ölősejt infúziós terápia immunerősítésre, öregedésgátlásra és sejtszintű egészségoptimalizálásra", "kr": true },
+            { "name": "Fibroblast Therapy", "tag": "Sejtterápia", "origin": "Különböző / Korea", "description": "Autológ fibroblaszt injekció természetes kollagén- és elasztintermelésre; hosszú távú bőrminőség-javulás", "kr": true },
+            { "name": "Growth Factor Cocktail (GFC)", "tag": "Növekedési Faktor", "origin": "Különböző / Korea", "description": "Koncentrált autológ növekedésifaktor-injekció bőrmegújításra, hajnövekedésre és sebgyógyulásra", "kr": true },
+            { "name": "Placental Extract Therapy", "tag": "Regeneratív", "origin": "Különböző / Korea-Japán", "description": "Humán placentakivonat (Laennec/Melsmon) injekció öregedésgátlásra, fáradtság-felépülésre és májfunkció javítására", "kr": true }
+          ]
+        }
+      ],
+      "skinConsulting": {
+        "badge": "AetherHeal Megbízható Bőrklinikák",
+        "title": "Kéttengelyes Személyre Szabott Konzultáció",
+        "description": "Az AetherHeal megbízható bőresztétikai klinikáin a kezelési terv nem menüválasztás — két független szaktudási tengely találkozásából épül fel, amelyek csak az Ön számára készült tervet alkotnak.",
+        "physician": {
+          "label": "Orvos Igazgató",
+          "detail": "Klinikai szempontból diagnosztizálja a bőrállapotot, csontozatot és tónust. Értékeli a szövetminőséget, az öregedési mintákat és az ellenjavallatokat, hogy meghatározza a klinikailag megfelelőt."
+        },
+        "coordinator": {
+          "label": "Páciens-koordinátor",
+          "detail": "Feltérképezi az életmódját, preferenciáit, napi rutinját, kiesési toleranciáját és esztétikai céljait. Valós életbeli kontextusát kezelési paraméterekre fordítja."
+        },
+        "result": "Ahol e két tengely találkozik — klinikai valóság és személyes kontextus — ott születik meg az Ön egyedi terve."
+      },
+      "subgroupLabels": {
+        "faceLift": "Feszesítés",
+        "faceContour": "Kontúrozás",
+        "faceFeatures": "Jellemzők",
+        "bodyBreast": "Mell",
+        "bodyContour": "Kontúrozás",
+        "bodyLift": "Feszesítés"
+      }
+    }
+  },
+  "medicalBoundary": {
+    "meta": {
+      "title": "Orvosi Hatáskörre Vonatkozó Nyilatkozat | AetherHeal",
+      "description": "Ismerje meg az AetherHeal orvosi és AI-operatív korlátait. Ez a nyilatkozat elmagyarázza, mit támogathat a platform és mi marad szigorúan emberi és klinikai felelősség."
+    },
+    "hero": {
+      "badge": "Jogi és Biztonsági",
+      "h1": "Orvosi Hatáskörre Vonatkozó Nyilatkozat",
+      "subtitle": "Ez az oldal meghatározza az AetherHeal klinikai, jogi és AI-operatív korlátait. Ezen határok megértése a használat előtt szükséges."
+    },
+    "boundaries": [
+      {
+        "title": "Nem Orvosi Szolgáltató",
+        "description": "Az AetherHeal nem nyújt orvosi diagnózist, kezelést, receptfelírást vagy kórházi ellátást. Döntéstámogató és koordinációs platform vagyunk, nem kórház, klinika vagy telemedicinás szolgáltatás."
+      },
+      {
+        "title": "Az AI Nem Diagnosztizál és Nem Ír Fel Gyógyszert",
+        "description": "Az AetherHeal által használt AI-támogatott eszközök nem diagnosztizálnak állapotokat, nem ajánlanak gyógyszereket, nem írnak fel kezeléseket, és nem hoznak független orvosi következtetéseket."
+      },
+      {
+        "title": "Az AI Nem Helyettesíti az Orvosi Konzultációt",
+        "description": "Az AI-támogatott összefoglalók vagy fordítások támogathatják a kommunikációt, de nem helyettesítik az engedéllyel rendelkező orvossal vagy a kezelőkórházzal folytatott közvetlen konzultációt."
+      },
+      {
+        "title": "Az AI Nem Határoz Meg Sürgősségi Ellátást",
+        "description": "Sem az AetherHeal, sem AI-támogatott eszközei nem határozhatják meg, hogy egy helyzet vészhelyzet-e. Ha sürgős vagy súlyos tünetek jelentkeznek, azonnal forduljon helyi orvosi ellátáshoz és sürgősségi szolgálathoz."
+      },
+      {
+        "title": "Az AI Nem Hoz Végső Szolgáltatóválasztási Döntést",
+        "description": "Az AI segíthet az esetinformációk rendszerezésében, de a végső szolgáltatóválasztás, kórházi irányítás és következő lépések jóváhagyása felelős emberi döntés marad."
+      },
+      {
+        "title": "Nem Garancia az Eredményekre",
+        "description": "A döntéstámogatás javíthatja a tisztánlátást, de nem garantál egy adott orvosi eredményt. A kezelési eredmények a platform hatáskörén kívül eső klinikai tényezőktől függnek."
+      }
+    ],
+    "aiSupport": {
+      "badge": "Engedélyezett AI Támogatás",
+      "title": "Miben Segíthet az AI",
+      "intro": "Ezen határokon belül az AI szűk körű adminisztratív és információs támogatásra használható emberi felügyelet mellett.",
+      "items": [
+        "Felvételi információk és feltöltött dokumentumok strukturálása szabványosított tervezetekké",
+        "Esetanyagok összefoglalása orvosi, felülvizsgálói vagy operatív felülvizsgálathoz",
+        "Rutinüzenetek és nem-diagnosztikus koordinációs tartalmak fordítása",
+        "Hiányzó információk, ellentmondások vagy munkafolyamat-késések felszínre hozása emberi utánkövetéshez",
+        "Operatív állapot, üzenetkézbesítés és szolgáltatási kivételek nyomon követése"
+      ]
+    },
+    "emergency": {
+      "title": "Vészhelyzeti Értesítés",
+      "text": "Ne használja ezt a platformot sürgős tünetekre vagy életveszélyes állapotokra. Azonnal hívja a helyi sürgősségi szolgálatot.",
+      "phone": "Vészhelyzet: Hívja a helyi segélyhívószámot (112, 104, 105)"
+    },
+    "responsibilities": {
+      "badge": "Az Ön Felelőssége",
+      "title": "Az Ön Szerepe Platform-felhasználóként",
+      "items": [
+        "Adjon meg teljes és pontos felvételi információkat",
+        "Vizsgálja felül az összefoglalókat, fordításokat és koordinációs részleteket a tényszerű pontosság érdekében",
+        "Forduljon orvosához vagy kezelőkórházához közvetlen orvosi tanácsért",
+        "Hozza meg saját kezelési döntéseit megfelelő klinikai felülvizsgálat után",
+        "Használjon sürgősségi szolgálatot sürgős orvosi állapotokhoz",
+        "Értse meg, hogy az AetherHeal kizárólag korlátozott döntéstámogatást és koordinációt nyújt"
+      ],
+      "ctaProcess": "Folyamat áttekintése",
+      "ctaOversight": "Felügyelet megtekintése"
+    }
+  },
+  "hairTransplant": {
+    "meta": {
+      "title": "Hajbeültetés Koreában | AetherHeal",
+      "description": "Koreai hajbeültetésen gondolkodik? Az AetherHeal orvos által vezetett döntéstámogatást nyújt a klinikák értékeléséhez, a beavatkozások megértéséhez és szöuli útja megtervezéséhez."
+    },
+    "hero": {
+      "badge": "Hajbeültetés",
+      "h1": "Hajbeültetés Koreában:",
+      "h1Highlight": "Amit Tudnia Kell a Döntés Előtt",
+      "intro": "Korea a hajbeültetés egyik legkeresettebb célpontja.",
+      "introDetail": "Fejlett FUE technikákkal, tapasztalt sebészekkel és versenyképes árakkal Szöul globális központtá vált. De a megfelelő klinika kiválasztásához többre van szükség egy Google-keresésnél."
+    },
+    "toc": [
+      { "id": "why-korea", "label": "Miért Választják a Páciensek Koreát" },
+      { "id": "what-we-offer", "label": "Mit Kínál az AetherHeal" },
+      { "id": "common-procedures", "label": "Gyakori Beavatkozások" }
+    ],
+    "whyKorea": {
+      "title": "Miért Választják a Páciensek Koreát a Hajbeültetéshez",
+      "p1": "A koreai klinikák ismertek a folliculáris egység kinyerés (FUE) és a robot-asszisztált beavatkozások precizitásáról. A szöuli sebészek gyakran kizárólag hajbeültetésre specializálódnak, és évi több ezer beavatkozást végeznek.",
+      "p2": "Azonban nem minden klinika működik azonos színvonalon. A marketing elfedhet klinikai minőségi különbségeket, és a nyelvi akadályok megnehezítik a műtét előtti értékelést. Egy strukturált döntési folyamat sokat számít."
+    },
+    "whatWeOffer": {
+      "title": "Mit Kínál az AetherHeal",
+      "intro": "Az AetherHeal nem végez hajbeültetést. Ehelyett orvos által vezetett döntéstámogatást nyújtunk, amely segít tisztázni céljait, megérteni a különböző technikák közötti kompromisszumokat, és ellenőrzött partnerklinikákhoz kapcsolódni az Ön esete alapján.",
+      "items": [
+        "1:1 konzultáció engedéllyel rendelkező koreai orvossal",
+        "Döntési összefoglaló graftszámról, donorterület-értékelésről és technika-összehasonlításról",
+        "Partnerklinikához való párosítás klinikai profilja alapján",
+        "Utazási koordináció az érkezéstől az utánkövetésig"
+      ]
+    },
+    "commonProcedures": {
+      "title": "Gyakori Beavatkozások",
+      "text": "FUE (Folliculáris Egység Kinyerés), DHI (Direkt Hajimplantáció), fejbőr-mikropigmentáció, hajvonal-tervezési konzultáció és revíziós esetek.",
+      "boxTitle": "Egyéni Értékelés",
+      "boxText": "Minden esetet egyénileg értékelünk. Biztosítjuk, hogy ne legyenek sablonos ajánlások."
+    },
+    "relatedPages": [
+      { "label": "Esztétikai Klinikák Szöulban", "desc": "Navigáljon bőrkezelések és dermatológia területén" },
+      { "label": "Kórházválasztás Külföldön", "desc": "Keretrendszer a biztonságosabb döntésekhez" },
+      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan értékeljük partnerkórházainkat" },
+      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+    ]
+  },
+  "plasticSurgery": {
+    "meta": {
+      "title": "Plasztikai Sebészet Koreában | AetherHeal",
+      "description": "Koreai plasztikai sebészeten gondolkodik? Az AetherHeal orvos által vezetett döntéstámogatást nyújt orrplasztikához, arcformázáshoz, szemhéjplasztikához és egyebekhez — strukturált iránymutatás a kórházi megkeresés előtt."
+    },
+    "hero": {
+      "badge": "Plasztikai Sebészet",
+      "h1": "Plasztikai Sebészet Koreában:",
+      "h1Highlight": "Először Strukturálja Döntését",
+      "intro": "Korea egy főre jutva szinte a legtöbb kozmetikai beavatkozást végzi a világon.",
+      "introDetail": "A nemzetközi páciensek számára ez egyszerre jelent lehetőséget és összetettséget. Az AetherHeal segít eligazodni ebben az összetettségben orvos által vezetett döntéstámogatással — mielőtt bármely kórházat megkeresné."
+    },
+    "toc": [
+      { "id": "common-procedures", "label": "Gyakran Fontolgatott Beavatkozások" },
+      { "id": "risk-of-unstructured", "label": "A Strukturálatlan Döntések Kockázata" },
+      { "id": "how-aetherheal-helps", "label": "Hogyan Segít az AetherHeal" }
+    ],
+    "commonProcedures": {
+      "title": "Gyakran Fontolgatott Beavatkozások",
+      "text": "Orrplasztika (orrformázás és revízió), szemhéjplasztika (dupla szemhéj műtét és ptosis korrekció), arcformázás (V-vonal állkapocs-csökkentés, járomcsont-csökkentés), mellnagyobbítás, testformázás és zsírátültetés a leggyakrabban megbeszélt beavatkozások közé tartoznak.",
+      "callout": "Minden beavatkozás sajátos kockázatokkal és felépülési követelményekkel jár. Ezek megértése a klinika választás előtt nem opcionális — alapvető."
+    },
+    "riskOfUnstructured": {
+      "title": "A Strukturálatlan Döntések Kockázata",
+      "text": "Sok páciens közösségi média vélemények, ár-összehasonlítások vagy ügynökségi ajánlások alapján választ klinikát. Ezek a módszerek ritkán veszik figyelembe a klinikai alkalmasságot, a sebészeti specializációt vagy a revíziós kockázatot.",
+      "callout": "Az AetherHeal ezt a hiányt pótolja orvos által vezetett eset-értékeléssel, bármilyen kórházi bemutatás előtt."
+    },
+    "howWeHelp": {
+      "title": "Hogyan Segít az AetherHeal",
+      "items": [
+        "Orvosi konzultáció a reális elvárások és feltételek meghatározásához",
+        "Döntési összefoglaló beavatkozás-specifikus kockázat-dokumentációval",
+        "Partnerkórházi párosítás sebészeti specializáció alapján",
+        "Teljes utazási támogatás, beleértve a műtét utáni utánkövetés koordinálását"
+      ]
+    },
+    "relatedPages": [
+      { "label": "Hajbeültetés Koreában", "desc": "Orvos által vezetett iránymutatás a hajpótláshoz" },
+      { "label": "Esztétikai Klinikák Szöulban", "desc": "Navigáljon bőrkezelések és dermatológia területén" },
+      { "label": "Kórházválasztás Külföldön", "desc": "Keretrendszer a biztonságosabb döntésekhez" },
+      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+    ]
+  },
+  "aestheticClinic": {
+    "meta": {
+      "title": "Esztétikai Klinikák Szöulban | AetherHeal",
+      "description": "Találjon orvos által ellenőrzött esztétikai klinikákat Szöulban. Az AetherHeal segít a nemzetközi pácienseknek eligazodni a bőrkezelések, öregedésgátló beavatkozások és kozmetikai dermatológia terén döntési tisztánlátással."
+    },
+    "hero": {
+      "badge": "Esztétikai Medicina",
+      "h1": "Esztétikai Klinikák Szöulban:",
+      "h1Highlight": "Navigáljon Magabiztosan",
+      "intro": "Szöul Gangnam kerületében egyedül több ezer esztétikai klinika működik.",
+      "introDetail": "Az opciók sűrűsége túlterhelő lehet a nemzetközi páciensek számára. Az AetherHeal strukturált támogatást nyújt, hogy tájékozott döntéseket hozhasson bőrkezelésekről és kozmetikai beavatkozásokról."
+    },
+    "toc": [
+      { "id": "why-seoul", "label": "Miért Szöul az Esztétikai Kezelésekhez" },
+      { "id": "how-we-support", "label": "Hogyan Támogatja az AetherHeal Döntését" },
+      { "id": "treatments-discussed", "label": "Gyakran Megbeszélt Kezelések" }
+    ],
+    "whySeoul": {
+      "title": "Miért Szöul az Esztétikai Kezelésekhez",
+      "p1": "Koreát világszerte elismerik fejlett bőrgyógyászati kutatásaiért és esztétikai technológiájáért. A bőrboosterek, szálbehúzásos feszesítés, HIFU és lézerterápia kezeléseit speciális felszereléssel és a koreai klinikai környezetben kifejlesztett protokollokkal végzik.",
+      "p2": "Olyan népszerű márkákat, mint a Rejuran, Juvelook, Sculptra és Ulthera, széles körben alkalmaznak mély specializációval rendelkező bőrgyógyászok.",
+      "callout": "A nemzetközi páciensek számára a kihívás annak meghatározása, melyik klinika — és melyik orvos — megfelelő az egyedi szükségleteikhez."
+    },
+    "howWeSupport": {
+      "title": "Hogyan Támogatja az AetherHeal Döntését",
+      "items": [
+        "Orvos által vezetett konzultáció a kezelési célok és bőrproblémák tisztázásához",
+        "A beavatkozási lehetőségek objektív értékelése márka-elfogultság nélkül",
+        "Párosítás érdeklődési területére specializálódott partnerklinikákhoz",
+        "Kezelés előtti döntési összefoglaló az elvárt eredményekkel és korlátokkal"
+      ]
+    },
+    "treatmentsDiscussed": {
+      "title": "Gyakran Megbeszélt Kezelések",
+      "text": "Bőrboosterek és bio-stimulátorok, szálbehúzásos feszesítés, HIFU és RF feszesítés, lézer bőrfelszín-megújítás, filler és volumen-visszaállítás, és öregedésgátló protokollok.",
+      "callout": "Minden kezelési tervet engedéllyel rendelkező orvossal beszélünk meg, bármilyen klinikai megkeresés előtt."
+    },
+    "relatedPages": [
+      { "label": "Hajbeültetés Koreában", "desc": "Orvos által vezetett iránymutatás a hajpótláshoz" },
+      { "label": "Plasztikai Sebészet Koreában", "desc": "Strukturált döntéstámogatás kozmetikai beavatkozásokhoz" },
+      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan értékeljük partnerkórházainkat" },
+      { "label": "Az Ön Orvosi Útja", "desc": "Teljes körű koordináció a döntéstől a felépülésig" }
+    ]
+  },
+  "medicalJourney": {
+    "meta": {
+      "title": "Orvosi Útja Szöulba | AetherHeal",
+      "description": "Szakaszalapú orvosi út Szöulba egyértelmű felelősséggel az utazás előtt, Koreában és a hazatérés után. Az AI támogatja a koordinációt, míg a klinikai és végső döntési felelősség az embereké marad."
+    },
+    "hero": {
+      "badge": "Útkoordináció",
+      "h1": "Orvosi Útja Szöulba:",
+      "h1Highlight": "Három Szakaszban Koordinálva",
+      "intro": "A határon átnyúló orvosi ellátás biztonságosabbá válik, ha minden fázisnak egyértelmű felelőse van.",
+      "introDetail": "Az AetherHeal szétválasztja az utat az utazás előtti, koreai és hazatérés utáni szakaszra, így az AI támogatás, orvosi felülvizsgálat, kórházi ellátás és concierge felelősség nem mosódik össze."
+    },
+    "toc": [
+      { "id": "before-travel", "label": "Utazás Előtt" },
+      { "id": "in-korea", "label": "Koreában" },
+      { "id": "after-return", "label": "Hazatérés Után" },
+      { "id": "what-makes-different", "label": "Mi Teszi Ezt Mássá" }
+    ],
+    "journeyStages": {
+      "title": "Három Szakasz, Egy Felelős Út",
+      "intro": "Minden szakasznak meghatározott célja van. Az AI támogathatja az adminisztratív tisztánlátást és a folytonosságot, de a klinikai ítélet, kezelés, eszkaláció és végső jóváhagyások emberi felelősségek maradnak.",
+      "stages": [
+        {
+          "id": "before-travel",
+          "label": "1. Szakasz",
+          "title": "Utazás Előtt",
+          "summary": "Ez a szakasz az eset strukturálására szolgál bármilyen kezelési út megkezdése előtt. A cél a döntési készültség, nem a sebesség.",
+          "milestonesTitle": "Alapvető mérföldkövek",
+          "items": [
+            { "title": "Döntés-strukturálás", "desc": "Célok, feltételek, korábbi dokumentumok és nyitott kérdések rendszerezése világosabb döntési keretbe a partner-megkeresés előtt." },
+            { "title": "Megvalósíthatósági előkészítés", "desc": "Megfelelő dokumentumok, utazási feltételek és hatáskör-feltevések ellenőrzése, hogy az eset alkalmas legyen kórházi felülvizsgálatra." },
+            { "title": "Koordinációs készültség", "desc": "Ütemezési szándék, valószínű időtervek és gyakorlati utazástervezés csak az eset kellő tisztázása után készül el." }
+          ],
+          "aiTitle": "AI támogatja",
+          "aiItems": [
+            "Felvételi információk és tervezet-összefoglalók strukturálása felülvizsgálathoz",
+            "Dokumentumfordítás vagy rutinszerű koordinációs üzenetek támogatása",
+            "Hiányzó dokumentumok, ellentmondó részletek vagy megoldatlan kérdések felszínre hozása"
+          ],
+          "humanTitle": "Emberek felelőssége",
+          "humanItems": [
+            "Klinikai határok és az eset lényegének meghatározása",
+            "Annak megerősítése, hogy az eset készen áll-e a továbblépésre, elhalasztásra vagy újbóli tisztázásra",
+            "Partner-megkeresés, ütemezés és következő lépések jóváhagyása"
+          ]
+        },
+        {
+          "id": "in-korea",
+          "label": "2. Szakasz",
+          "title": "Koreában",
+          "summary": "Amint a páciens megérkezett, a koordinációnak precíznek kell maradnia, miközben a kezelési hatáskör a kezelőintézménynél és a felelős orvosoknál marad.",
+          "milestonesTitle": "Alapvető mérföldkövek",
+          "items": [
+            { "title": "Érkezés és átadás", "desc": "Ellenőrzött concierge — sofőr, tolmács vagy kísérő — a leszállás előtt kijelölve. Valós idejű koordináció a repülőtéri felvétel, szállítás és időpontok összehangolásához, anélkül hogy a páciensnek egyedül kellene a logisztikát kezelnie." },
+            { "title": "Kórházi végrehajtás", "desc": "Konzultáció, tájékozott beleegyezés és kezelés-tervezés az engedélyezett kórházi vagy klinikai környezetben történik." },
+            { "title": "Valós idejű támogatás", "desc": "Concierge csapata — ellenőrzött szabadúszó sofőrök, tanúsított kórházi tolmácsok és helyi kísérők — egy élő platformon keresztül koordinál a helyszínen. Késések, elmulasztott átadások vagy eszkalációk valós időben láthatók." }
+          ],
+          "aiTitle": "AI támogatja",
+          "aiItems": [
+            "Programok, emlékeztetők és rutinszerű koordináció szinkronizálása",
+            "Rutinszerű nem-diagnosztikus kommunikáció fordításának segítése",
+            "Munkafolyamat-hiányosságok, elmulasztott átadások vagy időzítési kockázatok nyomon követése emberi utánkövetéshez"
+          ],
+          "humanTitle": "Emberek felelőssége",
+          "humanItems": [
+            "Kórházi konzultáció, tájékozott beleegyezés és minden kezelési döntés",
+            "Eszkaláció, ha valami sürgősnek, tisztázatlannak tűnik, vagy kívül esik a normál munkafolyamaton",
+            "Végső operatív ítélet a helyszíni concierge és platform személyzet által"
+          ]
+        },
+        {
+          "id": "after-return",
+          "label": "3. Szakasz",
+          "title": "Hazatérés Után",
+          "summary": "Miután a páciens hazatér, a folytonosság számít. A cél a kommunikáció, az utánkövetés és a dokumentált eszkaláció megőrzése, amikor szükséges.",
+          "milestonesTitle": "Alapvető mérföldkövek",
+          "items": [
+            { "title": "Utánkövetési folytonosság", "desc": "Frissítések, ellenőrzések és ellátási folytonosság koordinálása, hogy a felépülési kommunikáció ne töredezzen szét határokon átívelően." },
+            { "title": "Dokumentációs higiénia", "desc": "Felépülési jegyzetek, képek és utánkövetési üzenetek rendezetten megőrizve felülvizsgálathoz és eset-folytonossághoz." },
+            { "title": "Eszkalációs fegyelem", "desc": "Ha felépülési aggályok merülnek fel, a pácienseket a megfelelő kezelő- vagy helyi orvoshoz irányítják, nem informális megnyugtatáshoz." }
+          ],
+          "aiTitle": "AI támogatja",
+          "aiItems": [
+            "Utánkövetési üzenetek és felépülési frissítések rendszerezése strukturált esetnoteokká",
+            "Fordítás és összefoglaló-készítés támogatása folytonossági munkafolyamatokhoz",
+            "Megválaszolatlan ellenőrzések vagy koordinációs hiányosságok jelzése, amelyek emberi figyelmet igényelnek"
+          ],
+          "humanTitle": "Emberek felelőssége",
+          "humanItems": [
+            "Felépülési állapot klinikai értelmezése a megfelelő orvosok által",
+            "Tanácsadás, mikor forduljon a páciens a kezelőkórházhoz vagy helyi orvoshoz",
+            "Folytonosság, eszkaláció és dokumentált utánkövetés kezelése"
+          ]
+        }
+      ]
+    },
+    "whatMakesDifferent": {
+      "title": "Mi Teszi Ezt Mássá",
+      "text": "Az orvosi turisztikai modellekkel ellentétben, amelyek összemossák az értékesítést, logisztikát és orvosi ítéletet, az AetherHeal explicit szakaszokra és explicit felelősségekre bontja az utat.",
+      "boxTitle": "Az AI támogatja a folyamatot",
+      "boxText": "de nem felel a diagnózisért, kezelésért, vészhelyzeti megítélésért vagy a végső szolgáltatóválasztásért. Ezek az út egésze során emberi felelősségek maradnak.",
+      "ctaPhilosophy": "Olvassa el a teljes filozófiát"
+    },
+    "relatedPages": [
+      { "label": "Kórházválasztás Külföldön", "desc": "Keretrendszer a biztonságosabb döntésekhez" },
+      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan működik az irányítás, az auditálás és a végrehajtás" },
+      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+    ]
+  },
+  "hospitalAbroad": {
+    "meta": {
+      "title": "A Teljeskörű Útmutató a Külföldi Kórházválasztáshoz | AetherHeal",
+      "description": "Orvos által vezetett útmutató, amely elmagyarázza, hogyan értékelhetik a nemzetközi páciensek a külföldi kórházakat és hozhatnak biztonságosabb orvosi döntéseket."
+    },
+    "hero": {
+      "badge": "Páciens Útmutató",
+      "h1": "A Teljeskörű Útmutató a Külföldi Kórházválasztáshoz",
+      "intro": "Évente milliók utaznak külföldre orvosi kezelésre.",
+      "p1": "Egyesek fejlett beavatkozásokért utaznak. Mások megfizethetőbb ellátást keresnek. Sokan olyan specialistákat keresnek, akiket hazájukban nehéz elérni.",
+      "p2": "De a külföldi kórházválasztás nem hétköznapi fogyasztói döntés.",
+      "callout": "Magas kockázatú döntés bizonytalanság mellett.",
+      "selectingLabel": "Ön választ:",
+      "selectingItems": [
+        "orvosi csapatot",
+        "kezelési tervet",
+        "egészségügyi rendszert"
+      ],
+      "selectingEnd": "egy olyan országban, amelyet talán nem ért teljesen.",
+      "p3": "Az internet végtelen információt kínál: értékelések, fórumok, előtte-utána fotók, klinika weboldalak.",
+      "p4": "De a több információ nem feltétlenül teremt tisztánlátást. Sok esetben döntési túlterhelést okoz.",
+      "guideIntro": "Ez az útmutató elmagyarázza, hogyan értékelik a tapasztalt orvosok és egészségügyi rendszerek a kórházakat — és hogyan alkalmazhatják a nemzetközi páciensek ugyanezt a logikát külföldi kezelés választásakor."
+    },
+    "toc": [
+      { "id": "why-different", "label": "Miért Más a Külföldi Kórházválasztás" },
+      { "id": "common-mistakes", "label": "A Nemzetközi Páciensek Gyakori Hibái" },
+      { "id": "hospital-quality", "label": "Mi Határozza Meg Valójában a Kórházi Minőséget" },
+      { "id": "reviews-rankings", "label": "Miért Nem Elegendőek az Értékelések és Rangsorok" },
+      { "id": "physician-led", "label": "Az Orvos által Vezetett Ellenőrzési Modell" },
+      { "id": "patient-journey", "label": "A Nemzetközi Páciens Útja" },
+      { "id": "south-korea", "label": "Miért Választják Sokan Dél-Koreát" },
+      { "id": "structured-approach", "label": "Strukturált Megközelítés az Orvosi Utazáshoz" },
+      { "id": "faq", "label": "Gyakran Ismételt Kérdések" }
+    ],
+    "whyDifferent": {
+      "title": "Miért Más a Külföldi Kórházválasztás",
+      "p1": "A legtöbb fogyasztói döntés egyszerű struktúrát követ.",
+      "p2": "Termékeket hasonlít össze. Értékeléseket olvas. Árat és minőséget mérlegel.",
+      "p3": "Az egészségügyi döntések alapvetően mások.",
+      "whoNote": "Az Egészségügyi Világszervezet szerint a határokon átnyúló egészségügy tovább növekszik globálisan — mégis a páciensbiztonság keretrendszerei nem tartottak lépést a kereslettel.",
+      "p4": "Három jellemző teszi egyedivé az egészségügyi döntéseket:",
+      "characteristics": [
+        {
+          "title": "1. Információs aszimmetria",
+          "p1": "Az orvostudományban a páciensek ritkán rendelkeznek a klinikusokéval egyenértékű tudással.",
+          "p2": "A kezelési minőség megértéséhez szükséges:",
+          "items": ["orvosi képzettség", "szövődményekkel szerzett tapasztalat", "klinikai eredmények ismerete"],
+          "conclusion": "Ez megnehezíti a szolgáltatók értékelését szokásos fogyasztói jelzések alapján."
+        },
+        {
+          "title": "2. Az eredmények bizonytalanok",
+          "p1": "Egy termék megvásárlásával ellentétben az orvosi kezelések biológiai rendszereket érintenek.",
+          "p2": "Még kiváló kórházakban is:",
+          "items": ["az eredmények változhatnak", "szövődmények léphetnek fel", "a felépülési idő eltérhet"],
+          "conclusion": "Egy jó döntési folyamatnak figyelembe kell vennie a bizonytalanságot."
+        },
+        {
+          "title": "3. A hibák ára magas",
+          "p1": "Ha egy fogyasztói vásárlás nem sikerül, kicserélhető.",
+          "p2": "Ha egy orvosi döntés nem sikerül, a következmények lehetnek:",
+          "items": ["revíziós beavatkozások", "hosszú felépülési időszakok", "jelentős érzelmi stressz"],
+          "conclusion": "Ezért a külföldi kórházválasztást strukturált döntési folyamatként kell megközelíteni, nem gyors összehasonlításként."
+        }
+      ]
+    },
+    "commonMistakes": {
+      "title": "A Nemzetközi Páciensek Gyakori Hibái",
+      "intro1": "A külföldi kezelést kutató páciensek gyakran támaszkodnak jelzésekre, amelyek hasznosnak tűnnek, de hiányosak.",
+      "intro2": "Ezen korlátok megértése jelentősen javíthatja a döntési minőséget.",
+      "mistakes": [
+        {
+          "title": "1. Hiba: Erős támaszkodás az online értékelésekre",
+          "p1": "Az értékelések hasznos kontextust nyújthatnak, de strukturális korlátaik vannak.",
+          "p2": "Hajlamosak tükrözni:",
+          "items": ["szélsőségesen pozitív tapasztalatokat", "szélsőségesen negatív tapasztalatokat"],
+          "p3": "nem a jellemző eredményeket.",
+          "p4": "Ezen kívül az értékelések ritkán tartalmaznak részletes orvosi információt:",
+          "items2": ["páciensválasztás", "kezelési összetettség", "klinikai utánkövetés"],
+          "scenario": "Sok nemzetközi páciens online értékelésekkel kezdi a kutatást. Bár az értékelések rávilágíthatnak páciens-tapasztalatokra, ritkán tükrözik a klinikai összetettséget. Egy rutinbeavatkozáson áteső páciens ötcsillagos értékelést hagyhat, míg egy összetettebb eset — revíziós műtét, szokatlan anatómia vagy magasabb szövődménykockázat — alapvetően más szintű szakértelmet igényel, amit az értékelések nem tükröznek."
+        },
+        {
+          "title": "2. Hiba: Klinikák összehasonlítása elsősorban ár alapján",
+          "p1": "Az országok közötti árkülönbségek gyakran nagyok.",
+          "p2": "Azonban kizárólag a költségre fókuszálás figyelmen kívül hagy más kritikus változókat:",
+          "items": ["sebészi tapasztalat", "kórházi infrastruktúra", "szövődménykezelés", "utánkövetési ellátás"],
+          "conclusion": "Az alacsonyabb árak tükrözhetnek alacsonyabb működési költségeket — de tükrözhetnek képzésbeli vagy rendszerbeli különbségeket is."
+        },
+        {
+          "title": "3. Hiba: Marketing értékelése orvostudomány helyett",
+          "p1": "Sok klinika weboldala kiemeli:",
+          "items": ["előtte-utána fotókat", "ajánlásokat", "közösségi média jelenlétét"],
+          "p2": "Bár ezek az elemek igazolhatják a páciens-elégedettséget, nem helyettesítik a klinikai értékelést.",
+          "p3": "Az orvosi minőséget meghatározza:",
+          "items2": ["orvosi szaktudás", "intézményi szabványok", "hosszú távú eredmények"]
+        }
+      ]
+    },
+    "hospitalQuality": {
+      "title": "Mi Határozza Meg Valójában a Kórházi Minőséget",
+      "intro1": "Klinikai szempontból a kórházakat több alapvető tényező alapján értékelik.",
+      "intro2": "Ezen tényezők megértése segítheti a pácienseket az elérhető információk hatékonyabb értelmezésében.",
+      "factors": [
+        {
+          "title": "Orvosi képzettség és specializáció",
+          "p1": "A beavatkozást végző orvos képzési háttere gyakran a legfontosabb változó.",
+          "p2": "Kulcsfontosságú szempontok:",
+          "items": ["orvosi oktatás és rezidens képzés", "beavatkozás-specifikus tapasztalat", "kutatói vagy akadémiai részvétel"]
+        },
+        {
+          "title": "Intézményi szabványok",
+          "p1": "A kórházak jelentősen különböznek rendszereikben és infrastruktúrájukban.",
+          "p2": "Fontos elemek:",
+          "items": ["műtőtermi protokollok", "sterilizálási szabványok", "ápolói szaktudás", "szövődménykezelési rendszerek"]
+        },
+        {
+          "title": "Beavatkozás-mennyiség",
+          "p1": "Sok szakterületen a tapasztalat erősen korrelál az eredményekkel.",
+          "p2": "A nagy mennyiségű specifikus beavatkozást végző kórházak gyakran kifinomult rendszereket és technikákat fejlesztenek ki."
+        },
+        {
+          "title": "Utókezelés",
+          "p1": "Az orvosi utazás nem ér véget a beavatkozás befejezésével.",
+          "p2": "A felépülés és az utánkövetés az ellátás lényeges része.",
+          "p3": "Az egyértelmű utókezelési protokollokkal rendelkező kórházak általában kiszámíthatóbb páciens-élményt nyújtanak."
+        }
+      ]
+    },
+    "reviewsRankings": {
+      "title": "Miért Nem Elegendőek az Értékelések és Rangsorok",
+      "p1": "Az online platformok gyakran rangsorolják a klinikákat:",
+      "items1": ["értékelések száma", "pontszámok", "népszerűségi mutatók"],
+      "p2": "Ezek a rendszerek hasznosak lehetnek a széles körben ismert szolgáltatók azonosítására.",
+      "p3": "Azonban ritkán tartalmazzák a mélyebb klinikai jelzéseket, mint:",
+      "items2": ["kezelés-tervezés", "orvosi esetválasztás", "szövődménykezelés"],
+      "p4": "Ennek eredményeként az értékelés-vezérelt platformok gyakran a láthatóságra optimalizálnak, nem a klinikai szigorúságra.",
+      "trustProtocolNote": {
+        "before": "Itt válik elengedhetetlenné egy strukturált ",
+        "linkText": "bizalmi protokoll",
+        "after": " — olyan, amely klinikai érdem alapján értékeli a kórházakat, nem marketing teljesítmény alapján."
+      }
+    },
+    "physicianLed": {
+      "title": "Az AI-strukturált, Orvos által Vezetett Ellenőrzési Modell",
+      "p1": "A bizonytalanság csökkentésének egyik módja, ha az AI strukturálja a nyers páciensinformációkat, mielőtt az orvosi ellenőrzés megkezdődik.",
+      "p2": "Egy AI-strukturált, orvos által vezetett modellben:",
+      "items": [
+        "a páciens céljai, feltételei és kontextusa rendszerezésre kerül, mielőtt kórházat fontolgatnának",
+        "az orvosok felülvizsgálják a strukturált esetet, értelmezik a klinikai jelentést és tesztelik a megvalósíthatóságot",
+        "a kórházakat orvos által felülvizsgált klinikai kritériumok alapján értékelik, nem csak marketing alapján"
+      ],
+      "p3": "Ez a modell az AI-t az előkészítés és a konzisztencia javítására használja, miközben az orvosi értelmezés, ítélet és felelősség az engedéllyel rendelkező orvosoknál marad.",
+      "trustNote": "Az AetherHeal Bizalmi Protokollja ezt a logikát követi: az AI segít strukturálni az esetet, és az orvosok vezetik minden partnerintézmény ellenőrzését."
+    },
+    "patientJourney": {
+      "title": "A Nemzetközi Páciens Útjának Megértése",
+      "p1": "A külföldi kórházválasztás nem egyetlen döntés. Koordinált lépések sorozata.",
+      "p2": "Egy tipikus páciens útja magában foglalja:",
+      "steps": [
+        "Döntés-előkészítés",
+        "Kezelés-tervezés",
+        "Kórházválasztás",
+        "Utazási koordináció",
+        "Kezelés és felépülés",
+        "Utókezelési utánkövetés"
+      ],
+      "p3": "Ha ezek a lépések megfelelően strukturáltak, a nemzetközi orvosi ellátás jelentősen kiszámíthatóbbá válhat.",
+      "journeyNote": "Tudjon meg többet arról, hogyan koordinálja az AetherHeal az egyes szakaszokat az orvosi út áttekintésünkben."
+    },
+    "southKorea": {
+      "title": "Miért Választják Sokan Dél-Koreát",
+      "p1": "Dél-Korea bizonyos orvosi szakterületek egyik vezető célpontjává vált, beleértve:",
+      "specialties": ["hajbeültetés", "esztétikai medicina", "plasztikai sebészet", "szemészet"],
+      "p2": "Több tényező járul hozzá ehhez a hírnévhez:",
+      "factors": ["magasan specializált orvosok", "fejlett orvosi infrastruktúra", "erős fókusz a technikai eredményekre"],
+      "oecdNote": "Dél-Korea az OECD egészségügyi adatai szerint Ázsia egyik legmagasabb orvossűrűségét fejlesztette ki. A nemzetközi páciensek számára különösen Szöul fejlesztett ki sűrű specializált klinikahálózatot.",
+      "hairNote": "Fedezze fel az orvos által vezetett iránymutatást konkrét beavatkozásokhoz, mint a hajbeültetés Koreában."
+    },
+    "structuredApproach": {
+      "title": "Strukturált Megközelítés az Orvosi Utazáshoz",
+      "p1": "Végső soron a külföldi kórházválasztás leghatékonyabb stratégiája nem egyszerűen több információ gyűjtése.",
+      "p2": "Hanem a döntési folyamat strukturálása.",
+      "p3": "Ez azt jelenti:",
+      "items": [
+        "releváns klinikai tényezők azonosítása",
+        "kórházi képességek ellenőrzése",
+        "kezelési tervek összehangolása a páciens céljaival"
+      ],
+      "p4": "Ha ezek az elemek szisztematikusan rendszerezve vannak, a páciensek a bizonytalanságtól a tisztánlátás felé haladhatnak."
+    },
+    "closing": {
+      "p1": "A külföldi kórházválasztás jelentős döntés.",
+      "p2": "De a megfelelő keretrendszerrel nem kell túlterhelőnek lennie.",
+      "p3": "A cél nem egyszerűen kórházat találni.",
+      "p4": "A cél világos, tájékozott döntést hozni az ellátásáról."
+    },
+    "faq": {
+      "title": "Gyakran Ismételt Kérdések",
+      "items": [
+        {
+          "question": "Biztonságos-e külföldre utazni orvosi kezelésre?",
+          "answer": "A nemzetközi orvosi utazás biztonságos lehet, ha a páciensek értékelik az orvosi képzettséget, a kórházi infrastruktúrát és az utánkövetési ellátást. Egy strukturált döntési folyamat jelentősen csökkenti a kockázatot."
+        },
+        {
+          "question": "Hogyan ellenőrizhetek egy tengerentúli kórházat?",
+          "answer": "A pácienseknek az orvosi minősítéseket, kórházi rendszereket, beavatkozás-mennyiséget és szövődménykezelési protokollokat kell felülvizsgálniuk, nem csupán az online értékelésekre hagyatkozva."
+        },
+        {
+          "question": "Mennyibe kerülhet a külföldi orvosi kezelés?",
+          "answer": "A költségek nagymértékben változnak a beavatkozástól, országtól és kórháztól függően. Bár a nemzetközi kezelés megfizethetőbb lehet a belföldi lehetőségeknél, a teljes költségnek figyelembe kell vennie az utazást, az utánkövetési ellátást és az esetleges revíziós beavatkozásokat — nem csak az ajánlott árat."
+        },
+        {
+          "question": "Miért utaznak a páciensek Dél-Koreába műtétre?",
+          "answer": "Dél-Korea magasan specializált orvosokat, fejlett orvosi infrastruktúrát és erős fókuszt kínál a technikai eredményekre — különösen a hajbeültetés, esztétikai medicina, plasztikai sebészet és szemészet területén."
+        },
+        {
+          "question": "Mit kell ellenőriznem, mielőtt tengerentúli klinikát választok?",
+          "answer": "A kulcsfontosságú tényezők közé tartozik az orvosi képzettség és specializáció, az intézményi szabványok, a beavatkozás-mennyiség, az utókezelési protokollok, és az, hogy a kórháznak van-e tapasztalata az Ön specifikus állapotával rendelkező nemzetközi páciensek kezelésében."
+        }
+      ]
+    },
+    "relatedPages": [
+      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan értékeljük partnerkórházainkat" },
+      { "label": "Az Ön Orvosi Útja", "desc": "Teljes körű koordináció a döntéstől a felépülésig" },
+      { "label": "Hajbeültetés Koreában", "desc": "Orvos által vezetett iránymutatás a hajpótláshoz" },
+      { "label": "Plasztikai Sebészet Koreában", "desc": "Strukturált döntéstámogatás kozmetikai beavatkozásokhoz" },
+      { "label": "Esztétikai Klinikák Szöulban", "desc": "Navigáljon bőrkezelések és dermatológia területén Szöulban" },
+      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog | AetherHeal — Orvosi Betekintések a Koreai Ellátásba",
+      "description": "Betekintések egy orvos által vezetett platformtól a koreai orvosi ellátásról, döntéshozatali keretrendszerekről, és arról, amit a nemzetközi pácienseknek tudniuk kell."
+    },
+    "badge": "Blog",
+    "heading": "Betekintések és Nézőpontok",
+    "subheading": "Orvos által vezetett nézőpontok a koreai orvosi ellátásról, döntéshozatalról, és arról, ami számít az elköteleződés előtt.",
+    "allCategories": "Összes",
+    "noPosts": "Még nincsenek bejegyzések. Nézzen vissza hamarosan.",
+    "readMore": "Olvasás",
+    "backToBlog": "Vissza a Blogra",
+    "availableIn": "Elérhető még",
+    "categories": {
+      "insights": "Betekintések",
+      "hair-transplant": "Hajbeültetés",
+      "plastic-surgery": "Plasztikai Sebészet",
+      "medical-tourism": "Orvosi Turizmus",
+      "patient-guide": "Páciens Útmutató",
+      "technology": "Technológia"
+    },
+    "sortNewest": "Legújabb",
+    "sortOldest": "Legrégebbi",
+    "sortReadingTime": "Gyors olvasmányok",
+    "articlesCount": "{count} cikk"
+  },
+  "journeyAssurance": {
+    "meta": {
+      "title": "Utazásbiztosítási Garancia | AetherHeal",
+      "description": "Az AetherHeal az egyetlen orvosi turisztikai platform, amely saját bevételét kockáztatja, ha az egyeztetés sikertelen. Ismerje meg, hogyan védi az Utazásbiztosítás az Ön befektetését."
+    },
+    "hero": {
+      "badge": "Páciensvédelem",
+      "h1": "Az AetherHeal",
+      "h1Highlight": "Utazásbiztosítás",
+      "intro": "Az AetherHeal az egyetlen orvosi turisztikai platform, amely saját bevételét kockáztatja, ha az egyeztetés sikertelen. Az Utazásbiztosítás azt jelenti, hogy valós pénzügyi következményeket viselünk, ha az Ön élménye elmarad a vártól."
+    },
+    "toc": [
+      { "id": "how-it-works", "label": "Hogyan Működik" },
+      { "id": "coverage", "label": "Mit Fed és Mit Nem" },
+      { "id": "faq", "label": "Gyakran Ismételt Kérdések" },
+      { "id": "cta", "label": "Kezdje El" }
+    ],
+    "howItWorks": {
+      "title": "Hogyan Működik az Utazásbiztosítás",
+      "intro": "Az Utazásbiztosítás strukturális elköteleződés, nem marketingígéret. A navigációs díj egy részét letétben tartjuk, amíg az utazása befejeződik és az elégedettsége megerősítésre kerül. Egyetlen más orvosi turisztikai közvetítő sem kínálja ezt.",
+      "stepLabel": "Lépés",
+      "steps": [
+        {
+          "title": "Ön fix navigációs díjat fizet",
+          "body": "Ugyanaz a díj, függetlenül a kórháztól vagy az eljárástól. Nincsenek rejtett jutalékok, nincs ösztönzés arra, hogy drágább lehetőségek felé tereljük."
+        },
+        {
+          "title": "Egy részt letétben tartunk",
+          "body": "A díj egy része letétbe kerül, amíg az utazása befejeződik és az elégedettsége megerősítésre kerül a kezelés utáni értékelésen keresztül."
+        },
+        {
+          "title": "Elégedetlenség esetén a letétet visszakapja",
+          "body": "Ha a kezelés utáni elégedettségi pontszáma az általunk meghatározott küszöb alá esik, a letétbe helyezett összeget automatikusan visszakapja. Nincs szükség tárgyalásra."
+        }
+      ]
+    },
+    "coverage": {
+      "title": "Mit Fed és Mit Nem",
+      "coveredTitle": "Amit Fedez",
+      "coveredItems": [
+        "Kórház-egyeztetés minősége — megfelelő volt az ajánlott kórház az Ön esetéhez?",
+        "Érkezés előtti felkészítés pontossága",
+        "Concierge szolgáltatás minősége tartózkodása alatt",
+        "Kommunikáció és koordináció az egész utazás során",
+        "Kezelés utáni nyomon követés az ígértek szerint"
+      ],
+      "notCoveredTitle": "Amit Nem Fedez",
+      "notCoveredItems": [
+        {
+          "label": "Klinikai eredmények",
+          "detail": "Az orvosi eredmények az Ön testének reakciójától függenek — egyetlen platform sem garantálhatja a sebészeti eredményeket."
+        },
+        {
+          "label": "Páciens nem-megfelelősége",
+          "detail": "A műtét előtti vagy műtét utáni utasítások be nem tartása, amelyeket az orvosi csapata adott."
+        },
+        {
+          "label": "Páciens preferencia-változásai",
+          "detail": "Foglalás utáni preferencia-változások, amelyek nem kapcsolódnak a szolgáltatás minőségéhez."
+        },
+        {
+          "label": "Vis maior",
+          "detail": "Utazási fennakadások, természeti katasztrófák, járványok vagy egyéb, senki által nem befolyásolható események."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Gyakran Ismételt Kérdések",
+      "label": "Gyakori Kérdések",
+      "items": [
+        {
+          "id": "faq-1",
+          "question": "Hogyan határozzák meg az elégedettségi küszöböt?",
+          "answer": "Strukturált kezelés utáni értékelést használunk, amely kiterjed az egyeztetés pontosságára, a kommunikáció minőségére, a concierge teljesítményére és a nyomon követés megvalósulására. A küszöböt az utazása megkezdése előtt határozzuk meg és a szolgáltatási szerződésben közöljük. Ez nem szubjektív érzés — mérhető szabvány."
+        },
+        {
+          "id": "faq-2",
+          "question": "A díj hány százalékát tartják letétben?",
+          "answer": "A pontos letéti százalékot a szolgáltatási szerződésben részletezzük, mielőtt elköteleződne. Elég jelentős ahhoz, hogy az AetherHeal valós pénzügyi következményeket viseljen a rossz egyeztetésért — ez nem jelképes gesztus."
+        },
+        {
+          "id": "faq-3",
+          "question": "A beavatkozás után mennyi ideig nyújthatok be igényt?",
+          "answer": "Az értékelési időablakot a szolgáltatási szerződésben határozzuk meg, és a beavatkozás típusához igazítjuk. A legtöbb utazás esetén az elégedettségi értékelés a hazatérés utáni 30 napon belül történik. Ez elegendő időt biztosít a méltányos értékeléshez szükségtelen késedelem nélkül."
+        },
+        {
+          "id": "faq-4",
+          "question": "Ez helyettesíti az orvosi műhibabiztosítást?",
+          "answer": "Nem. Az Utazásbiztosítás az AetherHeal egyeztetési és koordinációs szolgáltatásaira vonatkozik — nem a klinikai eredményekre. Az orvosi műhiba az Ön és a kezelő kórház közötti ügy. Javasoljuk minden páciensnek, hogy erősítsék meg szolgáltatójuk műhibabiztosítását és fontolják meg független utazási egészségügyi biztosítás kötését."
+        },
+        {
+          "id": "faq-5",
+          "question": "Kapott már valaki ténylegesen visszatérítést az Utazásbiztosításon keresztül?",
+          "answer": "Az Utazásbiztosítás úgy van kialakítva, hogy a visszatérítések ritkák legyenek — mert a rendszer arra van tervezve, hogy eleve megelőzze a rossz egyeztetéseket. Amikor folyamatunk a tervek szerint működik, az elégedettség jóval a küszöb felett marad. De a mechanizmus pontosan azért létezik, hogy az ösztönzési struktúra őszinte maradjon."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Az Ön utazása bizalommal kezdődik — nem ugrással a sötétbe.",
+      "button": "Nézze Meg, Hogyan Működik"
+    }
+  }
+}

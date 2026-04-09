@@ -6,6 +6,10 @@ const dictionaries = {
   ja: () => import("./dictionaries/ja.json").then((m) => m.default),
   th: () => import("./dictionaries/th.json").then((m) => m.default),
   ru: () => import("./dictionaries/ru.json").then((m) => m.default),
+  ar: () => import("./dictionaries/ar.json").then((m) => m.default),
+  hu: () => import("./dictionaries/hu.json").then((m) => m.default),
+  de: () => import("./dictionaries/de.json").then((m) => m.default),
+  fr: () => import("./dictionaries/fr.json").then((m) => m.default),
   ko: () => import("./dictionaries/ko.json").then((m) => m.default),
 }
 

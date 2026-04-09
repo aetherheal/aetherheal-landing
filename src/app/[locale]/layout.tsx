@@ -116,7 +116,7 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale as Locale)
 
   return (
-    <html lang={locale} className={`${playfair.variable} ${inter.variable} ${notoSansKr.variable} ${notoSerifKr.variable} ${gowunBatang.variable} h-full`}>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"} className={`${playfair.variable} ${inter.variable} ${notoSansKr.variable} ${notoSerifKr.variable} ${gowunBatang.variable} h-full`}>
       <body className="h-full font-sans antialiased">
         <GoogleAnalytics />
         <script
@@ -152,8 +152,28 @@ export default async function LocaleLayout({
                 "Japanese",
                 "Thai",
                 "Russian",
+                "Arabic",
               ],
               inLanguage: locale,
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              name: "AetherHeal",
+              url: "https://aetherheal.com",
+              logo: "https://aetherheal.com/logo.png",
+              description:
+                "Physician-led, AI-assisted platform for international patients considering medical care in Korea",
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "KR",
+              },
+              sameAs: [],
             }),
           }}
         />
