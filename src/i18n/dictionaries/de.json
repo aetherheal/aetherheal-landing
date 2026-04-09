@@ -1,12 +1,12 @@
 {
   "common": {
     "nav": {
-      "howItWorks": "So funktioniert es",
+      "howItWorks": "Ablauf",
       "exploreFramework": "Entdecken",
-      "trustSafety": "Vertrauensprotokoll",
-      "ourPhilosophy": "Warum wir existieren",
+      "trustSafety": "Vertrauen",
+      "ourPhilosophy": "Philosophie",
       "signIn": "Anmelden",
-      "beginJourney": "Reise beginnen",
+      "beginJourney": "Starten",
       "blog": "Blog"
     },
     "footer": {
@@ -23,7 +23,7 @@
       "bizRegNo": "Handelsreg.-Nr.: 874-87-03734",
       "address": "B1, 64, Gingorang-ro 14-gil, Gwangjin-gu, Seoul, Republik Korea",
       "platformLinks": {
-        "howItWorks": "So funktioniert es",
+        "howItWorks": "Ablauf",
         "trustProtocol": "Vertrauensprotokoll",
         "ourPhilosophy": "Warum wir existieren",
         "medicalJourney": "Medizinische Reise",
@@ -52,13 +52,13 @@
       "description": "AetherHeal hilft internationalen Patienten, Kliniken in Korea ohne Raten auszuwaehlen. Verifizierte Krankenhaeuser, pauschale Navigationsgebuehr, aerztliche Steuerung und sichtbare Verantwortlichkeit."
     },
     "hero": {
-      "badge": "Verifizierte Klinikzuordnung fuer globale Patienten, die Korea in Betracht ziehen",
+      "badge": "Verifizierte Klinikzuordnung fuer Patienten, die Korea erwaegen",
       "h1": "Der Welt fehlt es nicht an Kliniken.",
       "h1Highlight": "Es fehlt an Vertrauen.",
       "description": "Arbeiten Sie mit unseren Angel-Aerzten.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["Krankenhaeuser verifizieren", "Medizinische Beratung", "Verantwortlich bleiben"],
+      "branches": ["Kliniken pruefen", "Aerztliche Beratung", "Verantwortlich"],
       "branchConclusion": "Damit Sie nie allein sind.",
       "disclaimer": "Entscheidungsunterstuetzung vor der Krankenhaus-Verpflichtung.",
       "disclaimer2": "Keine medizinische Behandlung oder Notfallversorgung.",

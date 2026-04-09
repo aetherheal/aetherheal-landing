@@ -1,12 +1,12 @@
 {
   "common": {
     "nav": {
-      "howItWorks": "Comment ca marche",
+      "howItWorks": "Fonctionnement",
       "exploreFramework": "Explorer",
-      "trustSafety": "Protocole de confiance",
-      "ourPhilosophy": "Pourquoi nous existons",
-      "signIn": "Se connecter",
-      "beginJourney": "Commencer le parcours",
+      "trustSafety": "Confiance",
+      "ourPhilosophy": "Philosophie",
+      "signIn": "Connexion",
+      "beginJourney": "Commencer",
       "blog": "Blog"
     },
     "footer": {
@@ -23,7 +23,7 @@
       "bizRegNo": "N° d'enregistrement : 874-87-03734",
       "address": "B1, 64, Gingorang-ro 14-gil, Gwangjin-gu, Seoul, Republique de Coree",
       "platformLinks": {
-        "howItWorks": "Comment ca marche",
+        "howItWorks": "Fonctionnement",
         "trustProtocol": "Protocole de confiance",
         "ourPhilosophy": "Pourquoi nous existons",
         "medicalJourney": "Parcours medical",
@@ -52,13 +52,13 @@
       "description": "AetherHeal aide les patients internationaux a choisir des cliniques en Coree sans incertitude. Hopitaux verifies, frais de navigation forfaitaires, gouvernance medicale et responsabilite visible."
     },
     "hero": {
-      "badge": "Mise en relation verifiee avec des cliniques pour les patients internationaux envisageant la Coree",
+      "badge": "Cliniques verifiees pour patients internationaux envisageant la Coree",
       "h1": "Le monde ne manque pas de cliniques.",
       "h1Highlight": "Il manque de confiance.",
       "description": "Travaillez avec nos medecins Angel.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["Verifier les hopitaux", "Consultation de niveau medical", "Rester responsable"],
+      "branches": ["Verifier les hopitaux", "Consultation medicale", "Responsabilite"],
       "branchConclusion": "Pour que vous ne soyez jamais seul(e).",
       "disclaimer": "Soutien a la decision avant l'engagement hospitalier.",
       "disclaimer2": "Ni traitement medical ni soins d'urgence.",

@@ -3,10 +3,10 @@
     "nav": {
       "howItWorks": "Hogyan Működik",
       "exploreFramework": "Felfedezés",
-      "trustSafety": "Bizalmi Protokoll",
-      "ourPhilosophy": "Miért Létezünk",
-      "signIn": "Bejelentkezés",
-      "beginJourney": "Út Megkezdése",
+      "trustSafety": "Bizalom",
+      "ourPhilosophy": "Filozófia",
+      "signIn": "Belépés",
+      "beginJourney": "Indulás",
       "blog": "Blog"
     },
     "footer": {
@@ -52,13 +52,13 @@
       "description": "Az AetherHeal segít a nemzetközi pácienseknek klinikát választani Koreában, találgatás nélkül. Ellenőrzött kórházak, fix díjú navigáció, orvosi irányítás és átlátható felelősség."
     },
     "hero": {
-      "badge": "Ellenőrzött klinika-egyeztetés Koreát fontolgató külföldi páciensek számára",
+      "badge": "Ellenőrzött klinika-egyeztetés Koreát fontolgató pácienseknek",
       "h1": "A világ nem klinikákban szűkölködik.",
       "h1Highlight": "Bizalomban.",
       "description": "Dolgozzon együtt Angel Orvosainkkal.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["Kórházak ellenőrzése", "Orvosi szintű konzultáció", "Folyamatos felelősségvállalás"],
+      "branches": ["Klinikák ellenőrzése", "Orvosi konzultáció", "Felelősségvállalás"],
       "branchConclusion": "Hogy soha ne legyen egyedül.",
       "disclaimer": "Döntéstámogatás a kórházi elköteleződés előtt.",
       "disclaimer2": "Nem orvosi kezelés vagy sürgősségi ellátás.",
