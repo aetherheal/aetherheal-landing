@@ -61,6 +61,7 @@ const patientOnlyRoutes = [
   "/terms-of-service",
   "/payment-refund-policy",
   "/journey-assurance",
+  "/marketing-information",
 ]
 
 export function isRouteAvailableForLocale(path: string, locale: Locale): boolean {
