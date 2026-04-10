@@ -558,7 +558,7 @@
       "items": [
         {
           "title": "Fix Navigációs Díj",
-          "description": "Az AetherHeal navigációs díja fix — ugyanannyi, akár egy 2 000, akár egy 20 000 dolláros beavatkozást választ. Nincs jutalék. Nincs upsell ösztönző. Navigátorának semmilyen anyagi érdeke nem fűződik ahhoz, hogy bármit ajánljon, ami nem felel meg orvosi szükségleteinek."
+          "description": "Az AetherHeal navigációs díja fix — ugyanannyi, akár egy 2 000, akár egy 20 000 dolláros beavatkozást választ. Nincs jutalék. Nincs drágább kezelésekre terelő ösztönző. Navigátorának semmilyen anyagi érdeke nem fűződik ahhoz, hogy bármit ajánljon, ami nem felel meg orvosi szükségleteinek."
         },
         {
           "title": "Strukturális Szétválasztás",
@@ -887,7 +887,7 @@
       "principles": [
         {
           "title": "Fix Navigációs Díj",
-          "body": "Ugyanaz a díj, akár 2 000, akár 20 000 dollárba kerül a beavatkozás. Nincs jutalék. Nincs upsell ösztönző."
+          "body": "Ugyanaz a díj, akár 2 000, akár 20 000 dollárba kerül a beavatkozás. Nincs jutalék. Nincs drágább kezelésekre terelő ösztönző."
         },
         {
           "title": "Szétválasztási Elv",
@@ -913,7 +913,7 @@
       "bridge": "A fenti szakaszok a strukturális logikát írják le. De a struktúrák nem épülnek maguktól — emberektől származnak, akiknek okuk van törődni. Íme, miért létezik ez.",
       "p1": "Dr. Jee Hoon Ju az American Board of Aesthetic Medicine által minősített bőresztétikai orvos és hajbeültetési sebész, aki két beavatkozást élt át páciensként. Az első sikertelen volt — mert az ár volt az egyetlen jel, amit olvasni tudott. Csak azután értette meg, mit tettek vele, miután a szakterület specialistája lett.",
       "p2": "Az AetherHeal nem azért épül, mert egy alapító piaci lehetőséget azonosított. Azért épül, mert egy orvost vakított meg az a probléma, amelyet megoldani próbál — és éveket töltött azzal, hogy megszerezze a klinikai szaktudást, amellyel pontosan megérti, mi ment rosszul és miért tette azt a piac elkerülhetetlenné.",
-      "p3": "Emmanuel Levinas filozófus azt írta, hogy a valódi erkölcsi kötelezettség a találkozással kezdődik — amikor igazán meglátja valaki sebezhetőségét, és többé nem tud elfordulni. Ez nem egy pitch deck történet. Ez az oka annak, hogy egy bizalmi platform nem igényelhet tekintélyt anélkül, hogy megtervezné, hogyan viseli a felelősséget, amikor a tét valódi.",
+      "p3": "Emmanuel Levinas filozófus azt írta, hogy a valódi erkölcsi kötelezettség a találkozással kezdődik — amikor igazán meglátja valaki sebezhetőségét, és többé nem tud elfordulni. Ez nem befektetői prezentációs történet. Ez az oka annak, hogy egy bizalmi platform nem igényelhet tekintélyt anélkül, hogy megtervezné, hogyan viseli a felelősséget, amikor a tét valódi.",
       "callout": "Nem azért építem ezt, mert piaci lehetőséget azonosítottam. Azért építem, mert megvakított a probléma, amelyet megoldok — és mert a felelősség nélküli bizalom csak marketing-nyelv.",
       "timeline": [
         {
@@ -938,7 +938,7 @@
       "title": "Mit Jelent Ez Önnek",
       "patient": "Ha páciens — egy olyan rendszerbe lép be, amely úgy van tervezve, hogy senkinek ne legyen érdeke félrevezetni Önt.",
       "hospital": "Ha kórház — egy olyan szabványhoz csatlakozik, amely jutalmazza az Ön által már nyújtott minőséget.",
-      "investor": "Ha befektető — infrastruktúrát finanszíroz, nem piacteret. A szabványok másképp kamatoznak, mint a tranzakciók. Az AetherHeal két növekvő hálózatot működtet: egy ellenőrzött kórházhálózatot és egy ellenőrzött concierge-hálózatot sofőrökkel, tolmácsokkal és kísérőkkel. Mindkét hálózat erősíti a másikat — és egyiket sem lehet lemásolni pusztán egy jobb app megépítésével.",
+      "investor": "Ha befektető — infrastruktúrát finanszíroz, nem piacteret. A szabványok másképp kamatoznak, mint a tranzakciók. Az AetherHeal két növekvő hálózatot működtet: egy ellenőrzött kórházhálózatot és egy ellenőrzött concierge-hálózatot sofőrökkel, tolmácsokkal és kísérőkkel. Mindkét hálózat erősíti a másikat — és egyiket sem lehet lemásolni pusztán egy jobb alkalmazás megépítésével.",
       "cta": "Hogyan Működik"
     }
   },
