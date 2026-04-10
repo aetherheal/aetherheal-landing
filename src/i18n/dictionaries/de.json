@@ -96,7 +96,7 @@
       "lowStake": {
         "label": "Was Patienten empfinden",
         "items": [
-          "Irrgefuehrt zu werden",
+          "In die Irre gefuehrt zu werden",
           "Reue",
           "Allein durchzugehen"
         ],
@@ -229,7 +229,7 @@
         {
           "label": "Reisekoordination",
           "badge": "ANKUNFT, BUCHUNG & BETREUUNG",
-          "description": "Die Concierge-Ausfuehrung beginnt erst nach aerztlich geprufter, vom Patienten bestaetigter Abstimmung.",
+          "description": "Die Concierge-Ausfuehrung beginnt erst nach aerztlich gepruefter, vom Patienten bestaetigter Abstimmung.",
           "details": null,
           "owner": "1:1 Concierge durch AetherHeal",
           "next": "Nachbehandlungs-Kontinuitaetsueberwachung"
@@ -831,7 +831,7 @@
       "summary": "Eine Pauschalgebuehr, die unsere finanziellen Interessen mit den medizinischen Interessen des Patienten identisch macht.",
       "p1": "Jeder kann aerztliche Fuehrung behaupten. Jeder kann eine Vertrauensprotokoll-Seite schreiben. Was kein Wettbewerber replizieren kann, ist eine Gebuehrenstruktur, bei der die Plattform buchstaeblich den gleichen Betrag verdient, egal ob ein Patient sich fuer einen Eingriff fuer 2.000 $ oder 20.000 $ entscheidet.",
       "p2": "AetherHeals Patientennavigationsgebuehr ist pauschal. Das Team, das Krankenhaeuser verifiziert, ist strukturell vom Team getrennt, das Patienten navigiert. Der Arzt, der Ihren Fall prueft, hat keine finanzielle Beziehung zu einem Krankenhaus im Netzwerk.",
-      "p3": "Dies sind keine Richtlinien. Richtlinien erfordern Durchsetzung und koennen stillschweigend aufgegeben werden, wenn der Umsatz nachlaeest. Dies sind architektonische Entscheidungen — eingebaut in die Gebuehrenstruktur, das Organigramm und das Steuerungsmodell. Sie machen es schwieriger, von Unsicherheit zu profitieren, ohne sichtbare Verantwortlichkeit fuer den Entscheidungsprozess zu tragen.",
+      "p3": "Dies sind keine Richtlinien. Richtlinien erfordern Durchsetzung und koennen stillschweigend aufgegeben werden, wenn der Umsatz nachlaesst. Dies sind architektonische Entscheidungen — eingebaut in die Gebuehrenstruktur, das Organigramm und das Steuerungsmodell. Sie machen es schwieriger, von Unsicherheit zu profitieren, ohne sichtbare Verantwortlichkeit fuer den Entscheidungsprozess zu tragen.",
       "callout": "Unser Geschaeftsmodell ist so gestaltet, dass mit zunehmendem Einfluss die Verantwortung sichtbarer wird — nicht weniger. Das ist keine Richtlinie. Es ist eine strukturelle Tatsache.",
       "comparison": {
         "traditional": {
@@ -905,9 +905,9 @@
       "title": "Die Verpflichtung des Gruenders",
       "bridge": "Die obigen Abschnitte beschreiben die strukturelle Logik. Aber Strukturen bauen sich nicht selbst — sie stammen von Menschen, die einen Grund haben, sich zu kuemmern. Hier ist der Grund, warum diese existiert.",
       "p1": "Dr. Jee Hoon Ju ist ein vom American Board of Aesthetic Medicine zertifizierter Spezialist fuer aesthetische Hautmedizin und Haartransplantationschirurg, der zwei Eingriffe als Patient hatte. Der erste schlug fehl — weil der Preis das einzige Signal war, das er lesen konnte. Er verstand erst, was mit ihm gemacht worden war, nachdem er Spezialist in dem Fachgebiet geworden war.",
-      "p2": "AetherHeal wurde nicht gebaut, weil ein Gruender eine Marktchance identifizierte. Es wurde gebaut, weil ein Arzt von dem Problem geblendet wurde, das er loest — und Jahre damit verbrachte, die klinische Expertise zu erwerben, um genau zu verstehen, was schiefgelaufen ist und warum der Markt es unvermeidlich machte.",
+      "p2": "AetherHeal wurde nicht gebaut, weil ein Gruender eine Marktchance identifizierte. Es wurde gebaut, weil ein Arzt vom Problem, das er loest, unvorbereitet getroffen wurde — und Jahre damit verbrachte, die klinische Expertise zu erwerben, um genau zu verstehen, was schiefgelaufen ist und warum der Markt es unvermeidlich machte.",
       "p3": "Der Philosoph Emmanuel Levinas schrieb, dass echte moralische Verpflichtung mit der Begegnung beginnt — wenn man die Verletzlichkeit eines anderen wirklich sieht und nicht mehr wegschauen kann. Dies ist keine Pitch-Deck-Geschichte. Es ist der Grund, warum eine Vertrauensplattform keine Autoritaet beanspruchen kann, ohne auch zu gestalten, wie sie Verantwortung tragen wird, wenn es ernst wird.",
-      "callout": "Ich baue dies nicht, weil ich eine Marktchance identifiziert habe. Ich baue dies, weil ich von dem Problem geblendet wurde, das ich loese — und weil Vertrauen ohne Verantwortung nur Marketing-Sprache ist.",
+      "callout": "Ich baue dies nicht, weil ich eine Marktchance identifiziert habe. Ich baue dies, weil ich vom Problem, das ich loese, unvorbereitet getroffen wurde — und weil Vertrauen ohne Verantwortung nur Marketing-Sprache ist.",
       "timeline": [
         {
           "year": "Patient",
@@ -923,7 +923,7 @@
         },
         {
           "year": "Gruender",
-          "event": "Baute AetherHeal, um den Markt zu korrigieren, der ihn geblendet hatte"
+          "event": "Baute AetherHeal, um den Markt zu korrigieren, der ihn unvorbereitet getroffen hatte"
         }
       ]
     },
@@ -2294,7 +2294,7 @@
     ],
     "howItWorks": {
       "title": "Wie die Reisegarantie funktioniert",
-      "intro": "Die Reisegarantie ist eine strukturelle Verpflichtung, kein Marketing-Versprechen. Ein Teil Ihrer Navigationsgebuehr wird treuheanderisch verwahrt, bis Ihre Reise abgeschlossen und Ihre Zufriedenheit bestaetigt ist. Kein anderer Medizintourismus-Vermittler bietet dies.",
+      "intro": "Die Reisegarantie ist eine strukturelle Verpflichtung, kein Marketing-Versprechen. Ein Teil Ihrer Navigationsgebuehr wird treuhaenderisch verwahrt, bis Ihre Reise abgeschlossen und Ihre Zufriedenheit bestaetigt ist. Kein anderer Medizintourismus-Vermittler bietet dies.",
       "stepLabel": "Schritt",
       "steps": [
         {
@@ -2315,7 +2315,7 @@
       "title": "Was abgedeckt ist & was nicht",
       "coveredTitle": "Was abgedeckt ist",
       "coveredItems": [
-        "Qualitaet der Krankenhausszuordnung — war das empfohlene Krankenhaus fuer Ihren Fall angemessen?",
+        "Qualitaet der Krankenhauszuordnung — war das empfohlene Krankenhaus fuer Ihren Fall angemessen?",
         "Genauigkeit der Voranreisevorbereitung",
         "Concierge-Servicequalitaet waehrend Ihres Aufenthalts",
         "Kommunikation und Koordination waehrend der gesamten Reise",

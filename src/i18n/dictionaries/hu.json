@@ -25,11 +25,11 @@
       "platformLinks": {
         "howItWorks": "Hogyan Működik",
         "trustProtocol": "Bizalmi Protokoll",
-        "ourPhilosophy": "Miért Létezünk",
+        "ourPhilosophy": "Filozófia",
         "medicalJourney": "Orvosi Út",
         "explore": "Felfedezés",
         "blog": "Blog",
-        "journeyAssurance": "Utazásbiztosítás"
+        "journeyAssurance": "Utazási Garancia"
       },
       "guideLinks": {
         "choosingHospital": "Kórházválasztás Külföldön",
@@ -58,7 +58,11 @@
       "description": "Dolgozzon együtt Angel Orvosainkkal.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["Klinikák ellenőrzése", "Orvosi konzultáció", "Felelősségvállalás"],
+      "branches": [
+        "Klinikák ellenőrzése",
+        "Orvosi konzultáció",
+        "Felelősségvállalás"
+      ],
       "branchConclusion": "Hogy soha ne legyen egyedül.",
       "disclaimer": "Döntéstámogatás a kórházi elköteleződés előtt.",
       "disclaimer2": "Nem orvosi kezelés vagy sürgősségi ellátás.",
@@ -134,7 +138,7 @@
           "description": "A díj nem változik kórháztól vagy beavatkozástól függően."
         },
         {
-          "title": "Út-garancia",
+          "title": "Utazási Garancia",
           "description": "A felelősségvállalás a fizetés után is fennáll."
         },
         {
@@ -342,7 +346,10 @@
         ]
       },
       "closingQuote": "A cél nem az, hogy gyorsabban döntsön. A cél az, hogy kevesebb megbánással dönthessen.",
-      "uiLabels": { "responsibility": "Felelősség", "then": "Ezután:" }
+      "uiLabels": {
+        "responsibility": "Felelősség",
+        "then": "Ezután:"
+      }
     },
     "partners": {
       "subtitle": "Korai Bizonyíték",
@@ -789,11 +796,11 @@
     "theProblem": {
       "title": "A Probléma, Amit Megneveztünk",
       "summary": "Miért nem bízhatnak a páciensek az orvosi turizmusban — és miért nem oldja meg a jobb marketing.",
-      "p1": "1970-ben George Akerlof közgazdász leírta, hogyan buknak meg a piacok, amikor a vásárlók nem tudják ellenőrizni a minőséget vásárlás előtt. Az alacsony minőségű áruk eladói kiszorítják a magas minőségű áruk eladóit — mert a vásárló nem tud különbséget tenni. A piac „tragacsokkal\u201D telik meg. Akerlof 2001-ben Nobel-díjat kapott ezért a felismerésért.",
+      "p1": "1970-ben George Akerlof közgazdász leírta, hogyan buknak meg a piacok, amikor a vásárlók nem tudják ellenőrizni a minőséget vásárlás előtt. Az alacsony minőségű áruk eladói kiszorítják a magas minőségű áruk eladóit — mert a vásárló nem tud különbséget tenni. A piac „tragacsokkal” telik meg. Akerlof 2001-ben Nobel-díjat kapott ezért a felismerésért.",
       "p2": "A globális orvosi turizmus tankönyvi Akerlof-piac. A páciensek nem tudják értékelni a sebészeti tudást, a kórházi biztonságot vagy a műtét utáni ellátás minőségét egy másik országból. Az egyetlen látható jelek az ár, a marketingkiadás és az előtte-utána fotók — amelyek egyike sem korrelál megbízhatóan a klinikai eredményekkel.",
       "p3": "Az eredmény kiszámítható: azok az ügynökségek nyerik el a legtöbb pácienst, amelyek a legtöbbet költik marketingre. A legjobb klinikai eredményeket produkáló orvosoknak nincs hiteles módjuk minőségük jelzésére. A páciensek testükkel kapcsolatos következményes döntéseket hoznak strukturálisan megbízhatatlan információk alapján.",
       "callout": "Ez nem bizalmi probléma. Ez egy Akerlof-probléma — és az Akerlof-problémák intézményi megoldásokat igényelnek, nem jobb marketinget.",
-      "cycleTitle": "A „Tragacsok Piaca\u201D Ciklus",
+      "cycleTitle": "A „Tragacsok Piaca” Ciklus",
       "cycleSteps": [
         "Az ügynökségek jutalékot keresnek a drága beavatkozásokon",
         "A páciensek marketing alapján választanak, nem klinikai minőség alapján",
@@ -1239,7 +1246,7 @@
       "items": [
         {
           "label": "Vizuális Elfogultság",
-          "description": "Döntés kizárólag „legjobb eset\u201D fotók alapján"
+          "description": "Döntés kizárólag „legjobb eset” fotók alapján"
         },
         {
           "label": "Ár-optimalizálás",
@@ -1361,162 +1368,435 @@
         "facelift": {
           "title": "Arcfeszesítés",
           "cases": [
-            { "title": "Arcfeszesítés Eset 1", "subtitle": "SMAS arcfeszesítés" },
-            { "title": "Arcfeszesítés Eset 2", "subtitle": "Mélyréteges feszesítés" },
-            { "title": "Arcfeszesítés Eset 3", "subtitle": "Alsó arcfeszesítés" },
-            { "title": "Arcfeszesítés Eset 4", "subtitle": "SMAS arcfeszesítés" },
-            { "title": "Arcfeszesítés Eset 5", "subtitle": "Középarc-feszesítés" },
-            { "title": "Arcfeszesítés Eset 6", "subtitle": "Teljes SMAS feszesítés" },
-            { "title": "Arcfeszesítés Eset 7", "subtitle": "Alsó arc és nyak" }
+            {
+              "title": "Arcfeszesítés Eset 1",
+              "subtitle": "SMAS arcfeszesítés"
+            },
+            {
+              "title": "Arcfeszesítés Eset 2",
+              "subtitle": "Mélyréteges feszesítés"
+            },
+            {
+              "title": "Arcfeszesítés Eset 3",
+              "subtitle": "Alsó arcfeszesítés"
+            },
+            {
+              "title": "Arcfeszesítés Eset 4",
+              "subtitle": "SMAS arcfeszesítés"
+            },
+            {
+              "title": "Arcfeszesítés Eset 5",
+              "subtitle": "Középarc-feszesítés"
+            },
+            {
+              "title": "Arcfeszesítés Eset 6",
+              "subtitle": "Teljes SMAS feszesítés"
+            },
+            {
+              "title": "Arcfeszesítés Eset 7",
+              "subtitle": "Alsó arc és nyak"
+            }
           ]
         },
         "rhinoplasty": {
           "title": "Orrplasztika",
           "cases": [
-            { "title": "Orrplasztika Eset 1", "subtitle": "Orrnyereg és hegy korrekció" },
-            { "title": "Orrplasztika Eset 2", "subtitle": "Orrtő-púp csökkentés" },
-            { "title": "Orrplasztika Eset 3", "subtitle": "Orrhegy finomítás" },
-            { "title": "Orrplasztika Eset 4", "subtitle": "Teljes orrplasztika" },
-            { "title": "Orrplasztika Eset 5", "subtitle": "Orrnyereg egyenesítés" },
-            { "title": "Orrplasztika Eset 6", "subtitle": "Orrszárny-csökkentés" },
-            { "title": "Orrplasztika Eset 7", "subtitle": "Orrsövényferdülés korrekció" },
-            { "title": "Orrplasztika Eset 8", "subtitle": "Revíziós orrplasztika" }
+            {
+              "title": "Orrplasztika Eset 1",
+              "subtitle": "Orrnyereg és hegy korrekció"
+            },
+            {
+              "title": "Orrplasztika Eset 2",
+              "subtitle": "Orrtő-púp csökkentés"
+            },
+            {
+              "title": "Orrplasztika Eset 3",
+              "subtitle": "Orrhegy finomítás"
+            },
+            {
+              "title": "Orrplasztika Eset 4",
+              "subtitle": "Teljes orrplasztika"
+            },
+            {
+              "title": "Orrplasztika Eset 5",
+              "subtitle": "Orrnyereg egyenesítés"
+            },
+            {
+              "title": "Orrplasztika Eset 6",
+              "subtitle": "Orrszárny-csökkentés"
+            },
+            {
+              "title": "Orrplasztika Eset 7",
+              "subtitle": "Orrsövényferdülés korrekció"
+            },
+            {
+              "title": "Orrplasztika Eset 8",
+              "subtitle": "Revíziós orrplasztika"
+            }
           ]
         },
         "facialContouring": {
           "title": "Arcformázás",
           "cases": [
-            { "title": "Kontúrozás Eset 1", "subtitle": "V-vonal állkapocs-csökkentés" },
-            { "title": "Kontúrozás Eset 2", "subtitle": "Járomcsont + állkapocs" },
-            { "title": "Kontúrozás Eset 3", "subtitle": "Állkapocs-csökkentés" },
-            { "title": "Kontúrozás Eset 4", "subtitle": "Teljes kontúrozás" },
-            { "title": "Kontúrozás Eset 5", "subtitle": "Szögletes állkapocs csökkentés" },
-            { "title": "Kontúrozás Eset 6", "subtitle": "Járomcsont-csökkentés" },
-            { "title": "Kontúrozás Eset 7", "subtitle": "Állkapocs-formázás" },
-            { "title": "Kontúrozás Eset 8", "subtitle": "Mini V-vonal" }
+            {
+              "title": "Kontúrozás Eset 1",
+              "subtitle": "V-vonal állkapocs-csökkentés"
+            },
+            {
+              "title": "Kontúrozás Eset 2",
+              "subtitle": "Járomcsont + állkapocs"
+            },
+            {
+              "title": "Kontúrozás Eset 3",
+              "subtitle": "Állkapocs-csökkentés"
+            },
+            {
+              "title": "Kontúrozás Eset 4",
+              "subtitle": "Teljes kontúrozás"
+            },
+            {
+              "title": "Kontúrozás Eset 5",
+              "subtitle": "Szögletes állkapocs csökkentés"
+            },
+            {
+              "title": "Kontúrozás Eset 6",
+              "subtitle": "Járomcsont-csökkentés"
+            },
+            {
+              "title": "Kontúrozás Eset 7",
+              "subtitle": "Állkapocs-formázás"
+            },
+            {
+              "title": "Kontúrozás Eset 8",
+              "subtitle": "Mini V-vonal"
+            }
           ]
         },
         "eyes": {
           "title": "Szem",
           "cases": [
-            { "title": "Dupla Szemhéj Eset 1", "subtitle": "Incíziós módszer" },
-            { "title": "Dupla Szemhéj Eset 2", "subtitle": "Nem-incíziós" },
-            { "title": "Szem Alatti Eset 1", "subtitle": "Zsírátrendezés" },
-            { "title": "Szem Alatti Eset 2", "subtitle": "Alsó szemhéjplasztika" },
-            { "title": "Dupla Szemhéj Eset 3", "subtitle": "Ptosis korrekció" },
-            { "title": "Dupla Szemhéj Eset 4", "subtitle": "Incíziós revízió" },
-            { "title": "Szem Alatti Eset 3", "subtitle": "Zsíreltávolítás" },
-            { "title": "Szem Alatti Eset 4", "subtitle": "Karikás szem korrekció" }
+            {
+              "title": "Dupla Szemhéj Eset 1",
+              "subtitle": "Incíziós módszer"
+            },
+            {
+              "title": "Dupla Szemhéj Eset 2",
+              "subtitle": "Nem-incíziós"
+            },
+            {
+              "title": "Szem Alatti Eset 1",
+              "subtitle": "Zsírátrendezés"
+            },
+            {
+              "title": "Szem Alatti Eset 2",
+              "subtitle": "Alsó szemhéjplasztika"
+            },
+            {
+              "title": "Dupla Szemhéj Eset 3",
+              "subtitle": "Ptosis korrekció"
+            },
+            {
+              "title": "Dupla Szemhéj Eset 4",
+              "subtitle": "Incíziós revízió"
+            },
+            {
+              "title": "Szem Alatti Eset 3",
+              "subtitle": "Zsíreltávolítás"
+            },
+            {
+              "title": "Szem Alatti Eset 4",
+              "subtitle": "Karikás szem korrekció"
+            }
           ]
         },
         "doubleChin": {
           "title": "Dupla Áll",
           "cases": [
-            { "title": "Dupla Áll Eset 1", "subtitle": "Áll alatti liposucció" },
-            { "title": "Dupla Áll Eset 2", "subtitle": "Állcsökkentés" },
-            { "title": "Dupla Áll Eset 3", "subtitle": "Zsíreltávolítás" },
-            { "title": "Dupla Áll Eset 4", "subtitle": "Áll-kontúrozás" },
-            { "title": "Dupla Áll Eset 5", "subtitle": "Áll alatti szívás" },
-            { "title": "Dupla Áll Eset 6", "subtitle": "Nyak liposucció" },
-            { "title": "Dupla Áll Eset 7", "subtitle": "Állvonal kiemelés" },
-            { "title": "Dupla Áll Eset 8", "subtitle": "Teljes áll-formázás" }
+            {
+              "title": "Dupla Áll Eset 1",
+              "subtitle": "Áll alatti liposucció"
+            },
+            {
+              "title": "Dupla Áll Eset 2",
+              "subtitle": "Állcsökkentés"
+            },
+            {
+              "title": "Dupla Áll Eset 3",
+              "subtitle": "Zsíreltávolítás"
+            },
+            {
+              "title": "Dupla Áll Eset 4",
+              "subtitle": "Áll-kontúrozás"
+            },
+            {
+              "title": "Dupla Áll Eset 5",
+              "subtitle": "Áll alatti szívás"
+            },
+            {
+              "title": "Dupla Áll Eset 6",
+              "subtitle": "Nyak liposucció"
+            },
+            {
+              "title": "Dupla Áll Eset 7",
+              "subtitle": "Állvonal kiemelés"
+            },
+            {
+              "title": "Dupla Áll Eset 8",
+              "subtitle": "Teljes áll-formázás"
+            }
           ]
         },
         "breastAugmentation": {
           "title": "Mellnagyobbítás",
           "cases": [
-            { "title": "Augmentáció Eset 1", "subtitle": "Szilikon implantátumok" },
-            { "title": "Augmentáció Eset 2", "subtitle": "Csepp alakú implantátumok" },
-            { "title": "Augmentáció Eset 3", "subtitle": "Kerek implantátumok" },
-            { "title": "Augmentáció Eset 4", "subtitle": "Dual plane" },
-            { "title": "Augmentáció Eset 5", "subtitle": "Subfascialis elhelyezés" },
-            { "title": "Augmentáció Eset 6", "subtitle": "Izom alatti implantátumok" },
-            { "title": "Augmentáció Eset 7", "subtitle": "Anatómiai implantátumok" },
-            { "title": "Augmentáció Eset 8", "subtitle": "Kohezív gél" }
+            {
+              "title": "Augmentáció Eset 1",
+              "subtitle": "Szilikon implantátumok"
+            },
+            {
+              "title": "Augmentáció Eset 2",
+              "subtitle": "Csepp alakú implantátumok"
+            },
+            {
+              "title": "Augmentáció Eset 3",
+              "subtitle": "Kerek implantátumok"
+            },
+            {
+              "title": "Augmentáció Eset 4",
+              "subtitle": "Dual plane"
+            },
+            {
+              "title": "Augmentáció Eset 5",
+              "subtitle": "Subfascialis elhelyezés"
+            },
+            {
+              "title": "Augmentáció Eset 6",
+              "subtitle": "Izom alatti implantátumok"
+            },
+            {
+              "title": "Augmentáció Eset 7",
+              "subtitle": "Anatómiai implantátumok"
+            },
+            {
+              "title": "Augmentáció Eset 8",
+              "subtitle": "Kohezív gél"
+            }
           ]
         },
         "breastReduction": {
           "title": "Mellkisebbítés",
           "cases": [
-            { "title": "Redukció Eset 1", "subtitle": "Vertikális redukció" },
-            { "title": "Redukció Eset 2", "subtitle": "Horgony mintázat" },
-            { "title": "Redukció Eset 3", "subtitle": "Mellkisebbítés" },
-            { "title": "Redukció Eset 4", "subtitle": "Redukciós mammoplasztika" },
-            { "title": "Redukció Eset 5", "subtitle": "Superior pedicle" },
-            { "title": "Redukció Eset 6", "subtitle": "Fordított-T redukció" },
-            { "title": "Redukció Eset 7", "subtitle": "Kétoldali redukció" },
-            { "title": "Redukció Eset 8", "subtitle": "Circumareoláris technika" }
+            {
+              "title": "Redukció Eset 1",
+              "subtitle": "Vertikális redukció"
+            },
+            {
+              "title": "Redukció Eset 2",
+              "subtitle": "Horgony mintázat"
+            },
+            {
+              "title": "Redukció Eset 3",
+              "subtitle": "Mellkisebbítés"
+            },
+            {
+              "title": "Redukció Eset 4",
+              "subtitle": "Redukciós mammoplasztika"
+            },
+            {
+              "title": "Redukció Eset 5",
+              "subtitle": "Superior pedicle"
+            },
+            {
+              "title": "Redukció Eset 6",
+              "subtitle": "Fordított-T redukció"
+            },
+            {
+              "title": "Redukció Eset 7",
+              "subtitle": "Kétoldali redukció"
+            },
+            {
+              "title": "Redukció Eset 8",
+              "subtitle": "Circumareoláris technika"
+            }
           ]
         },
         "liposuction": {
           "title": "Liposucció",
           "cases": [
-            { "title": "Has Eset 1", "subtitle": "Hasi liposucció" },
-            { "title": "Comb Eset 1", "subtitle": "Comb kontúrozás" },
-            { "title": "Kar Eset 1", "subtitle": "Kar liposucció" },
-            { "title": "Has Eset 2", "subtitle": "Teljes has formázás" },
-            { "title": "Has Eset 3", "subtitle": "Alhas" },
-            { "title": "Comb Eset 2", "subtitle": "Belső comb kontúrozás" },
-            { "title": "Comb Eset 3", "subtitle": "Külső comb formázás" }
+            {
+              "title": "Has Eset 1",
+              "subtitle": "Hasi liposucció"
+            },
+            {
+              "title": "Comb Eset 1",
+              "subtitle": "Comb kontúrozás"
+            },
+            {
+              "title": "Kar Eset 1",
+              "subtitle": "Kar liposucció"
+            },
+            {
+              "title": "Has Eset 2",
+              "subtitle": "Teljes has formázás"
+            },
+            {
+              "title": "Has Eset 3",
+              "subtitle": "Alhas"
+            },
+            {
+              "title": "Comb Eset 2",
+              "subtitle": "Belső comb kontúrozás"
+            },
+            {
+              "title": "Comb Eset 3",
+              "subtitle": "Külső comb formázás"
+            }
           ]
         },
         "hairTransplant": {
           "title": "Hajbeültetés",
           "cases": [
-            { "title": "Férfi Eset 1", "subtitle": "FUE 2500 tüsző" },
-            { "title": "Női Eset 1", "subtitle": "FUE 1500 tüsző" },
-            { "title": "Férfi Hajvonal Eset 2", "subtitle": "FUE 2000 tüsző" },
-            { "title": "Női Hajvonal Eset 2", "subtitle": "FUE 1750 tüsző" }
+            {
+              "title": "Férfi Eset 1",
+              "subtitle": "FUE 2500 tüsző"
+            },
+            {
+              "title": "Női Eset 1",
+              "subtitle": "FUE 1500 tüsző"
+            },
+            {
+              "title": "Férfi Hajvonal Eset 2",
+              "subtitle": "FUE 2000 tüsző"
+            },
+            {
+              "title": "Női Hajvonal Eset 2",
+              "subtitle": "FUE 1750 tüsző"
+            }
           ]
         },
         "browLift": {
           "title": "Szemöldök- és Homlokfeszesítés",
           "cases": [
-            { "title": "Szemöldökfeszesítés Eset 1", "subtitle": "Endoszkópos szemöldökfeszesítés" },
-            { "title": "Szemöldökfeszesítés Eset 2", "subtitle": "Direkt szemöldökfeszesítés" },
-            { "title": "Szemöldökfeszesítés Eset 3", "subtitle": "Temporális feszesítés" },
-            { "title": "Szemöldökfeszesítés Eset 4", "subtitle": "Homlokfeszesítés" },
-            { "title": "Szemöldökfeszesítés Eset 5", "subtitle": "Koronális szemöldökfeszesítés" }
+            {
+              "title": "Szemöldökfeszesítés Eset 1",
+              "subtitle": "Endoszkópos szemöldökfeszesítés"
+            },
+            {
+              "title": "Szemöldökfeszesítés Eset 2",
+              "subtitle": "Direkt szemöldökfeszesítés"
+            },
+            {
+              "title": "Szemöldökfeszesítés Eset 3",
+              "subtitle": "Temporális feszesítés"
+            },
+            {
+              "title": "Szemöldökfeszesítés Eset 4",
+              "subtitle": "Homlokfeszesítés"
+            },
+            {
+              "title": "Szemöldökfeszesítés Eset 5",
+              "subtitle": "Koronális szemöldökfeszesítés"
+            }
           ]
         },
         "neckLift": {
           "title": "Nyakfeszesítés",
           "cases": [
-            { "title": "Nyakfeszesítés Eset 1", "subtitle": "Platizmaplasztika" },
-            { "title": "Nyakfeszesítés Eset 2", "subtitle": "Cervikoplasztika" },
-            { "title": "Nyakfeszesítés Eset 3", "subtitle": "Nyak-kontúrozás" }
+            {
+              "title": "Nyakfeszesítés Eset 1",
+              "subtitle": "Platizmaplasztika"
+            },
+            {
+              "title": "Nyakfeszesítés Eset 2",
+              "subtitle": "Cervikoplasztika"
+            },
+            {
+              "title": "Nyakfeszesítés Eset 3",
+              "subtitle": "Nyak-kontúrozás"
+            }
           ]
         },
         "tummyTuck": {
           "title": "Hasplasztika",
           "cases": [
-            { "title": "Abdominoplasztika Eset 1", "subtitle": "Teljes hasplasztika" },
-            { "title": "Abdominoplasztika Eset 2", "subtitle": "Mini abdominoplasztika" },
-            { "title": "Abdominoplasztika Eset 3", "subtitle": "Kiterjesztett hasplasztika" },
-            { "title": "Abdominoplasztika Eset 4", "subtitle": "Fleur-de-lis" },
-            { "title": "Abdominoplasztika Eset 5", "subtitle": "Teljes abdominoplasztika" },
-            { "title": "Abdominoplasztika Eset 6", "subtitle": "Körkörös" }
+            {
+              "title": "Abdominoplasztika Eset 1",
+              "subtitle": "Teljes hasplasztika"
+            },
+            {
+              "title": "Abdominoplasztika Eset 2",
+              "subtitle": "Mini abdominoplasztika"
+            },
+            {
+              "title": "Abdominoplasztika Eset 3",
+              "subtitle": "Kiterjesztett hasplasztika"
+            },
+            {
+              "title": "Abdominoplasztika Eset 4",
+              "subtitle": "Fleur-de-lis"
+            },
+            {
+              "title": "Abdominoplasztika Eset 5",
+              "subtitle": "Teljes abdominoplasztika"
+            },
+            {
+              "title": "Abdominoplasztika Eset 6",
+              "subtitle": "Körkörös"
+            }
           ]
         },
         "armLift": {
           "title": "Karfeszesítés",
           "cases": [
-            { "title": "Brachioplasztika Eset 1", "subtitle": "Teljes karfeszesítés" },
-            { "title": "Brachioplasztika Eset 2", "subtitle": "Felkar-feszesítés" },
-            { "title": "Brachioplasztika Eset 3", "subtitle": "Kiterjesztett brachioplasztika" },
-            { "title": "Brachioplasztika Eset 4", "subtitle": "Minimális hegű karfeszesítés" },
-            { "title": "Brachioplasztika Eset 5", "subtitle": "Felkar-kontúrozás" },
-            { "title": "Brachioplasztika Eset 6", "subtitle": "Kar redukció" },
-            { "title": "Brachioplasztika Eset 7", "subtitle": "Teljes brachioplasztika" }
+            {
+              "title": "Brachioplasztika Eset 1",
+              "subtitle": "Teljes karfeszesítés"
+            },
+            {
+              "title": "Brachioplasztika Eset 2",
+              "subtitle": "Felkar-feszesítés"
+            },
+            {
+              "title": "Brachioplasztika Eset 3",
+              "subtitle": "Kiterjesztett brachioplasztika"
+            },
+            {
+              "title": "Brachioplasztika Eset 4",
+              "subtitle": "Minimális hegű karfeszesítés"
+            },
+            {
+              "title": "Brachioplasztika Eset 5",
+              "subtitle": "Felkar-kontúrozás"
+            },
+            {
+              "title": "Brachioplasztika Eset 6",
+              "subtitle": "Kar redukció"
+            },
+            {
+              "title": "Brachioplasztika Eset 7",
+              "subtitle": "Teljes brachioplasztika"
+            }
           ]
         },
         "thighLift": {
           "title": "Combfeszesítés",
           "cases": [
-            { "title": "Combfeszesítés Eset 1", "subtitle": "Belső comb feszesítés" },
-            { "title": "Combfeszesítés Eset 2", "subtitle": "Mediális combplasztika" },
-            { "title": "Combfeszesítés Eset 3", "subtitle": "Vertikális combfeszesítés" },
-            { "title": "Combfeszesítés Eset 4", "subtitle": "Teljes comb-kontúrozás" }
+            {
+              "title": "Combfeszesítés Eset 1",
+              "subtitle": "Belső comb feszesítés"
+            },
+            {
+              "title": "Combfeszesítés Eset 2",
+              "subtitle": "Mediális combplasztika"
+            },
+            {
+              "title": "Combfeszesítés Eset 3",
+              "subtitle": "Vertikális combfeszesítés"
+            },
+            {
+              "title": "Combfeszesítés Eset 4",
+              "subtitle": "Teljes comb-kontúrozás"
+            }
           ]
         }
       },
@@ -1526,168 +1806,780 @@
           "id": "lifting",
           "title": "Feszesítés és Lifting",
           "treatments": [
-            { "name": "Ultherapy", "tag": "HIFU", "origin": "Merz / USA", "description": "FDA-engedélyezett mikrofókuszált ultrahang szemöldök, nyak, áll és dekoltázs feszesítésre", "kr": true },
-            { "name": "Ultraformer MPT (Shurink Universe)", "tag": "HIFU", "origin": "Classys / Korea", "description": "Új generációs HIFU Mikro Impulzus Technológiával; CE MDR tanúsítvánnyal", "kr": true },
-            { "name": "Doublo Gold", "tag": "HIFU", "origin": "Hironic / Korea", "description": "HIFU mikrofókuszált ultrahang és RF kombinációjával napi klinikai használatra", "kr": true },
-            { "name": "Sofwave", "tag": "Ultrahang", "origin": "Sofwave Medical / Izrael", "description": "SUPERB szinkronizált ultrahang párhuzamos sugártechnológia; FDA engedélyezett minden bőrtípusra", "kr": false },
-            { "name": "Thermage FLX", "tag": "Monopoláris RF", "origin": "Solta Medical / USA", "description": "4. generációs monopoláris RF AccuREP auto-hangoló rendszerrel; egyszeri kezelés kollagén-átépítésre", "kr": true },
-            { "name": "Morpheus8", "tag": "Mikrotűs RF", "origin": "InMode / Izrael-USA", "description": "RF mikrotűzés 8 mm mélységig mély átépítésre és szubdermális zsírszövet-kezelésre", "kr": false },
-            { "name": "Potenza", "tag": "Mikrotűs RF", "origin": "Cynosure / USA", "description": "Monopoláris + bipoláris RF mikrotűzés Tiger Tip félig szigetelt tűkkel", "kr": false },
-            { "name": "SylfirmX", "tag": "Mikrotűs RF", "origin": "Viol / Korea", "description": "Kettős hullámú RF (impulzus + folyamatos) hatékony melasma és pigmentáció kezelésre", "kr": true },
-            { "name": "Genius RF", "tag": "Mikrotűs RF", "origin": "Lutronic / Korea", "description": "Valós idejű impedancia-visszacsatolásos RF mikrotűzés precíziós energiaszolgáltatásra", "kr": true },
-            { "name": "Volnewmer (Everesse)", "tag": "Mikrotűs RF", "origin": "Classys / Korea", "description": "Mikro-rádiófrekvenciás eszköz precíziós RF feszesítésre", "kr": true },
-            { "name": "Secret RF", "tag": "Mikrotűs RF", "origin": "Cutera / USA", "description": "Állítható mélységű RF mikrotűzés aranyozott tűkkel hegek és bőrmegújítás kezelésére", "kr": false },
-            { "name": "Scarlet RF", "tag": "Mikrotűs RF", "origin": "Viol / Korea", "description": "Rövid impulzusú RF mikrotűzés minimális kieséssel", "kr": true },
-            { "name": "INTRAcel", "tag": "Mikrotűs RF", "origin": "Jeisys / Korea", "description": "Frakcionált RF mikrotűzés kétfázisú hullámformával", "kr": true },
-            { "name": "DENSITY", "tag": "RF", "origin": "Jeisys / Korea", "description": "Nagyfrekvenciás arcfeszesítő eszköz Alpha Tip technológiával", "kr": true },
-            { "name": "CoolSonic", "tag": "Ultrahang", "origin": "CoolSonic / Korea", "description": "Nem-invazív ultrahangos feszesítés hűtési technológiával a fokozott komfortért", "kr": true },
-            { "name": "Oligio", "tag": "Monopoláris RF", "origin": "Classys / Korea", "description": "Monopoláris RF bőrfeszesítés AI-vezérelt energiaszabályozással; új generációs Thermage alternatíva", "kr": true },
-            { "name": "ONDA Coolwaves", "tag": "Mikrohullám", "origin": "DEKA / Olaszország", "description": "Mikrohullámú technológia (Coolwaves) bőrfeszesítésre, zsírcsökkentésre és cellulitkezelésre", "kr": true }
+            {
+              "name": "Ultherapy",
+              "tag": "HIFU",
+              "origin": "Merz / USA",
+              "description": "FDA-engedélyezett mikrofókuszált ultrahang szemöldök, nyak, áll és dekoltázs feszesítésre",
+              "kr": true
+            },
+            {
+              "name": "Ultraformer MPT (Shurink Universe)",
+              "tag": "HIFU",
+              "origin": "Classys / Korea",
+              "description": "Új generációs HIFU Mikro Impulzus Technológiával; CE MDR tanúsítvánnyal",
+              "kr": true
+            },
+            {
+              "name": "Doublo Gold",
+              "tag": "HIFU",
+              "origin": "Hironic / Korea",
+              "description": "HIFU mikrofókuszált ultrahang és RF kombinációjával napi klinikai használatra",
+              "kr": true
+            },
+            {
+              "name": "Sofwave",
+              "tag": "Ultrahang",
+              "origin": "Sofwave Medical / Izrael",
+              "description": "SUPERB szinkronizált ultrahang párhuzamos sugártechnológia; FDA engedélyezett minden bőrtípusra",
+              "kr": false
+            },
+            {
+              "name": "Thermage FLX",
+              "tag": "Monopoláris RF",
+              "origin": "Solta Medical / USA",
+              "description": "4. generációs monopoláris RF AccuREP auto-hangoló rendszerrel; egyszeri kezelés kollagén-átépítésre",
+              "kr": true
+            },
+            {
+              "name": "Morpheus8",
+              "tag": "Mikrotűs RF",
+              "origin": "InMode / Izrael-USA",
+              "description": "RF mikrotűzés 8 mm mélységig mély átépítésre és szubdermális zsírszövet-kezelésre",
+              "kr": false
+            },
+            {
+              "name": "Potenza",
+              "tag": "Mikrotűs RF",
+              "origin": "Cynosure / USA",
+              "description": "Monopoláris + bipoláris RF mikrotűzés Tiger Tip félig szigetelt tűkkel",
+              "kr": false
+            },
+            {
+              "name": "SylfirmX",
+              "tag": "Mikrotűs RF",
+              "origin": "Viol / Korea",
+              "description": "Kettős hullámú RF (impulzus + folyamatos) hatékony melasma és pigmentáció kezelésre",
+              "kr": true
+            },
+            {
+              "name": "Genius RF",
+              "tag": "Mikrotűs RF",
+              "origin": "Lutronic / Korea",
+              "description": "Valós idejű impedancia-visszacsatolásos RF mikrotűzés precíziós energiaszolgáltatásra",
+              "kr": true
+            },
+            {
+              "name": "Volnewmer (Everesse)",
+              "tag": "Mikrotűs RF",
+              "origin": "Classys / Korea",
+              "description": "Mikro-rádiófrekvenciás eszköz precíziós RF feszesítésre",
+              "kr": true
+            },
+            {
+              "name": "Secret RF",
+              "tag": "Mikrotűs RF",
+              "origin": "Cutera / USA",
+              "description": "Állítható mélységű RF mikrotűzés aranyozott tűkkel hegek és bőrmegújítás kezelésére",
+              "kr": false
+            },
+            {
+              "name": "Scarlet RF",
+              "tag": "Mikrotűs RF",
+              "origin": "Viol / Korea",
+              "description": "Rövid impulzusú RF mikrotűzés minimális kieséssel",
+              "kr": true
+            },
+            {
+              "name": "INTRAcel",
+              "tag": "Mikrotűs RF",
+              "origin": "Jeisys / Korea",
+              "description": "Frakcionált RF mikrotűzés kétfázisú hullámformával",
+              "kr": true
+            },
+            {
+              "name": "DENSITY",
+              "tag": "RF",
+              "origin": "Jeisys / Korea",
+              "description": "Nagyfrekvenciás arcfeszesítő eszköz Alpha Tip technológiával",
+              "kr": true
+            },
+            {
+              "name": "CoolSonic",
+              "tag": "Ultrahang",
+              "origin": "CoolSonic / Korea",
+              "description": "Nem-invazív ultrahangos feszesítés hűtési technológiával a fokozott komfortért",
+              "kr": true
+            },
+            {
+              "name": "Oligio",
+              "tag": "Monopoláris RF",
+              "origin": "Classys / Korea",
+              "description": "Monopoláris RF bőrfeszesítés AI-vezérelt energiaszabályozással; új generációs Thermage alternatíva",
+              "kr": true
+            },
+            {
+              "name": "ONDA Coolwaves",
+              "tag": "Mikrohullám",
+              "origin": "DEKA / Olaszország",
+              "description": "Mikrohullámú technológia (Coolwaves) bőrfeszesítésre, zsírcsökkentésre és cellulitkezelésre",
+              "kr": true
+            }
           ]
         },
         {
           "id": "rejuvenation",
           "title": "Bőrmegújítás és Bőrboosterek",
           "treatments": [
-            { "name": "Rejuran Healer", "tag": "PN/PDRN", "origin": "Pharmaresearch / Korea", "description": "Lazac DNS-ből nyert polinukleotid bőrregenerációra és kollagénszintézisre", "kr": true },
-            { "name": "Rejuran I (Eye)", "tag": "PN/PDRN", "origin": "Pharmaresearch / Korea", "description": "98,7% tisztaságú PDRN speciálisan szem alatti terület megújítására", "kr": true },
-            { "name": "Juvelook", "tag": "Bio-stimulátor", "origin": "Hugel / Korea", "description": "PDLLA + nem-keresztkötésű HA booster kollagén-stimulálásra akár 18 hónapig", "kr": true },
-            { "name": "Gouri", "tag": "PCL", "origin": "DEXLEVO / Korea", "description": "A világ első teljesen oldott injektálható PCL folyékony kollagénstimulátor", "kr": true },
-            { "name": "Profhilo", "tag": "HA Bio-remodelláló", "origin": "IBSA / Olaszország", "description": "Magas koncentrációjú HA injektálható intenzív hidratálásra 5 pontos injekciós technikával", "kr": false },
-            { "name": "NCTF 135 HA", "tag": "Mezoterápia", "origin": "Fillmed / Franciaország", "description": "HA + vitaminok + aminosavak + ko-enzimek koktél sejt-revitalizálásra", "kr": true },
-            { "name": "Sunekos", "tag": "Aminosav", "origin": "Professional Derma / Olaszország", "description": "Szabadalmazott aminosav + HA formula ECM regenerálásra", "kr": false },
-            { "name": "Juvederm Skinvive", "tag": "HA Hidratáló", "origin": "Allergan / USA", "description": "Intradermális HA mikrocseppes injekció bőrsimításra akár 6 hónapig", "kr": false },
-            { "name": "Elravie Re2O", "tag": "ECM Booster", "origin": "Humedix / Korea", "description": "Első ECM-alapú bőrbooster; pótolja az extracelluláris mátrix komponenseit", "kr": true },
-            { "name": "Lituo (hADM)", "tag": "ECM Booster", "origin": "CGBio / Korea", "description": "Humán acelluláris dermális mátrix booster, amely közvetlenül pótolja a kollagént és elasztint", "kr": true },
-            { "name": "Aesthefill", "tag": "PDLLA", "origin": "REGEN Biotech / Korea", "description": "PDLLA mikrogömb kollagénstimulátor volumen és bőrminőség javítására", "kr": true },
-            { "name": "Exosome Therapy", "tag": "Növekedési Faktor", "origin": "Különböző / Korea", "description": "Őssejt-eredetű exoszóma terápia sejt-regenerálásra és fokozott gyógyulásra", "kr": true },
-            { "name": "LDM (Local Dynamic Micro)", "tag": "Ultrahang", "origin": "General Project / Németország", "description": "Alacsony frekvenciájú ultrahangos mikro-masszázs hidratálásra és sejtaktivációra; nulla kiesés", "kr": true }
+            {
+              "name": "Rejuran Healer",
+              "tag": "PN/PDRN",
+              "origin": "Pharmaresearch / Korea",
+              "description": "Lazac DNS-ből nyert polinukleotid bőrregenerációra és kollagénszintézisre",
+              "kr": true
+            },
+            {
+              "name": "Rejuran I (Eye)",
+              "tag": "PN/PDRN",
+              "origin": "Pharmaresearch / Korea",
+              "description": "98,7% tisztaságú PDRN speciálisan szem alatti terület megújítására",
+              "kr": true
+            },
+            {
+              "name": "Juvelook",
+              "tag": "Bio-stimulátor",
+              "origin": "Hugel / Korea",
+              "description": "PDLLA + nem-keresztkötésű HA booster kollagén-stimulálásra akár 18 hónapig",
+              "kr": true
+            },
+            {
+              "name": "Gouri",
+              "tag": "PCL",
+              "origin": "DEXLEVO / Korea",
+              "description": "A világ első teljesen oldott injektálható PCL folyékony kollagénstimulátor",
+              "kr": true
+            },
+            {
+              "name": "Profhilo",
+              "tag": "HA Bio-remodelláló",
+              "origin": "IBSA / Olaszország",
+              "description": "Magas koncentrációjú HA injektálható intenzív hidratálásra 5 pontos injekciós technikával",
+              "kr": false
+            },
+            {
+              "name": "NCTF 135 HA",
+              "tag": "Mezoterápia",
+              "origin": "Fillmed / Franciaország",
+              "description": "HA + vitaminok + aminosavak + ko-enzimek koktél sejt-revitalizálásra",
+              "kr": true
+            },
+            {
+              "name": "Sunekos",
+              "tag": "Aminosav",
+              "origin": "Professional Derma / Olaszország",
+              "description": "Szabadalmazott aminosav + HA formula ECM regenerálásra",
+              "kr": false
+            },
+            {
+              "name": "Juvederm Skinvive",
+              "tag": "HA Hidratáló",
+              "origin": "Allergan / USA",
+              "description": "Intradermális HA mikrocseppes injekció bőrsimításra akár 6 hónapig",
+              "kr": false
+            },
+            {
+              "name": "Elravie Re2O",
+              "tag": "ECM Booster",
+              "origin": "Humedix / Korea",
+              "description": "Első ECM-alapú bőrbooster; pótolja az extracelluláris mátrix komponenseit",
+              "kr": true
+            },
+            {
+              "name": "Lituo (hADM)",
+              "tag": "ECM Booster",
+              "origin": "CGBio / Korea",
+              "description": "Humán acelluláris dermális mátrix booster, amely közvetlenül pótolja a kollagént és elasztint",
+              "kr": true
+            },
+            {
+              "name": "Aesthefill",
+              "tag": "PDLLA",
+              "origin": "REGEN Biotech / Korea",
+              "description": "PDLLA mikrogömb kollagénstimulátor volumen és bőrminőség javítására",
+              "kr": true
+            },
+            {
+              "name": "Exosome Therapy",
+              "tag": "Növekedési Faktor",
+              "origin": "Különböző / Korea",
+              "description": "Őssejt-eredetű exoszóma terápia sejt-regenerálásra és fokozott gyógyulásra",
+              "kr": true
+            },
+            {
+              "name": "LDM (Local Dynamic Micro)",
+              "tag": "Ultrahang",
+              "origin": "General Project / Németország",
+              "description": "Alacsony frekvenciájú ultrahangos mikro-masszázs hidratálásra és sejtaktivációra; nulla kiesés",
+              "kr": true
+            }
           ]
         },
         {
           "id": "laser",
           "title": "Lézer és Fényterápia",
           "treatments": [
-            { "name": "PicoSure Pro", "tag": "Pikoszekundum", "origin": "Cynosure / USA", "description": "755nm + 532nm pikoszekundumos lézer Focus Lens Array-vel pigment és kollagén stimulálásra", "kr": true },
-            { "name": "PicoWay", "tag": "Pikoszekundum", "origin": "Candela / USA", "description": "Többhullámhosszú piko (532/730/1064nm) Resolve frakcionált; kiváló melasma kezelésre", "kr": true },
-            { "name": "PicoLO", "tag": "Pikoszekundum", "origin": "LASEROPTEK / Korea", "description": "Koreai gyártású pikoszekundumos Nd:YAG pigmentációra és akné hegekre", "kr": true },
-            { "name": "Discovery Pico Plus", "tag": "Pikoszekundum", "origin": "Quanta System / Olaszország", "description": "Többhullámhosszú piko + nano platform frakcionált fejekkel", "kr": false },
-            { "name": "Stellar M22", "tag": "IPL Platform", "origin": "Lumenis / Izrael", "description": "Több alkalmazási IPL + Nd:YAG + ResurFX platform 30+ bőrállapot kezelésére", "kr": true },
-            { "name": "BBL (BroadBand Light)", "tag": "IPL", "origin": "Sciton / USA", "description": "Fejlett IPL termoelektromosan hűtött szűrőkkel fotorejuvenációra", "kr": false },
-            { "name": "eCO2 3D", "tag": "Frakcionált CO2", "origin": "Lutronic / Korea", "description": "40W frakcionált CO2 Controlled Chaos szkenneléssel mély bőrfelszín-megújításra", "kr": true },
-            { "name": "Fraxel DUAL", "tag": "Nem-ablatív Frakcionált", "origin": "Solta Medical / USA", "description": "Kettős hullámhosszú (1550/1927nm) nem-ablatív frakcionált hegekre és pigmentre", "kr": true },
-            { "name": "LaseMD Ultra", "tag": "Thulium Lézer", "origin": "Lutronic / Korea", "description": "1927nm thulium frakcionált lézer bőrvilágosításra és hatóanyag-bejuttatásra", "kr": true },
-            { "name": "Healite II", "tag": "LED Terápia", "origin": "Bio-Photas / Korea", "description": "830nm + 633nm professzionális LED sejt-helyreállításra és beavatkozás utáni gyógyulásra", "kr": true },
-            { "name": "Omnilux", "tag": "LED Terápia", "origin": "GlobalMed / UK", "description": "Orvosi minőségű LED 30+ lektorált tanulmánnyal igazolva akné és öregedés ellen", "kr": false },
-            { "name": "CoolPeel", "tag": "CO2 Lézer", "origin": "Cartessa / USA", "description": "H-Pulse technológia teljesen ablatív CO2 kezelésre minimális kieséssel", "kr": false },
-            { "name": "Cutera Excel HR", "tag": "Nd:YAG/Alex", "origin": "Cutera / USA", "description": "Kettős hullámhosszú lézerplatform szőrtelenítésre, vaszkuláris léziókra és bőrmegújításra", "kr": true },
-            { "name": "Clarity II", "tag": "Alex/Nd:YAG", "origin": "Lutronic / Korea", "description": "Hosszú impulzusú + Q-switch kettős platform pigmentre, vaszkuláris és szőrtelenítésre", "kr": true }
+            {
+              "name": "PicoSure Pro",
+              "tag": "Pikoszekundum",
+              "origin": "Cynosure / USA",
+              "description": "755nm + 532nm pikoszekundumos lézer Focus Lens Array-vel pigment és kollagén stimulálásra",
+              "kr": true
+            },
+            {
+              "name": "PicoWay",
+              "tag": "Pikoszekundum",
+              "origin": "Candela / USA",
+              "description": "Többhullámhosszú piko (532/730/1064nm) Resolve frakcionált; kiváló melasma kezelésre",
+              "kr": true
+            },
+            {
+              "name": "PicoLO",
+              "tag": "Pikoszekundum",
+              "origin": "LASEROPTEK / Korea",
+              "description": "Koreai gyártású pikoszekundumos Nd:YAG pigmentációra és akné hegekre",
+              "kr": true
+            },
+            {
+              "name": "Discovery Pico Plus",
+              "tag": "Pikoszekundum",
+              "origin": "Quanta System / Olaszország",
+              "description": "Többhullámhosszú piko + nano platform frakcionált fejekkel",
+              "kr": false
+            },
+            {
+              "name": "Stellar M22",
+              "tag": "IPL Platform",
+              "origin": "Lumenis / Izrael",
+              "description": "Több alkalmazási IPL + Nd:YAG + ResurFX platform 30+ bőrállapot kezelésére",
+              "kr": true
+            },
+            {
+              "name": "BBL (BroadBand Light)",
+              "tag": "IPL",
+              "origin": "Sciton / USA",
+              "description": "Fejlett IPL termoelektromosan hűtött szűrőkkel fotorejuvenációra",
+              "kr": false
+            },
+            {
+              "name": "eCO2 3D",
+              "tag": "Frakcionált CO2",
+              "origin": "Lutronic / Korea",
+              "description": "40W frakcionált CO2 Controlled Chaos szkenneléssel mély bőrfelszín-megújításra",
+              "kr": true
+            },
+            {
+              "name": "Fraxel DUAL",
+              "tag": "Nem-ablatív Frakcionált",
+              "origin": "Solta Medical / USA",
+              "description": "Kettős hullámhosszú (1550/1927nm) nem-ablatív frakcionált hegekre és pigmentre",
+              "kr": true
+            },
+            {
+              "name": "LaseMD Ultra",
+              "tag": "Thulium Lézer",
+              "origin": "Lutronic / Korea",
+              "description": "1927nm thulium frakcionált lézer bőrvilágosításra és hatóanyag-bejuttatásra",
+              "kr": true
+            },
+            {
+              "name": "Healite II",
+              "tag": "LED Terápia",
+              "origin": "Bio-Photas / Korea",
+              "description": "830nm + 633nm professzionális LED sejt-helyreállításra és beavatkozás utáni gyógyulásra",
+              "kr": true
+            },
+            {
+              "name": "Omnilux",
+              "tag": "LED Terápia",
+              "origin": "GlobalMed / UK",
+              "description": "Orvosi minőségű LED 30+ lektorált tanulmánnyal igazolva akné és öregedés ellen",
+              "kr": false
+            },
+            {
+              "name": "CoolPeel",
+              "tag": "CO2 Lézer",
+              "origin": "Cartessa / USA",
+              "description": "H-Pulse technológia teljesen ablatív CO2 kezelésre minimális kieséssel",
+              "kr": false
+            },
+            {
+              "name": "Cutera Excel HR",
+              "tag": "Nd:YAG/Alex",
+              "origin": "Cutera / USA",
+              "description": "Kettős hullámhosszú lézerplatform szőrtelenítésre, vaszkuláris léziókra és bőrmegújításra",
+              "kr": true
+            },
+            {
+              "name": "Clarity II",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Lutronic / Korea",
+              "description": "Hosszú impulzusú + Q-switch kettős platform pigmentre, vaszkuláris és szőrtelenítésre",
+              "kr": true
+            }
           ]
         },
         {
           "id": "injectables",
           "title": "Injektálható Kezelések",
           "treatments": [
-            { "name": "Botox", "tag": "Botulinum Toxin", "origin": "Allergan / USA", "description": "A világ legismertebb A típusú botulinum toxinja ráncokra és hyperhidrosisra", "kr": true },
-            { "name": "Dysport", "tag": "Botulinum Toxin", "origin": "Galderma / Franciaország", "description": "AbobotulinumtoxinA szélesebb diffúziós mintával glabellaris vonalakra", "kr": true },
-            { "name": "Xeomin", "tag": "Botulinum Toxin", "origin": "Merz / Németország", "description": "Tiszta botulinum toxin komplexképző fehérjék nélkül; nem igényel hűtést", "kr": false },
-            { "name": "Nabota (Jeuveau)", "tag": "Botulinum Toxin", "origin": "Daewoong / Korea", "description": "FDA-engedélyezett koreai botulinum toxin szabadalmazott nagy tisztaságú gyártással", "kr": true },
-            { "name": "Botulax (Letybo)", "tag": "Botulinum Toxin", "origin": "Hugel / Korea", "description": "FDA-engedélyezett koreai toxin; évi 12M+ fiolát értékesítenek világszerte", "kr": true },
-            { "name": "Meditoxin", "tag": "Botulinum Toxin", "origin": "Medytox / Korea", "description": "62,3% preferencia a koreai bőrgyógyászok körében; 40% belföldi piaci részesedés", "kr": true }
+            {
+              "name": "Botox",
+              "tag": "Botulinum Toxin",
+              "origin": "Allergan / USA",
+              "description": "A világ legismertebb A típusú botulinum toxinja ráncokra és hyperhidrosisra",
+              "kr": true
+            },
+            {
+              "name": "Dysport",
+              "tag": "Botulinum Toxin",
+              "origin": "Galderma / Franciaország",
+              "description": "AbobotulinumtoxinA szélesebb diffúziós mintával glabellaris vonalakra",
+              "kr": true
+            },
+            {
+              "name": "Xeomin",
+              "tag": "Botulinum Toxin",
+              "origin": "Merz / Németország",
+              "description": "Tiszta botulinum toxin komplexképző fehérjék nélkül; nem igényel hűtést",
+              "kr": false
+            },
+            {
+              "name": "Nabota (Jeuveau)",
+              "tag": "Botulinum Toxin",
+              "origin": "Daewoong / Korea",
+              "description": "FDA-engedélyezett koreai botulinum toxin szabadalmazott nagy tisztaságú gyártással",
+              "kr": true
+            },
+            {
+              "name": "Botulax (Letybo)",
+              "tag": "Botulinum Toxin",
+              "origin": "Hugel / Korea",
+              "description": "FDA-engedélyezett koreai toxin; évi 12M+ fiolát értékesítenek világszerte",
+              "kr": true
+            },
+            {
+              "name": "Meditoxin",
+              "tag": "Botulinum Toxin",
+              "origin": "Medytox / Korea",
+              "description": "62,3% preferencia a koreai bőrgyógyászok körében; 40% belföldi piaci részesedés",
+              "kr": true
+            }
           ]
         },
         {
           "id": "fillers",
           "title": "Dermális Fillerek",
           "treatments": [
-            { "name": "Juvederm (Voluma/Volift/Volbella)", "tag": "HA Filler", "origin": "Allergan / USA", "description": "Vycross-technológiás HA filler család arcra, ajkakra és finom vonalakra. Területek: teljes arc (arccsont, áll, ajkak, nazolabiális redők, könnycsat), test (kéz)", "kr": true },
-            { "name": "Restylane (Lyft/Kysse)", "tag": "HA Filler", "origin": "Galderma / Svédország", "description": "NASHA és XpresHAn technológiás HA fillerek strukturális támogatásra és ajkakra. Területek: teljes arc (arccsont, ajkak, áll, állvonal, szem alatti terület), test (kéz, fülcimpa)", "kr": true },
-            { "name": "Teosyal (RHA)", "tag": "HA Filler", "origin": "Teoxane / Svájc", "description": "Rugalmas HA technológia, amely alkalmazkodik az arcmozgásokhoz. Területek: teljes arc (ajkak, arccsont, nazolabiális redők, könnycsat, állvonal)", "kr": false },
-            { "name": "Belotero", "tag": "HA Filler", "origin": "Merz / Németország", "description": "CPM-technológiás HA fillerek sima szöveti integrációval. Területek: teljes arc (finom vonalak, ajkak, nazolabiális redők, könnycsat)", "kr": false },
-            { "name": "Revolax", "tag": "HA Filler", "origin": "Across / Korea", "description": "Nagy tisztaságú keresztkötésű HA filler; kedvező ár-érték arány mély ráncokra és volumenre. Területek: teljes arc (mély ráncok, arccsont, áll, orr, ajkak)", "kr": true },
-            { "name": "Neuramis", "tag": "HA Filler", "origin": "Medytox / Korea", "description": "Koreai HA filler ajak-feltöltésre és arcformálásra. Területek: teljes arc (ajkak, nazolabiális redők, áll, arccsont)", "kr": true },
-            { "name": "Yvoire", "tag": "HA Filler", "origin": "LG Chem / Korea", "description": "Bifázisos HA filler erős strukturális támogatással. Területek: teljes arc (arccsont, áll, állvonal, orrnyereg), test (kéz)", "kr": true },
-            { "name": "E.P.T.Q.", "tag": "HA Filler", "origin": "Hugel / Korea", "description": "Prémium monofázisos HA filler globális piacokra. Területek: teljes arc (arccsont, állvonal, ajkak, orr), test (kéz)", "kr": true },
-            { "name": "Kybella (Belkyra)", "tag": "Zsírbontó", "origin": "Allergan / USA", "description": "Egyetlen FDA-engedélyezett deoxikólsav injekció a szubmentális zsír csökkentésére. Területek: arc (szubmentális/dupla áll), test (melltartózsír, belső comb)", "kr": false },
-            { "name": "Kabelline", "tag": "Zsírbontó", "origin": "Kabelline / Korea", "description": "Szintetikus deoxikólsav zsírbontó arc- és testkontúrozásra. Területek: arc (dupla áll, toka), test (has, csípőzsír, belső comb, felkar)", "kr": true },
-            { "name": "Sculptra", "tag": "PLLA", "origin": "Galderma / Franciaország", "description": "Poli-L-tejsav, amely I-es típusú kollagéntermelést stimulál fokozatos volumen-visszaállításra. Területek: teljes arc (halánték, arccsont, állvonal, nazolabiális redők), test (fenék, vállak, felkarok, csípő/medenceterület)", "kr": true },
-            { "name": "Radiesse", "tag": "CaHA", "origin": "Merz / USA-Németország", "description": "Kalcium-hidroxilapatit biostimulátor bőrfeszességre és hosszú távú kollagén-megújulásra. Területek: teljes arc (arccsont, állvonal, áll, kéz), test (vállak, dekoltázs, felkarok, térdek)", "kr": true },
-            { "name": "Dermalax", "tag": "HA Filler", "origin": "Across / Korea", "description": "Keresztkötésű HA filler választék arcra és testre. Területek: teljes arc (arccsont, áll, ajkak, homlok), test (kéz)", "kr": true },
-            { "name": "Rejeunesse", "tag": "HA Filler", "origin": "Humedix / Korea", "description": "Erősen keresztkötésű HA természetes, finom kiemelésekre. Területek: teljes arc (ajkak, nazolabiális redők, arccsont, áll)", "kr": true }
+            {
+              "name": "Juvederm (Voluma/Volift/Volbella)",
+              "tag": "HA Filler",
+              "origin": "Allergan / USA",
+              "description": "Vycross-technológiás HA filler család arcra, ajkakra és finom vonalakra. Területek: teljes arc (arccsont, áll, ajkak, nazolabiális redők, könnycsat), test (kéz)",
+              "kr": true
+            },
+            {
+              "name": "Restylane (Lyft/Kysse)",
+              "tag": "HA Filler",
+              "origin": "Galderma / Svédország",
+              "description": "NASHA és XpresHAn technológiás HA fillerek strukturális támogatásra és ajkakra. Területek: teljes arc (arccsont, ajkak, áll, állvonal, szem alatti terület), test (kéz, fülcimpa)",
+              "kr": true
+            },
+            {
+              "name": "Teosyal (RHA)",
+              "tag": "HA Filler",
+              "origin": "Teoxane / Svájc",
+              "description": "Rugalmas HA technológia, amely alkalmazkodik az arcmozgásokhoz. Területek: teljes arc (ajkak, arccsont, nazolabiális redők, könnycsat, állvonal)",
+              "kr": false
+            },
+            {
+              "name": "Belotero",
+              "tag": "HA Filler",
+              "origin": "Merz / Németország",
+              "description": "CPM-technológiás HA fillerek sima szöveti integrációval. Területek: teljes arc (finom vonalak, ajkak, nazolabiális redők, könnycsat)",
+              "kr": false
+            },
+            {
+              "name": "Revolax",
+              "tag": "HA Filler",
+              "origin": "Across / Korea",
+              "description": "Nagy tisztaságú keresztkötésű HA filler; kedvező ár-érték arány mély ráncokra és volumenre. Területek: teljes arc (mély ráncok, arccsont, áll, orr, ajkak)",
+              "kr": true
+            },
+            {
+              "name": "Neuramis",
+              "tag": "HA Filler",
+              "origin": "Medytox / Korea",
+              "description": "Koreai HA filler ajak-feltöltésre és arcformálásra. Területek: teljes arc (ajkak, nazolabiális redők, áll, arccsont)",
+              "kr": true
+            },
+            {
+              "name": "Yvoire",
+              "tag": "HA Filler",
+              "origin": "LG Chem / Korea",
+              "description": "Bifázisos HA filler erős strukturális támogatással. Területek: teljes arc (arccsont, áll, állvonal, orrnyereg), test (kéz)",
+              "kr": true
+            },
+            {
+              "name": "E.P.T.Q.",
+              "tag": "HA Filler",
+              "origin": "Hugel / Korea",
+              "description": "Prémium monofázisos HA filler globális piacokra. Területek: teljes arc (arccsont, állvonal, ajkak, orr), test (kéz)",
+              "kr": true
+            },
+            {
+              "name": "Kybella (Belkyra)",
+              "tag": "Zsírbontó",
+              "origin": "Allergan / USA",
+              "description": "Egyetlen FDA-engedélyezett deoxikólsav injekció a szubmentális zsír csökkentésére. Területek: arc (szubmentális/dupla áll), test (melltartózsír, belső comb)",
+              "kr": false
+            },
+            {
+              "name": "Kabelline",
+              "tag": "Zsírbontó",
+              "origin": "Kabelline / Korea",
+              "description": "Szintetikus deoxikólsav zsírbontó arc- és testkontúrozásra. Területek: arc (dupla áll, toka), test (has, csípőzsír, belső comb, felkar)",
+              "kr": true
+            },
+            {
+              "name": "Sculptra",
+              "tag": "PLLA",
+              "origin": "Galderma / Franciaország",
+              "description": "Poli-L-tejsav, amely I-es típusú kollagéntermelést stimulál fokozatos volumen-visszaállításra. Területek: teljes arc (halánték, arccsont, állvonal, nazolabiális redők), test (fenék, vállak, felkarok, csípő/medenceterület)",
+              "kr": true
+            },
+            {
+              "name": "Radiesse",
+              "tag": "CaHA",
+              "origin": "Merz / USA-Németország",
+              "description": "Kalcium-hidroxilapatit biostimulátor bőrfeszességre és hosszú távú kollagén-megújulásra. Területek: teljes arc (arccsont, állvonal, áll, kéz), test (vállak, dekoltázs, felkarok, térdek)",
+              "kr": true
+            },
+            {
+              "name": "Dermalax",
+              "tag": "HA Filler",
+              "origin": "Across / Korea",
+              "description": "Keresztkötésű HA filler választék arcra és testre. Területek: teljes arc (arccsont, áll, ajkak, homlok), test (kéz)",
+              "kr": true
+            },
+            {
+              "name": "Rejeunesse",
+              "tag": "HA Filler",
+              "origin": "Humedix / Korea",
+              "description": "Erősen keresztkötésű HA természetes, finom kiemelésekre. Területek: teljes arc (ajkak, nazolabiális redők, arccsont, áll)",
+              "kr": true
+            }
           ]
         },
         {
           "id": "threads",
           "title": "Szálbehúzásos Feszesítés",
           "treatments": [
-            { "name": "MINT Lift", "tag": "PDO", "origin": "HansBiomed / Korea", "description": "Háromszorosan FDA-engedélyezett PDO szálak; a koreai szálbehúzás aranyszabványa", "kr": true },
-            { "name": "Miracu", "tag": "PDO", "origin": "CROMA / Korea", "description": "Széles körben használt koreai PDO szálak nem-sebészi arcfeszesítésre", "kr": true },
-            { "name": "Silhouette Soft", "tag": "PLLA", "origin": "Sinclair Pharma / UK", "description": "PLLA kétirányú kúpos szálak azonnali feszesítéssel + fokozatos kollagén-stimulálással", "kr": false },
-            { "name": "Silhouette InstaLift", "tag": "PLLA/PLGA", "origin": "Sinclair / USA", "description": "Felszívódó varrat kétirányú kúpokkal; FDA engedélyezett középarcra", "kr": false },
-            { "name": "Glamour Silhouline", "tag": "PCL", "origin": "Glamour / Korea", "description": "PCL csavart szálak 24 hónap alatt szívódnak fel; leghosszabb kollagén-stimuláció", "kr": true },
-            { "name": "Aptos", "tag": "PDO/PLA", "origin": "Aptos / Grúzia", "description": "A szálbehúzás úttörője Excellence és Nano vonalakkal arcra és testre", "kr": false }
+            {
+              "name": "MINT Lift",
+              "tag": "PDO",
+              "origin": "HansBiomed / Korea",
+              "description": "Háromszorosan FDA-engedélyezett PDO szálak; a koreai szálbehúzás aranyszabványa",
+              "kr": true
+            },
+            {
+              "name": "Miracu",
+              "tag": "PDO",
+              "origin": "CROMA / Korea",
+              "description": "Széles körben használt koreai PDO szálak nem-sebészi arcfeszesítésre",
+              "kr": true
+            },
+            {
+              "name": "Silhouette Soft",
+              "tag": "PLLA",
+              "origin": "Sinclair Pharma / UK",
+              "description": "PLLA kétirányú kúpos szálak azonnali feszesítéssel + fokozatos kollagén-stimulálással",
+              "kr": false
+            },
+            {
+              "name": "Silhouette InstaLift",
+              "tag": "PLLA/PLGA",
+              "origin": "Sinclair / USA",
+              "description": "Felszívódó varrat kétirányú kúpokkal; FDA engedélyezett középarcra",
+              "kr": false
+            },
+            {
+              "name": "Glamour Silhouline",
+              "tag": "PCL",
+              "origin": "Glamour / Korea",
+              "description": "PCL csavart szálak 24 hónap alatt szívódnak fel; leghosszabb kollagén-stimuláció",
+              "kr": true
+            },
+            {
+              "name": "Aptos",
+              "tag": "PDO/PLA",
+              "origin": "Aptos / Grúzia",
+              "description": "A szálbehúzás úttörője Excellence és Nano vonalakkal arcra és testre",
+              "kr": false
+            }
           ]
         },
         {
           "id": "surface",
           "title": "Felszíni és Hámlasztó Kezelések",
           "treatments": [
-            { "name": "HydraFacial", "tag": "Aqua Peel", "origin": "BeautyHealth / USA", "description": "Szabadalmazott vortex technológia tisztítás-hámlasztás-kinyerés-hidratálás egy kezelésben", "kr": true },
-            { "name": "Aqua Peel", "tag": "Vízi Mikroderm", "origin": "Különböző / Korea", "description": "3 lépéses vízi mikrodermabráció (AHA, BHA, táplálás) a koreai klinikák alap kezelése", "kr": true },
-            { "name": "SkinPen", "tag": "Mikrotűzés", "origin": "Crown Aesthetics / USA", "description": "Az első FDA-engedélyezett mikrotűzős eszköz akné hegekre", "kr": false },
-            { "name": "Dermapen 4", "tag": "Mikrotűzés", "origin": "DermapenWorld / Ausztrália", "description": "Fejlett mikrotűzős toll 16 tűs patronnal hegkezelésre", "kr": false },
-            { "name": "ZO Skin Health Peels", "tag": "Kémiai Hámlasztás", "origin": "ZO Skin Health / USA", "description": "Orvosi minőségű hámlasztó protokollok Dr. Zein Obagi-tól", "kr": false },
-            { "name": "SkinCeuticals Peels", "tag": "Kémiai Hámlasztás", "origin": "SkinCeuticals / USA", "description": "Professzionális kémiai hámlasztó vonal Micropeel és Advanced Corrective készítményekkel", "kr": false }
+            {
+              "name": "HydraFacial",
+              "tag": "Aqua Peel",
+              "origin": "BeautyHealth / USA",
+              "description": "Szabadalmazott vortex technológia tisztítás-hámlasztás-kinyerés-hidratálás egy kezelésben",
+              "kr": true
+            },
+            {
+              "name": "Aqua Peel",
+              "tag": "Vízi Mikroderm",
+              "origin": "Különböző / Korea",
+              "description": "3 lépéses vízi mikrodermabráció (AHA, BHA, táplálás) a koreai klinikák alap kezelése",
+              "kr": true
+            },
+            {
+              "name": "SkinPen",
+              "tag": "Mikrotűzés",
+              "origin": "Crown Aesthetics / USA",
+              "description": "Az első FDA-engedélyezett mikrotűzős eszköz akné hegekre",
+              "kr": false
+            },
+            {
+              "name": "Dermapen 4",
+              "tag": "Mikrotűzés",
+              "origin": "DermapenWorld / Ausztrália",
+              "description": "Fejlett mikrotűzős toll 16 tűs patronnal hegkezelésre",
+              "kr": false
+            },
+            {
+              "name": "ZO Skin Health Peels",
+              "tag": "Kémiai Hámlasztás",
+              "origin": "ZO Skin Health / USA",
+              "description": "Orvosi minőségű hámlasztó protokollok Dr. Zein Obagi-tól",
+              "kr": false
+            },
+            {
+              "name": "SkinCeuticals Peels",
+              "tag": "Kémiai Hámlasztás",
+              "origin": "SkinCeuticals / USA",
+              "description": "Professzionális kémiai hámlasztó vonal Micropeel és Advanced Corrective készítményekkel",
+              "kr": false
+            }
           ]
         },
         {
           "id": "pigment",
           "title": "Pigmentáció és Vaszkuláris",
           "treatments": [
-            { "name": "Excel V+", "tag": "Vaszkuláris Lézer", "origin": "Cutera / USA", "description": "Kettős hullámhosszú (532/1064nm) lézer rosaceare, erekre és bőr-revitalizálásra", "kr": true },
-            { "name": "GentleMax Pro Plus", "tag": "Alex/Nd:YAG", "origin": "Candela / USA", "description": "Kettős 755nm + 1064nm lézer vaszkuláris léziókra, pigmentre és szőrtelenítésre", "kr": true },
-            { "name": "Vbeam Prima", "tag": "Impulzus Festéklézer", "origin": "Candela / USA", "description": "595nm + 1064nm kettős vaszkuláris lézer; arany szabvány rosaceara és porborfolyamokra", "kr": false },
-            { "name": "RevLite SI", "tag": "Q-switched Nd:YAG", "origin": "Cynosure / USA", "description": "Lézer toning melasma, pigmentáció és bőrmegújítás kezelésére ázsiai bőrön", "kr": true },
-            { "name": "Spectra XT", "tag": "Q-switched Nd:YAG", "origin": "Lutronic / Korea", "description": "Lézer toning platform széles körben használt a koreai klinikákon melasma kezelésre", "kr": true }
+            {
+              "name": "Excel V+",
+              "tag": "Vaszkuláris Lézer",
+              "origin": "Cutera / USA",
+              "description": "Kettős hullámhosszú (532/1064nm) lézer rosaceare, erekre és bőr-revitalizálásra",
+              "kr": true
+            },
+            {
+              "name": "GentleMax Pro Plus",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Candela / USA",
+              "description": "Kettős 755nm + 1064nm lézer vaszkuláris léziókra, pigmentre és szőrtelenítésre",
+              "kr": true
+            },
+            {
+              "name": "Vbeam Prima",
+              "tag": "Impulzus Festéklézer",
+              "origin": "Candela / USA",
+              "description": "595nm + 1064nm kettős vaszkuláris lézer; arany szabvány rosaceara és porborfolyamokra",
+              "kr": false
+            },
+            {
+              "name": "RevLite SI",
+              "tag": "Q-switched Nd:YAG",
+              "origin": "Cynosure / USA",
+              "description": "Lézer toning melasma, pigmentáció és bőrmegújítás kezelésére ázsiai bőrön",
+              "kr": true
+            },
+            {
+              "name": "Spectra XT",
+              "tag": "Q-switched Nd:YAG",
+              "origin": "Lutronic / Korea",
+              "description": "Lézer toning platform széles körben használt a koreai klinikákon melasma kezelésre",
+              "kr": true
+            }
           ]
         },
         {
           "id": "bodyContouring",
           "title": "Nem-sebészi Testformázás",
           "treatments": [
-            { "name": "CoolSculpting Elite", "tag": "Kriolízis", "origin": "Allergan / USA", "description": "FDA-engedélyezett szabályozott hűtés zsírsejtek fagyasztására és eltávolítására", "kr": true },
-            { "name": "Emsculpt NEO", "tag": "HIFEM + RF", "origin": "BTL / USA-Csehország", "description": "Elektromágneses izomstimulálás és RF kombinációja egyidejű izomépítésre és zsírcsökkentésre", "kr": true },
-            { "name": "Vanquish ME", "tag": "Kontaktmentes RF", "origin": "BTL / USA-Csehország", "description": "Kontaktmentes szelektív RF nagy területű zsírcsökkentésre a bőr érintése nélkül", "kr": false },
-            { "name": "SculpSure", "tag": "Lézer Lipolízis", "origin": "Cynosure / USA", "description": "1060nm dióda lézer nem-invazív zsírcsökkentésre több testterületen", "kr": false },
-            { "name": "TightSculpting", "tag": "Kettős Lézer", "origin": "Fotona / Szlovénia", "description": "Er:YAG + Nd:YAG kettős hullámhosszú lézer egyidejű formázásra és feszesítésre", "kr": false },
-            { "name": "Scizer", "tag": "HIFU Test", "origin": "Classys / Korea", "description": "HIFU-alapú testformázás; FDA engedélyezett nem-invazív zsírcsökkentésre", "kr": true }
+            {
+              "name": "CoolSculpting Elite",
+              "tag": "Kriolízis",
+              "origin": "Allergan / USA",
+              "description": "FDA-engedélyezett szabályozott hűtés zsírsejtek fagyasztására és eltávolítására",
+              "kr": true
+            },
+            {
+              "name": "Emsculpt NEO",
+              "tag": "HIFEM + RF",
+              "origin": "BTL / USA-Csehország",
+              "description": "Elektromágneses izomstimulálás és RF kombinációja egyidejű izomépítésre és zsírcsökkentésre",
+              "kr": true
+            },
+            {
+              "name": "Vanquish ME",
+              "tag": "Kontaktmentes RF",
+              "origin": "BTL / USA-Csehország",
+              "description": "Kontaktmentes szelektív RF nagy területű zsírcsökkentésre a bőr érintése nélkül",
+              "kr": false
+            },
+            {
+              "name": "SculpSure",
+              "tag": "Lézer Lipolízis",
+              "origin": "Cynosure / USA",
+              "description": "1060nm dióda lézer nem-invazív zsírcsökkentésre több testterületen",
+              "kr": false
+            },
+            {
+              "name": "TightSculpting",
+              "tag": "Kettős Lézer",
+              "origin": "Fotona / Szlovénia",
+              "description": "Er:YAG + Nd:YAG kettős hullámhosszú lézer egyidejű formázásra és feszesítésre",
+              "kr": false
+            },
+            {
+              "name": "Scizer",
+              "tag": "HIFU Test",
+              "origin": "Classys / Korea",
+              "description": "HIFU-alapú testformázás; FDA engedélyezett nem-invazív zsírcsökkentésre",
+              "kr": true
+            }
           ]
         },
         {
           "id": "scalpHair",
           "title": "Fejbőr és Haj (Nem-sebészi)",
           "treatments": [
-            { "name": "PRP Therapy (Scalp)", "tag": "PRP", "origin": "Különböző / Globális", "description": "Trombocita-gazdag plazma injektálása a fejbőrbe hajtüsző-regeneráció stimulálására", "kr": true },
-            { "name": "Scalp Mesotherapy", "tag": "Mezoterápia", "origin": "Különböző / Korea", "description": "Növekedési faktorok, vitaminok és tápanyagok közvetlen injektálása a fejbőrbe", "kr": true },
-            { "name": "Hair Filler (DR CYJ)", "tag": "Peptid Filler", "origin": "Caregen / Korea", "description": "7 biomimetikus peptid alapú fejbőr-injektálható hajnövekedés-stimulálásra", "kr": true },
-            { "name": "HairMax LaserBand", "tag": "LLLT", "origin": "HairMax / USA", "description": "Első FDA-engedélyezett alacsony szintű lézerterápiás eszköz hajhullás kezelésére", "kr": false },
-            { "name": "Healite II (Scalp)", "tag": "LED Terápia", "origin": "Bio-Photas / Korea", "description": "830nm LED terápia tüsző-stimulálásra és fokozott PRP felszívódásra", "kr": true }
+            {
+              "name": "PRP Therapy (Scalp)",
+              "tag": "PRP",
+              "origin": "Különböző / Globális",
+              "description": "Trombocita-gazdag plazma injektálása a fejbőrbe hajtüsző-regeneráció stimulálására",
+              "kr": true
+            },
+            {
+              "name": "Scalp Mesotherapy",
+              "tag": "Mezoterápia",
+              "origin": "Különböző / Korea",
+              "description": "Növekedési faktorok, vitaminok és tápanyagok közvetlen injektálása a fejbőrbe",
+              "kr": true
+            },
+            {
+              "name": "Hair Filler (DR CYJ)",
+              "tag": "Peptid Filler",
+              "origin": "Caregen / Korea",
+              "description": "7 biomimetikus peptid alapú fejbőr-injektálható hajnövekedés-stimulálásra",
+              "kr": true
+            },
+            {
+              "name": "HairMax LaserBand",
+              "tag": "LLLT",
+              "origin": "HairMax / USA",
+              "description": "Első FDA-engedélyezett alacsony szintű lézerterápiás eszköz hajhullás kezelésére",
+              "kr": false
+            },
+            {
+              "name": "Healite II (Scalp)",
+              "tag": "LED Terápia",
+              "origin": "Bio-Photas / Korea",
+              "description": "830nm LED terápia tüsző-stimulálásra és fokozott PRP felszívódásra",
+              "kr": true
+            }
           ]
         },
         {
           "id": "stemCell",
           "title": "Őssejt- és Regeneratív Medicina",
           "treatments": [
-            { "name": "Autologous Stem Cell Therapy", "tag": "Őssejt", "origin": "Különböző / Korea", "description": "Páciens-eredetű zsír- vagy csontvelői őssejtek bőrregenerációra, sebgyógyulásra és öregedésgátlásra", "kr": true },
-            { "name": "Umbilical Cord Stem Cell (UC-MSC)", "tag": "Őssejt", "origin": "Különböző / Korea", "description": "Allogén mezenchimális őssejtek köldökzsinórból öregedésgátlásra, immunmodulációra és szövetjavításra", "kr": true },
-            { "name": "MCT (MicroCoring Technology)", "tag": "Bőrfelszín-megújítás", "origin": "Cytrellis / USA", "description": "Bőr mikro-oszlopait távolítják el feszesítésre és megújításra hőkárosodás nélkül; FDA-engedélyezett ránccsökkentésre", "kr": false },
-            { "name": "Exosome IV Therapy", "tag": "Exoszóma", "origin": "Különböző / Korea", "description": "Intravénás őssejt-eredetű exoszóma infúzió szisztémás öregedésgátlásra, bőrmegújításra és sejtjavításra", "kr": true },
-            { "name": "SVF (Stromal Vascular Fraction)", "tag": "Őssejt", "origin": "Különböző / Korea", "description": "Koncentrált zsír-eredetű őssejtek és növekedési faktorok arcmegújításra és volumen-visszaállításra", "kr": true },
-            { "name": "PRP + Stem Cell Combination", "tag": "Regeneratív", "origin": "Különböző / Korea", "description": "Trombocita-gazdag plazma őssejtterápiával kombinálva fokozott bőrregenerációra és kollagéntermelésre", "kr": true },
-            { "name": "NK Cell Therapy", "tag": "Immunsejt", "origin": "Különböző / Korea", "description": "Természetes ölősejt infúziós terápia immunerősítésre, öregedésgátlásra és sejtszintű egészségoptimalizálásra", "kr": true },
-            { "name": "Fibroblast Therapy", "tag": "Sejtterápia", "origin": "Különböző / Korea", "description": "Autológ fibroblaszt injekció természetes kollagén- és elasztintermelésre; hosszú távú bőrminőség-javulás", "kr": true },
-            { "name": "Growth Factor Cocktail (GFC)", "tag": "Növekedési Faktor", "origin": "Különböző / Korea", "description": "Koncentrált autológ növekedésifaktor-injekció bőrmegújításra, hajnövekedésre és sebgyógyulásra", "kr": true },
-            { "name": "Placental Extract Therapy", "tag": "Regeneratív", "origin": "Különböző / Korea-Japán", "description": "Humán placentakivonat (Laennec/Melsmon) injekció öregedésgátlásra, fáradtság-felépülésre és májfunkció javítására", "kr": true }
+            {
+              "name": "Autologous Stem Cell Therapy",
+              "tag": "Őssejt",
+              "origin": "Különböző / Korea",
+              "description": "Páciens-eredetű zsír- vagy csontvelői őssejtek bőrregenerációra, sebgyógyulásra és öregedésgátlásra",
+              "kr": true
+            },
+            {
+              "name": "Umbilical Cord Stem Cell (UC-MSC)",
+              "tag": "Őssejt",
+              "origin": "Különböző / Korea",
+              "description": "Allogén mezenchimális őssejtek köldökzsinórból öregedésgátlásra, immunmodulációra és szövetjavításra",
+              "kr": true
+            },
+            {
+              "name": "MCT (MicroCoring Technology)",
+              "tag": "Bőrfelszín-megújítás",
+              "origin": "Cytrellis / USA",
+              "description": "Bőr mikro-oszlopait távolítják el feszesítésre és megújításra hőkárosodás nélkül; FDA-engedélyezett ránccsökkentésre",
+              "kr": false
+            },
+            {
+              "name": "Exosome IV Therapy",
+              "tag": "Exoszóma",
+              "origin": "Különböző / Korea",
+              "description": "Intravénás őssejt-eredetű exoszóma infúzió szisztémás öregedésgátlásra, bőrmegújításra és sejtjavításra",
+              "kr": true
+            },
+            {
+              "name": "SVF (Stromal Vascular Fraction)",
+              "tag": "Őssejt",
+              "origin": "Különböző / Korea",
+              "description": "Koncentrált zsír-eredetű őssejtek és növekedési faktorok arcmegújításra és volumen-visszaállításra",
+              "kr": true
+            },
+            {
+              "name": "PRP + Stem Cell Combination",
+              "tag": "Regeneratív",
+              "origin": "Különböző / Korea",
+              "description": "Trombocita-gazdag plazma őssejtterápiával kombinálva fokozott bőrregenerációra és kollagéntermelésre",
+              "kr": true
+            },
+            {
+              "name": "NK Cell Therapy",
+              "tag": "Immunsejt",
+              "origin": "Különböző / Korea",
+              "description": "Természetes ölősejt infúziós terápia immunerősítésre, öregedésgátlásra és sejtszintű egészségoptimalizálásra",
+              "kr": true
+            },
+            {
+              "name": "Fibroblast Therapy",
+              "tag": "Sejtterápia",
+              "origin": "Különböző / Korea",
+              "description": "Autológ fibroblaszt injekció természetes kollagén- és elasztintermelésre; hosszú távú bőrminőség-javulás",
+              "kr": true
+            },
+            {
+              "name": "Growth Factor Cocktail (GFC)",
+              "tag": "Növekedési Faktor",
+              "origin": "Különböző / Korea",
+              "description": "Koncentrált autológ növekedésifaktor-injekció bőrmegújításra, hajnövekedésre és sebgyógyulásra",
+              "kr": true
+            },
+            {
+              "name": "Placental Extract Therapy",
+              "tag": "Regeneratív",
+              "origin": "Különböző / Korea-Japán",
+              "description": "Humán placentakivonat (Laennec/Melsmon) injekció öregedésgátlásra, fáradtság-felépülésre és májfunkció javítására",
+              "kr": true
+            }
           ]
         }
       ],
@@ -1796,9 +2688,18 @@
       "introDetail": "Fejlett FUE technikákkal, tapasztalt sebészekkel és versenyképes árakkal Szöul globális központtá vált. De a megfelelő klinika kiválasztásához többre van szükség egy Google-keresésnél."
     },
     "toc": [
-      { "id": "why-korea", "label": "Miért Választják a Páciensek Koreát" },
-      { "id": "what-we-offer", "label": "Mit Kínál az AetherHeal" },
-      { "id": "common-procedures", "label": "Gyakori Beavatkozások" }
+      {
+        "id": "why-korea",
+        "label": "Miért Választják a Páciensek Koreát"
+      },
+      {
+        "id": "what-we-offer",
+        "label": "Mit Kínál az AetherHeal"
+      },
+      {
+        "id": "common-procedures",
+        "label": "Gyakori Beavatkozások"
+      }
     ],
     "whyKorea": {
       "title": "Miért Választják a Páciensek Koreát a Hajbeültetéshez",
@@ -1822,10 +2723,22 @@
       "boxText": "Minden esetet egyénileg értékelünk. Biztosítjuk, hogy ne legyenek sablonos ajánlások."
     },
     "relatedPages": [
-      { "label": "Esztétikai Klinikák Szöulban", "desc": "Navigáljon bőrkezelések és dermatológia területén" },
-      { "label": "Kórházválasztás Külföldön", "desc": "Keretrendszer a biztonságosabb döntésekhez" },
-      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan értékeljük partnerkórházainkat" },
-      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+      {
+        "label": "Esztétikai Klinikák Szöulban",
+        "desc": "Navigáljon bőrkezelések és dermatológia területén"
+      },
+      {
+        "label": "Kórházválasztás Külföldön",
+        "desc": "Keretrendszer a biztonságosabb döntésekhez"
+      },
+      {
+        "label": "Az AetherHeal Bizalmi Protokollja",
+        "desc": "Hogyan értékeljük partnerkórházainkat"
+      },
+      {
+        "label": "Hogyan Működik az AetherHeal",
+        "desc": "Az orvos által vezetett döntéstámogatás rendszere"
+      }
     ]
   },
   "plasticSurgery": {
@@ -1841,9 +2754,18 @@
       "introDetail": "A nemzetközi páciensek számára ez egyszerre jelent lehetőséget és összetettséget. Az AetherHeal segít eligazodni ebben az összetettségben orvos által vezetett döntéstámogatással — mielőtt bármely kórházat megkeresné."
     },
     "toc": [
-      { "id": "common-procedures", "label": "Gyakran Fontolgatott Beavatkozások" },
-      { "id": "risk-of-unstructured", "label": "A Strukturálatlan Döntések Kockázata" },
-      { "id": "how-aetherheal-helps", "label": "Hogyan Segít az AetherHeal" }
+      {
+        "id": "common-procedures",
+        "label": "Gyakran Fontolgatott Beavatkozások"
+      },
+      {
+        "id": "risk-of-unstructured",
+        "label": "A Strukturálatlan Döntések Kockázata"
+      },
+      {
+        "id": "how-aetherheal-helps",
+        "label": "Hogyan Segít az AetherHeal"
+      }
     ],
     "commonProcedures": {
       "title": "Gyakran Fontolgatott Beavatkozások",
@@ -1865,10 +2787,22 @@
       ]
     },
     "relatedPages": [
-      { "label": "Hajbeültetés Koreában", "desc": "Orvos által vezetett iránymutatás a hajpótláshoz" },
-      { "label": "Esztétikai Klinikák Szöulban", "desc": "Navigáljon bőrkezelések és dermatológia területén" },
-      { "label": "Kórházválasztás Külföldön", "desc": "Keretrendszer a biztonságosabb döntésekhez" },
-      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+      {
+        "label": "Hajbeültetés Koreában",
+        "desc": "Orvos által vezetett iránymutatás a hajpótláshoz"
+      },
+      {
+        "label": "Esztétikai Klinikák Szöulban",
+        "desc": "Navigáljon bőrkezelések és dermatológia területén"
+      },
+      {
+        "label": "Kórházválasztás Külföldön",
+        "desc": "Keretrendszer a biztonságosabb döntésekhez"
+      },
+      {
+        "label": "Hogyan Működik az AetherHeal",
+        "desc": "Az orvos által vezetett döntéstámogatás rendszere"
+      }
     ]
   },
   "aestheticClinic": {
@@ -1884,9 +2818,18 @@
       "introDetail": "Az opciók sűrűsége túlterhelő lehet a nemzetközi páciensek számára. Az AetherHeal strukturált támogatást nyújt, hogy tájékozott döntéseket hozhasson bőrkezelésekről és kozmetikai beavatkozásokról."
     },
     "toc": [
-      { "id": "why-seoul", "label": "Miért Szöul az Esztétikai Kezelésekhez" },
-      { "id": "how-we-support", "label": "Hogyan Támogatja az AetherHeal Döntését" },
-      { "id": "treatments-discussed", "label": "Gyakran Megbeszélt Kezelések" }
+      {
+        "id": "why-seoul",
+        "label": "Miért Szöul az Esztétikai Kezelésekhez"
+      },
+      {
+        "id": "how-we-support",
+        "label": "Hogyan Támogatja az AetherHeal Döntését"
+      },
+      {
+        "id": "treatments-discussed",
+        "label": "Gyakran Megbeszélt Kezelések"
+      }
     ],
     "whySeoul": {
       "title": "Miért Szöul az Esztétikai Kezelésekhez",
@@ -1909,10 +2852,22 @@
       "callout": "Minden kezelési tervet engedéllyel rendelkező orvossal beszélünk meg, bármilyen klinikai megkeresés előtt."
     },
     "relatedPages": [
-      { "label": "Hajbeültetés Koreában", "desc": "Orvos által vezetett iránymutatás a hajpótláshoz" },
-      { "label": "Plasztikai Sebészet Koreában", "desc": "Strukturált döntéstámogatás kozmetikai beavatkozásokhoz" },
-      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan értékeljük partnerkórházainkat" },
-      { "label": "Az Ön Orvosi Útja", "desc": "Teljes körű koordináció a döntéstől a felépülésig" }
+      {
+        "label": "Hajbeültetés Koreában",
+        "desc": "Orvos által vezetett iránymutatás a hajpótláshoz"
+      },
+      {
+        "label": "Plasztikai Sebészet Koreában",
+        "desc": "Strukturált döntéstámogatás kozmetikai beavatkozásokhoz"
+      },
+      {
+        "label": "Az AetherHeal Bizalmi Protokollja",
+        "desc": "Hogyan értékeljük partnerkórházainkat"
+      },
+      {
+        "label": "Az Ön Orvosi Útja",
+        "desc": "Teljes körű koordináció a döntéstől a felépülésig"
+      }
     ]
   },
   "medicalJourney": {
@@ -1928,10 +2883,22 @@
       "introDetail": "Az AetherHeal szétválasztja az utat az utazás előtti, koreai és hazatérés utáni szakaszra, így az AI támogatás, orvosi felülvizsgálat, kórházi ellátás és concierge felelősség nem mosódik össze."
     },
     "toc": [
-      { "id": "before-travel", "label": "Utazás Előtt" },
-      { "id": "in-korea", "label": "Koreában" },
-      { "id": "after-return", "label": "Hazatérés Után" },
-      { "id": "what-makes-different", "label": "Mi Teszi Ezt Mássá" }
+      {
+        "id": "before-travel",
+        "label": "Utazás Előtt"
+      },
+      {
+        "id": "in-korea",
+        "label": "Koreában"
+      },
+      {
+        "id": "after-return",
+        "label": "Hazatérés Után"
+      },
+      {
+        "id": "what-makes-different",
+        "label": "Mi Teszi Ezt Mássá"
+      }
     ],
     "journeyStages": {
       "title": "Három Szakasz, Egy Felelős Út",
@@ -1944,9 +2911,18 @@
           "summary": "Ez a szakasz az eset strukturálására szolgál bármilyen kezelési út megkezdése előtt. A cél a döntési készültség, nem a sebesség.",
           "milestonesTitle": "Alapvető mérföldkövek",
           "items": [
-            { "title": "Döntés-strukturálás", "desc": "Célok, feltételek, korábbi dokumentumok és nyitott kérdések rendszerezése világosabb döntési keretbe a partner-megkeresés előtt." },
-            { "title": "Megvalósíthatósági előkészítés", "desc": "Megfelelő dokumentumok, utazási feltételek és hatáskör-feltevések ellenőrzése, hogy az eset alkalmas legyen kórházi felülvizsgálatra." },
-            { "title": "Koordinációs készültség", "desc": "Ütemezési szándék, valószínű időtervek és gyakorlati utazástervezés csak az eset kellő tisztázása után készül el." }
+            {
+              "title": "Döntés-strukturálás",
+              "desc": "Célok, feltételek, korábbi dokumentumok és nyitott kérdések rendszerezése világosabb döntési keretbe a partner-megkeresés előtt."
+            },
+            {
+              "title": "Megvalósíthatósági előkészítés",
+              "desc": "Megfelelő dokumentumok, utazási feltételek és hatáskör-feltevések ellenőrzése, hogy az eset alkalmas legyen kórházi felülvizsgálatra."
+            },
+            {
+              "title": "Koordinációs készültség",
+              "desc": "Ütemezési szándék, valószínű időtervek és gyakorlati utazástervezés csak az eset kellő tisztázása után készül el."
+            }
           ],
           "aiTitle": "AI támogatja",
           "aiItems": [
@@ -1968,9 +2944,18 @@
           "summary": "Amint a páciens megérkezett, a koordinációnak precíznek kell maradnia, miközben a kezelési hatáskör a kezelőintézménynél és a felelős orvosoknál marad.",
           "milestonesTitle": "Alapvető mérföldkövek",
           "items": [
-            { "title": "Érkezés és átadás", "desc": "Ellenőrzött concierge — sofőr, tolmács vagy kísérő — a leszállás előtt kijelölve. Valós idejű koordináció a repülőtéri felvétel, szállítás és időpontok összehangolásához, anélkül hogy a páciensnek egyedül kellene a logisztikát kezelnie." },
-            { "title": "Kórházi végrehajtás", "desc": "Konzultáció, tájékozott beleegyezés és kezelés-tervezés az engedélyezett kórházi vagy klinikai környezetben történik." },
-            { "title": "Valós idejű támogatás", "desc": "Concierge csapata — ellenőrzött szabadúszó sofőrök, tanúsított kórházi tolmácsok és helyi kísérők — egy élő platformon keresztül koordinál a helyszínen. Késések, elmulasztott átadások vagy eszkalációk valós időben láthatók." }
+            {
+              "title": "Érkezés és átadás",
+              "desc": "Ellenőrzött concierge — sofőr, tolmács vagy kísérő — a leszállás előtt kijelölve. Valós idejű koordináció a repülőtéri felvétel, szállítás és időpontok összehangolásához, anélkül hogy a páciensnek egyedül kellene a logisztikát kezelnie."
+            },
+            {
+              "title": "Kórházi végrehajtás",
+              "desc": "Konzultáció, tájékozott beleegyezés és kezelés-tervezés az engedélyezett kórházi vagy klinikai környezetben történik."
+            },
+            {
+              "title": "Valós idejű támogatás",
+              "desc": "Concierge csapata — ellenőrzött szabadúszó sofőrök, tanúsított kórházi tolmácsok és helyi kísérők — egy élő platformon keresztül koordinál a helyszínen. Késések, elmulasztott átadások vagy eszkalációk valós időben láthatók."
+            }
           ],
           "aiTitle": "AI támogatja",
           "aiItems": [
@@ -1992,9 +2977,18 @@
           "summary": "Miután a páciens hazatér, a folytonosság számít. A cél a kommunikáció, az utánkövetés és a dokumentált eszkaláció megőrzése, amikor szükséges.",
           "milestonesTitle": "Alapvető mérföldkövek",
           "items": [
-            { "title": "Utánkövetési folytonosság", "desc": "Frissítések, ellenőrzések és ellátási folytonosság koordinálása, hogy a felépülési kommunikáció ne töredezzen szét határokon átívelően." },
-            { "title": "Dokumentációs higiénia", "desc": "Felépülési jegyzetek, képek és utánkövetési üzenetek rendezetten megőrizve felülvizsgálathoz és eset-folytonossághoz." },
-            { "title": "Eszkalációs fegyelem", "desc": "Ha felépülési aggályok merülnek fel, a pácienseket a megfelelő kezelő- vagy helyi orvoshoz irányítják, nem informális megnyugtatáshoz." }
+            {
+              "title": "Utánkövetési folytonosság",
+              "desc": "Frissítések, ellenőrzések és ellátási folytonosság koordinálása, hogy a felépülési kommunikáció ne töredezzen szét határokon átívelően."
+            },
+            {
+              "title": "Dokumentációs higiénia",
+              "desc": "Felépülési jegyzetek, képek és utánkövetési üzenetek rendezetten megőrizve felülvizsgálathoz és eset-folytonossághoz."
+            },
+            {
+              "title": "Eszkalációs fegyelem",
+              "desc": "Ha felépülési aggályok merülnek fel, a pácienseket a megfelelő kezelő- vagy helyi orvoshoz irányítják, nem informális megnyugtatáshoz."
+            }
           ],
           "aiTitle": "AI támogatja",
           "aiItems": [
@@ -2019,9 +3013,18 @@
       "ctaPhilosophy": "Olvassa el a teljes filozófiát"
     },
     "relatedPages": [
-      { "label": "Kórházválasztás Külföldön", "desc": "Keretrendszer a biztonságosabb döntésekhez" },
-      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan működik az irányítás, az auditálás és a végrehajtás" },
-      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+      {
+        "label": "Kórházválasztás Külföldön",
+        "desc": "Keretrendszer a biztonságosabb döntésekhez"
+      },
+      {
+        "label": "Az AetherHeal Bizalmi Protokollja",
+        "desc": "Hogyan működik az irányítás, az auditálás és a végrehajtás"
+      },
+      {
+        "label": "Hogyan Működik az AetherHeal",
+        "desc": "Az orvos által vezetett döntéstámogatás rendszere"
+      }
     ]
   },
   "hospitalAbroad": {
@@ -2048,15 +3051,42 @@
       "guideIntro": "Ez az útmutató elmagyarázza, hogyan értékelik a tapasztalt orvosok és egészségügyi rendszerek a kórházakat — és hogyan alkalmazhatják a nemzetközi páciensek ugyanezt a logikát külföldi kezelés választásakor."
     },
     "toc": [
-      { "id": "why-different", "label": "Miért Más a Külföldi Kórházválasztás" },
-      { "id": "common-mistakes", "label": "A Nemzetközi Páciensek Gyakori Hibái" },
-      { "id": "hospital-quality", "label": "Mi Határozza Meg Valójában a Kórházi Minőséget" },
-      { "id": "reviews-rankings", "label": "Miért Nem Elegendőek az Értékelések és Rangsorok" },
-      { "id": "physician-led", "label": "Az Orvos által Vezetett Ellenőrzési Modell" },
-      { "id": "patient-journey", "label": "A Nemzetközi Páciens Útja" },
-      { "id": "south-korea", "label": "Miért Választják Sokan Dél-Koreát" },
-      { "id": "structured-approach", "label": "Strukturált Megközelítés az Orvosi Utazáshoz" },
-      { "id": "faq", "label": "Gyakran Ismételt Kérdések" }
+      {
+        "id": "why-different",
+        "label": "Miért Más a Külföldi Kórházválasztás"
+      },
+      {
+        "id": "common-mistakes",
+        "label": "A Nemzetközi Páciensek Gyakori Hibái"
+      },
+      {
+        "id": "hospital-quality",
+        "label": "Mi Határozza Meg Valójában a Kórházi Minőséget"
+      },
+      {
+        "id": "reviews-rankings",
+        "label": "Miért Nem Elegendőek az Értékelések és Rangsorok"
+      },
+      {
+        "id": "physician-led",
+        "label": "Az Orvos által Vezetett Ellenőrzési Modell"
+      },
+      {
+        "id": "patient-journey",
+        "label": "A Nemzetközi Páciens Útja"
+      },
+      {
+        "id": "south-korea",
+        "label": "Miért Választják Sokan Dél-Koreát"
+      },
+      {
+        "id": "structured-approach",
+        "label": "Strukturált Megközelítés az Orvosi Utazáshoz"
+      },
+      {
+        "id": "faq",
+        "label": "Gyakran Ismételt Kérdések"
+      }
     ],
     "whyDifferent": {
       "title": "Miért Más a Külföldi Kórházválasztás",
@@ -2070,21 +3100,33 @@
           "title": "1. Információs aszimmetria",
           "p1": "Az orvostudományban a páciensek ritkán rendelkeznek a klinikusokéval egyenértékű tudással.",
           "p2": "A kezelési minőség megértéséhez szükséges:",
-          "items": ["orvosi képzettség", "szövődményekkel szerzett tapasztalat", "klinikai eredmények ismerete"],
+          "items": [
+            "orvosi képzettség",
+            "szövődményekkel szerzett tapasztalat",
+            "klinikai eredmények ismerete"
+          ],
           "conclusion": "Ez megnehezíti a szolgáltatók értékelését szokásos fogyasztói jelzések alapján."
         },
         {
           "title": "2. Az eredmények bizonytalanok",
           "p1": "Egy termék megvásárlásával ellentétben az orvosi kezelések biológiai rendszereket érintenek.",
           "p2": "Még kiváló kórházakban is:",
-          "items": ["az eredmények változhatnak", "szövődmények léphetnek fel", "a felépülési idő eltérhet"],
+          "items": [
+            "az eredmények változhatnak",
+            "szövődmények léphetnek fel",
+            "a felépülési idő eltérhet"
+          ],
           "conclusion": "Egy jó döntési folyamatnak figyelembe kell vennie a bizonytalanságot."
         },
         {
           "title": "3. A hibák ára magas",
           "p1": "Ha egy fogyasztói vásárlás nem sikerül, kicserélhető.",
           "p2": "Ha egy orvosi döntés nem sikerül, a következmények lehetnek:",
-          "items": ["revíziós beavatkozások", "hosszú felépülési időszakok", "jelentős érzelmi stressz"],
+          "items": [
+            "revíziós beavatkozások",
+            "hosszú felépülési időszakok",
+            "jelentős érzelmi stressz"
+          ],
           "conclusion": "Ezért a külföldi kórházválasztást strukturált döntési folyamatként kell megközelíteni, nem gyors összehasonlításként."
         }
       ]
@@ -2098,26 +3140,46 @@
           "title": "1. Hiba: Erős támaszkodás az online értékelésekre",
           "p1": "Az értékelések hasznos kontextust nyújthatnak, de strukturális korlátaik vannak.",
           "p2": "Hajlamosak tükrözni:",
-          "items": ["szélsőségesen pozitív tapasztalatokat", "szélsőségesen negatív tapasztalatokat"],
+          "items": [
+            "szélsőségesen pozitív tapasztalatokat",
+            "szélsőségesen negatív tapasztalatokat"
+          ],
           "p3": "nem a jellemző eredményeket.",
           "p4": "Ezen kívül az értékelések ritkán tartalmaznak részletes orvosi információt:",
-          "items2": ["páciensválasztás", "kezelési összetettség", "klinikai utánkövetés"],
+          "items2": [
+            "páciensválasztás",
+            "kezelési összetettség",
+            "klinikai utánkövetés"
+          ],
           "scenario": "Sok nemzetközi páciens online értékelésekkel kezdi a kutatást. Bár az értékelések rávilágíthatnak páciens-tapasztalatokra, ritkán tükrözik a klinikai összetettséget. Egy rutinbeavatkozáson áteső páciens ötcsillagos értékelést hagyhat, míg egy összetettebb eset — revíziós műtét, szokatlan anatómia vagy magasabb szövődménykockázat — alapvetően más szintű szakértelmet igényel, amit az értékelések nem tükröznek."
         },
         {
           "title": "2. Hiba: Klinikák összehasonlítása elsősorban ár alapján",
           "p1": "Az országok közötti árkülönbségek gyakran nagyok.",
           "p2": "Azonban kizárólag a költségre fókuszálás figyelmen kívül hagy más kritikus változókat:",
-          "items": ["sebészi tapasztalat", "kórházi infrastruktúra", "szövődménykezelés", "utánkövetési ellátás"],
+          "items": [
+            "sebészi tapasztalat",
+            "kórházi infrastruktúra",
+            "szövődménykezelés",
+            "utánkövetési ellátás"
+          ],
           "conclusion": "Az alacsonyabb árak tükrözhetnek alacsonyabb működési költségeket — de tükrözhetnek képzésbeli vagy rendszerbeli különbségeket is."
         },
         {
           "title": "3. Hiba: Marketing értékelése orvostudomány helyett",
           "p1": "Sok klinika weboldala kiemeli:",
-          "items": ["előtte-utána fotókat", "ajánlásokat", "közösségi média jelenlétét"],
+          "items": [
+            "előtte-utána fotókat",
+            "ajánlásokat",
+            "közösségi média jelenlétét"
+          ],
           "p2": "Bár ezek az elemek igazolhatják a páciens-elégedettséget, nem helyettesítik a klinikai értékelést.",
           "p3": "Az orvosi minőséget meghatározza:",
-          "items2": ["orvosi szaktudás", "intézményi szabványok", "hosszú távú eredmények"]
+          "items2": [
+            "orvosi szaktudás",
+            "intézményi szabványok",
+            "hosszú távú eredmények"
+          ]
         }
       ]
     },
@@ -2130,13 +3192,22 @@
           "title": "Orvosi képzettség és specializáció",
           "p1": "A beavatkozást végző orvos képzési háttere gyakran a legfontosabb változó.",
           "p2": "Kulcsfontosságú szempontok:",
-          "items": ["orvosi oktatás és rezidens képzés", "beavatkozás-specifikus tapasztalat", "kutatói vagy akadémiai részvétel"]
+          "items": [
+            "orvosi oktatás és rezidens képzés",
+            "beavatkozás-specifikus tapasztalat",
+            "kutatói vagy akadémiai részvétel"
+          ]
         },
         {
           "title": "Intézményi szabványok",
           "p1": "A kórházak jelentősen különböznek rendszereikben és infrastruktúrájukban.",
           "p2": "Fontos elemek:",
-          "items": ["műtőtermi protokollok", "sterilizálási szabványok", "ápolói szaktudás", "szövődménykezelési rendszerek"]
+          "items": [
+            "műtőtermi protokollok",
+            "sterilizálási szabványok",
+            "ápolói szaktudás",
+            "szövődménykezelési rendszerek"
+          ]
         },
         {
           "title": "Beavatkozás-mennyiség",
@@ -2154,10 +3225,18 @@
     "reviewsRankings": {
       "title": "Miért Nem Elegendőek az Értékelések és Rangsorok",
       "p1": "Az online platformok gyakran rangsorolják a klinikákat:",
-      "items1": ["értékelések száma", "pontszámok", "népszerűségi mutatók"],
+      "items1": [
+        "értékelések száma",
+        "pontszámok",
+        "népszerűségi mutatók"
+      ],
       "p2": "Ezek a rendszerek hasznosak lehetnek a széles körben ismert szolgáltatók azonosítására.",
       "p3": "Azonban ritkán tartalmazzák a mélyebb klinikai jelzéseket, mint:",
-      "items2": ["kezelés-tervezés", "orvosi esetválasztás", "szövődménykezelés"],
+      "items2": [
+        "kezelés-tervezés",
+        "orvosi esetválasztás",
+        "szövődménykezelés"
+      ],
       "p4": "Ennek eredményeként az értékelés-vezérelt platformok gyakran a láthatóságra optimalizálnak, nem a klinikai szigorúságra.",
       "trustProtocolNote": {
         "before": "Itt válik elengedhetetlenné egy strukturált ",
@@ -2195,9 +3274,18 @@
     "southKorea": {
       "title": "Miért Választják Sokan Dél-Koreát",
       "p1": "Dél-Korea bizonyos orvosi szakterületek egyik vezető célpontjává vált, beleértve:",
-      "specialties": ["hajbeültetés", "esztétikai medicina", "plasztikai sebészet", "szemészet"],
+      "specialties": [
+        "hajbeültetés",
+        "esztétikai medicina",
+        "plasztikai sebészet",
+        "szemészet"
+      ],
       "p2": "Több tényező járul hozzá ehhez a hírnévhez:",
-      "factors": ["magasan specializált orvosok", "fejlett orvosi infrastruktúra", "erős fókusz a technikai eredményekre"],
+      "factors": [
+        "magasan specializált orvosok",
+        "fejlett orvosi infrastruktúra",
+        "erős fókusz a technikai eredményekre"
+      ],
       "oecdNote": "Dél-Korea az OECD egészségügyi adatai szerint Ázsia egyik legmagasabb orvossűrűségét fejlesztette ki. A nemzetközi páciensek számára különösen Szöul fejlesztett ki sűrű specializált klinikahálózatot.",
       "hairNote": "Fedezze fel az orvos által vezetett iránymutatást konkrét beavatkozásokhoz, mint a hajbeültetés Koreában."
     },
@@ -2245,12 +3333,30 @@
       ]
     },
     "relatedPages": [
-      { "label": "Az AetherHeal Bizalmi Protokollja", "desc": "Hogyan értékeljük partnerkórházainkat" },
-      { "label": "Az Ön Orvosi Útja", "desc": "Teljes körű koordináció a döntéstől a felépülésig" },
-      { "label": "Hajbeültetés Koreában", "desc": "Orvos által vezetett iránymutatás a hajpótláshoz" },
-      { "label": "Plasztikai Sebészet Koreában", "desc": "Strukturált döntéstámogatás kozmetikai beavatkozásokhoz" },
-      { "label": "Esztétikai Klinikák Szöulban", "desc": "Navigáljon bőrkezelések és dermatológia területén Szöulban" },
-      { "label": "Hogyan Működik az AetherHeal", "desc": "Az orvos által vezetett döntéstámogatás rendszere" }
+      {
+        "label": "Az AetherHeal Bizalmi Protokollja",
+        "desc": "Hogyan értékeljük partnerkórházainkat"
+      },
+      {
+        "label": "Az Ön Orvosi Útja",
+        "desc": "Teljes körű koordináció a döntéstől a felépülésig"
+      },
+      {
+        "label": "Hajbeültetés Koreában",
+        "desc": "Orvos által vezetett iránymutatás a hajpótláshoz"
+      },
+      {
+        "label": "Plasztikai Sebészet Koreában",
+        "desc": "Strukturált döntéstámogatás kozmetikai beavatkozásokhoz"
+      },
+      {
+        "label": "Esztétikai Klinikák Szöulban",
+        "desc": "Navigáljon bőrkezelések és dermatológia területén Szöulban"
+      },
+      {
+        "label": "Hogyan Működik az AetherHeal",
+        "desc": "Az orvos által vezetett döntéstámogatás rendszere"
+      }
     ]
   },
   "blog": {
@@ -2281,24 +3387,36 @@
   },
   "journeyAssurance": {
     "meta": {
-      "title": "Utazásbiztosítási Garancia | AetherHeal",
-      "description": "Az AetherHeal az egyetlen orvosi turisztikai platform, amely saját bevételét kockáztatja, ha az egyeztetés sikertelen. Ismerje meg, hogyan védi az Utazásbiztosítás az Ön befektetését."
+      "title": "Utazási Garancia | AetherHeal",
+      "description": "Az AetherHeal az egyetlen orvosi turisztikai platform, amely saját bevételét kockáztatja, ha az egyeztetés sikertelen. Ismerje meg, hogyan védi az Utazási Garancia az Ön befektetését."
     },
     "hero": {
       "badge": "Páciensvédelem",
       "h1": "Az AetherHeal",
-      "h1Highlight": "Utazásbiztosítás",
-      "intro": "Az AetherHeal az egyetlen orvosi turisztikai platform, amely saját bevételét kockáztatja, ha az egyeztetés sikertelen. Az Utazásbiztosítás azt jelenti, hogy valós pénzügyi következményeket viselünk, ha az Ön élménye elmarad a vártól."
+      "h1Highlight": "Utazási Garancia",
+      "intro": "Az AetherHeal az egyetlen orvosi turisztikai platform, amely saját bevételét kockáztatja, ha az egyeztetés sikertelen. Az Utazási Garancia azt jelenti, hogy valós pénzügyi következményeket viselünk, ha az Ön élménye elmarad a vártól."
     },
     "toc": [
-      { "id": "how-it-works", "label": "Hogyan Működik" },
-      { "id": "coverage", "label": "Mit Fed és Mit Nem" },
-      { "id": "faq", "label": "Gyakran Ismételt Kérdések" },
-      { "id": "cta", "label": "Kezdje El" }
+      {
+        "id": "how-it-works",
+        "label": "Hogyan Működik"
+      },
+      {
+        "id": "coverage",
+        "label": "Mit Fed és Mit Nem"
+      },
+      {
+        "id": "faq",
+        "label": "Gyakran Ismételt Kérdések"
+      },
+      {
+        "id": "cta",
+        "label": "Kezdje El"
+      }
     ],
     "howItWorks": {
-      "title": "Hogyan Működik az Utazásbiztosítás",
-      "intro": "Az Utazásbiztosítás strukturális elköteleződés, nem marketingígéret. A navigációs díj egy részét letétben tartjuk, amíg az utazása befejeződik és az elégedettsége megerősítésre kerül. Egyetlen más orvosi turisztikai közvetítő sem kínálja ezt.",
+      "title": "Hogyan Működik az Utazási Garancia",
+      "intro": "Az Utazási Garancia strukturális elköteleződés, nem marketingígéret. A navigációs díj egy részét letétben tartjuk, amíg az utazása befejeződik és az elégedettsége megerősítésre kerül. Egyetlen más orvosi turisztikai közvetítő sem kínálja ezt.",
       "stepLabel": "Lépés",
       "steps": [
         {
@@ -2367,12 +3485,12 @@
         {
           "id": "faq-4",
           "question": "Ez helyettesíti az orvosi műhibabiztosítást?",
-          "answer": "Nem. Az Utazásbiztosítás az AetherHeal egyeztetési és koordinációs szolgáltatásaira vonatkozik — nem a klinikai eredményekre. Az orvosi műhiba az Ön és a kezelő kórház közötti ügy. Javasoljuk minden páciensnek, hogy erősítsék meg szolgáltatójuk műhibabiztosítását és fontolják meg független utazási egészségügyi biztosítás kötését."
+          "answer": "Nem. Az Utazási Garancia az AetherHeal egyeztetési és koordinációs szolgáltatásaira vonatkozik — nem a klinikai eredményekre. Az orvosi műhiba az Ön és a kezelő kórház közötti ügy. Javasoljuk minden páciensnek, hogy erősítsék meg szolgáltatójuk műhibabiztosítását és fontolják meg független utazási egészségügyi biztosítás kötését."
         },
         {
           "id": "faq-5",
-          "question": "Kapott már valaki ténylegesen visszatérítést az Utazásbiztosításon keresztül?",
-          "answer": "Az Utazásbiztosítás úgy van kialakítva, hogy a visszatérítések ritkák legyenek — mert a rendszer arra van tervezve, hogy eleve megelőzze a rossz egyeztetéseket. Amikor folyamatunk a tervek szerint működik, az elégedettség jóval a küszöb felett marad. De a mechanizmus pontosan azért létezik, hogy az ösztönzési struktúra őszinte maradjon."
+          "question": "Kapott már valaki ténylegesen visszatérítést az Utazási Garancián keresztül?",
+          "answer": "Az Utazási Garancia úgy van kialakítva, hogy a visszatérítések ritkák legyenek — mert a rendszer arra van tervezve, hogy eleve megelőzze a rossz egyeztetéseket. Amikor folyamatunk a tervek szerint működik, az elégedettség jóval a küszöb felett marad. De a mechanizmus pontosan azért létezik, hogy az ösztönzési struktúra őszinte maradjon."
         }
       ]
     },

@@ -21,7 +21,7 @@
       "companyName": "AetherHeal Co., Ltd.",
       "representative": "代表人：Dr. Jee Hoon Ju",
       "bizRegNo": "营业执照号：874-87-03734",
-      "address": "韩国首尔广津区紧固朗路14街64号地下1层",
+      "address": "韩国首尔广津区金高浪路14街64号地下1层",
       "platformLinks": {
         "howItWorks": "运作方式",
         "trustProtocol": "信任协议",
@@ -52,21 +52,26 @@
       "description": "AetherHeal 是面向考虑赴韩就医的国际患者的医师主导、AI辅助决策基础设施。在医院承诺、协调和连续性之前提供结构化清晰度。"
     },
     "hero": {
-      "badge": "面向韩国高端医疗的<br class=\"block sm:hidden\" />医师主导、AI辅助决策基础设施",
-      "h1": "清晰决策",
-      "h1Highlight": "在选择医院之前",
-      "description": "与我们的 Angel Physician 合作。",
+      "badge": "为考虑赴韩就医的全球患者提供的认证医院匹配服务",
+      "h1": "世界不缺诊所。",
+      "h1Highlight": "缺的是信任。",
+      "description": "与我们的天使医师（Angel Physician）携手合作。",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["验证医院", "医疗级咨询", "持续负责"],
-      "branchConclusion": "您不再孤单。",
-      "disclaimer": "AI辅助流程。医师保留权限。不提供诊断。不提供治疗。",
+      "branches": [
+        "核实医院",
+        "医疗级咨询",
+        "持续负责到底"
+      ],
+      "branchConclusion": "让您不再孤单。",
+      "disclaimer": "在确定医院之前提供决策支持。",
       "openingDate": "2026年9月1日正式开放",
       "waitlistButton": "加入候补名单",
       "waitlistPlaceholder": "输入您的邮箱",
       "waitlistSuccess": "您已加入名单！我们会尽快联系您。",
       "waitlistDuplicate": "您已在名单中！",
-      "ctaExplore": "开始探索"
+      "ctaExplore": "了解信任如何运作",
+      "disclaimer2": "并非医疗诊治或急诊服务。"
     },
     "problemQuote": {
       "title": "患者真正恐惧的是什么",
@@ -139,6 +144,10 @@
         {
           "title": "医师治理",
           "description": "临床权限归医师所有。AI支持工作流。"
+        },
+        {
+          "title": "手术透明度",
+          "description": "所有镇静下的手术均通过闭路电视和特写摄像机进行录制。正品药品，剂量经过核实。如有需要，可提供录像。拒绝录制的医院可能会被我们拒之门外。"
         }
       ],
       "footnote": "信任内嵌于系统之中。"
@@ -337,7 +346,10 @@
         ]
       },
       "closingQuote": "目标不是催促你更快决定。目标是帮助你以更少的遗憾做出选择。",
-      "uiLabels": { "responsibility": "负责方", "then": "下一步:" }
+      "uiLabels": {
+        "responsibility": "负责方",
+        "then": "下一步:"
+      }
     },
     "partners": {
       "subtitle": "早期验证",
@@ -366,11 +378,11 @@
     },
     "faq": {
       "title": "常见问题",
-      "subtitle": "了解 AetherHeal 基础设施。",
+      "subtitle": "当信任比数量更重要时，患者会问的问题。",
       "items": [
         {
           "question": "AetherHeal 是AI医生吗？",
-          "answer": "不是。AetherHeal 不是AI医生，我们也不将AI呈现为医师替代品。AI支持信息结构化和连续性工作流，但执业医师和合作医院保留医疗权限。"
+          "answer": "不是。AetherHeal 不是AI医生，我们也不将AI呈现为医师的替代品。AI支持信息结构化和连续性工作流，但执业医师和合作医院保留医疗权限。"
         },
         {
           "question": "AI在 AetherHeal 内部实际做什么？",
@@ -385,20 +397,12 @@
           "answer": "不是。AetherHeal 不是医疗咨询，而是决策准备。我们的医师帮助您在进入医院之前梳理思路——他们不进行诊断或治疗。这种分离确保了清晰度和问责机制。"
         },
         {
-          "question": "医师和医院是如何筛选的？",
-          "answer": "参与名额有限，基于临床专业能力与范围、伦理执业标准、跨境医疗经验以及与我们决策优先理念的一致性。医师不进行绩效排名。"
-        },
-        {
           "question": "流程每个阶段谁负责？",
           "answer": "职责明确分离。医师支持决策清晰。医院提供医疗服务。AetherHeal 在每一步管控流程、协调和问责。"
         },
         {
           "question": "AetherHeal 是医疗旅游中介吗？",
           "answer": "不是。AetherHeal 是决策基础设施。旅行安排仅在结构化的医疗决策做出之后才处理——而非之前。"
-        },
-        {
-          "question": "如果我还没准备好做决定，可以使用 AetherHeal 吗？",
-          "answer": "可以。您无需创建账户即可探索框架。我们的流程尊重您的节奏——没有任何承诺压力。"
         },
         {
           "question": "我的信息安全吗？",
@@ -3345,10 +3349,22 @@
       "intro": "AetherHeal 是唯一在匹配失败时将自身收入置于风险之中的医疗旅游平台。旅程保障意味着，如果您的体验未达到预期，我们将承担真实的财务后果。"
     },
     "toc": [
-      { "id": "how-it-works", "label": "运作方式" },
-      { "id": "coverage", "label": "保障范围" },
-      { "id": "faq", "label": "常见问题" },
-      { "id": "cta", "label": "立即开始" }
+      {
+        "id": "how-it-works",
+        "label": "运作方式"
+      },
+      {
+        "id": "coverage",
+        "label": "保障范围"
+      },
+      {
+        "id": "faq",
+        "label": "常见问题"
+      },
+      {
+        "id": "cta",
+        "label": "立即开始"
+      }
     ],
     "howItWorks": {
       "title": "旅程保障如何运作",
