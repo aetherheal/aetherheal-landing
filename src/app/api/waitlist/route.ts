@@ -93,21 +93,24 @@ function subscriberEmailHtml(position: number) {
 <div style="max-width:520px;margin:0 auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08);">
   <div style="background:#0c1526;padding:36px 28px;text-align:center;">
     <h1 style="margin:0;color:#B49250;font-size:14px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">AetherHeal</h1>
-    <p style="margin:14px 0 0;color:#fff;font-size:22px;font-family:Georgia,serif;">You're on the list</p>
   </div>
   <div style="padding:32px 28px;">
-    <p style="margin:0 0 16px;color:#334155;font-size:15px;line-height:1.7;">
-      Thank you for your interest in AetherHeal. You are <strong>#${position}</strong> on our waitlist.
+    <p style="margin:0 0 16px;color:#334155;font-size:15px;line-height:1.8;">
+      Every year, thousands of patients travel to Korea for medical procedures. Most of them navigate the process alone — relying on agency commissions disguised as discounts, language barriers that hide what matters, and marketing that sounds clinical but isn't.
     </p>
-    <p style="margin:0 0 16px;color:#334155;font-size:15px;line-height:1.7;">
-      We're building a medical concierge service that puts patients first — transparent pricing, physician-led consultations, and no middlemen.
+    <p style="margin:0 0 16px;color:#334155;font-size:15px;line-height:1.8;">
+      We started AetherHeal because we saw this firsthand. Patients deserve to know exactly what they're paying for, who is actually performing their procedure, and what the realistic outcomes look like — before they book a flight.
     </p>
-    <p style="margin:0 0 24px;color:#334155;font-size:15px;line-height:1.7;">
-      We'll reach out as we get closer to our <strong>September 2026</strong> launch.
+    <p style="margin:0 0 16px;color:#334155;font-size:15px;line-height:1.8;">
+      That's what we're building: a physician-led concierge that removes the guesswork. Direct access to the doctor. Transparent pricing. No middlemen taking a cut from your care.
     </p>
-    <div style="border-top:1px solid #e2e8f0;padding:20px 0 0;text-align:center;">
-      <p style="margin:0;color:#94a3b8;font-size:12px;">AetherHeal — Where trust meets precision.</p>
-    </div>
+    <p style="margin:0 0 24px;color:#334155;font-size:15px;line-height:1.8;">
+      You're <strong>#${position}</strong> on the waitlist. We'll be in touch before our September 2026 launch.
+    </p>
+    <p style="margin:0;color:#64748b;font-size:14px;line-height:1.7;">
+      — Dr. Jee Hoon Ju<br>
+      <span style="font-size:13px;">Founder, AetherHeal</span>
+    </p>
   </div>
 </div>
 </body></html>`
