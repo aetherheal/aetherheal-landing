@@ -1,0 +1,51 @@
+{
+  "styleSuffix": "Editorial photography for a high-end physician-led medical practice. Minimalist composition with deep negative space. Cinematic natural light, soft directional shadows. Muted slate-grey and warm antique-gold palette. Calm, clinical but not sterile. No faces, no skin close-ups, no syringes, no graphic medical imagery, no before-after framing, no stock-photo feel. High-end print magazine quality, 35mm, shallow depth of field. IMPORTANT: no text, no letters, no typography, no labels, no words, no captions, no numbers anywhere in the image.",
+  "defaults": {
+    "aspectRatio": "16:9",
+    "numberOfImages": 1
+  },
+  "images": [
+    {
+      "slug": "filler-brands-products-guide",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of four different antique apothecary glass vials of varied shapes and subtle amber, clear, and smoke tints, arranged in a loose row on a pale ivory marble counter. Strong directional window light from the left creating long soft shadows. Each vial has a distinct silhouette. No labels on any vial. Quiet, premium, clinical-artistic mood."
+    },
+    {
+      "slug": "fue-vs-fut-hair-transplant",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of two completely different precision hand tools placed side by side on a slate surface — one delicate and singular-tipped, one broader and linear — each casting its own sharp directional shadow. Nothing graphic, nothing medical-looking. The composition visually contrasts two different approaches to the same task. Calm, architectural, premium mood."
+    },
+    {
+      "slug": "mct-microcoring-skin-rejuvenation",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "A close-up overhead photograph of a single pair of elegant antique brass tailoring shears resting diagonally on a folded piece of fine ivory linen. A few tiny linen threads lie scattered beside the shears, suggesting precise removal rather than damage. Soft directional window light from the upper left. The visual metaphor: tailoring by removal, not by heat. Editorial still life."
+    },
+    {
+      "slug": "thread-lifting-pdo-pcl-plla-guide",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "Three fine parallel gold threads suspended horizontally across a deep slate-blue background, each under gentle architectural tension, catching a single directional light source from the right. Soft bokeh at the edges. The threads are the only subject — pure tensile geometry. Quiet, luxurious, structural mood."
+    },
+    {
+      "slug": "why-ai-cannot-replace-physicians",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life on a pale marble desk: a single antique brass stethoscope coiled beside a closed leather-bound notebook and a simple fountain pen. Strong directional window light casting long elegant shadows. No digital screens, no devices — the composition contrasts analog human judgment with the absence of any machine. Calm, contemplative, premium mood."
+    },
+    {
+      "slug": "why-hair-transplants-fail",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial close-up photograph of a single small pale green seedling planted in an incompatible cracked dry soil surface, illuminated by soft raking light from the right. The seedling is fragile but upright; the ground beneath it is visibly unsuited. A quiet metaphor for a good transplant placed in unprepared foundation. No text, no labels, no tags."
+    },
+    {
+      "slug": "why-korea-for-medical-care",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "A dusk photograph of a traditional Korean tiled roof edge in the foreground, the curved dark-grey eaves silhouetted against the warm golden-hour glow of distant modern Seoul glass towers softly out of focus in the background. Quiet architectural composition blending tradition and modernity. No people, no text, no signs."
+    }
+  ]
+}

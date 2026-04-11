@@ -5,7 +5,7 @@ date: "2026-03-16"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
 tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
-coverImage: "/assets/blog/hair-transplant-fail-cover.png"
+coverImage: "/assets/blog/why-hair-transplants-fail-cover.webp"
 published: true
 ---
 

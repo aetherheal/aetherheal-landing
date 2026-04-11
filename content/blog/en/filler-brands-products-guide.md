@@ -5,7 +5,7 @@ date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
 tags: ["filler", "hyaluronic-acid", "aesthetic-medicine", "korea", "patient-guide", "dermal-filler", "filler-comparison", "korean-fillers"]
-coverImage: "/assets/blog/filler-brands-cover.png"
+coverImage: "/assets/blog/filler-brands-products-guide-cover.webp"
 published: true
 ---
 

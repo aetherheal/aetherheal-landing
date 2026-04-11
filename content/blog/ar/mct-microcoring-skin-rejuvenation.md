@@ -5,7 +5,7 @@ date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
 tags: ["MCT", "microcoring", "skin-rejuvenation", "anti-aging", "non-surgical", "dermatology", "Ellacor", "skin-tightening"]
-coverImage: "/assets/blog/mct-cover.png"
+coverImage: "/assets/blog/mct-microcoring-skin-rejuvenation-cover.webp"
 published: true
 ---
 

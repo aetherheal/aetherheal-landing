@@ -5,7 +5,7 @@ date: "2026-04-04"
 author: "Dr. Jee Hoon Ju"
 category: "hair-transplant"
 tags: ["hair-transplant", "FUE", "FUT", "korea", "patient-guide", "comparison", "graft-survival", "hair-transplant-cost"]
-coverImage: "/assets/blog/fue-male-5000-cover.png"
+coverImage: "/assets/blog/fue-vs-fut-hair-transplant-cover.webp"
 published: true
 ---
 
