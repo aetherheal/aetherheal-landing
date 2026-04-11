@@ -77,6 +77,8 @@ I am not suggesting this happens at every clinic. I am suggesting that patients 
 
 Watch how the clinic responds. Evasion is an answer.
 
+![A precisely cut stone block resting on uneven fractured bedrock in raking afternoon light — the block is precise, the foundation beneath it is not](/assets/blog/why-hair-transplants-fail-body-foundation.webp)
+
 ## A Framework for Evaluating Any Clinic
 
 Based on what I've described above, here is the practical question set I would use if I were choosing a clinic as a patient today.
@@ -111,6 +113,8 @@ The surgeons who prioritize clinical quality are not always the ones who appear 
 That's what I built [AetherHeal](/en/how-it-works) to address. Not another booking platform. A physician-led decision layer that sits between the patient and the clinic — structured around the questions above, not around referral commissions.
 
 If you're in the early stages of researching hair transplant surgery in Korea, the questions in this post are a starting point. If you'd like physician-led guidance before reaching out to any clinic, [that's what we're here for](/en/how-it-works).
+
+For the supporting clinical evidence on graft survival rates, density planning, and failure modes, the [PubMed literature on hair transplant graft survival](https://pubmed.ncbi.nlm.nih.gov/?term=hair+transplant+graft+survival) is a useful reference.
 
 ---
 

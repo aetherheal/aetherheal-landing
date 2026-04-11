@@ -46,6 +46,48 @@
       "kind": "cover",
       "aspectRatio": "16:9",
       "prompt": "A dusk photograph of a traditional Korean tiled roof edge in the foreground, the curved dark-grey eaves silhouetted against the warm golden-hour glow of distant modern Seoul glass towers softly out of focus in the background. Quiet architectural composition blending tradition and modernity. No people, no text, no signs."
+    },
+    {
+      "slug": "filler-brands-products-guide",
+      "kind": "body-materials",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of four distinctly different textile or material samples arranged in a row on a slate surface — one silky, one structured linen, one soft wool, one heavy canvas. Raking side light emphasizing texture differences. Museum specimen styling. A metaphor for how different material properties serve different purposes."
+    },
+    {
+      "slug": "fue-vs-fut-hair-transplant",
+      "kind": "body-weave",
+      "aspectRatio": "16:9",
+      "prompt": "An extreme close-up overhead photograph contrasting two sections of woven textile on a slate background — one section a single continuous ribbon strip, the other section composed of individual separate threads laid in parallel. Both sections are natural cream linen tones. Soft directional light. Metaphor for strip vs. individual extraction, pure abstract textile art."
+    },
+    {
+      "slug": "mct-microcoring-skin-rejuvenation",
+      "kind": "body-perforations",
+      "aspectRatio": "16:9",
+      "prompt": "An overhead close-up photograph of an ivory handmade paper sheet with a grid pattern of tiny circular perforations, each hole perfectly clean and precise. Soft raking light from the left casts small shadows into each hole. The sheet rests on a slate surface. Quiet, architectural, precise. Metaphor for controlled micro-removal without heat."
+    },
+    {
+      "slug": "thread-lifting-pdo-pcl-plla-guide",
+      "kind": "body-filaments",
+      "aspectRatio": "4:3",
+      "prompt": "A close-up photograph of three fine gold filament strands of slightly different gauges laid parallel but separate on a deep slate surface, each catching a directional light source differently. The strands are the only subject — pure tensile line geometry. Luxurious, material-study mood."
+    },
+    {
+      "slug": "why-ai-cannot-replace-physicians",
+      "kind": "body-gauge",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of an open leather-bound vintage medical book with softly yellowed pages, a slim brass fountain pen resting diagonally across the open spread, and a pair of antique round reading spectacles nearby. Photographed on a pale marble surface in soft directional window light from the upper left, casting long quiet shadows. No readable text on the pages — just the texture of old print. No modern objects, no screens, no devices."
+    },
+    {
+      "slug": "why-hair-transplants-fail",
+      "kind": "body-foundation",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial architectural photograph of a small perfectly cut stone block resting on uneven fractured bedrock. Raking late-afternoon light casting long shadows from the right. The block is precise; the foundation beneath it is not. Quiet metaphor for good work on a poor foundation. Slate and warm stone tones."
+    },
+    {
+      "slug": "why-korea-for-medical-care",
+      "kind": "body-doorway",
+      "aspectRatio": "4:3",
+      "prompt": "A contemplative photograph taken from inside a modern glass-and-concrete Seoul building lobby looking out through a large window toward a single traditional Korean hanok doorway visible in the distance across a quiet courtyard. Soft morning light. No people. The visual composition layers modern and traditional architecture through a single frame."
     }
   ]
 }

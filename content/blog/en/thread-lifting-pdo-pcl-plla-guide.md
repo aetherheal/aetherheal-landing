@@ -1,6 +1,6 @@
 ---
 title: "Thread Lifting: PDO vs. PCL vs. PLLA Compared"
-description: "How thread lifting works — the biology of PDO, PCL, and PLLA threads, what each does differently, and how to choose."
+description: "How thread lifting actually works — the biology of PDO, PCL, and PLLA threads, what each does differently, and how to choose the right one."
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
@@ -95,6 +95,8 @@ The deeper the placement and the more aggressive the cog design, the stronger th
 
 ---
 
+![Three fine gold filament strands of different gauges laid parallel on a deep slate surface, each catching light differently — a pure material study of thread properties](/assets/blog/thread-lifting-pdo-pcl-plla-guide-body-filaments.webp)
+
 ## Why the "Vector" Matters More Than the Thread
 
 Here's something most marketing won't tell you: **the direction of thread placement determines roughly 70% of the result.**
@@ -178,6 +180,8 @@ What you *can* do is walk into that consultation knowing the right questions:
 - What are the risks specific to my anatomy?
 
 A physician who answers these clearly — without rushing — is one worth trusting.
+
+For the underlying clinical evidence on PDO, PCL, and PLLA thread biostimulation and dermal remodeling timelines, the [PubMed literature on absorbable thread collagen biostimulation](https://pubmed.ncbi.nlm.nih.gov/?term=PDO+PCL+PLLA+thread+collagen) is a useful starting point.
 
 ---
 

@@ -63,6 +63,8 @@ In aviation, autopilot did not replace pilots. It changed what pilots do — shi
 
 Medicine needs a similar clarity of design. The question is not how much authority AI can absorb. The question is how AI should be positioned relative to the authority that must remain human.
 
+![An open leather-bound vintage medical book with a brass fountain pen and antique round reading spectacles on a marble surface — a still life of analog clinical judgment](/assets/blog/why-ai-cannot-replace-physicians-body-gauge.webp)
+
 ## What This Means for Building AI in Medicine
 
 When I built the intake system for my clinic, I kept one principle at the center of every design decision: **the AI serves the physician's capacity to judge; it does not substitute for it.**
@@ -96,6 +98,8 @@ But that potential is only realized if the systems are designed with structural 
 The physicians who will thrive in the next decade are not the ones who resist AI. They are the ones who understand, precisely, what AI can do better than them — and who design systems that use that capability to extend their judgment rather than replace it.
 
 That's the question I'm building around. I don't think it has been answered yet. But it is the right question.
+
+For the underlying research on AI performance, failure modes, and governance in clinical decision making, the [PubMed literature on AI in clinical decision making](https://pubmed.ncbi.nlm.nih.gov/?term=artificial+intelligence+clinical+decision+making) is a useful starting point.
 
 ---
 

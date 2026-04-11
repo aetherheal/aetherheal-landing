@@ -61,6 +61,8 @@ Follicular Unit Extraction is the newer technique, and the one most clinics now 
 
 ---
 
+![Close-up textile contrast — a continuous ribbon strip beside a section of individual parallel threads — as a metaphor for strip harvesting versus individual follicular extraction](/assets/blog/fue-vs-fut-hair-transplant-body-weave.webp)
+
 ## So How Do You Actually Choose?
 
 Forget "which is better." Ask yourself these questions instead:
@@ -145,6 +147,8 @@ The FUE vs. FUT decision is not about finding the "best" method. It's about find
 If a clinic tells you one method is always better without examining your scalp, that is a signal to look elsewhere.
 
 A proper consultation — ideally with a physician who can perform both techniques — will give you the clarity you need. That's what AetherHeal is designed to help with: connecting you with a physician who reviews your case independently, before you commit to any hospital or method.
+
+For the supporting clinical evidence on graft survival, scarring, and long-term outcomes comparing these two techniques, the [PubMed literature on FUE vs FUT hair transplant outcomes](https://pubmed.ncbi.nlm.nih.gov/?term=FUE+FUT+hair+transplant+outcomes) is a useful reference.
 
 ---
 

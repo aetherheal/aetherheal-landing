@@ -1,5 +1,5 @@
 ---
-title: "Why Korea for Medical Care: A Physician's Perspective"
+title: "Why Korea for Medical Care"
 description: "Why Seoul became a global medical destination. A physician explains the real advantages, hidden risks, and what to know before booking."
 date: "2026-03-09"
 author: "Dr. Jee Hoon Ju"
@@ -77,6 +77,8 @@ Korean dermatologists routinely design multi-layered treatment plans — combini
 From fractional lasers to [MCT (MicroCoring Technology)](/en/blog/mct-microcoring-skin-rejuvenation), Korean clinics offer a broader toolkit for skin rejuvenation than most markets. The competitive landscape means physicians must stay at the leading edge of technology to attract patients — which benefits the patient.
 
 ---
+
+![A view from inside a modern Seoul glass-and-concrete lobby looking out toward a traditional Korean hanok doorway across a quiet courtyard — modern and traditional architecture in a single frame](/assets/blog/why-korea-for-medical-care-body-doorway.webp)
 
 ## What the Marketing Does Not Tell You
 
@@ -160,6 +162,8 @@ If you are considering medical care in Korea, here is what I would tell you as a
 5. **Understand who profits from the recommendation.** If the person recommending a hospital earns a commission from that hospital, the recommendation is not independent.
 
 This is the standard we hold ourselves to at AetherHeal. Not every patient needs to come to Korea. But for those who do, the journey should begin with clarity — not marketing.
+
+For the broader context on South Korea as a medical destination — from health-system structure to outcome data — the [PubMed literature on medical tourism in South Korea](https://pubmed.ncbi.nlm.nih.gov/?term=medical+tourism+South+Korea) is a useful starting point.
 
 ---
 

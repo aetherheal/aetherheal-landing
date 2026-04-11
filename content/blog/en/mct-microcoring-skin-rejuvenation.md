@@ -1,5 +1,5 @@
 ---
-title: "MCT (MicroCoring): Skin Rejuvenation Without Heat"
+title: "MCT: Skin Rejuvenation Without Heat"
 description: "MCT removes micro-columns of skin without heat — no risk of hyperpigmentation. A physician explains how it works and who it's for."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
@@ -51,6 +51,8 @@ Because MCT doesn't create thermal zones or inflammatory cascades, it doesn't co
 
 This is early-stage clinical exploration, not established protocol. But the theoretical compatibility is sound, and the initial reports from practitioners running combination protocols are generating interest.
 
+![An overhead photograph of handmade ivory paper with a precise grid of tiny circular perforations on a slate surface — a metaphor for controlled micro-removal without heat](/assets/blog/mct-microcoring-skin-rejuvenation-body-perforations.webp)
+
 ## What MCT Cannot Do
 
 Understanding a technology's limitations is more important than understanding its capabilities. Here's where MCT has clear boundaries:
@@ -84,6 +86,8 @@ The skin rejuvenation landscape has been waiting for a modality that achieves me
 What it does is open a pathway for patients who couldn't safely access aggressive skin tightening — whether due to skin type, heat sensitivity, or previous adverse reactions to thermal devices — and give clinicians a mechanistically distinct option to layer into comprehensive treatment plans.
 
 At AetherHeal, we approach new technologies the same way we approach established ones: with clinical respect, honest boundary-setting, and a commitment to matching the right modality to the right patient. MCT is now part of that conversation — not as a replacement, but as an addition to a framework that has always prioritized informed decision-making over hype.
+
+For the underlying clinical evidence on fractional microcoring and its histologic effects on dermal remodeling, the [PubMed literature on fractional microcoring skin rejuvenation](https://pubmed.ncbi.nlm.nih.gov/?term=fractional+microcoring+skin) is a useful starting point.
 
 ---
 

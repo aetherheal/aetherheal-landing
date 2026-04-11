@@ -17,6 +17,8 @@ This guide explains the major filler brands, their technologies, and how physici
 
 ---
 
+![Four different material samples — silk, linen, wool, leather — arranged on a slate surface as a metaphor for how different filler properties serve different anatomical purposes](/assets/blog/filler-brands-products-guide-body-materials.webp)
+
 ## Key Physical Properties — The Basics
 
 Before comparing brands, it helps to understand a few concepts that determine how a filler performs.
@@ -179,6 +181,8 @@ The right product is determined by what the treatment area needs, not by brand l
 5. **Non-HA fillers are powerful but less reversible.** Make sure you understand the trade-off before choosing a collagen stimulator.
 
 6. **Ask your physician why they chose a specific product** — not just which one. The reasoning matters more than the name.
+
+For the underlying clinical evidence on filler rheology and how physical properties map to indication, the [PubMed literature on hyaluronic acid filler rheology](https://pubmed.ncbi.nlm.nih.gov/?term=hyaluronic+acid+filler+rheology) is a useful starting point.
 
 ---
 
