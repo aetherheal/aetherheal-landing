@@ -77,6 +77,8 @@ published: true
 
 仔细观察机构的反应。回避本身就是一种回答。
 
+![午后斜射光线下，一块精密切割的石块放置在凹凸不平、碎裂的基岩之上——石块精准，底下的地基却不是](/assets/blog/why-hair-transplants-fail-body-foundation.webp)
+
 ## 评估任何机构的框架
 
 基于上述内容，以下是如果我今天以患者身份选择机构，会使用的实用问题清单。
@@ -111,6 +113,8 @@ published: true
 这就是我创建[AetherHeal](/en/how-it-works)的初衷。它不是又一个预约平台，而是一个位于患者和机构之间的、由医生主导的决策基础设施——围绕上述问题而非转介佣金构建的系统。
 
 如果你正处于研究韩国植发手术的初期阶段，这篇文章中的问题可以作为一个起点。如果你希望在联系任何机构之前获得由医生主导的专业指导，[这正是我们存在的意义](/en/how-it-works)。
+
+关于毛囊存活率、密度规划和失败模式方面的临床证据，[PubMed 上关于植发毛囊存活率的文献](https://pubmed.ncbi.nlm.nih.gov/?term=hair+transplant+graft+survival)是一个有用的参考。
 
 ---
 

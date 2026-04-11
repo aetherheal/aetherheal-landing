@@ -1,5 +1,5 @@
 ---
-title: "MCT (MicroCoring) : Rajeunissement cutane sans chaleur"
+title: "MCT : Rajeunissement cutane sans chaleur"
 description: "Le MCT retire des micro-colonnes de peau sans chaleur — aucun risque d'hyperpigmentation. Un medecin explique comment cela fonctionne et a qui cela s'adresse."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
@@ -51,6 +51,8 @@ Parce que le MCT ne cree pas de zones thermiques ni de cascades inflammatoires, 
 
 C'est une exploration clinique a un stade precoce, pas un protocole etabli. Mais la compatibilite theorique est solide, et les premiers rapports de praticiens utilisant des protocoles combines suscitent de l'interet.
 
+![Photographie en plongee d'un papier ivoire fait main avec une grille precise de minuscules perforations circulaires sur une surface d'ardoise — metaphore d'un retrait micro-controle sans chaleur](/assets/blog/mct-microcoring-skin-rejuvenation-body-perforations.webp)
+
 ## Ce que le MCT ne peut pas faire
 
 Comprendre les limites d'une technologie est plus important que comprendre ses capacites. Voici ou le MCT a des limites claires :
@@ -84,6 +86,8 @@ Le paysage du rajeunissement cutane attendait une modalite qui atteint une reduc
 Ce qu'il fait, c'est ouvrir une voie pour les patients qui ne pouvaient pas acceder en toute securite a un raffermissement cutane agressif — que ce soit en raison du type de peau, de la sensibilite a la chaleur ou de reactions indesirables anterieures aux appareils thermiques — et donner aux cliniciens une option mecanistiquement distincte a integrer dans des plans de traitement complets.
 
 Chez AetherHeal, nous abordons les nouvelles technologies de la meme facon que les technologies etablies : avec du respect clinique, une definition honnete des limites et un engagement a faire correspondre la bonne modalite au bon patient. Le MCT fait maintenant partie de cette conversation — non pas comme un remplacement, mais comme un ajout a un cadre qui a toujours priorise la prise de decision eclairee plutot que l'engouement.
+
+Pour les donnees cliniques sous-jacentes sur le microcoring fractionnel et ses effets histologiques sur le remodelage dermique, la [litterature PubMed sur le rajeunissement cutane par microcoring fractionnel](https://pubmed.ncbi.nlm.nih.gov/?term=fractional+microcoring+skin) constitue un bon point de depart.
 
 ---
 

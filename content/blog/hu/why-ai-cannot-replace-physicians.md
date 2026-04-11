@@ -1,6 +1,6 @@
 ---
 title: "Miért Nem Tudja az AI Helyettesíteni az Orvosokat az Egészségügyben"
-description: "A kérdés nem az, hogy az AI le tudja-e váltani az orvosokat — hanem az, amit az orvosok tesznek, és ami nem delegálható. Miért kell az AI-nak támogatnia, nem helyettesítenie."
+description: "A kérdés nem az, hogy az AI leváltja-e az orvosokat, hanem az, amit az orvosok tesznek, és ami nem delegálható. Miért kell az AI-nak támogatnia, nem helyettesítenie."
 date: "2026-03-22"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
@@ -63,6 +63,8 @@ A légi közlekedésben az autopilóta nem váltotta le a pilótákat. Megválto
 
 Az orvostudománynak hasonló tervezési tisztaságra van szüksége. A kérdés nem az, hogy az AI mennyi hatáskört szívhat fel. A kérdés az, hogy az AI-t hogyan kell pozicionálni ahhoz a hatáskörhöz képest, amelynek emberi kézben kell maradnia.
 
+![Nyitott, bőrkötésű antik orvosi könyv réz töltőtollal és kerek keretes régi olvasószemüveggel egy márványfelületen — csendélet az analóg klinikai ítéletről](/assets/blog/why-ai-cannot-replace-physicians-body-gauge.webp)
+
 ## Mit Jelent Ez az AI Építésekor az Orvostudományban
 
 Amikor a klinikám felvételi rendszerét építettem, egy elvet tartottam minden tervezési döntés középpontjában: **az AI az orvos ítélőképességét szolgálja; nem helyettesíti.**
@@ -96,6 +98,8 @@ De ez a lehetőség csak akkor valósul meg, ha a rendszereket strukturális tis
 Azok az orvosok, akik a következő évtizedben sikerrel járnak, nem azok, akik ellenállnak az AI-nak. Azok, akik pontosan megértik, miben jobb az AI náluk — és akik olyan rendszereket terveznek, amelyek ezt a képességet ítéletük kiterjesztésére használják, nem annak helyettesítésére.
 
 Ez az a kérdés, amely köré építek. Nem hiszem, hogy még megválaszolták. De ez a helyes kérdés.
+
+Az AI teljesítményére, hibamódjaira és a klinikai döntéshozatal szabályozására vonatkozó háttérkutatáshoz hasznos kiindulópont a [PubMed szakirodalom az AI klinikai döntéshozatalban betöltött szerepéről](https://pubmed.ncbi.nlm.nih.gov/?term=artificial+intelligence+clinical+decision+making).
 
 ---
 

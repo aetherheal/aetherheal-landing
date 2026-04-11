@@ -1,6 +1,6 @@
 ---
 title: "线雕提升：PDO vs. PCL vs. PLLA 对比"
-description: "线雕提升的工作原理——PDO、PCL和PLLA线材的生物学，各材料的差异，以及如何选择。"
+description: "线雕提升的真实工作原理——PDO、PCL 与 PLLA 线材的生物学机制、各自擅长的适应症，以及如何为您的情况选择合适的材料。"
 date: "2026-04-08"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
@@ -95,6 +95,8 @@ PLLA 与 Sculptra（最成熟的胶原蛋白刺激注射剂之一）使用的是
 
 ---
 
+![深色石板上并列放置三根不同规格的细金色丝线，每根以不同方式折射光线——一组纯粹的线材特性材料研究](/assets/blog/thread-lifting-pdo-pcl-plla-guide-body-filaments.webp)
+
 ## 为什么"向量"比线材本身更重要
 
 这是大多数营销不会告诉你的事实：**线材植入的方向大约决定了70%的最终效果。**
@@ -178,6 +180,8 @@ PLLA 与 Sculptra（最成熟的胶原蛋白刺激注射剂之一）使用的是
 - 针对我的解剖结构，具体有哪些风险？
 
 一位能够清晰、不急不躁地回答这些问题的医生，值得你信赖。
+
+关于 PDO、PCL 与 PLLA 线材在生物刺激和真皮重塑时间线方面的临床证据，[PubMed 上关于可吸收线材胶原生物刺激的文献](https://pubmed.ncbi.nlm.nih.gov/?term=PDO+PCL+PLLA+thread+collagen)是一个有用的起点。
 
 ---
 

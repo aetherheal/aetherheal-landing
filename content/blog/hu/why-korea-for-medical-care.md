@@ -1,5 +1,5 @@
 ---
-title: "Miért Korea az Orvosi Ellátáshoz: Orvosi Nézőpont"
+title: "Miért Korea az Orvosi Ellátáshoz"
 description: "Miért lett Szöul globális orvosi célpont. Egy orvos elmagyarázza a valódi előnyöket, a rejtett kockázatokat, és amit tudnia kell a foglalás előtt."
 date: "2026-03-09"
 author: "Dr. Jee Hoon Ju"
@@ -77,6 +77,8 @@ A koreai bőrgyógyászok rutinszerűen terveznek többrétegű kezelési tervek
 A frakcionált lézerektől az [MCT-ig (MicroCoring Technology)](/hu/blog/mct-microcoring-skin-rejuvenation), a koreai klinikák a legtöbb piacnál szélesebb eszköztárat kínálnak a bőrmegújításhoz. A versenyhelyzetben az orvosoknak a technológia élvonalában kell maradniuk a páciensek vonzásához — ami a páciens javát szolgálja.
 
 ---
+
+![Kilátás egy modern szöuli üveg-beton előcsarnokból egy csendes belső udvaron át egy hagyományos koreai hanok kapu felé — modern és hagyományos építészet egyetlen képkockában](/assets/blog/why-korea-for-medical-care-body-doorway.webp)
 
 ## Amit a Marketing Nem Mond El
 
@@ -160,6 +162,8 @@ Ha koreai orvosi ellátáson gondolkodik, íme, amit kollégaként, nem értéke
 5. **Értse meg, ki profitál az ajánlásból.** Ha a kórházat ajánló személy jutalékot kap attól a kórháztól, az ajánlás nem független.
 
 Ez az a mérce, amelyet az AetherHeal-nél magunkra alkalmazunk. Nem minden páciensnek kell Koreába jönnie. De azoknak, akik igen, az útnak tisztánlátással kell kezdődnie — nem marketinggel.
+
+Dél-Koreáról mint orvosi célpontról — az egészségügyi rendszer felépítésétől az eredményadatokig — hasznos kiindulópont a [PubMed szakirodalom a dél-koreai orvosi turizmusról](https://pubmed.ncbi.nlm.nih.gov/?term=medical+tourism+South+Korea).
 
 ---
 

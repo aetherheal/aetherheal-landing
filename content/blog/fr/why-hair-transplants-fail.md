@@ -77,6 +77,8 @@ Je ne suggere pas que cela se produit dans toutes les cliniques. Je suggere que 
 
 Observez comment la clinique repond. L'esquive est une reponse.
 
+![Un bloc de pierre taille avec precision repose sur un socle rocheux fracture et inegal dans la lumiere rasante de l'apres-midi — le bloc est precis, la fondation qui le porte ne l'est pas](/assets/blog/why-hair-transplants-fail-body-foundation.webp)
+
 ## Un cadre pour evaluer n'importe quelle clinique
 
 Sur la base de ce que j'ai decrit ci-dessus, voici l'ensemble de questions pratiques que j'utiliserais si je choisissais une clinique en tant que patient aujourd'hui.
@@ -111,6 +113,8 @@ Les chirurgiens qui privilegient la qualite clinique ne sont pas toujours ceux q
 C'est ce que j'ai construit [AetherHeal](/fr/how-it-works) pour adresser. Pas une autre plateforme de reservation. Une couche decisionnelle dirigee par un medecin qui se situe entre le patient et la clinique — structuree autour des questions ci-dessus, pas autour de commissions de recommandation.
 
 Si vous etes aux premieres etapes de recherche sur la chirurgie de greffe de cheveux en Coree, les questions de cet article sont un point de depart. Si vous souhaitez un accompagnement dirige par un medecin avant de contacter une clinique, [c'est pour cela que nous sommes la](/fr/how-it-works).
+
+Pour les donnees cliniques sur les taux de survie des greffons, la planification de la densite et les modes d'echec, la [litterature PubMed sur la survie des greffons en greffe de cheveux](https://pubmed.ncbi.nlm.nih.gov/?term=hair+transplant+graft+survival) constitue une reference utile.
 
 ---
 

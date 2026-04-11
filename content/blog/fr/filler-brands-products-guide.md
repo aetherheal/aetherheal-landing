@@ -1,6 +1,6 @@
 ---
 title: "Fillers dermiques : guide des marques par un medecin"
-description: "Analyse d'un medecin des grandes marques de fillers, leurs technologies, et comment le choix du produit devrait dependre de la zone de traitement et de l'objectif — pas du marketing."
+description: "Un medecin decrypte les grandes marques de fillers, leurs technologies, et comment choisir selon la zone et l'objectif — pas selon le marketing."
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
@@ -16,6 +16,8 @@ Les patients demandent souvent quelle marque de filler est la meilleure. La repo
 Ce guide explique les grandes marques de fillers, leurs technologies, et comment les medecins reflechissent a la selection du produit — pour que vous puissiez avoir une conversation plus eclairee avec votre medecin.
 
 ---
+
+![Quatre echantillons de materiaux differents — soie, lin, laine, cuir — disposes sur une surface d'ardoise comme metaphore de la facon dont les proprietes des fillers servent des objectifs anatomiques differents](/assets/blog/filler-brands-products-guide-body-materials.webp)
 
 ## Proprietes physiques cles — Les bases
 
@@ -179,6 +181,8 @@ Le bon produit est determine par ce dont la zone de traitement a besoin, pas par
 5. **Les fillers non-HA sont puissants mais moins reversibles.** Assurez-vous de comprendre le compromis avant de choisir un stimulateur de collagene.
 
 6. **Demandez a votre medecin pourquoi il a choisi un produit specifique** — pas seulement lequel. Le raisonnement compte plus que le nom.
+
+Pour les donnees cliniques sous-jacentes sur la rheologie des fillers et la correspondance entre proprietes physiques et indications, la [litterature PubMed sur la rheologie des fillers d'acide hyaluronique](https://pubmed.ncbi.nlm.nih.gov/?term=hyaluronic+acid+filler+rheology) constitue un bon point de depart.
 
 ---
 

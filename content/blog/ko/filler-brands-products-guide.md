@@ -17,6 +17,8 @@ published: true
 
 ---
 
+![부위와 목적에 따라 서로 다른 필러의 물성이 필요하다는 점을 보여주는 비유로, 슬레이트 표면 위에 놓인 실크, 린넨, 울, 가죽의 네 가지 소재 샘플](/assets/blog/filler-brands-products-guide-body-materials.webp)
+
 ## 물리적 특성 — 브랜드를 비교하기 전에
 
 ### G'(지탄성, Elastic modulus)
@@ -179,6 +181,8 @@ published: true
 5. **비-HA 자극제는 효과가 있지만 되돌리기가 어렵습니다.** 히알루로니다제로 “녹이기”가 되지 않으므로, 시술 전 트레이드오프를 반드시 이해하세요.
 
 6. **“무엇을 넣었는지”보다 “왜 그 제품인지”를 물어보세요.** 선택 이유가 설명 가능해야 합니다.
+
+필러의 유변학적 특성과 물성이 적응증에 어떻게 연결되는지에 대한 임상 근거가 궁금하시다면, [히알루론산 필러 유변학에 관한 PubMed 문헌](https://pubmed.ncbi.nlm.nih.gov/?term=hyaluronic+acid+filler+rheology)을 참고 자료로 권해 드립니다.
 
 ---
 

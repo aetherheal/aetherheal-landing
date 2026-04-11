@@ -1,6 +1,6 @@
 ---
 title: "Dermalfiller-Marken: Ein Leitfaden fuer Patienten"
-description: "Ein Arzt erklaert die wichtigsten Filler-Marken, ihre Technologien und wie die Produktauswahl vom Behandlungsbereich und Zweck abhaengen sollte — nicht vom Marketing."
+description: "Ein Arzt erklaert die wichtigsten Filler-Marken und Technologien — und warum die Produktauswahl vom Behandlungsbereich abhaengen sollte, nicht vom Marketing."
 date: "2026-04-07"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"
@@ -16,6 +16,8 @@ Patienten fragen oft, welche Filler-Marke die beste ist. Die ehrliche Antwort: E
 Dieser Leitfaden erklaert die wichtigsten Filler-Marken, ihre Technologien und wie Aerzte ueber die Produktauswahl denken — damit Sie ein besser informiertes Gespraech mit Ihrem Arzt fuehren koennen.
 
 ---
+
+![Vier verschiedene Materialproben — Seide, Leinen, Wolle, Leder — auf einer Schieferoberflaeche als Metapher dafuer, wie unterschiedliche Filler-Eigenschaften unterschiedlichen anatomischen Zwecken dienen](/assets/blog/filler-brands-products-guide-body-materials.webp)
 
 ## Wichtige physikalische Eigenschaften — Die Grundlagen
 
@@ -156,6 +158,8 @@ Das richtige Produkt wird dadurch bestimmt, was der Behandlungsbereich braucht, 
 5. **Nicht-HA-Filler sind wirksam, aber weniger reversibel.** Stellen Sie sicher, dass Sie den Kompromiss verstehen, bevor Sie einen Kollagenstimulator waehlen.
 
 6. **Fragen Sie Ihren Arzt, warum er ein bestimmtes Produkt gewaehlt hat** — nicht nur welches. Die Begruendung zaehlt mehr als der Name.
+
+Fuer die zugrundeliegende klinische Evidenz zur Rheologie von Fillern und dazu, wie physikalische Eigenschaften auf die Indikation abgebildet werden, ist die [PubMed-Literatur zur Rheologie von Hyaluronsaeure-Fillern](https://pubmed.ncbi.nlm.nih.gov/?term=hyaluronic+acid+filler+rheology) ein nuetzlicher Ausgangspunkt.
 
 ---
 

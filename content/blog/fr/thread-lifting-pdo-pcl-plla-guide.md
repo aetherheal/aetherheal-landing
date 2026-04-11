@@ -95,6 +95,8 @@ Plus le placement est profond et plus la conception des crans est agressive, plu
 
 ---
 
+![Trois fins filaments dores de calibres differents poses parallelement sur une surface d'ardoise profonde, chacun captant la lumiere differemment — une etude pure des materiaux des fils](/assets/blog/thread-lifting-pdo-pcl-plla-guide-body-filaments.webp)
+
 ## Pourquoi le « vecteur » compte plus que le fil
 
 Voici quelque chose que la plupart du marketing ne vous dira pas : **la direction de placement du fil determine environ 70 % du resultat.**
@@ -178,6 +180,8 @@ Ce que vous *pouvez* faire, c'est arriver a cette consultation en connaissant le
 - Quels sont les risques specifiques a mon anatomie ?
 
 Un medecin qui repond a ces questions clairement — sans se presser — est un medecin digne de confiance.
+
+Pour les donnees cliniques sous-jacentes sur la biostimulation par fils PDO, PCL et PLLA et les delais de remodelage dermique, la [litterature PubMed sur la biostimulation collagenique par fils resorbables](https://pubmed.ncbi.nlm.nih.gov/?term=PDO+PCL+PLLA+thread+collagen) constitue un bon point de depart.
 
 ---
 

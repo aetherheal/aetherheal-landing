@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi la Coree pour les soins medicaux : la perspective d'un medecin"
+title: "Pourquoi la Coree pour les soins medicaux"
 description: "Pourquoi Seoul est devenue une destination medicale mondiale. Un medecin explique les vrais avantages, les risques caches et ce qu'il faut savoir avant de reserver."
 date: "2026-03-09"
 author: "Dr. Jee Hoon Ju"
@@ -77,6 +77,8 @@ Les dermatologues coreens concoivent regulierement des plans de traitement multi
 Des lasers fractionnels au [MCT (MicroCoring Technology)](/fr/blog/mct-microcoring-skin-rejuvenation), les cliniques coreennes offrent une boite a outils plus large pour le rajeunissement cutane que la plupart des marches. Le paysage concurrentiel signifie que les medecins doivent rester a la pointe de la technologie pour attirer des patients — ce qui profite au patient.
 
 ---
+
+![Vue depuis l'interieur d'un lobby moderne de Seoul en verre et beton donnant sur une porte traditionnelle de hanok coreen a travers une cour tranquille — architecture moderne et traditionnelle dans un meme cadre](/assets/blog/why-korea-for-medical-care-body-doorway.webp)
 
 ## Ce que le marketing ne vous dit pas
 
@@ -160,6 +162,8 @@ Si vous envisagez des soins medicaux en Coree, voici ce que je vous dirais en ta
 5. **Comprenez qui profite de la recommandation.** Si la personne qui recommande un hopital percoit une commission de cet hopital, la recommandation n'est pas independante.
 
 C'est la norme que nous nous fixons chez AetherHeal. Tous les patients n'ont pas besoin de venir en Coree. Mais pour ceux qui le font, le parcours devrait commencer par la clarte — pas par le marketing.
+
+Pour le contexte plus large sur la Coree du Sud comme destination medicale — de la structure du systeme de sante aux donnees de resultats — la [litterature PubMed sur le tourisme medical en Coree du Sud](https://pubmed.ncbi.nlm.nih.gov/?term=medical+tourism+South+Korea) constitue un bon point de depart.
 
 ---
 

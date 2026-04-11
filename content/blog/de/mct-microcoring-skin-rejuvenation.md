@@ -1,5 +1,5 @@
 ---
-title: "MCT (MicroCoring): Hautverjuengung ohne Hitze"
+title: "MCT: Hautverjuengung ohne Hitze"
 description: "MCT entfernt Mikrosaeulchen der Haut ohne Hitze — kein Risiko fuer Hyperpigmentierung. Ein Arzt erklaert, wie es funktioniert und fuer wen es geeignet ist."
 date: "2026-04-01"
 author: "Dr. Jee Hoon Ju"
@@ -49,6 +49,8 @@ Der Mechanismus von MCT ist direkter. Haut wird entfernt; die verbleibende Haut 
 
 Da MCT keine thermischen Zonen oder entzuendlichen Kaskaden erzeugt, konkurriert es nicht mit anderen Modalitaeten um die Heilungsressourcen der Haut auf die gleiche Weise. Es kann auch biostimulatorische Ansaetze wie [Fadenlifting](/de/blog/thread-lifting-pdo-pcl-plla-guide) oder [kollagenstimulierende Filler](/de/blog/filler-brands-products-guide) ergaenzen. Kliniker beginnen, MCT in Kombination mit RF-Microneedling, PRP, Exosomentherapie und topischen Wachstumsfaktoren zu erforschen — wobei sie die Mikrokanaele als Wirkstofftransportwege nutzen und gleichzeitig eine mechanische Hautreduktion erzielen.
 
+![Ein Aufnahmefoto von handgeschoepftem elfenbeinfarbenem Papier mit einem praezisen Raster winziger kreisfoermiger Perforationen auf einer Schieferoberflaeche — eine Metapher fuer kontrollierte Mikro-Entfernung ohne Hitze](/assets/blog/mct-microcoring-skin-rejuvenation-body-perforations.webp)
+
 ## Was MCT nicht kann
 
 Das Verstaendnis der Grenzen einer Technologie ist wichtiger als das Verstaendnis ihrer Faehigkeiten. Hier hat MCT klare Grenzen:
@@ -82,6 +84,8 @@ Die Hautverjuengungslandschaft hat auf eine Modalitaet gewartet, die mechanische
 Was es tut, ist einen Weg fuer Patienten zu eroeffnen, die bisher keinen sicheren Zugang zu aggressiver Hautstraffung hatten — sei es aufgrund des Hauttyps, der Hitzeempfindlichkeit oder frueherer Nebenwirkungen bei thermischen Geraeten — und Klinikern eine mechanistisch distinkte Option zu geben, die sie in umfassende Behandlungsplaene einbauen koennen.
 
 Bei AetherHeal gehen wir neue Technologien genauso an wie etablierte: mit klinischem Respekt, ehrlicher Grenzsetzung und dem Engagement, die richtige Modalitaet mit dem richtigen Patienten zusammenzubringen. MCT ist jetzt Teil dieses Gespraechs — nicht als Ersatz, sondern als Ergaenzung eines Rahmenwerks, das informierte Entscheidungsfindung immer ueber Hype gestellt hat.
+
+Fuer die zugrundeliegende klinische Evidenz zu fraktioniertem Microcoring und seinen histologischen Effekten auf das dermale Remodeling ist die [PubMed-Literatur zu fraktioniertem Microcoring zur Hautverjuengung](https://pubmed.ncbi.nlm.nih.gov/?term=fractional+microcoring+skin) ein nuetzlicher Ausgangspunkt.
 
 ---
 

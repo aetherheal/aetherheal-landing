@@ -77,6 +77,8 @@ Ich behaupte nicht, dass dies in jeder Klinik geschieht. Ich behaupte, dass Pati
 
 Beobachten Sie, wie die Klinik reagiert. Ausweichen ist eine Antwort.
 
+![Ein praezise zugeschnittener Steinblock, der auf unebenem, zerborstenem Felsgrund im streifenden Nachmittagslicht ruht — der Block ist praezise, das Fundament darunter nicht](/assets/blog/why-hair-transplants-fail-body-foundation.webp)
+
 ## Ein Rahmenwerk zur Bewertung jeder Klinik
 
 Basierend auf dem, was ich oben beschrieben habe, ist hier die praktische Fragenliste, die ich verwenden wuerde, wenn ich heute als Patient eine Klinik waehlen wuerde.
@@ -111,6 +113,8 @@ Die Chirurgen, die klinische Qualitaet priorisieren, sind nicht immer diejenigen
 Dafuer habe ich [AetherHeal](/de/how-it-works) gebaut. Nicht eine weitere Buchungsplattform. Eine arztgeleitete Entscheidungsebene, die zwischen dem Patienten und der Klinik steht — strukturiert um die obigen Fragen, nicht um Vermittlungsprovisionen.
 
 Wenn Sie in den fruehen Stadien der Recherche ueber Haartransplantationschirurgie in Korea sind, sind die Fragen in diesem Beitrag ein Ausgangspunkt. Wenn Sie arztgeleitete Beratung wuenschen, bevor Sie sich an eine Klinik wenden, [dafuer sind wir da](/de/how-it-works).
+
+Fuer die unterstuetzende klinische Evidenz zu Transplantat-Ueberlebensraten, Dichteplanung und Fehlermodi ist die [PubMed-Literatur zum Transplantat-Ueberleben bei Haartransplantationen](https://pubmed.ncbi.nlm.nih.gov/?term=hair+transplant+graft+survival) eine nuetzliche Referenz.
 
 ---
 

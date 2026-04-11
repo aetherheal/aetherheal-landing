@@ -81,6 +81,8 @@ PLLA ist dasselbe Material wie in Sculptra. Als Faden erzeugt es die aggressivst
 
 ---
 
+![Drei feine Goldfaeden unterschiedlicher Staerke, parallel auf einer tiefen Schieferoberflaeche angeordnet, jeder reflektiert das Licht unterschiedlich — eine reine Materialstudie der Faden-Eigenschaften](/assets/blog/thread-lifting-pdo-pcl-plla-guide-body-filaments.webp)
+
 ## Warum der "Vektor" wichtiger ist als der Faden
 
 Hier ist etwas, das die meisten Marketing-Materialien nicht erwaehnen: **Die Richtung der Fadenplatzierung bestimmt etwa 70% des Ergebnisses.**
@@ -164,6 +166,8 @@ Was Sie *tun* koennen, ist in diese Beratung gehen und die richtigen Fragen kenn
 - Was sind die Risiken spezifisch fuer meine Anatomie?
 
 Ein Arzt, der diese Fragen klar beantwortet — ohne zu hetzen — ist einer, dem es sich zu vertrauen lohnt.
+
+Fuer die zugrundeliegende klinische Evidenz zur Biostimulation durch PDO-, PCL- und PLLA-Faeden und zu den Zeitplaenen des dermalen Remodelings ist die [PubMed-Literatur zur Kollagen-Biostimulation durch resorbierbare Faeden](https://pubmed.ncbi.nlm.nih.gov/?term=PDO+PCL+PLLA+thread+collagen) ein nuetzlicher Ausgangspunkt.
 
 ---
 

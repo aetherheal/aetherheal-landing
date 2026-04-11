@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi l'IA ne peut pas remplacer les medecins en sante"
-description: "La question n'est pas de savoir si l'IA peut remplacer les medecins — c'est ce que font les medecins qui ne peut pas etre delegue. Pourquoi l'IA devrait soutenir, pas se substituer."
+description: "La question n'est pas si l'IA remplacera les medecins, mais ce qu'ils font qui ne peut etre delegue. Pourquoi l'IA doit soutenir, pas substituer."
 date: "2026-03-22"
 author: "Dr. Jee Hoon Ju"
 category: "technology"
@@ -63,6 +63,8 @@ En aviation, le pilote automatique n'a pas remplace les pilotes. Il a change ce 
 
 La medecine a besoin d'une clarte de conception similaire. La question n'est pas quelle part d'autorite l'IA peut absorber. La question est comment l'IA devrait etre positionnee par rapport a l'autorite qui doit rester humaine.
 
+![Un livre medical vintage relie en cuir ouvert avec un stylo plume en laiton et des lunettes de lecture rondes anciennes sur une surface de marbre — nature morte du jugement clinique analogique](/assets/blog/why-ai-cannot-replace-physicians-body-gauge.webp)
+
 ## Ce que cela signifie pour construire l'IA en medecine
 
 Quand j'ai construit le systeme d'accueil pour ma clinique, j'ai garde un principe au centre de chaque decision de conception : **l'IA sert la capacite du medecin a juger ; elle ne s'y substitue pas.**
@@ -96,6 +98,8 @@ Mais ce potentiel ne se realise que si les systemes sont concus avec une clarte 
 Les medecins qui prospereront dans la prochaine decennie ne sont pas ceux qui resistent a l'IA. Ce sont ceux qui comprennent, precisement, ce que l'IA peut faire mieux qu'eux — et qui concoivent des systemes qui utilisent cette capacite pour etendre leur jugement plutot que pour le remplacer.
 
 C'est la question autour de laquelle je construis. Je ne pense pas qu'elle ait encore ete resolue. Mais c'est la bonne question.
+
+Pour la recherche sous-jacente sur la performance de l'IA, ses modes d'echec et sa gouvernance dans la prise de decision clinique, la [litterature PubMed sur l'IA dans la prise de decision clinique](https://pubmed.ncbi.nlm.nih.gov/?term=artificial+intelligence+clinical+decision+making) constitue un bon point de depart.
 
 ---
 

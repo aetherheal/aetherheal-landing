@@ -60,13 +60,13 @@ export async function POST(request: Request) {
       try {
         await Promise.all([
           resend.emails.send({
-            from: "AetherHeal <waitlist@aetherheal.com>",
+            from: "AetherHeal <waitlist@no-reply.aetherheal.com>",
             to: normalizedEmail,
             subject: "You're on the AetherHeal waitlist",
             html: subscriberEmailHtml(position),
           }),
           resend.emails.send({
-            from: "AetherHeal Waitlist <waitlist@aetherheal.com>",
+            from: "AetherHeal Waitlist <waitlist@no-reply.aetherheal.com>",
             to: ADMIN_EMAIL,
             subject: `Waitlist #${position} — ${normalizedEmail}`,
             html: adminEmailHtml(normalizedEmail, locale || "en", position),

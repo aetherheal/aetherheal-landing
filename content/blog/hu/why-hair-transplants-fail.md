@@ -77,6 +77,8 @@ Nem azt állítom, hogy ez minden klinikán megtörténik. Azt állítom, hogy a
 
 Figyelje, hogyan reagál a klinika. A kitérés maga is válasz.
 
+![Pontosan vágott kőtömb egyenetlen, repedezett alapkőzeten, ferdén érkező délutáni fényben — a tömb precíz, az alatta lévő alap nem](/assets/blog/why-hair-transplants-fail-body-foundation.webp)
+
 ## Keretrendszer Bármely Klinika Értékeléséhez
 
 A fent leírtak alapján íme az a gyakorlati kérdéssor, amelyet használnék, ha ma páciensként választanék klinikát.
@@ -111,6 +113,8 @@ Azok a sebészek, akik a klinikai minőséget helyezik előtérbe, nem mindig az
 Ezért építettem az [AetherHeal-t](/hu/how-it-works). Nem egy újabb foglalási platform. Egy orvos által vezetett döntési réteg, amely a páciens és a klinika között áll — a fenti kérdések köré strukturálva, nem ajánlási jutalékok köré.
 
 Ha a hajbeültetési sebészet kutatásának korai szakaszában van Koreában, a cikkben szereplő kérdések kiindulópontot jelentenek. Ha orvos által vezetett iránymutatást szeretne, mielőtt bármely klinikát megkeresné, [pontosan erre vagyunk itt](/hu/how-it-works).
+
+A graft-túlélési arányokra, denzitástervezésre és hibamódokra vonatkozó klinikai bizonyítékokhoz hasznos referencia a [PubMed szakirodalom a hajbeültetési graft-túlélésről](https://pubmed.ncbi.nlm.nih.gov/?term=hair+transplant+graft+survival).
 
 ---
 

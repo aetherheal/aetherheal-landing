@@ -61,6 +61,8 @@ In der Luftfahrt hat der Autopilot keine Piloten ersetzt. Er hat veraendert, was
 
 Medizin braucht eine aehnliche Klarheit des Designs.
 
+![Ein aufgeschlagenes, in Leder gebundenes altes Medizinbuch mit einem Messing-Fuellfederhalter und einer antiken runden Lesebrille auf einer Marmoroberflaeche — ein Stillleben des analogen klinischen Urteilens](/assets/blog/why-ai-cannot-replace-physicians-body-gauge.webp)
+
 ## Was das fuer den Aufbau von KI in der Medizin bedeutet
 
 Als ich das Aufnahmesystem fuer meine Klinik baute, hielt ich ein Prinzip im Zentrum jeder Designentscheidung: **Die KI dient der Urteilsfaehigkeit des Arztes; sie ersetzt sie nicht.**
@@ -92,6 +94,8 @@ Aber dieses Potenzial wird nur realisiert, wenn die Systeme mit struktureller Kl
 Die Aerzte, die im naechsten Jahrzehnt gedeihen werden, sind nicht diejenigen, die sich KI widersetzen. Es sind diejenigen, die praezise verstehen, was KI besser kann als sie — und die Systeme entwerfen, die diese Faehigkeit nutzen, um ihr Urteil zu erweitern, statt es zu ersetzen.
 
 Das ist die Frage, um die ich baue. Ich glaube nicht, dass sie bereits beantwortet wurde. Aber es ist die richtige Frage.
+
+Fuer die zugrundeliegende Forschung zu KI-Leistung, Fehlermodi und Governance in der klinischen Entscheidungsfindung ist die [PubMed-Literatur zu KI in der klinischen Entscheidungsfindung](https://pubmed.ncbi.nlm.nih.gov/?term=artificial+intelligence+clinical+decision+making) ein nuetzlicher Ausgangspunkt.
 
 ---
 
