@@ -3339,7 +3339,9 @@
       "medical-tourism": "Медицинский туризм",
       "patient-guide": "Руководство пациента",
       "technology": "Технологии"
-    }
+    },
+    "keyTakeaways": "Ключевые выводы",
+    "faq": "Часто задаваемые вопросы"
   },
   "journeyAssurance": {
     "meta": {

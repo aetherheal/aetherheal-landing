@@ -15,6 +15,11 @@ export const BLOG_CATEGORIES = [
 
 export type BlogCategory = (typeof BLOG_CATEGORIES)[number]
 
+export interface FaqItem {
+  q: string
+  a: string
+}
+
 export interface BlogPostMeta {
   slug: string
   title: string
@@ -28,6 +33,8 @@ export interface BlogPostMeta {
   readingTime: string
   locale: Locale
   availableLocales: Locale[]
+  takeaways?: string[]
+  faq?: FaqItem[]
 }
 
 export interface BlogPost extends BlogPostMeta {
@@ -75,6 +82,19 @@ export function getPostBySlug(locale: string, slug: string): BlogPost | null {
 
   const stats = readingTime(content)
 
+  const takeaways: string[] | undefined = Array.isArray(data.takeaways)
+    ? data.takeaways.map(String)
+    : undefined
+
+  let faq: FaqItem[] | undefined
+  if (Array.isArray(data.faq)) {
+    faq = data.faq
+      .filter((item: unknown): item is { q: unknown; a: unknown } =>
+        typeof item === "object" && item !== null && "q" in item && "a" in item,
+      )
+      .map((item) => ({ q: String(item.q), a: String(item.a) }))
+  }
+
   return {
     slug,
     title: data.title ?? slug,
@@ -88,6 +108,8 @@ export function getPostBySlug(locale: string, slug: string): BlogPost | null {
     readingTime: stats.text,
     locale: locale as Locale,
     availableLocales: getAvailableLocales(slug),
+    takeaways,
+    faq,
     content,
   }
 }

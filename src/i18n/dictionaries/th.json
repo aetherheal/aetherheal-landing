@@ -3335,7 +3335,9 @@
       "medical-tourism": "การท่องเที่ยวเชิงการแพทย์",
       "patient-guide": "คู่มือผู้ป่วย",
       "technology": "เทคโนโลยี"
-    }
+    },
+    "keyTakeaways": "ประเด็นสำคัญ",
+    "faq": "คำถามที่พบบ่อย"
   },
   "journeyAssurance": {
     "meta": {

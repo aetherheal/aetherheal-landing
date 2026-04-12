@@ -3383,7 +3383,9 @@
     "sortNewest": "Legújabb",
     "sortOldest": "Legrégebbi",
     "sortReadingTime": "Gyors olvasmányok",
-    "articlesCount": "{count} cikk"
+    "articlesCount": "{count} cikk",
+    "keyTakeaways": "Főbb tanulságok",
+    "faq": "Gyakran ismételt kérdések"
   },
   "journeyAssurance": {
     "meta": {

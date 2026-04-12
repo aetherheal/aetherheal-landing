@@ -7,6 +7,27 @@ category: "hair-transplant"
 tags: ["hair-transplant", "hair-transplant-failure", "korea", "FUE", "clinic-evaluation", "patient-guide", "graft-survival", "surgical-outcomes"]
 coverImage: "/assets/blog/why-hair-transplants-fail-cover.webp"
 published: true
+takeaways:
+  - "Failed hair transplants almost always trace back to one of three clinical failures: compromised graft survival, a hairline designed only for today, or a surgery performed in part by technicians rather than the advertised surgeon."
+  - "Graft survival rate — the percentage of transplanted follicles that establish blood supply and grow — is the single most important outcome metric, and the best surgeons consistently reach the upper end of the 85–95% range."
+  - "Hair loss is progressive, so a hairline designed only for a patient's current Norwood grade can look natural at one year and unnatural at five as native hair continues to recede, producing an isolated island pattern that is painful to revise."
+  - "In high-volume clinics the surgeon in the marketing photos may not be the surgeon performing your procedure; technicians may handle extraction or implantation under indirect supervision, and patients almost never ask."
+  - "Hair transplant tourism is a textbook Akerlof information asymmetry market — clinics compete on marketing spend rather than verifiable clinical outcomes, so the most visible clinics are not necessarily the most skilled."
+faq:
+  - q: "Why do hair transplants fail?"
+    a: "Most failures trace back to three clinical causes. First, graft survival is compromised when clinics prioritize speed over careful handling of follicles between extraction and implantation. Second, the hairline is designed for the patient's current appearance without accounting for future progression of hair loss, producing an unnatural island pattern years later. Third, the advertised surgeon may not actually perform the critical parts of the procedure, with technicians handling extraction or implantation instead."
+  - q: "What is graft survival rate and why does it matter?"
+    a: "Graft survival rate is the percentage of transplanted follicles that successfully establish blood supply and grow in the recipient area. Industry averages fall between 85 and 95 percent, with the best surgeons reaching the upper end under optimal conditions. It is the single most important outcome metric in hair transplantation, but it depends on factors patients cannot observe — time out of body, storage temperature, handling technique, angle, and depth of placement."
+  - q: "Why does hairline design need to account for future hair loss?"
+    a: "Hair loss is progressive. A 30-year-old with a Norwood Grade III pattern will in most cases continue losing hair over the next decade. If the surgeon designs a hairline only for his current presentation, the transplanted hair stays while native hair recedes further — creating an isolated frontal hairline with no supporting density behind it, called an island pattern. Correcting this requires additional surgery, if it can be corrected at all. Designing longitudinally is entirely preventable."
+  - q: "What is ghost surgery in hair transplantation?"
+    a: "Ghost surgery refers to the practice, common in some high-volume clinics, where the physician featured in marketing materials consults with the patient but delegates most or all of the actual extraction and implantation to technicians under indirect supervision. This is not illegal in every jurisdiction, but patients almost never know it is happening. It matters because graft survival, hairline design, and complication management all depend on who is actually performing the procedure."
+  - q: "What questions should I ask before booking a hair transplant?"
+    a: "Ask about documented graft survival rates and how they are measured. Ask who physically performs the extraction and implantation — not just the consultation. Ask how the hairline accounts for projected hair loss progression over the next decade, and what the plan is if you continue losing hair. Ask to see cases with similar hair loss grade and ethnicity at three or more years post-operation. Clinics that deflect or give vague answers are telling you something important."
+  - q: "Why is hair transplant tourism considered a high-risk market?"
+    a: "Hair transplant tourism is a textbook Akerlof information asymmetry market, described in the Nobel Prize-winning 1970 paper on lemons. Patients cannot verify surgical quality before the procedure, so clinics compete on marketing spend, price, and curated photos rather than on verifiable outcomes. The result is predictable — clinics that spend the most on marketing win the most patients, while surgeons with the best clinical outcomes have no credible way to demonstrate their advantage."
+  - q: "How do I find a good hair transplant surgeon in Korea?"
+    a: "Start by verifying the surgeon's credentials independently rather than trusting the clinic's website. Confirm who will physically perform the extraction and implantation. Ask to see long-term results at three or more years, not just early post-operative photos. Request a clear protocol for complications and dissatisfaction at twelve months. The surgeons who prioritize clinical quality are often not the ones at the top of search results, which is why physician-led screening matters more than marketing visibility."
 ---
 
 ## A Personal Disclosure

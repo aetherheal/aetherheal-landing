@@ -3335,7 +3335,9 @@
       "medical-tourism": "医疗旅游",
       "patient-guide": "患者指南",
       "technology": "技术"
-    }
+    },
+    "keyTakeaways": "核心要点",
+    "faq": "常见问题"
   },
   "journeyAssurance": {
     "meta": {

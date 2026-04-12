@@ -58,7 +58,11 @@
       "description": "Work with our Angel Physicians.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["Verify hospitals", "Medical-grade consult", "Stay accountable"],
+      "branches": [
+        "Verify hospitals",
+        "Medical-grade consult",
+        "Stay accountable"
+      ],
       "branchConclusion": "So you're never alone.",
       "disclaimer": "Decision support before hospital commitment.",
       "disclaimer2": "Not medical treatment or emergency care.",
@@ -342,7 +346,10 @@
         ]
       },
       "closingQuote": "The goal is not to push you faster. The goal is to help you decide with less regret.",
-      "uiLabels": { "responsibility": "Responsibility", "then": "Then:" }
+      "uiLabels": {
+        "responsibility": "Responsibility",
+        "then": "Then:"
+      }
     },
     "partners": {
       "subtitle": "Early Proof",
@@ -3376,7 +3383,9 @@
       "medical-tourism": "Medical Tourism",
       "patient-guide": "Patient Guide",
       "technology": "Technology"
-    }
+    },
+    "keyTakeaways": "Key Takeaways",
+    "faq": "Frequently Asked Questions"
   },
   "journeyAssurance": {
     "meta": {
@@ -3390,10 +3399,22 @@
       "intro": "AetherHeal is the only medical tourism platform that puts its own revenue at risk when matching fails. Journey Assurance means we bear real financial consequences if your experience falls short."
     },
     "toc": [
-      { "id": "how-it-works", "label": "How It Works" },
-      { "id": "coverage", "label": "What's Covered & What's Not" },
-      { "id": "faq", "label": "Frequently Asked Questions" },
-      { "id": "cta", "label": "Get Started" }
+      {
+        "id": "how-it-works",
+        "label": "How It Works"
+      },
+      {
+        "id": "coverage",
+        "label": "What's Covered & What's Not"
+      },
+      {
+        "id": "faq",
+        "label": "Frequently Asked Questions"
+      },
+      {
+        "id": "cta",
+        "label": "Get Started"
+      }
     ],
     "howItWorks": {
       "title": "How Journey Assurance Works",

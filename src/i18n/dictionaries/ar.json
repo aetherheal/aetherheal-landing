@@ -3383,7 +3383,9 @@
       "medical-tourism": "السياحة الطبية",
       "patient-guide": "دليل المريض",
       "technology": "التكنولوجيا"
-    }
+    },
+    "keyTakeaways": "النقاط الرئيسية",
+    "faq": "الأسئلة الشائعة"
   },
   "journeyAssurance": {
     "meta": {

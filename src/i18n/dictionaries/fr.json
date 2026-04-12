@@ -58,7 +58,11 @@
       "description": "Travaillez avec nos medecins Angel.",
       "descriptionHighlight": "",
       "descriptionEnd": "",
-      "branches": ["Verifier les hopitaux", "Consultation medicale", "Responsabilite"],
+      "branches": [
+        "Verifier les hopitaux",
+        "Consultation medicale",
+        "Responsabilite"
+      ],
       "branchConclusion": "Pour que vous ne soyez jamais seul(e).",
       "disclaimer": "Soutien a la decision avant l'engagement hospitalier.",
       "disclaimer2": "Ni traitement medical ni soins d'urgence.",
@@ -342,7 +346,10 @@
         ]
       },
       "closingQuote": "L'objectif n'est pas de vous pousser plus vite. L'objectif est de vous aider a decider avec moins de regret.",
-      "uiLabels": { "responsibility": "Responsabilite", "then": "Ensuite :" }
+      "uiLabels": {
+        "responsibility": "Responsabilite",
+        "then": "Ensuite :"
+      }
     },
     "partners": {
       "subtitle": "Preuves initiales",
@@ -1361,162 +1368,435 @@
         "facelift": {
           "title": "Lifting du visage",
           "cases": [
-            { "title": "Lifting cas 1", "subtitle": "Lifting SMAS" },
-            { "title": "Lifting cas 2", "subtitle": "Lifting plan profond" },
-            { "title": "Lifting cas 3", "subtitle": "Lifting du bas du visage" },
-            { "title": "Lifting cas 4", "subtitle": "Lifting SMAS" },
-            { "title": "Lifting cas 5", "subtitle": "Lifting du milieu du visage" },
-            { "title": "Lifting cas 6", "subtitle": "Lifting SMAS complet" },
-            { "title": "Lifting cas 7", "subtitle": "Bas du visage et cou" }
+            {
+              "title": "Lifting cas 1",
+              "subtitle": "Lifting SMAS"
+            },
+            {
+              "title": "Lifting cas 2",
+              "subtitle": "Lifting plan profond"
+            },
+            {
+              "title": "Lifting cas 3",
+              "subtitle": "Lifting du bas du visage"
+            },
+            {
+              "title": "Lifting cas 4",
+              "subtitle": "Lifting SMAS"
+            },
+            {
+              "title": "Lifting cas 5",
+              "subtitle": "Lifting du milieu du visage"
+            },
+            {
+              "title": "Lifting cas 6",
+              "subtitle": "Lifting SMAS complet"
+            },
+            {
+              "title": "Lifting cas 7",
+              "subtitle": "Bas du visage et cou"
+            }
           ]
         },
         "rhinoplasty": {
           "title": "Rhinoplastie",
           "cases": [
-            { "title": "Rhinoplastie cas 1", "subtitle": "Correction de l'arete et de la pointe" },
-            { "title": "Rhinoplastie cas 2", "subtitle": "Reduction de la bosse dorsale" },
-            { "title": "Rhinoplastie cas 3", "subtitle": "Affinement de la pointe" },
-            { "title": "Rhinoplastie cas 4", "subtitle": "Rhinoplastie complete" },
-            { "title": "Rhinoplastie cas 5", "subtitle": "Redressement de l'arete" },
-            { "title": "Rhinoplastie cas 6", "subtitle": "Reduction alaire" },
-            { "title": "Rhinoplastie cas 7", "subtitle": "Correction de la cloison deviee" },
-            { "title": "Rhinoplastie cas 8", "subtitle": "Rhinoplastie de revision" }
+            {
+              "title": "Rhinoplastie cas 1",
+              "subtitle": "Correction de l'arete et de la pointe"
+            },
+            {
+              "title": "Rhinoplastie cas 2",
+              "subtitle": "Reduction de la bosse dorsale"
+            },
+            {
+              "title": "Rhinoplastie cas 3",
+              "subtitle": "Affinement de la pointe"
+            },
+            {
+              "title": "Rhinoplastie cas 4",
+              "subtitle": "Rhinoplastie complete"
+            },
+            {
+              "title": "Rhinoplastie cas 5",
+              "subtitle": "Redressement de l'arete"
+            },
+            {
+              "title": "Rhinoplastie cas 6",
+              "subtitle": "Reduction alaire"
+            },
+            {
+              "title": "Rhinoplastie cas 7",
+              "subtitle": "Correction de la cloison deviee"
+            },
+            {
+              "title": "Rhinoplastie cas 8",
+              "subtitle": "Rhinoplastie de revision"
+            }
           ]
         },
         "facialContouring": {
           "title": "Remodelage facial",
           "cases": [
-            { "title": "Remodelage cas 1", "subtitle": "Reduction machoire V-line" },
-            { "title": "Remodelage cas 2", "subtitle": "Zygoma + mandibule" },
-            { "title": "Remodelage cas 3", "subtitle": "Reduction de la machoire" },
-            { "title": "Remodelage cas 4", "subtitle": "Remodelage complet" },
-            { "title": "Remodelage cas 5", "subtitle": "Reduction machoire carree" },
-            { "title": "Remodelage cas 6", "subtitle": "Reduction des pommettes" },
-            { "title": "Remodelage cas 7", "subtitle": "Remodelage mandibulaire" },
-            { "title": "Remodelage cas 8", "subtitle": "Mini V-line" }
+            {
+              "title": "Remodelage cas 1",
+              "subtitle": "Reduction machoire V-line"
+            },
+            {
+              "title": "Remodelage cas 2",
+              "subtitle": "Zygoma + mandibule"
+            },
+            {
+              "title": "Remodelage cas 3",
+              "subtitle": "Reduction de la machoire"
+            },
+            {
+              "title": "Remodelage cas 4",
+              "subtitle": "Remodelage complet"
+            },
+            {
+              "title": "Remodelage cas 5",
+              "subtitle": "Reduction machoire carree"
+            },
+            {
+              "title": "Remodelage cas 6",
+              "subtitle": "Reduction des pommettes"
+            },
+            {
+              "title": "Remodelage cas 7",
+              "subtitle": "Remodelage mandibulaire"
+            },
+            {
+              "title": "Remodelage cas 8",
+              "subtitle": "Mini V-line"
+            }
           ]
         },
         "eyes": {
           "title": "Yeux",
           "cases": [
-            { "title": "Double paupiere cas 1", "subtitle": "Methode incisionnelle" },
-            { "title": "Double paupiere cas 2", "subtitle": "Methode non incisionnelle" },
-            { "title": "Cernes cas 1", "subtitle": "Repositionnement graisseux" },
-            { "title": "Cernes cas 2", "subtitle": "Blepharoplastie inferieure" },
-            { "title": "Double paupiere cas 3", "subtitle": "Correction du ptosis" },
-            { "title": "Double paupiere cas 4", "subtitle": "Revision incisionnelle" },
-            { "title": "Cernes cas 3", "subtitle": "Retrait de graisse" },
-            { "title": "Cernes cas 4", "subtitle": "Correction des cernes" }
+            {
+              "title": "Double paupiere cas 1",
+              "subtitle": "Methode incisionnelle"
+            },
+            {
+              "title": "Double paupiere cas 2",
+              "subtitle": "Methode non incisionnelle"
+            },
+            {
+              "title": "Cernes cas 1",
+              "subtitle": "Repositionnement graisseux"
+            },
+            {
+              "title": "Cernes cas 2",
+              "subtitle": "Blepharoplastie inferieure"
+            },
+            {
+              "title": "Double paupiere cas 3",
+              "subtitle": "Correction du ptosis"
+            },
+            {
+              "title": "Double paupiere cas 4",
+              "subtitle": "Revision incisionnelle"
+            },
+            {
+              "title": "Cernes cas 3",
+              "subtitle": "Retrait de graisse"
+            },
+            {
+              "title": "Cernes cas 4",
+              "subtitle": "Correction des cernes"
+            }
           ]
         },
         "doubleChin": {
           "title": "Double menton",
           "cases": [
-            { "title": "Double menton cas 1", "subtitle": "Liposuccion sous-mentonniere" },
-            { "title": "Double menton cas 2", "subtitle": "Reduction du menton" },
-            { "title": "Double menton cas 3", "subtitle": "Retrait de graisse" },
-            { "title": "Double menton cas 4", "subtitle": "Remodelage du menton" },
-            { "title": "Double menton cas 5", "subtitle": "Aspiration sous-mentonniere" },
-            { "title": "Double menton cas 6", "subtitle": "Liposuccion du cou" },
-            { "title": "Double menton cas 7", "subtitle": "Definition de la machoire" },
-            { "title": "Double menton cas 8", "subtitle": "Sculpture complete du menton" }
+            {
+              "title": "Double menton cas 1",
+              "subtitle": "Liposuccion sous-mentonniere"
+            },
+            {
+              "title": "Double menton cas 2",
+              "subtitle": "Reduction du menton"
+            },
+            {
+              "title": "Double menton cas 3",
+              "subtitle": "Retrait de graisse"
+            },
+            {
+              "title": "Double menton cas 4",
+              "subtitle": "Remodelage du menton"
+            },
+            {
+              "title": "Double menton cas 5",
+              "subtitle": "Aspiration sous-mentonniere"
+            },
+            {
+              "title": "Double menton cas 6",
+              "subtitle": "Liposuccion du cou"
+            },
+            {
+              "title": "Double menton cas 7",
+              "subtitle": "Definition de la machoire"
+            },
+            {
+              "title": "Double menton cas 8",
+              "subtitle": "Sculpture complete du menton"
+            }
           ]
         },
         "breastAugmentation": {
           "title": "Augmentation mammaire",
           "cases": [
-            { "title": "Augmentation cas 1", "subtitle": "Implants en silicone" },
-            { "title": "Augmentation cas 2", "subtitle": "Implants anatomiques" },
-            { "title": "Augmentation cas 3", "subtitle": "Implants ronds" },
-            { "title": "Augmentation cas 4", "subtitle": "Double plan" },
-            { "title": "Augmentation cas 5", "subtitle": "Placement sous-fascial" },
-            { "title": "Augmentation cas 6", "subtitle": "Implants sous-musculaires" },
-            { "title": "Augmentation cas 7", "subtitle": "Implants anatomiques" },
-            { "title": "Augmentation cas 8", "subtitle": "Gel cohesif" }
+            {
+              "title": "Augmentation cas 1",
+              "subtitle": "Implants en silicone"
+            },
+            {
+              "title": "Augmentation cas 2",
+              "subtitle": "Implants anatomiques"
+            },
+            {
+              "title": "Augmentation cas 3",
+              "subtitle": "Implants ronds"
+            },
+            {
+              "title": "Augmentation cas 4",
+              "subtitle": "Double plan"
+            },
+            {
+              "title": "Augmentation cas 5",
+              "subtitle": "Placement sous-fascial"
+            },
+            {
+              "title": "Augmentation cas 6",
+              "subtitle": "Implants sous-musculaires"
+            },
+            {
+              "title": "Augmentation cas 7",
+              "subtitle": "Implants anatomiques"
+            },
+            {
+              "title": "Augmentation cas 8",
+              "subtitle": "Gel cohesif"
+            }
           ]
         },
         "breastReduction": {
           "title": "Reduction mammaire",
           "cases": [
-            { "title": "Reduction cas 1", "subtitle": "Reduction verticale" },
-            { "title": "Reduction cas 2", "subtitle": "Patron en ancre" },
-            { "title": "Reduction cas 3", "subtitle": "Reduction mammaire" },
-            { "title": "Reduction cas 4", "subtitle": "Mammoplastie de reduction" },
-            { "title": "Reduction cas 5", "subtitle": "Pedicule superieur" },
-            { "title": "Reduction cas 6", "subtitle": "Reduction en T inverse" },
-            { "title": "Reduction cas 7", "subtitle": "Reduction bilaterale" },
-            { "title": "Reduction cas 8", "subtitle": "Technique circumareolaire" }
+            {
+              "title": "Reduction cas 1",
+              "subtitle": "Reduction verticale"
+            },
+            {
+              "title": "Reduction cas 2",
+              "subtitle": "Patron en ancre"
+            },
+            {
+              "title": "Reduction cas 3",
+              "subtitle": "Reduction mammaire"
+            },
+            {
+              "title": "Reduction cas 4",
+              "subtitle": "Mammoplastie de reduction"
+            },
+            {
+              "title": "Reduction cas 5",
+              "subtitle": "Pedicule superieur"
+            },
+            {
+              "title": "Reduction cas 6",
+              "subtitle": "Reduction en T inverse"
+            },
+            {
+              "title": "Reduction cas 7",
+              "subtitle": "Reduction bilaterale"
+            },
+            {
+              "title": "Reduction cas 8",
+              "subtitle": "Technique circumareolaire"
+            }
           ]
         },
         "liposuction": {
           "title": "Liposuccion",
           "cases": [
-            { "title": "Abdomen cas 1", "subtitle": "Liposuccion abdominale" },
-            { "title": "Cuisses cas 1", "subtitle": "Remodelage des cuisses" },
-            { "title": "Bras cas 1", "subtitle": "Liposuccion des bras" },
-            { "title": "Abdomen cas 2", "subtitle": "Sculpture abdominale complete" },
-            { "title": "Abdomen cas 3", "subtitle": "Bas de l'abdomen" },
-            { "title": "Cuisses cas 2", "subtitle": "Remodelage interieur des cuisses" },
-            { "title": "Cuisses cas 3", "subtitle": "Sculpture exterieur des cuisses" }
+            {
+              "title": "Abdomen cas 1",
+              "subtitle": "Liposuccion abdominale"
+            },
+            {
+              "title": "Cuisses cas 1",
+              "subtitle": "Remodelage des cuisses"
+            },
+            {
+              "title": "Bras cas 1",
+              "subtitle": "Liposuccion des bras"
+            },
+            {
+              "title": "Abdomen cas 2",
+              "subtitle": "Sculpture abdominale complete"
+            },
+            {
+              "title": "Abdomen cas 3",
+              "subtitle": "Bas de l'abdomen"
+            },
+            {
+              "title": "Cuisses cas 2",
+              "subtitle": "Remodelage interieur des cuisses"
+            },
+            {
+              "title": "Cuisses cas 3",
+              "subtitle": "Sculpture exterieur des cuisses"
+            }
           ]
         },
         "hairTransplant": {
           "title": "Greffe de cheveux",
           "cases": [
-            { "title": "Cas homme 1", "subtitle": "FUE 2500 follicules" },
-            { "title": "Cas femme 1", "subtitle": "FUE 1500 follicules" },
-            { "title": "Cas ligne frontale homme 2", "subtitle": "FUE 2000 follicules" },
-            { "title": "Cas ligne frontale femme 2", "subtitle": "FUE 1750 follicules" }
+            {
+              "title": "Cas homme 1",
+              "subtitle": "FUE 2500 follicules"
+            },
+            {
+              "title": "Cas femme 1",
+              "subtitle": "FUE 1500 follicules"
+            },
+            {
+              "title": "Cas ligne frontale homme 2",
+              "subtitle": "FUE 2000 follicules"
+            },
+            {
+              "title": "Cas ligne frontale femme 2",
+              "subtitle": "FUE 1750 follicules"
+            }
           ]
         },
         "browLift": {
           "title": "Lifting des sourcils et du front",
           "cases": [
-            { "title": "Lifting sourcils cas 1", "subtitle": "Lifting endoscopique des sourcils" },
-            { "title": "Lifting sourcils cas 2", "subtitle": "Lifting direct des sourcils" },
-            { "title": "Lifting sourcils cas 3", "subtitle": "Lifting temporal" },
-            { "title": "Lifting sourcils cas 4", "subtitle": "Lifting du front" },
-            { "title": "Lifting sourcils cas 5", "subtitle": "Lifting coronal des sourcils" }
+            {
+              "title": "Lifting sourcils cas 1",
+              "subtitle": "Lifting endoscopique des sourcils"
+            },
+            {
+              "title": "Lifting sourcils cas 2",
+              "subtitle": "Lifting direct des sourcils"
+            },
+            {
+              "title": "Lifting sourcils cas 3",
+              "subtitle": "Lifting temporal"
+            },
+            {
+              "title": "Lifting sourcils cas 4",
+              "subtitle": "Lifting du front"
+            },
+            {
+              "title": "Lifting sourcils cas 5",
+              "subtitle": "Lifting coronal des sourcils"
+            }
           ]
         },
         "neckLift": {
           "title": "Lifting du cou",
           "cases": [
-            { "title": "Lifting cou cas 1", "subtitle": "Platysmaplastie" },
-            { "title": "Lifting cou cas 2", "subtitle": "Cervicoplastie" },
-            { "title": "Lifting cou cas 3", "subtitle": "Remodelage du cou" }
+            {
+              "title": "Lifting cou cas 1",
+              "subtitle": "Platysmaplastie"
+            },
+            {
+              "title": "Lifting cou cas 2",
+              "subtitle": "Cervicoplastie"
+            },
+            {
+              "title": "Lifting cou cas 3",
+              "subtitle": "Remodelage du cou"
+            }
           ]
         },
         "tummyTuck": {
           "title": "Abdominoplastie",
           "cases": [
-            { "title": "Abdominoplastie cas 1", "subtitle": "Abdominoplastie complete" },
-            { "title": "Abdominoplastie cas 2", "subtitle": "Mini abdominoplastie" },
-            { "title": "Abdominoplastie cas 3", "subtitle": "Abdominoplastie etendue" },
-            { "title": "Abdominoplastie cas 4", "subtitle": "Fleur de lys" },
-            { "title": "Abdominoplastie cas 5", "subtitle": "Abdominoplastie complete" },
-            { "title": "Abdominoplastie cas 6", "subtitle": "Circumferentielle" }
+            {
+              "title": "Abdominoplastie cas 1",
+              "subtitle": "Abdominoplastie complete"
+            },
+            {
+              "title": "Abdominoplastie cas 2",
+              "subtitle": "Mini abdominoplastie"
+            },
+            {
+              "title": "Abdominoplastie cas 3",
+              "subtitle": "Abdominoplastie etendue"
+            },
+            {
+              "title": "Abdominoplastie cas 4",
+              "subtitle": "Fleur de lys"
+            },
+            {
+              "title": "Abdominoplastie cas 5",
+              "subtitle": "Abdominoplastie complete"
+            },
+            {
+              "title": "Abdominoplastie cas 6",
+              "subtitle": "Circumferentielle"
+            }
           ]
         },
         "armLift": {
           "title": "Lifting des bras",
           "cases": [
-            { "title": "Brachioplastie cas 1", "subtitle": "Lifting complet des bras" },
-            { "title": "Brachioplastie cas 2", "subtitle": "Lifting haut des bras" },
-            { "title": "Brachioplastie cas 3", "subtitle": "Brachioplastie etendue" },
-            { "title": "Brachioplastie cas 4", "subtitle": "Lifting bras cicatrice minimale" },
-            { "title": "Brachioplastie cas 5", "subtitle": "Remodelage haut des bras" },
-            { "title": "Brachioplastie cas 6", "subtitle": "Reduction des bras" },
-            { "title": "Brachioplastie cas 7", "subtitle": "Brachioplastie complete" }
+            {
+              "title": "Brachioplastie cas 1",
+              "subtitle": "Lifting complet des bras"
+            },
+            {
+              "title": "Brachioplastie cas 2",
+              "subtitle": "Lifting haut des bras"
+            },
+            {
+              "title": "Brachioplastie cas 3",
+              "subtitle": "Brachioplastie etendue"
+            },
+            {
+              "title": "Brachioplastie cas 4",
+              "subtitle": "Lifting bras cicatrice minimale"
+            },
+            {
+              "title": "Brachioplastie cas 5",
+              "subtitle": "Remodelage haut des bras"
+            },
+            {
+              "title": "Brachioplastie cas 6",
+              "subtitle": "Reduction des bras"
+            },
+            {
+              "title": "Brachioplastie cas 7",
+              "subtitle": "Brachioplastie complete"
+            }
           ]
         },
         "thighLift": {
           "title": "Lifting des cuisses",
           "cases": [
-            { "title": "Lifting cuisses cas 1", "subtitle": "Lifting interieur des cuisses" },
-            { "title": "Lifting cuisses cas 2", "subtitle": "Cruroplastie mediale" },
-            { "title": "Lifting cuisses cas 3", "subtitle": "Lifting vertical des cuisses" },
-            { "title": "Lifting cuisses cas 4", "subtitle": "Remodelage complet des cuisses" }
+            {
+              "title": "Lifting cuisses cas 1",
+              "subtitle": "Lifting interieur des cuisses"
+            },
+            {
+              "title": "Lifting cuisses cas 2",
+              "subtitle": "Cruroplastie mediale"
+            },
+            {
+              "title": "Lifting cuisses cas 3",
+              "subtitle": "Lifting vertical des cuisses"
+            },
+            {
+              "title": "Lifting cuisses cas 4",
+              "subtitle": "Remodelage complet des cuisses"
+            }
           ]
         }
       },
@@ -1526,168 +1806,780 @@
           "id": "lifting",
           "title": "Lifting et raffermissement",
           "treatments": [
-            { "name": "Ultherapy", "tag": "HIFU", "origin": "Merz / USA", "description": "Ultrasons microfocalises agrees par la FDA pour le lifting des sourcils, du cou, du menton et du decollete", "kr": true },
-            { "name": "Ultraformer MPT (Shurink Universe)", "tag": "HIFU", "origin": "Classys / Coree", "description": "HIFU nouvelle generation avec technologie Micro Pulsed ; certifie CE MDR", "kr": true },
-            { "name": "Doublo Gold", "tag": "HIFU", "origin": "Hironic / Coree", "description": "HIFU combinant ultrasons microfocalises et RF pour utilisation clinique quotidienne", "kr": true },
-            { "name": "Sofwave", "tag": "Ultrasons", "origin": "Sofwave Medical / Israel", "description": "Technologie SUPERB d'ultrasons paralleles synchrones ; agree FDA pour tous types de peau", "kr": false },
-            { "name": "Thermage FLX", "tag": "RF monopolaire", "origin": "Solta Medical / USA", "description": "RF monopolaire 4e generation avec auto-reglage AccuREP ; remodelage du collagene en une seance", "kr": true },
-            { "name": "Morpheus8", "tag": "RF micro-aiguilles", "origin": "InMode / Israel-USA", "description": "RF micro-aiguilles jusqu'a 8 mm de profondeur pour remodelage profond et traitement adipeux sous-dermique", "kr": false },
-            { "name": "Potenza", "tag": "RF micro-aiguilles", "origin": "Cynosure / USA", "description": "RF micro-aiguilles monopolaire + bipolaire avec aiguilles semi-isolees Tiger Tip", "kr": false },
-            { "name": "SylfirmX", "tag": "RF micro-aiguilles", "origin": "Viol / Coree", "description": "RF double onde (pulsee + continue) efficace pour le melasma et la pigmentation", "kr": true },
-            { "name": "Genius RF", "tag": "RF micro-aiguilles", "origin": "Lutronic / Coree", "description": "RF micro-aiguilles a retour d'impedance en temps reel pour une delivrance d'energie de precision", "kr": true },
-            { "name": "Volnewmer (Everesse)", "tag": "RF micro-aiguilles", "origin": "Classys / Coree", "description": "Dispositif de micro-radiofrequence pour raffermissement RF de precision", "kr": true },
-            { "name": "Secret RF", "tag": "RF micro-aiguilles", "origin": "Cutera / USA", "description": "RF micro-aiguilles a profondeur reglable avec aiguilles plaquees or pour cicatrices et rajeunissement", "kr": false },
-            { "name": "Scarlet RF", "tag": "RF micro-aiguilles", "origin": "Viol / Coree", "description": "RF micro-aiguilles a impulsions courtes avec temps d'arret minimal", "kr": true },
-            { "name": "INTRAcel", "tag": "RF micro-aiguilles", "origin": "Jeisys / Coree", "description": "RF micro-aiguilles fractionnee avec forme d'onde biphasee", "kr": true },
-            { "name": "DENSITY", "tag": "RF", "origin": "Jeisys / Coree", "description": "Dispositif de lifting facial haute frequence avec technologie Alpha Tip", "kr": true },
-            { "name": "CoolSonic", "tag": "Ultrasons", "origin": "CoolSonic / Coree", "description": "Lifting et raffermissement ultrasonore non invasif avec technologie de refroidissement pour un confort accru", "kr": true },
-            { "name": "Oligio", "tag": "RF monopolaire", "origin": "Classys / Coree", "description": "Raffermissement cutane par RF monopolaire avec controle d'energie par IA ; alternative nouvelle generation au Thermage", "kr": true },
-            { "name": "ONDA Coolwaves", "tag": "Micro-ondes", "origin": "DEKA / Italie", "description": "Technologie micro-ondes (Coolwaves) pour raffermissement cutane, reduction graisseuse et traitement de la cellulite", "kr": true }
+            {
+              "name": "Ultherapy",
+              "tag": "HIFU",
+              "origin": "Merz / USA",
+              "description": "Ultrasons microfocalises agrees par la FDA pour le lifting des sourcils, du cou, du menton et du decollete",
+              "kr": true
+            },
+            {
+              "name": "Ultraformer MPT (Shurink Universe)",
+              "tag": "HIFU",
+              "origin": "Classys / Coree",
+              "description": "HIFU nouvelle generation avec technologie Micro Pulsed ; certifie CE MDR",
+              "kr": true
+            },
+            {
+              "name": "Doublo Gold",
+              "tag": "HIFU",
+              "origin": "Hironic / Coree",
+              "description": "HIFU combinant ultrasons microfocalises et RF pour utilisation clinique quotidienne",
+              "kr": true
+            },
+            {
+              "name": "Sofwave",
+              "tag": "Ultrasons",
+              "origin": "Sofwave Medical / Israel",
+              "description": "Technologie SUPERB d'ultrasons paralleles synchrones ; agree FDA pour tous types de peau",
+              "kr": false
+            },
+            {
+              "name": "Thermage FLX",
+              "tag": "RF monopolaire",
+              "origin": "Solta Medical / USA",
+              "description": "RF monopolaire 4e generation avec auto-reglage AccuREP ; remodelage du collagene en une seance",
+              "kr": true
+            },
+            {
+              "name": "Morpheus8",
+              "tag": "RF micro-aiguilles",
+              "origin": "InMode / Israel-USA",
+              "description": "RF micro-aiguilles jusqu'a 8 mm de profondeur pour remodelage profond et traitement adipeux sous-dermique",
+              "kr": false
+            },
+            {
+              "name": "Potenza",
+              "tag": "RF micro-aiguilles",
+              "origin": "Cynosure / USA",
+              "description": "RF micro-aiguilles monopolaire + bipolaire avec aiguilles semi-isolees Tiger Tip",
+              "kr": false
+            },
+            {
+              "name": "SylfirmX",
+              "tag": "RF micro-aiguilles",
+              "origin": "Viol / Coree",
+              "description": "RF double onde (pulsee + continue) efficace pour le melasma et la pigmentation",
+              "kr": true
+            },
+            {
+              "name": "Genius RF",
+              "tag": "RF micro-aiguilles",
+              "origin": "Lutronic / Coree",
+              "description": "RF micro-aiguilles a retour d'impedance en temps reel pour une delivrance d'energie de precision",
+              "kr": true
+            },
+            {
+              "name": "Volnewmer (Everesse)",
+              "tag": "RF micro-aiguilles",
+              "origin": "Classys / Coree",
+              "description": "Dispositif de micro-radiofrequence pour raffermissement RF de precision",
+              "kr": true
+            },
+            {
+              "name": "Secret RF",
+              "tag": "RF micro-aiguilles",
+              "origin": "Cutera / USA",
+              "description": "RF micro-aiguilles a profondeur reglable avec aiguilles plaquees or pour cicatrices et rajeunissement",
+              "kr": false
+            },
+            {
+              "name": "Scarlet RF",
+              "tag": "RF micro-aiguilles",
+              "origin": "Viol / Coree",
+              "description": "RF micro-aiguilles a impulsions courtes avec temps d'arret minimal",
+              "kr": true
+            },
+            {
+              "name": "INTRAcel",
+              "tag": "RF micro-aiguilles",
+              "origin": "Jeisys / Coree",
+              "description": "RF micro-aiguilles fractionnee avec forme d'onde biphasee",
+              "kr": true
+            },
+            {
+              "name": "DENSITY",
+              "tag": "RF",
+              "origin": "Jeisys / Coree",
+              "description": "Dispositif de lifting facial haute frequence avec technologie Alpha Tip",
+              "kr": true
+            },
+            {
+              "name": "CoolSonic",
+              "tag": "Ultrasons",
+              "origin": "CoolSonic / Coree",
+              "description": "Lifting et raffermissement ultrasonore non invasif avec technologie de refroidissement pour un confort accru",
+              "kr": true
+            },
+            {
+              "name": "Oligio",
+              "tag": "RF monopolaire",
+              "origin": "Classys / Coree",
+              "description": "Raffermissement cutane par RF monopolaire avec controle d'energie par IA ; alternative nouvelle generation au Thermage",
+              "kr": true
+            },
+            {
+              "name": "ONDA Coolwaves",
+              "tag": "Micro-ondes",
+              "origin": "DEKA / Italie",
+              "description": "Technologie micro-ondes (Coolwaves) pour raffermissement cutane, reduction graisseuse et traitement de la cellulite",
+              "kr": true
+            }
           ]
         },
         {
           "id": "rejuvenation",
           "title": "Rajeunissement cutane et boosters",
           "treatments": [
-            { "name": "Rejuran Healer", "tag": "PN/PDRN", "origin": "Pharmaresearch / Coree", "description": "Polynucleotide derive de l'ADN de saumon pour la regeneration cutanee et la synthese du collagene", "kr": true },
-            { "name": "Rejuran I (Eye)", "tag": "PN/PDRN", "origin": "Pharmaresearch / Coree", "description": "PDRN pur a 98,7 % specialise pour le rajeunissement du contour des yeux", "kr": true },
-            { "name": "Juvelook", "tag": "Bio-stimulateur", "origin": "Hugel / Coree", "description": "Booster PDLLA + HA non reticule qui stimule le collagene pendant 18 mois", "kr": true },
-            { "name": "Gouri", "tag": "PCL", "origin": "DEXLEVO / Coree", "description": "Premier stimulateur de collagene PCL liquide injectable entierement solubilise au monde", "kr": true },
-            { "name": "Profhilo", "tag": "Bio-remodeleur HA", "origin": "IBSA / Italie", "description": "Injectable HA haute concentration pour hydratation intense avec technique d'injection en 5 points", "kr": false },
-            { "name": "NCTF 135 HA", "tag": "Mesotherapie", "origin": "Fillmed / France", "description": "Cocktail HA + vitamines + acides amines + co-enzymes pour revitalisation cellulaire", "kr": true },
-            { "name": "Sunekos", "tag": "Acides amines", "origin": "Professional Derma / Italie", "description": "Formule brevetee acides amines + HA pour la regeneration de la matrice extracellulaire", "kr": false },
-            { "name": "Juvederm Skinvive", "tag": "Hydratant HA", "origin": "Allergan / USA", "description": "Injectable intradermique HA en microgouttelettes pour un lissage cutane durant jusqu'a 6 mois", "kr": false },
-            { "name": "Elravie Re2O", "tag": "Booster MEC", "origin": "Humedix / Coree", "description": "Premier booster cutane a base de MEC ; reconstitue les composants de la matrice extracellulaire", "kr": true },
-            { "name": "Lituo (hADM)", "tag": "Booster MEC", "origin": "CGBio / Coree", "description": "Booster de matrice dermique acellulaire humaine qui reconstitue directement le collagene et l'elastine", "kr": true },
-            { "name": "Aesthefill", "tag": "PDLLA", "origin": "REGEN Biotech / Coree", "description": "Stimulateur de collagene a microspheres PDLLA pour le volume et la qualite cutanee", "kr": true },
-            { "name": "Exosome Therapy", "tag": "Facteur de croissance", "origin": "Divers / Coree", "description": "Therapie par exosomes derives de cellules souches pour la regeneration cellulaire et la guerison amelioree", "kr": true },
-            { "name": "LDM (Local Dynamic Micro)", "tag": "Ultrasons", "origin": "General Project / Allemagne", "description": "Micromassage ultrasonore basse frequence pour hydratation et activation cellulaire ; zero temps d'arret", "kr": true }
+            {
+              "name": "Rejuran Healer",
+              "tag": "PN/PDRN",
+              "origin": "Pharmaresearch / Coree",
+              "description": "Polynucleotide derive de l'ADN de saumon pour la regeneration cutanee et la synthese du collagene",
+              "kr": true
+            },
+            {
+              "name": "Rejuran I (Eye)",
+              "tag": "PN/PDRN",
+              "origin": "Pharmaresearch / Coree",
+              "description": "PDRN pur a 98,7 % specialise pour le rajeunissement du contour des yeux",
+              "kr": true
+            },
+            {
+              "name": "Juvelook",
+              "tag": "Bio-stimulateur",
+              "origin": "Hugel / Coree",
+              "description": "Booster PDLLA + HA non reticule qui stimule le collagene pendant 18 mois",
+              "kr": true
+            },
+            {
+              "name": "Gouri",
+              "tag": "PCL",
+              "origin": "DEXLEVO / Coree",
+              "description": "Premier stimulateur de collagene PCL liquide injectable entierement solubilise au monde",
+              "kr": true
+            },
+            {
+              "name": "Profhilo",
+              "tag": "Bio-remodeleur HA",
+              "origin": "IBSA / Italie",
+              "description": "Injectable HA haute concentration pour hydratation intense avec technique d'injection en 5 points",
+              "kr": false
+            },
+            {
+              "name": "NCTF 135 HA",
+              "tag": "Mesotherapie",
+              "origin": "Fillmed / France",
+              "description": "Cocktail HA + vitamines + acides amines + co-enzymes pour revitalisation cellulaire",
+              "kr": true
+            },
+            {
+              "name": "Sunekos",
+              "tag": "Acides amines",
+              "origin": "Professional Derma / Italie",
+              "description": "Formule brevetee acides amines + HA pour la regeneration de la matrice extracellulaire",
+              "kr": false
+            },
+            {
+              "name": "Juvederm Skinvive",
+              "tag": "Hydratant HA",
+              "origin": "Allergan / USA",
+              "description": "Injectable intradermique HA en microgouttelettes pour un lissage cutane durant jusqu'a 6 mois",
+              "kr": false
+            },
+            {
+              "name": "Elravie Re2O",
+              "tag": "Booster MEC",
+              "origin": "Humedix / Coree",
+              "description": "Premier booster cutane a base de MEC ; reconstitue les composants de la matrice extracellulaire",
+              "kr": true
+            },
+            {
+              "name": "Lituo (hADM)",
+              "tag": "Booster MEC",
+              "origin": "CGBio / Coree",
+              "description": "Booster de matrice dermique acellulaire humaine qui reconstitue directement le collagene et l'elastine",
+              "kr": true
+            },
+            {
+              "name": "Aesthefill",
+              "tag": "PDLLA",
+              "origin": "REGEN Biotech / Coree",
+              "description": "Stimulateur de collagene a microspheres PDLLA pour le volume et la qualite cutanee",
+              "kr": true
+            },
+            {
+              "name": "Exosome Therapy",
+              "tag": "Facteur de croissance",
+              "origin": "Divers / Coree",
+              "description": "Therapie par exosomes derives de cellules souches pour la regeneration cellulaire et la guerison amelioree",
+              "kr": true
+            },
+            {
+              "name": "LDM (Local Dynamic Micro)",
+              "tag": "Ultrasons",
+              "origin": "General Project / Allemagne",
+              "description": "Micromassage ultrasonore basse frequence pour hydratation et activation cellulaire ; zero temps d'arret",
+              "kr": true
+            }
           ]
         },
         {
           "id": "laser",
           "title": "Laser et luminotherapie",
           "treatments": [
-            { "name": "PicoSure Pro", "tag": "Picoseconde", "origin": "Cynosure / USA", "description": "Laser picoseconde 755nm + 532nm avec Focus Lens Array pour pigment et stimulation du collagene", "kr": true },
-            { "name": "PicoWay", "tag": "Picoseconde", "origin": "Candela / USA", "description": "Pico multi-longueurs d'onde (532/730/1064nm) avec fractionnement Resolve ; excellent pour le melasma", "kr": true },
-            { "name": "PicoLO", "tag": "Picoseconde", "origin": "LASEROPTEK / Coree", "description": "Laser picoseconde Nd:YAG coreen pour pigmentation et cicatrices d'acne", "kr": true },
-            { "name": "Discovery Pico Plus", "tag": "Picoseconde", "origin": "Quanta System / Italie", "description": "Plateforme pico + nano multi-longueurs d'onde avec embouts fractionnels", "kr": false },
-            { "name": "Stellar M22", "tag": "Plateforme IPL", "origin": "Lumenis / Israel", "description": "Plateforme multi-applications IPL + Nd:YAG + ResurFX traitant 30+ affections cutanees", "kr": true },
-            { "name": "BBL (BroadBand Light)", "tag": "IPL", "origin": "Sciton / USA", "description": "IPL avancee avec filtres refroidis thermoelectriquement pour le photorajeunissement", "kr": false },
-            { "name": "eCO2 3D", "tag": "CO2 fractionne", "origin": "Lutronic / Coree", "description": "CO2 fractionne 40W avec balayage Controlled Chaos pour resurfacage profond", "kr": true },
-            { "name": "Fraxel DUAL", "tag": "Fractionne non ablatif", "origin": "Solta Medical / USA", "description": "Fractionne double longueur d'onde (1550/1927nm) non ablatif pour cicatrices et pigment", "kr": true },
-            { "name": "LaseMD Ultra", "tag": "Laser thulium", "origin": "Lutronic / Coree", "description": "Laser fractionne thulium 1927nm pour l'eclaircissement et l'administration de principes actifs", "kr": true },
-            { "name": "Healite II", "tag": "LED Therapie", "origin": "Bio-Photas / Coree", "description": "LED professionnelle 830nm + 633nm pour reparation cellulaire et guerison post-procedure", "kr": true },
-            { "name": "Omnilux", "tag": "LED Therapie", "origin": "GlobalMed / Royaume-Uni", "description": "LED de grade medical validee par 30+ etudes evaluees par des pairs pour l'acne et l'anti-age", "kr": false },
-            { "name": "CoolPeel", "tag": "Laser CO2", "origin": "Cartessa / USA", "description": "Technologie H-Pulse pour traitement CO2 entierement ablatif avec temps d'arret minimal", "kr": false },
-            { "name": "Cutera Excel HR", "tag": "Nd:YAG/Alex", "origin": "Cutera / USA", "description": "Plateforme laser double longueur d'onde pour epilation, lesions vasculaires et rajeunissement cutane", "kr": true },
-            { "name": "Clarity II", "tag": "Alex/Nd:YAG", "origin": "Lutronic / Coree", "description": "Plateforme double impulsion longue + Q-switch pour pigment, vasculaire et epilation", "kr": true }
+            {
+              "name": "PicoSure Pro",
+              "tag": "Picoseconde",
+              "origin": "Cynosure / USA",
+              "description": "Laser picoseconde 755nm + 532nm avec Focus Lens Array pour pigment et stimulation du collagene",
+              "kr": true
+            },
+            {
+              "name": "PicoWay",
+              "tag": "Picoseconde",
+              "origin": "Candela / USA",
+              "description": "Pico multi-longueurs d'onde (532/730/1064nm) avec fractionnement Resolve ; excellent pour le melasma",
+              "kr": true
+            },
+            {
+              "name": "PicoLO",
+              "tag": "Picoseconde",
+              "origin": "LASEROPTEK / Coree",
+              "description": "Laser picoseconde Nd:YAG coreen pour pigmentation et cicatrices d'acne",
+              "kr": true
+            },
+            {
+              "name": "Discovery Pico Plus",
+              "tag": "Picoseconde",
+              "origin": "Quanta System / Italie",
+              "description": "Plateforme pico + nano multi-longueurs d'onde avec embouts fractionnels",
+              "kr": false
+            },
+            {
+              "name": "Stellar M22",
+              "tag": "Plateforme IPL",
+              "origin": "Lumenis / Israel",
+              "description": "Plateforme multi-applications IPL + Nd:YAG + ResurFX traitant 30+ affections cutanees",
+              "kr": true
+            },
+            {
+              "name": "BBL (BroadBand Light)",
+              "tag": "IPL",
+              "origin": "Sciton / USA",
+              "description": "IPL avancee avec filtres refroidis thermoelectriquement pour le photorajeunissement",
+              "kr": false
+            },
+            {
+              "name": "eCO2 3D",
+              "tag": "CO2 fractionne",
+              "origin": "Lutronic / Coree",
+              "description": "CO2 fractionne 40W avec balayage Controlled Chaos pour resurfacage profond",
+              "kr": true
+            },
+            {
+              "name": "Fraxel DUAL",
+              "tag": "Fractionne non ablatif",
+              "origin": "Solta Medical / USA",
+              "description": "Fractionne double longueur d'onde (1550/1927nm) non ablatif pour cicatrices et pigment",
+              "kr": true
+            },
+            {
+              "name": "LaseMD Ultra",
+              "tag": "Laser thulium",
+              "origin": "Lutronic / Coree",
+              "description": "Laser fractionne thulium 1927nm pour l'eclaircissement et l'administration de principes actifs",
+              "kr": true
+            },
+            {
+              "name": "Healite II",
+              "tag": "LED Therapie",
+              "origin": "Bio-Photas / Coree",
+              "description": "LED professionnelle 830nm + 633nm pour reparation cellulaire et guerison post-procedure",
+              "kr": true
+            },
+            {
+              "name": "Omnilux",
+              "tag": "LED Therapie",
+              "origin": "GlobalMed / Royaume-Uni",
+              "description": "LED de grade medical validee par 30+ etudes evaluees par des pairs pour l'acne et l'anti-age",
+              "kr": false
+            },
+            {
+              "name": "CoolPeel",
+              "tag": "Laser CO2",
+              "origin": "Cartessa / USA",
+              "description": "Technologie H-Pulse pour traitement CO2 entierement ablatif avec temps d'arret minimal",
+              "kr": false
+            },
+            {
+              "name": "Cutera Excel HR",
+              "tag": "Nd:YAG/Alex",
+              "origin": "Cutera / USA",
+              "description": "Plateforme laser double longueur d'onde pour epilation, lesions vasculaires et rajeunissement cutane",
+              "kr": true
+            },
+            {
+              "name": "Clarity II",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Lutronic / Coree",
+              "description": "Plateforme double impulsion longue + Q-switch pour pigment, vasculaire et epilation",
+              "kr": true
+            }
           ]
         },
         {
           "id": "injectables",
           "title": "Injectables",
           "treatments": [
-            { "name": "Botox", "tag": "Toxine botulique", "origin": "Allergan / USA", "description": "Toxine botulique de type A la plus reconnue au monde pour les rides et l'hyperhidrose", "kr": true },
-            { "name": "Dysport", "tag": "Toxine botulique", "origin": "Galderma / France", "description": "AbobotulinumtoxineA avec schema de diffusion plus large pour les rides glabellaires", "kr": true },
-            { "name": "Xeomin", "tag": "Toxine botulique", "origin": "Merz / Allemagne", "description": "Toxine botulique pure sans proteines complexantes ; pas de refrigeration necessaire", "kr": false },
-            { "name": "Nabota (Jeuveau)", "tag": "Toxine botulique", "origin": "Daewoong / Coree", "description": "Toxine botulique coreenne agreee FDA avec fabrication haute purete brevetee", "kr": true },
-            { "name": "Botulax (Letybo)", "tag": "Toxine botulique", "origin": "Hugel / Coree", "description": "Toxine coreenne agreee FDA ; 12M+ flacons vendus annuellement dans le monde", "kr": true },
-            { "name": "Meditoxin", "tag": "Toxine botulique", "origin": "Medytox / Coree", "description": "62,3 % de preference parmi les dermatologues coreens ; 40 % de part de marche nationale", "kr": true }
+            {
+              "name": "Botox",
+              "tag": "Toxine botulique",
+              "origin": "Allergan / USA",
+              "description": "Toxine botulique de type A la plus reconnue au monde pour les rides et l'hyperhidrose",
+              "kr": true
+            },
+            {
+              "name": "Dysport",
+              "tag": "Toxine botulique",
+              "origin": "Galderma / France",
+              "description": "AbobotulinumtoxineA avec schema de diffusion plus large pour les rides glabellaires",
+              "kr": true
+            },
+            {
+              "name": "Xeomin",
+              "tag": "Toxine botulique",
+              "origin": "Merz / Allemagne",
+              "description": "Toxine botulique pure sans proteines complexantes ; pas de refrigeration necessaire",
+              "kr": false
+            },
+            {
+              "name": "Nabota (Jeuveau)",
+              "tag": "Toxine botulique",
+              "origin": "Daewoong / Coree",
+              "description": "Toxine botulique coreenne agreee FDA avec fabrication haute purete brevetee",
+              "kr": true
+            },
+            {
+              "name": "Botulax (Letybo)",
+              "tag": "Toxine botulique",
+              "origin": "Hugel / Coree",
+              "description": "Toxine coreenne agreee FDA ; 12M+ flacons vendus annuellement dans le monde",
+              "kr": true
+            },
+            {
+              "name": "Meditoxin",
+              "tag": "Toxine botulique",
+              "origin": "Medytox / Coree",
+              "description": "62,3 % de preference parmi les dermatologues coreens ; 40 % de part de marche nationale",
+              "kr": true
+            }
           ]
         },
         {
           "id": "fillers",
           "title": "Fillers dermiques",
           "treatments": [
-            { "name": "Juvederm (Voluma/Volift/Volbella)", "tag": "Filler HA", "origin": "Allergan / USA", "description": "Famille de fillers HA technologie Vycross pour les joues, les levres et les rides fines. Zones : visage complet (joues, menton, levres, sillons nasogeniens, cernes), corps (mains)", "kr": true },
-            { "name": "Restylane (Lyft/Kysse)", "tag": "Filler HA", "origin": "Galderma / Suede", "description": "Fillers HA technologie NASHA et XpresHAn pour soutien structurel et levres. Zones : visage complet (joues, levres, menton, machoire, cernes), corps (mains, lobes d'oreilles)", "kr": true },
-            { "name": "Teosyal (RHA)", "tag": "Filler HA", "origin": "Teoxane / Suisse", "description": "Technologie HA resiliente qui s'adapte aux mouvements du visage. Zones : visage complet (levres, joues, sillons nasogeniens, cernes, machoire)", "kr": false },
-            { "name": "Belotero", "tag": "Filler HA", "origin": "Merz / Allemagne", "description": "Fillers HA technologie CPM avec integration tissulaire lisse. Zones : visage complet (rides fines, levres, sillons nasogeniens, cernes)", "kr": false },
-            { "name": "Revolax", "tag": "Filler HA", "origin": "Across / Coree", "description": "Filler HA reticule haute purete ; rapport cout-efficacite pour rides profondes et volume. Zones : visage complet (rides profondes, joues, menton, nez, levres)", "kr": true },
-            { "name": "Neuramis", "tag": "Filler HA", "origin": "Medytox / Coree", "description": "Filler HA coreen pour augmentation des levres et remodelage facial. Zones : visage complet (levres, sillons nasogeniens, menton, joues)", "kr": true },
-            { "name": "Yvoire", "tag": "Filler HA", "origin": "LG Chem / Coree", "description": "Filler HA biphasique avec fort soutien structurel. Zones : visage complet (joues, menton, machoire, arete du nez), corps (mains)", "kr": true },
-            { "name": "E.P.T.Q.", "tag": "Filler HA", "origin": "Hugel / Coree", "description": "Filler HA monophasique premium pour les marches mondiaux. Zones : visage complet (joues, machoire, levres, nez), corps (mains)", "kr": true },
-            { "name": "Kybella (Belkyra)", "tag": "Dissolveur de graisse", "origin": "Allergan / USA", "description": "Seul injectable d'acide deoxycholique agree FDA pour reduction de la graisse sous-mentonniere. Zones : visage (double menton), corps (bourrelets, interieur des cuisses)", "kr": false },
-            { "name": "Kabelline", "tag": "Dissolveur de graisse", "origin": "Kabelline / Coree", "description": "Dissolveur de graisse a base d'acide deoxycholique synthetique pour remodelage du visage et du corps. Zones : visage (double menton, bajoues), corps (abdomen, poignees d'amour, interieur des cuisses, haut des bras)", "kr": true },
-            { "name": "Sculptra", "tag": "PLLA", "origin": "Galderma / France", "description": "Acide poly-L-lactique qui stimule la production de collagene de type 1 pour une restauration progressive du volume. Zones : visage complet (tempes, joues, machoire, sillons nasogeniens), corps (fessiers, epaules, haut des bras, hanches)", "kr": true },
-            { "name": "Radiesse", "tag": "CaHA", "origin": "Merz / USA-Allemagne", "description": "Biostimulateur a l'hydroxyapatite de calcium pour la fermete cutanee et le renouvellement du collagene a long terme. Zones : visage complet (joues, machoire, menton, mains), corps (epaules, decollete, haut des bras, genoux)", "kr": true },
-            { "name": "Dermalax", "tag": "Filler HA", "origin": "Across / Coree", "description": "Gamme de fillers HA reticules pour le visage et le corps. Zones : visage complet (joues, menton, levres, front), corps (mains)", "kr": true },
-            { "name": "Rejeunesse", "tag": "Filler HA", "origin": "Humedix / Coree", "description": "HA hautement reticule pour des ameliorations naturelles et subtiles. Zones : visage complet (levres, sillons nasogeniens, joues, menton)", "kr": true }
+            {
+              "name": "Juvederm (Voluma/Volift/Volbella)",
+              "tag": "Filler HA",
+              "origin": "Allergan / USA",
+              "description": "Famille de fillers HA technologie Vycross pour les joues, les levres et les rides fines. Zones : visage complet (joues, menton, levres, sillons nasogeniens, cernes), corps (mains)",
+              "kr": true
+            },
+            {
+              "name": "Restylane (Lyft/Kysse)",
+              "tag": "Filler HA",
+              "origin": "Galderma / Suede",
+              "description": "Fillers HA technologie NASHA et XpresHAn pour soutien structurel et levres. Zones : visage complet (joues, levres, menton, machoire, cernes), corps (mains, lobes d'oreilles)",
+              "kr": true
+            },
+            {
+              "name": "Teosyal (RHA)",
+              "tag": "Filler HA",
+              "origin": "Teoxane / Suisse",
+              "description": "Technologie HA resiliente qui s'adapte aux mouvements du visage. Zones : visage complet (levres, joues, sillons nasogeniens, cernes, machoire)",
+              "kr": false
+            },
+            {
+              "name": "Belotero",
+              "tag": "Filler HA",
+              "origin": "Merz / Allemagne",
+              "description": "Fillers HA technologie CPM avec integration tissulaire lisse. Zones : visage complet (rides fines, levres, sillons nasogeniens, cernes)",
+              "kr": false
+            },
+            {
+              "name": "Revolax",
+              "tag": "Filler HA",
+              "origin": "Across / Coree",
+              "description": "Filler HA reticule haute purete ; rapport cout-efficacite pour rides profondes et volume. Zones : visage complet (rides profondes, joues, menton, nez, levres)",
+              "kr": true
+            },
+            {
+              "name": "Neuramis",
+              "tag": "Filler HA",
+              "origin": "Medytox / Coree",
+              "description": "Filler HA coreen pour augmentation des levres et remodelage facial. Zones : visage complet (levres, sillons nasogeniens, menton, joues)",
+              "kr": true
+            },
+            {
+              "name": "Yvoire",
+              "tag": "Filler HA",
+              "origin": "LG Chem / Coree",
+              "description": "Filler HA biphasique avec fort soutien structurel. Zones : visage complet (joues, menton, machoire, arete du nez), corps (mains)",
+              "kr": true
+            },
+            {
+              "name": "E.P.T.Q.",
+              "tag": "Filler HA",
+              "origin": "Hugel / Coree",
+              "description": "Filler HA monophasique premium pour les marches mondiaux. Zones : visage complet (joues, machoire, levres, nez), corps (mains)",
+              "kr": true
+            },
+            {
+              "name": "Kybella (Belkyra)",
+              "tag": "Dissolveur de graisse",
+              "origin": "Allergan / USA",
+              "description": "Seul injectable d'acide deoxycholique agree FDA pour reduction de la graisse sous-mentonniere. Zones : visage (double menton), corps (bourrelets, interieur des cuisses)",
+              "kr": false
+            },
+            {
+              "name": "Kabelline",
+              "tag": "Dissolveur de graisse",
+              "origin": "Kabelline / Coree",
+              "description": "Dissolveur de graisse a base d'acide deoxycholique synthetique pour remodelage du visage et du corps. Zones : visage (double menton, bajoues), corps (abdomen, poignees d'amour, interieur des cuisses, haut des bras)",
+              "kr": true
+            },
+            {
+              "name": "Sculptra",
+              "tag": "PLLA",
+              "origin": "Galderma / France",
+              "description": "Acide poly-L-lactique qui stimule la production de collagene de type 1 pour une restauration progressive du volume. Zones : visage complet (tempes, joues, machoire, sillons nasogeniens), corps (fessiers, epaules, haut des bras, hanches)",
+              "kr": true
+            },
+            {
+              "name": "Radiesse",
+              "tag": "CaHA",
+              "origin": "Merz / USA-Allemagne",
+              "description": "Biostimulateur a l'hydroxyapatite de calcium pour la fermete cutanee et le renouvellement du collagene a long terme. Zones : visage complet (joues, machoire, menton, mains), corps (epaules, decollete, haut des bras, genoux)",
+              "kr": true
+            },
+            {
+              "name": "Dermalax",
+              "tag": "Filler HA",
+              "origin": "Across / Coree",
+              "description": "Gamme de fillers HA reticules pour le visage et le corps. Zones : visage complet (joues, menton, levres, front), corps (mains)",
+              "kr": true
+            },
+            {
+              "name": "Rejeunesse",
+              "tag": "Filler HA",
+              "origin": "Humedix / Coree",
+              "description": "HA hautement reticule pour des ameliorations naturelles et subtiles. Zones : visage complet (levres, sillons nasogeniens, joues, menton)",
+              "kr": true
+            }
           ]
         },
         {
           "id": "threads",
           "title": "Lifting par fils",
           "treatments": [
-            { "name": "MINT Lift", "tag": "PDO", "origin": "HansBiomed / Coree", "description": "Fils PDO triple agrement FDA ; reference en lifting par fils coreen", "kr": true },
-            { "name": "Miracu", "tag": "PDO", "origin": "CROMA / Coree", "description": "Fils PDO coreens largement utilises pour le lifting non chirurgical du visage", "kr": true },
-            { "name": "Silhouette Soft", "tag": "PLLA", "origin": "Sinclair Pharma / Royaume-Uni", "description": "Fils PLLA a cones bidirectionnels pour lifting immediat + stimulation progressive du collagene", "kr": false },
-            { "name": "Silhouette InstaLift", "tag": "PLLA/PLGA", "origin": "Sinclair / USA", "description": "Suture resorbable avec cones bidirectionnels ; agree FDA pour le milieu du visage", "kr": false },
-            { "name": "Glamour Silhouline", "tag": "PCL", "origin": "Glamour / Coree", "description": "Fils PCL torsades resorbes en 24 mois ; plus longue stimulation du collagene", "kr": true },
-            { "name": "Aptos", "tag": "PDO/PLA", "origin": "Aptos / Georgie", "description": "Pionnier du lifting par fils avec les gammes Excellence et Nano pour le visage et le corps", "kr": false }
+            {
+              "name": "MINT Lift",
+              "tag": "PDO",
+              "origin": "HansBiomed / Coree",
+              "description": "Fils PDO triple agrement FDA ; reference en lifting par fils coreen",
+              "kr": true
+            },
+            {
+              "name": "Miracu",
+              "tag": "PDO",
+              "origin": "CROMA / Coree",
+              "description": "Fils PDO coreens largement utilises pour le lifting non chirurgical du visage",
+              "kr": true
+            },
+            {
+              "name": "Silhouette Soft",
+              "tag": "PLLA",
+              "origin": "Sinclair Pharma / Royaume-Uni",
+              "description": "Fils PLLA a cones bidirectionnels pour lifting immediat + stimulation progressive du collagene",
+              "kr": false
+            },
+            {
+              "name": "Silhouette InstaLift",
+              "tag": "PLLA/PLGA",
+              "origin": "Sinclair / USA",
+              "description": "Suture resorbable avec cones bidirectionnels ; agree FDA pour le milieu du visage",
+              "kr": false
+            },
+            {
+              "name": "Glamour Silhouline",
+              "tag": "PCL",
+              "origin": "Glamour / Coree",
+              "description": "Fils PCL torsades resorbes en 24 mois ; plus longue stimulation du collagene",
+              "kr": true
+            },
+            {
+              "name": "Aptos",
+              "tag": "PDO/PLA",
+              "origin": "Aptos / Georgie",
+              "description": "Pionnier du lifting par fils avec les gammes Excellence et Nano pour le visage et le corps",
+              "kr": false
+            }
           ]
         },
         {
           "id": "surface",
           "title": "Traitements de surface et peelings",
           "treatments": [
-            { "name": "HydraFacial", "tag": "Aqua Peel", "origin": "BeautyHealth / USA", "description": "Technologie vortex brevetee pour nettoyage-exfoliation-extraction-hydratation en une seance", "kr": true },
-            { "name": "Aqua Peel", "tag": "Microdermabrasion a l'eau", "origin": "Divers / Coree", "description": "Microdermabrasion a l'eau en 3 etapes (AHA, BHA, nutrition) standard dans les cliniques coreennes", "kr": true },
-            { "name": "SkinPen", "tag": "Microneedling", "origin": "Crown Aesthetics / USA", "description": "Premier dispositif de microneedling agree FDA pour les cicatrices d'acne", "kr": false },
-            { "name": "Dermapen 4", "tag": "Microneedling", "origin": "DermapenWorld / Australie", "description": "Stylo de microneedling avance avec cartouche 16 aiguilles pour le traitement des cicatrices", "kr": false },
-            { "name": "ZO Skin Health Peels", "tag": "Peeling chimique", "origin": "ZO Skin Health / USA", "description": "Protocoles de peeling de grade medical par le Dr Zein Obagi", "kr": false },
-            { "name": "SkinCeuticals Peels", "tag": "Peeling chimique", "origin": "SkinCeuticals / USA", "description": "Gamme professionnelle de peelings chimiques incluant Micropeel et Advanced Corrective", "kr": false }
+            {
+              "name": "HydraFacial",
+              "tag": "Aqua Peel",
+              "origin": "BeautyHealth / USA",
+              "description": "Technologie vortex brevetee pour nettoyage-exfoliation-extraction-hydratation en une seance",
+              "kr": true
+            },
+            {
+              "name": "Aqua Peel",
+              "tag": "Microdermabrasion a l'eau",
+              "origin": "Divers / Coree",
+              "description": "Microdermabrasion a l'eau en 3 etapes (AHA, BHA, nutrition) standard dans les cliniques coreennes",
+              "kr": true
+            },
+            {
+              "name": "SkinPen",
+              "tag": "Microneedling",
+              "origin": "Crown Aesthetics / USA",
+              "description": "Premier dispositif de microneedling agree FDA pour les cicatrices d'acne",
+              "kr": false
+            },
+            {
+              "name": "Dermapen 4",
+              "tag": "Microneedling",
+              "origin": "DermapenWorld / Australie",
+              "description": "Stylo de microneedling avance avec cartouche 16 aiguilles pour le traitement des cicatrices",
+              "kr": false
+            },
+            {
+              "name": "ZO Skin Health Peels",
+              "tag": "Peeling chimique",
+              "origin": "ZO Skin Health / USA",
+              "description": "Protocoles de peeling de grade medical par le Dr Zein Obagi",
+              "kr": false
+            },
+            {
+              "name": "SkinCeuticals Peels",
+              "tag": "Peeling chimique",
+              "origin": "SkinCeuticals / USA",
+              "description": "Gamme professionnelle de peelings chimiques incluant Micropeel et Advanced Corrective",
+              "kr": false
+            }
           ]
         },
         {
           "id": "pigment",
           "title": "Pigmentation et vasculaire",
           "treatments": [
-            { "name": "Excel V+", "tag": "Laser vasculaire", "origin": "Cutera / USA", "description": "Laser double longueur d'onde (532/1064nm) pour rosacee, veines et revitalisation cutanee", "kr": true },
-            { "name": "GentleMax Pro Plus", "tag": "Alex/Nd:YAG", "origin": "Candela / USA", "description": "Laser double 755nm + 1064nm pour lesions vasculaires, pigment et epilation", "kr": true },
-            { "name": "Vbeam Prima", "tag": "Colorant pulse", "origin": "Candela / USA", "description": "Laser vasculaire double 595nm + 1064nm ; reference pour la rosacee et les angiomes plans", "kr": false },
-            { "name": "RevLite SI", "tag": "Q-switched Nd:YAG", "origin": "Cynosure / USA", "description": "Laser toning pour melasma, pigmentation et rajeunissement cutane sur peau asiatique", "kr": true },
-            { "name": "Spectra XT", "tag": "Q-switched Nd:YAG", "origin": "Lutronic / Coree", "description": "Plateforme laser toning largement utilisee dans les cliniques coreennes pour le melasma", "kr": true }
+            {
+              "name": "Excel V+",
+              "tag": "Laser vasculaire",
+              "origin": "Cutera / USA",
+              "description": "Laser double longueur d'onde (532/1064nm) pour rosacee, veines et revitalisation cutanee",
+              "kr": true
+            },
+            {
+              "name": "GentleMax Pro Plus",
+              "tag": "Alex/Nd:YAG",
+              "origin": "Candela / USA",
+              "description": "Laser double 755nm + 1064nm pour lesions vasculaires, pigment et epilation",
+              "kr": true
+            },
+            {
+              "name": "Vbeam Prima",
+              "tag": "Colorant pulse",
+              "origin": "Candela / USA",
+              "description": "Laser vasculaire double 595nm + 1064nm ; reference pour la rosacee et les angiomes plans",
+              "kr": false
+            },
+            {
+              "name": "RevLite SI",
+              "tag": "Q-switched Nd:YAG",
+              "origin": "Cynosure / USA",
+              "description": "Laser toning pour melasma, pigmentation et rajeunissement cutane sur peau asiatique",
+              "kr": true
+            },
+            {
+              "name": "Spectra XT",
+              "tag": "Q-switched Nd:YAG",
+              "origin": "Lutronic / Coree",
+              "description": "Plateforme laser toning largement utilisee dans les cliniques coreennes pour le melasma",
+              "kr": true
+            }
           ]
         },
         {
           "id": "bodyContouring",
           "title": "Remodelage corporel non chirurgical",
           "treatments": [
-            { "name": "CoolSculpting Elite", "tag": "Cryolipolyse", "origin": "Allergan / USA", "description": "Refroidissement controle agree FDA pour geler et eliminer les cellules graisseuses", "kr": true },
-            { "name": "Emsculpt NEO", "tag": "HIFEM + RF", "origin": "BTL / USA-Tcheque", "description": "Combine stimulation electromagnetique musculaire + RF pour developpement musculaire et reduction graisseuse simultanees", "kr": true },
-            { "name": "Vanquish ME", "tag": "RF sans contact", "origin": "BTL / USA-Tcheque", "description": "RF selective sans contact pour reduction graisseuse sur grande surface sans toucher la peau", "kr": false },
-            { "name": "SculpSure", "tag": "Lipolyse laser", "origin": "Cynosure / USA", "description": "Laser diode 1060nm pour reduction graisseuse non invasive sur plusieurs zones corporelles", "kr": false },
-            { "name": "TightSculpting", "tag": "Double laser", "origin": "Fotona / Slovenie", "description": "Laser double longueur d'onde Er:YAG + Nd:YAG pour sculpture et raffermissement simultanes", "kr": false },
-            { "name": "Scizer", "tag": "HIFU corps", "origin": "Classys / Coree", "description": "Remodelage corporel par HIFU ; agree FDA pour reduction graisseuse non invasive", "kr": true }
+            {
+              "name": "CoolSculpting Elite",
+              "tag": "Cryolipolyse",
+              "origin": "Allergan / USA",
+              "description": "Refroidissement controle agree FDA pour geler et eliminer les cellules graisseuses",
+              "kr": true
+            },
+            {
+              "name": "Emsculpt NEO",
+              "tag": "HIFEM + RF",
+              "origin": "BTL / USA-Tcheque",
+              "description": "Combine stimulation electromagnetique musculaire + RF pour developpement musculaire et reduction graisseuse simultanees",
+              "kr": true
+            },
+            {
+              "name": "Vanquish ME",
+              "tag": "RF sans contact",
+              "origin": "BTL / USA-Tcheque",
+              "description": "RF selective sans contact pour reduction graisseuse sur grande surface sans toucher la peau",
+              "kr": false
+            },
+            {
+              "name": "SculpSure",
+              "tag": "Lipolyse laser",
+              "origin": "Cynosure / USA",
+              "description": "Laser diode 1060nm pour reduction graisseuse non invasive sur plusieurs zones corporelles",
+              "kr": false
+            },
+            {
+              "name": "TightSculpting",
+              "tag": "Double laser",
+              "origin": "Fotona / Slovenie",
+              "description": "Laser double longueur d'onde Er:YAG + Nd:YAG pour sculpture et raffermissement simultanes",
+              "kr": false
+            },
+            {
+              "name": "Scizer",
+              "tag": "HIFU corps",
+              "origin": "Classys / Coree",
+              "description": "Remodelage corporel par HIFU ; agree FDA pour reduction graisseuse non invasive",
+              "kr": true
+            }
           ]
         },
         {
           "id": "scalpHair",
           "title": "Cuir chevelu et cheveux (non chirurgical)",
           "treatments": [
-            { "name": "PRP Therapy (Scalp)", "tag": "PRP", "origin": "Divers / Mondial", "description": "Plasma riche en plaquettes injecte dans le cuir chevelu pour stimuler la regeneration folliculaire", "kr": true },
-            { "name": "Scalp Mesotherapy", "tag": "Mesotherapie", "origin": "Divers / Coree", "description": "Injection directe de facteurs de croissance, vitamines et nutriments dans le cuir chevelu", "kr": true },
-            { "name": "Hair Filler (DR CYJ)", "tag": "Filler peptidique", "origin": "Caregen / Coree", "description": "Injectable pour cuir chevelu a base de 7 peptides biomimetiques pour stimuler la pousse des cheveux", "kr": true },
-            { "name": "HairMax LaserBand", "tag": "LLLT", "origin": "HairMax / USA", "description": "Premier dispositif LLLT agree FDA pour le traitement de la perte de cheveux", "kr": false },
-            { "name": "Healite II (Scalp)", "tag": "LED Therapie", "origin": "Bio-Photas / Coree", "description": "LED 830nm pour stimulation folliculaire et absorption amelioree du PRP", "kr": true }
+            {
+              "name": "PRP Therapy (Scalp)",
+              "tag": "PRP",
+              "origin": "Divers / Mondial",
+              "description": "Plasma riche en plaquettes injecte dans le cuir chevelu pour stimuler la regeneration folliculaire",
+              "kr": true
+            },
+            {
+              "name": "Scalp Mesotherapy",
+              "tag": "Mesotherapie",
+              "origin": "Divers / Coree",
+              "description": "Injection directe de facteurs de croissance, vitamines et nutriments dans le cuir chevelu",
+              "kr": true
+            },
+            {
+              "name": "Hair Filler (DR CYJ)",
+              "tag": "Filler peptidique",
+              "origin": "Caregen / Coree",
+              "description": "Injectable pour cuir chevelu a base de 7 peptides biomimetiques pour stimuler la pousse des cheveux",
+              "kr": true
+            },
+            {
+              "name": "HairMax LaserBand",
+              "tag": "LLLT",
+              "origin": "HairMax / USA",
+              "description": "Premier dispositif LLLT agree FDA pour le traitement de la perte de cheveux",
+              "kr": false
+            },
+            {
+              "name": "Healite II (Scalp)",
+              "tag": "LED Therapie",
+              "origin": "Bio-Photas / Coree",
+              "description": "LED 830nm pour stimulation folliculaire et absorption amelioree du PRP",
+              "kr": true
+            }
           ]
         },
         {
           "id": "stemCell",
           "title": "Cellules souches et medecine regenerative",
           "treatments": [
-            { "name": "Autologous Stem Cell Therapy", "tag": "Cellules souches", "origin": "Divers / Coree", "description": "Cellules souches derivees du tissu adipeux ou de la moelle osseuse du patient pour regeneration cutanee, cicatrisation et anti-age", "kr": true },
-            { "name": "Umbilical Cord Stem Cell (UC-MSC)", "tag": "Cellules souches", "origin": "Divers / Coree", "description": "Cellules souches mesenchymateuses allogeniques du cordon ombilical pour anti-age, modulation immunitaire et reparation tissulaire", "kr": true },
-            { "name": "MCT (MicroCoring Technology)", "tag": "Resurfacage cutane", "origin": "Cytrellis / USA", "description": "Des micro-carottes de peau sont retirees pour raffermir et rajeunir sans dommage thermique ; agree FDA pour reduction des rides", "kr": false },
-            { "name": "Exosome IV Therapy", "tag": "Exosome", "origin": "Divers / Coree", "description": "Perfusion intraveineuse d'exosomes derives de cellules souches pour anti-age systemique, rajeunissement cutane et reparation cellulaire", "kr": true },
-            { "name": "SVF (Stromal Vascular Fraction)", "tag": "Cellules souches", "origin": "Divers / Coree", "description": "Cellules souches et facteurs de croissance concentres derives du tissu adipeux pour rajeunissement facial et restauration du volume", "kr": true },
-            { "name": "PRP + Stem Cell Combination", "tag": "Regeneratif", "origin": "Divers / Coree", "description": "Plasma riche en plaquettes combine a la therapie par cellules souches pour une regeneration cutanee et une production de collagene ameliorees", "kr": true },
-            { "name": "NK Cell Therapy", "tag": "Cellule immunitaire", "origin": "Divers / Coree", "description": "Therapie par perfusion de cellules NK pour le renforcement immunitaire, l'anti-age et l'optimisation de la sante cellulaire", "kr": true },
-            { "name": "Fibroblast Therapy", "tag": "Therapie cellulaire", "origin": "Divers / Coree", "description": "Injection de fibroblastes autologues pour production naturelle de collagene et d'elastine ; amelioration a long terme de la qualite cutanee", "kr": true },
-            { "name": "Growth Factor Cocktail (GFC)", "tag": "Facteur de croissance", "origin": "Divers / Coree", "description": "Injection concentree de facteurs de croissance autologues pour rajeunissement cutane, pousse des cheveux et cicatrisation", "kr": true },
-            { "name": "Placental Extract Therapy", "tag": "Regeneratif", "origin": "Divers / Coree-Japon", "description": "Injection d'extrait placentaire humain (Laennec/Melsmon) pour anti-age, recuperation de la fatigue et fonction hepatique", "kr": true }
+            {
+              "name": "Autologous Stem Cell Therapy",
+              "tag": "Cellules souches",
+              "origin": "Divers / Coree",
+              "description": "Cellules souches derivees du tissu adipeux ou de la moelle osseuse du patient pour regeneration cutanee, cicatrisation et anti-age",
+              "kr": true
+            },
+            {
+              "name": "Umbilical Cord Stem Cell (UC-MSC)",
+              "tag": "Cellules souches",
+              "origin": "Divers / Coree",
+              "description": "Cellules souches mesenchymateuses allogeniques du cordon ombilical pour anti-age, modulation immunitaire et reparation tissulaire",
+              "kr": true
+            },
+            {
+              "name": "MCT (MicroCoring Technology)",
+              "tag": "Resurfacage cutane",
+              "origin": "Cytrellis / USA",
+              "description": "Des micro-carottes de peau sont retirees pour raffermir et rajeunir sans dommage thermique ; agree FDA pour reduction des rides",
+              "kr": false
+            },
+            {
+              "name": "Exosome IV Therapy",
+              "tag": "Exosome",
+              "origin": "Divers / Coree",
+              "description": "Perfusion intraveineuse d'exosomes derives de cellules souches pour anti-age systemique, rajeunissement cutane et reparation cellulaire",
+              "kr": true
+            },
+            {
+              "name": "SVF (Stromal Vascular Fraction)",
+              "tag": "Cellules souches",
+              "origin": "Divers / Coree",
+              "description": "Cellules souches et facteurs de croissance concentres derives du tissu adipeux pour rajeunissement facial et restauration du volume",
+              "kr": true
+            },
+            {
+              "name": "PRP + Stem Cell Combination",
+              "tag": "Regeneratif",
+              "origin": "Divers / Coree",
+              "description": "Plasma riche en plaquettes combine a la therapie par cellules souches pour une regeneration cutanee et une production de collagene ameliorees",
+              "kr": true
+            },
+            {
+              "name": "NK Cell Therapy",
+              "tag": "Cellule immunitaire",
+              "origin": "Divers / Coree",
+              "description": "Therapie par perfusion de cellules NK pour le renforcement immunitaire, l'anti-age et l'optimisation de la sante cellulaire",
+              "kr": true
+            },
+            {
+              "name": "Fibroblast Therapy",
+              "tag": "Therapie cellulaire",
+              "origin": "Divers / Coree",
+              "description": "Injection de fibroblastes autologues pour production naturelle de collagene et d'elastine ; amelioration a long terme de la qualite cutanee",
+              "kr": true
+            },
+            {
+              "name": "Growth Factor Cocktail (GFC)",
+              "tag": "Facteur de croissance",
+              "origin": "Divers / Coree",
+              "description": "Injection concentree de facteurs de croissance autologues pour rajeunissement cutane, pousse des cheveux et cicatrisation",
+              "kr": true
+            },
+            {
+              "name": "Placental Extract Therapy",
+              "tag": "Regeneratif",
+              "origin": "Divers / Coree-Japon",
+              "description": "Injection d'extrait placentaire humain (Laennec/Melsmon) pour anti-age, recuperation de la fatigue et fonction hepatique",
+              "kr": true
+            }
           ]
         }
       ],
@@ -1796,9 +2688,18 @@
       "introDetail": "Avec des techniques FUE avancees, des chirurgiens experimentes et des prix competitifs, Seoul est devenue un centre mondial. Mais choisir la bonne clinique exige plus qu'une recherche Google."
     },
     "toc": [
-      { "id": "why-korea", "label": "Pourquoi les patients choisissent la Coree" },
-      { "id": "what-we-offer", "label": "Ce qu'offre AetherHeal" },
-      { "id": "common-procedures", "label": "Procedures courantes couvertes" }
+      {
+        "id": "why-korea",
+        "label": "Pourquoi les patients choisissent la Coree"
+      },
+      {
+        "id": "what-we-offer",
+        "label": "Ce qu'offre AetherHeal"
+      },
+      {
+        "id": "common-procedures",
+        "label": "Procedures courantes couvertes"
+      }
     ],
     "whyKorea": {
       "title": "Pourquoi les patients choisissent la Coree pour la greffe de cheveux",
@@ -1822,10 +2723,22 @@
       "boxText": "Chaque cas est evalue individuellement. Nous veillons a ce qu'aucune recommandation standardisee ne soit formulee."
     },
     "relatedPages": [
-      { "label": "Cliniques esthetiques a Seoul", "desc": "Naviguez les traitements cutanes et la dermatologie" },
-      { "label": "Comment choisir un hopital a l'etranger", "desc": "Un cadre pour des decisions plus sures" },
-      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment nous evaluons les hopitaux partenaires" },
-      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+      {
+        "label": "Cliniques esthetiques a Seoul",
+        "desc": "Naviguez les traitements cutanes et la dermatologie"
+      },
+      {
+        "label": "Comment choisir un hopital a l'etranger",
+        "desc": "Un cadre pour des decisions plus sures"
+      },
+      {
+        "label": "Le protocole de confiance AetherHeal",
+        "desc": "Comment nous evaluons les hopitaux partenaires"
+      },
+      {
+        "label": "Comment fonctionne AetherHeal",
+        "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins"
+      }
     ]
   },
   "plasticSurgery": {
@@ -1841,9 +2754,18 @@
       "introDetail": "Pour les patients internationaux, cela cree a la fois des opportunites et de la complexite. AetherHeal vous aide a naviguer cette complexite avec un soutien decisionnel dirige par un medecin — avant de contacter un hopital."
     },
     "toc": [
-      { "id": "common-procedures", "label": "Procedures couramment envisagees" },
-      { "id": "risk-of-unstructured", "label": "Le risque des decisions non structurees" },
-      { "id": "how-aetherheal-helps", "label": "Comment AetherHeal aide" }
+      {
+        "id": "common-procedures",
+        "label": "Procedures couramment envisagees"
+      },
+      {
+        "id": "risk-of-unstructured",
+        "label": "Le risque des decisions non structurees"
+      },
+      {
+        "id": "how-aetherheal-helps",
+        "label": "Comment AetherHeal aide"
+      }
     ],
     "commonProcedures": {
       "title": "Procedures couramment envisagees",
@@ -1865,10 +2787,22 @@
       ]
     },
     "relatedPages": [
-      { "label": "Greffe de cheveux en Coree", "desc": "Accompagnement dirige par un medecin pour la restauration capillaire" },
-      { "label": "Cliniques esthetiques a Seoul", "desc": "Naviguez les traitements cutanes et la dermatologie" },
-      { "label": "Comment choisir un hopital a l'etranger", "desc": "Un cadre pour des decisions plus sures" },
-      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+      {
+        "label": "Greffe de cheveux en Coree",
+        "desc": "Accompagnement dirige par un medecin pour la restauration capillaire"
+      },
+      {
+        "label": "Cliniques esthetiques a Seoul",
+        "desc": "Naviguez les traitements cutanes et la dermatologie"
+      },
+      {
+        "label": "Comment choisir un hopital a l'etranger",
+        "desc": "Un cadre pour des decisions plus sures"
+      },
+      {
+        "label": "Comment fonctionne AetherHeal",
+        "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins"
+      }
     ]
   },
   "aestheticClinic": {
@@ -1884,9 +2818,18 @@
       "introDetail": "La densite d'options peut etre ecrasante pour les patients internationaux. AetherHeal fournit un accompagnement structure pour vous aider a prendre des decisions eclairees sur les traitements cutanes et les procedures cosmetiques."
     },
     "toc": [
-      { "id": "why-seoul", "label": "Pourquoi Seoul pour les traitements esthetiques" },
-      { "id": "how-we-support", "label": "Comment AetherHeal soutient votre decision" },
-      { "id": "treatments-discussed", "label": "Traitements couramment discutes" }
+      {
+        "id": "why-seoul",
+        "label": "Pourquoi Seoul pour les traitements esthetiques"
+      },
+      {
+        "id": "how-we-support",
+        "label": "Comment AetherHeal soutient votre decision"
+      },
+      {
+        "id": "treatments-discussed",
+        "label": "Traitements couramment discutes"
+      }
     ],
     "whySeoul": {
       "title": "Pourquoi Seoul pour les traitements esthetiques",
@@ -1909,10 +2852,22 @@
       "callout": "Chaque plan de traitement est discute avec un medecin agree avant tout contact avec une clinique."
     },
     "relatedPages": [
-      { "label": "Greffe de cheveux en Coree", "desc": "Accompagnement dirige par un medecin pour la restauration capillaire" },
-      { "label": "Chirurgie esthetique en Coree", "desc": "Soutien decisionnel structure pour les procedures cosmetiques" },
-      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment nous evaluons les hopitaux partenaires" },
-      { "label": "Votre parcours medical", "desc": "Coordination de bout en bout de la decision a la convalescence" }
+      {
+        "label": "Greffe de cheveux en Coree",
+        "desc": "Accompagnement dirige par un medecin pour la restauration capillaire"
+      },
+      {
+        "label": "Chirurgie esthetique en Coree",
+        "desc": "Soutien decisionnel structure pour les procedures cosmetiques"
+      },
+      {
+        "label": "Le protocole de confiance AetherHeal",
+        "desc": "Comment nous evaluons les hopitaux partenaires"
+      },
+      {
+        "label": "Votre parcours medical",
+        "desc": "Coordination de bout en bout de la decision a la convalescence"
+      }
     ]
   },
   "medicalJourney": {
@@ -1928,10 +2883,22 @@
       "introDetail": "AetherHeal separe le parcours en avant le voyage, en Coree et apres le retour pour que le soutien IA, l'examen medical, les soins hospitaliers et la responsabilite de la conciergerie ne se confondent pas."
     },
     "toc": [
-      { "id": "before-travel", "label": "Avant le voyage" },
-      { "id": "in-korea", "label": "En Coree" },
-      { "id": "after-return", "label": "Apres le retour" },
-      { "id": "what-makes-different", "label": "Ce qui rend cela different" }
+      {
+        "id": "before-travel",
+        "label": "Avant le voyage"
+      },
+      {
+        "id": "in-korea",
+        "label": "En Coree"
+      },
+      {
+        "id": "after-return",
+        "label": "Apres le retour"
+      },
+      {
+        "id": "what-makes-different",
+        "label": "Ce qui rend cela different"
+      }
     ],
     "journeyStages": {
       "title": "Trois etapes, un parcours responsable",
@@ -1944,9 +2911,18 @@
           "summary": "Cette etape sert a structurer le cas avant que tout parcours de traitement ne commence. L'objectif est la preparation a la decision, pas la vitesse.",
           "milestonesTitle": "Jalons principaux",
           "items": [
-            { "title": "Structuration de la decision", "desc": "Objectifs, contraintes, dossiers anterieurs et questions ouvertes sont organises en un cadre decisionnel plus clair avant la prise de contact avec les partenaires." },
-            { "title": "Preparation de la faisabilite", "desc": "Les documents appropries, contraintes de voyage et hypotheses de perimetre sont verifies pour que le cas soit adapte a l'examen hospitalier." },
-            { "title": "Preparation de la coordination", "desc": "L'intention de planification, les calendriers probables et la planification pratique du voyage ne sont prepares qu'apres que le cas est suffisamment clarifie." }
+            {
+              "title": "Structuration de la decision",
+              "desc": "Objectifs, contraintes, dossiers anterieurs et questions ouvertes sont organises en un cadre decisionnel plus clair avant la prise de contact avec les partenaires."
+            },
+            {
+              "title": "Preparation de la faisabilite",
+              "desc": "Les documents appropries, contraintes de voyage et hypotheses de perimetre sont verifies pour que le cas soit adapte a l'examen hospitalier."
+            },
+            {
+              "title": "Preparation de la coordination",
+              "desc": "L'intention de planification, les calendriers probables et la planification pratique du voyage ne sont prepares qu'apres que le cas est suffisamment clarifie."
+            }
           ],
           "aiTitle": "L'IA soutient",
           "aiItems": [
@@ -1968,9 +2944,18 @@
           "summary": "Une fois le patient sur place, la coordination doit rester precise tandis que l'autorite de traitement reste a l'institution traitante et aux cliniciens responsables.",
           "milestonesTitle": "Jalons principaux",
           "items": [
-            { "title": "Arrivee et transfert", "desc": "Un concierge verifie — chauffeur, traducteur ou guide — est assigne avant votre atterrissage. La coordination en temps reel synchronise la prise en charge a l'aeroport, le transport et les rendez-vous sans que le patient ne gere seul la logistique." },
-            { "title": "Execution hospitaliere", "desc": "Consultation, consentement eclaire et planification du traitement ont lieu dans l'environnement de l'hopital ou de la clinique agrees." },
-            { "title": "Soutien en temps reel", "desc": "Votre equipe de conciergerie — chauffeurs freelance verifies, interpretes hospitaliers certifies et guides locaux — coordonne sur le terrain via une plateforme en direct. Les retards, transferts manques ou escalades sont visibles en temps reel." }
+            {
+              "title": "Arrivee et transfert",
+              "desc": "Un concierge verifie — chauffeur, traducteur ou guide — est assigne avant votre atterrissage. La coordination en temps reel synchronise la prise en charge a l'aeroport, le transport et les rendez-vous sans que le patient ne gere seul la logistique."
+            },
+            {
+              "title": "Execution hospitaliere",
+              "desc": "Consultation, consentement eclaire et planification du traitement ont lieu dans l'environnement de l'hopital ou de la clinique agrees."
+            },
+            {
+              "title": "Soutien en temps reel",
+              "desc": "Votre equipe de conciergerie — chauffeurs freelance verifies, interpretes hospitaliers certifies et guides locaux — coordonne sur le terrain via une plateforme en direct. Les retards, transferts manques ou escalades sont visibles en temps reel."
+            }
           ],
           "aiTitle": "L'IA soutient",
           "aiItems": [
@@ -1992,9 +2977,18 @@
           "summary": "Apres le retour du patient, la continuite est essentielle. L'objectif est de preserver la communication, le suivi et l'escalade documentee si necessaire.",
           "milestonesTitle": "Jalons principaux",
           "items": [
-            { "title": "Continuite du suivi", "desc": "Mises a jour, bilans et continuite des soins sont coordonnes pour que la communication de convalescence ne se fragmente pas a travers les frontieres." },
-            { "title": "Hygiene documentaire", "desc": "Notes de convalescence, images et messages de suivi sont organises pour examen et continuite du cas." },
-            { "title": "Discipline d'escalade", "desc": "Si des preoccupations de convalescence surviennent, le patient est oriente vers le medecin traitant ou local approprie plutot que vers une reassurance informelle." }
+            {
+              "title": "Continuite du suivi",
+              "desc": "Mises a jour, bilans et continuite des soins sont coordonnes pour que la communication de convalescence ne se fragmente pas a travers les frontieres."
+            },
+            {
+              "title": "Hygiene documentaire",
+              "desc": "Notes de convalescence, images et messages de suivi sont organises pour examen et continuite du cas."
+            },
+            {
+              "title": "Discipline d'escalade",
+              "desc": "Si des preoccupations de convalescence surviennent, le patient est oriente vers le medecin traitant ou local approprie plutot que vers une reassurance informelle."
+            }
           ],
           "aiTitle": "L'IA soutient",
           "aiItems": [
@@ -2019,9 +3013,18 @@
       "ctaPhilosophy": "Lire la philosophie complete"
     },
     "relatedPages": [
-      { "label": "Comment choisir un hopital a l'etranger", "desc": "Un cadre pour des decisions plus sures" },
-      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment fonctionnent la gouvernance, l'audit et l'application" },
-      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+      {
+        "label": "Comment choisir un hopital a l'etranger",
+        "desc": "Un cadre pour des decisions plus sures"
+      },
+      {
+        "label": "Le protocole de confiance AetherHeal",
+        "desc": "Comment fonctionnent la gouvernance, l'audit et l'application"
+      },
+      {
+        "label": "Comment fonctionne AetherHeal",
+        "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins"
+      }
     ]
   },
   "hospitalAbroad": {
@@ -2037,22 +3040,53 @@
       "p2": "Mais choisir un hopital a l'etranger n'est pas une decision de consommation ordinaire.",
       "callout": "C'est une decision a enjeux eleves dans l'incertitude.",
       "selectingLabel": "Vous selectionnez :",
-      "selectingItems": ["une equipe medicale", "un plan de traitement", "un systeme de sante"],
+      "selectingItems": [
+        "une equipe medicale",
+        "un plan de traitement",
+        "un systeme de sante"
+      ],
       "selectingEnd": "dans un pays que vous ne comprenez peut-etre pas entierement.",
       "p3": "Internet offre une information infinie : avis, forums, photos avant-apres, sites de cliniques.",
       "p4": "Mais plus d'information ne cree pas necessairement de la clarte. Dans de nombreux cas, cela cree une surcharge decisionnelle.",
       "guideIntro": "Ce guide explique comment les medecins experimentes et les systemes de sante evaluent les hopitaux — et comment les patients internationaux peuvent appliquer la meme logique pour choisir un traitement a l'etranger."
     },
     "toc": [
-      { "id": "why-different", "label": "Pourquoi choisir un hopital a l'etranger est different" },
-      { "id": "common-mistakes", "label": "Erreurs courantes des patients internationaux" },
-      { "id": "hospital-quality", "label": "Ce qui determine reellement la qualite d'un hopital" },
-      { "id": "reviews-rankings", "label": "Pourquoi les avis et classements ne suffisent pas" },
-      { "id": "physician-led", "label": "Le modele de verification dirige par des medecins" },
-      { "id": "patient-journey", "label": "Le parcours du patient international" },
-      { "id": "south-korea", "label": "Pourquoi de nombreux patients choisissent la Coree du Sud" },
-      { "id": "structured-approach", "label": "Une approche structuree du voyage medical" },
-      { "id": "faq", "label": "Questions frequentes" }
+      {
+        "id": "why-different",
+        "label": "Pourquoi choisir un hopital a l'etranger est different"
+      },
+      {
+        "id": "common-mistakes",
+        "label": "Erreurs courantes des patients internationaux"
+      },
+      {
+        "id": "hospital-quality",
+        "label": "Ce qui determine reellement la qualite d'un hopital"
+      },
+      {
+        "id": "reviews-rankings",
+        "label": "Pourquoi les avis et classements ne suffisent pas"
+      },
+      {
+        "id": "physician-led",
+        "label": "Le modele de verification dirige par des medecins"
+      },
+      {
+        "id": "patient-journey",
+        "label": "Le parcours du patient international"
+      },
+      {
+        "id": "south-korea",
+        "label": "Pourquoi de nombreux patients choisissent la Coree du Sud"
+      },
+      {
+        "id": "structured-approach",
+        "label": "Une approche structuree du voyage medical"
+      },
+      {
+        "id": "faq",
+        "label": "Questions frequentes"
+      }
     ],
     "whyDifferent": {
       "title": "Pourquoi choisir un hopital a l'etranger est different",
@@ -2066,21 +3100,33 @@
           "title": "1. Asymetrie d'information",
           "p1": "En medecine, les patients possedent rarement les memes connaissances que les cliniciens.",
           "p2": "Comprendre la qualite d'un traitement necessite :",
-          "items": ["une formation medicale", "une experience des complications", "une familiarite avec les resultats cliniques"],
+          "items": [
+            "une formation medicale",
+            "une experience des complications",
+            "une familiarite avec les resultats cliniques"
+          ],
           "conclusion": "Cela rend difficile l'evaluation des prestataires a l'aide de signaux de consommation standard."
         },
         {
           "title": "2. Les resultats sont incertains",
           "p1": "Contrairement a l'achat d'un produit, les traitements medicaux impliquent des systemes biologiques.",
           "p2": "Meme dans d'excellents hopitaux :",
-          "items": ["les resultats peuvent varier", "des complications peuvent survenir", "les delais de recuperation different"],
+          "items": [
+            "les resultats peuvent varier",
+            "des complications peuvent survenir",
+            "les delais de recuperation different"
+          ],
           "conclusion": "Un bon processus decisionnel doit tenir compte de l'incertitude."
         },
         {
           "title": "3. Le cout des erreurs est eleve",
           "p1": "Si un achat de consommation echoue, il peut etre remplace.",
           "p2": "Si une decision medicale echoue, les consequences peuvent inclure :",
-          "items": ["des procedures de revision", "de longues periodes de recuperation", "un stress emotionnel significatif"],
+          "items": [
+            "des procedures de revision",
+            "de longues periodes de recuperation",
+            "un stress emotionnel significatif"
+          ],
           "conclusion": "Pour cette raison, le choix d'un hopital a l'etranger devrait etre aborde comme un processus decisionnel structure, pas comme une comparaison rapide."
         }
       ]
@@ -2094,26 +3140,46 @@
           "title": "Erreur 1 : Se fier fortement aux avis en ligne",
           "p1": "Les avis peuvent fournir un contexte utile, mais ils ont des limites structurelles.",
           "p2": "Ils ont tendance a refleter :",
-          "items": ["des experiences extremement positives", "des experiences extremement negatives"],
+          "items": [
+            "des experiences extremement positives",
+            "des experiences extremement negatives"
+          ],
           "p3": "plutot que des resultats typiques.",
           "p4": "De plus, les avis incluent rarement des informations medicales detaillees sur :",
-          "items2": ["la selection des patients", "la complexite du traitement", "le suivi clinique"],
+          "items2": [
+            "la selection des patients",
+            "la complexite du traitement",
+            "le suivi clinique"
+          ],
           "scenario": "De nombreux patients internationaux commencent leur recherche par les avis en ligne. Bien que les avis puissent mettre en lumiere les experiences des patients, ils refletent rarement la complexite clinique. Un patient subissant une procedure de routine peut laisser un avis cinq etoiles, tandis qu'un cas plus complexe — impliquant une chirurgie de revision, une anatomie inhabituelle ou un risque de complication plus eleve — peut necessiter un niveau d'expertise fondamentalement different que les avis ne capturent pas."
         },
         {
           "title": "Erreur 2 : Comparer les cliniques principalement par le prix",
           "p1": "Les differences de prix entre pays sont souvent importantes.",
           "p2": "Cependant, se concentrer uniquement sur le cout ignore d'autres variables essentielles :",
-          "items": ["experience du chirurgien", "infrastructure hospitaliere", "gestion des complications", "soins de suivi"],
+          "items": [
+            "experience du chirurgien",
+            "infrastructure hospitaliere",
+            "gestion des complications",
+            "soins de suivi"
+          ],
           "conclusion": "Des prix plus bas peuvent refleter des couts operationnels plus faibles — mais aussi des differences de formation ou de systemes."
         },
         {
           "title": "Erreur 3 : Evaluer le marketing plutot que la medecine",
           "p1": "De nombreux sites de cliniques mettent en avant :",
-          "items": ["des photos avant-apres", "des temoignages", "la visibilite sur les reseaux sociaux"],
+          "items": [
+            "des photos avant-apres",
+            "des temoignages",
+            "la visibilite sur les reseaux sociaux"
+          ],
           "p2": "Bien que ces elements puissent demontrer la satisfaction des patients, ils ne sont pas des substituts a l'evaluation clinique.",
           "p3": "La qualite medicale est determinee par :",
-          "items2": ["l'expertise du medecin", "les normes institutionnelles", "les resultats a long terme"]
+          "items2": [
+            "l'expertise du medecin",
+            "les normes institutionnelles",
+            "les resultats a long terme"
+          ]
         }
       ]
     },
@@ -2126,13 +3192,22 @@
           "title": "Formation et specialisation du medecin",
           "p1": "Le parcours de formation du medecin realisant la procedure est souvent la variable la plus importante.",
           "p2": "Les considerations cles incluent :",
-          "items": ["formation medicale et internat", "experience specifique a la procedure", "implication dans la recherche ou l'enseignement"]
+          "items": [
+            "formation medicale et internat",
+            "experience specifique a la procedure",
+            "implication dans la recherche ou l'enseignement"
+          ]
         },
         {
           "title": "Normes institutionnelles",
           "p1": "Les hopitaux different significativement dans leurs systemes et infrastructures.",
           "p2": "Les elements importants incluent :",
-          "items": ["protocoles de bloc operatoire", "normes de sterilisation", "expertise infirmiere", "systemes de gestion des complications"]
+          "items": [
+            "protocoles de bloc operatoire",
+            "normes de sterilisation",
+            "expertise infirmiere",
+            "systemes de gestion des complications"
+          ]
         },
         {
           "title": "Volume de procedures",
@@ -2150,10 +3225,18 @@
     "reviewsRankings": {
       "title": "Pourquoi les avis et classements ne suffisent pas",
       "p1": "Les plateformes en ligne classent frequemment les cliniques selon :",
-      "items1": ["nombre d'avis", "notes", "indicateurs de popularite"],
+      "items1": [
+        "nombre d'avis",
+        "notes",
+        "indicateurs de popularite"
+      ],
       "p2": "Ces systemes peuvent etre utiles pour identifier des prestataires largement connus.",
       "p3": "Cependant, ils integrent rarement des signaux cliniques plus profonds tels que :",
-      "items2": ["planification du traitement", "selection des cas par le medecin", "gestion des complications"],
+      "items2": [
+        "planification du traitement",
+        "selection des cas par le medecin",
+        "gestion des complications"
+      ],
       "p4": "En consequence, les plateformes basees sur les avis optimisent souvent pour la visibilite plutot que pour la rigueur clinique.",
       "trustProtocolNote": {
         "before": "C'est la qu'un ",
@@ -2191,9 +3274,18 @@
     "southKorea": {
       "title": "Pourquoi de nombreux patients choisissent la Coree du Sud",
       "p1": "La Coree du Sud est devenue l'une des destinations leaders pour certaines specialites medicales, notamment :",
-      "specialties": ["greffe de cheveux", "medecine esthetique", "chirurgie esthetique", "ophtalmologie"],
+      "specialties": [
+        "greffe de cheveux",
+        "medecine esthetique",
+        "chirurgie esthetique",
+        "ophtalmologie"
+      ],
       "p2": "Plusieurs facteurs contribuent a cette reputation :",
-      "factors": ["medecins hautement specialises", "infrastructure medicale avancee", "fort accent sur les resultats techniques"],
+      "factors": [
+        "medecins hautement specialises",
+        "infrastructure medicale avancee",
+        "fort accent sur les resultats techniques"
+      ],
       "oecdNote": "La Coree du Sud a developpe l'une des plus fortes densites de medecins en Asie, selon les donnees de sante de l'OCDE. Pour les patients internationaux, Seoul en particulier a developpe un ecosysteme dense de cliniques specialisees.",
       "hairNote": "Explorez l'accompagnement dirige par des medecins pour des procedures specifiques comme la greffe de cheveux en Coree."
     },
@@ -2202,7 +3294,11 @@
       "p1": "En fin de compte, la strategie la plus efficace pour choisir un hopital a l'etranger n'est pas simplement de rassembler plus d'informations.",
       "p2": "C'est de structurer le processus decisionnel.",
       "p3": "Cela signifie :",
-      "items": ["identifier les facteurs cliniques pertinents", "verifier les capacites de l'hopital", "aligner les plans de traitement avec les objectifs du patient"],
+      "items": [
+        "identifier les facteurs cliniques pertinents",
+        "verifier les capacites de l'hopital",
+        "aligner les plans de traitement avec les objectifs du patient"
+      ],
       "p4": "Quand ces elements sont organises systematiquement, les patients peuvent passer de l'incertitude a la clarte."
     },
     "closing": {
@@ -2237,12 +3333,30 @@
       ]
     },
     "relatedPages": [
-      { "label": "Le protocole de confiance AetherHeal", "desc": "Comment nous evaluons les hopitaux partenaires" },
-      { "label": "Votre parcours medical", "desc": "Coordination de bout en bout de la decision a la convalescence" },
-      { "label": "Greffe de cheveux en Coree", "desc": "Accompagnement dirige par un medecin pour la restauration capillaire" },
-      { "label": "Chirurgie esthetique en Coree", "desc": "Soutien decisionnel structure pour les procedures cosmetiques" },
-      { "label": "Cliniques esthetiques a Seoul", "desc": "Naviguez les traitements cutanes et la dermatologie a Seoul" },
-      { "label": "Comment fonctionne AetherHeal", "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins" }
+      {
+        "label": "Le protocole de confiance AetherHeal",
+        "desc": "Comment nous evaluons les hopitaux partenaires"
+      },
+      {
+        "label": "Votre parcours medical",
+        "desc": "Coordination de bout en bout de la decision a la convalescence"
+      },
+      {
+        "label": "Greffe de cheveux en Coree",
+        "desc": "Accompagnement dirige par un medecin pour la restauration capillaire"
+      },
+      {
+        "label": "Chirurgie esthetique en Coree",
+        "desc": "Soutien decisionnel structure pour les procedures cosmetiques"
+      },
+      {
+        "label": "Cliniques esthetiques a Seoul",
+        "desc": "Naviguez les traitements cutanes et la dermatologie a Seoul"
+      },
+      {
+        "label": "Comment fonctionne AetherHeal",
+        "desc": "Le systeme derriere le soutien decisionnel dirige par des medecins"
+      }
     ]
   },
   "blog": {
@@ -2269,7 +3383,9 @@
       "medical-tourism": "Tourisme medical",
       "patient-guide": "Guide patient",
       "technology": "Technologie"
-    }
+    },
+    "keyTakeaways": "Points clés",
+    "faq": "Questions fréquentes"
   },
   "journeyAssurance": {
     "meta": {
@@ -2283,10 +3399,22 @@
       "intro": "AetherHeal est la seule plateforme de tourisme medical qui met en jeu ses propres revenus lorsque la mise en relation echoue. La garantie de parcours signifie que nous supportons des consequences financieres reelles si votre experience est insuffisante."
     },
     "toc": [
-      { "id": "how-it-works", "label": "Comment ca fonctionne" },
-      { "id": "coverage", "label": "Ce qui est couvert et ce qui ne l'est pas" },
-      { "id": "faq", "label": "Questions frequentes" },
-      { "id": "cta", "label": "Commencer" }
+      {
+        "id": "how-it-works",
+        "label": "Comment ca fonctionne"
+      },
+      {
+        "id": "coverage",
+        "label": "Ce qui est couvert et ce qui ne l'est pas"
+      },
+      {
+        "id": "faq",
+        "label": "Questions frequentes"
+      },
+      {
+        "id": "cta",
+        "label": "Commencer"
+      }
     ],
     "howItWorks": {
       "title": "Comment fonctionne la garantie de parcours",

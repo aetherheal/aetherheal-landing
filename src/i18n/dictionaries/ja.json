@@ -3335,7 +3335,9 @@
       "medical-tourism": "メディカルツーリズム",
       "patient-guide": "患者ガイド",
       "technology": "テクノロジー"
-    }
+    },
+    "keyTakeaways": "要点",
+    "faq": "よくある質問"
   },
   "journeyAssurance": {
     "meta": {

@@ -88,6 +88,18 @@
       "kind": "body-doorway",
       "aspectRatio": "4:3",
       "prompt": "A contemplative photograph taken from inside a modern glass-and-concrete Seoul building lobby looking out through a large window toward a single traditional Korean hanok doorway visible in the distance across a quiet courtyard. Soft morning light. No people. The visual composition layers modern and traditional architecture through a single frame."
+    },
+    {
+      "slug": "why-aetherheal-is-not-a-marketplace",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of two identical-looking sealed cream-coloured envelopes lying side by side on a pale veined marble surface. One envelope bears a small warm antique-gold wax seal; the other is unmarked. Strong directional window light from the upper left creates long parallel shadows across the marble. No visible writing, no addresses, no letters on either envelope. Quiet, architectural, contemplative mood — the visual metaphor of information asymmetry: two things that look the same but are not."
+    },
+    {
+      "slug": "why-aetherheal-is-not-a-marketplace",
+      "kind": "body-keystone",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial architectural photograph looking up at a single wedge-shaped stone keystone at the apex of a small ancient stone arch, photographed from slightly below with dramatic raking late-afternoon side light. The keystone is clearly the structural element holding the arch together. Warm stone tones against a deep slate sky. No people, no text, no decoration. The visual metaphor: one carefully shaped element that holds the entire structure in place."
     }
   ]
 }
