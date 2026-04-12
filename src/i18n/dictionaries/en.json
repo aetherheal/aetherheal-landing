@@ -67,11 +67,14 @@
       "disclaimer": "Decision support before hospital commitment.",
       "disclaimer2": "Not medical treatment or emergency care.",
       "openingDate": "Opening September 1, 2026",
+      "openingDateSuffix": "early assessments begin now.",
+      "ctaAssessment": "Begin Your Case Assessment",
       "waitlistButton": "Join the Waitlist",
       "waitlistPlaceholder": "Enter your email",
       "waitlistSuccess": "You're on the list! We'll be in touch.",
       "waitlistDuplicate": "You're already on the list!",
-      "ctaExplore": "See how trust works"
+      "ctaExplore": "How the process works",
+      "ctaAssessment": "Start Your Decision Assessment"
     },
     "problemQuote": {
       "title": "What patients are really afraid of",
@@ -352,21 +355,18 @@
       }
     },
     "partners": {
-      "subtitle": "Early Proof",
-      "compactTitle": "A trust story needs proof",
-      "compactDescription": "13 reviewed. 4 rejected. 9 admitted.",
-      "proofPoints": [
-        "31% rejection rate.",
-        "Candidates came through angel physicians, direct applications, and peer provider referrals.",
-        "Verification continues."
-      ],
+      "subtitle": "Verification Standard",
+      "compactTitle": "Not every hospital satisfies what we measure.",
+      "compactDescription": "31% of applicants did not meet the standard.",
+      "rejectionReasons": "Rejection reasons have included unverified physician credentials, undisclosed pricing structures, and refusal of procedure recording.",
+      "proofPoints": [],
       "compactStats": [
         {
           "number": "13",
-          "label": "Reviewed"
+          "label": "Hospitals Evaluated"
         },
         {
-          "number": "31%",
+          "number": "4",
           "label": "Rejected"
         },
         {
@@ -377,9 +377,9 @@
       "compactCta": "Trust Protocol"
     },
     "coverage": {
-      "badge": "Coverage",
-      "title": "High-Stake Domains",
-      "subtitle": "Where getting it right the first time matters.",
+      "badge": "Scope of Verification",
+      "title": "Where getting it right the first time matters",
+      "subtitle": "AetherHeal's verification standard applies across these areas.",
       "items": [
         "Hair Transplant",
         "Skin Aesthetic",
@@ -388,7 +388,7 @@
         "Vision Correction",
         "Dental",
         "Stem Cell Therapy",
-        "Liposuction & Fat Repositioning",
+        "Liposuction & Contouring",
         "Neurosurgery",
         "General Health Check-up",
         "Full Body MRI"
@@ -397,30 +397,44 @@
     "faq": {
       "title": "Common Questions",
       "subtitle": "The questions patients ask when trust matters more than volume.",
+      "groupAbout": "About AetherHeal",
+      "groupBoundaries": "Boundaries and safety",
       "items": [
         {
-          "question": "Is AetherHeal an AI doctor?",
-          "answer": "No. AetherHeal is not an AI doctor, and we do not present AI as a physician substitute. AI supports information structuring and continuity workflows, but licensed physicians and partner hospitals retain medical authority."
+          "question": "What does AetherHeal actually do?",
+          "answer": "AetherHeal helps international patients considering medical care in Korea make better decisions before committing to a hospital. We verify hospitals against a clinical standard, structure your case with physician oversight before any hospital contact, and maintain continuity after treatment through recovery monitoring. We do not provide medical care. We provide the decision infrastructure that should exist before medical care begins."
+        },
+        {
+          "question": "Who is this for?",
+          "answer": "AetherHeal is designed for international patients considering elective or high-stakes medical procedures in Korea — particularly those who want physician-level guidance before choosing a hospital. Most patients are evaluating aesthetic, reconstructive, or specialized procedures where the outcome is irreversible and the decision environment is unfamiliar. If you already have a hospital and physician you trust, you may not need us. If you are still deciding, that is exactly when we are most useful."
+        },
+        {
+          "question": "Who is responsible at each stage of the process?",
+          "answer": "Before you travel: AetherHeal and our physicians structure your decision. During treatment: the partner hospital holds clinical authority. After you return home: AetherHeal maintains continuity and escalation pathways. At no point does one party hold all three roles. That separation is by design."
+        },
+        {
+          "question": "What happens if something goes wrong after treatment?",
+          "answer": "Your case history, physician notes, and recovery timeline remain organized in AetherHeal's system for up to one year after treatment. If a concern emerges — whether in week one or month eight — you do not restart from zero. We surface the relevant history, coordinate with the partner hospital across language and time zone, and escalate if clinical re-evaluation is needed. Continuity does not end when you leave Korea."
         },
         {
           "question": "What does AI actually do inside AetherHeal?",
           "answer": "AI helps organize intake, surface missing information, support multilingual coordination, and keep post-treatment continuity signals visible. It accelerates the workflow; it does not make the medical decision."
         },
         {
-          "question": "Can AI override a physician or choose my hospital?",
-          "answer": "No. AI cannot override a physician, select your final hospital, make a diagnosis, recommend treatment, or book autonomously. Physician judgment, patient consent, and hospital feasibility remain the controlling layers."
+          "question": "Is AetherHeal a medical tourism agency?",
+          "answer": "No. AetherHeal is a decision infrastructure. Travel logistics are handled only after a structured medical decision has been made — not before."
         },
         {
           "question": "Is this medical consultation or telemedicine?",
           "answer": "No. AetherHeal is not medical consultation. It is decision preparation. Our physicians help you structure your thinking before you enter a hospital — they do not diagnose or treat. This separation preserves clarity and accountability."
         },
         {
-          "question": "Who is responsible at each stage of the process?",
-          "answer": "Responsibilities are clearly separated. Physicians support decision clarity. Hospitals deliver medical care. AetherHeal governs the process, coordination, and accountability at every step."
+          "question": "Can AI override a physician or choose my hospital?",
+          "answer": "No. AI cannot override a physician, select your final hospital, make a diagnosis, recommend treatment, or book autonomously. Physician judgment, patient consent, and hospital feasibility remain the controlling layers."
         },
         {
-          "question": "Is AetherHeal a medical tourism agency?",
-          "answer": "No. AetherHeal is a decision infrastructure. Travel logistics are handled only after a structured medical decision has been made — not before."
+          "question": "Is AetherHeal an AI doctor?",
+          "answer": "No. AetherHeal is not an AI doctor, and we do not present AI as a physician substitute. AI supports information structuring and continuity workflows, but licensed physicians and partner hospitals retain medical authority."
         },
         {
           "question": "Is my information safe?",
@@ -460,13 +474,15 @@
     },
     "cta": {
       "title": "Clarity before commitment",
-      "subtitle": "If you are considering care in Korea, start with a process designed to protect your decision before anyone tries to close it.",
-      "openingDate": "Opening September 1, 2026",
+      "subtitle": "If you are considering care in Korea, start with a process designed to protect your decision — before anyone asks you to make one.",
+      "ctaPrimary": "Begin Your Case Assessment",
+      "openingDate": "We are opening September 1, 2026.",
+      "openingDateSuffix": "Early case assessments are already underway.",
       "waitlistButton": "Join the Waitlist",
       "waitlistPlaceholder": "Enter your email",
       "waitlistSuccess": "You're on the list! We'll be in touch.",
       "waitlistDuplicate": "You're already on the list!",
-      "ctaExplore": "See how trust works",
+      "ctaExplore": "How the process works",
       "signature": "Dr. Jee Hoon Ju"
     }
   },

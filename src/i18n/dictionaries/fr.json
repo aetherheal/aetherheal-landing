@@ -67,11 +67,13 @@
       "disclaimer": "Soutien a la decision avant l'engagement hospitalier.",
       "disclaimer2": "Ni traitement medical ni soins d'urgence.",
       "openingDate": "Ouverture le 1er septembre 2026",
+      "openingDateSuffix": "Les premieres evaluations commencent deja.",
       "waitlistButton": "Rejoindre la liste d'attente",
       "waitlistPlaceholder": "Entrez votre e-mail",
       "waitlistSuccess": "Vous etes inscrit(e) ! Nous vous recontacterons.",
       "waitlistDuplicate": "Vous etes deja inscrit(e) !",
-      "ctaExplore": "Decouvrir comment fonctionne la confiance"
+      "ctaExplore": "Comment fonctionne le processus",
+      "ctaAssessment": "Commencez l'evaluation de votre dossier"
     },
     "problemQuote": {
       "title": "Ce que les patients redoutent vraiment",
@@ -352,34 +354,31 @@
       }
     },
     "partners": {
-      "subtitle": "Preuves initiales",
-      "compactTitle": "Une histoire de confiance necessite des preuves",
-      "compactDescription": "13 examines. 4 rejetes. 9 admis.",
-      "proofPoints": [
-        "Taux de rejet de 31 %.",
-        "Les candidats sont venus par des medecins Angel, des candidatures directes et des recommandations entre praticiens.",
-        "La verification continue."
-      ],
+      "subtitle": "Standard de vérification",
+      "compactTitle": "Tous les hôpitaux ne satisfont pas à ce que nous mesurons.",
+      "compactDescription": "31% des candidats n'étaient pas conformes au standard.",
+      "rejectionReasons": "Les motifs de refus ont notamment inclus des qualifications médicales non vérifiées, des structures tarifaires non divulguées et un refus d'enregistrer la procédure.",
+      "proofPoints": [],
       "compactStats": [
         {
           "number": "13",
-          "label": "Examines"
+          "label": "Hôpitaux évalués"
         },
         {
-          "number": "31%",
-          "label": "Rejetes"
+          "number": "4",
+          "label": "Rejetés"
         },
         {
           "number": "9",
-          "label": "Partenaires verifies"
+          "label": "Partenaires vérifiés"
         }
       ],
       "compactCta": "Protocole de confiance"
     },
     "coverage": {
-      "badge": "Couverture",
-      "title": "Domaines a enjeux eleves",
-      "subtitle": "La ou bien faire du premier coup est essentiel.",
+      "badge": "Perimetre de verification",
+      "title": "La ou reussir du premier coup compte le plus",
+      "subtitle": "Le standard de verification d'AetherHeal s'applique a ces domaines.",
       "items": [
         "Greffe de cheveux",
         "Esthetique cutanee",
@@ -388,7 +387,7 @@
         "Correction de la vision",
         "Dentaire",
         "Therapie par cellules souches",
-        "Liposuccion et repositionnement graisseux",
+        "Liposuccion et contouring",
         "Neurochirurgie",
         "Bilan de sante general",
         "IRM corps entier"
@@ -397,30 +396,44 @@
     "faq": {
       "title": "Questions frequentes",
       "subtitle": "Les questions que posent les patients quand la confiance compte plus que le volume.",
+      "groupAbout": "A propos d'AetherHeal",
+      "groupBoundaries": "Limites et securite",
       "items": [
         {
-          "question": "AetherHeal est-il un medecin IA ?",
-          "answer": "Non. AetherHeal n'est pas un medecin IA et nous ne presentons pas l'IA comme un substitut au medecin. L'IA soutient la structuration de l'information et les flux de continuite, mais les medecins agrees et les hopitaux partenaires conservent l'autorite medicale."
+          "question": "Que fait reellement AetherHeal ?",
+          "answer": "AetherHeal aide les patients internationaux qui envisagent des soins medicaux en Coree a prendre de meilleures decisions avant de s'engager aupres d'un hopital. Nous verifions les hopitaux selon un standard clinique, structurons votre dossier avec supervision medicale avant tout contact hospitalier, et maintenons la continuite apres le traitement grace au suivi de recuperation. Nous ne fournissons pas de soins medicaux. Nous apportons l'infrastructure decisionnelle qui devrait exister avant que les soins commencent."
+        },
+        {
+          "question": "A qui s'adresse ce service ?",
+          "answer": "AetherHeal s'adresse aux patients internationaux qui envisagent des procedures medicales elective ou a enjeux eleves en Coree — surtout a ceux qui souhaitent un guidage de niveau medical avant de choisir un hopital. La plupart evaluent des interventions esthetiques, reconstructives ou specialisees dont l'issue est irreversible et l'environnement decisionnel peu familiar. Si vous disposez deja d'un hopital et d'un medecin en qui vous avez confiance, vous n'avez peut-etre pas besoin de nous. Si vous etes encore en train de decider, c'est precisement le moment ou nous sommes le plus utiles."
+        },
+        {
+          "question": "Qui est responsable a chaque etape du processus ?",
+          "answer": "Avant votre voyage : AetherHeal et nos medecins structurent votre decision. Pendant le traitement : l'hopital partenaire detient l'autorite clinique. Apres votre retour a la maison : AetherHeal maintient la continuite et les voies d'escalade. A aucun moment une seule partie ne cumule les trois roles. Cette separation est deliberement concue ainsi."
+        },
+        {
+          "question": "Que se passe-t-il si quelque chose ne va pas apres le traitement ?",
+          "answer": "L'historique de votre dossier, les notes du medecin et la chronologie de recuperation restent organises dans le systeme d'AetherHeal jusqu'a un an apres le traitement. Si une inquietude apparait — en semaine un ou au mois huit — vous ne repartez pas de zero. Nous mettons en avant l'historique pertinent, coordonnons avec l'hopital partenaire malgre la langue et le fuseau horaire, et escaladons si une reevaluation clinique est necessaire. La continuite ne s'arrete pas quand vous quittez la Coree."
         },
         {
           "question": "Que fait concretement l'IA au sein d'AetherHeal ?",
           "answer": "L'IA aide a organiser l'accueil, a identifier les informations manquantes, a soutenir la coordination multilingue et a maintenir la visibilite des signaux de continuite post-traitement. Elle accelere le processus ; elle ne prend pas la decision medicale."
         },
         {
-          "question": "L'IA peut-elle contredire un medecin ou choisir mon hopital ?",
-          "answer": "Non. L'IA ne peut pas contredire un medecin, selectionner votre hopital final, poser un diagnostic, recommander un traitement ou reserver de maniere autonome. Le jugement du medecin, le consentement du patient et la faisabilite hospitaliere restent les couches de controle."
+          "question": "AetherHeal est-il une agence de tourisme medical ?",
+          "answer": "Non. AetherHeal est une infrastructure decisionnelle. La logistique de voyage n'est geree qu'apres qu'une decision medicale structuree a ete prise — pas avant."
         },
         {
           "question": "S'agit-il d'une consultation medicale ou de telemedecine ?",
           "answer": "Non. AetherHeal n'est pas une consultation medicale. C'est une preparation a la decision. Nos medecins vous aident a structurer votre reflexion avant d'entrer dans un hopital — ils ne diagnostiquent ni ne traitent. Cette separation preserve la clarte et la responsabilite."
         },
         {
-          "question": "Qui est responsable a chaque etape du processus ?",
-          "answer": "Les responsabilites sont clairement separees. Les medecins soutiennent la clarte decisionnelle. Les hopitaux delivrent les soins medicaux. AetherHeal gouverne le processus, la coordination et la responsabilite a chaque etape."
+          "question": "L'IA peut-elle contredire un medecin ou choisir mon hopital ?",
+          "answer": "Non. L'IA ne peut pas contredire un medecin, selectionner votre hopital final, poser un diagnostic, recommander un traitement ou reserver de maniere autonome. Le jugement du medecin, le consentement du patient et la faisabilite hospitaliere restent les couches de controle."
         },
         {
-          "question": "AetherHeal est-il une agence de tourisme medical ?",
-          "answer": "Non. AetherHeal est une infrastructure decisionnelle. La logistique de voyage n'est geree qu'apres qu'une decision medicale structuree a ete prise — pas avant."
+          "question": "AetherHeal est-il un medecin IA ?",
+          "answer": "Non. AetherHeal n'est pas un medecin IA et nous ne presentons pas l'IA comme un substitut au medecin. L'IA soutient la structuration de l'information et les flux de continuite, mais les medecins agrees et les hopitaux partenaires conservent l'autorite medicale."
         },
         {
           "question": "Mes informations sont-elles en securite ?",
@@ -460,13 +473,15 @@
     },
     "cta": {
       "title": "La clarte avant l'engagement",
-      "subtitle": "Si vous envisagez des soins en Coree, commencez par un processus concu pour proteger votre decision avant que quiconque ne tente de la conclure.",
-      "openingDate": "Ouverture le 1er septembre 2026",
+      "subtitle": "Si vous envisagez des soins en Coree, commencez par un processus concu pour proteger votre decision — avant que quiconque ne vous demande d'en prendre une.",
+      "ctaPrimary": "Commencez l'evaluation de votre dossier",
+      "openingDate": "Nous ouvrons le 1er septembre 2026.",
+      "openingDateSuffix": "Les evaluations de dossiers anticipees sont deja en cours.",
       "waitlistButton": "Rejoindre la liste d'attente",
       "waitlistPlaceholder": "Entrez votre e-mail",
       "waitlistSuccess": "Vous etes inscrit(e) ! Nous vous recontacterons.",
       "waitlistDuplicate": "Vous etes deja inscrit(e) !",
-      "ctaExplore": "Decouvrir comment fonctionne la confiance",
+      "ctaExplore": "Comment fonctionne le processus",
       "signature": "Dr. Jee Hoon Ju"
     }
   },

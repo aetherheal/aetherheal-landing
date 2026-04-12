@@ -10,6 +10,7 @@ const patientOnlyRoutes = [
   "/how-it-works",
   "/explore",
   "/trust-protocol",
+  "/intake",
   "/how-to-choose-hospital-abroad",
   "/aesthetic-clinic-seoul",
   "/hair-transplant-korea",
@@ -58,7 +59,7 @@ function buildEntries(): SitemapEntry[] {
     })
   }
 
-  const highPriority = ["/how-it-works", "/how-to-choose-hospital-abroad"]
+  const highPriority = ["/how-it-works", "/how-to-choose-hospital-abroad", "/intake"]
   const lowPriority = ["/privacy-policy", "/terms-of-service", "/payment-refund-policy", "/medical-boundary"]
 
   for (const route of patientOnlyRoutes) {

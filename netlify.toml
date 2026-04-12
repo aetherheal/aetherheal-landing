@@ -40,5 +40,5 @@
 [[redirects]]
   from = "/"
   to = "/en"
-  status = 302
+  status = 301
   force = false

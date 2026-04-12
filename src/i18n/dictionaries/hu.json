@@ -67,11 +67,13 @@
       "disclaimer": "Döntéstámogatás a kórházi elköteleződés előtt.",
       "disclaimer2": "Nem orvosi kezelés vagy sürgősségi ellátás.",
       "openingDate": "Nyitás: 2026. szeptember 1.",
+      "openingDateSuffix": "A korai értékelések már elindultak.",
       "waitlistButton": "Feliratkozás a Várólistára",
       "waitlistPlaceholder": "Írja be e-mail címét",
       "waitlistSuccess": "Felkerült a listára! Hamarosan jelentkezünk.",
       "waitlistDuplicate": "Már szerepel a listán!",
-      "ctaExplore": "Hogyan épül fel a bizalom"
+      "ctaExplore": "Hogyan működik a folyamat",
+      "ctaAssessment": "Kezdje el esetének értékelését"
     },
     "problemQuote": {
       "title": "Amitől a páciensek valójában félnek",
@@ -352,34 +354,31 @@
       }
     },
     "partners": {
-      "subtitle": "Korai Bizonyíték",
-      "compactTitle": "A bizalomnak bizonyíték kell",
-      "compactDescription": "13 felülvizsgálva. 4 elutasítva. 9 elfogadva.",
-      "proofPoints": [
-        "31%-os elutasítási arány.",
-        "A jelöltek angel orvosokon, közvetlen jelentkezéseken és kollegiális ajánlásokon keresztül érkeztek.",
-        "Az ellenőrzés folytatódik."
-      ],
+      "subtitle": "Ellenőrzési szabvány",
+      "compactTitle": "Nem minden kórház teljesíti azt, amit mérünk.",
+      "compactDescription": "A jelentkezők 31%-a nem felelt meg a szabványnak.",
+      "rejectionReasons": "Az elutasítások okai között szerepelt ellenőrizhetetlen orvosi jogosultság, nem közzétett árképzési struktúrák és az eljárás rögzítésének megtagadása.",
+      "proofPoints": [],
       "compactStats": [
         {
           "number": "13",
-          "label": "Felülvizsgálva"
+          "label": "Értékelt kórházak"
         },
         {
-          "number": "31%",
+          "number": "4",
           "label": "Elutasítva"
         },
         {
           "number": "9",
-          "label": "Igazolt Partner"
+          "label": "Igazolt partnerek"
         }
       ],
-      "compactCta": "Bizalmi Protokoll"
+      "compactCta": "Bizalmi protokoll"
     },
     "coverage": {
-      "badge": "Lefedettség",
-      "title": "Magas Kockázatú Szakterületek",
-      "subtitle": "Ahol az első alkalommal fontos jól csinálni.",
+      "badge": "Az ellenőrzés hatóköre",
+      "title": "Ahol elsőre fontos a helyes döntés",
+      "subtitle": "Az AetherHeal ellenőrzési szabványa ezekre a területekre vonatkozik.",
       "items": [
         "Hajbeültetés",
         "Bőresztétika",
@@ -388,7 +387,7 @@
         "Látáskorrekció",
         "Fogászat",
         "Őssejt-terápia",
-        "Liposucció és Zsírátrendezés",
+        "Liposucció és kontúrformálás",
         "Idegsebészet",
         "Általános Szűrővizsgálat",
         "Teljes Test MRI"
@@ -397,30 +396,44 @@
     "faq": {
       "title": "Gyakori Kérdések",
       "subtitle": "Kérdések, amelyeket a páciensek akkor tesznek fel, amikor a bizalom fontosabb a mennyiségnél.",
+      "groupAbout": "Az AetherHeal-ről",
+      "groupBoundaries": "Határok és biztonság",
       "items": [
         {
-          "question": "Az AetherHeal egy AI orvos?",
-          "answer": "Nem. Az AetherHeal nem AI orvos, és nem állítjuk be az AI-t orvosi helyettesítőként. Az AI az információ strukturálását és a folytonossági munkafolyamatokat támogatja, de az orvosi hatáskör az engedéllyel rendelkező orvosok és partnerkórházak kezében marad."
+          "question": "Mit csinál valójában az AetherHeal?",
+          "answer": "Az AetherHeal segít a Koreában történő orvosi ellátáson gondolkodó nemzetközi pácienseknek jobb döntéseket hozni, mielőtt elköteleznék magukat egy kórház mellett. Ellenőrizzük a kórházakat klinikai szabvány szerint, strukturáljuk az esetüket orvosi felügyelet mellett, mielőtt bármilyen kórházi kapcsolatfelvétel történne, és fenntartjuk a folytonosságot a kezelés utáni felépülés monitorozásával. Nem nyújtunk orvosi ellátást. A döntési infrastruktúrát nyújtjuk, amelynek a gyógyászat megkezdése előtt léteznie kellene."
+        },
+        {
+          "question": "Kinek szól?",
+          "answer": "Az AetherHeal olyan nemzetközi pácienseknek készült, akik választó jellegű vagy nagy tétű orvosi beavatkozásokon gondolkodnak Koreában — különösen azoknak, akik kórházválasztás előtt orvosi szintű iránymutatást szeretnének. A legtöbb páciens esztétikai, rekonstruktív vagy speciális beavatkozásokat mérlegel, ahol az eredmény visszafordíthatatlan és a döntési környezet idegen. Ha már van megbízható kórháza és orvosa, lehet, hogy nincs szüksége ránk. Ha még mindig dönt, pont akkor vagyunk a leghasznosabbak."
+        },
+        {
+          "question": "Ki a felelős a folyamat egyes szakaszaiban?",
+          "answer": "Utazás előtt: az AetherHeal és orvosaink strukturálják a döntését. Kezelés alatt: a partnerkórház tartja a klinikai hatáskört. Hazatérése után: az AetherHeal fenntartja a folytonosságot és az eszkalációs utakat. Egyetlen fél sem viseli egyszerre mindhárom szerepet. Ez a szétválasztás szándékosan így van."
+        },
+        {
+          "question": "Mi történik, ha valami rosszul sül el a kezelés után?",
+          "answer": "Az esete előzményei, orvosi jegyzetei és felépülési ütemezése rendezetten maradnak az AetherHeal rendszerében a kezelés után akár egy évig. Ha aggály merül fel — akár az első héten, akár a nyolcadik hónapban — nem kell nulláról újrakezdenie. Felszínre hozzuk a releváns előzményeket, koordinálunk a partnerkórházzal nyelvi és időzónabeli különbségek mellett, és eszkalálunk, ha klinikai újraértékelés szükséges. A folytonosság nem ér véget, amikor elhagyja Koreát."
         },
         {
           "question": "Mit csinál valójában az AI az AetherHeal-en belül?",
           "answer": "Az AI segít a felvétel szervezésében, a hiányzó információk felszínre hozásában, a többnyelvű koordináció támogatásában, és a kezelés utáni folytonossági jelek nyomon követésében. Gyorsítja a munkafolyamatot; nem hoz orvosi döntést."
         },
         {
-          "question": "Felülbírálhatja az AI az orvost vagy választhatja ki a kórházamat?",
-          "answer": "Nem. Az AI nem bírálhatja felül az orvost, nem választhatja ki a végső kórházat, nem állíthat fel diagnózist, nem ajánlhat kezelést, és nem foglalhat önállóan. Az orvosi ítélet, a páciens beleegyezése és a kórházi megvalósíthatóság marad az irányadó."
+          "question": "Az AetherHeal egy orvosi turisztikai ügynökség?",
+          "answer": "Nem. Az AetherHeal döntéstámogató infrastruktúra. Az utazási logisztikát csak egy strukturált orvosi döntés meghozatala után kezeljük — nem előtte."
         },
         {
           "question": "Ez orvosi konzultáció vagy telemedicina?",
           "answer": "Nem. Az AetherHeal nem orvosi konzultáció. Döntés-előkészítés. Orvosaink segítenek gondolatai strukturálásában, mielőtt belépne egy kórházba — nem diagnosztizálnak és nem kezelnek. Ez a szétválasztás megőrzi a tisztánlátást és a felelősséget."
         },
         {
-          "question": "Ki a felelős a folyamat egyes szakaszaiban?",
-          "answer": "A felelősségek egyértelműen el vannak választva. Az orvosok a döntési tisztánlátást támogatják. A kórházak nyújtják az orvosi ellátást. Az AetherHeal irányítja a folyamatot, a koordinációt és a felelősségvállalást minden lépésnél."
+          "question": "Felülbírálhatja az AI az orvost vagy választhatja ki a kórházamat?",
+          "answer": "Nem. Az AI nem bírálhatja felül az orvost, nem választhatja ki a végső kórházat, nem állíthat fel diagnózist, nem ajánlhat kezelést, és nem foglalhat önállóan. Az orvosi ítélet, a páciens beleegyezése és a kórházi megvalósíthatóság marad az irányadó."
         },
         {
-          "question": "Az AetherHeal egy orvosi turisztikai ügynökség?",
-          "answer": "Nem. Az AetherHeal döntéstámogató infrastruktúra. Az utazási logisztikát csak egy strukturált orvosi döntés meghozatala után kezeljük — nem előtte."
+          "question": "Az AetherHeal egy AI orvos?",
+          "answer": "Nem. Az AetherHeal nem AI orvos, és nem állítjuk be az AI-t orvosi helyettesítőként. Az AI az információ strukturálását és a folytonossági munkafolyamatokat támogatja, de az orvosi hatáskör az engedéllyel rendelkező orvosok és partnerkórházak kezében marad."
         },
         {
           "question": "Biztonságban vannak az adataim?",
@@ -460,13 +473,15 @@
     },
     "cta": {
       "title": "Tisztánlátás az elköteleződés előtt",
-      "subtitle": "Ha koreai ellátáson gondolkodik, kezdje egy olyan folyamattal, amely megvédi a döntését, mielőtt bárki megpróbálná lezárni azt.",
-      "openingDate": "Nyitás: 2026. szeptember 1.",
+      "subtitle": "Ha koreai ellátáson gondolkodik, kezdjen egy olyan folyamattal, amely védi a döntését — mielőtt bárki arra kérné, hogy döntsön.",
+      "openingDate": "2026. szeptember 1-jén nyitunk.",
+      "openingDateSuffix": "A korai esetértékelések már folynak.",
+      "ctaPrimary": "Kezdje el esetének értékelését",
       "waitlistButton": "Feliratkozás a Várólistára",
       "waitlistPlaceholder": "Írja be e-mail címét",
       "waitlistSuccess": "Felkerült a listára! Hamarosan jelentkezünk.",
       "waitlistDuplicate": "Már szerepel a listán!",
-      "ctaExplore": "Hogyan épül fel a bizalom",
+      "ctaExplore": "Hogyan működik a folyamat",
       "signature": "Dr. Jee Hoon Ju"
     }
   },

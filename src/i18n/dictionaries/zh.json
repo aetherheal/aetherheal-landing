@@ -66,11 +66,13 @@
       "branchConclusion": "让您不再孤单。",
       "disclaimer": "在确定医院之前提供决策支持。",
       "openingDate": "2026年9月1日正式开放",
+      "openingDateSuffix": "早期评估即日起开放。",
       "waitlistButton": "加入候补名单",
       "waitlistPlaceholder": "输入您的邮箱",
       "waitlistSuccess": "您已加入名单！我们会尽快联系您。",
       "waitlistDuplicate": "您已在名单中！",
-      "ctaExplore": "了解信任如何运作",
+      "ctaExplore": "了解流程如何运作",
+      "ctaAssessment": "开始您的案例评估",
       "disclaimer2": "并非医疗诊治或急诊服务。"
     },
     "problemQuote": {
@@ -352,21 +354,18 @@
       }
     },
     "partners": {
-      "subtitle": "早期验证",
-      "compactTitle": "信任需要证据",
-      "compactDescription": "13家审核，4家拒绝，9家通过。",
-      "proofPoints": [
-        "31%拒绝率。",
-        "候选机构来自Angel医师推荐、直接申请和同行转介。",
-        "验证持续进行中。"
-      ],
+      "subtitle": "验证标准",
+      "compactTitle": "并非每家医院都能满足我们的衡量标准。",
+      "compactDescription": "31%的申请者未达标准。",
+      "rejectionReasons": "拒绝原因包括：医师资质未经验证、定价结构未披露，以及拒绝手术过程录像。",
+      "proofPoints": [],
       "compactStats": [
         {
           "number": "13",
-          "label": "已审核"
+          "label": "已评估医院"
         },
         {
-          "number": "31%",
+          "number": "4",
           "label": "已拒绝"
         },
         {
@@ -376,33 +375,65 @@
       ],
       "compactCta": "信任协议"
     },
+    "coverage": {
+      "badge": "验证适用范围",
+      "title": "初次就要做对的领域",
+      "subtitle": "AetherHeal 的验证标准适用于以下领域。",
+      "items": [
+        "毛发移植",
+        "皮肤美容",
+        "整形外科",
+        "机器人手术",
+        "视力矫正",
+        "牙科",
+        "干细胞疗法",
+        "抽脂与形体雕塑",
+        "神经外科",
+        "综合健康检查",
+        "全身MRI"
+      ]
+    },
     "faq": {
       "title": "常见问题",
-      "subtitle": "当信任比数量更重要时，患者会问的问题。",
+      "subtitle": "当信任比规模更重要时，患者会问的问题。",
+      "groupAbout": "关于 AetherHeal",
+      "groupBoundaries": "边界与安全",
       "items": [
         {
-          "question": "AetherHeal 是AI医生吗？",
-          "answer": "不是。AetherHeal 不是AI医生，我们也不将AI呈现为医师的替代品。AI支持信息结构化和连续性工作流，但执业医师和合作医院保留医疗权限。"
+          "question": "AetherHeal 实际上做什么？",
+          "answer": "AetherHeal 帮助考虑在韩国接受医疗的国际患者在确定医院之前做出更稳妥的决策。我们按临床标准验证医院，在联系任何医院之前在医师监督下梳理您的病例，并通过恢复监测在治疗后保持连续性。我们不提供医疗行为。我们提供本应在医疗开始之前就存在的决策基础设施。"
+        },
+        {
+          "question": "这项服务适合谁？",
+          "answer": "AetherHeal 面向考虑在韩国进行选择性或高风险医疗程序的国际患者，尤其适合在选定医院之前希望获得医师层面指导的人士。多数用户正在评估美容、重建或专科类项目，其结果难以逆转且决策环境陌生。若您已有信赖的医院与医师，未必需要我们；若您仍在权衡，正是我们最能发挥作用的时候。"
+        },
+        {
+          "question": "流程每个阶段谁负责？",
+          "answer": "行前：AetherHeal 与我们的医师为您结构化决策。治疗期间：合作医院拥有临床权威。回国后：AetherHeal 维持连续性与升级路径。任何时刻都不会由同一方独自承担全部三种角色。这种分工是有意为之的设计。"
+        },
+        {
+          "question": "如果术后出了问题怎么办？",
+          "answer": "治疗后最长一年内，您的病历、医师笔记与恢复时间线均在 AetherHeal 系统中有序留存。无论是第一周还是第八个月出现顾虑，您都无需从零重来。我们会调取相关记录，跨语言与时区与合作医院协调，并在需要临床再评估时启动升级。连续性不会因您离开韩国而终止。"
         },
         {
           "question": "AI在 AetherHeal 内部实际做什么？",
           "answer": "AI帮助整理接诊信息、发现缺失信息、支持多语言协调，并保持治疗后连续性信号的可见性。它加速工作流程；它不做医疗决策。"
         },
         {
-          "question": "AI能否推翻医师或选择我的医院？",
-          "answer": "不能。AI不能推翻医师、选择您的最终医院、做出诊断、推荐治疗或自主预约。医师判断、患者同意和医院可行性仍然是控制层。"
+          "question": "AetherHeal 是医疗旅游中介吗？",
+          "answer": "不是。AetherHeal 是决策基础设施。旅行安排仅在结构化的医疗决策做出之后才处理——而非之前。"
         },
         {
           "question": "这是医疗咨询还是远程医疗？",
           "answer": "不是。AetherHeal 不是医疗咨询，而是决策准备。我们的医师帮助您在进入医院之前梳理思路——他们不进行诊断或治疗。这种分离确保了清晰度和问责机制。"
         },
         {
-          "question": "流程每个阶段谁负责？",
-          "answer": "职责明确分离。医师支持决策清晰。医院提供医疗服务。AetherHeal 在每一步管控流程、协调和问责。"
+          "question": "AI能否推翻医师或选择我的医院？",
+          "answer": "不能。AI不能推翻医师、选择您的最终医院、做出诊断、推荐治疗或自主预约。医师判断、患者同意和医院可行性仍然是控制层。"
         },
         {
-          "question": "AetherHeal 是医疗旅游中介吗？",
-          "answer": "不是。AetherHeal 是决策基础设施。旅行安排仅在结构化的医疗决策做出之后才处理——而非之前。"
+          "question": "AetherHeal 是AI医生吗？",
+          "answer": "不是。AetherHeal 不是AI医生，我们也不将AI呈现为医师的替代品。AI支持信息结构化和连续性工作流，但执业医师和合作医院保留医疗权限。"
         },
         {
           "question": "我的信息安全吗？",
@@ -442,13 +473,15 @@
     },
     "cta": {
       "title": "承诺之前先建立信心",
-      "subtitle": "在承诺任何医院路径之前，先了解医师主导、AI辅助的流程。",
-      "openingDate": "2026年9月1日正式开放",
+      "subtitle": "如果您正在考虑在韩国就医，请从一项旨在保护您决策的流程开始——在任何人催促您做出决定之前。",
+      "openingDate": "我们将于2026年9月1日正式开放。",
+      "openingDateSuffix": "早期案例评估已在进行中。",
+      "ctaPrimary": "开始您的案例评估",
       "waitlistButton": "加入候补名单",
       "waitlistPlaceholder": "输入您的邮箱",
       "waitlistSuccess": "您已加入名单！我们会尽快联系您。",
       "waitlistDuplicate": "您已在名单中！",
-      "ctaExplore": "开始探索",
+      "ctaExplore": "了解流程如何运作",
       "signature": "Dr. Jee Hoon Ju"
     }
   },

@@ -67,11 +67,13 @@
       "disclaimer": "Entscheidungsunterstuetzung vor der Krankenhaus-Verpflichtung.",
       "disclaimer2": "Keine medizinische Behandlung oder Notfallversorgung.",
       "openingDate": "Eroeffnung am 1. September 2026",
+      "openingDateSuffix": "Fruehe Bewertungen beginnen bereits jetzt.",
       "waitlistButton": "Auf die Warteliste setzen",
       "waitlistPlaceholder": "Ihre E-Mail-Adresse eingeben",
       "waitlistSuccess": "Sie stehen auf der Liste! Wir melden uns bei Ihnen.",
       "waitlistDuplicate": "Sie stehen bereits auf der Liste!",
-      "ctaExplore": "Erfahren Sie, wie Vertrauen funktioniert"
+      "ctaExplore": "So funktioniert der Ablauf",
+      "ctaAssessment": "Beginnen Sie Ihre Fallbewertung"
     },
     "problemQuote": {
       "title": "Wovor Patienten wirklich Angst haben",
@@ -352,21 +354,18 @@
       }
     },
     "partners": {
-      "subtitle": "Fruehe Belege",
-      "compactTitle": "Eine Vertrauensgeschichte braucht Belege",
-      "compactDescription": "13 geprueft. 4 abgelehnt. 9 aufgenommen.",
-      "proofPoints": [
-        "31% Ablehnungsrate.",
-        "Kandidaten kamen ueber Angel-Aerzte, Direktbewerbungen und Empfehlungen von Fachkollegen.",
-        "Die Verifizierung wird fortgesetzt."
-      ],
+      "subtitle": "Verifizierungsstandard",
+      "compactTitle": "Nicht jedes Krankenhaus erfuellt, was wir messen.",
+      "compactDescription": "31% der Bewerber entsprachen nicht dem Standard.",
+      "rejectionReasons": "Zu den Ablehnungsgruenden zaehlten unter anderem nicht verifizierbare aerztliche Qualifikationen, nicht offengelegte Preisstrukturen und die Verweigerung der Aufzeichnung von Eingriffen.",
+      "proofPoints": [],
       "compactStats": [
         {
           "number": "13",
-          "label": "Geprueft"
+          "label": "Evaluierte Krankenhaeuser"
         },
         {
-          "number": "31%",
+          "number": "4",
           "label": "Abgelehnt"
         },
         {
@@ -377,9 +376,9 @@
       "compactCta": "Vertrauensprotokoll"
     },
     "coverage": {
-      "badge": "Abdeckung",
-      "title": "Hochsensible Bereiche",
-      "subtitle": "Wo es darauf ankommt, es beim ersten Mal richtig zu machen.",
+      "badge": "Umfang der Verifikation",
+      "title": "Wo es darauf ankommt, es beim ersten Mal richtig zu machen",
+      "subtitle": "Der Verifikationsstandard von AetherHeal gilt in diesen Bereichen.",
       "items": [
         "Haartransplantation",
         "Hautaesthetik",
@@ -388,7 +387,7 @@
         "Sehkorrektur",
         "Zahnmedizin",
         "Stammzelltherapie",
-        "Fettabsaugung & Fettumverteilung",
+        "Fettabsaugung & Konturierung",
         "Neurochirurgie",
         "Allgemeiner Gesundheitscheck",
         "Ganzkoerper-MRT"
@@ -397,30 +396,44 @@
     "faq": {
       "title": "Haeufige Fragen",
       "subtitle": "Die Fragen, die Patienten stellen, wenn Vertrauen wichtiger ist als Volumen.",
+      "groupAbout": "Ueber AetherHeal",
+      "groupBoundaries": "Grenzen und Sicherheit",
       "items": [
         {
-          "question": "Ist AetherHeal ein KI-Arzt?",
-          "answer": "Nein. AetherHeal ist kein KI-Arzt, und wir stellen KI nicht als Arzt-Ersatz dar. KI unterstuetzt die Informationsstrukturierung und Kontinuitaets-Workflows, aber approbierte Aerzte und Partnerkrankenhaeuser behalten die medizinische Autoritaet."
+          "question": "Was macht AetherHeal eigentlich?",
+          "answer": "AetherHeal unterstuetzt internationale Patientinnen und Patienten, die eine medizinische Versorgung in Korea in Betracht ziehen, dabei, bessere Entscheidungen zu treffen, bevor sie sich an ein Krankenhaus binden. Wir pruefen Krankenhaeuser an einem klinischen Standard, strukturieren Ihren Fall mit aerztlicher Aufsicht, bevor Kontakt zu einem Krankenhaus besteht, und halten die Kontinuitaet nach der Behandlung durch Genesungsmonitoring aufrecht. Wir erbringen keine medizinische Versorgung. Wir stellen die Entscheidungsinfrastruktur bereit, die bevor medizinische Versorgung beginnt, vorhanden sein sollte."
+        },
+        {
+          "question": "Fuer wen ist das gedacht?",
+          "answer": "AetherHeal richtet sich an internationale Patientinnen und Patienten, die elektive oder besonders folgenreiche medizinische Eingriffe in Korea erwaegen — insbesondere an diejenigen, die sich aerztliche Orientierung wuenschen, bevor sie ein Krankenhaus waehlen. Die meisten evaluieren aesthetische, rekonstruktive oder spezialisierte Eingriffe, bei denen das Ergebnis irreversibel ist und das Entscheidungsumfeld unvertraut wirkt. Wenn Sie bereits ein Krankenhaus und einen Arzt haben, dem Sie vertrauen, brauchen Sie uns moeglicherweise nicht. Wenn Sie noch am Entscheiden sind, sind wir genau dann am nuetzlichsten."
+        },
+        {
+          "question": "Wer ist in welcher Phase des Prozesses verantwortlich?",
+          "answer": "Bevor Sie reisen: AetherHeal und unsere Aerzte strukturieren Ihre Entscheidung. Waehrend der Behandlung: Das Partnerkrankenhaus hat die klinische Verantwortung. Nach Ihrer Rueckkehr nach Hause: AetherHeal haelt Kontinuitaet und Eskalationswege aufrecht. Zu keinem Zeitpunkt traegt eine Partei alle drei Rollen. Diese Trennung ist bewusst so angelegt."
+        },
+        {
+          "question": "Was passiert, wenn nach der Behandlung etwas schiefgeht?",
+          "answer": "Ihre Fallhistorie, aerztliche Notizen und der Genesungszeitplan bleiben bis zu einem Jahr nach der Behandlung in AetherHeals System geordnet. Tritt ein Anliegen auf — ob in Woche eins oder Monat acht — beginnen Sie nicht von vorn. Wir holen die relevante Historie ein, koordinieren mit dem Partnerkrankenhaus ueber Sprache und Zeitzonen hinweg und eskalieren, falls eine klinische Neubewertung noetig ist. Kontinuitaet endet nicht, wenn Sie Korea verlassen."
         },
         {
           "question": "Was macht KI tatsaechlich bei AetherHeal?",
           "answer": "KI hilft bei der Organisation der Aufnahme, dem Aufdecken fehlender Informationen, der Unterstuetzung mehrsprachiger Koordination und der Sichtbarhaltung von Nachbehandlungs-Kontinuitaetssignalen. Sie beschleunigt den Arbeitsablauf; sie trifft nicht die medizinische Entscheidung."
         },
         {
-          "question": "Kann KI einen Arzt uebergehen oder mein Krankenhaus auswaehlen?",
-          "answer": "Nein. KI kann keinen Arzt uebergehen, Ihr endgueltiges Krankenhaus auswaehlen, eine Diagnose stellen, eine Behandlung empfehlen oder eigenstaendig buchen. Aerztliches Urteil, Patienteneinwilligung und Krankenhaus-Machbarkeit bleiben die bestimmenden Ebenen."
+          "question": "Ist AetherHeal eine Medizintourismus-Agentur?",
+          "answer": "Nein. AetherHeal ist eine Entscheidungsinfrastruktur. Reiselogistik wird erst nach einer strukturierten medizinischen Entscheidung abgewickelt — nicht vorher."
         },
         {
           "question": "Ist dies eine medizinische Beratung oder Telemedizin?",
           "answer": "Nein. AetherHeal ist keine medizinische Beratung. Es ist Entscheidungsvorbereitung. Unsere Aerzte helfen Ihnen, Ihr Denken zu strukturieren, bevor Sie ein Krankenhaus betreten — sie diagnostizieren oder behandeln nicht. Diese Trennung bewahrt Klarheit und Verantwortlichkeit."
         },
         {
-          "question": "Wer ist in welcher Phase des Prozesses verantwortlich?",
-          "answer": "Die Verantwortlichkeiten sind klar getrennt. Aerzte unterstuetzen die Entscheidungsklarheit. Krankenhaeuser erbringen die medizinische Versorgung. AetherHeal steuert den Prozess, die Koordination und die Verantwortlichkeit in jedem Schritt."
+          "question": "Kann KI einen Arzt uebergehen oder mein Krankenhaus auswaehlen?",
+          "answer": "Nein. KI kann keinen Arzt uebergehen, Ihr endgueltiges Krankenhaus auswaehlen, eine Diagnose stellen, eine Behandlung empfehlen oder eigenstaendig buchen. Aerztliches Urteil, Patienteneinwilligung und Krankenhaus-Machbarkeit bleiben die bestimmenden Ebenen."
         },
         {
-          "question": "Ist AetherHeal eine Medizintourismus-Agentur?",
-          "answer": "Nein. AetherHeal ist eine Entscheidungsinfrastruktur. Reiselogistik wird erst nach einer strukturierten medizinischen Entscheidung abgewickelt — nicht vorher."
+          "question": "Ist AetherHeal ein KI-Arzt?",
+          "answer": "Nein. AetherHeal ist kein KI-Arzt, und wir stellen KI nicht als Arzt-Ersatz dar. KI unterstuetzt die Informationsstrukturierung und Kontinuitaets-Workflows, aber approbierte Aerzte und Partnerkrankenhaeuser behalten die medizinische Autoritaet."
         },
         {
           "question": "Sind meine Daten sicher?",
@@ -460,13 +473,15 @@
     },
     "cta": {
       "title": "Klarheit vor Verpflichtung",
-      "subtitle": "Wenn Sie eine Behandlung in Korea in Betracht ziehen, beginnen Sie mit einem Prozess, der Ihre Entscheidung schuetzt, bevor jemand versucht, sie abzuschliessen.",
-      "openingDate": "Eroeffnung am 1. September 2026",
+      "subtitle": "Wenn Sie eine Behandlung in Korea in Betracht ziehen, beginnen Sie mit einem Prozess, der Ihre Entscheidung schuetzt — bevor jemand von Ihnen verlangt, eine zu treffen.",
+      "ctaPrimary": "Beginnen Sie Ihre Fallbewertung",
+      "openingDate": "Wir eroeffnen am 1. September 2026.",
+      "openingDateSuffix": "Fruehzeitige Fallbewertungen laufen bereits.",
       "waitlistButton": "Auf die Warteliste setzen",
       "waitlistPlaceholder": "Ihre E-Mail-Adresse eingeben",
       "waitlistSuccess": "Sie stehen auf der Liste! Wir melden uns bei Ihnen.",
       "waitlistDuplicate": "Sie stehen bereits auf der Liste!",
-      "ctaExplore": "Erfahren Sie, wie Vertrauen funktioniert",
+      "ctaExplore": "So funktioniert der Ablauf",
       "signature": "Dr. Jee Hoon Ju"
     }
   },
