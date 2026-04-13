@@ -161,7 +161,7 @@ export default async function HomePage({
 
       {/* Desktop: Video + overlaid hero content */}
       <section className="hidden md:block relative w-full">
-        <div className="w-full max-h-[95vh] overflow-hidden">
+        <div className="w-full h-screen overflow-hidden">
           <video
             autoPlay
             loop
@@ -169,7 +169,7 @@ export default async function HomePage({
             playsInline
             poster="/assets/hero-poster.jpg"
             aria-label="AetherHeal brand video — physician-led medical journey to Seoul"
-            className="w-full h-auto block"
+            className="w-full h-full object-cover block"
           >
             <source src="/assets/hero-bg.mp4" type="video/mp4" />
           </video>
@@ -224,37 +224,43 @@ export default async function HomePage({
                 <div className="flex justify-center">
                   <ArrowRight className="w-4 h-4 text-brand-gold rotate-90 -mt-1" />
                 </div>
-                <p className="text-center font-serif text-base text-brand-gold italic mt-1">
+                <p className="text-center font-serif text-xl md:text-2xl text-brand-gold italic mt-2">
                   {heroBranches.branchConclusion}
                 </p>
               </div>
             )}
 
-            <div className="w-full pt-4 flex flex-col items-center gap-4 animate-fade-up [animation-delay:300ms]">
-              <div className="flex flex-wrap justify-center gap-3">
-                <Link href={`${prefix}/intake`}>
-                  <Button size="lg" className="min-w-[260px]">
-                    {(t.hero as typeof t.hero & { ctaAssessment?: string }).ctaAssessment ?? "Begin Your Case Assessment"}
-                  </Button>
-                </Link>
-                <Link href={`${prefix}/how-it-works`}>
-                  <Button variant="outline" size="lg" className="min-w-[200px]">
-                    {t.hero.ctaExplore}
-                  </Button>
-                </Link>
-              </div>
-              <p className="text-sm text-text-muted font-medium">
-                {t.hero.openingDate}{(t.hero as typeof t.hero & { openingDateSuffix?: string }).openingDateSuffix ? ` — ${(t.hero as typeof t.hero & { openingDateSuffix?: string }).openingDateSuffix}` : ""}
-              </p>
-              <WaitlistForm
-                placeholder={t.hero.waitlistPlaceholder}
-                buttonLabel={t.hero.waitlistButton}
-                successMessage={t.hero.waitlistSuccess}
-                duplicateMessage={t.hero.waitlistDuplicate}
-                locale={locale}
-              />
-            </div>
           </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Desktop: CTA + waitlist (flows under hero on shared white bg) */}
+      <section className="hidden md:block w-full bg-white pt-10 pb-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="w-full flex flex-col items-center gap-4 animate-fade-up [animation-delay:300ms]">
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link href={`${prefix}/intake`}>
+                <Button size="lg" className="min-w-[260px]">
+                  {(t.hero as typeof t.hero & { ctaAssessment?: string }).ctaAssessment ?? "Begin Your Case Assessment"}
+                </Button>
+              </Link>
+              <Link href={`${prefix}/how-it-works`}>
+                <Button variant="outline" size="lg" className="min-w-[200px]">
+                  {t.hero.ctaExplore}
+                </Button>
+              </Link>
+            </div>
+            <p className="text-sm text-text-muted font-medium">
+              {t.hero.openingDate}{(t.hero as typeof t.hero & { openingDateSuffix?: string }).openingDateSuffix ? ` — ${(t.hero as typeof t.hero & { openingDateSuffix?: string }).openingDateSuffix}` : ""}
+            </p>
+            <WaitlistForm
+              placeholder={t.hero.waitlistPlaceholder}
+              buttonLabel={t.hero.waitlistButton}
+              successMessage={t.hero.waitlistSuccess}
+              duplicateMessage={t.hero.waitlistDuplicate}
+              locale={locale}
+            />
           </div>
         </div>
       </section>
@@ -377,9 +383,10 @@ export default async function HomePage({
                 </p>
               ))}
               {t.partners.rejectionReasons && (
-                <p className="text-sm text-text-muted leading-relaxed pt-1">
-                  {t.partners.rejectionReasons}
-                </p>
+                <p
+                  className="text-sm text-text-muted leading-relaxed pt-1"
+                  dangerouslySetInnerHTML={{ __html: t.partners.rejectionReasons }}
+                />
               )}
             </div>
             <div className="text-center">
