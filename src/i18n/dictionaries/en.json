@@ -29,7 +29,8 @@
         "medicalJourney": "Medical Journey",
         "explore": "Explore",
         "blog": "Blog",
-        "journeyAssurance": "Journey Assurance"
+        "journeyAssurance": "Journey Assurance",
+        "verificationMethodology": "Verification Methodology"
       },
       "guideLinks": {
         "choosingHospital": "Choosing a Hospital Abroad",
@@ -282,7 +283,8 @@
           "label": "Verified Partners"
         }
       ],
-      "compactCta": "Trust Protocol"
+      "compactCta": "Trust Protocol",
+      "methodologyCta": "Verification Methodology"
     },
     "coverage": {
       "badge": "Scope of Verification",
@@ -1135,7 +1137,8 @@
       "label": "Reviewed by",
       "name": "Dr. Jee Hoon Ju, MD",
       "credentials": "ABAM · MIT Sloan AI in Healthcare"
-    }
+    },
+    "methodologyLink": "See how we evaluate hospitals →"
   },
   "explore": {
     "meta": {

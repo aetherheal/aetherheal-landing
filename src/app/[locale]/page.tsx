@@ -345,12 +345,19 @@ export default async function HomePage({
               </Link>
               .
             </p>
-            <div className="text-center">
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
               <Link
                 href={`${prefix}/trust-protocol`}
                 className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
               >
                 {t.partners.compactCta}
+                <span aria-hidden="true">&rarr;</span>
+              </Link>
+              <Link
+                href={`${prefix}/methodology/how-we-verify-hospitals`}
+                className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+              >
+                {(t.partners as typeof t.partners & { methodologyCta?: string }).methodologyCta ?? "Verification Methodology"}
                 <span aria-hidden="true">&rarr;</span>
               </Link>
             </div>

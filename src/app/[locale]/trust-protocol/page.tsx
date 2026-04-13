@@ -353,6 +353,15 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
             <span className="text-text-muted/60">·</span>
             <span>{(t as typeof t & { reviewerMeta?: { credentials?: string } }).reviewerMeta?.credentials ?? "ABAM · MIT Sloan AI in Healthcare"}</span>
           </div>
+          <div className="mt-4">
+            <Link
+              href={`${prefix}/methodology/how-we-verify-hospitals`}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+            >
+              {(t as typeof t & { methodologyLink?: string }).methodologyLink ?? "See how we evaluate hospitals"}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </section>
 

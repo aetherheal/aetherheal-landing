@@ -22,6 +22,7 @@ export function Footer({ dict, locale }: FooterProps) {
     : [
         { href: `${prefix}/how-it-works`, label: dict.footer.platformLinks.howItWorks },
         { href: `${prefix}/trust-protocol`, label: dict.footer.platformLinks.trustProtocol },
+        { href: `${prefix}/methodology/how-we-verify-hospitals`, label: (dict.footer.platformLinks as typeof dict.footer.platformLinks & { verificationMethodology?: string }).verificationMethodology ?? "Verification Methodology" },
         { href: `${prefix}/our-philosophy`, label: dict.footer.platformLinks.ourPhilosophy },
         { href: `${prefix}/medical-journey`, label: dict.footer.platformLinks.medicalJourney },
         { href: `${prefix}/explore`, label: dict.footer.platformLinks.explore },
