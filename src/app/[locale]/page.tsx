@@ -18,7 +18,6 @@ import {
 import { Button } from "@/components/ui/button"
 import { SectionLabel } from "@/components/ui/section-label"
 import { Accordion } from "@/components/ui/accordion"
-import { MobileDisclosure } from "@/components/landing/mobile-disclosure"
 import { WaitlistForm } from "@/components/landing/waitlist-form"
 import { ScrollSlideSection } from "@/components/landing/scroll-slide-section"
 import { JourneyAccordion } from "@/components/landing/journey-accordion"
@@ -31,37 +30,6 @@ const problemQuoteIcons = [GitFork, AlertTriangle, Stethoscope]
 // concernIcons removed — Patient Concerns section folded into Explore
 const exploreIcons = [Scissors, Sparkles, Building2, Eye, Heart, Stethoscope]
 const trustPillarIcons = [ShieldCheck, CreditCard, RefreshCw, UserCheck, Video]
-const first48CardClasses = [
-  "border-slate-200 bg-white",
-  "border-slate-200 bg-slate-50/80",
-  "border-brand-gold/30 bg-brand-gold/10",
-]
-const first48ArrowClasses = [
-  "text-slate-300",
-  "text-brand-gold/60",
-]
-const storyArcCardClasses = [
-  "border-slate-200 bg-white",
-  "border-slate-200 bg-slate-50/80",
-  "border-brand-gold/30 bg-brand-gold/10",
-  "border-brand-navy/15 bg-brand-navy/5",
-  "border-brand-navy bg-brand-navy text-white",
-]
-const storyArcArrowClasses = [
-  "text-slate-300",
-  "text-slate-300",
-  "text-brand-gold/60",
-  "text-brand-navy/40",
-]
-const continuityCardClasses = [
-  "border-white/10 bg-white/5",
-  "border-white/15 bg-white/10",
-  "border-brand-gold/25 bg-brand-gold/10",
-]
-const continuityArrowClasses = [
-  "text-white/20",
-  "text-brand-gold/50",
-]
 
 const exploreHrefs = [
   "/hair-transplant-korea",
@@ -134,7 +102,6 @@ export default async function HomePage({
       then?: string
     }
   }
-  const responsibilityLabel = journeySection.uiLabels?.responsibility ?? "Responsibility"
   const thenLabel = journeySection.uiLabels?.then ?? "Then:"
   const heroBranches = (t.hero as typeof t.hero & { branches?: string[]; branchConclusion?: string })
 
@@ -670,215 +637,6 @@ export default async function HomePage({
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* The Full Story — Responsibility Overview */}
-      <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="rounded-[32px] border border-slate-200 bg-white px-6 py-8 sm:px-8 sm:py-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
-            <div className="max-w-3xl">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
-                {journeySection.storyArc?.badge ?? "The full story"}
-              </p>
-              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-brand-navy mb-4">
-                {journeySection.storyArc?.title ?? "What the patient journey is building toward"}
-              </h2>
-              <p className="text-text-body leading-relaxed">
-                {journeySection.storyArc?.subtitle ??
-                  "Patients should understand not only what happens first, but what the whole path will ask of them over time."}
-              </p>
-            </div>
-            <div className="mt-8 flex flex-col gap-4 xl:flex-row xl:items-stretch xl:gap-3">
-              {(journeySection.storyArc?.items ?? []).map((item, idx, items) => {
-                const isLast = idx === items.length - 1
-                return (
-                  <div key={`${item.phase}-${item.title}`} className="contents">
-                    <div
-                      className={cn(
-                        "h-full min-w-0 rounded-2xl border p-5 flex flex-col xl:flex-1",
-                        storyArcCardClasses[idx] ?? storyArcCardClasses[storyArcCardClasses.length - 1]
-                      )}
-                    >
-                      <p
-                        className={cn(
-                          "text-[10px] font-bold uppercase tracking-widest mb-2",
-                          idx === items.length - 1 ? "text-white/70" : "text-text-muted"
-                        )}
-                      >
-                        {item.phase}
-                      </p>
-                      <h3
-                        className={cn(
-                          "font-serif text-lg leading-snug mb-4 min-h-[3.5rem]",
-                          idx === items.length - 1 ? "text-white" : "text-brand-navy"
-                        )}
-                      >
-                        {item.title}
-                      </h3>
-                      <div className="mt-auto min-h-[3rem]">
-                        <p
-                          className={cn(
-                            "text-[10px] font-bold uppercase tracking-widest mb-1",
-                            idx === items.length - 1 ? "text-white/60" : "text-text-muted"
-                          )}
-                        >
-                          {responsibilityLabel}
-                        </p>
-                        <p
-                          className={cn(
-                            "text-xs font-semibold leading-snug",
-                            idx === items.length - 1 ? "text-white" : "text-brand-navy"
-                          )}
-                        >
-                          {item.owner}
-                        </p>
-                      </div>
-                    </div>
-                    {!isLast && (
-                      <div className="hidden xl:flex items-center justify-center px-1">
-                        <ArrowRight
-                          className={cn(
-                            "w-5 h-5",
-                            storyArcArrowClasses[idx] ?? storyArcArrowClasses[storyArcArrowClasses.length - 1]
-                          )}
-                        />
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* First 48 Hours + Continuity Monitoring */}
-      <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
-          <div className="h-full rounded-[32px] border border-slate-200 bg-white p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)] flex flex-col">
-            <div className="mb-8 xl:min-h-[11.5rem]">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
-                {journeySection.first48Hours?.badge ?? "First 48 hours"}
-              </p>
-              <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">
-                {journeySection.first48Hours?.title ?? "What happens in your first 48 hours"}
-              </h2>
-              <p className="text-text-body leading-relaxed">
-                {journeySection.first48Hours?.subtitle ??
-                  "The first two days should reduce uncertainty, not create more of it. AetherHeal keeps the early journey structured and visible."}
-              </p>
-            </div>
-            <MobileDisclosure buttonLabel="See details" className="flex-1">
-            <div className="flex flex-col gap-4 flex-1">
-              {(journeySection.first48Hours?.items ?? []).map((item, idx, items) => {
-                const isLast = idx === items.length - 1
-                return (
-                  <div key={`${item.time}-${item.title}`} className="contents">
-                    <div
-                      className={cn(
-                        "rounded-2xl border p-5 flex flex-col xl:min-h-[17rem]",
-                        first48CardClasses[idx] ?? first48CardClasses[first48CardClasses.length - 1]
-                      )}
-                    >
-                      <div className="mb-3">
-                        <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{item.time}</p>
-                      </div>
-                      {item.owner && (
-                        <div className="mb-3 min-h-[3rem]">
-                          <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-1">{responsibilityLabel}</p>
-                          <p className="text-xs font-semibold leading-snug text-brand-navy">{item.owner}</p>
-                        </div>
-                      )}
-                      <h3 className="font-serif text-xl leading-snug text-brand-navy mb-2 xl:min-h-[3.5rem]">{item.title}</h3>
-                      <p className="text-sm text-text-body leading-relaxed xl:min-h-[4.75rem]">{item.description}</p>
-                      {item.next && (
-                        <div className="mt-auto pt-4">
-                          <span className="inline-flex items-center rounded-full bg-slate-200/70 px-3 py-1 text-[11px] font-semibold text-text-muted">
-                            {thenLabel} {item.next}
-                          </span>
-                        </div>
-                      )}
-                    </div>
-                    {!isLast && (
-                      <div className="flex justify-center">
-                        <ArrowRight
-                          className={cn(
-                            "hidden sm:block w-4 h-4 rotate-90",
-                            first48ArrowClasses[idx] ?? first48ArrowClasses[first48ArrowClasses.length - 1]
-                          )}
-                        />
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-            </MobileDisclosure>
-          </div>
-
-          <div className="h-full rounded-[32px] border border-brand-navy/10 bg-brand-navy p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.24)] flex flex-col">
-            <div className="mb-8 xl:min-h-[11.5rem]">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
-                {journeySection.continuityYear?.badge ?? "1-year continuity"}
-              </p>
-              <h2 className="font-serif text-3xl sm:text-4xl text-white mb-4">
-                {journeySection.continuityYear?.title ?? "Post-treatment continuity monitoring"}
-              </h2>
-              <p className="text-slate-300 leading-relaxed">
-                {journeySection.continuityYear?.subtitle ??
-                  "Care does not end when the procedure ends. Recovery signals, follow-up questions, and escalation paths should remain visible long after the patient flies home."}
-              </p>
-            </div>
-            <MobileDisclosure buttonLabel="See details" variant="dark" className="flex-1">
-            <div className="flex flex-col gap-4 flex-1">
-              {(journeySection.continuityYear?.items ?? []).map((item, idx, items) => {
-                const isLast = idx === items.length - 1
-                return (
-                  <div key={`${item.phase}-${item.title}`} className="contents">
-                    <div
-                      className={cn(
-                        "rounded-2xl border p-5 backdrop-blur-sm flex flex-col xl:min-h-[17rem]",
-                        continuityCardClasses[idx] ?? continuityCardClasses[continuityCardClasses.length - 1]
-                      )}
-                    >
-                      <div className="mb-3">
-                        <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.phase}</p>
-                      </div>
-                      {item.owner && (
-                        <div className="mb-3 min-h-[3rem]">
-                          <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold/70 mb-1">{responsibilityLabel}</p>
-                          <p className="text-xs font-semibold leading-snug text-white">{item.owner}</p>
-                        </div>
-                      )}
-                      <h3 className="font-serif text-xl leading-snug text-white mb-2 xl:min-h-[3.5rem]">{item.title}</h3>
-                      <p className="text-sm text-slate-300 leading-relaxed xl:min-h-[4.75rem]">{item.description}</p>
-                      {item.next && (
-                        <div className="mt-auto pt-4">
-                          <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-[11px] font-semibold text-slate-300">
-                            {thenLabel} {item.next}
-                          </span>
-                        </div>
-                      )}
-                    </div>
-                    {!isLast && (
-                      <div className="flex justify-center">
-                        <ArrowRight
-                          className={cn(
-                            "hidden sm:block w-4 h-4 rotate-90",
-                            continuityArrowClasses[idx] ?? continuityArrowClasses[continuityArrowClasses.length - 1]
-                          )}
-                        />
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-            </MobileDisclosure>
-          </div>
-        </div>
         </div>
       </section>
 
