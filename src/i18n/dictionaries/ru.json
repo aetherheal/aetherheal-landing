@@ -3481,5 +3481,110 @@
       "headline": "Ваше путешествие начинается с доверия — а не с прыжка в неизвестность.",
       "button": "Узнать, как это работает"
     }
+  },
+  "physician": {
+    "meta": {
+      "title": "Dr. Jee Hoon Ju — Founder & Physician | AetherHeal",
+      "description": "Dr. Jee Hoon Ju is a physician who verified AetherHeal's partner hospitals by working inside them. MD, American Board of Aesthetic Medicine, MIT Sloan AI in Healthcare. Former hair transplant surgeon. Current aesthetic dermatology physician."
+    },
+    "hero": {
+      "badge": "Physician Profile",
+      "name": "Dr. Jee Hoon Ju",
+      "title": "Founder & Representative Director, AetherHeal",
+      "intro": "A physician who verified partner hospitals by working inside them — as a hair transplant surgeon, as a clinical team member, and as a practicing aesthetic dermatology physician. Before building AetherHeal, he was the patient who could not see what went wrong."
+    },
+    "credentials": {
+      "title": "Credentials",
+      "items": [
+        {
+          "label": "Clinical",
+          "credential": "MD — University of Debrecen",
+          "detail": "International medical degree from the University of Debrecen, Faculty of Medicine (Hungary). Clinical training across the US, Hungary, and Korea."
+        },
+        {
+          "label": "Specialty",
+          "credential": "American Board of Aesthetic Medicine",
+          "detail": "Board certification in aesthetic medicine. Current clinical practice in aesthetic dermatology at Apgujeong Tune Clinic, Seoul."
+        },
+        {
+          "label": "AI Governance",
+          "credential": "MIT Sloan — AI in Health Care",
+          "detail": "Executive education in AI healthcare applications from MIT Sloan School of Management. This credential informs AetherHeal's AI governance architecture — every boundary between AI assistance and physician authority traces to formal study of this question."
+        }
+      ]
+    },
+    "verification": {
+      "badge": "Verification Methodology",
+      "title": "How I verify hospitals",
+      "intro": "Most medical tourism platforms verify hospitals from the outside — site visits, document reviews, checklists. I verified AetherHeal's founding partners by working inside them as a practicing physician. That is a different standard.",
+      "mode1": {
+        "title": "Embedded Clinical Verification",
+        "description": "Hospitals where I practiced directly as a physician or held operational leadership roles. My evaluation is based on firsthand experience of clinical standards, team operations, equipment quality, and patient handling — not from a tour, but from working there.",
+        "hospitals": [
+          {
+            "name": "Morgan Dermatology",
+            "role": "Hair transplant surgeon (paid physician)"
+          },
+          {
+            "name": "Apgujeong Tune Clinic",
+            "role": "Practicing aesthetic dermatology physician (current)"
+          },
+          {
+            "name": "Apgujeong Min Dental",
+            "role": "Head of Future Planning"
+          }
+        ]
+      },
+      "mode2": {
+        "title": "Physician-Network Evaluation",
+        "description": "Hospitals assessed through director-level relationships, clinical credential review, and outcome evaluation. I evaluated the directors' training backgrounds, surgical team composition, and facility standards — but did not practice there myself.",
+        "hospitals": [
+          {
+            "name": "B&N Eye Clinic",
+            "basis": "Established major institution. Personal relationship with Director Kim Jin-guk. Evaluated facility standards and surgical team."
+          },
+          {
+            "name": "Woori Plastic Surgery",
+            "basis": "Director-level assessment. Surgical team includes multiple Asan Hospital professor-origin plastic surgeons."
+          },
+          {
+            "name": "Hosan Hospital",
+            "basis": "Clinical evaluation of directors, track record, and patient outcomes in women's plastic surgery."
+          },
+          {
+            "name": "The Well Dental",
+            "basis": "Clinical evaluation of directors, treatment approach, and facility standards in adult dentistry."
+          }
+        ]
+      },
+      "methodologyLink": "Read the full verification methodology"
+    },
+    "aiGovernance": {
+      "badge": "AI Governance",
+      "title": "Why AI has boundaries here",
+      "description": "AetherHeal uses AI to structure intake, surface missing information, support translation, and monitor post-treatment continuity. AI does not diagnose, does not recommend treatment, does not select hospitals, and cannot override a physician. These boundaries are not design preferences — they are governance positions informed by formal study of AI in healthcare at MIT Sloan.",
+      "quote": "AI can accelerate the workflow. It cannot carry the responsibility. That distinction is the architecture."
+    },
+    "origin": {
+      "badge": "Why This Exists",
+      "title": "I was the patient first",
+      "paragraphs": [
+        "Before I became a hair transplant surgeon, I was a hair transplant patient. My first procedure failed. I chose the clinic based on the only signals available to me at the time — price and online reviews. Both were misleading, and I had no way to know.",
+        "I only recognized what went wrong after I entered the field myself — after I trained as a surgeon, after I worked inside clinics, after I could see what a patient cannot see from the outside. The graft survival rate, the extraction technique, the team's actual experience — none of it was visible to me as a patient.",
+        "That failure is the reason AetherHeal exists. Not because every clinic is bad — most are competent. But because the patient has no reliable way to verify what is good, what is right for their case, and what will still be accountable after the procedure is done.",
+        "I built AetherHeal so that no patient has to become a specialist to know whether their decision was sound. The platform exists to make visible what I once could not see."
+      ]
+    },
+    "structuralIntegrity": {
+      "title": "A note on conflict of interest",
+      "description": "I previously worked at hospitals that are now AetherHeal partners. That history is the source of my verification authority — but it could also create a conflict of interest if the revenue structure rewarded me for recommending them. It does not.",
+      "highlight": "AetherHeal charges a flat navigation fee that does not change with the hospital, the procedure, or the price. There are no referral commissions. No volume bonuses. No revenue from procedure selection. The structure that eliminates the conflict is the same structure that makes the embedded verification credible."
+    },
+    "cta": {
+      "title": "Start with someone on your side",
+      "subtitle": "If you are considering medical care in Korea, begin with a process designed by a physician who has been where you are.",
+      "primary": "Start With Someone On Your Side",
+      "secondary": "See how the process works"
+    }
   }
 }

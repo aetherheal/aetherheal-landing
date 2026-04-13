@@ -62,6 +62,7 @@ const patientOnlyRoutes = [
   "/payment-refund-policy",
   "/journey-assurance",
   "/marketing-information",
+  "/doctors/dr-jee-hoon-ju",
 ]
 
 export function isRouteAvailableForLocale(path: string, locale: Locale): boolean {
