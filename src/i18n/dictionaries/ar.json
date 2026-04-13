@@ -3519,7 +3519,7 @@
   "physician": {
     "meta": {
       "title": "Dr. Jee Hoon Ju — Founder & Physician | AetherHeal",
-      "description": "Dr. Jee Hoon Ju is a physician who verified AetherHeal's partner hospitals by working inside them. MD, American Board of Aesthetic Medicine, MIT Sloan AI in Healthcare. Former hair transplant surgeon. Current aesthetic dermatology physician."
+      "description": "Dr. Jee Hoon Ju is a physician who verified AetherHeal's partner hospitals by working inside them. MD, ABAM-certified, MIT Sloan AI in Healthcare. Specialized in skin aesthetic medicine and hair transplantation."
     },
     "hero": {
       "badge": "Physician Profile",
@@ -3538,7 +3538,7 @@
         {
           "label": "Specialty",
           "credential": "American Board of Aesthetic Medicine",
-          "detail": "Board certification in aesthetic medicine. Current clinical practice in aesthetic dermatology at Apgujeong Tune Clinic, Seoul."
+          "detail": "ABAM-certified general physician specialized in skin aesthetic medicine and hair transplantation. Current clinical practice in aesthetic dermatology at Apgujeong Tune Clinic, Seoul."
         },
         {
           "label": "AI Governance",

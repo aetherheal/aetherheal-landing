@@ -100,7 +100,7 @@ export default async function PhysicianPage({
       },
       {
         "@type": "EducationalOccupationalCredential",
-        credentialCategory: "Board Certification — Aesthetic Medicine",
+        credentialCategory: "ABAM Certified — Aesthetic Medicine",
         recognizedBy: { "@type": "Organization", name: "American Board of Aesthetic Medicine" },
       },
       {
