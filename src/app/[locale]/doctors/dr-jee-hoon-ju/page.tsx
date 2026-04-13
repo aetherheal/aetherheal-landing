@@ -49,8 +49,8 @@ export async function generateMetadata({
 
 const credentialIcons = [GraduationCap, ShieldCheck, Brain]
 const verificationModeStyles = {
-  embedded: "border-brand-gold/30 bg-brand-gold/10",
-  network: "border-slate-200 bg-slate-50/80",
+  embedded: "border-brand-gold/20 bg-brand-gold/[0.02]",
+  network: "border-slate-100 bg-slate-50/50",
 }
 
 export default async function PhysicianPage({
@@ -125,34 +125,34 @@ export default async function PhysicianPage({
       />
 
       {/* Hero */}
-      <section className="pt-24 pb-16 sm:pt-32 sm:pb-24 px-4 sm:px-6 bg-gradient-to-b from-brand-navy/[0.02] to-white border-b border-slate-100">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-start md:gap-12">
+      <section className="pt-32 pb-24 sm:pt-40 sm:pb-32 px-4 sm:px-6 border-b border-slate-100 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-16 lg:gap-24">
             <div className="flex-1">
-              <div className="mb-8">
-                <span className="inline-flex items-center px-4 py-1.5 bg-brand-navy text-[10px] font-bold text-white uppercase tracking-widest rounded-full shadow-sm">
+              <div className="mb-10">
+                <span className="inline-flex items-center text-[10px] font-bold text-brand-gold uppercase tracking-[0.2em]">
                   {t.hero.badge}
                 </span>
               </div>
-              <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-brand-navy mb-6 leading-[1.1] tracking-tight">
+              <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-brand-navy mb-6 leading-tight tracking-tight">
                 {t.hero.name}
               </h1>
-              <p className="text-xl sm:text-2xl font-serif text-brand-gold leading-relaxed mb-6">
+              <p className="text-lg sm:text-xl font-serif text-slate-500 leading-snug mb-8 font-light">
                 {t.hero.title}
               </p>
-              <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">
+              <p className="text-[17px] text-slate-600 leading-[1.8] font-light max-w-2xl">
                 {t.hero.intro}
               </p>
             </div>
-            <div className="mt-10 md:mt-0 shrink-0">
-              <div className="relative w-56 h-72 sm:w-64 sm:h-80 rounded-2xl overflow-hidden shadow-[0_20px_60px_-20px_rgba(15,23,42,0.2)] border border-slate-100">
+            <div className="mt-12 md:mt-0 shrink-0">
+              <div className="relative w-64 h-[22rem] sm:w-[300px] sm:h-[400px] rounded-[2.5rem] overflow-hidden bg-slate-50 border border-slate-100 shadow-[0_20px_40px_-20px_rgba(15,23,42,0.08)]">
                 <Image
                   src="/assets/physician/dr-jee-hoon-ju-portrait.png"
                   alt="Dr. Jee Hoon Ju"
                   fill
                   className="object-cover object-top"
                   priority
-                  sizes="(max-width: 768px) 224px, 256px"
+                  sizes="(max-width: 768px) 256px, 300px"
                 />
               </div>
             </div>
@@ -161,29 +161,41 @@ export default async function PhysicianPage({
       </section>
 
       {/* Credentials */}
-      <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl text-brand-navy mb-10">
+      <section className="w-full py-20 sm:py-32 px-4 sm:px-6 bg-slate-50/50 border-b border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-serif text-3xl text-brand-navy mb-16 text-center">
             {t.credentials.title}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {t.credentials.items.map((item: { label: string; credential: string; detail: string }, idx: number) => {
               const Icon = credentialIcons[idx % credentialIcons.length]
+              const isSpecial = idx === 2
               return (
                 <div
                   key={item.label}
-                  className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_12px_40px_-20px_rgba(15,23,42,0.08)]"
+                  className={cn(
+                    "rounded-[2rem] border p-8 sm:p-10 transition-all duration-300",
+                    isSpecial ? "border-brand-gold/20 bg-brand-gold/[0.02]" : "border-slate-200 bg-white"
+                  )}
                 >
-                  <div className="w-11 h-11 rounded-xl bg-brand-gold/10 flex items-center justify-center mb-5">
-                    <Icon className="w-5 h-5 text-brand-gold" />
+                  <div className="flex items-center gap-4 mb-8">
+                    <div className={cn(
+                      "w-12 h-12 rounded-full flex items-center justify-center shrink-0",
+                      isSpecial ? "bg-brand-gold/10 text-brand-gold" : "bg-slate-100 text-slate-500"
+                    )}>
+                      <Icon className="w-5 h-5" />
+                    </div>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">
+                      {item.label}
+                    </p>
                   </div>
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-2">
-                    {item.label}
-                  </p>
-                  <h3 className="font-serif text-lg text-brand-navy font-semibold mb-2">
+                  <h3 className={cn(
+                    "font-serif text-lg sm:text-xl font-medium mb-4 leading-snug",
+                    isSpecial ? "text-brand-gold" : "text-brand-navy"
+                  )}>
                     {item.credential}
                   </h3>
-                  <p className="text-sm text-text-body leading-relaxed">
+                  <p className="text-sm text-slate-600 leading-[1.8] font-light">
                     {item.detail}
                   </p>
                 </div>
@@ -194,84 +206,103 @@ export default async function PhysicianPage({
       </section>
 
       {/* Verification Methodology */}
-      <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col sm:flex-row sm:items-start sm:gap-10 mb-10">
+      <section className="w-full py-24 sm:py-36 px-4 sm:px-6 bg-white border-b border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col lg:flex-row lg:items-start gap-16 lg:gap-24 mb-20 sm:mb-24">
             <div className="flex-1">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+              <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold mb-6 flex items-center gap-4">
+                <span className="w-8 h-[1px] bg-brand-gold/40 block"></span>
                 {t.verification.badge}
               </p>
-              <h2 className="font-serif text-3xl text-brand-navy mb-4">
+              <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 leading-tight">
                 {t.verification.title}
               </h2>
-              <p className="text-text-body leading-relaxed max-w-3xl">
+              <p className="text-lg sm:text-xl font-serif text-slate-600 leading-[1.8] font-light max-w-2xl">
                 {t.verification.intro}
               </p>
             </div>
-            <div className="mt-6 sm:mt-0 shrink-0">
-              <div className="relative w-full sm:w-56 h-40 sm:h-36 rounded-2xl overflow-hidden shadow-md border border-slate-100">
+            <div className="lg:w-80 shrink-0">
+              <div className="relative w-full aspect-[4/3] rounded-[2rem] overflow-hidden border border-slate-100 shadow-[0_20px_40px_-20px_rgba(15,23,42,0.08)] bg-slate-50">
                 <Image
                   src="/assets/physician/dr-jee-hoon-ju-conference.png"
                   alt="Dr. Jee Hoon Ju presenting at the 17th KSHRS Conference"
                   fill
-                  className="object-cover object-center"
-                  sizes="(max-width: 640px) 100vw, 224px"
+                  className="object-cover object-center filter sepia-[0.2] contrast-[1.05]"
+                  sizes="(max-width: 1024px) 100vw, 320px"
                 />
               </div>
-              <p className="text-[11px] text-text-muted mt-2 text-center">KSHRS 17th Annual Conference, 2025</p>
+              <p className="text-[11px] font-medium uppercase tracking-[0.15em] text-slate-400 mt-6 text-center">
+                KSHRS 17th Annual Conference, 2025
+              </p>
             </div>
           </div>
 
-          {/* Mode 1 */}
-          <div className="mb-8">
-            <h3 className="font-serif text-xl text-brand-navy mb-4">
-              {t.verification.mode1.title}
-            </h3>
-            <p className="text-text-body leading-relaxed mb-6">
-              {t.verification.mode1.description}
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              {t.verification.mode1.hospitals.map((h: { name: string; role: string }) => (
-                <div
-                  key={h.name}
-                  className={cn("rounded-2xl border p-5", verificationModeStyles.embedded)}
-                >
-                  <h4 className="font-serif text-base text-brand-navy font-semibold mb-1">
-                    {h.name}
-                  </h4>
-                  <p className="text-sm text-text-muted">{h.role}</p>
-                </div>
-              ))}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-x-16 lg:gap-x-24">
+            {/* Mode 1 Header */}
+            <div className="lg:col-span-7 order-1 mb-8 lg:mb-12">
+              <h3 className="font-serif text-xl sm:text-2xl text-brand-gold mb-6">
+                {t.verification.mode1.title}
+              </h3>
+              <p className="text-[17px] text-slate-600 leading-[1.8] font-light max-w-xl">
+                {t.verification.mode1.description}
+              </p>
+            </div>
+            
+            {/* Mode 2 Header */}
+            <div className="lg:col-span-5 order-3 lg:order-2 mb-8 lg:mb-12">
+              <h3 className="font-serif text-xl sm:text-2xl text-brand-navy/60 mb-6">
+                {t.verification.mode2.title}
+              </h3>
+              <p className="text-[17px] text-slate-500 leading-[1.8] font-light">
+                {t.verification.mode2.description}
+              </p>
+            </div>
+
+            {/* Mode 1 List */}
+            <div className="lg:col-span-7 order-2 lg:order-3 mb-16 lg:mb-0">
+              <div className="flex flex-col">
+                {t.verification.mode1.hospitals.map((h: { name: string; role: string }, idx: number) => (
+                  <div
+                    key={h.name}
+                    className={cn(
+                      "flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 py-6 border-b border-brand-gold/10",
+                      idx === 0 && "border-t"
+                    )}
+                  >
+                    <h4 className="font-serif text-lg text-brand-navy font-medium shrink-0">
+                      {h.name}
+                    </h4>
+                    <p className="text-sm text-slate-500 font-light text-left sm:text-right">{h.role}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Mode 2 List */}
+            <div className="lg:col-span-5 order-4">
+              <div className="flex flex-col">
+                {t.verification.mode2.hospitals.map((h: { name: string; basis: string }, idx: number) => (
+                  <div
+                    key={h.name}
+                    className={cn(
+                      "py-6 border-b border-slate-100",
+                      idx === 0 && "border-t"
+                    )}
+                  >
+                    <h4 className="font-serif text-base text-brand-navy/80 font-medium mb-3">
+                      {h.name}
+                    </h4>
+                    <p className="text-sm text-slate-400 font-light leading-relaxed">{h.basis}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
-          {/* Mode 2 */}
-          <div className="mb-8">
-            <h3 className="font-serif text-xl text-brand-navy mb-4">
-              {t.verification.mode2.title}
-            </h3>
-            <p className="text-text-body leading-relaxed mb-6">
-              {t.verification.mode2.description}
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {t.verification.mode2.hospitals.map((h: { name: string; basis: string }) => (
-                <div
-                  key={h.name}
-                  className={cn("rounded-2xl border p-5", verificationModeStyles.network)}
-                >
-                  <h4 className="font-serif text-base text-brand-navy font-semibold mb-1">
-                    {h.name}
-                  </h4>
-                  <p className="text-sm text-text-muted">{h.basis}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="text-center mt-8">
+          <div className="mt-20 pt-16 border-t border-slate-100 flex justify-center">
             <Link
               href={`${prefix}/methodology/how-we-verify-hospitals`}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+              className="inline-flex items-center gap-4 text-[13px] font-bold uppercase tracking-[0.15em] text-brand-navy hover:text-brand-gold transition-colors"
             >
               {t.verification.methodologyLink} <ArrowRight className="w-4 h-4" />
             </Link>
@@ -280,75 +311,86 @@ export default async function PhysicianPage({
       </section>
 
       {/* AI Governance */}
-      <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-white border-b border-slate-200">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
-            {t.aiGovernance.badge}
-          </p>
-          <h2 className="font-serif text-3xl text-brand-navy mb-4">
-            {t.aiGovernance.title}
-          </h2>
-          <p className="text-text-body leading-relaxed max-w-3xl">
-            {t.aiGovernance.description}
-          </p>
-          <div className="mt-8 rounded-2xl border border-brand-navy/10 bg-brand-navy/[0.03] p-6 sm:p-8">
-            <p className="font-serif text-lg text-brand-navy italic leading-relaxed">
-              &ldquo;{t.aiGovernance.quote}&rdquo;
-            </p>
+      <section className="w-full py-24 sm:py-40 px-4 sm:px-6 bg-slate-50/30 border-b border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+            <div className="lg:col-span-5 order-2 lg:order-1">
+              <div className="relative pl-10 border-l-[1px] border-brand-gold/30 py-8">
+                <p className="font-serif text-2xl sm:text-3xl text-brand-navy leading-[1.6] font-medium">
+                  {t.aiGovernance.quote}
+                </p>
+                <div className="absolute top-0 -left-6 w-12 h-12 bg-white rounded-full flex items-center justify-center text-4xl font-serif text-brand-gold/40 select-none shadow-sm border border-slate-100">
+                  &ldquo;
+                </div>
+              </div>
+            </div>
+            <div className="lg:col-span-7 order-1 lg:order-2">
+              <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold mb-6 flex items-center gap-4">
+                <span className="w-8 h-[1px] bg-brand-gold/40 block"></span>
+                {t.aiGovernance.badge}
+              </p>
+              <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-6 leading-tight">
+                {t.aiGovernance.title}
+              </h2>
+              <p className="text-[17px] text-slate-600 leading-[1.8] font-light max-w-2xl">
+                {t.aiGovernance.description}
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Origin Story */}
-      <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
-            {t.origin.badge}
-          </p>
-          <h2 className="font-serif text-3xl text-brand-navy mb-8">
-            {t.origin.title}
-          </h2>
-          <div className="float-right ml-8 mb-6 hidden sm:block">
-            <div className="relative w-48 h-60 rounded-2xl overflow-hidden shadow-md border border-slate-100">
-              <Image
-                src="/assets/physician/dr-jee-hoon-ju-surgeon.png"
-                alt="Dr. Jee Hoon Ju as a hair transplant surgeon"
-                fill
-                className="object-cover object-top"
-                sizes="192px"
-              />
+      <section className="w-full py-24 sm:py-40 px-4 sm:px-6 bg-white border-b border-slate-100">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16 sm:mb-24">
+            <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold mb-6">
+              {t.origin.badge}
+            </p>
+            <h2 className="font-serif text-4xl sm:text-5xl text-brand-navy mb-8">
+              {t.origin.title}
+            </h2>
+          </div>
+          
+          <div className="clearfix">
+            <div className="float-none md:float-right md:ml-16 mb-12 md:mb-8 w-full md:w-72">
+              <div className="relative w-full aspect-[3/4] rounded-[2rem] overflow-hidden bg-slate-50 border border-slate-100 shadow-sm">
+                <Image
+                  src="/assets/physician/dr-jee-hoon-ju-surgeon.png"
+                  alt="Dr. Jee Hoon Ju as a hair transplant surgeon"
+                  fill
+                  className="object-cover object-top filter grayscale contrast-110 opacity-90"
+                  sizes="(max-width: 768px) 100vw, 288px"
+                />
+              </div>
+              <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400 mt-6 text-center md:text-left">
+                Operating Theater
+              </p>
             </div>
-          </div>
-          <div className="space-y-6 text-lg text-text-body leading-[1.8]">
-            {t.origin.paragraphs.map((p: string, i: number) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-          <div className="mt-8 sm:hidden">
-            <div className="relative w-full h-72 rounded-2xl overflow-hidden shadow-md border border-slate-100">
-              <Image
-                src="/assets/physician/dr-jee-hoon-ju-surgeon.png"
-                alt="Dr. Jee Hoon Ju as a hair transplant surgeon"
-                fill
-                className="object-cover object-top"
-                sizes="100vw"
-              />
+            
+            <div className="space-y-10 text-lg sm:text-[19px] text-slate-700 font-serif leading-[1.9] font-light">
+              {t.origin.paragraphs.map((p: string, i: number) => (
+                <p key={i}>{p}</p>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
       {/* Structural Integrity */}
-      <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-white border-b border-slate-200">
+      <section className="w-full py-24 sm:py-36 px-4 sm:px-6 bg-slate-50/30 border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl text-brand-navy mb-4">
-            {t.structuralIntegrity.title}
-          </h2>
-          <p className="text-text-body leading-relaxed max-w-3xl mb-8">
-            {t.structuralIntegrity.description}
-          </p>
-          <div className="rounded-2xl border border-brand-gold/20 bg-brand-gold/5 p-6 sm:p-8">
-            <p className="font-serif text-lg text-brand-navy leading-relaxed">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 leading-tight">
+              {t.structuralIntegrity.title}
+            </h2>
+            <p className="text-[17px] text-slate-600 leading-[1.8] font-light">
+              {t.structuralIntegrity.description}
+            </p>
+          </div>
+          <div className="relative rounded-[2.5rem] bg-white border border-brand-gold/20 p-10 sm:p-16 shadow-[0_20px_40px_-20px_rgba(15,23,42,0.05)] text-center">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-[1px] bg-gradient-to-r from-transparent via-brand-gold/60 to-transparent" />
+            <p className="font-serif text-xl sm:text-2xl text-brand-navy leading-[1.6] font-medium max-w-2xl mx-auto">
               {t.structuralIntegrity.highlight}
             </p>
           </div>
