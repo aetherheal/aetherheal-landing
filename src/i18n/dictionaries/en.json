@@ -40,7 +40,8 @@
       "medicalBoundaryNotice": "Medical Boundary Notice",
       "termsOfService": "Terms of Service",
       "privacyPolicy": "Privacy Policy",
-      "paymentRefundPolicy": "Payment & Refund Policy"
+      "paymentRefundPolicy": "Payment & Refund Policy",
+      "ourPhysician": "Our Physician"
     },
     "continueReading": "Continue Reading",
     "contents": "Contents",
@@ -1129,7 +1130,12 @@
         "label": "How AetherHeal Works",
         "desc": "The system behind physician-led decision support"
       }
-    ]
+    ],
+    "reviewerMeta": {
+      "label": "Reviewed by",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
   },
   "explore": {
     "meta": {

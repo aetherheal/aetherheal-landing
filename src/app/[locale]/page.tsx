@@ -334,6 +334,17 @@ export default async function HomePage({
                 />
               )}
             </div>
+            <p className="text-center text-xs text-text-muted mt-2 mb-6">
+              Verified through{" "}
+              <Link href={`${prefix}/how-it-works`} className="font-semibold text-brand-navy/70 hover:text-brand-gold transition-colors">
+                Angel Physician
+              </Link>
+              {" "}review under the{" "}
+              <Link href={`${prefix}/trust-protocol`} className="font-semibold text-brand-navy/70 hover:text-brand-gold transition-colors">
+                AetherHeal Trust Protocol
+              </Link>
+              .
+            </p>
             <div className="text-center">
               <Link
                 href={`${prefix}/trust-protocol`}

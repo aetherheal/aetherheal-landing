@@ -339,6 +339,23 @@ export default async function TrustProtocolPage({ params }: { params: Promise<{ 
         </div>
       </section>
 
+      {/* Reviewer Attribution */}
+      <section className="w-full px-4 sm:px-6 bg-white">
+        <div className="max-w-4xl mx-auto py-8 border-t border-slate-200">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-text-muted">
+            <span>{(t as typeof t & { reviewerMeta?: { label?: string } }).reviewerMeta?.label ?? "Reviewed by"}</span>
+            <Link
+              href={`${prefix}/doctors/dr-jee-hoon-ju`}
+              className="font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+            >
+              {(t as typeof t & { reviewerMeta?: { name?: string } }).reviewerMeta?.name ?? "Dr. Jee Hoon Ju, MD"}
+            </Link>
+            <span className="text-text-muted/60">·</span>
+            <span>{(t as typeof t & { reviewerMeta?: { credentials?: string } }).reviewerMeta?.credentials ?? "ABAM · MIT Sloan AI in Healthcare"}</span>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 sm:py-28 px-4 sm:px-6 bg-slate-50 border-t border-slate-200">
         <div className="max-w-[1100px] mx-auto">
           <h2 className="font-serif text-3xl text-brand-navy mb-10 text-center">{dict.common.continueReading}</h2>

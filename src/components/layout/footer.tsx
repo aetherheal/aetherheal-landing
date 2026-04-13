@@ -108,6 +108,14 @@ export function Footer({ dict, locale }: FooterProps) {
               {dict.footer.company}
             </h3>
             <ul className="space-y-4">
+              <li>
+                <Link
+                  href={`${isKo ? "/en" : prefix}/doctors/dr-jee-hoon-ju`}
+                  className="text-sm text-slate-300 hover:text-brand-gold transition-colors"
+                >
+                  {dict.footer.ourPhysician ?? "Our Physician"}
+                </Link>
+              </li>
               {legalLinks.map((link) => (
                 <li key={link.href}>
                   <Link
