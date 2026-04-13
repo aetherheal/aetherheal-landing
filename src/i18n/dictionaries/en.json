@@ -53,10 +53,10 @@
     },
     "hero": {
       "badge": "Verified clinic matching for global patients considering Korea",
-      "h1": "The world doesn't lack clinics.",
-      "h1Highlight": "It lacks trust.",
-      "description": "Work with our Angel Physicians.",
-      "descriptionHighlight": "",
+      "h1": "For the first time,",
+      "h1Highlight": "someone on your side.",
+      "description": "A physician-led process that protects your decision",
+      "descriptionHighlight": "before you commit to a hospital.",
       "descriptionEnd": "",
       "branches": [
         "Verify hospitals",
@@ -68,17 +68,16 @@
       "disclaimer2": "Not medical treatment or emergency care.",
       "openingDate": "Opening September 1, 2026",
       "openingDateSuffix": "early assessments begin now.",
-      "ctaAssessment": "Begin Your Case Assessment",
+      "ctaAssessment": "Start With Someone On Your Side",
       "waitlistButton": "Join the Waitlist",
       "waitlistPlaceholder": "Enter your email",
       "waitlistSuccess": "You're on the list! We'll be in touch.",
       "waitlistDuplicate": "You're already on the list!",
-      "ctaExplore": "How the process works",
-      "ctaAssessment": "Start Your Decision Assessment"
+      "ctaExplore": "How the process works"
     },
     "problemQuote": {
       "title": "What patients are really afraid of",
-      "subtitle": "The barrier is not access. It is knowing what to trust.",
+      "subtitle": "The world doesn't lack clinics. It lacks trust. And until now, no one was structurally on your side.",
       "items": [
         {
           "title": "Misleading signals",
@@ -127,10 +126,10 @@
       }
     },
     "aiLayer": {
-      "badge": "Trust Architecture",
-      "title": "How AetherHeal",
-      "titleHighlight": "creates trust",
-      "subtitle": "Trust should come from structure, not claims.",
+      "badge": "Your Protections",
+      "title": "What stands",
+      "titleHighlight": "between you and risk",
+      "subtitle": "Five structural protections that work for you — not for the hospital, not for the agency.",
       "cards": [
         {
           "title": "Verified Hospital Network",
@@ -189,9 +188,9 @@
     },
     "journey": {
       "sectionLabel": "Patient Journey",
-      "title": "What your journey",
-      "titleHighlight": "actually looks like",
-      "subtitle": "AetherHeal is designed to make each step legible: what happens first, who is responsible, and when commitment should happen.",
+      "title": "You are never alone",
+      "titleHighlight": "at any step.",
+      "subtitle": "From your first question to one year after treatment, someone is responsible at every stage — and you can see who.",
       "steps": [
         {
           "label": "Patient Intent",
@@ -355,9 +354,9 @@
       }
     },
     "partners": {
-      "subtitle": "Verification Standard",
-      "compactTitle": "Not every hospital satisfies what we measure.",
-      "compactDescription": "31% of applicants did not meet the standard.",
+      "subtitle": "Your Protection",
+      "compactTitle": "Your protection starts before the first hospital sees your case.",
+      "compactDescription": "31% of hospital applicants were rejected. That standard exists to protect you.",
       "rejectionReasons": "Rejection reasons have included unverified physician credentials, undisclosed pricing structures, and refusal of procedure recording.",
       "proofPoints": [],
       "compactStats": [
@@ -474,8 +473,8 @@
     },
     "cta": {
       "title": "Clarity before commitment",
-      "subtitle": "If you are considering care in Korea, start with a process designed to protect your decision — before anyone asks you to make one.",
-      "ctaPrimary": "Begin Your Case Assessment",
+      "subtitle": "If you are considering care in Korea, start with someone who is structurally on your side — before anyone asks you to commit.",
+      "ctaPrimary": "Start With Someone On Your Side",
       "openingDate": "We are opening September 1, 2026.",
       "openingDateSuffix": "Early case assessments are already underway.",
       "waitlistButton": "Join the Waitlist",
