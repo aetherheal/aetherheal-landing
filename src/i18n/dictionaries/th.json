@@ -40,7 +40,8 @@
       "medicalBoundaryNotice": "ประกาศขอบเขตทางการแพทย์",
       "termsOfService": "ข้อกำหนดในการให้บริการ",
       "privacyPolicy": "นโยบายความเป็นส่วนตัว",
-      "paymentRefundPolicy": "นโยบายการชำระเงินและการคืนเงิน"
+      "paymentRefundPolicy": "นโยบายการชำระเงินและการคืนเงิน",
+      "ourPhysician": "แพทย์ของเรา"
     },
     "continueReading": "อ่านต่อ",
     "contents": "สารบัญ",
@@ -48,15 +49,15 @@
   },
   "home": {
     "meta": {
-      "title": "AetherHeal | การเดินทางทางการแพทย์ระดับโลกสู่โซลโดยแพทย์",
-      "description": "AetherHeal คือโครงสร้างพื้นฐานการตัดสินใจที่นำโดยแพทย์และสนับสนุนด้วย AI สำหรับผู้ป่วยต่างชาติที่กำลังพิจารณาการดูแลในเกาหลี ความชัดเจนที่มีโครงสร้างก่อนการผูกมัดกับโรงพยาบาล การประสานงาน และความต่อเนื่อง"
+      "title": "AetherHeal | เป็นครั้งแรก ที่มีคนอยู่ข้างคุณ",
+      "description": "กำลังพิจารณาการรักษาในเกาหลีใช่ไหม? AetherHeal คือกระบวนการที่นำโดยแพทย์ ซึ่งปกป้องการตัดสินใจของคุณก่อนที่คุณจะเลือกโรงพยาบาล — ด้วยพันธมิตรที่ได้รับการตรวจสอบ ความรับผิดชอบที่มองเห็นได้ และความต่อเนื่องตั้งแต่การรับเข้าจนถึงการฟื้นตัว"
     },
     "hero": {
       "badge": "คลินิกที่ผ่านการตรวจสอบสำหรับผู้ป่วยต่างชาติที่สนใจเกาหลี",
-      "h1": "โลกไม่ได้ขาดแคลนคลินิก",
-      "h1Highlight": "สิ่งที่ขาดคือความไว้วางใจ",
-      "description": "ทำงานร่วมกับแพทย์ Angel Physician (แพทย์ที่ปรึกษา) ของเรา",
-      "descriptionHighlight": "",
+      "h1": "เป็นครั้งแรก",
+      "h1Highlight": "ที่มีคนอยู่ข้างคุณ",
+      "description": "กระบวนการที่นำโดยแพทย์ ซึ่งปกป้องการตัดสินใจของคุณ",
+      "descriptionHighlight": "ก่อนที่คุณจะเลือกโรงพยาบาล",
       "descriptionEnd": "",
       "branches": [
         "ตรวจสอบโรงพยาบาล",
@@ -73,11 +74,11 @@
       "waitlistSuccess": "คุณอยู่ในรายชื่อแล้ว! เราจะติดต่อกลับเร็วๆ นี้",
       "waitlistDuplicate": "คุณอยู่ในรายชื่อแล้ว!",
       "ctaExplore": "กระบวนการทำงานเป็นอย่างไร",
-      "ctaAssessment": "เริ่มการประเมินกรณีของคุณ"
+      "ctaAssessment": "เริ่มต้นกับคนที่อยู่ข้างคุณ"
     },
     "problemQuote": {
       "title": "สิ่งที่ผู้ป่วยกลัวจริงๆ",
-      "subtitle": "อุปสรรคไม่ใช่การเข้าถึง แต่คือการรู้ว่าควรเชื่อถืออะไร",
+      "subtitle": "โลกไม่ได้ขาดแคลนคลินิก สิ่งที่ขาดคือความไว้วางใจ และจนถึงตอนนี้ ไม่มีใครที่ยืนอยู่ข้างคุณในเชิงโครงสร้างอย่างแท้จริง",
       "items": [
         {
           "title": "สัญญาณที่ทำให้เข้าใจผิด",
@@ -126,10 +127,10 @@
       }
     },
     "aiLayer": {
-      "badge": "สถาปัตยกรรมความไว้วางใจ",
-      "title": "AetherHeal",
-      "titleHighlight": "สร้างความไว้วางใจอย่างไร",
-      "subtitle": "ความไว้วางใจควรมาจากโครงสร้าง ไม่ใช่คำกล่าวอ้าง",
+      "badge": "การปกป้องของคุณ",
+      "title": "อะไรที่ยืนอยู่",
+      "titleHighlight": "ระหว่างคุณกับความเสี่ยง",
+      "subtitle": "การปกป้องเชิงโครงสร้าง 5 ประการที่ทำงานเพื่อคุณ — ไม่ใช่เพื่อโรงพยาบาล ไม่ใช่เพื่อตัวแทน",
       "cards": [
         {
           "title": "เครือข่ายโรงพยาบาลที่ผ่านการตรวจสอบ",
@@ -188,9 +189,9 @@
     },
     "journey": {
       "sectionLabel": "โครงสร้างพื้นฐานการตัดสินใจที่เคลื่อนไหว",
-      "title": "จากการตัดสินใจสู่การฟื้นตัว",
-      "titleHighlight": "ความรับผิดชอบยังคงมองเห็นได้",
-      "subtitle": "นี่คือวิธีที่อำนาจของแพทย์ อำนาจของโรงพยาบาล และการสนับสนุน AI ยังคงแยกจากกันตลอดการเดินทาง",
+      "title": "คุณไม่ได้อยู่คนเดียว",
+      "titleHighlight": "ในทุกขั้นตอน",
+      "subtitle": "ตั้งแต่คำถามแรกของคุณไปจนถึงหนึ่งปีหลังการรักษา มีคนรับผิดชอบในทุกขั้นตอน — และคุณสามารถเห็นได้ว่าเป็นใคร",
       "steps": [
         {
           "label": "ความตั้งใจของผู้ป่วย",
@@ -259,94 +260,6 @@
         "ready": "พร้อมสำหรับการปล่อย",
         "proceed": "ดำเนินต่อไปยังการทบทวนโดยโรงพยาบาล"
       },
-      "storyArc": {
-        "badge": "เรื่องราวทั้งหมด",
-        "title": "เป้าหมายของการเดินทางผู้ป่วย",
-        "subtitle": "ผู้ป่วยควรเห็นภาพรวมตั้งแต่เริ่มต้น: ใครนำทางการตัดสินใจ ใครดำเนินการรักษา และใครรักษาความต่อเนื่องหลังจากนั้น",
-        "items": [
-          {
-            "phase": "ก่อนเดินทาง",
-            "title": "ความชัดเจนในการตัดสินใจ",
-            "owner": "AetherHeal + แพทย์"
-          },
-          {
-            "phase": "เดินทางถึง",
-            "title": "การส่งต่อปฏิบัติการ",
-            "owner": "AetherHeal"
-          },
-          {
-            "phase": "การรักษา",
-            "title": "อำนาจทางคลินิก",
-            "owner": "โรงพยาบาล"
-          },
-          {
-            "phase": "การฟื้นตัว",
-            "title": "การมองเห็นการติดตาม",
-            "owner": "AetherHeal + ผู้ป่วย"
-          },
-          {
-            "phase": "สูงสุด 1 ปี",
-            "title": "ความต่อเนื่องและการยกระดับ",
-            "owner": "AetherHeal + โรงพยาบาล"
-          }
-        ]
-      },
-      "first48Hours": {
-        "badge": "48 ชั่วโมงแรก",
-        "title": "48 ชั่วโมงแรกของคุณ",
-        "subtitle": "การเดินทางถึง การส่งต่อ และการจัดแนวทางคลินิก การรักษาอาจเกิดขึ้นภายในช่วงนี้หรือหลังจากนั้น",
-        "items": [
-          {
-            "time": "เดินทางถึง",
-            "title": "การประสานงานรับผู้ป่วย",
-            "description": "เราต้อนรับผู้ป่วย ยืนยันแผน และชี้แจงขั้นตอนถัดไป",
-            "owner": "คอนเซียร์จ 1:1 โดย AetherHeal",
-            "next": "การส่งต่อโรงพยาบาล"
-          },
-          {
-            "time": "24 ชั่วโมงแรก",
-            "title": "การแปลภาษา การนัดหมาย และการส่งต่อ",
-            "description": "โรงพยาบาลรับบริบทของกรณี ผู้ป่วยได้รับการสนับสนุนด้านภาษาและการนัดหมาย",
-            "owner": "การประสานงานคลินิกโดย AetherHeal + โรงพยาบาล",
-            "next": "การยืนยันทางคลินิก"
-          },
-          {
-            "time": "24-48 ชั่วโมง",
-            "title": "ความพร้อมในการรักษา",
-            "description": "ผู้ป่วยและโรงพยาบาลยืนยันว่าจะรักษาตอนนี้ ระหว่างทริป หรือหลังเตรียมตัวเพิ่ม",
-            "owner": "การยืนยันคลินิกโดยโรงพยาบาล",
-            "next": "การรักษาหรือการประสานงานเพิ่มเติม"
-          }
-        ]
-      },
-      "continuityYear": {
-        "badge": "ความต่อเนื่อง 1 ปี",
-        "title": "ความต่อเนื่องหลังการรักษา",
-        "subtitle": "หลังผู้ป่วยกลับบ้าน การฟื้นตัวยังคงมองเห็นได้และยกระดับได้ง่ายขึ้นหากจำเป็น",
-        "items": [
-          {
-            "phase": "สัปดาห์ที่ 1",
-            "title": "การเช็คอินช่วงฟื้นตัวเริ่มต้น",
-            "description": "อาการ ภาพถ่าย และคำถามถูกรวบรวมตั้งแต่เนิ่นๆ เพื่อไม่ให้ข้อกังวลถูกมองข้าม",
-            "owner": "การเช็คอินเริ่มต้นโดย AetherHeal + ผู้ป่วย",
-            "next": "การติดตามความคาดหวัง"
-          },
-          {
-            "phase": "เดือนที่ 1-3",
-            "title": "การติดตามและตรวจสอบความคาดหวัง",
-            "description": "การฟื้นตัวถูกติดตามเทียบกับไทม์ไลน์ที่คาดไว้ ข้ามระยะทางและภาษา",
-            "owner": "การติดตามการฟื้นตัวโดย AetherHeal",
-            "next": "การติดตามระยะยาว"
-          },
-          {
-            "phase": "เดือนที่ 3-12",
-            "title": "ความต่อเนื่องระยะยาว",
-            "description": "หากมีข้อกังวลล่าช้า ประวัติกรณียังคงจัดระเบียบเพื่อไม่ต้องเริ่มใหม่จากศูนย์",
-            "owner": "การยกระดับโดย AetherHeal + โรงพยาบาล",
-            "next": "ความต่อเนื่องที่บันทึกไว้"
-          }
-        ]
-      },
       "closingQuote": "เป้าหมายไม่ใช่การเร่งคุณ แต่คือช่วยให้คุณตัดสินใจโดยเสียใจน้อยลง",
       "uiLabels": {
         "responsibility": "ผู้รับผิดชอบ",
@@ -354,9 +267,9 @@
       }
     },
     "partners": {
-      "subtitle": "มาตรฐานการตรวจสอบ",
-      "compactTitle": "ไม่ใช่ทุกโรงพยาบาลที่เป็นไปตามสิ่งที่เราวัด",
-      "compactDescription": "31% ของผู้สมัครไม่เป็นไปตามมาตรฐาน",
+      "subtitle": "การปกป้องของคุณ",
+      "compactTitle": "การปกป้องของคุณเริ่มต้นก่อนที่โรงพยาบาลแรกจะเห็นกรณีของคุณ",
+      "compactDescription": "31% ของผู้สมัครโรงพยาบาลถูกปฏิเสธ มาตรฐานนั้นมีไว้เพื่อปกป้องคุณ",
       "rejectionReasons": "เหตุผลในการปฏิเสธรวมถึงคุณสมบัติแพทย์ที่ยังไม่ได้รับการยืนยัน โครงสร้างราคาที่ไม่เปิดเผย และการปฏิเสธที่จะบันทึกหัตถการ",
       "proofPoints": [],
       "compactStats": [
@@ -473,10 +386,10 @@
     },
     "cta": {
       "title": "ความมั่นใจก่อนการผูกมัด",
-      "subtitle": "หากคุณกำลังพิจารณารับการดูแลในเกาหลี ให้เริ่มต้นด้วยกระบวนการที่ออกแบบมาเพื่อปกป้องการตัดสินใจของคุณ — ก่อนที่ใครจะขอให้คุณตัดสินใจ",
+      "subtitle": "หากคุณกำลังพิจารณาการรักษาในเกาหลี เริ่มต้นกับคนที่ยืนอยู่ข้างคุณในเชิงโครงสร้าง — ก่อนที่ใครจะขอให้คุณตัดสินใจ",
       "openingDate": "เราจะเปิดให้บริการในวันที่ 1 กันยายน 2026.",
       "openingDateSuffix": "การประเมินกรณีเบื้องต้นได้เริ่มดำเนินการแล้ว",
-      "ctaPrimary": "เริ่มการประเมินกรณีของคุณ",
+      "ctaPrimary": "เริ่มต้นกับคนที่อยู่ข้างคุณ",
       "waitlistButton": "เข้าร่วมรายชื่อรอ",
       "waitlistPlaceholder": "กรอกอีเมลของคุณ",
       "waitlistSuccess": "คุณอยู่ในรายชื่อแล้ว! เราจะติดต่อกลับเร็วๆ นี้",
@@ -1191,7 +1104,12 @@
         "label": "วิธีการทำงานของ AetherHeal",
         "desc": "ระบบเบื้องหลังการสนับสนุนการตัดสินใจโดยแพทย์"
       }
-    ]
+    ],
+    "reviewerMeta": {
+      "label": "ตรวจสอบโดย",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
   },
   "explore": {
     "meta": {
@@ -3010,7 +2928,100 @@
         "label": "วิธีการทำงานของ AetherHeal",
         "desc": "ระบบเบื้องหลังการสนับสนุนการตัดสินใจโดยแพทย์"
       }
-    ]
+    ],
+    "storyArc": {
+      "badge": "เรื่องราวทั้งหมด",
+      "title": "เป้าหมายของการเดินทางผู้ป่วย",
+      "subtitle": "ผู้ป่วยควรเห็นภาพรวมตั้งแต่เริ่มต้น: ใครนำทางการตัดสินใจ ใครดำเนินการรักษา และใครดูแลความต่อเนื่องให้มองเห็นได้หลังจากนั้น",
+      "responsibilityLabel": "ผู้รับผิดชอบ",
+      "items": [
+        {
+          "phase": "ก่อนเดินทาง",
+          "title": "ความชัดเจนในการตัดสินใจ",
+          "owner": "AetherHeal + แพทย์"
+        },
+        {
+          "phase": "เดินทางถึง",
+          "title": "การส่งต่อเชิงปฏิบัติการ",
+          "owner": "AetherHeal"
+        },
+        {
+          "phase": "การรักษา",
+          "title": "อำนาจทางคลินิก",
+          "owner": "โรงพยาบาล"
+        },
+        {
+          "phase": "การฟื้นตัว",
+          "title": "การมองเห็นการติดตามผล",
+          "owner": "AetherHeal + ผู้ป่วย"
+        },
+        {
+          "phase": "สูงสุด 1 ปี",
+          "title": "ความต่อเนื่องและการยกระดับ",
+          "owner": "AetherHeal + โรงพยาบาล"
+        }
+      ]
+    },
+    "first48Hours": {
+      "badge": "48 ชั่วโมงแรก",
+      "title": "48 ชั่วโมงแรกของคุณ",
+      "subtitle": "การเดินทางถึง การส่งต่อ และการจัดแนวทางคลินิก การรักษาอาจเกิดขึ้นภายในช่วงเวลานี้หรือในภายหลัง",
+      "responsibilityLabel": "ผู้รับผิดชอบ",
+      "thenLabel": "ถัดไป:",
+      "items": [
+        {
+          "time": "เดินทางถึง",
+          "title": "การประสานงานรับผู้ป่วย",
+          "description": "เราต้อนรับผู้ป่วย ยืนยันแผนการรักษา และชี้แจงขั้นตอนถัดไป",
+          "owner": "คอนเซียร์จ 1:1 โดย AetherHeal",
+          "next": "การส่งต่อโรงพยาบาล"
+        },
+        {
+          "time": "24 ชั่วโมงแรก",
+          "title": "การแปลภาษา การนัดหมาย และการส่งต่อ",
+          "description": "โรงพยาบาลได้รับบริบทของกรณี ผู้ป่วยได้รับการสนับสนุนด้านภาษาและการนัดหมาย",
+          "owner": "การประสานงานทางคลินิกโดย AetherHeal + โรงพยาบาล",
+          "next": "การยืนยันทางคลินิก"
+        },
+        {
+          "time": "24-48 ชั่วโมง",
+          "title": "ความพร้อมในการรักษา",
+          "description": "ผู้ป่วยและโรงพยาบาลยืนยันว่าการรักษาจะเกิดขึ้นในตอนนี้ ในช่วงหลังของการเดินทาง หรือหลังจากเตรียมความพร้อมเพิ่มเติม",
+          "owner": "การยืนยันทางคลินิกโดยโรงพยาบาล",
+          "next": "การรักษาหรือการประสานงานเพิ่มเติม"
+        }
+      ]
+    },
+    "continuityYear": {
+      "badge": "ความต่อเนื่อง 1 ปี",
+      "title": "ความต่อเนื่องหลังการรักษา",
+      "subtitle": "หลังจากผู้ป่วยกลับถึงบ้าน การฟื้นตัวยังคงมองเห็นได้และสามารถยกระดับได้ง่ายหากจำเป็น",
+      "responsibilityLabel": "ผู้รับผิดชอบ",
+      "thenLabel": "ถัดไป:",
+      "items": [
+        {
+          "phase": "สัปดาห์ที่ 1",
+          "title": "การเช็กอินช่วงฟื้นตัวเริ่มต้น",
+          "description": "อาการ ภาพถ่าย และคำถามได้รับการรวบรวมตั้งแต่เนิ่น ๆ เพื่อไม่ให้ข้อกังวลใดถูกมองข้าม",
+          "owner": "การเช็กอินเริ่มต้นโดย AetherHeal + ผู้ป่วย",
+          "next": "การติดตามความคาดหวัง"
+        },
+        {
+          "phase": "เดือนที่ 1-3",
+          "title": "การติดตามผลและการตรวจสอบความคาดหวัง",
+          "description": "การฟื้นตัวได้รับการติดตามเทียบกับไทม์ไลน์ที่คาดการณ์ไว้ โดยข้ามผ่านทั้งระยะทางและภาษา",
+          "owner": "การติดตามการฟื้นตัวโดย AetherHeal",
+          "next": "การติดตามผลระยะยาว"
+        },
+        {
+          "phase": "เดือนที่ 3-12",
+          "title": "ความต่อเนื่องระยะยาว",
+          "description": "หากมีข้อกังวลที่เกิดขึ้นภายหลัง ประวัติของกรณีจะยังคงจัดระเบียบไว้ เพื่อให้การติดตามผลไม่ต้องเริ่มต้นใหม่จากศูนย์",
+          "owner": "การยกระดับโดย AetherHeal + โรงพยาบาล",
+          "next": "ความต่อเนื่องที่บันทึกไว้เป็นหลักฐาน"
+        }
+      ]
+    }
   },
   "hospitalAbroad": {
     "meta": {
@@ -3488,107 +3499,107 @@
   },
   "physician": {
     "meta": {
-      "title": "Dr. Jee Hoon Ju — Founder & Physician | AetherHeal",
-      "description": "Dr. Jee Hoon Ju is a physician who verified AetherHeal's partner hospitals by working inside them. MD, ABAM-certified, MIT Sloan AI in Healthcare. Specialized in skin aesthetic medicine and hair transplantation."
+      "title": "Dr. Jee Hoon Ju — ผู้ก่อตั้งและแพทย์ | AetherHeal",
+      "description": "Dr. Jee Hoon Ju คือแพทย์ผู้ตรวจสอบโรงพยาบาลพันธมิตรของ AetherHeal ด้วยการเข้าไปทำงานภายในด้วยตนเอง MD, รับรองโดย ABAM, MIT Sloan สาขา AI ในระบบสุขภาพ เชี่ยวชาญด้านเวชศาสตร์ความงามของผิวหนังและการปลูกผม"
     },
     "hero": {
-      "badge": "Physician Profile",
+      "badge": "โปรไฟล์แพทย์",
       "name": "Dr. Jee Hoon Ju",
-      "title": "Founder & Representative Director, AetherHeal",
-      "intro": "A physician who verified partner hospitals by working inside them — as a hair transplant surgeon, as a clinical team member, and as a practicing aesthetic dermatology physician. Before building AetherHeal, he was the patient who could not see what went wrong."
+      "title": "ผู้ก่อตั้งและกรรมการผู้จัดการ AetherHeal",
+      "intro": "แพทย์ผู้ตรวจสอบโรงพยาบาลพันธมิตรด้วยการเข้าไปทำงานภายในด้วยตนเอง — ในฐานะศัลยแพทย์ปลูกผม ในฐานะสมาชิกทีมคลินิก และในฐานะแพทย์ผู้ปฏิบัติงานด้านผิวหนังเพื่อความงาม ก่อนที่จะสร้าง AetherHeal เขาเคยเป็นผู้ป่วยที่มองไม่เห็นว่าอะไรผิดพลาด"
     },
     "credentials": {
-      "title": "Credentials",
+      "title": "คุณวุฒิ",
       "items": [
         {
-          "label": "Clinical",
+          "label": "ทางคลินิก",
           "credential": "MD — University of Debrecen",
-          "detail": "International medical degree from the University of Debrecen, Faculty of Medicine."
+          "detail": "ปริญญาแพทยศาสตรบัณฑิตนานาชาติจากคณะแพทยศาสตร์ University of Debrecen"
         },
         {
-          "label": "Specialty",
+          "label": "ความเชี่ยวชาญ",
           "credential": "American Board of Aesthetic Medicine",
-          "detail": "ABAM-certified general physician specialized in skin aesthetic medicine and hair transplantation. Current clinical practice in aesthetic dermatology at Apgujeong Tune Clinic, Seoul."
+          "detail": "แพทย์เวชปฏิบัติทั่วไปที่ได้รับการรับรองจาก ABAM เชี่ยวชาญด้านเวชศาสตร์ความงามของผิวหนังและการปลูกผม ปัจจุบันปฏิบัติงานทางคลินิกด้านผิวหนังเพื่อความงามที่ Apgujeong Tune Clinic กรุงโซล"
         },
         {
-          "label": "AI Governance",
+          "label": "การกำกับดูแล AI",
           "credential": "MIT Sloan — AI in Health Care",
-          "detail": "Executive education in AI healthcare applications from MIT Sloan School of Management. This credential informs AetherHeal's AI governance architecture — every boundary between AI assistance and physician authority traces to formal study of this question."
+          "detail": "การศึกษาระดับผู้บริหารด้านการประยุกต์ใช้ AI ในระบบสุขภาพจาก MIT Sloan School of Management คุณวุฒินี้เป็นรากฐานของสถาปัตยกรรมการกำกับดูแล AI ของ AetherHeal — เส้นแบ่งทุกเส้นระหว่างการช่วยเหลือของ AI และอำนาจหน้าที่ของแพทย์ มาจากการศึกษาคำถามนี้อย่างเป็นทางการ"
         }
       ]
     },
     "verification": {
-      "badge": "Verification Methodology",
-      "title": "How I verify hospitals",
-      "intro": "Most medical tourism platforms verify hospitals from the outside — site visits, document reviews, checklists. I verified AetherHeal's founding partners by working inside them as a practicing physician. That is a different standard.",
+      "badge": "ระเบียบวิธีการตรวจสอบ",
+      "title": "ผมตรวจสอบโรงพยาบาลอย่างไร",
+      "intro": "แพลตฟอร์มท่องเที่ยวเชิงการแพทย์ส่วนใหญ่ตรวจสอบโรงพยาบาลจากภายนอก — การเยี่ยมชมสถานที่ การตรวจสอบเอกสาร รายการตรวจสอบ ผมตรวจสอบพันธมิตรผู้ก่อตั้งของ AetherHeal ด้วยการเข้าไปทำงานภายในในฐานะแพทย์ผู้ปฏิบัติงาน นั่นคือมาตรฐานที่แตกต่างออกไป",
       "mode1": {
-        "title": "Embedded Clinical Verification",
-        "description": "Hospitals where I practiced directly as a physician or held operational leadership roles. My evaluation is based on firsthand experience of clinical standards, team operations, equipment quality, and patient handling — not from a tour, but from working there.",
+        "title": "การตรวจสอบทางคลินิกแบบฝังตัว",
+        "description": "โรงพยาบาลที่ผมปฏิบัติงานโดยตรงในฐานะแพทย์ หรือดำรงตำแหน่งผู้นำด้านการดำเนินงาน การประเมินของผมตั้งอยู่บนประสบการณ์ตรงของมาตรฐานทางคลินิก การดำเนินงานของทีม คุณภาพอุปกรณ์ และการดูแลผู้ป่วย — ไม่ใช่จากการเยี่ยมชม แต่จากการทำงานที่นั่นจริง",
         "hospitals": [
           {
             "name": "Morgan Dermatology",
-            "role": "Hair transplant surgeon (paid physician)"
+            "role": "ศัลยแพทย์ปลูกผม (แพทย์ประจำที่ได้รับค่าตอบแทน)"
           },
           {
             "name": "Apgujeong Tune Clinic",
-            "role": "Practicing aesthetic dermatology physician (current)"
+            "role": "แพทย์ผู้ปฏิบัติงานด้านผิวหนังเพื่อความงาม (ปัจจุบัน)"
           },
           {
             "name": "Apgujeong Min Dental",
-            "role": "Head of Future Planning"
+            "role": "หัวหน้าฝ่ายวางแผนอนาคต"
           }
         ]
       },
       "mode2": {
-        "title": "Physician-Network Evaluation",
-        "description": "Hospitals assessed through director-level relationships, clinical credential review, and outcome evaluation. I evaluated the directors' training backgrounds, surgical team composition, and facility standards — but did not practice there myself.",
+        "title": "การประเมินผ่านเครือข่ายแพทย์",
+        "description": "โรงพยาบาลที่ประเมินผ่านความสัมพันธ์ระดับผู้อำนวยการ การตรวจสอบคุณวุฒิทางคลินิก และการประเมินผลลัพธ์ ผมประเมินภูมิหลังการฝึกอบรมของผู้อำนวยการ องค์ประกอบของทีมศัลยแพทย์ และมาตรฐานของสถานที่ — แต่ไม่ได้ปฏิบัติงานที่นั่นด้วยตนเอง",
         "hospitals": [
           {
             "name": "B&N Eye Clinic",
-            "basis": "Established major institution. Personal relationship with Director Kim Jin-guk. Evaluated facility standards and surgical team."
+            "basis": "สถาบันหลักที่มีการยอมรับ ความสัมพันธ์ส่วนตัวกับผู้อำนวยการ Kim Jin-guk ประเมินมาตรฐานของสถานที่และทีมศัลยแพทย์"
           },
           {
             "name": "Woori Plastic Surgery",
-            "basis": "Director-level assessment. Surgical team includes multiple Asan Hospital professor-origin plastic surgeons."
+            "basis": "การประเมินระดับผู้อำนวยการ ทีมศัลยแพทย์ประกอบด้วยศัลยแพทย์ตกแต่งหลายท่านที่มาจากสายอาจารย์ของ Asan Hospital"
           },
           {
             "name": "Hosan Hospital",
-            "basis": "Clinical evaluation of directors, track record, and patient outcomes in women's plastic surgery."
+            "basis": "การประเมินทางคลินิกของผู้อำนวยการ ประวัติผลงาน และผลลัพธ์ของผู้ป่วยในด้านศัลยกรรมตกแต่งสำหรับผู้หญิง"
           },
           {
             "name": "The Well Dental",
-            "basis": "Clinical evaluation of directors, treatment approach, and facility standards in adult dentistry."
+            "basis": "การประเมินทางคลินิกของผู้อำนวยการ แนวทางการรักษา และมาตรฐานของสถานที่ในด้านทันตกรรมสำหรับผู้ใหญ่"
           }
         ]
       },
-      "methodologyLink": "Read the full verification methodology"
+      "methodologyLink": "อ่านระเบียบวิธีการตรวจสอบฉบับเต็ม"
     },
     "aiGovernance": {
-      "badge": "AI Governance",
-      "title": "Why AI has boundaries here",
-      "description": "AetherHeal uses AI to structure intake, surface missing information, support translation, and monitor post-treatment continuity. AI does not diagnose, does not recommend treatment, does not select hospitals, and cannot override a physician. These boundaries are not design preferences — they are governance positions informed by formal study of AI in healthcare at MIT Sloan.",
-      "quote": "AI can accelerate the workflow. It cannot carry the responsibility. That distinction is the architecture."
+      "badge": "การกำกับดูแล AI",
+      "title": "ทำไม AI จึงมีขอบเขตที่นี่",
+      "description": "AetherHeal ใช้ AI เพื่อจัดโครงสร้างการรับข้อมูล เผยให้เห็นข้อมูลที่ขาดหาย สนับสนุนการแปล และติดตามความต่อเนื่องหลังการรักษา AI ไม่วินิจฉัยโรค ไม่แนะนำการรักษา ไม่เลือกโรงพยาบาล และไม่สามารถลบล้างการตัดสินใจของแพทย์ได้ ขอบเขตเหล่านี้ไม่ใช่ความชอบในการออกแบบ — แต่เป็นจุดยืนด้านการกำกับดูแลที่มาจากการศึกษา AI ในระบบสุขภาพอย่างเป็นทางการที่ MIT Sloan",
+      "quote": "AI สามารถเร่งกระบวนการทำงานได้ แต่ไม่สามารถแบกรับความรับผิดชอบได้ ความแตกต่างนั้นคือสถาปัตยกรรม"
     },
     "origin": {
-      "badge": "Why This Exists",
-      "title": "I was the patient first",
+      "badge": "ทำไมสิ่งนี้จึงมีอยู่",
+      "title": "ผมเคยเป็นผู้ป่วยมาก่อน",
       "paragraphs": [
-        "Before I became a hair transplant surgeon, I was a hair transplant patient. My first procedure failed. I chose the clinic based on the only signals available to me at the time — price and online reviews. Both were misleading, and I had no way to know.",
-        "I only recognized what went wrong after I entered the field myself — after I trained as a surgeon, after I worked inside clinics, after I could see what a patient cannot see from the outside. The graft survival rate, the extraction technique, the team's actual experience — none of it was visible to me as a patient.",
-        "That failure is the reason AetherHeal exists. Not because every clinic is bad — most are competent. But because the patient has no reliable way to verify what is good, what is right for their case, and what will still be accountable after the procedure is done.",
-        "I built AetherHeal so that no patient has to become a specialist to know whether their decision was sound. The platform exists to make visible what I once could not see."
+        "ก่อนที่ผมจะมาเป็นศัลยแพทย์ปลูกผม ผมเคยเป็นผู้ป่วยปลูกผมมาก่อน การทำหัตถการครั้งแรกของผมล้มเหลว ผมเลือกคลินิกจากสัญญาณเดียวที่ผมมีในเวลานั้น — ราคาและรีวิวออนไลน์ ทั้งสองอย่างนั้นทำให้เข้าใจผิด และผมไม่มีทางที่จะรู้ได้เลย",
+        "ผมเข้าใจว่าอะไรผิดพลาดก็ต่อเมื่อผมก้าวเข้าสู่วงการนี้ด้วยตนเอง — หลังจากที่ผมได้รับการฝึกเป็นศัลยแพทย์ หลังจากที่ผมทำงานอยู่ภายในคลินิก หลังจากที่ผมสามารถเห็นสิ่งที่ผู้ป่วยมองไม่เห็นจากภายนอก อัตราการรอดของกราฟต์ เทคนิคการสกัด ประสบการณ์จริงของทีม — ไม่มีสิ่งใดเลยที่ผมมองเห็นได้ในฐานะผู้ป่วย",
+        "ความล้มเหลวนั้นคือเหตุผลที่ AetherHeal มีอยู่ ไม่ใช่เพราะทุกคลินิกแย่ — ส่วนใหญ่มีความสามารถ แต่เพราะผู้ป่วยไม่มีวิธีที่เชื่อถือได้ในการตรวจสอบว่าอะไรดี อะไรเหมาะสมกับกรณีของตน และอะไรจะยังคงรับผิดชอบต่อไปหลังจากทำหัตถการเสร็จ",
+        "ผมสร้าง AetherHeal ขึ้นมาเพื่อให้ไม่มีผู้ป่วยคนใดต้องกลายเป็นผู้เชี่ยวชาญเพื่อที่จะรู้ว่าการตัดสินใจของตนนั้นถูกต้องหรือไม่ แพลตฟอร์มนี้มีอยู่เพื่อทำให้สิ่งที่ครั้งหนึ่งผมเคยมองไม่เห็นนั้นปรากฏชัด"
       ]
     },
     "structuralIntegrity": {
-      "title": "A note on conflict of interest",
-      "description": "I previously worked at hospitals that are now AetherHeal partners. That history is the source of my verification authority — but it could also create a conflict of interest if the revenue structure rewarded me for recommending them. It does not.",
-      "highlight": "AetherHeal charges a flat navigation fee that does not change with the hospital, the procedure, or the price. There are no referral commissions. No volume bonuses. No revenue from procedure selection. The structure that eliminates the conflict is the same structure that makes the embedded verification credible."
+      "title": "หมายเหตุเกี่ยวกับผลประโยชน์ทับซ้อน",
+      "description": "ผมเคยทำงานในโรงพยาบาลที่ปัจจุบันเป็นพันธมิตรของ AetherHeal ประวัตินั้นคือที่มาของอำนาจในการตรวจสอบของผม — แต่ก็อาจสร้างผลประโยชน์ทับซ้อนได้เช่นกัน หากโครงสร้างรายได้ตอบแทนผมจากการแนะนำโรงพยาบาลเหล่านั้น แต่มันไม่ใช่เช่นนั้น",
+      "highlight": "AetherHeal คิดค่าบริการนำทางแบบอัตราคงที่ซึ่งไม่เปลี่ยนแปลงไปตามโรงพยาบาล หัตถการ หรือราคา ไม่มีค่าคอมมิชชั่นจากการแนะนำ ไม่มีโบนัสตามปริมาณ ไม่มีรายได้จากการเลือกหัตถการ โครงสร้างที่ขจัดผลประโยชน์ทับซ้อนคือโครงสร้างเดียวกันที่ทำให้การตรวจสอบแบบฝังตัวนั้นน่าเชื่อถือ"
     },
     "cta": {
-      "title": "Start with someone on your side",
-      "subtitle": "If you are considering medical care in Korea, begin with a process designed by a physician who has been where you are.",
-      "primary": "Start With Someone On Your Side",
-      "secondary": "See how the process works"
+      "title": "เริ่มต้นกับคนที่อยู่ข้างคุณ",
+      "subtitle": "หากคุณกำลังพิจารณารับการรักษาทางการแพทย์ในประเทศเกาหลี เริ่มต้นด้วยกระบวนการที่ออกแบบโดยแพทย์ผู้เคยอยู่ในจุดเดียวกับคุณ",
+      "primary": "เริ่มต้นกับคนที่อยู่ข้างคุณ",
+      "secondary": "ดูว่ากระบวนการทำงานอย่างไร"
     }
   }
 }

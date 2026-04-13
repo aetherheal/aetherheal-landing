@@ -40,7 +40,8 @@
       "medicalBoundaryNotice": "Orvosi Hatáskörre Vonatkozó Nyilatkozat",
       "termsOfService": "Felhasználási Feltételek",
       "privacyPolicy": "Adatvédelmi Irányelvek",
-      "paymentRefundPolicy": "Fizetési és Visszatérítési Szabályzat"
+      "paymentRefundPolicy": "Fizetési és Visszatérítési Szabályzat",
+      "ourPhysician": "A mi orvosunk"
     },
     "continueReading": "Tovább Olvasom",
     "contents": "Tartalom",
@@ -48,15 +49,15 @@
   },
   "home": {
     "meta": {
-      "title": "AetherHeal | Ellenőrzött Klinika-egyeztetés Nemzetközi Pácienseknek",
-      "description": "Az AetherHeal segít a nemzetközi pácienseknek klinikát választani Koreában, találgatás nélkül. Ellenőrzött kórházak, fix díjú navigáció, orvosi irányítás és átlátható felelősség."
+      "title": "AetherHeal | Először — valaki, aki az Ön oldalán áll",
+      "description": "Fontolgatja a koreai orvosi kezelést? Az AetherHeal egy orvos által vezetett folyamat, amely megvédi a döntését, mielőtt kórházat választana — ellenőrzött partnerekkel, látható felelősséggel és folytonossággal az első konzultációtól a felépülésig."
     },
     "hero": {
       "badge": "Ellenőrzött klinika-egyeztetés Koreát fontolgató pácienseknek",
-      "h1": "A világ nem klinikákban szűkölködik.",
-      "h1Highlight": "Bizalomban.",
-      "description": "Dolgozzon együtt Angel Orvosainkkal.",
-      "descriptionHighlight": "",
+      "h1": "Először —",
+      "h1Highlight": "valaki, aki az Ön oldalán áll.",
+      "description": "Orvos által vezetett folyamat, amely megvédi a döntését",
+      "descriptionHighlight": "mielőtt kórházat választana.",
       "descriptionEnd": "",
       "branches": [
         "Klinikák ellenőrzése",
@@ -73,11 +74,11 @@
       "waitlistSuccess": "Felkerült a listára! Hamarosan jelentkezünk.",
       "waitlistDuplicate": "Már szerepel a listán!",
       "ctaExplore": "Hogyan működik a folyamat",
-      "ctaAssessment": "Kezdje el esetének értékelését"
+      "ctaAssessment": "Kezdje valakivel, aki az Ön oldalán áll"
     },
     "problemQuote": {
       "title": "Amitől a páciensek valójában félnek",
-      "subtitle": "Az akadály nem a hozzáférés. Hanem az, hogy miben bízzanak.",
+      "subtitle": "A világ nem klinikákban szűkölködik. Bizalomban szűkölködik. És eddig senki sem állt szerkezetileg az Ön oldalán.",
       "items": [
         {
           "title": "Megtévesztő jelek",
@@ -126,10 +127,10 @@
       }
     },
     "aiLayer": {
-      "badge": "Bizalmi Felépítés",
-      "title": "Hogyan teremt az AetherHeal",
-      "titleHighlight": "bizalmat",
-      "subtitle": "A bizalom struktúrából fakadjon, ne ígéretekből.",
+      "badge": "Az Ön védelmei",
+      "title": "Mi áll",
+      "titleHighlight": "Ön és a kockázat között",
+      "subtitle": "Öt szerkezeti védelem, amely Önért dolgozik — nem a kórházért, nem az ügynökségért.",
       "cards": [
         {
           "title": "Ellenőrzött Kórházhálózat",
@@ -188,9 +189,9 @@
     },
     "journey": {
       "sectionLabel": "Páciens Útja",
-      "title": "Hogyan néz ki az útja",
-      "titleHighlight": "a valóságban",
-      "subtitle": "Az AetherHeal célja, hogy minden lépés áttekinthető legyen: mi történik először, ki a felelős, és mikor kerüljön sor az elköteleződésre.",
+      "title": "Egyetlen lépésben sem",
+      "titleHighlight": "van egyedül.",
+      "subtitle": "Az első kérdésétől a kezelés után egy évig minden szakaszban van felelős — és Ön látja, hogy ki az.",
       "steps": [
         {
           "label": "Páciens Szándéka",
@@ -259,94 +260,6 @@
         "ready": "Kész a Továbbításra",
         "proceed": "Tovább a Kórházi Felülvizsgálathoz"
       },
-      "storyArc": {
-        "badge": "A teljes történet",
-        "title": "Mi felé halad a páciens útja",
-        "subtitle": "A páciensnek az elejétől látnia kell a teljes ívet: ki irányítja a döntést, ki végzi a kezelést, és ki biztosítja az utánkövetés átláthatóságát.",
-        "items": [
-          {
-            "phase": "Utazás előtt",
-            "title": "Döntési tisztánlátás",
-            "owner": "AetherHeal + Orvos"
-          },
-          {
-            "phase": "Érkezés",
-            "title": "Operatív átadás",
-            "owner": "AetherHeal"
-          },
-          {
-            "phase": "Kezelés",
-            "title": "Klinikai hatáskör",
-            "owner": "Kórház"
-          },
-          {
-            "phase": "Felépülés",
-            "title": "Utánkövetés átláthatósága",
-            "owner": "AetherHeal + Páciens"
-          },
-          {
-            "phase": "Akár 1 évig",
-            "title": "Folytonosság és eszkaláció",
-            "owner": "AetherHeal + Kórház"
-          }
-        ]
-      },
-      "first48Hours": {
-        "badge": "Első 48 óra",
-        "title": "Az első 48 órája",
-        "subtitle": "Érkezés, átadás és klinikai összehangolás. A kezelés ezen az időszakon belül vagy később is történhet.",
-        "items": [
-          {
-            "time": "Érkezés",
-            "title": "Érkezési koordináció",
-            "description": "Találkozunk a pácienssel, megerősítjük a tervet, és tisztázzuk a következő lépést.",
-            "owner": "1:1 Concierge az AetherHeal által",
-            "next": "Kórházi átadás"
-          },
-          {
-            "time": "Első 24 óra",
-            "title": "Fordítás, időpontegyeztetés és átadás",
-            "description": "A kórház megkapja az eset kontextusát. A páciens nyelvi és ütemezési támogatást kap.",
-            "owner": "Klinikai koordináció: AetherHeal + Kórház",
-            "next": "Klinikai megerősítés"
-          },
-          {
-            "time": "24-48 óra",
-            "title": "Kezelési készültség",
-            "description": "A páciens és a kórház megerősíti, hogy a kezelés most, az utazás során később, vagy további előkészítés után történik-e.",
-            "owner": "Klinikai megerősítés: Kórház",
-            "next": "Kezelés vagy további koordináció"
-          }
-        ]
-      },
-      "continuityYear": {
-        "badge": "1 éves folytonosság",
-        "title": "Kezelés utáni folytonosság",
-        "subtitle": "Miután a páciens hazatér, a felépülés nyomon követhető marad, és szükség esetén könnyebben eszkalálható.",
-        "items": [
-          {
-            "phase": "1. hét",
-            "title": "Korai felépülési ellenőrzések",
-            "description": "Tünetek, fotók és kérdések korai összegyűjtése, hogy az aggályok ne maradjanak észrevétlenek.",
-            "owner": "Korai ellenőrzések: AetherHeal + Páciens",
-            "next": "Elvárások nyomon követése"
-          },
-          {
-            "phase": "1-3. hónap",
-            "title": "Utánkövetés és elvárások nyomon követése",
-            "description": "A felépülés az elvárt ütemtervhez képest kerül nyomon követésre, távolságon és nyelvi határokon át.",
-            "owner": "Felépülés nyomon követése: AetherHeal",
-            "next": "Hosszú távú utánkövetés"
-          },
-          {
-            "phase": "3-12. hónap",
-            "title": "Hosszú távú folytonosság",
-            "description": "Ha késleltetett aggályok merülnek fel, az eset előzményei rendezetten megmaradnak, így az utánkövetés nem nulláról indul újra.",
-            "owner": "Eszkaláció: AetherHeal + Kórház",
-            "next": "Dokumentált folytonosság"
-          }
-        ]
-      },
       "closingQuote": "A cél nem az, hogy gyorsabban döntsön. A cél az, hogy kevesebb megbánással dönthessen.",
       "uiLabels": {
         "responsibility": "Felelősség",
@@ -354,9 +267,9 @@
       }
     },
     "partners": {
-      "subtitle": "Ellenőrzési szabvány",
-      "compactTitle": "Nem minden kórház teljesíti azt, amit mérünk.",
-      "compactDescription": "A jelentkezők 31%-a nem felelt meg a szabványnak.",
+      "subtitle": "Az Ön védelme",
+      "compactTitle": "Az Ön védelme már az előtt elkezdődik, hogy az első kórház látná az ügyét.",
+      "compactDescription": "A kórházi pályázók 31%-át elutasították. Ez a mérce az Ön védelmére létezik.",
       "rejectionReasons": "Az elutasítások okai között szerepelt ellenőrizhetetlen orvosi jogosultság, nem közzétett árképzési struktúrák és az eljárás rögzítésének megtagadása.",
       "proofPoints": [],
       "compactStats": [
@@ -473,10 +386,10 @@
     },
     "cta": {
       "title": "Tisztánlátás az elköteleződés előtt",
-      "subtitle": "Ha koreai ellátáson gondolkodik, kezdjen egy olyan folyamattal, amely védi a döntését — mielőtt bárki arra kérné, hogy döntsön.",
+      "subtitle": "Ha koreai ellátást fontolgat, kezdje azzal, aki szerkezetileg az Ön oldalán áll — mielőtt bárki döntést kérne Öntől.",
       "openingDate": "2026. szeptember 1-jén nyitunk.",
       "openingDateSuffix": "A korai esetértékelések már folynak.",
-      "ctaPrimary": "Kezdje el esetének értékelését",
+      "ctaPrimary": "Kezdje valakivel, aki az Ön oldalán áll",
       "waitlistButton": "Feliratkozás a Várólistára",
       "waitlistPlaceholder": "Írja be e-mail címét",
       "waitlistSuccess": "Felkerült a listára! Hamarosan jelentkezünk.",
@@ -1221,7 +1134,12 @@
         "label": "Hogyan Működik az AetherHeal",
         "desc": "Az orvos által vezetett döntéstámogatás rendszere"
       }
-    ]
+    ],
+    "reviewerMeta": {
+      "label": "Lektorálta",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
   },
   "explore": {
     "meta": {
@@ -3040,7 +2958,100 @@
         "label": "Hogyan Működik az AetherHeal",
         "desc": "Az orvos által vezetett döntéstámogatás rendszere"
       }
-    ]
+    ],
+    "storyArc": {
+      "badge": "A teljes történet",
+      "title": "Mi felé épül a páciens útja",
+      "subtitle": "A páciensnek a kezdetektől látnia kell a teljes ívet: ki irányítja a döntést, ki végzi a kezelést, és ki tartja láthatóan a folytonosságot utána.",
+      "responsibilityLabel": "Felelősség",
+      "items": [
+        {
+          "phase": "Utazás előtt",
+          "title": "Döntési tisztánlátás",
+          "owner": "AetherHeal + Orvos"
+        },
+        {
+          "phase": "Érkezés",
+          "title": "Operatív átadás",
+          "owner": "AetherHeal"
+        },
+        {
+          "phase": "Kezelés",
+          "title": "Klinikai hatáskör",
+          "owner": "Kórház"
+        },
+        {
+          "phase": "Felépülés",
+          "title": "Utánkövetés láthatósága",
+          "owner": "AetherHeal + Páciens"
+        },
+        {
+          "phase": "1 évig",
+          "title": "Folytonosság és eszkaláció",
+          "owner": "AetherHeal + Kórház"
+        }
+      ]
+    },
+    "first48Hours": {
+      "badge": "Első 48 óra",
+      "title": "Az Ön első 48 órája",
+      "subtitle": "Érkezés, átadás és klinikai összehangolás. A kezelés megtörténhet ezen időablakon belül vagy később.",
+      "responsibilityLabel": "Felelősség",
+      "thenLabel": "Ezután:",
+      "items": [
+        {
+          "time": "Érkezés",
+          "title": "Érkezési koordináció",
+          "description": "Fogadjuk a pácienst, megerősítjük a tervet, és tisztázzuk a következő lépést.",
+          "owner": "1:1 Concierge az AetherHeal által",
+          "next": "Kórházi átadás"
+        },
+        {
+          "time": "Első 24 óra",
+          "title": "Fordítás, ütemezés és átadás",
+          "description": "A kórház megkapja az eset hátterét. A páciens nyelvi és ütemezési támogatást kap.",
+          "owner": "Klinikai koordináció az AetherHeal + Kórház által",
+          "next": "Klinikai megerősítés"
+        },
+        {
+          "time": "24-48 óra",
+          "title": "Kezelési készültség",
+          "description": "A páciens és a kórház megerősíti, hogy a kezelés most, később az út során, vagy további előkészítés után történik-e meg.",
+          "owner": "Klinikai megerősítés a Kórház által",
+          "next": "Kezelés vagy további koordináció"
+        }
+      ]
+    },
+    "continuityYear": {
+      "badge": "1 éves folytonosság",
+      "title": "Kezelés utáni folytonosság",
+      "subtitle": "Miután a páciens hazatér, a felépülés látható marad, és szükség esetén könnyebb eszkalálni.",
+      "responsibilityLabel": "Felelősség",
+      "thenLabel": "Ezután:",
+      "items": [
+        {
+          "phase": "1. hét",
+          "title": "Korai felépülési ellenőrzések",
+          "description": "A tüneteket, fényképeket és kérdéseket korán összegyűjtjük, hogy az aggályok ne maradjanak észrevétlenül.",
+          "owner": "Korai ellenőrzések az AetherHeal + Páciens által",
+          "next": "Várakozások követése"
+        },
+        {
+          "phase": "1-3. hónap",
+          "title": "Utánkövetés és várakozások követése",
+          "description": "A felépülést a várható idővonalhoz képest követjük, távolságon és nyelven átívelően.",
+          "owner": "Felépülés követése az AetherHeal által",
+          "next": "Hosszú távú utánkövetés"
+        },
+        {
+          "phase": "3-12. hónap",
+          "title": "Hosszú távú folytonosság",
+          "description": "Ha késleltetett aggályok merülnek fel, az eset előzményei rendezetten állnak rendelkezésre, így az utánkövetés nem indul újra a nulláról.",
+          "owner": "Eszkaláció az AetherHeal + Kórház által",
+          "next": "Dokumentált folytonosság"
+        }
+      ]
+    }
   },
   "hospitalAbroad": {
     "meta": {
@@ -3518,107 +3529,107 @@
   },
   "physician": {
     "meta": {
-      "title": "Dr. Jee Hoon Ju — Founder & Physician | AetherHeal",
-      "description": "Dr. Jee Hoon Ju is a physician who verified AetherHeal's partner hospitals by working inside them. MD, ABAM-certified, MIT Sloan AI in Healthcare. Specialized in skin aesthetic medicine and hair transplantation."
+      "title": "Dr. Jee Hoon Ju — Alapító és orvos | AetherHeal",
+      "description": "Dr. Jee Hoon Ju az az orvos, aki az AetherHeal partnerkórházait belülről, bennük dolgozva hitelesítette. MD, ABAM-tanúsított, MIT Sloan AI az egészségügyben. Szakterülete a bőr esztétikai orvoslás és a hajátültetés."
     },
     "hero": {
-      "badge": "Physician Profile",
+      "badge": "Orvosi profil",
       "name": "Dr. Jee Hoon Ju",
-      "title": "Founder & Representative Director, AetherHeal",
-      "intro": "A physician who verified partner hospitals by working inside them — as a hair transplant surgeon, as a clinical team member, and as a practicing aesthetic dermatology physician. Before building AetherHeal, he was the patient who could not see what went wrong."
+      "title": "Alapító és vezérigazgató, AetherHeal",
+      "intro": "Orvos, aki a partnerkórházakat belülről hitelesítette — hajátültető sebészként, klinikai csapattagként és gyakorló esztétikai bőrgyógyászként. Mielőtt megalapította az AetherHealt, maga is az a páciens volt, aki nem látta, mi romlott el."
     },
     "credentials": {
-      "title": "Credentials",
+      "title": "Szakmai háttér",
       "items": [
         {
-          "label": "Clinical",
+          "label": "Klinikai",
           "credential": "MD — University of Debrecen",
-          "detail": "International medical degree from the University of Debrecen, Faculty of Medicine."
+          "detail": "Nemzetközi orvosi diploma a Debreceni Egyetem Általános Orvostudományi Karán."
         },
         {
-          "label": "Specialty",
+          "label": "Szakterület",
           "credential": "American Board of Aesthetic Medicine",
-          "detail": "ABAM-certified general physician specialized in skin aesthetic medicine and hair transplantation. Current clinical practice in aesthetic dermatology at Apgujeong Tune Clinic, Seoul."
+          "detail": "ABAM-tanúsított általános orvos, aki a bőr esztétikai orvoslására és a hajátültetésre szakosodott. Jelenlegi klinikai gyakorlatát az esztétikai bőrgyógyászat területén a szöuli Apgujeong Tune Clinicben folytatja."
         },
         {
-          "label": "AI Governance",
+          "label": "MI-irányítás",
           "credential": "MIT Sloan — AI in Health Care",
-          "detail": "Executive education in AI healthcare applications from MIT Sloan School of Management. This credential informs AetherHeal's AI governance architecture — every boundary between AI assistance and physician authority traces to formal study of this question."
+          "detail": "Vezetői továbbképzés a mesterséges intelligencia egészségügyi alkalmazásairól a MIT Sloan School of Managementen. Ez a képzettség alakítja az AetherHeal MI-irányítási architektúráját — minden határ, amely az MI-támogatást elválasztja az orvosi felelősségtől, ennek a kérdésnek a formális tanulmányozásából fakad."
         }
       ]
     },
     "verification": {
-      "badge": "Verification Methodology",
-      "title": "How I verify hospitals",
-      "intro": "Most medical tourism platforms verify hospitals from the outside — site visits, document reviews, checklists. I verified AetherHeal's founding partners by working inside them as a practicing physician. That is a different standard.",
+      "badge": "Hitelesítési módszertan",
+      "title": "Így hitelesítem a kórházakat",
+      "intro": "A legtöbb egészségügyi turizmus-platform kívülről hitelesíti a kórházakat — helyszíni látogatásokkal, dokumentumok áttekintésével, ellenőrzőlistákkal. Én az AetherHeal alapító partnereit úgy hitelesítettem, hogy gyakorló orvosként belülről dolgoztam bennük. Ez egy másféle mérce.",
       "mode1": {
-        "title": "Embedded Clinical Verification",
-        "description": "Hospitals where I practiced directly as a physician or held operational leadership roles. My evaluation is based on firsthand experience of clinical standards, team operations, equipment quality, and patient handling — not from a tour, but from working there.",
+        "title": "Beágyazott klinikai hitelesítés",
+        "description": "Olyan kórházak, ahol közvetlenül orvosként praktizáltam, vagy operatív vezetői szerepet töltöttem be. Értékelésem első kézből szerzett tapasztalatokon alapul — a klinikai színvonal, a csapat működése, a berendezések minősége és a betegek kezelése tekintetében —, nem egy bejáráson, hanem az ott végzett munkán.",
         "hospitals": [
           {
             "name": "Morgan Dermatology",
-            "role": "Hair transplant surgeon (paid physician)"
+            "role": "Hajátültető sebész (fizetett orvos)"
           },
           {
             "name": "Apgujeong Tune Clinic",
-            "role": "Practicing aesthetic dermatology physician (current)"
+            "role": "Gyakorló esztétikai bőrgyógyász (jelenlegi)"
           },
           {
             "name": "Apgujeong Min Dental",
-            "role": "Head of Future Planning"
+            "role": "Jövőtervezési vezető"
           }
         ]
       },
       "mode2": {
-        "title": "Physician-Network Evaluation",
-        "description": "Hospitals assessed through director-level relationships, clinical credential review, and outcome evaluation. I evaluated the directors' training backgrounds, surgical team composition, and facility standards — but did not practice there myself.",
+        "title": "Orvosi hálózati értékelés",
+        "description": "Olyan kórházak, amelyeket igazgatói szintű kapcsolatokon, klinikai szakmai háttér áttekintésén és eredmények értékelésén keresztül vizsgáltam. Értékeltem az igazgatók képzési hátterét, a sebészcsapat összetételét és a létesítmény színvonalát — de magam nem praktizáltam ott.",
         "hospitals": [
           {
             "name": "B&N Eye Clinic",
-            "basis": "Established major institution. Personal relationship with Director Kim Jin-guk. Evaluated facility standards and surgical team."
+            "basis": "Elismert, jelentős intézmény. Személyes kapcsolat Kim Jin-guk igazgatóval. Értékeltem a létesítmény színvonalát és a sebészcsapatot."
           },
           {
             "name": "Woori Plastic Surgery",
-            "basis": "Director-level assessment. Surgical team includes multiple Asan Hospital professor-origin plastic surgeons."
+            "basis": "Igazgatói szintű értékelés. A sebészcsapatban több, az Asan Hospitalból érkezett, professzori hátterű plasztikai sebész dolgozik."
           },
           {
             "name": "Hosan Hospital",
-            "basis": "Clinical evaluation of directors, track record, and patient outcomes in women's plastic surgery."
+            "basis": "Az igazgatók, a szakmai előzmények és a betegek eredményeinek klinikai értékelése a női plasztikai sebészet területén."
           },
           {
             "name": "The Well Dental",
-            "basis": "Clinical evaluation of directors, treatment approach, and facility standards in adult dentistry."
+            "basis": "Az igazgatók, a kezelési megközelítés és a létesítmény színvonalának klinikai értékelése a felnőtt fogászat területén."
           }
         ]
       },
-      "methodologyLink": "Read the full verification methodology"
+      "methodologyLink": "Olvassa el a teljes hitelesítési módszertant"
     },
     "aiGovernance": {
-      "badge": "AI Governance",
-      "title": "Why AI has boundaries here",
-      "description": "AetherHeal uses AI to structure intake, surface missing information, support translation, and monitor post-treatment continuity. AI does not diagnose, does not recommend treatment, does not select hospitals, and cannot override a physician. These boundaries are not design preferences — they are governance positions informed by formal study of AI in healthcare at MIT Sloan.",
-      "quote": "AI can accelerate the workflow. It cannot carry the responsibility. That distinction is the architecture."
+      "badge": "MI-irányítás",
+      "title": "Miért vannak itt határai az MI-nek",
+      "description": "Az AetherHeal a mesterséges intelligenciát a felvétel strukturálására, a hiányzó információk feltárására, a fordítás támogatására és a kezelés utáni folytonosság figyelésére használja. Az MI nem állít diagnózist, nem ajánl kezelést, nem választ kórházat, és nem írhatja felül az orvost. Ezek a határok nem tervezési preferenciák — irányítási álláspontok, amelyeket a MIT Sloanon az MI egészségügyi alkalmazásairól folytatott formális tanulmányok alapoznak meg.",
+      "quote": "Az MI felgyorsíthatja a munkafolyamatot. A felelősséget nem viselheti. Ez a különbségtétel maga az architektúra."
     },
     "origin": {
-      "badge": "Why This Exists",
-      "title": "I was the patient first",
+      "badge": "Miért létezik ez",
+      "title": "Először páciens voltam",
       "paragraphs": [
-        "Before I became a hair transplant surgeon, I was a hair transplant patient. My first procedure failed. I chose the clinic based on the only signals available to me at the time — price and online reviews. Both were misleading, and I had no way to know.",
-        "I only recognized what went wrong after I entered the field myself — after I trained as a surgeon, after I worked inside clinics, after I could see what a patient cannot see from the outside. The graft survival rate, the extraction technique, the team's actual experience — none of it was visible to me as a patient.",
-        "That failure is the reason AetherHeal exists. Not because every clinic is bad — most are competent. But because the patient has no reliable way to verify what is good, what is right for their case, and what will still be accountable after the procedure is done.",
-        "I built AetherHeal so that no patient has to become a specialist to know whether their decision was sound. The platform exists to make visible what I once could not see."
+        "Mielőtt hajátültető sebész lettem, magam is hajátültetési páciens voltam. Az első beavatkozásom sikertelen volt. A klinikát az alapján az egyetlen információ alapján választottam, amely akkoriban rendelkezésemre állt — az ár és az online vélemények alapján. Mindkettő félrevezető volt, és nem volt módom ezt felismerni.",
+        "Csak azután ismertem fel, mi romlott el, amikor magam is beléptem a szakmába — miután sebészként kiképeztek, miután klinikákon belül dolgoztam, miután megláttam azt, amit egy páciens kívülről nem láthat. A graft túlélési arány, a kivételi technika, a csapat tényleges tapasztalata — ezek közül páciensként semmi sem volt látható számomra.",
+        "Ez a kudarc az oka annak, hogy az AetherHeal létezik. Nem azért, mert minden klinika rossz — a legtöbb szakmailag felkészült. Hanem azért, mert a páciensnek nincs megbízható módja arra, hogy ellenőrizze, mi jó, mi a megfelelő az ő esetében, és mi marad elszámoltatható akkor is, amikor a beavatkozás már megtörtént.",
+        "Azért építettem az AetherHealt, hogy egyetlen páciensnek se kelljen szakértővé válnia ahhoz, hogy tudja: jó döntést hozott-e. A platform azért létezik, hogy láthatóvá tegye azt, amit én egykor nem láthattam."
       ]
     },
     "structuralIntegrity": {
-      "title": "A note on conflict of interest",
-      "description": "I previously worked at hospitals that are now AetherHeal partners. That history is the source of my verification authority — but it could also create a conflict of interest if the revenue structure rewarded me for recommending them. It does not.",
-      "highlight": "AetherHeal charges a flat navigation fee that does not change with the hospital, the procedure, or the price. There are no referral commissions. No volume bonuses. No revenue from procedure selection. The structure that eliminates the conflict is the same structure that makes the embedded verification credible."
+      "title": "Megjegyzés az érdekellentétről",
+      "description": "Korábban olyan kórházakban dolgoztam, amelyek ma az AetherHeal partnerei. Ez az előzmény a hitelesítési tekintélyem forrása — ugyanakkor érdekellentétet is teremthetne, ha a bevételi szerkezet azért jutalmazna, hogy ajánljam őket. Nem így van.",
+      "highlight": "Az AetherHeal egységes navigációs díjat számol fel, amely nem változik a kórháztól, a beavatkozástól vagy az ártól függően. Nincsenek ajánlási jutalékok. Nincsenek volumenbónuszok. Nincs bevétel abból, hogy melyik beavatkozás kerül kiválasztásra. Ugyanaz a szerkezet, amely kiküszöböli az érdekellentétet, teszi hitelessé a beágyazott hitelesítést."
     },
     "cta": {
-      "title": "Start with someone on your side",
-      "subtitle": "If you are considering medical care in Korea, begin with a process designed by a physician who has been where you are.",
-      "primary": "Start With Someone On Your Side",
-      "secondary": "See how the process works"
+      "title": "Kezdje valakivel, aki az Ön oldalán áll",
+      "subtitle": "Ha Koreában mérlegel orvosi ellátást, olyan folyamattal kezdje, amelyet egy orvos tervezett — olyan orvos, aki maga is volt ott, ahol Ön most áll.",
+      "primary": "Kezdje valakivel, aki az Ön oldalán áll",
+      "secondary": "Nézze meg, hogyan működik a folyamat"
     }
   }
 }
