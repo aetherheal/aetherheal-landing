@@ -370,18 +370,18 @@ export default async function HomePage({
                 </div>
               ))}
             </div>
-            <div className="text-center mb-6">
-              <p className="text-text-body text-sm sm:text-base font-medium">
-                {t.partners.compactDescription}
-              </p>
-            </div>
-            {t.partners.rejectionReasons && (
-              <div className="max-w-2xl mx-auto text-center mb-8">
-                <p className="text-sm text-text-muted leading-relaxed">
+            <div className="max-w-2xl mx-auto text-center mb-8 space-y-1.5">
+              {(t.partners.compactDescription as string).split('. ').map((sentence, i, arr) => (
+                <p key={i} className="text-text-body text-sm sm:text-base font-medium leading-relaxed">
+                  {sentence}{i < arr.length - 1 ? '.' : ''}
+                </p>
+              ))}
+              {t.partners.rejectionReasons && (
+                <p className="text-sm text-text-muted leading-relaxed pt-1">
                   {t.partners.rejectionReasons}
                 </p>
-              </div>
-            )}
+              )}
+            </div>
             <div className="text-center">
               <Link
                 href={`${prefix}/trust-protocol`}
