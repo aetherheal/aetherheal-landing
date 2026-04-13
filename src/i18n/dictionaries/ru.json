@@ -3597,5 +3597,163 @@
       "primary": "Начать с тем, кто на вашей стороне",
       "secondary": "Посмотреть, как работает процесс"
     }
+  },
+  "methodology": {
+    "meta": {
+      "title": "How We Verify Hospitals | AetherHeal Verification Methodology",
+      "description": "AetherHeal verifies partner hospitals through two layers: a published minimum standard with five non-negotiable criteria, and independent clinical assessment by Angel Physicians. 31% of applicants have been rejected."
+    },
+    "hero": {
+      "badge": "Verification Methodology",
+      "h1": "How we verify",
+      "h1Highlight": "hospitals",
+      "oneSentenceAnswer": "AetherHeal verifies hospitals through two layers: a published minimum standard applied by the organization, and an independent clinical assessment conducted by Angel Physicians.",
+      "intro": "Most medical tourism platforms list hospitals. Some claim to vet them. AetherHeal publishes its minimum standard, names the criteria, and discloses its rejection rate — because verification that cannot be examined is not verification."
+    },
+    "whyItMatters": {
+      "title": "Why verification matters",
+      "paragraphs": [
+        "In the medical tourism market, patients cannot distinguish clinical quality from marketing quality. A polished website, a high Google rating, and a celebrity endorsement tell you nothing about physician credentials, pricing transparency, or what happens when something goes wrong.",
+        "Verification exists to make that distinction on the patient's behalf — before the patient commits to a hospital, a flight, or a procedure.",
+        "AetherHeal's verification is not a seal of approval. It is a standard with consequences. Hospitals that do not meet it are rejected. Hospitals that meet it are monitored. The standard is the standard."
+      ]
+    },
+    "layer1": {
+      "badge": "Layer 1 — Published Standard",
+      "title": "The minimum standard",
+      "intro": "Every hospital applicant must meet five non-negotiable criteria. These are binary — pass or fail — and verifiable against public records and institutional documentation. AetherHeal publishes them because hiding them would undermine the trust the platform exists to create.",
+      "criteria": [
+        {
+          "title": "Physician licensing verification",
+          "description": "Every physician performing procedures on AetherHeal patients must hold a valid Korean medical license in their declared specialty.",
+          "basis": "Verified against Korean Ministry of Health and Welfare physician registry."
+        },
+        {
+          "title": "Pricing transparency",
+          "description": "The hospital must disclose its full fee structure to AetherHeal before any patient referral, including all potential add-on costs. Undisclosed fees are grounds for rejection.",
+          "basis": "Verified through direct fee schedule submission and cross-referenced with patient-facing quotes."
+        },
+        {
+          "title": "Procedure recording policy",
+          "description": "Procedures under sedation must be recorded via CCTV and close-up camera. Footage must be available to the patient upon request. Hospitals that refuse recording are rejected.",
+          "basis": "Verified through facility inspection and written policy confirmation."
+        },
+        {
+          "title": "Post-operative follow-up protocol",
+          "description": "The hospital must maintain a documented post-operative follow-up protocol extending at least 30 days after the procedure, with a designated point of contact for international patients.",
+          "basis": "Verified through protocol documentation and international patient coordinator confirmation."
+        },
+        {
+          "title": "Informed consent standard",
+          "description": "The patient must receive informed consent documentation in their language before any procedure, including risks, alternatives, and expected outcomes.",
+          "basis": "Verified through consent form review and translation process confirmation."
+        }
+      ],
+      "footnote": "These five criteria are the floor. A hospital that meets all five has passed the minimum standard — not earned a recommendation. The recommendation comes from Layer 2."
+    },
+    "layer2": {
+      "badge": "Layer 2 — Angel Physician Assessment",
+      "title": "The clinical assessment",
+      "paragraphs": [
+        "Beyond the minimum standard, each hospital undergoes an independent clinical assessment conducted by an Angel Physician — a licensed Korean physician who operates under AetherHeal's governance structure with no financial relationship to the hospital being evaluated.",
+        "This assessment evaluates dimensions of clinical quality that cannot be captured in a checklist: the competence of the surgical team, the communication culture between physicians and patients, the institution's honesty about its capabilities and limitations, the consistency between marketing claims and actual practice, and the institutional response when complications occur.",
+        "The specific criteria of this assessment are not published. This is a deliberate decision. Clinical judgment exercised by a qualified, independent physician is the standard — not a rubric that could be optimized against. Publishing the criteria would incentivize performance on the assessment rather than maintenance of the standard."
+      ],
+      "quote": "A checklist tells you what a hospital prepared for the inspection. A physician who has worked inside the system tells you what happens when the inspection is over.",
+      "foundingNote": {
+        "badge": "Founding cohort",
+        "text": "AetherHeal's founding partner hospitals were assessed by the founding physician through direct embedded clinical practice or physician-network evaluation. As the network expands, all new hospital assessments are conducted by Angel Physicians under the same governance framework and independence requirements."
+      }
+    },
+    "rejection": {
+      "badge": "Rejection Transparency",
+      "title": "What gets a hospital rejected",
+      "intro": "Verification has consequences. Not every hospital that applies is admitted. AetherHeal discloses its rejection rate and the categories of rejection — without naming specific hospitals.",
+      "stats": [
+        {
+          "number": "13",
+          "label": "Evaluated"
+        },
+        {
+          "number": "4",
+          "label": "Rejected"
+        },
+        {
+          "number": "9",
+          "label": "Verified"
+        }
+      ],
+      "reasons": [
+        "Unverified physician credentials — the hospital could not confirm valid specialty licensing for all physicians performing procedures on international patients.",
+        "Undisclosed pricing structure — the hospital's fee schedule contained hidden costs or add-on charges not disclosed in the initial quotation process.",
+        "Refusal of procedure recording — the hospital declined to implement CCTV and close-up camera recording for procedures under sedation.",
+        "Inadequate post-operative follow-up — no documented protocol for international patient follow-up beyond the day of discharge."
+      ],
+      "anonymityNote": "Rejected hospitals are not named publicly. The purpose of disclosure is to demonstrate that the standard has consequences — not to damage institutions that may improve and reapply."
+    },
+    "monitoring": {
+      "title": "Ongoing monitoring",
+      "intro": "Verification is not a one-time event. Partner hospitals are subject to ongoing monitoring, and re-evaluation can be triggered by any of the following:",
+      "triggers": [
+        "Patient complaint or adverse outcome report through AetherHeal's continuity monitoring system",
+        "Change in the hospital's medical director or key surgical staff",
+        "Regulatory action or license suspension affecting the hospital or its physicians",
+        "Failure to maintain pricing transparency or informed consent standards during active patient journeys",
+        "Refusal to cooperate with post-treatment follow-up coordination for an AetherHeal patient",
+        "Periodic scheduled re-evaluation (annual for all partners)"
+      ]
+    },
+    "decisionSummary": {
+      "title": "Is this page for you?",
+      "bestForLabel": "Best for",
+      "bestFor": "Patients who want to understand how AetherHeal selects and monitors partner hospitals before beginning their own journey.",
+      "notIdealLabel": "Not ideal for",
+      "notIdeal": "Patients looking for a hospital directory, procedure catalog, or price comparison. Those are different tools for different questions."
+    },
+    "faq": {
+      "title": "Questions about verification",
+      "items": [
+        {
+          "question": "Can a rejected hospital reapply?",
+          "answer": "Yes. A hospital that has been rejected may reapply after addressing the specific deficiency that caused the rejection. The re-evaluation follows the same two-layer process. There is no penalty for having been previously rejected — only for failing to meet the standard at the time of evaluation."
+        },
+        {
+          "question": "How often are partner hospitals re-evaluated?",
+          "answer": "All partner hospitals undergo a scheduled re-evaluation annually. Unscheduled re-evaluation can be triggered at any time by patient complaints, staffing changes, regulatory actions, or operational failures during active patient journeys."
+        },
+        {
+          "question": "Does AetherHeal receive payment from hospitals for verification?",
+          "answer": "No. AetherHeal does not charge hospitals for the verification process. Partner hospitals pay an annual membership fee after admission, but this fee does not influence the verification outcome. The evaluation is conducted before any commercial relationship exists."
+        },
+        {
+          "question": "Are all verified hospitals equally recommended?",
+          "answer": "No. All verified hospitals have passed the minimum standard and the Angel Physician clinical assessment, but matching is based on clinical fit — not equal rotation. A patient considering hair transplantation will be matched to hospitals with relevant specialization, not to every verified hospital in the network."
+        },
+        {
+          "question": "Why are the Layer 2 criteria not published?",
+          "answer": "Because clinical judgment cannot be reduced to a checklist without weakening it. Publishing the specific assessment dimensions would allow hospitals to optimize for the assessment rather than maintain the standard. The Angel Physician's independence and clinical competence are the quality control — not a rubric."
+        },
+        {
+          "question": "Who are the Angel Physicians?",
+          "answer": "Angel Physicians are licensed Korean medical doctors who operate under AetherHeal's governance structure. They hold no financial relationship with any hospital in the network and no referral-based compensation. Their role includes both patient case review and hospital clinical assessment. The founding assessments were conducted by AetherHeal's founding physician."
+        },
+        {
+          "question": "What happens if a verified hospital's standards change?",
+          "answer": "If monitoring reveals a decline in standards — through patient feedback, staffing changes, or operational failures — the hospital enters a re-evaluation process. If the re-evaluation confirms the decline, the hospital's verified status is suspended until the deficiency is resolved. Suspension is not public, but affected patients in active journeys are notified and offered alternative coordination."
+        }
+      ]
+    },
+    "reviewerMeta": {
+      "label": "Reviewed by",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "April 2026"
+    },
+    "cta": {
+      "title": "Start with someone on your side",
+      "subtitle": "If you are considering medical care in Korea, begin with a process where the hospitals have already been held to a standard — before you arrive.",
+      "primary": "Start With Someone On Your Side",
+      "secondary": "See the Trust Protocol"
+    }
   }
 }

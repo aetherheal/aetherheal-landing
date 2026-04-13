@@ -21,6 +21,7 @@ const patientOnlyRoutes = [
   "/terms-of-service",
   "/payment-refund-policy",
   "/doctors/dr-jee-hoon-ju",
+  "/methodology/how-we-verify-hospitals",
 ]
 
 const universalRoutes = ["/our-philosophy"]
@@ -60,7 +61,7 @@ function buildEntries(): SitemapEntry[] {
     })
   }
 
-  const highPriority = ["/how-it-works", "/how-to-choose-hospital-abroad", "/intake", "/doctors/dr-jee-hoon-ju"]
+  const highPriority = ["/how-it-works", "/how-to-choose-hospital-abroad", "/intake", "/doctors/dr-jee-hoon-ju", "/methodology/how-we-verify-hospitals"]
   const lowPriority = ["/privacy-policy", "/terms-of-service", "/payment-refund-policy", "/medical-boundary"]
 
   for (const route of patientOnlyRoutes) {

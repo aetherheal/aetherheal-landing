@@ -63,6 +63,7 @@ const patientOnlyRoutes = [
   "/journey-assurance",
   "/marketing-information",
   "/doctors/dr-jee-hoon-ju",
+  "/methodology/how-we-verify-hospitals",
 ]
 
 export function isRouteAvailableForLocale(path: string, locale: Locale): boolean {
