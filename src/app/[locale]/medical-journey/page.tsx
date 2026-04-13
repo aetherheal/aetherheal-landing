@@ -146,6 +146,228 @@ export default async function MedicalJourneyPage({ params }: { params: Promise<{
                   })}
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Story Arc — Responsibility Overview */}
+      {t.storyArc && (
+        <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+          <div className="max-w-6xl mx-auto">
+            <div className="rounded-[32px] border border-slate-200 bg-white px-6 py-8 sm:px-8 sm:py-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)]">
+              <div className="max-w-3xl">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                  {t.storyArc.badge}
+                </p>
+                <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-brand-navy mb-4">
+                  {t.storyArc.title}
+                </h2>
+                <p className="text-text-body leading-relaxed">
+                  {t.storyArc.subtitle}
+                </p>
+              </div>
+              <div className="mt-8 flex flex-col gap-4 xl:flex-row xl:items-stretch xl:gap-3">
+                {t.storyArc.items.map((item: { phase: string; title: string; owner: string }, idx: number, items: { phase: string; title: string; owner: string }[]) => {
+                  const isLast = idx === items.length - 1
+                  const cardStyles = [
+                    "border-slate-200 bg-white",
+                    "border-slate-200 bg-slate-50/80",
+                    "border-brand-gold/30 bg-brand-gold/10",
+                    "border-brand-navy/15 bg-brand-navy/5",
+                    "border-brand-navy bg-brand-navy text-white",
+                  ]
+                  return (
+                    <div key={`${item.phase}-${item.title}`} className="contents">
+                      <div
+                        className={cn(
+                          "h-full min-w-0 rounded-2xl border p-5 flex flex-col xl:flex-1",
+                          cardStyles[idx] ?? cardStyles[cardStyles.length - 1]
+                        )}
+                      >
+                        <p
+                          className={cn(
+                            "text-[10px] font-bold uppercase tracking-widest mb-2",
+                            isLast ? "text-white/70" : "text-text-muted"
+                          )}
+                        >
+                          {item.phase}
+                        </p>
+                        <h3
+                          className={cn(
+                            "font-serif text-lg leading-snug mb-4 min-h-[3.5rem]",
+                            isLast ? "text-white" : "text-brand-navy"
+                          )}
+                        >
+                          {item.title}
+                        </h3>
+                        <div className="mt-auto min-h-[3rem]">
+                          <p
+                            className={cn(
+                              "text-[10px] font-bold uppercase tracking-widest mb-1",
+                              isLast ? "text-white/60" : "text-text-muted"
+                            )}
+                          >
+                            {t.storyArc.responsibilityLabel}
+                          </p>
+                          <p
+                            className={cn(
+                              "text-xs font-semibold leading-snug",
+                              isLast ? "text-white" : "text-brand-navy"
+                            )}
+                          >
+                            {item.owner}
+                          </p>
+                        </div>
+                      </div>
+                      {!isLast && (
+                        <div className="hidden xl:flex items-center justify-center px-1">
+                          <ArrowRight className={cn(
+                            "w-5 h-5",
+                            idx < 2 ? "text-slate-300" : idx === 2 ? "text-brand-gold/60" : "text-brand-navy/40"
+                          )} />
+                        </div>
+                      )}
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* First 48 Hours + Post-Treatment Continuity */}
+      {t.first48Hours && t.continuityYear && (
+        <section className="w-full py-12 sm:py-24 lg:py-32 px-4 sm:px-6 bg-bg-light border-b border-slate-200">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
+              {/* First 48 Hours */}
+              <div className="h-full rounded-[32px] border border-slate-200 bg-white p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.18)] flex flex-col">
+                <div className="mb-8">
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                    {t.first48Hours.badge}
+                  </p>
+                  <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-4">
+                    {t.first48Hours.title}
+                  </h2>
+                  <p className="text-text-body leading-relaxed">
+                    {t.first48Hours.subtitle}
+                  </p>
+                </div>
+                <div className="flex flex-col gap-4 flex-1">
+                  {t.first48Hours.items.map((item: { time: string; title: string; description: string; owner?: string; next?: string }, idx: number, items: { time: string; title: string; description: string; owner?: string; next?: string }[]) => {
+                    const isLast = idx === items.length - 1
+                    const cardStyles = [
+                      "border-slate-200 bg-white",
+                      "border-slate-200 bg-slate-50/80",
+                      "border-brand-gold/30 bg-brand-gold/10",
+                    ]
+                    return (
+                      <div key={`${item.time}-${item.title}`} className="contents">
+                        <div className={cn(
+                          "rounded-2xl border p-5 flex flex-col",
+                          cardStyles[idx] ?? cardStyles[cardStyles.length - 1]
+                        )}>
+                          <div className="mb-3">
+                            <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted">{item.time}</p>
+                          </div>
+                          {item.owner && (
+                            <div className="mb-3">
+                              <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-1">{t.first48Hours.responsibilityLabel}</p>
+                              <p className="text-xs font-semibold leading-snug text-brand-navy">{item.owner}</p>
+                            </div>
+                          )}
+                          <h3 className="font-serif text-xl leading-snug text-brand-navy mb-2">{item.title}</h3>
+                          <p className="text-sm text-text-body leading-relaxed">{item.description}</p>
+                          {item.next && (
+                            <div className="mt-auto pt-4">
+                              <span className="inline-flex items-center rounded-full bg-slate-200/70 px-3 py-1 text-[11px] font-semibold text-text-muted">
+                                {t.first48Hours.thenLabel} {item.next}
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                        {!isLast && (
+                          <div className="flex justify-center">
+                            <ArrowRight className={cn(
+                              "hidden sm:block w-4 h-4 rotate-90",
+                              idx === 0 ? "text-slate-300" : "text-brand-gold/60"
+                            )} />
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Post-Treatment Continuity */}
+              <div className="h-full rounded-[32px] border border-brand-navy/10 bg-brand-navy p-8 sm:p-10 shadow-[0_24px_70px_-40px_rgba(15,23,42,0.24)] flex flex-col">
+                <div className="mb-8">
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                    {t.continuityYear.badge}
+                  </p>
+                  <h2 className="font-serif text-3xl sm:text-4xl text-white mb-4">
+                    {t.continuityYear.title}
+                  </h2>
+                  <p className="text-slate-300 leading-relaxed">
+                    {t.continuityYear.subtitle}
+                  </p>
+                </div>
+                <div className="flex flex-col gap-4 flex-1">
+                  {t.continuityYear.items.map((item: { phase: string; title: string; description: string; owner?: string; next?: string }, idx: number, items: { phase: string; title: string; description: string; owner?: string; next?: string }[]) => {
+                    const isLast = idx === items.length - 1
+                    const cardStyles = [
+                      "border-white/10 bg-white/5",
+                      "border-white/15 bg-white/10",
+                      "border-brand-gold/25 bg-brand-gold/10",
+                    ]
+                    return (
+                      <div key={`${item.phase}-${item.title}`} className="contents">
+                        <div className={cn(
+                          "rounded-2xl border p-5 backdrop-blur-sm flex flex-col",
+                          cardStyles[idx] ?? cardStyles[cardStyles.length - 1]
+                        )}>
+                          <div className="mb-3">
+                            <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold">{item.phase}</p>
+                          </div>
+                          {item.owner && (
+                            <div className="mb-3">
+                              <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold/70 mb-1">{t.continuityYear.responsibilityLabel}</p>
+                              <p className="text-xs font-semibold leading-snug text-white">{item.owner}</p>
+                            </div>
+                          )}
+                          <h3 className="font-serif text-xl leading-snug text-white mb-2">{item.title}</h3>
+                          <p className="text-sm text-slate-300 leading-relaxed">{item.description}</p>
+                          {item.next && (
+                            <div className="mt-auto pt-4">
+                              <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-[11px] font-semibold text-slate-300">
+                                {t.continuityYear.thenLabel} {item.next}
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                        {!isLast && (
+                          <div className="flex justify-center">
+                            <ArrowRight className={cn(
+                              "hidden sm:block w-4 h-4 rotate-90",
+                              idx === 0 ? "text-white/20" : "text-brand-gold/50"
+                            )} />
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="py-16 sm:py-24 px-4 sm:px-6">
+        <div className="max-w-4xl mx-auto">
               <div id="what-makes-different" className="scroll-mt-32">
                 <h2 className="font-serif text-3xl sm:text-4xl text-brand-navy mb-8 pb-4 border-b border-slate-100 leading-tight">{t.whatMakesDifferent.title}</h2>
                 <div className="space-y-6 text-lg text-slate-600 font-light leading-[1.8]">
@@ -161,8 +383,6 @@ export default async function MedicalJourneyPage({ params }: { params: Promise<{
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
       </section>
 

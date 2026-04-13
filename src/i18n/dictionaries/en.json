@@ -259,99 +259,7 @@
         "ready": "Ready for Release",
         "proceed": "Proceed to Hospital Review"
       },
-      "storyArc": {
-        "badge": "The full story",
-        "title": "What the patient journey is building toward",
-        "subtitle": "The patient should be able to see the whole arc from the beginning: who guides the decision, who performs the treatment, and who keeps continuity visible afterward.",
-        "items": [
-          {
-            "phase": "Before travel",
-            "title": "Decision clarity",
-            "owner": "AetherHeal + Physician"
-          },
-          {
-            "phase": "Arrival",
-            "title": "Operational handoff",
-            "owner": "AetherHeal"
-          },
-          {
-            "phase": "Treatment",
-            "title": "Clinical authority",
-            "owner": "Hospital"
-          },
-          {
-            "phase": "Recovery",
-            "title": "Follow-up visibility",
-            "owner": "AetherHeal + Patient"
-          },
-          {
-            "phase": "Up to 1 year",
-            "title": "Continuity and escalation",
-            "owner": "AetherHeal + Hospital"
-          }
-        ]
-      },
-      "first48Hours": {
-        "badge": "First 48 hours",
-        "title": "Your first 48 hours",
-        "subtitle": "Arrival, handoff, and clinical alignment. Treatment may happen within that window or later.",
-        "items": [
-          {
-            "time": "Arrival",
-            "title": "Arrival coordination",
-            "description": "We meet the patient, confirm the plan, and clarify the next step.",
-            "owner": "1:1 Concierge by AetherHeal",
-            "next": "Hospital handoff"
-          },
-          {
-            "time": "First 24 hours",
-            "title": "Translation, scheduling, and handoff",
-            "description": "The hospital receives the case context. The patient receives language and scheduling support.",
-            "owner": "Clinical coordination by AetherHeal + Hospital",
-            "next": "Clinical confirmation"
-          },
-          {
-            "time": "24-48 hours",
-            "title": "Treatment readiness",
-            "description": "The patient and hospital confirm whether treatment happens now, later in the trip, or after more preparation.",
-            "owner": "Clinical confirmation by Hospital",
-            "next": "Treatment or further coordination"
-          }
-        ]
-      },
-      "continuityYear": {
-        "badge": "1-year continuity",
-        "title": "Post-treatment continuity",
-        "subtitle": "After the patient returns home, recovery remains visible and easier to escalate if needed.",
-        "items": [
-          {
-            "phase": "Week 1",
-            "title": "Early recovery check-ins",
-            "description": "Symptoms, photos, and questions are gathered early so concerns are not missed.",
-            "owner": "Early check-ins by AetherHeal + Patient",
-            "next": "Expectation tracking"
-          },
-          {
-            "phase": "Month 1-3",
-            "title": "Follow-up and expectation tracking",
-            "description": "Recovery is tracked against the expected timeline across distance and language.",
-            "owner": "Recovery tracking by AetherHeal",
-            "next": "Long-tail follow-up"
-          },
-          {
-            "phase": "Month 3-12",
-            "title": "Long-tail continuity",
-            "description": "If delayed concerns appear, the case history stays organized so follow-up does not restart from zero.",
-            "owner": "Escalation by AetherHeal + Hospital",
-            "next": "Documented continuity"
-          }
-        ]
-      },
-      "closingQuote": "The goal is not to push you faster. The goal is to help you decide with less regret.",
-      "uiLabels": {
-        "responsibility": "Responsibility",
-        "then": "Then:"
-      }
+      "closingQuote": "The goal is not to push you faster. The goal is to help you decide with less regret."
     },
     "partners": {
       "subtitle": "Your Protection",
@@ -3026,6 +2934,43 @@
       "boxTitle": "AI supports the process",
       "boxText": "but does not own diagnosis, treatment, emergency judgment, or final provider selection. Those remain human responsibilities throughout the journey.",
       "ctaPhilosophy": "Read the full philosophy"
+    },
+    "storyArc": {
+      "badge": "The full story",
+      "title": "What the patient journey is building toward",
+      "subtitle": "The patient should be able to see the whole arc from the beginning: who guides the decision, who performs the treatment, and who keeps continuity visible afterward.",
+      "responsibilityLabel": "Responsibility",
+      "items": [
+        { "phase": "Before travel", "title": "Decision clarity", "owner": "AetherHeal + Physician" },
+        { "phase": "Arrival", "title": "Operational handoff", "owner": "AetherHeal" },
+        { "phase": "Treatment", "title": "Clinical authority", "owner": "Hospital" },
+        { "phase": "Recovery", "title": "Follow-up visibility", "owner": "AetherHeal + Patient" },
+        { "phase": "Up to 1 year", "title": "Continuity and escalation", "owner": "AetherHeal + Hospital" }
+      ]
+    },
+    "first48Hours": {
+      "badge": "First 48 hours",
+      "title": "Your first 48 hours",
+      "subtitle": "Arrival, handoff, and clinical alignment. Treatment may happen within that window or later.",
+      "responsibilityLabel": "Responsibility",
+      "thenLabel": "Then:",
+      "items": [
+        { "time": "Arrival", "title": "Arrival coordination", "description": "We meet the patient, confirm the plan, and clarify the next step.", "owner": "1:1 Concierge by AetherHeal", "next": "Hospital handoff" },
+        { "time": "First 24 hours", "title": "Translation, scheduling, and handoff", "description": "The hospital receives the case context. The patient receives language and scheduling support.", "owner": "Clinical coordination by AetherHeal + Hospital", "next": "Clinical confirmation" },
+        { "time": "24-48 hours", "title": "Treatment readiness", "description": "The patient and hospital confirm whether treatment happens now, later in the trip, or after more preparation.", "owner": "Clinical confirmation by Hospital", "next": "Treatment or further coordination" }
+      ]
+    },
+    "continuityYear": {
+      "badge": "1-year continuity",
+      "title": "Post-treatment continuity",
+      "subtitle": "After the patient returns home, recovery remains visible and easier to escalate if needed.",
+      "responsibilityLabel": "Responsibility",
+      "thenLabel": "Then:",
+      "items": [
+        { "phase": "Week 1", "title": "Early recovery check-ins", "description": "Symptoms, photos, and questions are gathered early so concerns are not missed.", "owner": "Early check-ins by AetherHeal + Patient", "next": "Expectation tracking" },
+        { "phase": "Month 1-3", "title": "Follow-up and expectation tracking", "description": "Recovery is tracked against the expected timeline across distance and language.", "owner": "Recovery tracking by AetherHeal", "next": "Long-tail follow-up" },
+        { "phase": "Month 3-12", "title": "Long-tail continuity", "description": "If delayed concerns appear, the case history stays organized so follow-up does not restart from zero.", "owner": "Escalation by AetherHeal + Hospital", "next": "Documented continuity" }
+      ]
     },
     "relatedPages": [
       {

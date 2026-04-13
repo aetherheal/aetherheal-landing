@@ -79,30 +79,8 @@ export default async function HomePage({
       owner?: string
       next?: string
     }>
-    storyArc?: {
-      badge?: string
-      title?: string
-      subtitle?: string
-      items?: { phase: string; title: string; owner: string }[]
-    }
-    first48Hours?: {
-      badge?: string
-      title?: string
-      subtitle?: string
-      items?: { time: string; title: string; description: string; owner?: string; next?: string }[]
-    }
-    continuityYear?: {
-      badge?: string
-      title?: string
-      subtitle?: string
-      items?: { phase: string; title: string; description: string; owner?: string; next?: string }[]
-    }
-    uiLabels?: {
-      responsibility?: string
-      then?: string
-    }
   }
-  const thenLabel = journeySection.uiLabels?.then ?? "Then:"
+  const thenLabel = "Then:"
   const heroBranches = (t.hero as typeof t.hero & { branches?: string[]; branchConclusion?: string })
 
   const faqSchema = {
