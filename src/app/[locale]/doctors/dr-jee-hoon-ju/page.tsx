@@ -3,12 +3,9 @@ import Image from "next/image"
 import Link from "next/link"
 import {
   GraduationCap,
-  Stethoscope,
   Brain,
-  Building2,
   ShieldCheck,
   ArrowRight,
-  BookOpen,
 } from "lucide-react"
 import { assertPatientLocale } from "@/i18n/assert-locale"
 import { locales, type Locale } from "@/i18n/config"
