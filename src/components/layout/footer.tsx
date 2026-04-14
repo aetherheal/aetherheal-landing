@@ -41,6 +41,7 @@ export function Footer({ dict, locale }: FooterProps) {
         { href: `${prefix}/hair-transplant-korea`, label: dict.footer.guideLinks.hairTransplant },
         { href: `${prefix}/plastic-surgery-korea`, label: dict.footer.guideLinks.plasticSurgery },
         { href: `${prefix}/aesthetic-clinic-seoul`, label: dict.footer.guideLinks.aestheticClinics },
+        { href: `${prefix}/hospitals/morgan-dermatology`, label: (dict.footer.guideLinks as typeof dict.footer.guideLinks & { morganDermatology?: string }).morganDermatology ?? "Morgan Dermatology" },
       ]
 
   const legalPrefix = isKo ? "/en" : prefix

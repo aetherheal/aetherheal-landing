@@ -650,14 +650,35 @@ export default async function HomePage({
                 )}
               </div>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2.5 sm:gap-3">
-                {coverage.items.map((item) => (
-                  <div
-                    key={item}
-                    className="rounded-xl border border-white/[0.08] bg-white/[0.04] px-4 py-3 sm:px-5 sm:py-4 text-center select-none"
-                  >
-                    <span className="text-white/80 font-semibold text-xs sm:text-sm leading-tight">{item}</span>
-                  </div>
-                ))}
+                {coverage.items.map((item, idx) => {
+                  // Index-based href mapping (locale-agnostic).
+                  // Keep in sync with the order of coverage.items in dictionaries.
+                  const coverageHrefs: Record<number, string> = {
+                    0: `${prefix}/hospitals/morgan-dermatology`, // Hair Transplant
+                  }
+                  const href = coverageHrefs[idx]
+                  if (href) {
+                    return (
+                      <Link
+                        key={item}
+                        href={href}
+                        className="group rounded-xl border border-white/[0.08] bg-white/[0.04] px-4 py-3 sm:px-5 sm:py-4 text-center transition-all hover:border-brand-gold/40 hover:bg-white/[0.08]"
+                      >
+                        <span className="text-white/80 group-hover:text-white font-semibold text-xs sm:text-sm leading-tight transition-colors">
+                          {item}
+                        </span>
+                      </Link>
+                    )
+                  }
+                  return (
+                    <div
+                      key={item}
+                      className="rounded-xl border border-white/[0.08] bg-white/[0.04] px-4 py-3 sm:px-5 sm:py-4 text-center select-none"
+                    >
+                      <span className="text-white/80 font-semibold text-xs sm:text-sm leading-tight">{item}</span>
+                    </div>
+                  )
+                })}
               </div>
             </div>
           </section>

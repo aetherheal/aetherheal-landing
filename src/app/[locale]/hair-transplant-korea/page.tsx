@@ -75,6 +75,33 @@ export default async function HairTransplantKoreaPage({ params }: { params: Prom
                   </div>
                 </div>
               </div>
+
+              {/* Verified Partner — Morgan Dermatology */}
+              {(() => {
+                const mp = (t as typeof t & { morganPartner?: { badge: string; title: string; description: string; cta: string } }).morganPartner
+                return (
+                  <div id="verified-partner" className="scroll-mt-32">
+                    <div className="rounded-3xl border border-brand-gold/20 bg-brand-gold/[0.04] p-6 sm:p-10">
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                        {mp?.badge ?? "Verified Partner"}
+                      </p>
+                      <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-4">
+                        {mp?.title ?? "Morgan Dermatology"}
+                      </h3>
+                      <p className="text-slate-600 leading-relaxed mb-6 max-w-2xl">
+                        {mp?.description ?? "A verified AetherHeal partner for hair transplantation. Dr. Jee Hoon Ju practiced here directly as a hair transplant surgeon — our evaluation is based on embedded clinical experience, not a site visit."}
+                      </p>
+                      <Link
+                        href={`${prefix}/hospitals/morgan-dermatology`}
+                        className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+                      >
+                        {mp?.cta ?? "See the verification "}
+                        <ArrowRight className="w-4 h-4" />
+                      </Link>
+                    </div>
+                  </div>
+                )
+              })()}
             </div>
           </div>
         </div>

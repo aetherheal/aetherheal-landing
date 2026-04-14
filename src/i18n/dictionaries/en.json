@@ -36,7 +36,8 @@
         "choosingHospital": "Choosing a Hospital Abroad",
         "hairTransplant": "Hair Transplant in Korea",
         "plasticSurgery": "Plastic Surgery in Korea",
-        "aestheticClinics": "Aesthetic Clinics in Seoul"
+        "aestheticClinics": "Aesthetic Clinics in Seoul",
+        "morganDermatology": "Morgan Dermatology"
       },
       "medicalBoundaryNotice": "Medical Boundary Notice",
       "termsOfService": "Terms of Service",
@@ -2671,7 +2672,13 @@
         "label": "How AetherHeal Works",
         "desc": "The system behind physician-led decision support"
       }
-    ]
+    ],
+    "morganPartner": {
+      "badge": "Verified Partner",
+      "title": "Morgan Dermatology",
+      "description": "A verified AetherHeal partner for hair transplantation. Dr. Jee Hoon Ju practiced here directly as a hair transplant surgeon — our evaluation is based on embedded clinical experience, not a site visit.",
+      "cta": "See the verification "
+    }
   },
   "plasticSurgery": {
     "meta": {
@@ -3809,7 +3816,9 @@
     }
   },
   "hospitals": {
-    "slugs": ["morgan-dermatology"],
+    "slugs": [
+      "morgan-dermatology"
+    ],
     "morgan-dermatology": {
       "meta": {
         "title": "Morgan Dermatology — Verified Hair Transplant Clinic | AetherHeal",
@@ -3855,8 +3864,14 @@
           "title": "Follicle Dissection Team",
           "description": "Morgan Dermatology maintains a full-time, resident follicle dissection team — the surgical support staff who handle graft separation, preparation, and preservation during every procedure.",
           "stats": [
-            { "number": "16.5+", "label": "Average years of individual experience" },
-            { "number": "6-10", "label": "Team members per surgery" }
+            {
+              "number": "16.5+",
+              "label": "Average years of individual experience"
+            },
+            {
+              "number": "6-10",
+              "label": "Team members per surgery"
+            }
           ],
           "explanation": "Every graft is living tissue on a countdown — survival rate drops with every minute outside the body. This makes hair transplantation fundamentally a parallel operation: the more skilled hands working simultaneously within that window, the more grafts survive. Morgan Dermatology's dissection team is permanent, not assembled per-procedure. All members wear the same 5.5x surgical loupes as the operating physicians — bringing surgical-grade magnification to the dissection stage, not just extraction and placement. A resident team of this size and technical standard is rare anywhere in the world."
         },
@@ -3916,9 +3931,18 @@
           "title": "Surgical capacity",
           "description": "Morgan Dermatology limits surgical volume to maintain quality.",
           "rules": [
-            { "label": "Under 2,000 grafts", "value": "Max 2 surgeries / day" },
-            { "label": "Over 2,500 grafts", "value": "1 surgery / day only" },
-            { "label": "Booking lead time", "value": "3+ months in advance" }
+            {
+              "label": "Under 2,000 grafts",
+              "value": "Max 2 surgeries / day"
+            },
+            {
+              "label": "Over 2,500 grafts",
+              "value": "1 surgery / day only"
+            },
+            {
+              "label": "Booking lead time",
+              "value": "3+ months in advance"
+            }
           ],
           "recommendation": "Plan your surgery schedule with AetherHeal well in advance. We coordinate the surgical booking, and recommend planning your travel around the confirmed surgery date — not the other way around."
         },
