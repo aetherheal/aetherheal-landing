@@ -1,6 +1,6 @@
 ---
-title: "Korea's 1.17 Million Patient Era — The Structural Absence of Trust"
-description: "Korea surpassed 1.17 million foreign patients in 2024, but growth without trust infrastructure creates a market failure. A physician examines why more patients does not mean better outcomes."
+title: "Korea Medical Tourism: The Trust Crisis"
+description: "Korea treated 1.17M foreign patients in 2024, but growth without trust infrastructure creates market failure. A physician explains why."
 date: "2026-04-18"
 author: "Dr. Jee Hoon Ju"
 category: "medical-tourism"

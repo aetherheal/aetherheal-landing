@@ -1,6 +1,6 @@
 ---
-title: "The Undetectable Aesthetic — 2026's Paradigm Shift in Beauty Medicine"
-description: "The biggest shift in aesthetic medicine isn't a new device or injectable — it's the disappearance of visible treatment. A physician's analysis of why the best work in 2026 is the work nobody notices."
+title: "The Undetectable Aesthetic: 2026's Top Trend"
+description: "The biggest shift in aesthetic medicine is the disappearance of visible treatment. Why the best work in 2026 is work nobody notices."
 date: "2026-04-22"
 author: "Dr. Jee Hoon Ju"
 category: "insights"

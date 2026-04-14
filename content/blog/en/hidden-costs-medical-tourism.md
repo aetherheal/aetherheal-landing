@@ -1,6 +1,6 @@
 ---
-title: "The Hidden Costs of Medical Tourism — Deconstructing the 'Cheap and Good Doctor' Fantasy"
-description: "A physician who was himself a victim of information asymmetry in medical tourism dissects the hidden costs patients never budget for — and why price-as-signal produces adverse selection."
+title: "Hidden Costs of Medical Tourism Abroad"
+description: "The true costs patients never budget for -- revision surgery, lost income, and psychological toll. Why chasing cheap prices leads to worse outcomes."
 date: "2026-04-20"
 author: "Dr. Jee Hoon Ju"
 category: "medical-tourism"

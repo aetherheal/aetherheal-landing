@@ -1,6 +1,6 @@
 ---
-title: "Korean Plastic Surgery vs. Dermatology vs. Dental — A Specialty Selection Guide for International Patients"
-description: "A physician's guide to understanding Korea's medical specialty system — what each specialty is licensed to do, how board certification works, and why choosing the right specialty matters more than choosing the right hospital."
+title: "Korea Specialty Guide: Which Doctor Do You Need?"
+description: "How Korea's plastic surgery, dermatology, and dental specialties differ in training and scope -- and why picking the right one matters most."
 date: "2026-04-30"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

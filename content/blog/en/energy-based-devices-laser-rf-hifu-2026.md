@@ -1,6 +1,6 @@
 ---
-title: "Energy-Based Devices (EBD) — The 2026 Evolution of Laser, RF, and HIFU"
-description: "A physician's guide to the energy-based devices used in Korean dermatology and aesthetics in 2026 — lasers, radiofrequency, HIFU, and the multimodal platforms reshaping skin treatment."
+title: "Laser, RF, and HIFU in Korea: 2026 EBD Guide"
+description: "How Korean clinics use lasers, radiofrequency, HIFU, and multimodal platforms in 2026 -- plus what international patients should know."
 date: "2026-05-02"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

@@ -1,6 +1,6 @@
 ---
-title: "Biostimulators 2.0 — The Era of Sculptra, Juvelook, and PLLA+HA Hybrids"
-description: "A physician's guide to the new generation of biostimulators — comparing Sculptra, Juvelook, AestheFill, Radiesse, and Ellanse, and why hybrid protocols combining energy devices with collagen stimulators are reshaping aesthetic medicine in Korea."
+title: "Sculptra vs. Juvelook: Biostimulator Guide 2026"
+description: "Comparing Sculptra, Juvelook, AestheFill, Radiesse, and Ellanse -- plus how Korean clinics combine biostimulators with energy devices."
 date: "2026-04-28"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

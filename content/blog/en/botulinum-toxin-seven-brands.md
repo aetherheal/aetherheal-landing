@@ -1,6 +1,6 @@
 ---
-title: "Not All Botox Is the Same — The Truth About Comparing 7 Botulinum Toxin Brands"
-description: "A physician's guide to seven botulinum toxin brands available worldwide and in Korea — why formulation, dilution, and injection technique matter more than the name on the vial."
+title: "7 Botulinum Toxin Brands Compared by a Doctor"
+description: "Botox, Dysport, Xeomin, Nabota, and more -- how 7 brands differ in formulation and why injection technique matters more than the label."
 date: "2026-04-26"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

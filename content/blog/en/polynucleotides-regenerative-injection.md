@@ -1,6 +1,6 @@
 ---
-title: "Polynucleotides (PN) — The Science and Limits of Next-Generation Regenerative Injections"
-description: "A physician's guide to polynucleotide (PN) and PDRN injections — how they work, what clinical evidence supports, how Korean clinics use them, and where the marketing exceeds the science."
+title: "Polynucleotides (PN): Science, Limits, and Hype"
+description: "How polynucleotide and PDRN injections work, what clinical evidence supports, how Korea uses them, and where marketing exceeds the science."
 date: "2026-04-16"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

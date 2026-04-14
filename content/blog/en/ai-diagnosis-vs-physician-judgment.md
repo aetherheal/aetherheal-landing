@@ -1,6 +1,6 @@
 ---
-title: "AI Diagnosis vs. Physician Judgment — The Boundary Line Patients Must Understand"
-description: "AI in healthcare is accelerating faster than regulation can follow. A physician's framework for understanding what clinical AI can and cannot do — and why the distinction matters for patient safety."
+title: "AI vs. Physician Judgment in Healthcare"
+description: "A physician's framework for what clinical AI can and cannot do, and why the distinction matters for patient safety in medical tourism."
 date: "2026-04-24"
 author: "Dr. Jee Hoon Ju"
 category: "technology"

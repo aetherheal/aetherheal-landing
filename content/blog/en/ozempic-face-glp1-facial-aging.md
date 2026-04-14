@@ -1,6 +1,6 @@
 ---
-title: "Ozempic Face — The Medical Truth About GLP-1-Induced Facial Aging"
-description: "A physician's explanation of why GLP-1 medications like semaglutide and tirzepatide cause facial volume loss, what the first consensus guidelines recommend, and what international patients should know before seeking facial restoration in Korea."
+title: "Ozempic Face: What GLP-1 Patients Must Know"
+description: "Why semaglutide and tirzepatide cause facial volume loss, what the 2026 consensus guidelines recommend, and how Korean clinics approach restoration."
 date: "2026-04-14"
 author: "Dr. Jee Hoon Ju"
 category: "patient-guide"

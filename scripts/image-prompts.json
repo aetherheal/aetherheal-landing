@@ -100,6 +100,66 @@
       "kind": "body-keystone",
       "aspectRatio": "16:9",
       "prompt": "An editorial architectural photograph looking up at a single wedge-shaped stone keystone at the apex of a small ancient stone arch, photographed from slightly below with dramatic raking late-afternoon side light. The keystone is clearly the structural element holding the arch together. Warm stone tones against a deep slate sky. No people, no text, no decoration. The visual metaphor: one carefully shaped element that holds the entire structure in place."
+    },
+    {
+      "slug": "ozempic-face-glp1-facial-aging",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of a single ripe golden pear on a pale marble surface, its skin slightly deflated and wrinkled on one side while smooth and full on the other — a quiet metaphor for volume loss. Strong directional window light from the left casting a long soft shadow. Warm gold and muted slate tones. No medical objects, no pills, no packaging."
+    },
+    {
+      "slug": "polynucleotides-regenerative-injection",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An extreme close-up editorial photograph of a single delicate spiral of translucent biological thread — like a DNA helix rendered as gossamer filament — suspended against a deep slate background, catching soft directional warm light. Ethereal, scientific, regenerative mood. No syringes, no vials, no medical equipment visible."
+    },
+    {
+      "slug": "korea-medical-tourism-trust-deficit",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial aerial photograph of a vast crowd of tiny identical paper human silhouettes spread across a marble surface, with a single gold-colored figure standing slightly apart from the mass. Strong raking light creates long individual shadows for every figure. The visual metaphor: one million patients, no individual guidance. Minimalist, architectural, contemplative."
+    },
+    {
+      "slug": "hidden-costs-medical-tourism",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of a polished antique brass scale (balance scale) on a pale marble counter. One pan holds a small stack of gold coins; the other pan holds an invisible weight that tips the scale heavily downward — the pan appears weighed down by nothing visible. Strong directional window light. The metaphor: hidden costs that outweigh visible savings."
+    },
+    {
+      "slug": "undetectable-aesthetic-2026",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial photograph of a single perfect white porcelain bowl on a pale linen surface, so minimally beautiful that the viewer cannot tell whether it is handcrafted or machine-made. Soft diffused natural light with no harsh shadows. The object is flawless yet warm. The metaphor: the highest art is invisible craftsmanship. Quiet, Zen, premium mood."
+    },
+    {
+      "slug": "ai-diagnosis-vs-physician-judgment",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial still life of two objects placed on opposite ends of a long pale marble desk: on the left, a warm antique brass compass; on the right, a cold geometric transparent crystal prism refracting a thin beam of light. Space between them. The visual metaphor: analog human navigation versus precise but narrow machine optics. Calm, contemplative, architectural."
+    },
+    {
+      "slug": "botulinum-toxin-seven-brands",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial overhead photograph of seven small identical frosted glass vials arranged in a gentle arc on a dark slate surface, each vial catching soft directional light slightly differently — subtle variations in how the light passes through each. No labels, no markings. The visual metaphor: seven things that look almost identical but are not. Clean, clinical-artistic, premium."
+    },
+    {
+      "slug": "biostimulators-sculptra-juvelook-hybrid",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial close-up of a cracked eggshell on a slate surface, with a tiny green sprout emerging through the fracture — new growth through controlled disruption. Warm directional light from the upper right catching the sprout. The metaphor: biostimulation, rebuilding through the body's own response. Quiet, organic, regenerative mood."
+    },
+    {
+      "slug": "korea-specialty-guide-dermatology-plastic-surgery",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial overhead photograph of three distinct antique keys of different sizes and designs, arranged in a fan pattern on a pale ivory marble surface. Each key is clearly made for a different lock. Strong directional light creating precise shadows. The metaphor: different specialties open different doors. Warm brass and cool slate tones."
+    },
+    {
+      "slug": "energy-based-devices-laser-rf-hifu-2026",
+      "kind": "cover",
+      "aspectRatio": "16:9",
+      "prompt": "An editorial photograph of a single narrow beam of warm golden light passing through a triangular glass prism on a dark slate surface, splitting into multiple distinct rays of slightly different warmth and intensity. Clean geometric composition. The metaphor: one energy source, many modalities. Calm, scientific, premium."
     }
   ]
 }
