@@ -224,20 +224,17 @@ export default async function HospitalPage({
             </div>
           )}
 
-          {/* Key facts strip */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {[
-              { val: "70+", label: "Years combined physician experience" },
-              { val: "16.5+", label: "Avg. years dissection team experience" },
-              { val: "6–10", label: "Team members per surgery" },
-              { val: "5.5×", label: "Surgical loupe magnification" },
-            ].map((s) => (
-              <div key={s.label} className="rounded-2xl border border-slate-100 bg-slate-50/60 p-5 text-center">
-                <p className="font-serif text-2xl sm:text-3xl text-brand-navy font-bold">{s.val}</p>
-                <p className="text-[10px] font-medium uppercase tracking-[0.12em] text-slate-400 mt-1">{s.label}</p>
-              </div>
-            ))}
-          </div>
+          {/* Key facts strip — dict-driven, hospital-specific. Omit from dict to skip. */}
+          {(t as typeof t & { keyFacts?: { val: string; label: string }[] }).keyFacts && (
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {(t as typeof t & { keyFacts: { val: string; label: string }[] }).keyFacts.map((s) => (
+                <div key={s.label} className="rounded-2xl border border-slate-100 bg-slate-50/60 p-5 text-center">
+                  <p className="font-serif text-2xl sm:text-3xl text-brand-navy font-bold">{s.val}</p>
+                  <p className="text-[10px] font-medium uppercase tracking-[0.12em] text-slate-400 mt-1">{s.label}</p>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

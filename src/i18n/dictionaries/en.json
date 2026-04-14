@@ -3850,6 +3850,24 @@
       "specialty": "Hair Transplantation · Scalp Micropigmentation",
       "location": "Gangnam, Seoul",
       "badge": "Verified Partner Hospital",
+      "keyFacts": [
+        {
+          "val": "70+",
+          "label": "Years combined physician experience"
+        },
+        {
+          "val": "16.5+",
+          "label": "Avg. years dissection team experience"
+        },
+        {
+          "val": "6–10",
+          "label": "Team members per surgery"
+        },
+        {
+          "val": "5.5×",
+          "label": "Surgical loupe magnification"
+        }
+      ],
       "oneSentenceAnswer": "Morgan Dermatology is a hair transplant clinic in Gangnam with a resident follicle dissection team averaging 16.5+ years of experience (6-10 members per surgery), three specialist physicians including a former Korean Hair Research Society chairman, and ABHRS-certified plastic surgery expertise — verified through AetherHeal's embedded clinical practice.",
       "overview": {
         "title": "About Morgan Dermatology",
@@ -4134,7 +4152,7 @@
           "stats": [
             {
               "number": "6",
-              "label": "Board-certified physicians"
+              "label": "Medical Board members"
             },
             {
               "number": "8",
