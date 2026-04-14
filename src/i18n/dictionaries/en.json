@@ -37,7 +37,8 @@
         "hairTransplant": "Hair Transplant in Korea",
         "plasticSurgery": "Plastic Surgery in Korea",
         "aestheticClinics": "Aesthetic Clinics in Seoul",
-        "morganDermatology": "Morgan Dermatology"
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "Apgujeong Tune Clinic"
       },
       "medicalBoundaryNotice": "Medical Boundary Notice",
       "termsOfService": "Terms of Service",
@@ -2807,7 +2808,13 @@
         "label": "Your Medical Journey",
         "desc": "End-to-end coordination from decision to recovery"
       }
-    ]
+    ],
+    "tunePartner": {
+      "badge": "Verified Partner",
+      "title": "Apgujeong Tune Clinic",
+      "description": "A verified AetherHeal partner for aesthetic dermatology in Seoul. Dr. Jee Hoon Ju serves as International Director and currently practices here — our evaluation is based on embedded operational role inside the clinic, not a site visit. Physician-board structure, Chamaka-se Design Method, 8-language patient support.",
+      "cta": "See the verification"
+    }
   },
   "medicalJourney": {
     "meta": {

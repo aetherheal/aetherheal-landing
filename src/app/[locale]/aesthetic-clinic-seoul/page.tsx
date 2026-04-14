@@ -74,6 +74,33 @@ export default async function AestheticClinicSeoulPage({ params }: { params: Pro
                   <p className="font-medium text-brand-navy border-l-2 border-brand-gold pl-5 py-2">{t.treatmentsDiscussed.callout}</p>
                 </div>
               </div>
+
+              {/* Verified Partner — Apgujeong Tune Clinic */}
+              {(() => {
+                const tp = (t as typeof t & { tunePartner?: { badge: string; title: string; description: string; cta: string } }).tunePartner
+                return (
+                  <div id="verified-partner" className="scroll-mt-32">
+                    <div className="rounded-3xl border border-brand-gold/20 bg-brand-gold/[0.04] p-6 sm:p-10">
+                      <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-4">
+                        {tp?.badge ?? "Verified Partner"}
+                      </p>
+                      <h3 className="font-serif text-2xl sm:text-3xl text-brand-navy mb-4">
+                        {tp?.title ?? "Apgujeong Tune Clinic"}
+                      </h3>
+                      <p className="text-slate-600 leading-relaxed mb-6 max-w-2xl">
+                        {tp?.description ?? "A verified AetherHeal partner for aesthetic dermatology in Seoul. Dr. Jee Hoon Ju serves as International Director and currently practices here — our evaluation is based on embedded operational role inside the clinic, not a site visit. Physician-board structure, Chamaka-se Design Method, 8-language patient support."}
+                      </p>
+                      <Link
+                        href={`${prefix}/hospitals/tune-clinic`}
+                        className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+                      >
+                        {tp?.cta ?? "See the verification"}
+                        <ArrowRight className="w-4 h-4" />
+                      </Link>
+                    </div>
+                  </div>
+                )
+              })()}
             </div>
           </div>
         </div>

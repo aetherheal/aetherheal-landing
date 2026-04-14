@@ -655,6 +655,7 @@ export default async function HomePage({
                   // Keep in sync with the order of coverage.items in dictionaries.
                   const coverageHrefs: Record<number, string> = {
                     0: `${prefix}/hospitals/morgan-dermatology`, // Hair Transplant
+                    1: `${prefix}/hospitals/tune-clinic`, // Skin Aesthetic
                   }
                   const href = coverageHrefs[idx]
                   if (href) {
