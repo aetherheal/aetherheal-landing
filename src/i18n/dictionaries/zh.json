@@ -3759,5 +3759,208 @@
       "primary": "Start With Someone On Your Side",
       "secondary": "See the Trust Protocol"
     }
+  },
+  "hospitals": {
+    "slugs": ["morgan-dermatology"],
+    "morgan-dermatology": {
+      "meta": {
+        "title": "Morgan Dermatology — Verified Hair Transplant Clinic | AetherHeal",
+        "description": "Morgan Dermatology is an AetherHeal-verified hair transplant clinic in Gangnam, Seoul. Resident follicle dissection team averaging 16.5+ years of experience (6-10 per surgery). Three specialist physicians. FUE, FUT, and scalp micropigmentation. Verified through embedded clinical practice."
+      },
+      "name": "Morgan Dermatology",
+      "nameKr": "모건피부과",
+      "specialty": "Hair Transplantation · Scalp Micropigmentation",
+      "location": "Gangnam, Seoul",
+      "badge": "Verified Partner Hospital",
+      "oneSentenceAnswer": "Morgan Dermatology is a hair transplant clinic in Gangnam with a resident follicle dissection team averaging 16.5+ years of experience (6-10 members per surgery), three specialist physicians including a former Korean Hair Research Society chairman, and ABHRS-certified plastic surgery expertise — verified through AetherHeal's embedded clinical practice.",
+      "overview": {
+        "title": "About Morgan Dermatology",
+        "paragraphs": [
+          "Morgan Dermatology is a hair transplant clinic in Gangnam, Seoul, specializing in FUE (Follicular Unit Extraction), FUT (Follicular Unit Transplantation), and Scalp Micropigmentation (SMP).",
+          "The clinic's most significant structural advantage is its resident follicle dissection team — a dedicated surgical support team averaging over 16.5 years of individual experience. In FUE procedures, a minimum of 6 team members participate in a single surgery. In FUT procedures, up to 10. Both physicians and dissection team members wear 5.5x surgical loupes — the same magnification level — ensuring precision at every stage, not just the surgical extraction and placement. Hair transplantation is fundamentally a time-critical team operation: every graft is living tissue on a countdown from the moment it leaves the body. The total combined skilled labor working in parallel within that window determines how many grafts survive. More experienced hands, working faster and more precisely together, means more grafts planted while they are still viable. A permanent team of this size and caliber, rather than staff assembled per-procedure, is rare anywhere in the world.",
+          "The clinic's physician team combines dermatology and plastic surgery expertise — an unusual dual-specialty structure in Korean hair transplant clinics. This allows cases to be evaluated from both a medical hair loss perspective and a surgical reconstruction perspective.",
+          "Morgan Dermatology's physicians include over 70 combined years of clinical experience in hair loss treatment and hair restoration surgery.",
+          "The clinic provides a one-time revision surgery guarantee: if the patient is not satisfied with the outcome, one revision procedure is covered at no additional surgical cost. This guarantee is documented in a written certificate issued before the original procedure."
+        ]
+      },
+      "procedures": {
+        "title": "Procedures",
+        "items": [
+          {
+            "name": "FUE (Follicular Unit Extraction)",
+            "description": "Individual follicle extraction without a linear incision. Minimizes visible scarring and allows shorter recovery."
+          },
+          {
+            "name": "FUT (Follicular Unit Transplantation)",
+            "description": "Strip harvesting method that can yield higher graft counts in a single session. Suitable for patients requiring large-area coverage."
+          },
+          {
+            "name": "Scalp Micropigmentation (SMP)",
+            "description": "Non-surgical pigment application that creates the appearance of hair density. Used as a standalone treatment or as a complement to transplantation."
+          }
+        ]
+      },
+      "team": {
+        "title": "Medical Team",
+        "surgicalTeam": {
+          "title": "Follicle Dissection Team",
+          "description": "Morgan Dermatology maintains a full-time, resident follicle dissection team — the surgical support staff who handle graft separation, preparation, and preservation during every procedure.",
+          "stats": [
+            { "number": "16.5+", "label": "Average years of individual experience" },
+            { "number": "6-10", "label": "Team members per surgery" }
+          ],
+          "explanation": "In hair transplantation, the surgeon extracts and places grafts. But the survival of each graft depends on what happens between extraction and placement — how quickly it is separated, how precisely it is handled, and how well it is preserved. Every graft is living tissue on a countdown: the longer it stays outside the body, the lower its survival rate. This is why hair transplantation is fundamentally a team sport. The total combined labor — skilled hands working in parallel within a fixed time window — determines how many grafts can be extracted, separated, and placed while they are still viable. More experienced hands, working faster and more precisely together, means more grafts planted within the optimal survival window. At Morgan Dermatology, both the physicians and the dissection team members wear 5.5x surgical loupes during the procedure — the same magnification surgeons use. This level of precision in the dissection stage, not just the surgical stage, is extremely uncommon. A team of this size, permanence, and technical standard, working together permanently rather than assembled per-procedure, is rare anywhere in the world."
+        },
+        "physicians": [
+          {
+            "name": "Prof. Shim Woo-Young",
+            "nameKr": "심우영",
+            "role": "Honorary Professor",
+            "specialty": "Adult & pediatric hair loss specialist — 40+ years of clinical experience",
+            "credentials": [
+              "Kyung Hee University Medical School Professor",
+              "Sheffield University (UK) Research Fellow",
+              "Former Chairman, Korean Hair Research Society",
+              "Published researcher: alopecia areata, androgenetic alopecia, pattern hair loss classification"
+            ]
+          },
+          {
+            "name": "Dr. Lee Seung-Yong",
+            "nameKr": "이승용",
+            "role": "Representative Director",
+            "specialty": "Non-incisional & incisional hair transplant specialist",
+            "credentials": [
+              "Board Certified Dermatologist (피부과 전문의)",
+              "Member: Korean Dermatological Association, Korean Society for Hair Restoration Surgery, Korean Hair Research Society",
+              "Former Director: Gangnam Dermatology/Urology Clinic, Dana Plastic Surgery, Seran Dermatology"
+            ]
+          },
+          {
+            "name": "Dr. Jung Jae-Heon",
+            "nameKr": "정재헌",
+            "role": "Plastic Surgery Specialist",
+            "specialty": "Hairline aesthetics pioneer — 30+ years of surgical experience",
+            "credentials": [
+              "Board Certified Plastic Surgeon (성형외과 전문의)",
+              "ABHRS Certified (American Board of Hair Restoration Surgery)",
+              "Yonsei University Plastic Surgery Clinical Professor",
+              "Former Chairman, Korean Hair Transplant Society",
+              "Published author: multiple international hair restoration textbooks (Rincas, Springer)"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "AetherHeal Verification",
+        "mode": "Embedded Clinical Verification",
+        "modeDescription": "Dr. Jee Hoon Ju practiced at Morgan Dermatology as a hair transplant surgeon. His evaluation is based on direct clinical experience inside the facility — including firsthand observation of surgical technique standards, graft handling protocols, the resident dissection team's coordination and precision, and post-operative follow-up quality.",
+        "modeLabel": "Mode 1",
+        "modeSublabel": "Direct embedded practice",
+        "methodologyLink": "Read the full verification methodology"
+      },
+      "patientProcess": {
+        "title": "International patient process",
+        "capacityNote": {
+          "title": "Surgical capacity",
+          "description": "Morgan Dermatology limits surgical volume to maintain quality. Procedures under 4,000 grafts: maximum 2 surgeries per day. Procedures over 5,000 grafts: 1 surgery per day only. The clinic is typically booked 3+ months in advance.",
+          "recommendation": "Plan your surgery schedule with AetherHeal well in advance. We coordinate the surgical booking, and recommend planning your travel around the confirmed surgery date — not the other way around."
+        },
+        "steps": [
+          {
+            "phase": "Before travel",
+            "title": "Case structuring",
+            "description": "AetherHeal structures your case — hair loss history, goals, prior treatments, and expectations — before Morgan Dermatology reviews it."
+          },
+          {
+            "phase": "Consultation",
+            "title": "In-person evaluation",
+            "description": "The surgical team assesses donor area density, scalp laxity, and graft count feasibility. The approach (FUE, FUT, or combined) is determined based on clinical evaluation."
+          },
+          {
+            "phase": "Procedure",
+            "title": "Surgery day",
+            "description": "Procedures are performed under local anesthesia. Duration depends on graft count — typically 4-8 hours for FUE. Procedure recording (CCTV + close-up camera) is standard."
+          },
+          {
+            "phase": "Post-operative",
+            "title": "Recovery and follow-up",
+            "description": "Initial follow-up within 24-48 hours. Suture removal (FUT) or wound check (FUE) within 7-10 days. AetherHeal's continuity monitoring extends follow-up coordination for up to one year."
+          }
+        ]
+      },
+      "languages": {
+        "title": "Language support",
+        "description": "Consultations are conducted in Korean. English interpretation is available through AetherHeal's concierge coordination. Medical documentation can be provided in English upon request."
+      },
+      "recovery": {
+        "title": "Recovery logistics",
+        "items": [
+          "Advance booking: Morgan Dermatology is typically booked 3+ months out. Begin coordination with AetherHeal early and plan travel around the confirmed surgery date.",
+          "Typical stay in Seoul: 3-5 days post-procedure for initial follow-up",
+          "Accommodation: Gangnam has extensive short-term accommodation options within walking distance",
+          "Activity restrictions: Light activity after 3 days, full activity after 2-3 weeks",
+          "Visible recovery: Redness and scabbing resolve within 10-14 days; initial growth visible at 3-4 months; full result at 12-18 months"
+        ]
+      },
+      "revisionGuarantee": {
+        "title": "Revision guarantee",
+        "description": "Morgan Dermatology provides a written revision surgery guarantee. If the patient is not satisfied with the outcome, one revision procedure is provided at no additional surgical cost.",
+        "detail": "The guarantee is documented in a certificate issued before the original procedure. It covers one revision, and the terms are disclosed in advance — not offered retroactively as a negotiation tool.",
+        "anchorNote": "A clinic that guarantees revision at its own cost is a clinic that has financial accountability aligned with the patient's outcome — not just the procedure fee."
+      },
+      "decisionSummary": {
+        "title": "Is Morgan Dermatology right for you?",
+        "bestForLabel": "Best for",
+        "bestFor": "Patients seeking hair transplantation with a clinic whose structural advantage is its surgical support team — a resident follicle dissection team averaging 16.5+ years of experience with 6-10 members per surgery. Also strong for complex cases requiring both FUE and FUT evaluation, with both dermatology and ABHRS-certified plastic surgery expertise on the same team.",
+        "notIdealLabel": "May not be ideal for",
+        "notIdeal": "Patients seeking non-hair aesthetic procedures, or patients who require consultations in languages other than Korean without interpreter support."
+      },
+      "faq": {
+        "title": "Common questions about Morgan Dermatology",
+        "items": [
+          {
+            "question": "What is the follicle dissection team and why does it matter?",
+            "answer": "Hair transplant quality depends on teamwork, not just the surgeon. Every graft is living tissue on a countdown — the longer it stays outside the body, the lower its survival rate. The total skilled labor working in parallel within that time window determines how many grafts survive. Morgan Dermatology has a resident dissection team averaging 16.5+ years of experience, with 6-10 members per surgery, all wearing 5.5x surgical loupes — the same magnification the surgeons use. This means thousands of grafts are handled with surgical-grade precision by specialists who have worked together for years. A permanent team of this size and technical standard is extremely rare globally."
+          },
+          {
+            "question": "What makes Morgan Dermatology different from other hair transplant clinics in Korea?",
+            "answer": "Morgan Dermatology is one of the few Korean hair transplant clinics with both dermatology and plastic surgery specialists on the same team. Professor Shim brings 40+ years of academic hair loss research. Dr. Jung brings ABHRS certification and 30+ years of surgical experience. This dual-specialty structure means cases are evaluated from both a medical and a surgical perspective."
+          },
+          {
+            "question": "Does Morgan Dermatology perform both FUE and FUT?",
+            "answer": "Yes. The clinic offers both FUE (non-incisional) and FUT (strip method). The surgical team evaluates which approach — or a combination — is most appropriate based on the patient's donor area, coverage needs, and long-term hair loss pattern. The decision is clinical, not sales-driven."
+          },
+          {
+            "question": "How was Morgan Dermatology verified by AetherHeal?",
+            "answer": "AetherHeal's founding physician, Dr. Jee Hoon Ju, practiced at Morgan Dermatology as a hair transplant surgeon. His verification is based on direct clinical experience inside the facility — not a site visit or document review. This is AetherHeal's highest verification standard (Mode 1: Embedded Clinical Verification)."
+          },
+          {
+            "question": "Can I get a consultation in English?",
+            "answer": "Consultations are conducted in Korean. AetherHeal provides English interpretation through its concierge coordination, and medical documentation can be translated upon request. The clinical evaluation itself is conducted by the Korean-speaking surgical team."
+          },
+          {
+            "question": "How long do I need to stay in Seoul for a hair transplant at Morgan Dermatology?",
+            "answer": "A typical stay is 3-5 days post-procedure for initial follow-up. The procedure itself takes 4-8 hours depending on graft count. Note that Morgan Dermatology is usually booked 3+ months in advance and limits surgeries to 1-2 per day — plan your travel around the confirmed surgery date, not the other way around. AetherHeal coordinates the scheduling and recommends building your trip timeline after the surgical date is locked."
+          },
+          {
+            "question": "What is the revision guarantee?",
+            "answer": "Morgan Dermatology provides a written revision surgery guarantee certificate before the original procedure. If the patient is not satisfied with the outcome, one revision surgery is covered at no additional surgical cost. The terms are disclosed upfront — this is a structural commitment to outcome accountability, not a retroactive negotiation."
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "Reviewed by",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · Former hair transplant surgeon at Morgan Dermatology",
+        "lastReviewed": "April 2026",
+        "verificationMode": "Embedded Clinical Verification (Mode 1)"
+      },
+      "cta": {
+        "title": "Considering hair transplantation in Korea?",
+        "subtitle": "Start with a physician-led process that structures your decision before you commit to a clinic.",
+        "primary": "Start With Someone On Your Side",
+        "secondary": "See all verified hospitals"
+      }
+    }
   }
 }
