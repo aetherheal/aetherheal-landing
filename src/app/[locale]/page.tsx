@@ -637,8 +637,8 @@ export default async function HomePage({
       </section>
 
       {/* Coverage — Static Grid */}
-      {(t as typeof t & { coverage?: { badge: string; title: string; subtitle?: string; items: string[] } }).coverage && (() => {
-        const coverage = (t as typeof t & { coverage: { badge: string; title: string; subtitle?: string; items: string[] } }).coverage
+      {(t as typeof t & { coverage?: { badge: string; title: string; subtitle?: string; items: string[]; slugs?: string[] } }).coverage && (() => {
+        const coverage = (t as typeof t & { coverage: { badge: string; title: string; subtitle?: string; items: string[]; slugs?: string[] } }).coverage
         return (
           <section className="w-full py-12 sm:py-20 px-4 sm:px-6 bg-brand-navy">
             <div className="max-w-4xl mx-auto">
@@ -651,13 +651,15 @@ export default async function HomePage({
               </div>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2.5 sm:gap-3">
                 {coverage.items.map((item, idx) => {
-                  // Index-based href mapping (locale-agnostic).
-                  // Keep in sync with the order of coverage.items in dictionaries.
-                  const coverageHrefs: Record<number, string> = {
-                    0: `${prefix}/hospitals/morgan-dermatology`, // Hair Transplant
-                    1: `${prefix}/hospitals/tune-clinic`, // Skin Aesthetic
+                  // Slug-based href mapping. `coverage.slugs` is a locale-agnostic
+                  // canonical identifier array parallel to `coverage.items`. Adding
+                  // a new hospital link is a one-liner below — no dict changes.
+                  const COVERAGE_HREFS: Record<string, string> = {
+                    "hair-transplant": `${prefix}/hospitals/morgan-dermatology`,
+                    "skin-aesthetic": `${prefix}/hospitals/tune-clinic`,
                   }
-                  const href = coverageHrefs[idx]
+                  const slug = coverage.slugs?.[idx]
+                  const href = slug ? COVERAGE_HREFS[slug] : undefined
                   if (href) {
                     return (
                       <Link

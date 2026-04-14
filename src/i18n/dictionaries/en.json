@@ -304,6 +304,19 @@
         "Neurosurgery",
         "General Health Check-up",
         "Full Body MRI"
+      ],
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
       ]
     },
     "faq": {
@@ -3568,7 +3581,7 @@
       "badge": "Physician Profile",
       "name": "Dr. Jee Hoon Ju",
       "title": "Founder & Representative Director, AetherHeal",
-      "intro": "A physician who verified partner hospitals by working inside them — as a hair transplant surgeon, as a clinical team member, and as a practicing aesthetic dermatology physician. Before building AetherHeal, he was the patient who could not see what went wrong."
+      "intro": "A physician who verified partner hospitals by working inside them — as Director and practicing hair transplant surgeon at Morgan Dermatology, as International Director and medical aesthetic physician at Apgujeong Tune Clinic, and as a clinical team member across the founding partner cohort. Before building AetherHeal, he was the patient who could not see what went wrong."
     },
     "credentials": {
       "title": "Credentials",
@@ -3600,7 +3613,7 @@
         "hospitals": [
           {
             "name": "Morgan Dermatology",
-            "role": "Hair transplant surgeon"
+            "role": "Former Director & practicing hair transplant surgeon"
           },
           {
             "name": "Apgujeong Tune Clinic",
@@ -3931,7 +3944,7 @@
       "verification": {
         "badge": "AetherHeal Verification",
         "mode": "Embedded Clinical Verification",
-        "modeDescription": "Dr. Jee Hoon Ju practiced at Morgan Dermatology as a hair transplant surgeon. His evaluation is based on direct clinical experience inside the facility — including firsthand observation of surgical technique standards, graft handling protocols, the resident dissection team's coordination and precision, and post-operative follow-up quality.",
+        "modeDescription": "Dr. Jee Hoon Ju served as Director of Morgan Dermatology and practiced there as a hair transplant surgeon. His evaluation is based on direct operational and clinical experience inside the facility — including firsthand observation of surgical technique standards, graft handling protocols, the resident dissection team's coordination and precision, and post-operative follow-up quality.",
         "modeLabel": "Mode 1",
         "modeSublabel": "Direct embedded practice",
         "methodologyLink": "Read the full verification methodology"

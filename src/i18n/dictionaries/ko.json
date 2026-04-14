@@ -316,6 +316,19 @@
         "신경외과",
         "종합 건강검진",
         "전신 MRI"
+      ],
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
       ]
     },
     "faq": {

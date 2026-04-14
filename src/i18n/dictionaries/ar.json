@@ -304,6 +304,19 @@
         "جراحة الأعصاب",
         "فحص صحي شامل",
         "تصوير بالرنين المغناطيسي لكامل الجسم"
+      ],
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
       ]
     },
     "faq": {
@@ -3791,7 +3804,9 @@
     }
   },
   "hospitals": {
-    "slugs": ["morgan-dermatology"],
+    "slugs": [
+      "morgan-dermatology"
+    ],
     "morgan-dermatology": {
       "meta": {
         "title": "Morgan Dermatology — Verified Hair Transplant Clinic | AetherHeal",
@@ -3836,8 +3851,14 @@
           "title": "Follicle Dissection Team",
           "description": "Morgan Dermatology maintains a full-time, resident follicle dissection team — the surgical support staff who handle graft separation, preparation, and preservation during every procedure.",
           "stats": [
-            { "number": "16.5+", "label": "Average years of individual experience" },
-            { "number": "6-10", "label": "Team members per surgery" }
+            {
+              "number": "16.5+",
+              "label": "Average years of individual experience"
+            },
+            {
+              "number": "6-10",
+              "label": "Team members per surgery"
+            }
           ],
           "explanation": "In hair transplantation, the surgeon extracts and places grafts. But the survival of each graft depends on what happens between extraction and placement — how quickly it is separated, how precisely it is handled, and how well it is preserved. Every graft is living tissue on a countdown: the longer it stays outside the body, the lower its survival rate. This is why hair transplantation is fundamentally a team sport. The total combined labor — skilled hands working in parallel within a fixed time window — determines how many grafts can be extracted, separated, and placed while they are still viable. More experienced hands, working faster and more precisely together, means more grafts planted within the optimal survival window. At Morgan Dermatology, both the physicians and the dissection team members wear 5.5x surgical loupes during the procedure — the same magnification surgeons use. This level of precision in the dissection stage, not just the surgical stage, is extremely uncommon. A team of this size, permanence, and technical standard, working together permanently rather than assembled per-procedure, is rare anywhere in the world."
         },
