@@ -3817,7 +3817,8 @@
   },
   "hospitals": {
     "slugs": [
-      "morgan-dermatology"
+      "morgan-dermatology",
+      "tune-clinic"
     ],
     "morgan-dermatology": {
       "meta": {
@@ -4051,6 +4052,238 @@
       },
       "cta": {
         "title": "Considering hair transplantation in Korea?",
+        "subtitle": "Start with a physician-led process that structures your decision before you commit to a clinic.",
+        "primary": "Start With Someone On Your Side",
+        "secondary": "See all verified hospitals"
+      }
+    },
+    "tune-clinic": {
+      "meta": {
+        "title": "Apgujeong Tune Clinic — Verified Aesthetic Dermatology in Seoul | AetherHeal",
+        "description": "Apgujeong Tune Clinic is an AetherHeal-verified aesthetic dermatology clinic in Gangnam, Seoul. Six-physician Medical Board, Chamaka-se Design Method, lifting/filler/regenerative specialties, 8-language patient support. Verified through embedded operational role."
+      },
+      "name": "Apgujeong Tune Clinic",
+      "nameKr": "튠 클리닉",
+      "specialty": "Premium Aesthetic Dermatology · Lifting · Regenerative Medicine",
+      "location": "Apgujeong, Gangnam, Seoul",
+      "badge": "Verified Partner Hospital",
+      "oneSentenceAnswer": "Apgujeong Tune Clinic is a physician-board aesthetic dermatology practice in Gangnam where six board-certified physicians with complementary specialties — face design, lifting, regenerative medicine, plastic surgery — deliver protocol-first treatment under the Chamaka-se Design Method, verified through AetherHeal's embedded operational role.",
+      "overview": {
+        "title": "About Apgujeong Tune Clinic",
+        "paragraphs": [
+          "Apgujeong Tune Clinic is a premium aesthetic dermatology clinic in Gangnam, Seoul, specializing in non-surgical facial rejuvenation — lifting, filler, collagen stimulation, and regenerative medicine. The clinic serves international patients under a physician-led, protocol-first model.",
+          "The clinic operates as a physician board rather than a single-doctor practice. Six physicians with complementary specialties — face design and anti-aging, lifting, regenerative medicine, plastic surgery, and international patient coordination — practice together and cross-review complex cases. This is uncommon in Korean aesthetic clinics, most of which are built around one celebrity doctor.",
+          "The clinic's philosophical core is the Chamaka-se Design Method — a physician-authored protocol design process. The principle is that devices are commodity but the sequence, dose, vector, and anatomical reasoning that produce a natural result are not. A protocol is chosen for the patient, not the patient slotted into a protocol. Every case is evaluated by the physician whose specialty best matches the indication.",
+          "Tune Clinic is designed for international patients. Eight languages are supported (English, Japanese, Chinese, Thai, German, French, Russian, Vietnamese), and the clinic's operational model prioritizes travel-conscious planning — the right treatment for the time the patient actually has, not a generic menu pushed on every visit.",
+          "Signature protocols include Signature Lifting (Ultherapy 350-shot physician-calibrated lifting), Collagen Builder (Juvelook / Rejuran / regenerative stimulation), and Structural Reset (multi-layer rejuvenation planned across the full face rather than sold per device). Reference devices include Ultherapy, Thermage, Inmode, Oligio, Juvelook, and Rejuran."
+        ]
+      },
+      "procedures": {
+        "title": "Signature protocols",
+        "items": [
+          {
+            "name": "Signature Lifting",
+            "description": "Physician-calibrated Ultherapy 350-shot lifting protocol for deep tissue tightening along the SMAS and dermal layers. Shot count, vector, and depth are designed per face — not a fixed package. Suitable for patients seeking structural lift without surgery."
+          },
+          {
+            "name": "Collagen Builder",
+            "description": "Regenerative stimulation combining Juvelook, Rejuran, and skin booster protocols to rebuild dermal density, improve pore quality, and soften fine lines. The emphasis is structural regeneration, not superficial glow."
+          },
+          {
+            "name": "Structural Reset",
+            "description": "A multi-layer rejuvenation plan designed across the full face — lifting, volume, and skin quality treated as one decision rather than three separate device sales. The plan is authored after in-person anatomical assessment."
+          },
+          {
+            "name": "Filler (physician-designed)",
+            "description": "General filler, under-eye / ear / upper eyelid filler, lip filler, and hyaluronidase correction. Product choice, injection layer, and volume are decided by the physician based on tissue quality and case context — not by patient request alone."
+          },
+          {
+            "name": "Chamaka-se Design Consultation",
+            "description": "The clinic's proprietary physician-led protocol design consultation. Anatomical analysis, goals alignment, travel-conscious planning, and protocol authoring — before any device decision is made."
+          }
+        ]
+      },
+      "team": {
+        "title": "Medical Team",
+        "surgicalTeam": {
+          "title": "The Medical Board",
+          "description": "Tune Clinic is structured as a physician board rather than a single-doctor clinic. Six board-certified physicians with complementary specialties practice together and cross-review cases under a shared protocol-first methodology.",
+          "stats": [
+            {
+              "number": "6",
+              "label": "Board-certified physicians"
+            },
+            {
+              "number": "8",
+              "label": "Languages supported"
+            }
+          ],
+          "explanation": "The Chamaka-se Design Method is physician-authored protocol design — devices are commodity, but the sequence, dose, vector, and anatomical reasoning that produce a natural result are not. Cases are matched to the physician whose specialty best fits the indication, and complex multi-layer plans are cross-reviewed across the board. This is the operational foundation of the clinic's 'Evidence-Based Aesthetics' philosophy."
+        },
+        "physicians": [
+          {
+            "name": "Dr. Seung Yeon Cha",
+            "nameKr": "차승연",
+            "role": "Representative Director",
+            "specialty": "Face Design & Anti-Aging — Master Planner of Facial Balance",
+            "credentials": [
+              "Director, Korean Stem Cell Society",
+              "Board Certified Physician",
+              "Philosophy: “Aesthetic medicine is not about changing your face. It is about finding the balance you lost.”"
+            ]
+          },
+          {
+            "name": "Dr. Kwang Yeon Kim",
+            "nameKr": "김광연",
+            "role": "Representative Director",
+            "specialty": "Lifting Authority — Vector-based tightening specialist",
+            "credentials": [
+              "Hugel Key Doctor (Ultherapy)",
+              "Former Director, Yestar Hospital",
+              "Philosophy: “Lifting is physics. We calculate vectors and depth to ensure the most result.”"
+            ]
+          },
+          {
+            "name": "Dr. Jee Hoon Ju",
+            "nameKr": "주지훈",
+            "role": "International Director",
+            "specialty": "Medical aesthetics, hair, and international patient communication",
+            "credentials": [
+              "American Board of Aesthetic Medicine (ABAM)",
+              "MIT Sloan — AI in Health Care",
+              "Former hair transplant surgeon (Morgan Dermatology)",
+              "AetherHeal Founding Physician"
+            ]
+          },
+          {
+            "name": "Dr. Dong Hyun Jo",
+            "nameKr": "조동현",
+            "role": "Regenerative Medicine Physician",
+            "specialty": "Stem cell and regenerative strategy",
+            "credentials": [
+              "Clinical Advisor, Seoul National University Hospital",
+              "President, International Practical Plastic Surgery"
+            ]
+          },
+          {
+            "name": "Dr. Beom Jin Kim",
+            "nameKr": "김범진",
+            "role": "Plastic Surgery Advisor",
+            "specialty": "Plastic surgery, structural assessment",
+            "credentials": [
+              "Clinical Professor, Plastic Surgery, Yonsei University",
+              "UPMC Fellow, University of Pittsburgh"
+            ]
+          },
+          {
+            "name": "Dr. Seung Woo Jang",
+            "nameKr": "장승우",
+            "role": "Medical Advisory",
+            "specialty": "Board Certified Pediatrician, medical governance",
+            "credentials": [
+              "MD, PhD",
+              "Clinical Professor, Chosun University College of Medicine"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "AetherHeal Verification",
+        "mode": "Embedded Clinical Verification",
+        "modeLabel": "Mode 1",
+        "modeSublabel": "Operational role + current practice",
+        "modeDescription": "Dr. Jee Hoon Ju serves as International Director at Apgujeong Tune Clinic and currently practices here as a medical aesthetic physician. AetherHeal's evaluation is based on direct operational experience inside the clinic — decision-making culture, protocol governance, the physician board's case-escalation process, and international patient handling. This is not a site visit or document review; it is a working insider's assessment.",
+        "methodologyLink": "Read the full verification methodology"
+      },
+      "patientProcess": {
+        "title": "International patient process",
+        "steps": [
+          {
+            "phase": "Before travel",
+            "title": "Case structuring",
+            "description": "AetherHeal structures your case — concerns, goals, prior treatments, and expectations — before the Tune Clinic physician board reviews it. You receive an initial direction before you fly."
+          },
+          {
+            "phase": "Consultation",
+            "title": "Chamaka-se Design consultation",
+            "description": "In-person anatomical assessment. The physician whose specialty best matches your case (face design, lifting, regenerative, or combined) leads the consultation and authors the protocol. This is the point at which the treatment plan is decided — not before."
+          },
+          {
+            "phase": "Procedure",
+            "title": "Treatment day",
+            "description": "Most protocols are same-day or next-day after the consultation, depending on complexity, bruising risk, and your travel window. Treatments are performed under local anesthesia or topical numbing as appropriate; sedation is available for longer plans. Every procedure is physician-performed (not delegated to nurses or technicians)."
+          },
+          {
+            "phase": "Post-operative",
+            "title": "Recovery and follow-up",
+            "description": "Initial review within 24–48 hours where possible. Post-care instructions are travel-conscious — flight timing, sun exposure, activity return — not generic aftercare sheets. AetherHeal's continuity monitoring extends follow-up coordination beyond the clinic visit."
+          }
+        ]
+      },
+      "languages": {
+        "title": "Language support",
+        "description": "Tune Clinic supports international patients in eight languages: English, Japanese, Chinese, Thai, German, French, Russian, and Vietnamese. Consultations are conducted with coordinator translation, and Dr. Ju (International Director) provides direct English-language consultation for complex cases. Medical documentation can be provided in English on request."
+      },
+      "recovery": {
+        "title": "Recovery logistics",
+        "items": [
+          "Advance contact: Several days minimum; more if you want pre-arrival protocol guidance or schedule coordination. Same-day treatment is often possible after consultation but never the default — the physician confirms appropriateness first.",
+          "Typical stay in Seoul: 2–5 days depending on protocol. Energy-based treatments (lifting, laser) are typically flight-friendly within 24 hours; filler and bruising-risk protocols need longer recovery windows.",
+          "Accommodation: Apgujeong and Cheongdam have extensive short-term accommodation within walking distance. The clinic can recommend travel-conscious options based on your protocol.",
+          "Flight return: Depends on treatment. Lifting and energy devices — usually next-day flight possible. Filler, especially mid-face — plan for bruising and sleeping position considerations for 3–7 days.",
+          "Post-op restrictions: Avoid alcohol, sauna, intense exercise, and prolonged sun for the first 48–72 hours (varies by protocol). Sunscreen and gentle skincare only.",
+          "Short-trip planning: If you have only 2–3 days in Seoul, the clinic prioritizes the ratio of visible effect to downtime — sometimes a smaller, cleaner plan is more valuable than trying to do everything in one visit."
+        ]
+      },
+      "decisionSummary": {
+        "title": "Is Apgujeong Tune Clinic right for you?",
+        "bestForLabel": "Best for",
+        "bestFor": "Patients seeking protocol-led, physician-authored aesthetic care rather than device-menu shopping. Strong fit for lifting, filler, regenerative medicine, and multi-layer facial rejuvenation. Especially appropriate for international patients who want cross-specialty physician review and travel-conscious planning.",
+        "notIdealLabel": "May not be ideal for",
+        "notIdeal": "Patients seeking surgical plastic surgery (Tune Clinic is non-surgical aesthetic dermatology). Patients whose primary decision criterion is lowest price — the clinic's structural advantage is physician judgment and protocol quality, not price competition."
+      },
+      "faq": {
+        "title": "Common questions about Apgujeong Tune Clinic",
+        "items": [
+          {
+            "question": "Can I get treatment on the same day as my consultation?",
+            "answer": "Often yes, but only after the physician confirms that the treatment category, sequence, and recovery expectations are appropriate for your face and your schedule. The clinic's principle is that treatment appropriateness is decided by the physician in consultation, not assumed before arrival."
+          },
+          {
+            "question": "How early should I contact the clinic before traveling?",
+            "answer": "Several days in advance is a good minimum. More lead time is better if you want pre-arrival protocol guidance, schedule coordination, or help deciding which category of treatment makes the most sense for your face and your trip length. Complex multi-layer plans benefit from 1–2 weeks of advance case structuring."
+          },
+          {
+            "question": "Is English support available at the clinic?",
+            "answer": "Yes. Tune Clinic is structured around international patient communication, with English-speaking coordination and support pathways for Japanese, Chinese, Thai, German, French, Russian, and Vietnamese inquiries as well. Dr. Ju, International Director, provides direct English-language consultation for complex cases."
+          },
+          {
+            "question": "Can I fly soon after treatment?",
+            "answer": "In many cases yes, especially after travel-friendly energy treatments like Ultherapy or Thermage lifting. But the answer changes if you are considering filler, treatments with bruising risk, or a plan that needs visible recovery time. The clinic's post-care guidance is travel-conscious — flight timing is part of the protocol design, not an afterthought."
+          },
+          {
+            "question": "What if I only have two or three days in Seoul?",
+            "answer": "Then treatment selection needs to prioritize the ratio of visible effect to downtime. Sometimes a smaller, cleaner plan is more valuable than trying to do too much in one visit. The clinic's Chamaka-se Design Method is explicitly built around planning the right treatment for the time the patient actually has."
+          },
+          {
+            "question": "Can the clinic tell me exactly what I need from photos alone?",
+            "answer": "Photos are useful for direction, but the final plan still requires in-person confirmation of tissue quality, asymmetry, expression, skin condition, and recovery tolerance. Photo-based pre-consultation is valuable for narrowing direction; the protocol itself is authored in person."
+          },
+          {
+            "question": "What does Tune Clinic's 'Medical Board' structure mean for my care?",
+            "answer": "It means your case is evaluated by the physician whose specialty best matches it — face design, lifting, regenerative medicine, or plastic surgery — rather than every patient being funneled to one doctor. Complex multi-layer cases are cross-reviewed across the board. This is unusual in Korean aesthetic clinics, most of which are built around a single celebrity doctor."
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "Reviewed by",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · International Director at Apgujeong Tune Clinic",
+        "lastReviewed": "April 2026",
+        "verificationMode": "Embedded Clinical Verification (Mode 1)"
+      },
+      "cta": {
+        "title": "Considering aesthetic care in Seoul?",
         "subtitle": "Start with a physician-led process that structures your decision before you commit to a clinic.",
         "primary": "Start With Someone On Your Side",
         "secondary": "See all verified hospitals"

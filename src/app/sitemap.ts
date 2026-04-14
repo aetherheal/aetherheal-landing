@@ -23,6 +23,7 @@ const patientOnlyRoutes = [
   "/doctors/dr-jee-hoon-ju",
   "/methodology/how-we-verify-hospitals",
   "/hospitals/morgan-dermatology",
+  "/hospitals/tune-clinic",
 ]
 
 const universalRoutes = ["/our-philosophy"]
@@ -62,7 +63,7 @@ function buildEntries(): SitemapEntry[] {
     })
   }
 
-  const highPriority = ["/how-it-works", "/how-to-choose-hospital-abroad", "/intake", "/doctors/dr-jee-hoon-ju", "/methodology/how-we-verify-hospitals", "/hospitals/morgan-dermatology"]
+  const highPriority = ["/how-it-works", "/how-to-choose-hospital-abroad", "/intake", "/doctors/dr-jee-hoon-ju", "/methodology/how-we-verify-hospitals", "/hospitals/morgan-dermatology", "/hospitals/tune-clinic"]
   const lowPriority = ["/privacy-policy", "/terms-of-service", "/payment-refund-policy", "/medical-boundary"]
 
   for (const route of patientOnlyRoutes) {

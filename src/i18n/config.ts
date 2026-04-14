@@ -65,6 +65,7 @@ const patientOnlyRoutes = [
   "/doctors/dr-jee-hoon-ju",
   "/methodology/how-we-verify-hospitals",
   "/hospitals/morgan-dermatology",
+  "/hospitals/tune-clinic",
 ]
 
 export function isRouteAvailableForLocale(path: string, locale: Locale): boolean {
