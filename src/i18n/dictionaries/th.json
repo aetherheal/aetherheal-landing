@@ -29,13 +29,16 @@
         "medicalJourney": "การเดินทางทางการแพทย์",
         "explore": "สำรวจ",
         "blog": "บล็อก",
-        "journeyAssurance": "การรับประกันการเดินทาง"
+        "journeyAssurance": "การรับประกันการเดินทาง",
+        "verificationMethodology": "วิธีการตรวจสอบ"
       },
       "guideLinks": {
         "choosingHospital": "การเลือกโรงพยาบาลในต่างประเทศ",
         "hairTransplant": "การปลูกผมในเกาหลี",
         "plasticSurgery": "ศัลยกรรมพลาสติกในเกาหลี",
-        "aestheticClinics": "คลินิกความงามในโซล"
+        "aestheticClinics": "คลินิกความงามในโซล",
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "Tune Clinic อัปกูจอง"
       },
       "medicalBoundaryNotice": "ประกาศขอบเขตทางการแพทย์",
       "termsOfService": "ข้อกำหนดในการให้บริการ",
@@ -286,7 +289,8 @@
           "label": "พันธมิตรที่ได้รับการยืนยัน"
         }
       ],
-      "compactCta": "โปรโตคอลความไว้วางใจ"
+      "compactCta": "โปรโตคอลความไว้วางใจ",
+      "methodologyCta": "วิธีการตรวจสอบ"
     },
     "coverage": {
       "badge": "ขอบเขตการตรวจสอบ",
@@ -1122,7 +1126,8 @@
       "label": "ตรวจสอบโดย",
       "name": "Dr. Jee Hoon Ju, MD",
       "credentials": "ABAM · MIT Sloan AI in Healthcare"
-    }
+    },
+    "methodologyLink": "ดูวิธีการประเมินโรงพยาบาลของเรา →"
   },
   "explore": {
     "meta": {
@@ -2655,7 +2660,13 @@
         "label": "วิธีการทำงานของ AetherHeal",
         "desc": "ระบบเบื้องหลังการสนับสนุนการตัดสินใจโดยแพทย์"
       }
-    ]
+    ],
+    "morganPartner": {
+      "badge": "พาร์ทเนอร์ที่ได้รับการรับรอง",
+      "title": "Morgan Dermatology",
+      "description": "พาร์ทเนอร์ที่ได้รับการรับรองจาก AetherHeal ด้านการปลูกถ่ายเส้นผม Dr. Jee Hoon Ju เคยปฏิบัติงานโดยตรงที่นี่ในฐานะศัลยแพทย์ปลูกถ่ายเส้นผม — การประเมินของเราอิงจากประสบการณ์ทางคลินิกจริง ไม่ใช่การเยี่ยมชมสถานที่",
+      "cta": "ดูรายละเอียดการรับรอง"
+    }
   },
   "plasticSurgery": {
     "meta": {
@@ -2784,7 +2795,13 @@
         "label": "การเดินทางทางการแพทย์ของคุณ",
         "desc": "การประสานงานแบบครบวงจรจากการตัดสินใจสู่การฟื้นตัว"
       }
-    ]
+    ],
+    "tunePartner": {
+      "badge": "พาร์ทเนอร์ที่ได้รับการรับรอง",
+      "title": "Tune Clinic อัปกูจอง",
+      "description": "พาร์ทเนอร์ที่ได้รับการรับรองจาก AetherHeal ด้านผิวพรรณความงามในกรุงโซล Dr. Jee Hoon Ju ดำรงตำแหน่ง International Director และปฏิบัติงานอยู่ที่นี่ในปัจจุบัน — การประเมินของเราอิงจากบทบาทในการดำเนินงานจริงภายในคลินิก ไม่ใช่การเยี่ยมชมสถานที่ มีโครงสร้างคณะกรรมการแพทย์ วิธีการออกแบบ Chamaka-se และการสนับสนุนผู้ป่วยใน 8 ภาษา",
+      "cta": "ดูรายละเอียดการรับรอง"
+    }
   },
   "medicalJourney": {
     "meta": {
@@ -3057,7 +3074,8 @@
       "selectingEnd": "ในประเทศที่คุณอาจไม่เข้าใจอย่างถ่องแท้",
       "p3": "อินเทอร์เน็ตมีข้อมูลมากมายไม่สิ้นสุด: รีวิว ฟอรัม ภาพก่อนและหลัง เว็บไซต์คลินิก",
       "p4": "แต่ข้อมูลที่มากขึ้นไม่จำเป็นต้องสร้างความชัดเจน ในหลายกรณี มันสร้างภาวะข้อมูลล้นเกินในการตัดสินใจ",
-      "guideIntro": "คู่มือนี้อธิบายว่าแพทย์ที่มีประสบการณ์และระบบสุขภาพประเมินโรงพยาบาลอย่างไร — และผู้ป่วยต่างชาติสามารถนำตรรกะเดียวกันมาใช้เมื่อเลือกการรักษาในต่างประเทศได้อย่างไร"
+      "guideIntro": "คู่มือนี้อธิบายว่าแพทย์ที่มีประสบการณ์และระบบสุขภาพประเมินโรงพยาบาลอย่างไร — และผู้ป่วยต่างชาติสามารถนำตรรกะเดียวกันมาใช้เมื่อเลือกการรักษาในต่างประเทศได้อย่างไร",
+      "oneSentenceAnswer": "เลือกโรงพยาบาลในต่างประเทศโดยตรวจสอบคุณสมบัติของแพทย์ ความโปร่งใสด้านราคา และความต่อเนื่องของการดูแลหลังผ่าตัด — ก่อนที่จะพิจารณาราคา การตลาด หรืออันดับแบรนด์"
     },
     "toc": [
       {
@@ -3366,7 +3384,25 @@
         "label": "วิธีการทำงานของ AetherHeal",
         "desc": "ระบบเบื้องหลังการสนับสนุนการตัดสินใจโดยแพทย์"
       }
-    ]
+    ],
+    "reviewerMeta": {
+      "label": "ตรวจสอบโดย",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "เมษายน 2026",
+      "methodologyLinkText": "ดูวิธีการตรวจสอบโรงพยาบาลของเรา →"
+    },
+    "decisionSummary": {
+      "title": "หน้านี้เหมาะกับคุณหรือไม่?",
+      "bestForLabel": "เหมาะสำหรับ",
+      "bestFor": "ผู้ป่วยที่กำลังเปรียบเทียบโรงพยาบาลในหลายประเทศ และไม่แน่ใจว่าจะประเมินสัญญาณทางการตลาดเทียบกับความเป็นจริงทางคลินิกอย่างไร",
+      "notIdealLabel": "ไม่เหมาะสำหรับ",
+      "notIdeal": "ผู้ป่วยที่กำลังมองหาไดเรกทอรีโรงพยาบาลเฉพาะหรือรายการราคาที่แน่นอน — เครื่องมือเหล่านั้นตอบคำถามที่แตกต่างกัน",
+      "keyRisksLabel": "ความเสี่ยงหลักหากข้ามขั้นตอนนี้",
+      "keyRisks": "การเลือกโดยอิงจากราคาหรือความนิยมเพียงอย่างเดียว การประเมินต่ำเกินไปถึงความยุ่งยากด้านโลจิสติกส์ของการติดตามผลหลังผ่าตัด และการมองว่าคะแนน Google สูงเท่ากับคุณภาพทางคลินิก",
+      "commonMisconceptionLabel": "ความเข้าใจผิดที่พบบ่อย",
+      "commonMisconception": "\"โรงพยาบาลที่มีชื่อเสียงคือโรงพยาบาลที่ปลอดภัย\" ชื่อเสียงวัดการเข้าถึงทางการตลาด ไม่ใช่ผลลัพธ์ทางคลินิก"
+    }
   },
   "blog": {
     "meta": {
@@ -3519,7 +3555,7 @@
       "badge": "โปรไฟล์แพทย์",
       "name": "Dr. Jee Hoon Ju",
       "title": "ผู้ก่อตั้งและกรรมการผู้จัดการ AetherHeal",
-      "intro": "แพทย์ผู้ตรวจสอบโรงพยาบาลพันธมิตรด้วยการเข้าไปทำงานภายในด้วยตนเอง — ในฐานะศัลยแพทย์ปลูกผม ในฐานะสมาชิกทีมคลินิก และในฐานะแพทย์ผู้ปฏิบัติงานด้านผิวหนังเพื่อความงาม ก่อนที่จะสร้าง AetherHeal เขาเคยเป็นผู้ป่วยที่มองไม่เห็นว่าอะไรผิดพลาด"
+      "intro": "แพทย์ผู้ตรวจสอบโรงพยาบาลพาร์ทเนอร์โดยการทำงานภายในสถานพยาบาลเหล่านั้น — ในฐานะผู้อำนวยการและศัลยแพทย์ปลูกถ่ายเส้นผมที่ Morgan Dermatology ในฐานะ International Director และแพทย์ความงามที่ Tune Clinic อัปกูจอง และในฐานะสมาชิกทีมคลินิกในกลุ่มพาร์ทเนอร์ผู้ก่อตั้ง ก่อนที่จะสร้าง AetherHeal เขาเคยเป็นผู้ป่วยที่ไม่สามารถมองเห็นสิ่งที่ผิดพลาดได้"
     },
     "credentials": {
       "title": "คุณวุฒิ",
@@ -3542,50 +3578,50 @@
       ]
     },
     "verification": {
-      "badge": "ระเบียบวิธีการตรวจสอบ",
-      "title": "ผมตรวจสอบโรงพยาบาลอย่างไร",
-      "intro": "แพลตฟอร์มท่องเที่ยวเชิงการแพทย์ส่วนใหญ่ตรวจสอบโรงพยาบาลจากภายนอก — การเยี่ยมชมสถานที่ การตรวจสอบเอกสาร รายการตรวจสอบ ผมตรวจสอบพันธมิตรผู้ก่อตั้งของ AetherHeal ด้วยการเข้าไปทำงานภายในในฐานะแพทย์ผู้ปฏิบัติงาน นั่นคือมาตรฐานที่แตกต่างออกไป",
+      "badge": "วิธีการตรวจสอบ",
+      "title": "วิธีที่ฉันตรวจสอบโรงพยาบาล",
+      "intro": "แพลตฟอร์มการท่องเที่ยวเชิงการแพทย์ส่วนใหญ่ตรวจสอบโรงพยาบาลจากภายนอก — การเยี่ยมชมสถานที่ การตรวจสอบเอกสาร รายการตรวจสอบ ฉันตรวจสอบพาร์ทเนอร์ผู้ก่อตั้งของ AetherHeal โดยการทำงานภายในในฐานะแพทย์ผู้ปฏิบัติงาน นั่นคือมาตรฐานที่แตกต่างออกไป",
       "mode1": {
         "title": "การตรวจสอบทางคลินิกแบบฝังตัว",
-        "description": "โรงพยาบาลที่ผมปฏิบัติงานโดยตรงในฐานะแพทย์ หรือดำรงตำแหน่งผู้นำด้านการดำเนินงาน การประเมินของผมตั้งอยู่บนประสบการณ์ตรงของมาตรฐานทางคลินิก การดำเนินงานของทีม คุณภาพอุปกรณ์ และการดูแลผู้ป่วย — ไม่ใช่จากการเยี่ยมชม แต่จากการทำงานที่นั่นจริง",
+        "description": "โรงพยาบาลที่ฉันปฏิบัติงานโดยตรงในฐานะแพทย์หรือดำรงตำแหน่งผู้นำด้านการดำเนินงาน การประเมินของฉันอิงจากประสบการณ์จริงเกี่ยวกับมาตรฐานทางคลินิก การดำเนินงานของทีม คุณภาพอุปกรณ์ และการดูแลผู้ป่วย — ไม่ใช่จากการทัวร์ แต่จากการทำงานจริงที่นั่น",
         "hospitals": [
           {
             "name": "Morgan Dermatology",
-            "role": "ศัลยแพทย์ปลูกผม (แพทย์ประจำที่ได้รับค่าตอบแทน)"
+            "role": "อดีตผู้อำนวยการและศัลยแพทย์ปลูกถ่ายเส้นผม"
           },
           {
-            "name": "Apgujeong Tune Clinic",
-            "role": "แพทย์ผู้ปฏิบัติงานด้านผิวหนังเพื่อความงาม (ปัจจุบัน)"
+            "name": "Tune Clinic อัปกูจอง",
+            "role": "แพทย์ผู้เชี่ยวชาญด้านความงามผิวพรรณ (ปัจจุบัน)"
           },
           {
-            "name": "Apgujeong Min Dental",
+            "name": "Min Dental อัปกูจอง",
             "role": "หัวหน้าฝ่ายวางแผนอนาคต"
           }
         ]
       },
       "mode2": {
         "title": "การประเมินผ่านเครือข่ายแพทย์",
-        "description": "โรงพยาบาลที่ประเมินผ่านความสัมพันธ์ระดับผู้อำนวยการ การตรวจสอบคุณวุฒิทางคลินิก และการประเมินผลลัพธ์ ผมประเมินภูมิหลังการฝึกอบรมของผู้อำนวยการ องค์ประกอบของทีมศัลยแพทย์ และมาตรฐานของสถานที่ — แต่ไม่ได้ปฏิบัติงานที่นั่นด้วยตนเอง",
+        "description": "โรงพยาบาลที่ประเมินผ่านความสัมพันธ์ระดับผู้อำนวยการ การตรวจสอบคุณสมบัติทางคลินิก และการประเมินผลลัพธ์ ฉันประเมินพื้นฐานการฝึกอบรมของผู้อำนวยการ ทีมศัลยแพทย์ และมาตรฐานสิ่งอำนวยความสะดวก — แต่ฉันไม่ได้ปฏิบัติงานที่นั่นด้วยตนเอง",
         "hospitals": [
           {
             "name": "B&N Eye Clinic",
-            "basis": "สถาบันหลักที่มีการยอมรับ ความสัมพันธ์ส่วนตัวกับผู้อำนวยการ Kim Jin-guk ประเมินมาตรฐานของสถานที่และทีมศัลยแพทย์"
+            "basis": "สถาบันหลักที่มีชื่อเสียง มีความสัมพันธ์ส่วนตัวกับผู้อำนวยการ Kim Jin-guk ประเมินมาตรฐานสิ่งอำนวยความสะดวกและทีมศัลยแพทย์"
           },
           {
             "name": "Woori Plastic Surgery",
-            "basis": "การประเมินระดับผู้อำนวยการ ทีมศัลยแพทย์ประกอบด้วยศัลยแพทย์ตกแต่งหลายท่านที่มาจากสายอาจารย์ของ Asan Hospital"
+            "basis": "การประเมินระดับผู้อำนวยการ ทีมศัลยแพทย์ประกอบด้วยศัลยแพทย์ตกแต่งที่มาจากโรงพยาบาล Asan หลายท่าน"
           },
           {
             "name": "Hosan Hospital",
-            "basis": "การประเมินทางคลินิกของผู้อำนวยการ ประวัติผลงาน และผลลัพธ์ของผู้ป่วยในด้านศัลยกรรมตกแต่งสำหรับผู้หญิง"
+            "basis": "การประเมินทางคลินิกของผู้อำนวยการ ประวัติผลงาน และผลลัพธ์ของผู้ป่วยในศัลยกรรมตกแต่งสตรี"
           },
           {
             "name": "The Well Dental",
-            "basis": "การประเมินทางคลินิกของผู้อำนวยการ แนวทางการรักษา และมาตรฐานของสถานที่ในด้านทันตกรรมสำหรับผู้ใหญ่"
+            "basis": "การประเมินทางคลินิกของผู้อำนวยการ แนวทางการรักษา และมาตรฐานสิ่งอำนวยความสะดวกด้านทันตกรรมผู้ใหญ่"
           }
         ]
       },
-      "methodologyLink": "อ่านระเบียบวิธีการตรวจสอบฉบับเต็ม"
+      "methodologyLink": "อ่านวิธีการตรวจสอบฉบับเต็ม"
     },
     "aiGovernance": {
       "badge": "การกำกับดูแล AI",
@@ -3617,370 +3653,687 @@
   },
   "methodology": {
     "meta": {
-      "title": "How We Verify Hospitals | AetherHeal Verification Methodology",
-      "description": "AetherHeal verifies partner hospitals through two layers: a published minimum standard with five non-negotiable criteria, and independent clinical assessment by Angel Physicians. 31% of applicants have been rejected."
+      "title": "วิธีการตรวจสอบโรงพยาบาลของเรา | วิธีการยืนยันของ AetherHeal",
+      "description": "AetherHeal ตรวจสอบโรงพยาบาลพันธมิตรผ่านสองชั้น ได้แก่ มาตรฐานขั้นต่ำที่เผยแพร่ต่อสาธารณะซึ่งมีเกณฑ์ที่ไม่สามารถต่อรองได้ห้าประการ และการประเมินทางคลินิกอิสระโดย Angel Physicians โดยมีผู้สมัครที่ถูกปฏิเสธ 31%"
     },
     "hero": {
-      "badge": "Verification Methodology",
-      "h1": "How we verify",
-      "h1Highlight": "hospitals",
-      "oneSentenceAnswer": "AetherHeal verifies hospitals through two layers: a published minimum standard applied by the organization, and an independent clinical assessment conducted by Angel Physicians.",
-      "intro": "Most medical tourism platforms list hospitals. Some claim to vet them. AetherHeal publishes its minimum standard, names the criteria, and discloses its rejection rate — because verification that cannot be examined is not verification."
+      "badge": "วิธีการยืนยัน",
+      "h1": "วิธีที่เราตรวจสอบ",
+      "h1Highlight": "โรงพยาบาล",
+      "oneSentenceAnswer": "AetherHeal ตรวจสอบโรงพยาบาลผ่านสองชั้น ได้แก่ มาตรฐานขั้นต่ำที่เผยแพร่ต่อสาธารณะซึ่งองค์กรบังคับใช้ และการประเมินทางคลินิกอิสระที่ดำเนินการโดย Angel Physicians",
+      "intro": "แพลตฟอร์มการท่องเที่ยวเชิงการแพทย์ส่วนใหญ่เพียงแค่ลงรายชื่อโรงพยาบาล บางแห่งอ้างว่าตรวจสอบ AetherHeal เผยแพร่มาตรฐานขั้นต่ำ ระบุเกณฑ์ และเปิดเผยอัตราการปฏิเสธ เพราะการตรวจสอบที่ไม่สามารถตรวจสอบได้นั้นไม่ใช่การตรวจสอบที่แท้จริง"
     },
     "whyItMatters": {
-      "title": "Why verification matters",
+      "title": "เหตุใดการตรวจสอบจึงมีความสำคัญ",
       "paragraphs": [
-        "In the medical tourism market, patients cannot distinguish clinical quality from marketing quality. A polished website, a high Google rating, and a celebrity endorsement tell you nothing about physician credentials, pricing transparency, or what happens when something goes wrong.",
-        "Verification exists to make that distinction on the patient's behalf — before the patient commits to a hospital, a flight, or a procedure.",
-        "AetherHeal's verification is not a seal of approval. It is a standard with consequences. Hospitals that do not meet it are rejected. Hospitals that meet it are monitored. The standard is the standard."
+        "ในตลาดการท่องเที่ยวเชิงการแพทย์ ผู้ป่วยไม่สามารถแยกแยะคุณภาพทางคลินิกจากคุณภาพทางการตลาดได้ เว็บไซต์ที่ดูดี คะแนน Google สูง และการรับรองจากคนดังไม่ได้บอกอะไรเกี่ยวกับคุณสมบัติของแพทย์ ความโปร่งใสด้านราคา หรือสิ่งที่จะเกิดขึ้นหากมีปัญหา",
+        "การตรวจสอบมีขึ้นเพื่อทำการแยกแยะนั้นแทนผู้ป่วย — ก่อนที่ผู้ป่วยจะตัดสินใจเลือกโรงพยาบาล จองตั๋วเครื่องบิน หรือเข้ารับการรักษา",
+        "การตรวจสอบของ AetherHeal ไม่ใช่ตราประทับรับรอง แต่เป็นมาตรฐานที่มีผลตามมา โรงพยาบาลที่ไม่ผ่านเกณฑ์จะถูกปฏิเสธ โรงพยาบาลที่ผ่านเกณฑ์จะถูกติดตาม มาตรฐานคือมาตรฐาน"
       ]
     },
     "layer1": {
-      "badge": "Layer 1 — Published Standard",
-      "title": "The minimum standard",
-      "intro": "Every hospital applicant must meet five non-negotiable criteria. These are binary — pass or fail — and verifiable against public records and institutional documentation. AetherHeal publishes them because hiding them would undermine the trust the platform exists to create.",
+      "badge": "ชั้นที่ 1 — มาตรฐานที่เผยแพร่",
+      "title": "มาตรฐานขั้นต่ำ",
+      "intro": "โรงพยาบาลทุกแห่งที่สมัครต้องผ่านเกณฑ์ที่ไม่สามารถต่อรองได้ห้าประการ เกณฑ์เหล่านี้เป็นแบบไบนารี — ผ่านหรือไม่ผ่าน — และสามารถตรวจสอบได้จากบันทึกสาธารณะและเอกสารของสถาบัน AetherHeal เผยแพร่เกณฑ์เหล่านี้เพราะการซ่อนไว้จะทำลายความไว้วางใจที่แพลตฟอร์มนี้ถูกสร้างขึ้นมาเพื่อสร้าง",
       "criteria": [
         {
-          "title": "Physician licensing verification",
-          "description": "Every physician performing procedures on AetherHeal patients must hold a valid Korean medical license in their declared specialty.",
-          "basis": "Verified against Korean Ministry of Health and Welfare physician registry."
+          "title": "การตรวจสอบใบอนุญาตแพทย์",
+          "description": "แพทย์ทุกคนที่ทำหัตถการให้ผู้ป่วย AetherHeal ต้องมีใบอนุญาตประกอบวิชาชีพเวชกรรมของเกาหลีที่ถูกต้องในสาขาที่ระบุ",
+          "basis": "ตรวจสอบจากทะเบียนแพทย์ของกระทรวงสาธารณสุขและสวัสดิการเกาหลี"
         },
         {
-          "title": "Pricing transparency",
-          "description": "The hospital must disclose its full fee structure to AetherHeal before any patient referral, including all potential add-on costs. Undisclosed fees are grounds for rejection.",
-          "basis": "Verified through direct fee schedule submission and cross-referenced with patient-facing quotes."
+          "title": "ความโปร่งใสด้านราคา",
+          "description": "โรงพยาบาลต้องเปิดเผยโครงสร้างค่าธรรมเนียมทั้งหมดต่อ AetherHeal ก่อนการส่งต่อผู้ป่วยใดๆ รวมถึงค่าใช้จ่ายเพิ่มเติมที่อาจเกิดขึ้น ค่าธรรมเนียมที่ไม่เปิดเผยถือเป็นเหตุในการปฏิเสธ",
+          "basis": "ตรวจสอบผ่านการส่งตารางค่าธรรมเนียมโดยตรงและอ้างอิงกับใบเสนอราคาที่ให้แก่ผู้ป่วย"
         },
         {
-          "title": "Procedure recording policy",
-          "description": "Procedures under sedation must be recorded via CCTV and close-up camera. Footage must be available to the patient upon request. Hospitals that refuse recording are rejected.",
-          "basis": "Verified through facility inspection and written policy confirmation."
+          "title": "นโยบายการบันทึกหัตถการ",
+          "description": "หัตถการที่อยู่ภายใต้การระงับความรู้สึกต้องบันทึกผ่าน CCTV และกล้องมุมใกล้ ผู้ป่วยต้องสามารถขอดูภาพที่บันทึกได้ โรงพยาบาลที่ปฏิเสธการบันทึกจะถูกปฏิเสธ",
+          "basis": "ตรวจสอบผ่านการตรวจสอบสถานที่และการยืนยันนโยบายเป็นลายลักษณ์อักษร"
         },
         {
-          "title": "Post-operative follow-up protocol",
-          "description": "The hospital must maintain a documented post-operative follow-up protocol extending at least 30 days after the procedure, with a designated point of contact for international patients.",
-          "basis": "Verified through protocol documentation and international patient coordinator confirmation."
+          "title": "โปรโตคอลการติดตามผลหลังการรักษา",
+          "description": "โรงพยาบาลต้องมีโปรโตคอลการติดตามผลหลังการรักษาที่เป็นเอกสารซึ่งขยายออกไปอย่างน้อย 30 วันหลังจากหัตถการ พร้อมผู้ประสานงานที่กำหนดสำหรับผู้ป่วยต่างชาติ",
+          "basis": "ตรวจสอบผ่านเอกสารโปรโตคอลและการยืนยันจากผู้ประสานงานผู้ป่วยต่างชาติ"
         },
         {
-          "title": "Informed consent standard",
-          "description": "The patient must receive informed consent documentation in their language before any procedure, including risks, alternatives, and expected outcomes.",
-          "basis": "Verified through consent form review and translation process confirmation."
+          "title": "มาตรฐานการยินยอมที่ได้รับการรับรอง",
+          "description": "ผู้ป่วยต้องได้รับเอกสารการยินยอมที่ได้รับการรับรองในภาษาของตนเองก่อนการรักษาใดๆ รวมถึงความเสี่ยง ทางเลือก และผลลัพธ์ที่คาดหวัง",
+          "basis": "ตรวจสอบผ่านการทบทวนแบบฟอร์มความยินยอมและการยืนยันกระบวนการแปล"
         }
       ],
-      "footnote": "These five criteria are the floor. A hospital that meets all five has passed the minimum standard — not earned a recommendation. The recommendation comes from Layer 2."
+      "footnote": "เกณฑ์ทั้งห้านี้คือพื้นฐาน โรงพยาบาลที่ผ่านทั้งห้าข้อได้ผ่านมาตรฐานขั้นต่ำเท่านั้น — ไม่ใช่ได้รับคำแนะนำ คำแนะนำมาจากชั้นที่ 2"
     },
     "layer2": {
-      "badge": "Layer 2 — Angel Physician Assessment",
-      "title": "The clinical assessment",
+      "badge": "ชั้นที่ 2 — การประเมินโดย Angel Physician",
+      "title": "การประเมินทางคลินิก",
       "paragraphs": [
-        "Beyond the minimum standard, each hospital undergoes an independent clinical assessment conducted by an Angel Physician — a licensed Korean physician who operates under AetherHeal's governance structure with no financial relationship to the hospital being evaluated.",
-        "This assessment evaluates dimensions of clinical quality that cannot be captured in a checklist: the competence of the surgical team, the communication culture between physicians and patients, the institution's honesty about its capabilities and limitations, the consistency between marketing claims and actual practice, and the institutional response when complications occur.",
-        "The specific criteria of this assessment are not published. This is a deliberate decision. Clinical judgment exercised by a qualified, independent physician is the standard — not a rubric that could be optimized against. Publishing the criteria would incentivize performance on the assessment rather than maintenance of the standard."
+        "นอกเหนือจากมาตรฐานขั้นต่ำแล้ว โรงพยาบาลแต่ละแห่งจะต้องผ่านการประเมินทางคลินิกอิสระที่ดำเนินการโดย Angel Physician ซึ่งเป็นแพทย์ชาวเกาหลีที่มีใบอนุญาตซึ่งดำเนินการภายใต้โครงสร้างการกำกับดูแลของ AetherHeal โดยไม่มีความสัมพันธ์ทางการเงินกับโรงพยาบาลที่ได้รับการประเมิน",
+        "การประเมินนี้ประเมินมิติของคุณภาพทางคลินิกที่ไม่สามารถจับในรายการตรวจสอบได้ ได้แก่ ความสามารถของทีมศัลยกรรม วัฒนธรรมการสื่อสารระหว่างแพทย์และผู้ป่วย ความซื่อสัตย์ของสถาบันเกี่ยวกับความสามารถและข้อจำกัด ความสอดคล้องระหว่างการอ้างสิทธิ์ทางการตลาดและการปฏิบัติจริง และการตอบสนองของสถาบันเมื่อเกิดภาวะแทรกซ้อน",
+        "เกณฑ์เฉพาะของการประเมินนี้ไม่ได้เผยแพร่ต่อสาธารณะ นี่เป็นการตัดสินใจโดยเจตนา การตัดสินทางคลินิกที่ใช้โดยแพทย์ที่มีคุณสมบัติและเป็นอิสระคือมาตรฐาน ไม่ใช่รายการเกณฑ์ที่สามารถปรับให้เหมาะสมได้ การเผยแพร่เกณฑ์จะเป็นแรงจูงใจให้ผลการทำงานในการประเมินแทนที่จะรักษามาตรฐาน"
       ],
-      "quote": "A checklist tells you what a hospital prepared for the inspection. A physician who has worked inside the system tells you what happens when the inspection is over.",
+      "quote": "รายการตรวจสอบบอกคุณว่าโรงพยาบาลเตรียมอะไรไว้สำหรับการตรวจสอบ แพทย์ที่ทำงานภายในระบบบอกคุณว่าเกิดอะไรขึ้นเมื่อการตรวจสอบเสร็จสิ้น",
       "foundingNote": {
-        "badge": "Founding cohort",
-        "text": "AetherHeal's founding partner hospitals were assessed by the founding physician through direct embedded clinical practice or physician-network evaluation. As the network expands, all new hospital assessments are conducted by Angel Physicians under the same governance framework and independence requirements."
+        "badge": "กลุ่มผู้ก่อตั้ง",
+        "text": "โรงพยาบาลพันธมิตรผู้ก่อตั้งของ AetherHeal ได้รับการประเมินโดยแพทย์ผู้ก่อตั้งผ่านการปฏิบัติทางคลินิกแบบฝังตัวโดยตรงหรือการประเมินผ่านเครือข่ายแพทย์ เมื่อเครือข่ายขยายตัว การประเมินโรงพยาบาลใหม่ทั้งหมดจะดำเนินการโดย Angel Physicians ภายใต้กรอบการกำกับดูแลและข้อกำหนดด้านความเป็นอิสระเดียวกัน"
       }
     },
     "rejection": {
-      "badge": "Rejection Transparency",
-      "title": "What gets a hospital rejected",
-      "intro": "Verification has consequences. Not every hospital that applies is admitted. AetherHeal discloses its rejection rate and the categories of rejection — without naming specific hospitals.",
+      "badge": "ความโปร่งใสในการปฏิเสธ",
+      "title": "อะไรทำให้โรงพยาบาลถูกปฏิเสธ",
+      "intro": "การตรวจสอบมีผลตามมา ไม่ใช่ทุกโรงพยาบาลที่สมัครจะได้รับการยอมรับ AetherHeal เปิดเผยอัตราการปฏิเสธและประเภทของการปฏิเสธ — โดยไม่ระบุชื่อโรงพยาบาลที่เฉพาะเจาะจง",
       "stats": [
         {
           "number": "13",
-          "label": "Evaluated"
+          "label": "ได้รับการประเมิน"
         },
         {
           "number": "4",
-          "label": "Rejected"
+          "label": "ถูกปฏิเสธ"
         },
         {
           "number": "9",
-          "label": "Verified"
+          "label": "ได้รับการยืนยัน"
         }
       ],
       "reasons": [
-        "Unverified physician credentials — the hospital could not confirm valid specialty licensing for all physicians performing procedures on international patients.",
-        "Undisclosed pricing structure — the hospital's fee schedule contained hidden costs or add-on charges not disclosed in the initial quotation process.",
-        "Refusal of procedure recording — the hospital declined to implement CCTV and close-up camera recording for procedures under sedation.",
-        "Inadequate post-operative follow-up — no documented protocol for international patient follow-up beyond the day of discharge."
+        "ข้อมูลรับรองแพทย์ที่ไม่ได้รับการตรวจสอบ — โรงพยาบาลไม่สามารถยืนยันใบอนุญาตสาขาเฉพาะทางที่ถูกต้องสำหรับแพทย์ทุกคนที่ทำหัตถการให้ผู้ป่วยต่างชาติ",
+        "โครงสร้างราคาที่ไม่เปิดเผย — ตารางค่าธรรมเนียมของโรงพยาบาลมีค่าใช้จ่ายที่ซ่อนอยู่หรือค่าใช้จ่ายเพิ่มเติมที่ไม่ได้เปิดเผยในกระบวนการเสนอราคาเริ่มต้น",
+        "การปฏิเสธการบันทึกหัตถการ — โรงพยาบาลปฏิเสธที่จะติดตั้ง CCTV และการบันทึกด้วยกล้องมุมใกล้สำหรับหัตถการภายใต้การระงับความรู้สึก",
+        "การติดตามผลหลังการรักษาที่ไม่เพียงพอ — ไม่มีโปรโตคอลที่เป็นเอกสารสำหรับการติดตามผู้ป่วยต่างชาติหลังจากวันจำหน่าย"
       ],
-      "anonymityNote": "Rejected hospitals are not named publicly. The purpose of disclosure is to demonstrate that the standard has consequences — not to damage institutions that may improve and reapply."
+      "anonymityNote": "โรงพยาบาลที่ถูกปฏิเสธจะไม่ถูกระบุชื่อต่อสาธารณะ จุดประสงค์ของการเปิดเผยคือเพื่อแสดงให้เห็นว่ามาตรฐานมีผลตามมา — ไม่ใช่เพื่อทำลายสถาบันที่อาจพัฒนาตัวเองและสมัครใหม่"
     },
     "monitoring": {
-      "title": "Ongoing monitoring",
-      "intro": "Verification is not a one-time event. Partner hospitals are subject to ongoing monitoring, and re-evaluation can be triggered by any of the following:",
+      "title": "การติดตามอย่างต่อเนื่อง",
+      "intro": "การตรวจสอบไม่ใช่เหตุการณ์ครั้งเดียว โรงพยาบาลพันธมิตรอยู่ภายใต้การติดตามอย่างต่อเนื่อง และการประเมินใหม่สามารถเกิดขึ้นได้จากสิ่งต่อไปนี้:",
       "triggers": [
-        "Patient complaint or adverse outcome report through AetherHeal's continuity monitoring system",
-        "Change in the hospital's medical director or key surgical staff",
-        "Regulatory action or license suspension affecting the hospital or its physicians",
-        "Failure to maintain pricing transparency or informed consent standards during active patient journeys",
-        "Refusal to cooperate with post-treatment follow-up coordination for an AetherHeal patient",
-        "Periodic scheduled re-evaluation (annual for all partners)"
+        "การร้องเรียนของผู้ป่วยหรือรายงานผลลัพธ์ที่ไม่พึงประสงค์ผ่านระบบติดตามความต่อเนื่องของ AetherHeal",
+        "การเปลี่ยนแปลงในผู้อำนวยการทางการแพทย์ของโรงพยาบาลหรือบุคลากรศัลยกรรมหลัก",
+        "การดำเนินการกำกับดูแลหรือการระงับใบอนุญาตที่ส่งผลต่อโรงพยาบาลหรือแพทย์",
+        "ความล้มเหลวในการรักษาความโปร่งใสด้านราคาหรือมาตรฐานการยินยอมที่ได้รับการรับรองระหว่างการดำเนินการของผู้ป่วย",
+        "การปฏิเสธที่จะร่วมมือกับการประสานงานติดตามผลหลังการรักษาสำหรับผู้ป่วย AetherHeal",
+        "การประเมินใหม่ตามกำหนดการเป็นระยะ (รายปีสำหรับพันธมิตรทุกราย)"
       ]
     },
     "decisionSummary": {
-      "title": "Is this page for you?",
-      "bestForLabel": "Best for",
-      "bestFor": "Patients who want to understand how AetherHeal selects and monitors partner hospitals before beginning their own journey.",
-      "notIdealLabel": "Not ideal for",
-      "notIdeal": "Patients looking for a hospital directory, procedure catalog, or price comparison. Those are different tools for different questions."
+      "title": "หน้านี้เหมาะสำหรับคุณหรือไม่?",
+      "bestForLabel": "เหมาะที่สุดสำหรับ",
+      "bestFor": "ผู้ป่วยที่ต้องการเข้าใจวิธีที่ AetherHeal เลือกและติดตามโรงพยาบาลพันธมิตรก่อนเริ่มต้นการเดินทางของตนเอง",
+      "notIdealLabel": "ไม่เหมาะสำหรับ",
+      "notIdeal": "ผู้ป่วยที่มองหาไดเรกทอรีโรงพยาบาล แคตาล็อกหัตถการ หรือการเปรียบเทียบราคา เครื่องมือเหล่านั้นเป็นคำถามที่แตกต่างกัน"
     },
     "faq": {
-      "title": "Questions about verification",
+      "title": "คำถามเกี่ยวกับการตรวจสอบ",
       "items": [
         {
-          "question": "Can a rejected hospital reapply?",
-          "answer": "Yes. A hospital that has been rejected may reapply after addressing the specific deficiency that caused the rejection. The re-evaluation follows the same two-layer process. There is no penalty for having been previously rejected — only for failing to meet the standard at the time of evaluation."
+          "question": "โรงพยาบาลที่ถูกปฏิเสธสามารถสมัครใหม่ได้หรือไม่?",
+          "answer": "ได้ โรงพยาบาลที่ถูกปฏิเสธสามารถสมัครใหม่ได้หลังจากแก้ไขข้อบกพร่องที่เฉพาะเจาะจงที่ทำให้ถูกปฏิเสธ การประเมินใหม่จะใช้กระบวนการสองชั้นเดียวกัน ไม่มีบทลงโทษสำหรับการถูกปฏิเสธก่อนหน้านี้ — มีเพียงความล้มเหลวในการปฏิบัติตามมาตรฐาน ณ เวลาที่ประเมิน"
         },
         {
-          "question": "How often are partner hospitals re-evaluated?",
-          "answer": "All partner hospitals undergo a scheduled re-evaluation annually. Unscheduled re-evaluation can be triggered at any time by patient complaints, staffing changes, regulatory actions, or operational failures during active patient journeys."
+          "question": "โรงพยาบาลพันธมิตรได้รับการประเมินใหม่บ่อยแค่ไหน?",
+          "answer": "โรงพยาบาลพันธมิตรทุกแห่งจะได้รับการประเมินใหม่ตามกำหนดการรายปี การประเมินใหม่ที่ไม่ได้กำหนดไว้สามารถเกิดขึ้นได้ทุกเมื่อจากการร้องเรียนของผู้ป่วย การเปลี่ยนแปลงบุคลากร การดำเนินการกำกับดูแล หรือความล้มเหลวในการดำเนินงานระหว่างการดำเนินการของผู้ป่วย"
         },
         {
-          "question": "Does AetherHeal receive payment from hospitals for verification?",
-          "answer": "No. AetherHeal does not charge hospitals for the verification process. Partner hospitals pay an annual membership fee after admission, but this fee does not influence the verification outcome. The evaluation is conducted before any commercial relationship exists."
+          "question": "AetherHeal รับเงินจากโรงพยาบาลสำหรับการตรวจสอบหรือไม่?",
+          "answer": "ไม่ AetherHeal ไม่เรียกเก็บเงินจากโรงพยาบาลสำหรับกระบวนการตรวจสอบ โรงพยาบาลพันธมิตรจ่ายค่าธรรมเนียมสมาชิกรายปีหลังจากได้รับการยอมรับ แต่ค่าธรรมเนียมนี้ไม่ส่งผลต่อผลการตรวจสอบ การประเมินจะดำเนินการก่อนที่ความสัมพันธ์ทางการค้าใดๆ จะเกิดขึ้น"
         },
         {
-          "question": "Are all verified hospitals equally recommended?",
-          "answer": "No. All verified hospitals have passed the minimum standard and the Angel Physician clinical assessment, but matching is based on clinical fit — not equal rotation. A patient considering hair transplantation will be matched to hospitals with relevant specialization, not to every verified hospital in the network."
+          "question": "โรงพยาบาลที่ผ่านการตรวจสอบทุกแห่งได้รับการแนะนำเท่าเทียมกันหรือไม่?",
+          "answer": "ไม่ โรงพยาบาลที่ผ่านการตรวจสอบทุกแห่งผ่านมาตรฐานขั้นต่ำและการประเมินทางคลินิกของ Angel Physician แต่การจับคู่ขึ้นอยู่กับความเหมาะสมทางคลินิก — ไม่ใช่การหมุนเวียนเท่าเทียมกัน ผู้ป่วยที่พิจารณาการปลูกถ่ายเส้นผมจะถูกจับคู่กับโรงพยาบาลที่มีความเชี่ยวชาญที่เกี่ยวข้อง ไม่ใช่กับโรงพยาบาลที่ผ่านการตรวจสอบทุกแห่งในเครือข่าย"
         },
         {
-          "question": "Why are the Layer 2 criteria not published?",
-          "answer": "Because clinical judgment cannot be reduced to a checklist without weakening it. Publishing the specific assessment dimensions would allow hospitals to optimize for the assessment rather than maintain the standard. The Angel Physician's independence and clinical competence are the quality control — not a rubric."
+          "question": "เหตุใดเกณฑ์ชั้นที่ 2 จึงไม่ได้เผยแพร่?",
+          "answer": "เพราะการตัดสินทางคลินิกไม่สามารถลดให้เป็นรายการตรวจสอบโดยไม่ทำให้อ่อนแอลง การเผยแพร่มิติการประเมินเฉพาะจะช่วยให้โรงพยาบาลปรับให้เหมาะสมกับการประเมินแทนที่จะรักษามาตรฐาน ความเป็นอิสระและความสามารถทางคลินิกของ Angel Physician คือการควบคุมคุณภาพ — ไม่ใช่รายการเกณฑ์"
         },
         {
-          "question": "Who are the Angel Physicians?",
-          "answer": "Angel Physicians are licensed Korean medical doctors who operate under AetherHeal's governance structure. They hold no financial relationship with any hospital in the network and no referral-based compensation. Their role includes both patient case review and hospital clinical assessment. The founding assessments were conducted by AetherHeal's founding physician."
+          "question": "Angel Physicians คือใคร?",
+          "answer": "Angel Physicians คือแพทย์ชาวเกาหลีที่มีใบอนุญาตซึ่งดำเนินการภายใต้โครงสร้างการกำกับดูแลของ AetherHeal พวกเขาไม่มีความสัมพันธ์ทางการเงินกับโรงพยาบาลใดในเครือข่ายและไม่มีค่าตอบแทนตามการส่งต่อ บทบาทของพวกเขารวมถึงทั้งการทบทวนกรณีผู้ป่วยและการประเมินทางคลินิกของโรงพยาบาล การประเมินผู้ก่อตั้งดำเนินการโดยแพทย์ผู้ก่อตั้ง AetherHeal"
         },
         {
-          "question": "What happens if a verified hospital's standards change?",
-          "answer": "If monitoring reveals a decline in standards — through patient feedback, staffing changes, or operational failures — the hospital enters a re-evaluation process. If the re-evaluation confirms the decline, the hospital's verified status is suspended until the deficiency is resolved. Suspension is not public, but affected patients in active journeys are notified and offered alternative coordination."
+          "question": "จะเกิดอะไรขึ้นถ้ามาตรฐานของโรงพยาบาลที่ผ่านการตรวจสอบเปลี่ยนแปลง?",
+          "answer": "หากการติดตามพบการลดลงของมาตรฐาน — ผ่านข้อเสนอแนะของผู้ป่วย การเปลี่ยนแปลงบุคลากร หรือความล้มเหลวในการดำเนินงาน — โรงพยาบาลจะเข้าสู่กระบวนการประเมินใหม่ หากการประเมินใหม่ยืนยันการลดลง สถานะที่ผ่านการตรวจสอบของโรงพยาบาลจะถูกระงับจนกว่าจะแก้ไขข้อบกพร่อง การระงับไม่ได้เผยแพร่ต่อสาธารณะ แต่ผู้ป่วยที่ได้รับผลกระทบในการดำเนินการที่ยังดำเนินอยู่จะได้รับการแจ้งและมีการเสนอทางเลือกอื่นในการประสานงาน"
         }
       ]
     },
     "reviewerMeta": {
-      "label": "Reviewed by",
+      "label": "ตรวจสอบโดย",
       "name": "Dr. Jee Hoon Ju, MD",
       "credentials": "ABAM · MIT Sloan AI in Healthcare",
-      "lastReviewed": "April 2026"
+      "lastReviewed": "เมษายน 2026"
     },
     "cta": {
-      "title": "Start with someone on your side",
-      "subtitle": "If you are considering medical care in Korea, begin with a process where the hospitals have already been held to a standard — before you arrive.",
-      "primary": "Start With Someone On Your Side",
-      "secondary": "See the Trust Protocol"
+      "title": "เริ่มต้นด้วยคนที่อยู่เคียงข้างคุณ",
+      "subtitle": "หากคุณกำลังพิจารณาการรักษาทางการแพทย์ในเกาหลี เริ่มต้นด้วยกระบวนการที่โรงพยาบาลได้รับการกำหนดมาตรฐานแล้ว — ก่อนที่คุณจะเดินทางมาถึง",
+      "primary": "เริ่มต้นด้วยคนที่อยู่เคียงข้างคุณ",
+      "secondary": "ดู Trust Protocol"
     }
   },
   "hospitals": {
     "slugs": [
-      "morgan-dermatology"
+      "morgan-dermatology",
+      "tune-clinic"
     ],
     "morgan-dermatology": {
       "meta": {
-        "title": "Morgan Dermatology — Verified Hair Transplant Clinic | AetherHeal",
-        "description": "Morgan Dermatology is an AetherHeal-verified hair transplant clinic in Gangnam, Seoul. Resident follicle dissection team averaging 16.5+ years of experience (6-10 per surgery). Three specialist physicians. FUE, FUT, and scalp micropigmentation. Verified through embedded clinical practice."
+        "title": "Morgan Dermatology — คลินิกปลูกผมที่ผ่านการยืนยัน | AetherHeal",
+        "description": "Morgan Dermatology คือคลินิกปลูกผมที่ได้รับการยืนยันจาก AetherHeal ใน Gangnam กรุงโซล ทีมแยกรากผมประจำมีประสบการณ์เฉลี่ยมากกว่า 16.5 ปี (6-10 คนต่อการผ่าตัด) แพทย์เฉพาะทางสามคน FUE, FUT และการสักหนังศีรษะ ผ่านการยืนยันโดยการฝึกปฏิบัติทางคลินิกแบบฝังตัว"
       },
       "name": "Morgan Dermatology",
       "nameKr": "모건피부과",
-      "specialty": "Hair Transplantation · Scalp Micropigmentation",
-      "location": "Gangnam, Seoul",
-      "badge": "Verified Partner Hospital",
-      "oneSentenceAnswer": "Morgan Dermatology is a hair transplant clinic in Gangnam with a resident follicle dissection team averaging 16.5+ years of experience (6-10 members per surgery), three specialist physicians including a former Korean Hair Research Society chairman, and ABHRS-certified plastic surgery expertise — verified through AetherHeal's embedded clinical practice.",
+      "specialty": "การปลูกถ่ายเส้นผม · การสักหนังศีรษะ",
+      "location": "Gangnam กรุงโซล",
+      "badge": "โรงพยาบาลพันธมิตรที่ผ่านการยืนยัน",
+      "oneSentenceAnswer": "Morgan Dermatology คือคลินิกปลูกผมใน Gangnam ที่มีทีมแยกรากผมประจำซึ่งมีประสบการณ์เฉลี่ยมากกว่า 16.5 ปี (6-10 คนต่อการผ่าตัด) แพทย์เฉพาะทางสามคนรวมถึงอดีตประธานสมาคมวิจัยเส้นผมเกาหลี และความเชี่ยวชาญศัลยกรรมตกแต่งที่ได้รับการรับรองจาก ABHRS — ผ่านการยืนยันโดยการฝึกปฏิบัติทางคลินิกแบบฝังตัวของ AetherHeal",
       "overview": {
-        "title": "About Morgan Dermatology",
+        "title": "เกี่ยวกับ Morgan Dermatology",
         "paragraphs": [
-          "Morgan Dermatology is a hair transplant clinic in Gangnam, Seoul, specializing in FUE (Follicular Unit Extraction), FUT (Follicular Unit Transplantation), and Scalp Micropigmentation (SMP).",
-          "The clinic's most significant structural advantage is its resident follicle dissection team — a dedicated surgical support team averaging over 16.5 years of individual experience. In FUE procedures, a minimum of 6 team members participate in a single surgery. In FUT procedures, up to 10. Both physicians and dissection team members wear 5.5x surgical loupes — the same magnification level — ensuring precision at every stage, not just the surgical extraction and placement. Hair transplantation is fundamentally a time-critical team operation: every graft is living tissue on a countdown from the moment it leaves the body. The total combined skilled labor working in parallel within that window determines how many grafts survive. More experienced hands, working faster and more precisely together, means more grafts planted while they are still viable. A permanent team of this size and caliber, rather than staff assembled per-procedure, is rare anywhere in the world.",
-          "The clinic's physician team combines dermatology and plastic surgery expertise — an unusual dual-specialty structure in Korean hair transplant clinics. This allows cases to be evaluated from both a medical hair loss perspective and a surgical reconstruction perspective.",
-          "Morgan Dermatology's physicians include over 70 combined years of clinical experience in hair loss treatment and hair restoration surgery.",
-          "The clinic provides a one-time revision surgery guarantee: if the patient is not satisfied with the outcome, one revision procedure is covered at no additional surgical cost. This guarantee is documented in a written certificate issued before the original procedure."
+          "Morgan Dermatology คือคลินิกปลูกผมใน Gangnam กรุงโซล ที่เชี่ยวชาญใน FUE (การสกัดหน่วยรากผม), FUT (การปลูกถ่ายหน่วยรากผม) และ Scalp Micropigmentation (SMP)",
+          "ข้อได้เปรียบเชิงโครงสร้างที่สำคัญที่สุดของคลินิกคือทีมแยกรากผมประจำ — ทีมสนับสนุนการผ่าตัดเฉพาะทางที่มีประสบการณ์เฉลี่ยมากกว่า 16.5 ปีต่อคน ในหัตถการ FUE สมาชิกทีมอย่างน้อย 6 คนมีส่วนร่วมในการผ่าตัดหนึ่งครั้ง ใน FUT มากถึง 10 คน ทั้งแพทย์และสมาชิกทีมแยกรากผมสวมแว่นขยายผ่าตัด 5.5x ในระดับกำลังขยายเดียวกัน เพื่อความแม่นยำในทุกขั้นตอน ไม่ใช่เพียงการสกัดและการปลูกถ่ายทางศัลยกรรม การปลูกผมเป็นการดำเนินการเป็นทีมที่ขึ้นอยู่กับเวลาเป็นหลัก กราฟต์ทุกชิ้นเป็นเนื้อเยื่อที่มีชีวิตซึ่งมีการนับถอยหลังตั้งแต่ช่วงเวลาที่ออกจากร่างกาย แรงงานที่มีทักษะรวมทั้งหมดที่ทำงานพร้อมกันภายในช่วงเวลานั้นกำหนดจำนวนกราฟต์ที่รอดชีวิต มือที่มีประสบการณ์มากขึ้น ทำงานเร็วขึ้นและแม่นยำขึ้น หมายความว่ากราฟต์มากขึ้นถูกปลูกในขณะที่ยังมีชีวิต ทีมประจำขนาดและคุณภาพระดับนี้ แทนที่จะเป็นพนักงานที่รวมตัวกันเป็นรายกรณี ถือเป็นสิ่งที่หายากทั่วโลก",
+          "ทีมแพทย์ของคลินิกรวมความเชี่ยวชาญด้านผิวหนังและศัลยกรรมตกแต่งเข้าด้วยกัน — โครงสร้างเฉพาะทางคู่ที่ผิดปกติในคลินิกปลูกผมของเกาหลี ซึ่งช่วยให้ประเมินกรณีได้ทั้งจากมุมมองทางการแพทย์เรื่องการสูญเสียเส้นผมและมุมมองการฟื้นฟูทางศัลยกรรม",
+          "แพทย์ของ Morgan Dermatology มีประสบการณ์ทางคลินิกรวมมากกว่า 70 ปีในการรักษาการสูญเสียเส้นผมและการผ่าตัดฟื้นฟูเส้นผม",
+          "คลินิกใช้ปริมาณวัสดุสิ้นเปลืองทางศัลยกรรมประมาณ 10 เท่าเมื่อเทียบกับคลินิกปลูกผมทั่วไป — ปลายเจาะระดับพรีเมียม ตัวปลูก และสารละลายเพื่อการอนุรักษ์ — เพราะปรัชญาการดำเนินงานให้ความสำคัญกับผลลัพธ์มากกว่าต้นทุนต่อหัตถการ ในวันผ่าตัด รากผมที่ปลูกถ่ายทุกชิ้นจะถูกนับแยกกันและรายงานให้ผู้ป่วยทราบ ความโปร่งใสระดับละเอียดนี้ถือเป็นสิ่งที่หายาก",
+          "คลินิกให้การรับประกันการผ่าตัดแก้ไขหนึ่งครั้ง หากผู้ป่วยไม่พึงพอใจกับผลลัพธ์หลังจากหนึ่งปี หัตถการแก้ไขหนึ่งครั้งจะรวมอยู่โดยไม่มีค่าใช้จ่ายเพิ่มเติมทางศัลยกรรม การรับประกันนี้ได้รับการจัดทำเป็นเอกสารในใบรับรองที่ออกก่อนหัตถการเดิม"
         ]
       },
       "procedures": {
-        "title": "Procedures",
+        "title": "หัตถการ",
         "items": [
           {
-            "name": "FUE (Follicular Unit Extraction)",
-            "description": "Individual follicle extraction without a linear incision. Minimizes visible scarring and allows shorter recovery."
+            "name": "FUE (การสกัดหน่วยรากผม)",
+            "description": "การสกัดรากผมรายชิ้นโดยใช้ไมโครพันช์ที่แม่นยำ โดยไม่มีแผลเป็นเส้นตรง ทิ้งรอยเพียงขนาดจุดที่ซ่อนอยู่ใต้เส้นผมที่มีอยู่ การฟื้นตัวเร็วกว่าและไม่มีรอยแผลเป็นเส้นตรง — เหมาะสำหรับผู้ป่วยที่ต้องการทรงผมสั้น"
           },
           {
-            "name": "FUT (Follicular Unit Transplantation)",
-            "description": "Strip harvesting method that can yield higher graft counts in a single session. Suitable for patients requiring large-area coverage."
+            "name": "FUT (การปลูกถ่ายหน่วยรากผม)",
+            "description": "ตัดแถบเนื้อเยื่อบางๆ จากบริเวณผู้บริจาค ได้กราฟต์จำนวนมากในครั้งเดียว Morgan Dermatology ใช้เครื่องวัดความยืดหยุ่นเพื่อวัดความยืดหยุ่นของหนังศีรษะก่อนและระหว่างหัตถการ เพื่อให้ได้กราฟต์สูงสุดโดยมีความตึงน้อยที่สุด ยังคงมีรอยแผลเส้นบางแต่ซ่อนอยู่ใต้ความยาวผมปกติ"
           },
           {
             "name": "Scalp Micropigmentation (SMP)",
-            "description": "Non-surgical pigment application that creates the appearance of hair density. Used as a standalone treatment or as a complement to transplantation."
+            "description": "การใช้เม็ดสีแบบไม่ผ่าตัดที่สร้างลักษณะของความหนาแน่นของเส้นผม ใช้เป็นการรักษาแบบเดี่ยวหรือเสริมกับการปลูกถ่าย"
           }
         ]
       },
       "team": {
-        "title": "Medical Team",
+        "title": "ทีมแพทย์",
         "surgicalTeam": {
-          "title": "Follicle Dissection Team",
-          "description": "Morgan Dermatology maintains a full-time, resident follicle dissection team — the surgical support staff who handle graft separation, preparation, and preservation during every procedure.",
+          "title": "ทีมแยกรากผม",
+          "description": "Morgan Dermatology มีทีมแยกรากผมประจำเต็มเวลา — ทีมสนับสนุนการผ่าตัดที่รับผิดชอบการแยก การเตรียม และการรักษากราฟต์ในทุกหัตถการ",
           "stats": [
             {
               "number": "16.5+",
-              "label": "Average years of individual experience"
+              "label": "ประสบการณ์รายบุคคลเฉลี่ย (ปี)"
             },
             {
               "number": "6-10",
-              "label": "Team members per surgery"
+              "label": "สมาชิกทีมต่อการผ่าตัด"
             }
           ],
-          "explanation": "In hair transplantation, the surgeon extracts and places grafts. But the survival of each graft depends on what happens between extraction and placement — how quickly it is separated, how precisely it is handled, and how well it is preserved. Every graft is living tissue on a countdown: the longer it stays outside the body, the lower its survival rate. This is why hair transplantation is fundamentally a team sport. The total combined labor — skilled hands working in parallel within a fixed time window — determines how many grafts can be extracted, separated, and placed while they are still viable. More experienced hands, working faster and more precisely together, means more grafts planted within the optimal survival window. At Morgan Dermatology, both the physicians and the dissection team members wear 5.5x surgical loupes during the procedure — the same magnification surgeons use. This level of precision in the dissection stage, not just the surgical stage, is extremely uncommon. A team of this size, permanence, and technical standard, working together permanently rather than assembled per-procedure, is rare anywhere in the world."
+          "explanation": "กราฟต์ทุกชิ้นเป็นเนื้อเยื่อที่มีชีวิตซึ่งมีการนับถอยหลัง — อัตราการรอดชีวิตลดลงทุกนาทีที่อยู่นอกร่างกาย ทำให้การปลูกผมเป็นการดำเนินการแบบขนานเป็นหลัก ยิ่งมือที่มีทักษะทำงานพร้อมกันภายในช่วงเวลานั้นมากเท่าไหร่ กราฟต์ก็ยิ่งรอดมากเท่านั้น ทีมแยกรากผมของ Morgan Dermatology เป็นทีมประจำ ไม่ใช่รวมตัวกันเป็นรายกรณี สมาชิกทุกคนสวมแว่นขยายผ่าตัด 5.5x เช่นเดียวกับแพทย์ผ่าตัด — นำกำลังขยายระดับผ่าตัดมาสู่ขั้นตอนการแยก ไม่ใช่เพียงการสกัดและการปลูกถ่าย ทีมประจำขนาดและมาตรฐานทางเทคนิคนี้ถือเป็นสิ่งที่หายากทั่วโลก"
         },
         "physicians": [
           {
             "name": "Prof. Shim Woo-Young",
             "nameKr": "심우영",
-            "role": "Honorary Professor",
-            "specialty": "Adult & pediatric hair loss specialist — 40+ years of clinical experience",
+            "photo": "/assets/hospitals/morgan-dermatology/prof-shim-woo-young.png",
+            "role": "ศาสตราจารย์กิตติมศักดิ์",
+            "specialty": "ผู้เชี่ยวชาญด้านการสูญเสียเส้นผมในผู้ใหญ่และเด็ก — ประสบการณ์ทางคลินิกกว่า 40 ปี",
             "credentials": [
-              "Kyung Hee University Medical School Professor",
-              "Sheffield University (UK) Research Fellow",
-              "Former Chairman, Korean Hair Research Society",
-              "Published researcher: alopecia areata, androgenetic alopecia, pattern hair loss classification"
+              "แพทย์ผิวหนังที่ได้รับการรับรองจากคณะกรรมการ",
+              "ศาสตราจารย์คณะแพทยศาสตร์ มหาวิทยาลัย Kyung Hee",
+              "นักวิจัยประจำ มหาวิทยาลัย Sheffield (สหราชอาณาจักร)",
+              "อดีตประธานสมาคมวิจัยเส้นผมเกาหลี",
+              "นักวิจัยที่ได้รับการตีพิมพ์: alopecia areata, androgenetic alopecia, การจำแนกประเภทการสูญเสียเส้นผมตามรูปแบบ"
             ]
           },
           {
             "name": "Dr. Lee Seung-Yong",
             "nameKr": "이승용",
-            "role": "Representative Director",
-            "specialty": "Non-incisional & incisional hair transplant specialist",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-lee-seung-yong.png",
+            "role": "ผู้อำนวยการ",
+            "specialty": "ผู้เชี่ยวชาญการปลูกผมแบบไม่ผ่าตัดและผ่าตัด",
             "credentials": [
-              "Board Certified Dermatologist (피부과 전문의)",
-              "Member: Korean Dermatological Association, Korean Society for Hair Restoration Surgery, Korean Hair Research Society",
-              "Former Director: Gangnam Dermatology/Urology Clinic, Dana Plastic Surgery, Seran Dermatology"
+              "แพทย์ผิวหนังที่ได้รับการรับรองจากคณะกรรมการ",
+              "สมาคมผิวหนังแห่งเกาหลี",
+              "สมาคมศัลยกรรมฟื้นฟูเส้นผมแห่งเกาหลี",
+              "สมาคมวิจัยเส้นผมแห่งเกาหลี",
+              "เชี่ยวชาญทั้งหัตถการ FUE และ FUT"
             ]
           },
           {
             "name": "Dr. Jung Jae-Heon",
             "nameKr": "정재헌",
-            "role": "Plastic Surgery Specialist",
-            "specialty": "Hairline aesthetics pioneer — 30+ years of surgical experience",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-jung-jae-heon.png",
+            "role": "ผู้เชี่ยวชาญศัลยกรรมตกแต่ง",
+            "specialty": "ผู้บุกเบิกด้านสุนทรียศาสตร์ไรผม — ประสบการณ์ผ่าตัดกว่า 30 ปี",
             "credentials": [
-              "Board Certified Plastic Surgeon (성형외과 전문의)",
-              "ABHRS Certified (American Board of Hair Restoration Surgery)",
-              "Yonsei University Plastic Surgery Clinical Professor",
-              "Former Chairman, Korean Hair Transplant Society",
-              "Published author: multiple international hair restoration textbooks (Rincas, Springer)"
+              "ศัลยแพทย์ตกแต่งที่ได้รับการรับรองจากคณะกรรมการ",
+              "ได้รับการรับรองจาก ABHRS (American Board of Hair Restoration Surgery)",
+              "อาจารย์คลินิกศัลยกรรมตกแต่ง มหาวิทยาลัย Yonsei",
+              "อดีตประธานสมาคมการปลูกผมแห่งเกาหลี",
+              "ผู้เขียนที่ได้รับการตีพิมพ์: ตำราฟื้นฟูเส้นผมนานาชาติหลายเล่ม (Rincas, Springer)"
             ]
           }
         ]
       },
       "verification": {
-        "badge": "AetherHeal Verification",
-        "mode": "Embedded Clinical Verification",
-        "modeDescription": "Dr. Jee Hoon Ju practiced at Morgan Dermatology as a hair transplant surgeon. His evaluation is based on direct clinical experience inside the facility — including firsthand observation of surgical technique standards, graft handling protocols, the resident dissection team's coordination and precision, and post-operative follow-up quality.",
+        "badge": "การยืนยันจาก AetherHeal",
+        "mode": "การยืนยันทางคลินิกแบบฝังตัว",
+        "modeDescription": "Dr. Jee Hoon Ju ดำรงตำแหน่งผู้อำนวยการของ Morgan Dermatology และฝึกปฏิบัติที่นั่นในฐานะศัลยแพทย์ปลูกผม การประเมินของเขาอยู่บนพื้นฐานของประสบการณ์การดำเนินงานและทางคลินิกโดยตรงภายในสถานที่ — รวมถึงการสังเกตโดยตรงเกี่ยวกับมาตรฐานเทคนิคการผ่าตัด โปรโตคอลการจัดการกราฟต์ การประสานงานและความแม่นยำของทีมแยกรากผมประจำ และคุณภาพการติดตามผลหลังการรักษา",
         "modeLabel": "Mode 1",
-        "modeSublabel": "Direct embedded practice",
-        "methodologyLink": "Read the full verification methodology"
+        "modeSublabel": "การฝึกปฏิบัติแบบฝังตัวโดยตรง",
+        "methodologyLink": "อ่านวิธีการยืนยันฉบับสมบูรณ์"
       },
       "patientProcess": {
-        "title": "International patient process",
+        "title": "กระบวนการสำหรับผู้ป่วยต่างชาติ",
         "capacityNote": {
-          "title": "Surgical capacity",
-          "description": "Morgan Dermatology limits surgical volume to maintain quality. Procedures under 4,000 grafts: maximum 2 surgeries per day. Procedures over 5,000 grafts: 1 surgery per day only. The clinic is typically booked 3+ months in advance.",
-          "recommendation": "Plan your surgery schedule with AetherHeal well in advance. We coordinate the surgical booking, and recommend planning your travel around the confirmed surgery date — not the other way around."
+          "title": "ความจุทางศัลยกรรม",
+          "description": "Morgan Dermatology จำกัดปริมาณการผ่าตัดเพื่อรักษาคุณภาพ",
+          "recommendation": "วางแผนกำหนดการผ่าตัดของคุณกับ AetherHeal ล่วงหน้า เราประสานงานการจองการผ่าตัดและแนะนำให้วางแผนการเดินทางตามวันผ่าตัดที่ยืนยันแล้ว — ไม่ใช่ทางกลับกัน",
+          "rules": [
+            {
+              "label": "ต่ำกว่า 2,000 กราฟต์",
+              "value": "สูงสุด 2 การผ่าตัด / วัน"
+            },
+            {
+              "label": "มากกว่า 2,500 กราฟต์",
+              "value": "1 การผ่าตัด / วันเท่านั้น"
+            },
+            {
+              "label": "ระยะเวลานำในการจอง",
+              "value": "ล่วงหน้า 3+ เดือน"
+            }
+          ]
         },
         "steps": [
           {
-            "phase": "Before travel",
-            "title": "Case structuring",
-            "description": "AetherHeal structures your case — hair loss history, goals, prior treatments, and expectations — before Morgan Dermatology reviews it."
+            "phase": "ก่อนเดินทาง",
+            "title": "การจัดโครงสร้างกรณี",
+            "description": "AetherHeal จัดโครงสร้างกรณีของคุณ — ประวัติการสูญเสียเส้นผม เป้าหมาย การรักษาก่อนหน้า และความคาดหวัง — ก่อนที่ Morgan Dermatology จะพิจารณา"
           },
           {
-            "phase": "Consultation",
-            "title": "In-person evaluation",
-            "description": "The surgical team assesses donor area density, scalp laxity, and graft count feasibility. The approach (FUE, FUT, or combined) is determined based on clinical evaluation."
+            "phase": "การปรึกษา",
+            "title": "การประเมินแบบพบหน้า",
+            "description": "ทีมศัลยกรรมประเมินความหนาแน่นของบริเวณผู้บริจาค ความยืดหยุ่นของหนังศีรษะ และความเป็นไปได้ของจำนวนกราฟต์ แนวทาง (FUE, FUT หรือผสม) ถูกกำหนดตามการประเมินทางคลินิก"
           },
           {
-            "phase": "Procedure",
-            "title": "Surgery day",
-            "description": "Procedures are performed under local anesthesia. Duration depends on graft count — typically 4-8 hours for FUE. Procedure recording (CCTV + close-up camera) is standard."
+            "phase": "หัตถการ",
+            "title": "วันผ่าตัด",
+            "description": "หัตถการดำเนินการภายใต้การระงับความรู้สึก (conscious sedation) ร่วมกับการชาเฉพาะที่ — ผู้ป่วยส่วนใหญ่พักผ่อนหรือนอนหลับระหว่างหัตถการ วันผ่าตัดทั่วไปใช้เวลาตั้งแต่ประมาณ 9:00 น. ถึง 15:00 น. รวมถึงขั้นตอนการออกแบบ การสกัด การแยก และการปลูกถ่าย รากผมที่ปลูกถ่ายทุกชิ้นถูกนับแยกกันและรายงาน การบันทึกหัตถการ (CCTV + กล้องมุมใกล้) เป็นมาตรฐาน"
           },
           {
-            "phase": "Post-operative",
-            "title": "Recovery and follow-up",
-            "description": "Initial follow-up within 24-48 hours. Suture removal (FUT) or wound check (FUE) within 7-10 days. AetherHeal's continuity monitoring extends follow-up coordination for up to one year."
+            "phase": "หลังการรักษา",
+            "title": "การฟื้นตัวและการติดตามผล",
+            "description": "การติดตามผลเบื้องต้นภายใน 24-48 ชั่วโมง การถอดไหมเย็บ (FUT) หรือการตรวจแผล (FUE) ภายใน 7-10 วัน การติดตามความต่อเนื่องของ AetherHeal ขยายการประสานงานการติดตามผลนานถึงหนึ่งปี"
           }
         ]
       },
       "languages": {
-        "title": "Language support",
-        "description": "Consultations are conducted in Korean. English interpretation is available through AetherHeal's concierge coordination. Medical documentation can be provided in English upon request."
+        "title": "การสนับสนุนด้านภาษา",
+        "description": "การปรึกษาดำเนินการเป็นภาษาเกาหลี มีล่ามภาษาอังกฤษผ่านการประสานงาน concierge ของ AetherHeal เอกสารทางการแพทย์สามารถให้บริการเป็นภาษาอังกฤษตามคำขอ"
       },
       "recovery": {
-        "title": "Recovery logistics",
+        "title": "การจัดการการฟื้นตัว",
         "items": [
-          "Advance booking: Morgan Dermatology is typically booked 3+ months out. Begin coordination with AetherHeal early and plan travel around the confirmed surgery date.",
-          "Typical stay in Seoul: 3-5 days post-procedure for initial follow-up",
-          "Accommodation: Gangnam has extensive short-term accommodation options within walking distance",
-          "Activity restrictions: Light activity after 3 days, full activity after 2-3 weeks",
-          "Visible recovery: Redness and scabbing resolve within 10-14 days; initial growth visible at 3-4 months; full result at 12-18 months"
+          "การจองล่วงหน้า: Morgan Dermatology มักถูกจองล่วงหน้า 3+ เดือน เริ่มประสานงานกับ AetherHeal แต่เนิ่นๆ และวางแผนการเดินทางตามวันผ่าตัดที่ยืนยันแล้ว",
+          "ระยะเวลาพักทั่วไปในกรุงโซล: 3-5 วันหลังหัตถการสำหรับการติดตามผลเบื้องต้น",
+          "ที่พัก: Gangnam มีตัวเลือกที่พักระยะสั้นมากมายในระยะเดินจากคลินิก",
+          "การกลับทำงาน: ผู้ป่วยส่วนใหญ่กลับทำงานโต๊ะได้ภายใน 2-3 วัน หลีกเลี่ยงการออกกำลังกายหนัก แอลกอฮอล์ การสูบบุหรี่ และซาวน่าในช่วง 2 สัปดาห์แรก",
+          "ข้อจำกัดหลังการผ่าตัด: อย่าแตะหรือเกาบริเวณที่ปลูกถ่าย หลีกเลี่ยงหมวก หมวกกันน็อค หรือสิ่งที่กดทับหนังศีรษะเป็นเวลา 2 สัปดาห์ การสูบบุหรี่ทำให้หลอดเลือดฝอยตีบและลดอัตราการรอดชีวิตของกราฟต์โดยตรง — ต้องงดอย่างเคร่งครัด",
+          "Shock loss: เส้นผมที่ปลูกถ่ายมักจะหลุดร่วงที่ 2-4 สัปดาห์ — นี่คือปกติ การเจริญเติบโตใหม่เริ่มต้นที่ 3-4 เดือน (ผู้ป่วยหลายคนสังเกตเห็นการปรับปรุงที่มองเห็นได้แล้วในระยะนี้) ผลลัพธ์สุดท้ายที่ 9-12 เดือน"
         ]
       },
       "revisionGuarantee": {
-        "title": "Revision guarantee",
-        "description": "Morgan Dermatology provides a written revision surgery guarantee. If the patient is not satisfied with the outcome, one revision procedure is provided at no additional surgical cost.",
-        "detail": "The guarantee is documented in a certificate issued before the original procedure. It covers one revision, and the terms are disclosed in advance — not offered retroactively as a negotiation tool.",
-        "anchorNote": "A clinic that guarantees revision at its own cost is a clinic that has financial accountability aligned with the patient's outcome — not just the procedure fee."
+        "title": "การรับประกันการแก้ไข",
+        "description": "Morgan Dermatology ให้การรับประกันการผ่าตัดแก้ไขเป็นลายลักษณ์อักษร หากผู้ป่วยไม่พึงพอใจกับผลลัพธ์หลังจากหนึ่งปี จะได้รับการผ่าตัดแก้ไขหนึ่งครั้งโดยไม่มีค่าใช้จ่ายเพิ่มเติมทางศัลยกรรม",
+        "detail": "การรับประกันได้รับการจัดทำเป็นเอกสารในใบรับรองที่ออกก่อนหัตถการเดิม ครอบคลุมการแก้ไขหนึ่งครั้ง และเงื่อนไขได้รับการเปิดเผยล่วงหน้า — ไม่ใช่เสนอย้อนหลังเป็นเครื่องมือเจรจา นอกจากนี้ไม่มีค่าธรรมเนียมแอบซ่อนในทุกขั้นตอน: ราคาที่เสนอเริ่มต้นครอบคลุมหัตถการ การนัดติดตามผลทั้งหมด การดูแลหลังการรักษา และการตรวจสอบอย่างต่อเนื่อง",
+        "anchorNote": "คลินิกที่รับประกันการแก้ไขด้วยค่าใช้จ่ายของตนเองคือคลินิกที่มีความรับผิดชอบทางการเงินที่สอดคล้องกับผลลัพธ์ของผู้ป่วย — ไม่ใช่เพียงค่าธรรมเนียมหัตถการ"
       },
       "decisionSummary": {
-        "title": "Is Morgan Dermatology right for you?",
-        "bestForLabel": "Best for",
-        "bestFor": "Patients seeking hair transplantation with a clinic whose structural advantage is its surgical support team — a resident follicle dissection team averaging 16.5+ years of experience with 6-10 members per surgery. Also strong for complex cases requiring both FUE and FUT evaluation, with both dermatology and ABHRS-certified plastic surgery expertise on the same team.",
-        "notIdealLabel": "May not be ideal for",
-        "notIdeal": "Patients seeking non-hair aesthetic procedures, or patients who require consultations in languages other than Korean without interpreter support."
+        "title": "Morgan Dermatology เหมาะกับคุณหรือไม่?",
+        "bestForLabel": "เหมาะที่สุดสำหรับ",
+        "bestFor": "ผู้ป่วยที่ต้องการปลูกผมกับคลินิกที่มีข้อได้เปรียบเชิงโครงสร้างคือทีมสนับสนุนการผ่าตัด — ทีมแยกรากผมประจำที่มีประสบการณ์เฉลี่ยมากกว่า 16.5 ปี โดยมี 6-10 คนต่อการผ่าตัด เหมาะอย่างยิ่งสำหรับกรณีที่ซับซ้อนที่ต้องการการประเมินทั้ง FUE และ FUT โดยมีทั้งความเชี่ยวชาญด้านผิวหนังและศัลยกรรมตกแต่งที่ได้รับการรับรองจาก ABHRS ในทีมเดียวกัน",
+        "notIdealLabel": "อาจไม่เหมาะสำหรับ",
+        "notIdeal": "ผู้ป่วยที่ต้องการหัตถการสุนทรียะที่ไม่ใช่เส้นผม หรือผู้ป่วยที่ต้องการการปรึกษาในภาษาอื่นนอกจากภาษาเกาหลีโดยไม่มีการสนับสนุนล่าม"
       },
       "faq": {
-        "title": "Common questions about Morgan Dermatology",
+        "title": "คำถามทั่วไปเกี่ยวกับ Morgan Dermatology",
         "items": [
           {
-            "question": "What is the follicle dissection team and why does it matter?",
-            "answer": "Hair transplant quality depends on teamwork, not just the surgeon. Every graft is living tissue on a countdown — the longer it stays outside the body, the lower its survival rate. The total skilled labor working in parallel within that time window determines how many grafts survive. Morgan Dermatology has a resident dissection team averaging 16.5+ years of experience, with 6-10 members per surgery, all wearing 5.5x surgical loupes — the same magnification the surgeons use. This means thousands of grafts are handled with surgical-grade precision by specialists who have worked together for years. A permanent team of this size and technical standard is extremely rare globally."
+            "question": "ทีมแยกรากผมคืออะไรและสำคัญอย่างไร?",
+            "answer": "คุณภาพการปลูกผมขึ้นอยู่กับการทำงานเป็นทีม ไม่ใช่เพียงศัลยแพทย์ กราฟต์ทุกชิ้นเป็นเนื้อเยื่อที่มีชีวิตซึ่งมีการนับถอยหลัง — ยิ่งอยู่นอกร่างกายนาน อัตราการรอดชีวิตยิ่งต่ำ แรงงานที่มีทักษะรวมทั้งหมดที่ทำงานพร้อมกันภายในช่วงเวลานั้นกำหนดจำนวนกราฟต์ที่รอดชีวิต Morgan Dermatology มีทีมแยกรากผมประจำที่มีประสบการณ์เฉลี่ยมากกว่า 16.5 ปี โดยมี 6-10 คนต่อการผ่าตัด ทุกคนสวมแว่นขยายผ่าตัด 5.5x — กำลังขยายเดียวกับที่ศัลยแพทย์ใช้ ซึ่งหมายความว่ากราฟต์หลายพันชิ้นถูกจัดการด้วยความแม่นยำระดับผ่าตัดโดยผู้เชี่ยวชาญที่ทำงานร่วมกันมาหลายปี ทีมประจำขนาดและมาตรฐานทางเทคนิคนี้ถือเป็นสิ่งที่หายากมากทั่วโลก"
           },
           {
-            "question": "What makes Morgan Dermatology different from other hair transplant clinics in Korea?",
-            "answer": "Morgan Dermatology is one of the few Korean hair transplant clinics with both dermatology and plastic surgery specialists on the same team. Professor Shim brings 40+ years of academic hair loss research. Dr. Jung brings ABHRS certification and 30+ years of surgical experience. This dual-specialty structure means cases are evaluated from both a medical and a surgical perspective."
+            "question": "อะไรทำให้ Morgan Dermatology แตกต่างจากคลินิกปลูกผมอื่นๆ ในเกาหลี?",
+            "answer": "Morgan Dermatology เป็นหนึ่งในไม่กี่คลินิกปลูกผมในเกาหลีที่มีทั้งแพทย์ผิวหนังและผู้เชี่ยวชาญศัลยกรรมตกแต่งในทีมเดียวกัน Professor Shim มีประสบการณ์การวิจัยเชิงวิชาการด้านการสูญเสียเส้นผมกว่า 40 ปี Dr. Jung มีการรับรองจาก ABHRS และประสบการณ์ผ่าตัดกว่า 30 ปี โครงสร้างเฉพาะทางคู่นี้หมายความว่ากรณีได้รับการประเมินทั้งจากมุมมองทางการแพทย์และทางศัลยกรรม"
           },
           {
-            "question": "Does Morgan Dermatology perform both FUE and FUT?",
-            "answer": "Yes. The clinic offers both FUE (non-incisional) and FUT (strip method). The surgical team evaluates which approach — or a combination — is most appropriate based on the patient's donor area, coverage needs, and long-term hair loss pattern. The decision is clinical, not sales-driven."
+            "question": "Morgan Dermatology ทำทั้ง FUE และ FUT หรือไม่?",
+            "answer": "ใช่ คลินิกเสนอทั้ง FUE (ไม่ผ่าตัด) และ FUT (วิธีตัดแถบ) ทีมศัลยกรรมประเมินว่าแนวทางใด — หรือการผสมผสาน — เหมาะสมที่สุดตามบริเวณผู้บริจาคของผู้ป่วย ความต้องการการคลุม และรูปแบบการสูญเสียเส้นผมในระยะยาว การตัดสินใจเป็นทางคลินิก ไม่ใช่เพื่อการขาย"
           },
           {
-            "question": "How was Morgan Dermatology verified by AetherHeal?",
-            "answer": "AetherHeal's founding physician, Dr. Jee Hoon Ju, practiced at Morgan Dermatology as a hair transplant surgeon. His verification is based on direct clinical experience inside the facility — not a site visit or document review. This is AetherHeal's highest verification standard (Mode 1: Embedded Clinical Verification)."
+            "question": "AetherHeal ยืนยัน Morgan Dermatology อย่างไร?",
+            "answer": "แพทย์ผู้ก่อตั้ง AetherHeal Dr. Jee Hoon Ju ฝึกปฏิบัติที่ Morgan Dermatology ในฐานะศัลยแพทย์ปลูกผม การยืนยันของเขาอยู่บนพื้นฐานของประสบการณ์ทางคลินิกโดยตรงภายในสถานที่ — ไม่ใช่การเยี่ยมชมสถานที่หรือการตรวจสอบเอกสาร นี่คือมาตรฐานการยืนยันสูงสุดของ AetherHeal (Mode 1: การยืนยันทางคลินิกแบบฝังตัว)"
           },
           {
-            "question": "Can I get a consultation in English?",
-            "answer": "Consultations are conducted in Korean. AetherHeal provides English interpretation through its concierge coordination, and medical documentation can be translated upon request. The clinical evaluation itself is conducted by the Korean-speaking surgical team."
+            "question": "ฉันสามารถรับการปรึกษาเป็นภาษาอังกฤษได้หรือไม่?",
+            "answer": "การปรึกษาดำเนินการเป็นภาษาเกาหลี AetherHeal ให้บริการล่ามภาษาอังกฤษผ่านการประสานงาน concierge และเอกสารทางการแพทย์สามารถแปลตามคำขอได้ การประเมินทางคลินิกดำเนินการโดยทีมศัลยกรรมที่พูดภาษาเกาหลี"
           },
           {
-            "question": "How long do I need to stay in Seoul for a hair transplant at Morgan Dermatology?",
-            "answer": "A typical stay is 3-5 days post-procedure for initial follow-up. The procedure itself takes 4-8 hours depending on graft count. Note that Morgan Dermatology is usually booked 3+ months in advance and limits surgeries to 1-2 per day — plan your travel around the confirmed surgery date, not the other way around. AetherHeal coordinates the scheduling and recommends building your trip timeline after the surgical date is locked."
+            "question": "ฉันต้องพักอยู่ในกรุงโซลนานแค่ไหนสำหรับการปลูกผมที่ Morgan Dermatology?",
+            "answer": "ระยะเวลาพักทั่วไปคือ 3-5 วันหลังหัตถการสำหรับการติดตามผลเบื้องต้น หัตถการเองใช้เวลา 4-8 ชั่วโมงขึ้นอยู่กับจำนวนกราฟต์ โปรดทราบว่า Morgan Dermatology มักถูกจองล่วงหน้า 3+ เดือนและจำกัดการผ่าตัดที่ 1-2 ครั้งต่อวัน — วางแผนการเดินทางตามวันผ่าตัดที่ยืนยันแล้ว ไม่ใช่ทางกลับกัน AetherHeal ประสานงานการจัดตารางและแนะนำให้สร้างกำหนดการเดินทางหลังจากวันผ่าตัดถูกล็อกแล้ว"
           },
           {
-            "question": "What is the revision guarantee?",
-            "answer": "Morgan Dermatology provides a written revision surgery guarantee certificate before the original procedure. If the patient is not satisfied with the outcome, one revision surgery is covered at no additional surgical cost. The terms are disclosed upfront — this is a structural commitment to outcome accountability, not a retroactive negotiation."
+            "question": "การรับประกันการแก้ไขคืออะไร?",
+            "answer": "Morgan Dermatology มอบใบรับรองการรับประกันการผ่าตัดแก้ไขเป็นลายลักษณ์อักษรก่อนหัตถการเดิม หากผู้ป่วยไม่พึงพอใจกับผลลัพธ์หลังจากหนึ่งปี การผ่าตัดแก้ไขหนึ่งครั้งจะรวมอยู่โดยไม่มีค่าใช้จ่ายเพิ่มเติมทางศัลยกรรม เงื่อนไขได้รับการเปิดเผยล่วงหน้า — นี่คือพันธะเชิงโครงสร้างต่อความรับผิดชอบผลลัพธ์ ไม่ใช่การเจรจาย้อนหลัง"
+          },
+          {
+            "question": "การผ่าตัดเจ็บปวดหรือไม่?",
+            "answer": "Morgan Dermatology ใช้การระงับความรู้สึก (conscious sedation) ร่วมกับการชาเฉพาะที่ นอกจากการรู้สึกเจ็บเล็กน้อยระหว่างการชาเบื้องต้น — ซึ่งผู้ป่วยหลายคนแทบไม่รู้สึก — แทบไม่มีความเจ็บปวดระหว่างหัตถการ ผู้ป่วยส่วนใหญ่พักผ่อนสบายหรือนอนหลับตลอดการผ่าตัด"
+          },
+          {
+            "question": "มีค่าธรรมเนียมแอบซ่อนหรือค่าใช้จ่ายเพิ่มเติมหรือไม่?",
+            "answer": "ไม่ Morgan Dermatology เรียกเก็บเงินตามราคาที่เสนอเริ่มต้นและไม่มีค่าใช้จ่ายอื่น การนัดติดตามผลทั้งหมด การปรึกษาหลังการรักษา และการดูแลอย่างต่อเนื่องรวมอยู่ด้วย ในวันผ่าตัด คลินิกนับรากผมที่ปลูกถ่ายทุกชิ้นแยกกันและรายงานจำนวนที่แน่นอนให้ผู้ป่วยทราบ — ความโปร่งใสอย่างเต็มที่ตั้งแต่ต้นจนจบ"
+          },
+          {
+            "question": "Shock loss คืออะไรและควรกังวลหรือไม่?",
+            "answer": "Shock loss คือส่วนปกติของกระบวนการฟื้นตัวที่เส้นผมที่ปลูกถ่ายหลุดร่วงประมาณ 2-4 สัปดาห์หลังการผ่าตัด ไม่ได้หมายความว่าหัตถการล้มเหลว — รากผมยังมีชีวิตอยู่ใต้ผิวหนังและจะเริ่มผลิตเส้นผมใหม่ประมาณ 3-4 เดือน ผู้ป่วยหลายคนสังเกตเห็นการปรับปรุงที่มองเห็นได้แล้วในระยะแรก ผลลัพธ์สุดท้ายที่ดูเป็นธรรมชาติมักปรากฏที่ 9-12 เดือน ความอดทนและการดูแลติดตามผลอย่างสม่ำเสมอเป็นกุญแจสำคัญ"
           }
         ]
       },
       "reviewerMeta": {
-        "label": "Reviewed by",
+        "label": "ตรวจสอบโดย",
         "name": "Dr. Jee Hoon Ju, MD",
-        "credentials": "ABAM · MIT Sloan AI in Healthcare · Former hair transplant surgeon at Morgan Dermatology",
-        "lastReviewed": "April 2026",
-        "verificationMode": "Embedded Clinical Verification (Mode 1)"
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · อดีตผู้อำนวยการที่ Morgan Dermatology",
+        "lastReviewed": "เมษายน 2026",
+        "verificationMode": "การยืนยันทางคลินิกแบบฝังตัว (Mode 1)"
       },
       "cta": {
-        "title": "Considering hair transplantation in Korea?",
-        "subtitle": "Start with a physician-led process that structures your decision before you commit to a clinic.",
-        "primary": "Start With Someone On Your Side",
-        "secondary": "See all verified hospitals"
+        "title": "กำลังพิจารณาการปลูกผมในเกาหลีหรือไม่?",
+        "subtitle": "เริ่มต้นด้วยกระบวนการที่นำโดยแพทย์ซึ่งจัดโครงสร้างการตัดสินใจของคุณก่อนที่คุณจะมุ่งมั่นกับคลินิก",
+        "primary": "เริ่มต้นด้วยคนที่อยู่เคียงข้างคุณ",
+        "secondary": "ดูโรงพยาบาลที่ผ่านการยืนยันทั้งหมด"
+      },
+      "keyFacts": [
+        {
+          "val": "70+",
+          "label": "ประสบการณ์รวมของแพทย์ (ปี)"
+        },
+        {
+          "val": "16.5+",
+          "label": "ประสบการณ์เฉลี่ยของทีมแยกรากผม (ปี)"
+        },
+        {
+          "val": "6–10",
+          "label": "สมาชิกทีมต่อการผ่าตัด"
+        },
+        {
+          "val": "5.5×",
+          "label": "กำลังขยายแว่นผ่าตัด"
+        }
+      ]
+    },
+    "tune-clinic": {
+      "meta": {
+        "title": "Apgujeong Tune Clinic — คลินิกผิวหนังสุนทรียะที่ผ่านการยืนยันในกรุงโซล | AetherHeal",
+        "description": "Apgujeong Tune Clinic คือคลินิกผิวหนังสุนทรียะที่ได้รับการยืนยันจาก AetherHeal ใน Gangnam กรุงโซล คณะกรรมการแพทย์หกคน Chamaka-se Design Method ความเชี่ยวชาญด้านการยกกระชับ/ฟิลเลอร์/การแพทย์ฟื้นฟู การสนับสนุนผู้ป่วยใน 8 ภาษา ผ่านการยืนยันโดยบทบาทการดำเนินงานแบบฝังตัว"
+      },
+      "name": "Apgujeong Tune Clinic",
+      "nameKr": "압구정튠의원",
+      "specialty": "ผิวหนังสุนทรียะพรีเมียม · การยกกระชับ · การแพทย์ฟื้นฟู",
+      "location": "Apgujeong, Gangnam กรุงโซล",
+      "badge": "โรงพยาบาลพันธมิตรที่ผ่านการยืนยัน",
+      "oneSentenceAnswer": "Apgujeong Tune Clinic คือคลินิกผิวหนังสุนทรียะที่มีคณะกรรมการแพทย์ใน Gangnam ซึ่งแพทย์ที่ได้รับการรับรองจากคณะกรรมการหกคนที่มีความเชี่ยวชาญเสริมกัน — การออกแบบใบหน้า การยกกระชับ การแพทย์ฟื้นฟู ศัลยกรรมตกแต่ง — ให้การรักษาตามโปรโตคอลเป็นหลักภายใต้ Chamaka-se Design Method ผ่านการยืนยันโดยบทบาทการดำเนินงานแบบฝังตัวของ AetherHeal",
+      "overview": {
+        "title": "เกี่ยวกับ Apgujeong Tune Clinic",
+        "paragraphs": [
+          "Apgujeong Tune Clinic คือคลินิกผิวหนังสุนทรียะพรีเมียมใน Gangnam กรุงโซล ที่เชี่ยวชาญในการฟื้นฟูใบหน้าแบบไม่ผ่าตัด — การยกกระชับ ฟิลเลอร์ การกระตุ้นคอลลาเจน และการแพทย์ฟื้นฟู คลินิกให้บริการผู้ป่วยต่างชาติภายใต้โมเดลที่นำโดยแพทย์และยึดโปรโตคอลเป็นหลัก",
+          "คลินิกดำเนินการในรูปแบบคณะกรรมการแพทย์แทนที่จะเป็นคลินิกแพทย์คนเดียว แพทย์หกคนที่มีความเชี่ยวชาญเสริมกัน — การออกแบบใบหน้าและการต่อต้านวัย การยกกระชับ การแพทย์ฟื้นฟู ศัลยกรรมตกแต่ง และการประสานงานผู้ป่วยต่างชาติ — ฝึกปฏิบัติร่วมกันและทบทวนกรณีที่ซับซ้อนข้ามสาขา ซึ่งเป็นสิ่งผิดปกติในคลินิกสุนทรียะของเกาหลี ส่วนใหญ่สร้างรอบแพทย์ดาราคนเดียว",
+          "แกนกลางปรัชญาของคลินิกคือ Chamaka-se Design Method — กระบวนการออกแบบโปรโตคอลที่เขียนโดยแพทย์ หลักการคืออุปกรณ์เป็นสินค้าทั่วไปแต่ลำดับ ขนาด เวกเตอร์ และเหตุผลทางกายวิภาคที่ผลิตผลลัพธ์ที่เป็นธรรมชาติไม่ใช่ โปรโตคอลถูกเลือกสำหรับผู้ป่วย ไม่ใช่ผู้ป่วยถูกใส่ไว้ในโปรโตคอล ทุกกรณีได้รับการประเมินโดยแพทย์ที่ความเชี่ยวชาญตรงกับข้อบ่งชี้ที่ดีที่สุด",
+          "Tune Clinic ออกแบบมาสำหรับผู้ป่วยต่างชาติ รองรับแปดภาษา (อังกฤษ ญี่ปุ่น จีน ไทย เยอรมัน ฝรั่งเศส รัสเซีย เวียดนาม) และโมเดลการดำเนินงานของคลินิกให้ความสำคัญกับการวางแผนที่คำนึงถึงการเดินทาง — การรักษาที่เหมาะสมสำหรับเวลาที่ผู้ป่วยมีจริง ไม่ใช่เมนูทั่วไปที่นำเสนอในทุกการเยี่ยมชม",
+          "โปรโตคอลเด่น ได้แก่ Signature Lifting (การยกกระชับด้วย Ultherapy 350 ช็อตที่ปรับเทียบโดยแพทย์), Collagen Builder (Juvelook / Rejuran / การกระตุ้นแบบฟื้นฟู) และ Structural Reset (การฟื้นฟูหลายชั้นที่วางแผนทั่วทั้งใบหน้าแทนที่จะขายเป็นรายอุปกรณ์) อุปกรณ์อ้างอิงได้แก่ Ultherapy, Thermage, Inmode, Oligio, Juvelook และ Rejuran"
+        ]
+      },
+      "procedures": {
+        "title": "โปรโตคอลเด่น",
+        "items": [
+          {
+            "name": "Signature Lifting",
+            "description": "โปรโตคอลการยกกระชับ Ultherapy 350 ช็อตที่ปรับเทียบโดยแพทย์สำหรับการกระชับเนื้อเยื่อลึกตาม SMAS และชั้น dermal จำนวนช็อต เวกเตอร์ และความลึกได้รับการออกแบบต่อใบหน้า — ไม่ใช่แพ็คเกจคงที่ เหมาะสำหรับผู้ป่วยที่ต้องการยกกระชับเชิงโครงสร้างโดยไม่ผ่าตัด"
+          },
+          {
+            "name": "Collagen Builder",
+            "description": "การกระตุ้นแบบฟื้นฟูที่รวม Juvelook, Rejuran และโปรโตคอล skin booster เพื่อสร้างความหนาแน่นของ dermis ปรับปรุงคุณภาพรูขุมขน และลดเส้นบาง การเน้นคือการฟื้นฟูเชิงโครงสร้าง ไม่ใช่ความเงางามผิวเผิน"
+          },
+          {
+            "name": "Structural Reset",
+            "description": "แผนฟื้นฟูหลายชั้นที่ออกแบบทั่วทั้งใบหน้า — การยกกระชับ ปริมาตร และคุณภาพผิวได้รับการรักษาเป็นการตัดสินใจเดียวแทนที่จะเป็นการขายอุปกรณ์แยกกันสามครั้ง แผนได้รับการเขียนหลังจากการประเมินกายวิภาคด้วยตนเอง"
+          },
+          {
+            "name": "ฟิลเลอร์ (ออกแบบโดยแพทย์)",
+            "description": "ฟิลเลอร์ทั่วไป ฟิลเลอร์ใต้ตา/หู/เปลือกตาบน ฟิลเลอร์ริมฝีปาก และการแก้ไขด้วย hyaluronidase การเลือกผลิตภัณฑ์ ชั้นการฉีด และปริมาตรถูกตัดสินใจโดยแพทย์ตามคุณภาพเนื้อเยื่อและบริบทกรณี — ไม่ใช่ตามคำขอของผู้ป่วยเพียงอย่างเดียว"
+          },
+          {
+            "name": "การปรึกษา Chamaka-se Design",
+            "description": "การปรึกษาออกแบบโปรโตคอลที่นำโดยแพทย์เฉพาะของคลินิก การวิเคราะห์กายวิภาค การปรับเป้าหมาย การวางแผนที่คำนึงถึงการเดินทาง และการเขียนโปรโตคอล — ก่อนที่จะมีการตัดสินใจเกี่ยวกับอุปกรณ์ใดๆ"
+          }
+        ]
+      },
+      "team": {
+        "title": "ทีมแพทย์",
+        "surgicalTeam": {
+          "title": "คณะกรรมการแพทย์",
+          "description": "Tune Clinic มีโครงสร้างเป็นคณะกรรมการแพทย์แทนที่จะเป็นคลินิกแพทย์คนเดียว แพทย์ที่ได้รับการรับรองหกคนที่มีความเชี่ยวชาญเสริมกันฝึกปฏิบัติร่วมกันและทบทวนกรณีข้ามสาขาภายใต้วิธีการที่ยึดโปรโตคอลเป็นหลักร่วมกัน",
+          "stats": [
+            {
+              "number": "6",
+              "label": "สมาชิกคณะกรรมการแพทย์"
+            },
+            {
+              "number": "8",
+              "label": "ภาษาที่รองรับ"
+            }
+          ],
+          "explanation": "Chamaka-se Design Method คือการออกแบบโปรโตคอลที่เขียนโดยแพทย์ — อุปกรณ์เป็นสินค้าทั่วไป แต่ลำดับ ขนาด เวกเตอร์ และเหตุผลทางกายวิภาคที่ผลิตผลลัพธ์ที่เป็นธรรมชาติไม่ใช่ กรณีถูกจับคู่กับแพทย์ที่ความเชี่ยวชาญเหมาะสมที่สุดกับข้อบ่งชี้ และแผนหลายชั้นที่ซับซ้อนได้รับการทบทวนข้ามคณะกรรมการ นี่คือรากฐานการดำเนินงานของปรัชญา 'Evidence-Based Aesthetics' ของคลินิก"
+        },
+        "physicians": [
+          {
+            "name": "Dr. Seung Yeon Cha",
+            "nameKr": "차승연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-cha-seung-yeon.jpg",
+            "role": "ผู้อำนวยการ",
+            "specialty": "การออกแบบใบหน้าและการต่อต้านวัย — ผู้วางแผนหลักด้านความสมดุลของใบหน้า",
+            "credentials": [
+              "MD, Yonsei University College of Medicine",
+              "อดีตผู้อำนวยการ คลินิกศัลยกรรมตกแต่ง Cheongdam ZN",
+              "อดีตผู้อำนวยการ Mirror Plastic Surgery & Dermatology",
+              "รางวัล Medical Asia Grand Prize ประจำปี 2015 สาขาศัลยกรรมตกแต่ง",
+              "กรรมการ Korean Stem Cell Therapy Society",
+              "ปรัชญา: 'การแพทย์สุนทรียะไม่ใช่การเปลี่ยนแปลงใบหน้าของคุณ แต่เป็นการค้นหาความสมดุลที่คุณสูญเสียไป'"
+            ]
+          },
+          {
+            "name": "Dr. Kwang Yeon Kim",
+            "nameKr": "김광연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-kwang-yeon.jpg",
+            "role": "ผู้อำนวยการ",
+            "specialty": "ผู้เชี่ยวชาญการยกกระชับ — ผู้เชี่ยวชาญการกระชับตามเวกเตอร์",
+            "credentials": [
+              "อดีตผู้อำนวยการ TOX n FILL Clinic",
+              "อดีตผู้อำนวยการ Qingdao Rose Plastic Surgery (จีน)",
+              "อดีตผู้อำนวยการ Esta Plastic Surgery (จีน)",
+              "Key Doctor for Lifting (Hugel) — ผู้สอน cadaver 'Blue Rose'",
+              "ที่ปรึกษาทางคลินิก Ildong Esthetic",
+              "สมาชิกตลอดชีพ Korean Energy Therapy Society",
+              "ปรัชญา: 'การยกกระชับคือฟิสิกส์ เราคำนวณเวกเตอร์และความลึกเพื่อให้ได้ผลลัพธ์ที่เป็นธรรมชาติที่สุด'"
+            ]
+          },
+          {
+            "name": "Dr. Jee Hoon Ju",
+            "nameKr": "주지훈",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-ju-jee-hoon.jpg",
+            "role": "ผู้อำนวยการนานาชาติ",
+            "specialty": "สุนทรียศาสตร์การแพทย์ เส้นผม และการสื่อสารกับผู้ป่วยต่างชาติ",
+            "credentials": [
+              "อดีตผู้อำนวยการ Morgan Dermatology",
+              "American Board of Aesthetic Medicine (ABAM)",
+              "MIT Sloan Executive Education — Artificial Intelligence in Health Care",
+              "AHA Advanced Cardiovascular Life Support Provider",
+              "สมาชิกสามัญ Korean Hair Transplantation Society",
+              "สมาชิกสามัญ Korean Lifting Society",
+              "แพทย์ผู้ก่อตั้ง AetherHeal"
+            ]
+          },
+          {
+            "name": "Dr. Dong Hyun Jo",
+            "nameKr": "조동현",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jo-dong-hyun.jpg",
+            "role": "การแพทย์ฟื้นฟู",
+            "specialty": "กลยุทธ์เซลล์ต้นกำเนิดและการฟื้นฟูสำหรับคุณภาพเนื้อเยื่อและการฟื้นตัว",
+            "credentials": [
+              "อดีตผู้อำนวยการ Gold Plastic Surgery",
+              "ที่ปรึกษาทางคลินิก Seoul National University Hospital",
+              "ประธาน International Practical Plastic Surgery Society",
+              "กรรมการ Korean Society of Aesthetic Dermatology",
+              "กรรมการ Korean Society of Aesthetic Surgery",
+              "ผู้ตรวจสอบ Korean Stem Cell Therapy Society",
+              "คณะกรรมการวิชาการ Korean Society of Aesthetic Plastic Surgery"
+            ]
+          },
+          {
+            "name": "Dr. Beom Jin Kim",
+            "nameKr": "김범진",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-beom-jin.jpg",
+            "role": "ศัลยกรรมและการฟื้นฟู",
+            "specialty": "ความเชี่ยวชาญศัลยกรรมตกแต่งเชิงลึกสนับสนุนการตัดสินใจเชิงโครงสร้างและการส่งต่อ",
+            "credentials": [
+              "MD, Yonsei University College of Medicine",
+              "การฝึกอบรมศัลยกรรมตกแต่ง Severance Hospital",
+              "ศัลยแพทย์ตกแต่งที่ได้รับการรับรองจากคณะกรรมการ",
+              "ทุนศัลยกรรมตกแต่ง University of Pittsburgh Medical Center (UPMC)",
+              "อดีตศาสตราจารย์ Yonsei University College of Medicine",
+              "อาจารย์คลินิกศัลยกรรมตกแต่ง Yonsei University College of Medicine",
+              "สมาชิกสามัญ Korean Society of Plastic & Reconstructive Surgery",
+              "สมาชิกสามัญ Korean Society of Craniofacial Surgery"
+            ]
+          },
+          {
+            "name": "Dr. Seung Woo Jang",
+            "nameKr": "장승우",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jang-seung-woo.jpg",
+            "role": "ที่ปรึกษาทางการแพทย์",
+            "specialty": "MD, PhD — ความเชี่ยวชาญเชิงที่ปรึกษาสำหรับการประเมินกุมารเวชศาสตร์และการแพทย์ทั่วไป",
+            "credentials": [
+              "MD, PhD — กุมารแพทย์ที่ได้รับการรับรองจากคณะกรรมการ",
+              "อาจารย์คลินิก Chosun University College of Medicine",
+              "อดีตผู้อำนวยการ Yeosu Munhwa Hospital",
+              "อดีตผู้อำนวยการ Gwangju Woori Pediatrics",
+              "อดีตผู้อำนวยการ Mokpo Children's Hospital",
+              "แพทย์ที่ได้รับการรับรอง Korean Geriatrics Society",
+              "สมาชิกสามัญ Korean Lifting Society"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "การยืนยันจาก AetherHeal",
+        "mode": "การยืนยันทางคลินิกแบบฝังตัว",
+        "modeLabel": "Mode 1",
+        "modeSublabel": "บทบาทการดำเนินงาน + การฝึกปฏิบัติปัจจุบัน",
+        "modeDescription": "Dr. Jee Hoon Ju ดำรงตำแหน่งผู้อำนวยการนานาชาติที่ Apgujeong Tune Clinic และฝึกปฏิบัติที่นี่ในฐานะแพทย์สุนทรียศาสตร์การแพทย์ การประเมินของ AetherHeal อยู่บนพื้นฐานของประสบการณ์การดำเนินงานโดยตรงภายในคลินิก — วัฒนธรรมการตัดสินใจ การกำกับดูแลโปรโตคอล กระบวนการยกระดับกรณีของคณะกรรมการแพทย์ และการจัดการผู้ป่วยต่างชาติ นี่ไม่ใช่การเยี่ยมชมสถานที่หรือการตรวจสอบเอกสาร แต่เป็นการประเมินจากคนในที่ทำงานจริง",
+        "methodologyLink": "อ่านวิธีการยืนยันฉบับสมบูรณ์"
+      },
+      "patientProcess": {
+        "title": "กระบวนการสำหรับผู้ป่วยต่างชาติ",
+        "steps": [
+          {
+            "phase": "ก่อนเดินทาง",
+            "title": "การจัดโครงสร้างกรณี",
+            "description": "AetherHeal จัดโครงสร้างกรณีของคุณ — ความกังวล เป้าหมาย การรักษาก่อนหน้า และความคาดหวัง — ก่อนที่คณะกรรมการแพทย์ Tune Clinic จะพิจารณา คุณจะได้รับทิศทางเบื้องต้นก่อนบิน"
+          },
+          {
+            "phase": "การปรึกษา",
+            "title": "การปรึกษา Chamaka-se Design",
+            "description": "การประเมินกายวิภาคด้วยตนเอง แพทย์ที่ความเชี่ยวชาญตรงกับกรณีของคุณมากที่สุด (การออกแบบใบหน้า การยกกระชับ การฟื้นฟู หรือผสมผสาน) นำการปรึกษาและเขียนโปรโตคอล นี่คือจุดที่ตัดสินใจแผนการรักษา — ไม่ใช่ก่อนหน้านั้น"
+          },
+          {
+            "phase": "หัตถการ",
+            "title": "วันรักษา",
+            "description": "โปรโตคอลส่วนใหญ่เป็นวันเดียวกันหรือวันถัดไปหลังการปรึกษา ขึ้นอยู่กับความซับซ้อน ความเสี่ยงรอยช้ำ และช่วงเวลาการเดินทาง การรักษาดำเนินการภายใต้การชาเฉพาะที่หรือการทาชาตามความเหมาะสม การระงับความรู้สึกพร้อมใช้งานสำหรับแผนที่ยาวนาน ทุกหัตถการดำเนินการโดยแพทย์ (ไม่มอบหมายให้พยาบาลหรือช่างเทคนิค)"
+          },
+          {
+            "phase": "หลังการรักษา",
+            "title": "การฟื้นตัวและการติดตามผล",
+            "description": "การทบทวนเบื้องต้นภายใน 24-48 ชั่วโมงหากเป็นไปได้ คำแนะนำหลังการดูแลคำนึงถึงการเดินทาง — เวลาบิน การสัมผัสแสงแดด การกลับทำกิจกรรม — ไม่ใช่ใบแนะนำการดูแลทั่วไป การติดตามความต่อเนื่องของ AetherHeal ขยายการประสานงานการติดตามผลเกินกว่าการเยี่ยมคลินิก"
+          }
+        ]
+      },
+      "languages": {
+        "title": "การสนับสนุนด้านภาษา",
+        "description": "Tune Clinic รองรับผู้ป่วยต่างชาติในแปดภาษา ได้แก่ อังกฤษ ญี่ปุ่น จีน ไทย เยอรมัน ฝรั่งเศส รัสเซีย และเวียดนาม การปรึกษาดำเนินการพร้อมการแปลของผู้ประสานงาน และ Dr. Ju (ผู้อำนวยการนานาชาติ) ให้การปรึกษาโดยตรงเป็นภาษาอังกฤษสำหรับกรณีที่ซับซ้อน เอกสารทางการแพทย์สามารถให้บริการเป็นภาษาอังกฤษตามคำขอ"
+      },
+      "recovery": {
+        "title": "การจัดการการฟื้นตัว",
+        "items": [
+          "การติดต่อล่วงหน้า: อย่างน้อยหลายวัน; ยิ่งมีเวลามากขึ้นยิ่งดีหากต้องการคำแนะนำโปรโตคอลก่อนเดินทาง การประสานงานตารางเวลา หรือความช่วยเหลือในการตัดสินใจว่าประเภทการรักษาใดเหมาะกับใบหน้าและระยะเวลาการเดินทางของคุณ แผนหลายชั้นที่ซับซ้อนได้รับประโยชน์จากการจัดโครงสร้างกรณีล่วงหน้า 1-2 สัปดาห์",
+          "ระยะเวลาพักทั่วไปในกรุงโซล: 2-5 วันขึ้นอยู่กับโปรโตคอล การรักษาด้วยพลังงาน (การยกกระชับ เลเซอร์) มักบินได้ภายใน 24 ชั่วโมง ฟิลเลอร์และโปรโตคอลที่มีความเสี่ยงรอยช้ำต้องใช้เวลาฟื้นตัวนานกว่า",
+          "ที่พัก: Apgujeong และ Cheongdam มีตัวเลือกที่พักระยะสั้นมากมายในระยะเดิน คลินิกสามารถแนะนำตัวเลือกที่คำนึงถึงการเดินทางตามโปรโตคอลของคุณ",
+          "การกลับบิน: ขึ้นอยู่กับการรักษา การยกกระชับและอุปกรณ์พลังงาน — มักบินได้วันถัดไป ฟิลเลอร์ โดยเฉพาะบริเวณกลางใบหน้า — วางแผนสำหรับรอยช้ำและการพิจารณาท่านอน 3-7 วัน",
+          "ข้อจำกัดหลังการรักษา: หลีกเลี่ยงแอลกอฮอล์ ซาวน่า การออกกำลังกายหนัก และการสัมผัสแสงแดดนาน 48-72 ชั่วโมงแรก (แตกต่างตามโปรโตคอล) ครีมกันแดดและสกินแคร์อ่อนโยนเท่านั้น",
+          "การวางแผนการเดินทางระยะสั้น: หากคุณมีเพียง 2-3 วันในกรุงโซล คลินิกให้ความสำคัญกับอัตราส่วนของผลที่มองเห็นต่อ downtime — บางครั้งแผนที่เล็กกว่าและสะอาดกว่ามีค่ามากกว่าการพยายามทำทุกอย่างในการเยี่ยมชมครั้งเดียว"
+        ]
+      },
+      "decisionSummary": {
+        "title": "Apgujeong Tune Clinic เหมาะกับคุณหรือไม่?",
+        "bestForLabel": "เหมาะที่สุดสำหรับ",
+        "bestFor": "ผู้ป่วยที่ต้องการการดูแลสุนทรียะที่นำโดยโปรโตคอลและเขียนโดยแพทย์ แทนที่จะเลือกชื้อตามรายการอุปกรณ์ เหมาะอย่างยิ่งสำหรับการยกกระชับ ฟิลเลอร์ การแพทย์ฟื้นฟู และการฟื้นฟูใบหน้าหลายชั้น เหมาะเป็นพิเศษสำหรับผู้ป่วยต่างชาติที่ต้องการการทบทวนจากแพทย์หลายสาขาและการวางแผนที่คำนึงถึงการเดินทาง",
+        "notIdealLabel": "อาจไม่เหมาะสำหรับ",
+        "notIdeal": "ผู้ป่วยที่ต้องการศัลยกรรมตกแต่ง (Tune Clinic เป็นผิวหนังสุนทรียะแบบไม่ผ่าตัด) ผู้ป่วยที่เกณฑ์การตัดสินใจหลักคือราคาต่ำสุด — ข้อได้เปรียบเชิงโครงสร้างของคลินิกคือการตัดสินใจของแพทย์และคุณภาพโปรโตคอล ไม่ใช่การแข่งขันด้านราคา"
+      },
+      "faq": {
+        "title": "คำถามทั่วไปเกี่ยวกับ Apgujeong Tune Clinic",
+        "items": [
+          {
+            "question": "ฉันสามารถรับการรักษาในวันเดียวกับการปรึกษาได้หรือไม่?",
+            "answer": "บ่อยครั้งได้ แต่เฉพาะหลังจากที่แพทย์ยืนยันว่าประเภทการรักษา ลำดับ และความคาดหวังการฟื้นตัวเหมาะสมกับใบหน้าและตารางเวลาของคุณ หลักการของคลินิกคือความเหมาะสมของการรักษาถูกตัดสินโดยแพทย์ในการปรึกษา ไม่ใช่สมมติก่อนเดินทางมาถึง"
+          },
+          {
+            "question": "ควรติดต่อคลินิกล่วงหน้าก่อนเดินทางนานแค่ไหน?",
+            "answer": "อย่างน้อยหลายวันเป็นขั้นต่ำที่ดี ยิ่งมีเวลานำมากขึ้นยิ่งดีหากต้องการคำแนะนำโปรโตคอลก่อนเดินทาง การประสานงานตารางเวลา หรือความช่วยเหลือในการตัดสินใจว่าประเภทการรักษาใดเหมาะกับใบหน้าและระยะเวลาการเดินทางของคุณ แผนหลายชั้นที่ซับซ้อนได้รับประโยชน์จากการจัดโครงสร้างกรณีล่วงหน้า 1-2 สัปดาห์"
+          },
+          {
+            "question": "มีการสนับสนุนภาษาอังกฤษที่คลินิกหรือไม่?",
+            "answer": "ใช่ Tune Clinic มีโครงสร้างรอบการสื่อสารกับผู้ป่วยต่างชาติ พร้อมการประสานงานที่พูดภาษาอังกฤษและเส้นทางการสนับสนุนสำหรับการสอบถามเป็นภาษาญี่ปุ่น จีน ไทย เยอรมัน ฝรั่งเศส รัสเซีย และเวียดนาม Dr. Ju ผู้อำนวยการนานาชาติ ให้การปรึกษาโดยตรงเป็นภาษาอังกฤษสำหรับกรณีที่ซับซ้อน"
+          },
+          {
+            "question": "ฉันสามารถบินได้เร็วหลังการรักษาหรือไม่?",
+            "answer": "ในหลายกรณีได้ โดยเฉพาะหลังจากการรักษาด้วยพลังงานที่เป็นมิตรกับการเดินทาง เช่น Ultherapy หรือ Thermage แต่คำตอบจะเปลี่ยนหากคุณกำลังพิจารณาฟิลเลอร์ การรักษาที่มีความเสี่ยงรอยช้ำ หรือแผนที่ต้องใช้เวลาฟื้นตัวที่มองเห็นได้ คำแนะนำหลังการดูแลของคลินิกคำนึงถึงการเดินทาง — เวลาบินเป็นส่วนหนึ่งของการออกแบบโปรโตคอล ไม่ใช่ความคิดที่เพิ่มทีหลัง"
+          },
+          {
+            "question": "ถ้าฉันมีเพียงสองหรือสามวันในกรุงโซลล่ะ?",
+            "answer": "การเลือกการรักษาต้องให้ความสำคัญกับอัตราส่วนของผลที่มองเห็นต่อ downtime บางครั้งแผนที่เล็กกว่าและสะอาดกว่ามีค่ามากกว่าการพยายามทำมากเกินไปในการเยี่ยมชมครั้งเดียว Chamaka-se Design Method ของคลินิกถูกสร้างขึ้นโดยชัดเจนรอบการวางแผนการรักษาที่เหมาะสมสำหรับเวลาที่ผู้ป่วยมีจริง"
+          },
+          {
+            "question": "คลินิกสามารถบอกฉันได้ว่าฉันต้องการอะไรจากรูปถ่ายเพียงอย่างเดียวหรือไม่?",
+            "answer": "รูปถ่ายมีประโยชน์สำหรับทิศทาง แต่แผนสุดท้ายยังต้องการการยืนยันด้วยตนเองเกี่ยวกับคุณภาพเนื้อเยื่อ ความไม่สมมาตร การแสดงออก สภาพผิว และความทนทานต่อการฟื้นตัว การปรึกษาล่วงหน้าจากรูปถ่ายมีคุณค่าสำหรับการจำกัดทิศทาง แต่โปรโตคอลเองจะถูกเขียนด้วยตนเอง"
+          },
+          {
+            "question": "โครงสร้าง 'Medical Board' ของ Tune Clinic หมายความว่าอย่างไรสำหรับการดูแลของฉัน?",
+            "answer": "หมายความว่ากรณีของคุณได้รับการประเมินโดยแพทย์ที่ความเชี่ยวชาญตรงกับกรณีของคุณมากที่สุด — การออกแบบใบหน้า การยกกระชับ การแพทย์ฟื้นฟู หรือศัลยกรรมตกแต่ง — แทนที่จะนำผู้ป่วยทุกคนไปหาแพทย์คนเดียว กรณีหลายชั้นที่ซับซ้อนได้รับการทบทวนข้ามคณะกรรมการ ซึ่งเป็นสิ่งผิดปกติในคลินิกสุนทรียะของเกาหลี ส่วนใหญ่สร้างรอบแพทย์ดาราคนเดียว"
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "ตรวจสอบโดย",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · ผู้อำนวยการนานาชาติที่ Apgujeong Tune Clinic",
+        "lastReviewed": "เมษายน 2026",
+        "verificationMode": "การยืนยันทางคลินิกแบบฝังตัว (Mode 1)"
+      },
+      "cta": {
+        "title": "กำลังพิจารณาการดูแลสุนทรียะในกรุงโซลหรือไม่?",
+        "subtitle": "เริ่มต้นด้วยกระบวนการที่นำโดยแพทย์ซึ่งจัดโครงสร้างการตัดสินใจของคุณก่อนที่คุณจะมุ่งมั่นกับคลินิก",
+        "primary": "เริ่มต้นด้วยคนที่อยู่เคียงข้างคุณ",
+        "secondary": "ดูโรงพยาบาลที่ผ่านการยืนยันทั้งหมด"
       }
     }
   }

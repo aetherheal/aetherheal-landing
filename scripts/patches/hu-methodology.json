@@ -1,0 +1,160 @@
+{
+  "methodology": {
+    "meta": {
+      "title": "Hogyan ellenőrzünk kórházakat | AetherHeal ellenőrzési módszertan",
+      "description": "Az AetherHeal a partnerközpontokat két rétegen keresztül ellenőrzi: egy közzétett minimumkövetelménnyel, amely öt nem tárgyalható feltételt tartalmaz, és az Angyal Orvosok által végzett független klinikai értékeléssel. A jelentkezők 31%-át elutasítottuk."
+    },
+    "hero": {
+      "badge": "Ellenőrzési módszertan",
+      "h1": "Hogyan ellenőrzünk",
+      "h1Highlight": "kórházakat",
+      "oneSentenceAnswer": "Az AetherHeal két rétegen keresztül ellenőrzi a kórházakat: egy közzétett minimumkövetelménnyel, amelyet a szervezet alkalmaz, és az Angyal Orvosok által végzett független klinikai értékeléssel.",
+      "intro": "A legtöbb orvosi turizmus platform csupán listázza a kórházakat. Néhány azt állítja, hogy átvilágítja őket. Az AetherHeal közzéteszi minimumkövetelményét, megnevezi a szempontokat, és nyilvánosságra hozza az elutasítási arányt — mert az ellenőrzés, amely nem vizsgálható meg, nem valódi ellenőrzés."
+    },
+    "whyItMatters": {
+      "title": "Miért számít az ellenőrzés",
+      "paragraphs": [
+        "Az orvosi turizmus piacán a betegek nem tudják megkülönböztetni a klinikai minőséget a marketingminőségtől. Egy kifinomult weboldal, magas Google-értékelés és híresség általi ajánlás semmit sem árul el az orvosok képesítéséről, az árak átláthatóságáról, vagy arról, mi történik, ha valami rosszul sül el.",
+        "Az ellenőrzés célja, hogy ezt a megkülönböztetést a beteg nevében elvégezze — mielőtt a beteg elkötelezte magát egy kórház, egy repülőjegy vagy egy beavatkozás mellett.",
+        "Az AetherHeal ellenőrzése nem jóváhagyási pecsét. Ez egy következményekkel járó standard. A feltételeket nem teljesítő kórházakat elutasítják. A feltételeket teljesítőket folyamatosan figyelik. A standard az standard."
+      ]
+    },
+    "layer1": {
+      "badge": "1. réteg — Közzétett standard",
+      "title": "A minimumkövetelmény",
+      "intro": "Minden pályázó kórháznak öt nem tárgyalható feltételt kell teljesítenie. Ezek binárisak — megfelelt vagy nem felelt meg — és nyilvános nyilvántartásokkal, illetve intézményi dokumentációval ellenőrizhetők. Az AetherHeal azért teszi ezeket közzé, mert elrejtésük aláásná azt a bizalmat, amelynek megteremtésére a platform törekszik.",
+      "criteria": [
+        {
+          "title": "Orvosi engedély ellenőrzése",
+          "description": "Az AetherHeal betegeinél beavatkozást végző minden orvosnak érvényes koreai orvosi engedéllyel kell rendelkeznie a bejelentett szakterületén.",
+          "basis": "Ellenőrzés: a Koreai Egészségügyi és Szociális Minisztérium orvosi nyilvántartásával összevetve."
+        },
+        {
+          "title": "Árak átláthatósága",
+          "description": "A kórháznak minden betegelirányítás előtt be kell nyújtania az AetherHeal számára a teljes díjstruktúráját, beleértve az összes lehetséges pótköltséget. A nem közzétett díjak az elutasítás alapját képezik.",
+          "basis": "Ellenőrzés: közvetlen díjszabás-benyújtás és a betegeknek adott árajánlatokkal való összevetés útján."
+        },
+        {
+          "title": "Beavatkozás-rögzítési szabályzat",
+          "description": "A szedáció alatt végzett beavatkozásokat CCTV-vel és közeli kamerával kell rögzíteni. A felvételeknek kérésre elérhetőknek kell lenniük a beteg számára. A rögzítést megtagadó kórházakat elutasítják.",
+          "basis": "Ellenőrzés: létesítmény-ellenőrzéssel és írásos szabályzat-megerősítéssel."
+        },
+        {
+          "title": "Posztoperatív nyomon követési protokoll",
+          "description": "A kórháznak dokumentált posztoperatív nyomon követési protokollt kell fenntartania, amely a beavatkozást követően legalább 30 napig terjed, a nemzetközi betegek számára kijelölt kapcsolattartóval.",
+          "basis": "Ellenőrzés: protokoll-dokumentáció és a nemzetközi betegkoordinátor megerősítése révén."
+        },
+        {
+          "title": "Tájékozott beleegyezési standard",
+          "description": "A betegnek minden beavatkozás előtt anyanyelvén kell megkapnia a tájékozott beleegyezési dokumentációt, beleértve a kockázatokat, az alternatívákat és a várható eredményeket.",
+          "basis": "Ellenőrzés: beleegyezési nyomtatványok áttekintésével és a fordítási folyamat megerősítésével."
+        }
+      ],
+      "footnote": "Ez az öt feltétel a minimum. Az összes ötöt teljesítő kórház megfelelt a minimumkövetelménynek — nem szerzett ajánlást. Az ajánlás a 2. rétegből következik."
+    },
+    "layer2": {
+      "badge": "2. réteg — Angyal Orvos értékelés",
+      "title": "A klinikai értékelés",
+      "paragraphs": [
+        "A minimumkövetelményen túl minden kórház független klinikai értékelésen esik át, amelyet egy Angyal Orvos végez — egy engedéllyel rendelkező koreai orvos, aki az AetherHeal irányítási struktúrájában működik, és semmilyen pénzügyi kapcsolata nincs az értékelt kórházzal.",
+        "Ez az értékelés a klinikai minőség olyan dimenzióit méri fel, amelyeket egy ellenőrzőlista nem tud megragadni: a sebészeti csapat kompetenciáját, az orvosok és betegek közötti kommunikációs kultúrát, az intézmény őszinteségét képességeiről és korlátairól, a marketingállítások és a tényleges gyakorlat közötti összhangot, valamint az intézményi reagálást szövődmények esetén.",
+        "Az értékelés konkrét szempontjai nem kerülnek közzétételre. Ez szándékos döntés. A képzett, független orvos által gyakorolt klinikai ítélőképesség az irányadó — nem egy olyan pontozórendszer, amellyel szemben az előadás optimalizálható. A szempontok közzétételével a kórházak a standard fenntartása helyett az értékelésen való teljesítmény optimalizálására törekednének."
+      ],
+      "quote": "Az ellenőrzőlista megmondja, mire készült fel a kórház a szemlére. Az orvos, aki a rendszeren belül dolgozott, megmondja, mi történik, amikor a szemle véget ér.",
+      "foundingNote": {
+        "badge": "Alapítói kohorsz",
+        "text": "Az AetherHeal alapítói partnerközpontjait az alapító orvos értékelte közvetlen beágyazott klinikai gyakorlat vagy orvosi hálózaton keresztüli értékelés útján. A hálózat bővülésével minden új kórházi értékelést Angyal Orvosok végeznek ugyanazon irányítási keretrendszer és függetlenségi követelmények szerint."
+      }
+    },
+    "rejection": {
+      "badge": "Elutasítási átláthatóság",
+      "title": "Mi vezet egy kórház elutasításához",
+      "intro": "Az ellenőrzésnek következményei vannak. Nem minden pályázó kórházat fogadnak el. Az AetherHeal nyilvánosságra hozza az elutasítási arányát és az elutasítás kategóriáit — anélkül, hogy konkrét kórházakat megnevezne.",
+      "stats": [
+        {
+          "number": "13",
+          "label": "Értékelt"
+        },
+        {
+          "number": "4",
+          "label": "Elutasított"
+        },
+        {
+          "number": "9",
+          "label": "Ellenőrzött"
+        }
+      ],
+      "reasons": [
+        "Ellenőrizetlen orvosi képesítések — a kórház nem tudta igazolni az érvényes szakterületi engedélyt minden, a nemzetközi betegeknek beavatkozást végző orvos esetében.",
+        "Nem közzétett díjstruktúra — a kórház díjszabása rejtett költségeket vagy pótdíjakat tartalmazott, amelyeket az eredeti árajánlati folyamat során nem hoztak nyilvánosságra.",
+        "Beavatkozás-rögzítés megtagadása — a kórház megtagadta a CCTV és közelkamera-rögzítés bevezetését a szedáció alatt végzett beavatkozásokhoz.",
+        "Elégtelen posztoperatív nyomon követés — nincs dokumentált protokoll a nemzetközi betegek elbocsátást követő nyomon követésére."
+      ],
+      "anonymityNote": "Az elutasított kórházakat nyilvánosan nem nevezik meg. A közzététel célja annak bizonyítása, hogy a standardnek következményei vannak — nem az intézmények megkárosítása, amelyek fejlődhetnek és újra pályázhatnak."
+    },
+    "monitoring": {
+      "title": "Folyamatos monitoring",
+      "intro": "Az ellenőrzés nem egyszeri esemény. A partnerközpontok folyamatos monitoringnak vannak kitéve, és az újraértékelést az alábbiak bármelyike kiválthatja:",
+      "triggers": [
+        "Betegjogos panasz vagy kedvezőtlen kimenetelről szóló jelentés az AetherHeal folytonossági monitoring rendszerén keresztül",
+        "A kórház orvosi igazgatójának vagy kulcsfontosságú sebészeti munkatársainak változása",
+        "Hatósági intézkedés vagy engedélyfelfüggesztés, amely érinti a kórházat vagy orvosait",
+        "Az árak átláthatóságának vagy a tájékozott beleegyezési standardek fenntartásának elmulasztása aktív betegutak során",
+        "Az AetherHeal beteg kezelés utáni nyomon követési koordinációjával való együttműködés megtagadása",
+        "Időszakos ütemezett újraértékelés (minden partner esetében évente)"
+      ]
+    },
+    "decisionSummary": {
+      "title": "Ez az oldal Önnek szól?",
+      "bestForLabel": "A legjobban megfelel",
+      "bestFor": "Azoknak a betegeknek, akik meg szeretnék érteni, hogyan választja ki és ellenőrzi az AetherHeal a partnerközpontokat, mielőtt megkezdik saját útjukat.",
+      "notIdealLabel": "Nem ideális",
+      "notIdeal": "Azoknak a betegeknek, akik kórházjegyzéket, beavatkozás-katalógust vagy árösszehasonlítást keresnek. Ezek más eszközök, más kérdésekre."
+    },
+    "faq": {
+      "title": "Kérdések az ellenőrzéssel kapcsolatban",
+      "items": [
+        {
+          "question": "Újra pályázhat egy elutasított kórház?",
+          "answer": "Igen. Az elutasított kórház az elutasítást okozó konkrét hiányosság orvoslása után újra pályázhat. Az újraértékelés ugyanazt a kétrétegű folyamatot követi. A korábbi elutasítás nem jár szankcióval — csak az értékeléskor fennálló standard nem teljesítése."
+        },
+        {
+          "question": "Milyen gyakran értékelik újra a partnerközpontokat?",
+          "answer": "Minden partnerközpont évente ütemezett újraértékelésen esik át. Az ütemezetlen újraértékelést bármikor kiválthatja betegjogos panasz, személyzeti változások, hatósági intézkedések vagy aktív betegutak során fellépő működési hibák."
+        },
+        {
+          "question": "Kap-e az AetherHeal fizetséget a kórházaktól az ellenőrzésért?",
+          "answer": "Nem. Az AetherHeal nem számít fel díjat a kórházaknak az ellenőrzési folyamatért. A partnerközpontok éves tagsági díjat fizetnek a felvételük után, de ez a díj nem befolyásolja az ellenőrzés eredményét. Az értékelés bármilyen kereskedelmi kapcsolat létrejötte előtt történik."
+        },
+        {
+          "question": "Minden ellenőrzött kórház egyformán ajánlott?",
+          "answer": "Nem. Minden ellenőrzött kórház megfelelt a minimumkövetelménynek és az Angyal Orvos klinikai értékelésének, de a párosítás klinikai alkalmasságon alapul — nem egyenlő rotáción. Egy hajátültetést fontolgató beteg a releváns szakterületű kórházakhoz kerül párosításra, nem a hálózat minden ellenőrzött kórházához."
+        },
+        {
+          "question": "Miért nem kerülnek közzétételre a 2. réteg szempontjai?",
+          "answer": "Mert a klinikai ítélőképesség nem redukálható ellenőrzőlistává anélkül, hogy ne gyengülne. A konkrét értékelési dimenziók közzétételével a kórházak az értékelésen való teljesítmény optimalizálására ösztönöznének a standard fenntartása helyett. Az Angyal Orvos függetlensége és klinikai kompetenciája a minőségellenőrzés — nem egy pontozórendszer."
+        },
+        {
+          "question": "Kik az Angyal Orvosok?",
+          "answer": "Az Angyal Orvosok engedéllyel rendelkező koreai orvosok, akik az AetherHeal irányítási struktúrájában működnek. Semmilyen pénzügyi kapcsolatuk nincs a hálózat egyetlen kórházával sem, és nem kapnak ajánlásalapú díjazást. Szerepük magában foglalja a betegek esetének felülvizsgálatát és a kórházak klinikai értékelését egyaránt. Az alapítói értékeléseket az AetherHeal alapító orvosa végezte."
+        },
+        {
+          "question": "Mi történik, ha egy ellenőrzött kórház standardjei megváltoznak?",
+          "answer": "Ha a monitoring a standardek romlását tárja fel — betegvisszajelzések, személyzeti változások vagy működési hibák révén — a kórház újraértékelési folyamatba lép. Ha az újraértékelés megerősíti a romlást, a kórház ellenőrzött státusza felfüggesztésre kerül a hiányosság orvoslásáig. A felfüggesztés nem kerül nyilvánosságra, de az aktív utakon lévő érintett betegeket értesítik, és alternatív koordinációt ajánlanak fel nekik."
+        }
+      ]
+    },
+    "reviewerMeta": {
+      "label": "Felülvizsgálta",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "2026. április"
+    },
+    "cta": {
+      "title": "Kezdje valakivel az Ön oldalán",
+      "subtitle": "Ha koreai orvosi ellátást fontolgat, kezdje olyan folyamattal, ahol a kórházakat már megvizsgálták — mielőtt megérkezik.",
+      "primary": "Kezdje valakivel az Ön oldalán",
+      "secondary": "Tekintse meg a Bizalmi protokollt"
+    }
+  }
+}

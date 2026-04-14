@@ -1,0 +1,131 @@
+{
+  "common": {
+    "footer": {
+      "guideLinks": {
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "Apgujeong Tune Clinic"
+      },
+      "platformLinks": {
+        "verificationMethodology": "Verification Methodology"
+      }
+    }
+  },
+  "home": {
+    "partners": {
+      "methodologyCta": "Verification Methodology"
+    },
+    "coverage": {
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
+      ]
+    }
+  },
+  "aestheticClinic": {
+    "tunePartner": {
+      "badge": "Verified Partner",
+      "title": "Apgujeong Tune Clinic",
+      "description": "A verified AetherHeal partner for aesthetic dermatology in Seoul. Dr. Jee Hoon Ju serves as International Director and currently practices here — our evaluation is based on embedded operational role inside the clinic, not a site visit. Physician-board structure, Chamaka-se Design Method, 8-language patient support.",
+      "cta": "See the verification"
+    }
+  },
+  "hairTransplant": {
+    "morganPartner": {
+      "badge": "Verified Partner",
+      "title": "Morgan Dermatology",
+      "description": "A verified AetherHeal partner for hair transplantation. Dr. Jee Hoon Ju practiced here directly as a hair transplant surgeon — our evaluation is based on embedded clinical experience, not a site visit.",
+      "cta": "See the verification "
+    }
+  },
+  "trustProtocol": {
+    "methodologyLink": "See how we evaluate hospitals →",
+    "reviewerMeta": {
+      "label": "Reviewed by",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
+  },
+  "hospitalAbroad": {
+    "reviewerMeta": {
+      "label": "Reviewed by",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "April 2026",
+      "methodologyLinkText": "See how we verify hospitals →"
+    },
+    "hero": {
+      "oneSentenceAnswer": "Choose a hospital abroad by verifying physician credentials, pricing transparency, and post-operative continuity — before you weigh price, marketing, or brand rank."
+    },
+    "decisionSummary": {
+      "title": "Is this page for you?",
+      "bestForLabel": "Best for",
+      "bestFor": "Patients comparing hospitals across countries who are unsure how to weigh marketing signals against clinical reality.",
+      "notIdealLabel": "Not ideal for",
+      "notIdeal": "Patients looking for a directory of specific hospitals or a fixed price list — those are different tools for different questions.",
+      "keyRisksLabel": "Key risks if you skip this",
+      "keyRisks": "Choosing on price or popularity alone, underestimating post-operative follow-up logistics, and treating a high Google rating as a clinical quality signal.",
+      "commonMisconceptionLabel": "Common misconception",
+      "commonMisconception": "“A famous hospital is a safe hospital.” Fame measures marketing reach, not clinical outcomes."
+    }
+  },
+  "physician": {
+    "hero": {
+      "intro": "A physician who verified partner hospitals by working inside them — as Director and practicing hair transplant surgeon at Morgan Dermatology, as International Director and medical aesthetic physician at Apgujeong Tune Clinic, and as a clinical team member across the founding partner cohort. Before building AetherHeal, he was the patient who could not see what went wrong."
+    },
+    "verification": {
+      "badge": "Verification Methodology",
+      "title": "How I verify hospitals",
+      "intro": "Most medical tourism platforms verify hospitals from the outside — site visits, document reviews, checklists. I verified AetherHeal's founding partners by working inside them as a practicing physician. That is a different standard.",
+      "mode1": {
+        "title": "Embedded Clinical Verification",
+        "description": "Hospitals where I practiced directly as a physician or held operational leadership roles. My evaluation is based on firsthand experience of clinical standards, team operations, equipment quality, and patient handling — not from a tour, but from working there.",
+        "hospitals": [
+          {
+            "name": "Morgan Dermatology",
+            "role": "Former Director & practicing hair transplant surgeon"
+          },
+          {
+            "name": "Apgujeong Tune Clinic",
+            "role": "Practicing skin aesthetic medicine specialist (current)"
+          },
+          {
+            "name": "Apgujeong Min Dental",
+            "role": "Head of Future Planning"
+          }
+        ]
+      },
+      "mode2": {
+        "title": "Physician-Network Evaluation",
+        "description": "Hospitals assessed through director-level relationships, clinical credential review, and outcome evaluation. I evaluated the directors' training backgrounds, surgical team composition, and facility standards — but did not practice there myself.",
+        "hospitals": [
+          {
+            "name": "B&N Eye Clinic",
+            "basis": "Established major institution. Personal relationship with Director Kim Jin-guk. Evaluated facility standards and surgical team."
+          },
+          {
+            "name": "Woori Plastic Surgery",
+            "basis": "Director-level assessment. Surgical team includes multiple Asan Hospital professor-origin plastic surgeons."
+          },
+          {
+            "name": "Hosan Hospital",
+            "basis": "Clinical evaluation of directors, track record, and patient outcomes in women's plastic surgery."
+          },
+          {
+            "name": "The Well Dental",
+            "basis": "Clinical evaluation of directors, treatment approach, and facility standards in adult dentistry."
+          }
+        ]
+      },
+      "methodologyLink": "Read the full verification methodology"
+    }
+  }
+}

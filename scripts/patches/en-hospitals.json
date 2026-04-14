@@ -1,0 +1,530 @@
+{
+  "hospitals": {
+    "slugs": [
+      "morgan-dermatology",
+      "tune-clinic"
+    ],
+    "morgan-dermatology": {
+      "meta": {
+        "title": "Morgan Dermatology — Verified Hair Transplant Clinic | AetherHeal",
+        "description": "Morgan Dermatology is an AetherHeal-verified hair transplant clinic in Gangnam, Seoul. Resident follicle dissection team averaging 16.5+ years of experience (6-10 per surgery). Three specialist physicians. FUE, FUT, and scalp micropigmentation. Verified through embedded clinical practice."
+      },
+      "name": "Morgan Dermatology",
+      "nameKr": "모건피부과",
+      "specialty": "Hair Transplantation · Scalp Micropigmentation",
+      "location": "Gangnam, Seoul",
+      "badge": "Verified Partner Hospital",
+      "keyFacts": [
+        {
+          "val": "70+",
+          "label": "Years combined physician experience"
+        },
+        {
+          "val": "16.5+",
+          "label": "Avg. years dissection team experience"
+        },
+        {
+          "val": "6–10",
+          "label": "Team members per surgery"
+        },
+        {
+          "val": "5.5×",
+          "label": "Surgical loupe magnification"
+        }
+      ],
+      "oneSentenceAnswer": "Morgan Dermatology is a hair transplant clinic in Gangnam with a resident follicle dissection team averaging 16.5+ years of experience (6-10 members per surgery), three specialist physicians including a former Korean Hair Research Society chairman, and ABHRS-certified plastic surgery expertise — verified through AetherHeal's embedded clinical practice.",
+      "overview": {
+        "title": "About Morgan Dermatology",
+        "paragraphs": [
+          "Morgan Dermatology is a hair transplant clinic in Gangnam, Seoul, specializing in FUE (Follicular Unit Extraction), FUT (Follicular Unit Transplantation), and Scalp Micropigmentation (SMP).",
+          "The clinic's most significant structural advantage is its resident follicle dissection team — a dedicated surgical support team averaging over 16.5 years of individual experience. In FUE procedures, a minimum of 6 team members participate in a single surgery. In FUT procedures, up to 10. Both physicians and dissection team members wear 5.5x surgical loupes — the same magnification level — ensuring precision at every stage, not just the surgical extraction and placement. Hair transplantation is fundamentally a time-critical team operation: every graft is living tissue on a countdown from the moment it leaves the body. The total combined skilled labor working in parallel within that window determines how many grafts survive. More experienced hands, working faster and more precisely together, means more grafts planted while they are still viable. A permanent team of this size and caliber, rather than staff assembled per-procedure, is rare anywhere in the world.",
+          "The clinic's physician team combines dermatology and plastic surgery expertise — an unusual dual-specialty structure in Korean hair transplant clinics. This allows cases to be evaluated from both a medical hair loss perspective and a surgical reconstruction perspective.",
+          "Morgan Dermatology's physicians include over 70 combined years of clinical experience in hair loss treatment and hair restoration surgery.",
+          "The clinic uses approximately 10 times the volume of surgical consumables compared to a typical hair transplant clinic — premium-grade punch tips, implanters, and preservation solutions — because its operating philosophy prioritizes outcome over cost-per-procedure. On the day of surgery, every single transplanted follicle is individually counted and reported to the patient. This level of granular accountability is rare.",
+          "The clinic provides a one-time revision surgery guarantee: if the patient is not satisfied with the outcome after one year, one revision procedure is covered at no additional surgical cost. This guarantee is documented in a written certificate issued before the original procedure."
+        ]
+      },
+      "procedures": {
+        "title": "Procedures",
+        "items": [
+          {
+            "name": "FUE (Follicular Unit Extraction)",
+            "description": "Individual follicle extraction using a precision micro-punch, without a linear incision. Leaves only dot-sized marks hidden under existing hair. Recovery is faster and there is no linear scar — suitable for patients who prefer shorter hairstyles."
+          },
+          {
+            "name": "FUT (Follicular Unit Transplantation)",
+            "description": "A thin strip of tissue is harvested from the donor area, yielding a high volume of grafts in a single session. Morgan Dermatology uses a laxometer to measure scalp laxity before and during the procedure, ensuring maximum graft yield with minimal tension. A fine linear scar remains but is concealed under normal hair length."
+          },
+          {
+            "name": "Scalp Micropigmentation (SMP)",
+            "description": "Non-surgical pigment application that creates the appearance of hair density. Used as a standalone treatment or as a complement to transplantation."
+          }
+        ]
+      },
+      "team": {
+        "title": "Medical Team",
+        "surgicalTeam": {
+          "title": "Follicle Dissection Team",
+          "description": "Morgan Dermatology maintains a full-time, resident follicle dissection team — the surgical support staff who handle graft separation, preparation, and preservation during every procedure.",
+          "stats": [
+            {
+              "number": "16.5+",
+              "label": "Average years of individual experience"
+            },
+            {
+              "number": "6-10",
+              "label": "Team members per surgery"
+            }
+          ],
+          "explanation": "Every graft is living tissue on a countdown — survival rate drops with every minute outside the body. This makes hair transplantation fundamentally a parallel operation: the more skilled hands working simultaneously within that window, the more grafts survive. Morgan Dermatology's dissection team is permanent, not assembled per-procedure. All members wear the same 5.5x surgical loupes as the operating physicians — bringing surgical-grade magnification to the dissection stage, not just extraction and placement. A resident team of this size and technical standard is rare anywhere in the world."
+        },
+        "physicians": [
+          {
+            "name": "Prof. Shim Woo-Young",
+            "nameKr": "심우영",
+            "photo": "/assets/hospitals/morgan-dermatology/prof-shim-woo-young.png",
+            "role": "Honorary Professor",
+            "specialty": "Adult & pediatric hair loss specialist — 40+ years of clinical experience",
+            "credentials": [
+              "Board Certified Dermatologist",
+              "Kyung Hee University Medical School Professor",
+              "Sheffield University (UK) Research Fellow",
+              "Former Chairman, Korean Hair Research Society",
+              "Published researcher: alopecia areata, androgenetic alopecia, pattern hair loss classification"
+            ]
+          },
+          {
+            "name": "Dr. Lee Seung-Yong",
+            "nameKr": "이승용",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-lee-seung-yong.png",
+            "role": "Representative Director",
+            "specialty": "Non-incisional & incisional hair transplant specialist",
+            "credentials": [
+              "Board Certified Dermatologist",
+              "Korean Dermatological Association",
+              "Korean Society for Hair Restoration Surgery",
+              "Korean Hair Research Society",
+              "Specializes in both FUE and FUT procedures"
+            ]
+          },
+          {
+            "name": "Dr. Jung Jae-Heon",
+            "nameKr": "정재헌",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-jung-jae-heon.png",
+            "role": "Plastic Surgery Specialist",
+            "specialty": "Hairline aesthetics pioneer — 30+ years of surgical experience",
+            "credentials": [
+              "Board Certified Plastic Surgeon",
+              "ABHRS Certified (American Board of Hair Restoration Surgery)",
+              "Yonsei University Plastic Surgery Clinical Professor",
+              "Former Chairman, Korean Hair Transplant Society",
+              "Published author: multiple international hair restoration textbooks (Rincas, Springer)"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "AetherHeal Verification",
+        "mode": "Embedded Clinical Verification",
+        "modeDescription": "Dr. Jee Hoon Ju served as Director of Morgan Dermatology and practiced there as a hair transplant surgeon. His evaluation is based on direct operational and clinical experience inside the facility — including firsthand observation of surgical technique standards, graft handling protocols, the resident dissection team's coordination and precision, and post-operative follow-up quality.",
+        "modeLabel": "Mode 1",
+        "modeSublabel": "Direct embedded practice",
+        "methodologyLink": "Read the full verification methodology"
+      },
+      "patientProcess": {
+        "title": "International patient process",
+        "capacityNote": {
+          "title": "Surgical capacity",
+          "description": "Morgan Dermatology limits surgical volume to maintain quality.",
+          "rules": [
+            {
+              "label": "Under 2,000 grafts",
+              "value": "Max 2 surgeries / day"
+            },
+            {
+              "label": "Over 2,500 grafts",
+              "value": "1 surgery / day only"
+            },
+            {
+              "label": "Booking lead time",
+              "value": "3+ months in advance"
+            }
+          ],
+          "recommendation": "Plan your surgery schedule with AetherHeal well in advance. We coordinate the surgical booking, and recommend planning your travel around the confirmed surgery date — not the other way around."
+        },
+        "steps": [
+          {
+            "phase": "Before travel",
+            "title": "Case structuring",
+            "description": "AetherHeal structures your case — hair loss history, goals, prior treatments, and expectations — before Morgan Dermatology reviews it."
+          },
+          {
+            "phase": "Consultation",
+            "title": "In-person evaluation",
+            "description": "The surgical team assesses donor area density, scalp laxity, and graft count feasibility. The approach (FUE, FUT, or combined) is determined based on clinical evaluation."
+          },
+          {
+            "phase": "Procedure",
+            "title": "Surgery day",
+            "description": "Procedures are performed under sedation (conscious sedation) combined with local anesthesia — most patients rest or sleep through the procedure. A typical surgery day runs from approximately 9:00 AM to 3:00 PM, including design, extraction, dissection, and placement phases. Every transplanted follicle is individually counted and reported. Procedure recording (CCTV + close-up camera) is standard."
+          },
+          {
+            "phase": "Post-operative",
+            "title": "Recovery and follow-up",
+            "description": "Initial follow-up within 24-48 hours. Suture removal (FUT) or wound check (FUE) within 7-10 days. AetherHeal's continuity monitoring extends follow-up coordination for up to one year."
+          }
+        ]
+      },
+      "languages": {
+        "title": "Language support",
+        "description": "Consultations are conducted in Korean. English interpretation is available through AetherHeal's concierge coordination. Medical documentation can be provided in English upon request."
+      },
+      "recovery": {
+        "title": "Recovery logistics",
+        "items": [
+          "Advance booking: Morgan Dermatology is typically booked 3+ months out. Begin coordination with AetherHeal early and plan travel around the confirmed surgery date.",
+          "Typical stay in Seoul: 3-5 days post-procedure for initial follow-up",
+          "Accommodation: Gangnam has extensive short-term accommodation options within walking distance",
+          "Work return: Most patients return to desk work within 2-3 days. Avoid strenuous exercise, alcohol, smoking, and sauna for the first 2 weeks.",
+          "Post-op restrictions: Do not touch or scratch the transplanted area. Avoid hats, helmets, or anything that applies pressure to the scalp for 2 weeks. Smoking constricts capillaries and directly reduces graft survival — strict abstinence is required.",
+          "Shock loss: Transplanted hair typically sheds at 2-4 weeks — this is normal. New growth begins at 3-4 months (many patients already notice visible improvement at this stage). Final results at 9-12 months."
+        ]
+      },
+      "revisionGuarantee": {
+        "title": "Revision guarantee",
+        "description": "Morgan Dermatology provides a written revision surgery guarantee. If the patient is not satisfied with the outcome after one year, one revision procedure is provided at no additional surgical cost.",
+        "detail": "The guarantee is documented in a certificate issued before the original procedure. It covers one revision, and the terms are disclosed in advance — not offered retroactively as a negotiation tool. Additionally, there are no hidden fees at any stage: the initial quoted price covers the procedure, all follow-up consultations, post-operative care, and ongoing check-ups.",
+        "anchorNote": "A clinic that guarantees revision at its own cost is a clinic that has financial accountability aligned with the patient's outcome — not just the procedure fee."
+      },
+      "decisionSummary": {
+        "title": "Is Morgan Dermatology right for you?",
+        "bestForLabel": "Best for",
+        "bestFor": "Patients seeking hair transplantation with a clinic whose structural advantage is its surgical support team — a resident follicle dissection team averaging 16.5+ years of experience with 6-10 members per surgery. Also strong for complex cases requiring both FUE and FUT evaluation, with both dermatology and ABHRS-certified plastic surgery expertise on the same team.",
+        "notIdealLabel": "May not be ideal for",
+        "notIdeal": "Patients seeking non-hair aesthetic procedures, or patients who require consultations in languages other than Korean without interpreter support."
+      },
+      "faq": {
+        "title": "Common questions about Morgan Dermatology",
+        "items": [
+          {
+            "question": "What is the follicle dissection team and why does it matter?",
+            "answer": "Hair transplant quality depends on teamwork, not just the surgeon. Every graft is living tissue on a countdown — the longer it stays outside the body, the lower its survival rate. The total skilled labor working in parallel within that time window determines how many grafts survive. Morgan Dermatology has a resident dissection team averaging 16.5+ years of experience, with 6-10 members per surgery, all wearing 5.5x surgical loupes — the same magnification the surgeons use. This means thousands of grafts are handled with surgical-grade precision by specialists who have worked together for years. A permanent team of this size and technical standard is extremely rare globally."
+          },
+          {
+            "question": "What makes Morgan Dermatology different from other hair transplant clinics in Korea?",
+            "answer": "Morgan Dermatology is one of the few Korean hair transplant clinics with both dermatology and plastic surgery specialists on the same team. Professor Shim brings 40+ years of academic hair loss research. Dr. Jung brings ABHRS certification and 30+ years of surgical experience. This dual-specialty structure means cases are evaluated from both a medical and a surgical perspective."
+          },
+          {
+            "question": "Does Morgan Dermatology perform both FUE and FUT?",
+            "answer": "Yes. The clinic offers both FUE (non-incisional) and FUT (strip method). The surgical team evaluates which approach — or a combination — is most appropriate based on the patient's donor area, coverage needs, and long-term hair loss pattern. The decision is clinical, not sales-driven."
+          },
+          {
+            "question": "How was Morgan Dermatology verified by AetherHeal?",
+            "answer": "AetherHeal's founding physician, Dr. Jee Hoon Ju, practiced at Morgan Dermatology as a hair transplant surgeon. His verification is based on direct clinical experience inside the facility — not a site visit or document review. This is AetherHeal's highest verification standard (Mode 1: Embedded Clinical Verification)."
+          },
+          {
+            "question": "Can I get a consultation in English?",
+            "answer": "Consultations are conducted in Korean. AetherHeal provides English interpretation through its concierge coordination, and medical documentation can be translated upon request. The clinical evaluation itself is conducted by the Korean-speaking surgical team."
+          },
+          {
+            "question": "How long do I need to stay in Seoul for a hair transplant at Morgan Dermatology?",
+            "answer": "A typical stay is 3-5 days post-procedure for initial follow-up. The procedure itself takes 4-8 hours depending on graft count. Note that Morgan Dermatology is usually booked 3+ months in advance and limits surgeries to 1-2 per day — plan your travel around the confirmed surgery date, not the other way around. AetherHeal coordinates the scheduling and recommends building your trip timeline after the surgical date is locked."
+          },
+          {
+            "question": "What is the revision guarantee?",
+            "answer": "Morgan Dermatology provides a written revision surgery guarantee certificate before the original procedure. If the patient is not satisfied with the outcome after one year, one revision surgery is covered at no additional surgical cost. The terms are disclosed upfront — this is a structural commitment to outcome accountability, not a retroactive negotiation."
+          },
+          {
+            "question": "Is the surgery painful?",
+            "answer": "Morgan Dermatology uses sedation (conscious sedation) combined with local anesthesia. Apart from a brief pinch during initial numbing — which many patients don't even feel — there is virtually no pain during the procedure. Most patients rest comfortably or sleep through the surgery."
+          },
+          {
+            "question": "Are there any hidden fees or additional costs?",
+            "answer": "No. Morgan Dermatology charges the initially quoted price and nothing more. All follow-up visits, post-operative consultations, and ongoing care are included. On surgery day, the clinic individually counts every transplanted follicle and reports the exact number to the patient — full transparency from start to finish."
+          },
+          {
+            "question": "What is shock loss and should I be worried?",
+            "answer": "Shock loss is a normal part of the recovery process where transplanted hair sheds approximately 2-4 weeks after surgery. This does not mean the procedure failed — the follicles are alive beneath the skin and will begin producing new hair at around 3-4 months. Many patients already notice visible improvement at this early stage. Final, natural-looking results typically appear at 9-12 months. Patience and consistent follow-up care are key."
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "Reviewed by",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · Former Director at Morgan Dermatology",
+        "lastReviewed": "April 2026",
+        "verificationMode": "Embedded Clinical Verification (Mode 1)"
+      },
+      "cta": {
+        "title": "Considering hair transplantation in Korea?",
+        "subtitle": "Start with a physician-led process that structures your decision before you commit to a clinic.",
+        "primary": "Start With Someone On Your Side",
+        "secondary": "See all verified hospitals"
+      }
+    },
+    "tune-clinic": {
+      "meta": {
+        "title": "Apgujeong Tune Clinic — Verified Aesthetic Dermatology in Seoul | AetherHeal",
+        "description": "Apgujeong Tune Clinic is an AetherHeal-verified aesthetic dermatology clinic in Gangnam, Seoul. Six-physician Medical Board, Chamaka-se Design Method, lifting/filler/regenerative specialties, 8-language patient support. Verified through embedded operational role."
+      },
+      "name": "Apgujeong Tune Clinic",
+      "nameKr": "압구정튠의원",
+      "specialty": "Premium Aesthetic Dermatology · Lifting · Regenerative Medicine",
+      "location": "Apgujeong, Gangnam, Seoul",
+      "badge": "Verified Partner Hospital",
+      "oneSentenceAnswer": "Apgujeong Tune Clinic is a physician-board aesthetic dermatology practice in Gangnam where six board-certified physicians with complementary specialties — face design, lifting, regenerative medicine, plastic surgery — deliver protocol-first treatment under the Chamaka-se Design Method, verified through AetherHeal's embedded operational role.",
+      "overview": {
+        "title": "About Apgujeong Tune Clinic",
+        "paragraphs": [
+          "Apgujeong Tune Clinic is a premium aesthetic dermatology clinic in Gangnam, Seoul, specializing in non-surgical facial rejuvenation — lifting, filler, collagen stimulation, and regenerative medicine. The clinic serves international patients under a physician-led, protocol-first model.",
+          "The clinic operates as a physician board rather than a single-doctor practice. Six physicians with complementary specialties — face design and anti-aging, lifting, regenerative medicine, plastic surgery, and international patient coordination — practice together and cross-review complex cases. This is uncommon in Korean aesthetic clinics, most of which are built around one celebrity doctor.",
+          "The clinic's philosophical core is the Chamaka-se Design Method — a physician-authored protocol design process. The principle is that devices are commodity but the sequence, dose, vector, and anatomical reasoning that produce a natural result are not. A protocol is chosen for the patient, not the patient slotted into a protocol. Every case is evaluated by the physician whose specialty best matches the indication.",
+          "Tune Clinic is designed for international patients. Eight languages are supported (English, Japanese, Chinese, Thai, German, French, Russian, Vietnamese), and the clinic's operational model prioritizes travel-conscious planning — the right treatment for the time the patient actually has, not a generic menu pushed on every visit.",
+          "Signature protocols include Signature Lifting (Ultherapy 350-shot physician-calibrated lifting), Collagen Builder (Juvelook / Rejuran / regenerative stimulation), and Structural Reset (multi-layer rejuvenation planned across the full face rather than sold per device). Reference devices include Ultherapy, Thermage, Inmode, Oligio, Juvelook, and Rejuran."
+        ]
+      },
+      "procedures": {
+        "title": "Signature protocols",
+        "items": [
+          {
+            "name": "Signature Lifting",
+            "description": "Physician-calibrated Ultherapy 350-shot lifting protocol for deep tissue tightening along the SMAS and dermal layers. Shot count, vector, and depth are designed per face — not a fixed package. Suitable for patients seeking structural lift without surgery."
+          },
+          {
+            "name": "Collagen Builder",
+            "description": "Regenerative stimulation combining Juvelook, Rejuran, and skin booster protocols to rebuild dermal density, improve pore quality, and soften fine lines. The emphasis is structural regeneration, not superficial glow."
+          },
+          {
+            "name": "Structural Reset",
+            "description": "A multi-layer rejuvenation plan designed across the full face — lifting, volume, and skin quality treated as one decision rather than three separate device sales. The plan is authored after in-person anatomical assessment."
+          },
+          {
+            "name": "Filler (physician-designed)",
+            "description": "General filler, under-eye / ear / upper eyelid filler, lip filler, and hyaluronidase correction. Product choice, injection layer, and volume are decided by the physician based on tissue quality and case context — not by patient request alone."
+          },
+          {
+            "name": "Chamaka-se Design Consultation",
+            "description": "The clinic's proprietary physician-led protocol design consultation. Anatomical analysis, goals alignment, travel-conscious planning, and protocol authoring — before any device decision is made."
+          }
+        ]
+      },
+      "team": {
+        "title": "Medical Team",
+        "surgicalTeam": {
+          "title": "The Medical Board",
+          "description": "Tune Clinic is structured as a physician board rather than a single-doctor clinic. Six board-certified physicians with complementary specialties practice together and cross-review cases under a shared protocol-first methodology.",
+          "stats": [
+            {
+              "number": "6",
+              "label": "Medical Board members"
+            },
+            {
+              "number": "8",
+              "label": "Languages supported"
+            }
+          ],
+          "explanation": "The Chamaka-se Design Method is physician-authored protocol design — devices are commodity, but the sequence, dose, vector, and anatomical reasoning that produce a natural result are not. Cases are matched to the physician whose specialty best fits the indication, and complex multi-layer plans are cross-reviewed across the board. This is the operational foundation of the clinic's 'Evidence-Based Aesthetics' philosophy."
+        },
+        "physicians": [
+          {
+            "name": "Dr. Seung Yeon Cha",
+            "nameKr": "차승연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-cha-seung-yeon.jpg",
+            "role": "Representative Director",
+            "specialty": "Face Design & Anti-Aging — Master Planner of Facial Balance",
+            "credentials": [
+              "MD, Yonsei University College of Medicine",
+              "Former Director, Cheongdam ZN Plastic Surgery Clinic",
+              "Former Director, Mirror Plastic Surgery & Dermatology",
+              "2015 Medical Asia Grand Prize, Plastic Surgery Category",
+              "Board Member, Korean Stem Cell Therapy Society",
+              "Philosophy: “Aesthetic medicine is not about changing your face. It is about finding the balance you lost.”"
+            ]
+          },
+          {
+            "name": "Dr. Kwang Yeon Kim",
+            "nameKr": "김광연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-kwang-yeon.jpg",
+            "role": "Representative Director",
+            "specialty": "Lifting Authority — Vector-based tightening specialist",
+            "credentials": [
+              "Former Director, TOX n FILL Clinic",
+              "Former Director, Qingdao Rose Plastic Surgery (China)",
+              "Former Director, Esta Plastic Surgery (China)",
+              "Key Doctor for Lifting (Hugel) — “Blue Rose” cadaver instructor",
+              "Clinical Advisor, Ildong Esthetic",
+              "Lifetime Member, Korean Energy Therapy Society",
+              "Philosophy: “Lifting is physics. We calculate vectors and depth to ensure the most natural result.”"
+            ]
+          },
+          {
+            "name": "Dr. Jee Hoon Ju",
+            "nameKr": "주지훈",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-ju-jee-hoon.jpg",
+            "role": "International Director",
+            "specialty": "Medical aesthetics, hair, and international patient communication",
+            "credentials": [
+              "Former Director, Morgan Dermatology",
+              "American Board of Aesthetic Medicine (ABAM)",
+              "MIT Sloan Executive Education — Artificial Intelligence in Health Care",
+              "AHA Advanced Cardiovascular Life Support Provider",
+              "Regular Member, Korean Hair Transplantation Society",
+              "Regular Member, Korean Lifting Society",
+              "AetherHeal Founding Physician"
+            ]
+          },
+          {
+            "name": "Dr. Dong Hyun Jo",
+            "nameKr": "조동현",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jo-dong-hyun.jpg",
+            "role": "Regenerative Medicine",
+            "specialty": "Stem cell and regenerative strategy for tissue quality and recovery",
+            "credentials": [
+              "Former Director, Gold Plastic Surgery",
+              "Clinical Advisor, Seoul National University Hospital",
+              "Chairman, International Practical Plastic Surgery Society",
+              "Board Member, Korean Society of Aesthetic Dermatology",
+              "Board Member, Korean Society of Aesthetic Surgery",
+              "Auditor, Korean Stem Cell Therapy Society",
+              "Academic Committee, Korean Society of Aesthetic Plastic Surgery"
+            ]
+          },
+          {
+            "name": "Dr. Beom Jin Kim",
+            "nameKr": "김범진",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-beom-jin.jpg",
+            "role": "Surgery & Reconstruction",
+            "specialty": "Plastic surgery depth supporting structural decisions and referrals",
+            "credentials": [
+              "MD, Yonsei University College of Medicine",
+              "Plastic Surgery Residency, Severance Hospital",
+              "Board Certified Plastic Surgeon",
+              "Plastic Surgery Fellowship, University of Pittsburgh Medical Center (UPMC)",
+              "Former Professor, Yonsei University College of Medicine",
+              "Clinical Professor, Plastic Surgery, Yonsei University College of Medicine",
+              "Regular Member, Korean Society of Plastic & Reconstructive Surgery",
+              "Regular Member, Korean Society of Craniofacial Surgery"
+            ]
+          },
+          {
+            "name": "Dr. Seung Woo Jang",
+            "nameKr": "장승우",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jang-seung-woo.jpg",
+            "role": "Medical Advisory",
+            "specialty": "MD, PhD — advisory depth for pediatric and broad medical evaluation",
+            "credentials": [
+              "MD, PhD — Board Certified Pediatrician",
+              "Clinical Professor, Chosun University College of Medicine",
+              "Former Director, Yeosu Munhwa Hospital",
+              "Former Director, Gwangju Woori Pediatrics",
+              "Former Director, Mokpo Children's Hospital",
+              "Certified Physician, Korean Geriatrics Society",
+              "Regular Member, Korean Lifting Society"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "AetherHeal Verification",
+        "mode": "Embedded Clinical Verification",
+        "modeLabel": "Mode 1",
+        "modeSublabel": "Operational role + current practice",
+        "modeDescription": "Dr. Jee Hoon Ju serves as International Director at Apgujeong Tune Clinic and currently practices here as a medical aesthetic physician. AetherHeal's evaluation is based on direct operational experience inside the clinic — decision-making culture, protocol governance, the physician board's case-escalation process, and international patient handling. This is not a site visit or document review; it is a working insider's assessment.",
+        "methodologyLink": "Read the full verification methodology"
+      },
+      "patientProcess": {
+        "title": "International patient process",
+        "steps": [
+          {
+            "phase": "Before travel",
+            "title": "Case structuring",
+            "description": "AetherHeal structures your case — concerns, goals, prior treatments, and expectations — before the Tune Clinic physician board reviews it. You receive an initial direction before you fly."
+          },
+          {
+            "phase": "Consultation",
+            "title": "Chamaka-se Design consultation",
+            "description": "In-person anatomical assessment. The physician whose specialty best matches your case (face design, lifting, regenerative, or combined) leads the consultation and authors the protocol. This is the point at which the treatment plan is decided — not before."
+          },
+          {
+            "phase": "Procedure",
+            "title": "Treatment day",
+            "description": "Most protocols are same-day or next-day after the consultation, depending on complexity, bruising risk, and your travel window. Treatments are performed under local anesthesia or topical numbing as appropriate; sedation is available for longer plans. Every procedure is physician-performed (not delegated to nurses or technicians)."
+          },
+          {
+            "phase": "Post-operative",
+            "title": "Recovery and follow-up",
+            "description": "Initial review within 24–48 hours where possible. Post-care instructions are travel-conscious — flight timing, sun exposure, activity return — not generic aftercare sheets. AetherHeal's continuity monitoring extends follow-up coordination beyond the clinic visit."
+          }
+        ]
+      },
+      "languages": {
+        "title": "Language support",
+        "description": "Tune Clinic supports international patients in eight languages: English, Japanese, Chinese, Thai, German, French, Russian, and Vietnamese. Consultations are conducted with coordinator translation, and Dr. Ju (International Director) provides direct English-language consultation for complex cases. Medical documentation can be provided in English on request."
+      },
+      "recovery": {
+        "title": "Recovery logistics",
+        "items": [
+          "Advance contact: Several days minimum; more if you want pre-arrival protocol guidance or schedule coordination. Same-day treatment is often possible after consultation but never the default — the physician confirms appropriateness first.",
+          "Typical stay in Seoul: 2–5 days depending on protocol. Energy-based treatments (lifting, laser) are typically flight-friendly within 24 hours; filler and bruising-risk protocols need longer recovery windows.",
+          "Accommodation: Apgujeong and Cheongdam have extensive short-term accommodation within walking distance. The clinic can recommend travel-conscious options based on your protocol.",
+          "Flight return: Depends on treatment. Lifting and energy devices — usually next-day flight possible. Filler, especially mid-face — plan for bruising and sleeping position considerations for 3–7 days.",
+          "Post-op restrictions: Avoid alcohol, sauna, intense exercise, and prolonged sun for the first 48–72 hours (varies by protocol). Sunscreen and gentle skincare only.",
+          "Short-trip planning: If you have only 2–3 days in Seoul, the clinic prioritizes the ratio of visible effect to downtime — sometimes a smaller, cleaner plan is more valuable than trying to do everything in one visit."
+        ]
+      },
+      "decisionSummary": {
+        "title": "Is Apgujeong Tune Clinic right for you?",
+        "bestForLabel": "Best for",
+        "bestFor": "Patients seeking protocol-led, physician-authored aesthetic care rather than device-menu shopping. Strong fit for lifting, filler, regenerative medicine, and multi-layer facial rejuvenation. Especially appropriate for international patients who want cross-specialty physician review and travel-conscious planning.",
+        "notIdealLabel": "May not be ideal for",
+        "notIdeal": "Patients seeking surgical plastic surgery (Tune Clinic is non-surgical aesthetic dermatology). Patients whose primary decision criterion is lowest price — the clinic's structural advantage is physician judgment and protocol quality, not price competition."
+      },
+      "faq": {
+        "title": "Common questions about Apgujeong Tune Clinic",
+        "items": [
+          {
+            "question": "Can I get treatment on the same day as my consultation?",
+            "answer": "Often yes, but only after the physician confirms that the treatment category, sequence, and recovery expectations are appropriate for your face and your schedule. The clinic's principle is that treatment appropriateness is decided by the physician in consultation, not assumed before arrival."
+          },
+          {
+            "question": "How early should I contact the clinic before traveling?",
+            "answer": "Several days in advance is a good minimum. More lead time is better if you want pre-arrival protocol guidance, schedule coordination, or help deciding which category of treatment makes the most sense for your face and your trip length. Complex multi-layer plans benefit from 1–2 weeks of advance case structuring."
+          },
+          {
+            "question": "Is English support available at the clinic?",
+            "answer": "Yes. Tune Clinic is structured around international patient communication, with English-speaking coordination and support pathways for Japanese, Chinese, Thai, German, French, Russian, and Vietnamese inquiries as well. Dr. Ju, International Director, provides direct English-language consultation for complex cases."
+          },
+          {
+            "question": "Can I fly soon after treatment?",
+            "answer": "In many cases yes, especially after travel-friendly energy treatments like Ultherapy or Thermage lifting. But the answer changes if you are considering filler, treatments with bruising risk, or a plan that needs visible recovery time. The clinic's post-care guidance is travel-conscious — flight timing is part of the protocol design, not an afterthought."
+          },
+          {
+            "question": "What if I only have two or three days in Seoul?",
+            "answer": "Then treatment selection needs to prioritize the ratio of visible effect to downtime. Sometimes a smaller, cleaner plan is more valuable than trying to do too much in one visit. The clinic's Chamaka-se Design Method is explicitly built around planning the right treatment for the time the patient actually has."
+          },
+          {
+            "question": "Can the clinic tell me exactly what I need from photos alone?",
+            "answer": "Photos are useful for direction, but the final plan still requires in-person confirmation of tissue quality, asymmetry, expression, skin condition, and recovery tolerance. Photo-based pre-consultation is valuable for narrowing direction; the protocol itself is authored in person."
+          },
+          {
+            "question": "What does Tune Clinic's 'Medical Board' structure mean for my care?",
+            "answer": "It means your case is evaluated by the physician whose specialty best matches it — face design, lifting, regenerative medicine, or plastic surgery — rather than every patient being funneled to one doctor. Complex multi-layer cases are cross-reviewed across the board. This is unusual in Korean aesthetic clinics, most of which are built around a single celebrity doctor."
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "Reviewed by",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · International Director at Apgujeong Tune Clinic",
+        "lastReviewed": "April 2026",
+        "verificationMode": "Embedded Clinical Verification (Mode 1)"
+      },
+      "cta": {
+        "title": "Considering aesthetic care in Seoul?",
+        "subtitle": "Start with a physician-led process that structures your decision before you commit to a clinic.",
+        "primary": "Start With Someone On Your Side",
+        "secondary": "See all verified hospitals"
+      }
+    }
+  }
+}

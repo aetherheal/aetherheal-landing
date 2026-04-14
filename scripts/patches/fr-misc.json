@@ -1,0 +1,131 @@
+{
+  "common": {
+    "footer": {
+      "guideLinks": {
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "Clinique Tune d'Apgujeong"
+      },
+      "platformLinks": {
+        "verificationMethodology": "Methodologie de verification"
+      }
+    }
+  },
+  "home": {
+    "partners": {
+      "methodologyCta": "Methodologie de verification"
+    },
+    "coverage": {
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
+      ]
+    }
+  },
+  "aestheticClinic": {
+    "tunePartner": {
+      "badge": "Partenaire verifie",
+      "title": "Clinique Tune d'Apgujeong",
+      "description": "Un partenaire AetherHeal verifie en dermatologie esthetique a Seoul. Le Dr Jee Hoon Ju occupe le poste de Directeur international et y exerce actuellement — notre evaluation repose sur un role operationnel integre au sein de la clinique, et non sur une visite sur place. Structure de conseil medical, methode Chamaka-se Design, assistance aux patients en 8 langues.",
+      "cta": "Voir la verification"
+    }
+  },
+  "hairTransplant": {
+    "morganPartner": {
+      "badge": "Partenaire verifie",
+      "title": "Morgan Dermatology",
+      "description": "Un partenaire AetherHeal verifie en transplantation capillaire. Le Dr Jee Hoon Ju y a exerce directement en tant que chirurgien en transplantation capillaire — notre evaluation repose sur une experience clinique integree, et non sur une visite sur place.",
+      "cta": "Voir la verification"
+    }
+  },
+  "trustProtocol": {
+    "methodologyLink": "Voir comment nous evaluons les hopitaux →",
+    "reviewerMeta": {
+      "label": "Verifie par",
+      "name": "Dr Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
+  },
+  "hospitalAbroad": {
+    "reviewerMeta": {
+      "label": "Verifie par",
+      "name": "Dr Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "Avril 2026",
+      "methodologyLinkText": "Voir comment nous verifions les hopitaux →"
+    },
+    "hero": {
+      "oneSentenceAnswer": "Choisissez un hopital a l'etranger en verifiant les qualifications des medecins, la transparence des prix et la continuite des soins postoperatoires — avant de peser le prix, le marketing ou le classement des marques."
+    },
+    "decisionSummary": {
+      "title": "Cette page est-elle faite pour vous ?",
+      "bestForLabel": "Ideal pour",
+      "bestFor": "Les patients qui comparent des hopitaux dans differents pays et ne savent pas comment evaluer les signaux marketing par rapport a la realite clinique.",
+      "notIdealLabel": "Pas ideal pour",
+      "notIdeal": "Les patients qui recherchent un annuaire d'hopitaux specifiques ou une liste de prix fixe — ce sont des outils differents pour des questions differentes.",
+      "keyRisksLabel": "Risques principaux si vous sautez cette etape",
+      "keyRisks": "Choisir uniquement sur le prix ou la popularite, sous-estimer la logistique du suivi postoperatoire, et considerer une note Google elevee comme un indicateur de qualite clinique.",
+      "commonMisconceptionLabel": "Idee recue courante",
+      "commonMisconception": "\"Un hopital celebre est un hopital sur.\" La notoriete mesure la portee marketing, pas les resultats cliniques."
+    }
+  },
+  "physician": {
+    "hero": {
+      "intro": "Un medecin qui a verifie les hopitaux partenaires en travaillant en leur sein — en tant que Directeur et chirurgien en transplantation capillaire pratiquant chez Morgan Dermatology, en tant que Directeur international et medecin en medecine esthetique a la Clinique Tune d'Apgujeong, et en tant que membre de l'equipe clinique au sein du consortium de partenaires fondateurs. Avant de construire AetherHeal, il etait le patient qui ne pouvait pas voir ce qui s'etait mal passe."
+    },
+    "verification": {
+      "badge": "Methodologie de verification",
+      "title": "Comment je verifie les hopitaux",
+      "intro": "La plupart des plateformes de tourisme medical verifient les hopitaux de l'exterieur — visites sur place, examens de documents, listes de controle. J'ai verifie les partenaires fondateurs d'AetherHeal en travaillant en leur sein en tant que medecin praticien. C'est une norme differente.",
+      "mode1": {
+        "title": "Verification clinique integree",
+        "description": "Hopitaux ou j'ai exerce directement en tant que medecin ou occupe des roles de direction operationnelle. Mon evaluation repose sur l'experience directe des normes cliniques, des operations de l'equipe, de la qualite des equipements et de la prise en charge des patients — non pas lors d'une visite guidee, mais en y travaillant.",
+        "hospitals": [
+          {
+            "name": "Morgan Dermatology",
+            "role": "Ancien directeur et chirurgien en transplantation capillaire pratiquant"
+          },
+          {
+            "name": "Clinique Tune d'Apgujeong",
+            "role": "Specialiste en medecine esthetique cutanee pratiquant (actuel)"
+          },
+          {
+            "name": "Apgujeong Min Dental",
+            "role": "Responsable de la planification future"
+          }
+        ]
+      },
+      "mode2": {
+        "title": "Evaluation par le reseau de medecins",
+        "description": "Hopitaux evalues par des relations au niveau des directeurs, un examen des qualifications cliniques et une evaluation des resultats. J'ai evalue les parcours de formation des directeurs, la composition de l'equipe chirurgicale et les normes des installations — mais je n'y ai pas exerce moi-meme.",
+        "hospitals": [
+          {
+            "name": "B&N Eye Clinic",
+            "basis": "Institution majeure etablie. Relation personnelle avec le directeur Kim Jin-guk. Normes des installations et equipe chirurgicale evaluees."
+          },
+          {
+            "name": "Woori Plastic Surgery",
+            "basis": "Evaluation au niveau directorial. L'equipe chirurgicale comprend plusieurs chirurgiens plasticiens issus de professeurs de l'hopital Asan."
+          },
+          {
+            "name": "Hosan Hospital",
+            "basis": "Evaluation clinique des directeurs, du bilan et des resultats des patientes en chirurgie plastique feminine."
+          },
+          {
+            "name": "The Well Dental",
+            "basis": "Evaluation clinique des directeurs, de l'approche therapeutique et des normes des installations en dentisterie adulte."
+          }
+        ]
+      },
+      "methodologyLink": "Lire la methodologie de verification complete"
+    }
+  }
+}

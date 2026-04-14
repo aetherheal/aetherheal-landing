@@ -1,0 +1,131 @@
+{
+  "common": {
+    "footer": {
+      "guideLinks": {
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "狎鸥亭 Tune Clinic"
+      },
+      "platformLinks": {
+        "verificationMethodology": "验证方法论"
+      }
+    }
+  },
+  "home": {
+    "partners": {
+      "methodologyCta": "验证方法论"
+    },
+    "coverage": {
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
+      ]
+    }
+  },
+  "aestheticClinic": {
+    "tunePartner": {
+      "badge": "认证合作机构",
+      "title": "狎鸥亭 Tune Clinic",
+      "description": "AetherHeal在首尔美容皮肤领域的认证合作机构。Dr. Jee Hoon Ju担任国际总监并在此执业——我们的评估基于在诊所内部的实际运营角色，而非单纯的参观访问。医师委员会架构、Chamaka-se设计方法、8语种患者支持。",
+      "cta": "查看认证详情"
+    }
+  },
+  "hairTransplant": {
+    "morganPartner": {
+      "badge": "认证合作机构",
+      "title": "Morgan Dermatology",
+      "description": "AetherHeal在植发领域的认证合作机构。Dr. Jee Hoon Ju曾直接作为植发外科医生在此执业——我们的评估基于深入的临床实践经验，而非单纯的参观访问。",
+      "cta": "查看认证详情"
+    }
+  },
+  "trustProtocol": {
+    "methodologyLink": "查看我们的医院评估方法 →",
+    "reviewerMeta": {
+      "label": "审核人",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
+  },
+  "hospitalAbroad": {
+    "reviewerMeta": {
+      "label": "审核人",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "2026年4月",
+      "methodologyLinkText": "查看我们的医院验证方法 →"
+    },
+    "hero": {
+      "oneSentenceAnswer": "选择海外医院时，应先验证医生资质、价格透明度和术后连续性护理——再考虑价格、营销宣传或品牌排名。"
+    },
+    "decisionSummary": {
+      "title": "本页面适合您吗？",
+      "bestForLabel": "最适合",
+      "bestFor": "正在跨国比较医院、不确定如何权衡营销信号与临床实际情况的患者。",
+      "notIdealLabel": "不太适合",
+      "notIdeal": "寻找特定医院目录或固定价格列表的患者——这些是针对不同问题的不同工具。",
+      "keyRisksLabel": "忽视这些的主要风险",
+      "keyRisks": "仅凭价格或知名度做出选择、低估术后随访的后勤难度，以及将高Google评分视为临床质量信号。",
+      "commonMisconceptionLabel": "常见误解",
+      "commonMisconception": "\"知名医院就是安全的医院。\"知名度衡量的是营销覆盖范围，而非临床结果。"
+    }
+  },
+  "physician": {
+    "hero": {
+      "intro": "这位医生通过在合作医院内部工作来验证其资质——曾担任Morgan Dermatology的总监及执业植发外科医生，在狎鸥亭Tune Clinic担任国际总监及医疗美容执业医生，并在创始合作机构群中担任临床团队成员。在创建AetherHeal之前，他曾是那个无法看清问题所在的患者。"
+    },
+    "verification": {
+      "badge": "验证方法论",
+      "title": "我如何验证医院",
+      "intro": "大多数医疗旅游平台从外部验证医院——参观访问、文件审查、核查清单。我通过作为执业医生在内部工作来验证AetherHeal的创始合作机构。这是一个不同的标准。",
+      "mode1": {
+        "title": "嵌入式临床验证",
+        "description": "我直接作为医生执业或担任运营领导职务的医院。我的评估基于对临床标准、团队运营、设备质量和患者处理的第一手经验——不是参观，而是在那里工作。",
+        "hospitals": [
+          {
+            "name": "Morgan Dermatology",
+            "role": "前总监兼执业植发外科医生"
+          },
+          {
+            "name": "狎鸥亭 Tune Clinic",
+            "role": "执业皮肤美容医学专科医生（现任）"
+          },
+          {
+            "name": "狎鸥亭 Min Dental",
+            "role": "未来规划部负责人"
+          }
+        ]
+      },
+      "mode2": {
+        "title": "医生网络评估",
+        "description": "通过总监级别关系、临床资质审查和结果评估来评估的医院。我评估了总监的培训背景、外科团队构成和设施标准——但本人未在那里执业。",
+        "hospitals": [
+          {
+            "name": "B&N Eye Clinic",
+            "basis": "知名主要机构。与总监金振国有个人关系。评估了设施标准和外科团队。"
+          },
+          {
+            "name": "Woori Plastic Surgery",
+            "basis": "总监级别评估。外科团队包括多位来自峨山医院教授背景的整形外科医生。"
+          },
+          {
+            "name": "Hosan Hospital",
+            "basis": "对总监、从业记录及女性整形外科患者结果的临床评估。"
+          },
+          {
+            "name": "The Well Dental",
+            "basis": "对总监、治疗方案及成人牙科设施标准的临床评估。"
+          }
+        ]
+      },
+      "methodologyLink": "阅读完整验证方法论"
+    }
+  }
+}

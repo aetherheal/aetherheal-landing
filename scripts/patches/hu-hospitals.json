@@ -1,0 +1,530 @@
+{
+  "hospitals": {
+    "slugs": [
+      "morgan-dermatology",
+      "tune-clinic"
+    ],
+    "morgan-dermatology": {
+      "meta": {
+        "title": "Morgan Dermatology — Ellenőrzött Hajátültetési Klinika | AetherHeal",
+        "description": "A Morgan Dermatology az AetherHeal által ellenőrzött hajátültetési klinika Gangnamban, Szöulban. Állandó folliculus-disszekciós csapat, átlagosan 16,5+ éves tapasztalattal (műtétenként 6-10 fő). Három szakorvos. FUE, FUT és skalp-mikropigmentáció. Beágyazott klinikai gyakorlaton keresztül ellenőrizve."
+      },
+      "name": "Morgan Dermatology",
+      "nameKr": "모건피부과",
+      "specialty": "Hajátültetés · Skalp-mikropigmentáció",
+      "location": "Gangnam, Szöul",
+      "badge": "Ellenőrzött Partnerközpont",
+      "keyFacts": [
+        {
+          "val": "70+",
+          "label": "Összesített orvosi tapasztalati évek"
+        },
+        {
+          "val": "16.5+",
+          "label": "Átlagos disszekciós csapat tapasztalat (év)"
+        },
+        {
+          "val": "6–10",
+          "label": "Csapattagok száma műtétenként"
+        },
+        {
+          "val": "5.5×",
+          "label": "Sebészeti lupe nagyítás"
+        }
+      ],
+      "oneSentenceAnswer": "A Morgan Dermatology egy gangnam-i hajátültetési klinika, amely állandó folliculus-disszekciós csapattal rendelkezik — átlagosan 16,5+ éves tapasztalattal, műtétenként 6-10 fővel —, három szakorvosal, köztük a Koreai Hajkutatási Társaság volt elnökével, valamint ABHRS-minősített plasztikai sebészeti szakértelemmel, amelyet az AetherHeal beágyazott klinikai gyakorlaton keresztül ellenőrzött.",
+      "overview": {
+        "title": "A Morgan Dermatology bemutatása",
+        "paragraphs": [
+          "A Morgan Dermatology egy hajátültetési klinika Gangnamban, Szöulban, amely FUE (folliculáris egység kivonás), FUT (folliculáris egység átültetés) és skalp-mikropigmentáció (SMP) elvégzésére specializálódott.",
+          "A klinika legjelentősebb strukturális előnye az állandó folliculus-disszekciós csapat — egy dedikált sebészeti támogató csapat, amelynek tagjai átlagosan több mint 16,5 éves egyéni tapasztalattal rendelkeznek. FUE beavatkozásoknál egyetlen műtétnél minimum 6 csapattag vesz részt. FUT esetén akár 10 is. Mind az orvosok, mind a disszekciós csapat tagjai 5,5-szörös sebészeti lupét viselnek — azonos nagyítási szinttel —, biztosítva a pontosságot minden szakaszban, nem csupán a sebészeti kivonás és beültetés során. A hajátültetés alapvetően időkritikus csapatmunka: minden graft élő szövet, amelynek visszaszámlálása attól a pillanattól kezdődik, hogy elhagyja a testet. A párhuzamosan dolgozó képzett kezek teljes száma határozza meg, hány graft marad életben. Tapasztaltabb, gyorsabb és pontosabb együttműködés több beültetett graftot jelent, amíg azok még életképesek. Az ilyen méretű és szintű állandó csapat — nem műtétenként összeállított személyzet — ritka a világban.",
+          "A klinika orvosi csapata bőrgyógyászati és plasztikai sebészeti szakértelmet ötvöz — szokatlan kettős szakterületi struktúra a koreai hajátültetési klinikák körében. Ez lehetővé teszi az esetek értékelését mind orvosi hajhullás, mind sebészeti rekonstrukciós szempontból.",
+          "A Morgan Dermatology orvosai összesen több mint 70 évnyi klinikai tapasztalattal rendelkeznek hajhullás-kezelés és hajrestaurációs sebészet terén.",
+          "A klinika körülbelül 10-szer annyi sebészeti fogyóeszközt használ, mint egy tipikus hajátültetési klinika — prémium minőségű ütőhegyek, beültetők és tartósító oldatok —, mert működési filozófiája az eredményt helyezi előtérbe a beavatkozásonkénti költséggel szemben. A műtét napján minden egyes átültetett folliculust egyenként megszámlálnak és jelentenek a betegnek. Ez a részletes elszámoltathatóság ritka.",
+          "A klinika egyszeri revíziós műtéti garanciát nyújt: ha a beteg egy év után nem elégedett az eredménnyel, egy revíziós beavatkozást nyújtanak pótlólagos sebészeti költség nélkül. Ezt a garanciát az eredeti beavatkozás előtt kiállított írásos tanúsítvány dokumentálja."
+        ]
+      },
+      "procedures": {
+        "title": "Beavatkozások",
+        "items": [
+          {
+            "name": "FUE (Folliculáris Egység Kivonás)",
+            "description": "Egyedi folliculus-kivonás precíziós mikro-ütővel, lineáris metszés nélkül. Csak pontméretű nyomokat hagy, amelyek a meglévő haj alatt rejtve maradnak. A felépülés gyorsabb, és nem marad lineáris heg — megfelelő azoknak, akik rövidebb frizurát preferálnak."
+          },
+          {
+            "name": "FUT (Folliculáris Egység Átültetés)",
+            "description": "Egy vékony szövetsávot vesznek ki a donor területről, egyetlen ülésben nagy mennyiségű graftot biztosítva. A Morgan Dermatology laxométert használ a skalp rugalmasságának mérésére a beavatkozás előtt és közben, maximális graft-hozamot biztosítva minimális feszülés mellett. Finom lineáris heg marad, de a normál hajhossz alatt elrejtve."
+          },
+          {
+            "name": "Skalp-mikropigmentáció (SMP)",
+            "description": "Nem sebészeti pigmentfelhordás, amely hajsűrűség látszatát kelti. Önálló kezelésként vagy az átültetés kiegészítéseként alkalmazható."
+          }
+        ]
+      },
+      "team": {
+        "title": "Orvosi Csapat",
+        "surgicalTeam": {
+          "title": "Folliculus-disszekciós Csapat",
+          "description": "A Morgan Dermatology teljes munkaidős, állandó folliculus-disszekciós csapatot tart fenn — a sebészeti támogató személyzetet, amely minden beavatkozásnál a graft-szétválasztást, -előkészítést és -tartósítást végzi.",
+          "stats": [
+            {
+              "number": "16.5+",
+              "label": "Átlagos egyéni tapasztalati évek"
+            },
+            {
+              "number": "6-10",
+              "label": "Csapattagok száma műtétenként"
+            }
+          ],
+          "explanation": "Minden graft élő szövet, amelynek visszaszámlálása zajlik — a túlélési arány percenként csökken a testen kívül töltött idő alatt. Ez alapvetően párhuzamos műveletté teszi a hajátültetést: minél több képzett kéz dolgozik egyidejűleg ebben az időablakban, annál több graft marad életben. A Morgan Dermatology disszekciós csapata állandó, nem műtétenként összeállított. Valamennyi tag ugyanolyan 5,5-szörös sebészeti lupét visel, mint a műtétes orvosok — sebészeti szintű nagyítást hozva a disszekciós szakaszba, nem csupán a kivonáshoz és beültetéshez. Az ilyen méretű és technikai szintű állandó csapat ritka a világban."
+        },
+        "physicians": [
+          {
+            "name": "Prof. Shim Woo-Young",
+            "nameKr": "심우영",
+            "photo": "/assets/hospitals/morgan-dermatology/prof-shim-woo-young.png",
+            "role": "Tiszteletbeli Professzor",
+            "specialty": "Felnőtt- és gyermek-hajhullás specialista — 40+ évnyi klinikai tapasztalat",
+            "credentials": [
+              "Board-minősített bőrgyógyász",
+              "Kyung Hee Egyetemi Orvosi Kar professzora",
+              "Sheffield Egyetem (Egyesült Királyság) kutatói ösztöndíjas",
+              "A Koreai Hajkutatási Társaság volt elnöke",
+              "Publikált kutató: alopecia areata, androgenetikus alopecia, mintázatos hajhullás-osztályozás"
+            ]
+          },
+          {
+            "name": "Dr. Lee Seung-Yong",
+            "nameKr": "이승용",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-lee-seung-yong.png",
+            "role": "Vezető Igazgató",
+            "specialty": "Nem-incíziós és incíziós hajátültetési specialista",
+            "credentials": [
+              "Board-minősített bőrgyógyász",
+              "Koreai Bőrgyógyászati Egyesület",
+              "Koreai Hajrestaurációs Sebészeti Társaság",
+              "Koreai Hajkutatási Társaság",
+              "FUE és FUT beavatkozások specialistája"
+            ]
+          },
+          {
+            "name": "Dr. Jung Jae-Heon",
+            "nameKr": "정재헌",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-jung-jae-heon.png",
+            "role": "Plasztikai Sebészeti Specialista",
+            "specialty": "A hajvonal-esztétika úttörője — 30+ évnyi sebészeti tapasztalat",
+            "credentials": [
+              "Board-minősített plasztikai sebész",
+              "ABHRS-minősített (American Board of Hair Restoration Surgery)",
+              "Yonsei Egyetem Plasztikai Sebészeti Klinikai Professzor",
+              "A Koreai Hajátültetési Társaság volt elnöke",
+              "Publikált szerző: több nemzetközi hajrestaurációs tankönyv (Rincas, Springer)"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "AetherHeal Ellenőrzés",
+        "mode": "Beágyazott Klinikai Ellenőrzés",
+        "modeDescription": "Dr. Jee Hoon Ju a Morgan Dermatology igazgatójaként szolgált, és hajátültetési sebészként praktizált ott. Értékelése közvetlen működési és klinikai tapasztalaton alapul a létesítményen belül — beleértve a sebészeti technika standardjainak, a graft-kezelési protokollok, az állandó disszekciós csapat koordinációjának és pontosságának, valamint a posztoperatív utánkövetés minőségének közvetlen megfigyelését.",
+        "modeLabel": "1. mód",
+        "modeSublabel": "Közvetlen beágyazott gyakorlat",
+        "methodologyLink": "A teljes ellenőrzési módszertan olvasása"
+      },
+      "patientProcess": {
+        "title": "Nemzetközi beteg folyamat",
+        "capacityNote": {
+          "title": "Sebészeti kapacitás",
+          "description": "A Morgan Dermatology a minőség megőrzése érdekében korlátozza a műtéti volument.",
+          "rules": [
+            {
+              "label": "2 000 graft alatt",
+              "value": "Max. 2 műtét / nap"
+            },
+            {
+              "label": "2 500 graft felett",
+              "value": "Csak 1 műtét / nap"
+            },
+            {
+              "label": "Foglalási előkészületi idő",
+              "value": "3+ hónappal előre"
+            }
+          ],
+          "recommendation": "Az AetherHeal-lel tervezze meg a műtét menetrendjét jó előre. Mi koordináljuk a sebészeti foglalást, és azt javasoljuk, hogy az utazást a megerősített műtéti időponthoz igazítsa — ne fordítva."
+        },
+        "steps": [
+          {
+            "phase": "Utazás előtt",
+            "title": "Esetstrukturálás",
+            "description": "Az AetherHeal strukturálja az esetét — hajhullás-előzménye, céljai, korábbi kezelései és elvárásai —, mielőtt a Morgan Dermatology áttekinti azt."
+          },
+          {
+            "phase": "Konzultáció",
+            "title": "Személyes értékelés",
+            "description": "A sebészeti csapat felméri a donorterület sűrűségét, a skalp rugalmasságát és a graft-szám megvalósíthatóságát. A megközelítést (FUE, FUT, vagy kombinált) klinikai értékelés alapján határozzák meg."
+          },
+          {
+            "phase": "Beavatkozás",
+            "title": "Műtéti nap",
+            "description": "A beavatkozásokat szedáció (tudatos szedáció) és helyi érzéstelenítés kombinációjával végzik — a legtöbb beteg pihen vagy alszik a beavatkozás alatt. Egy tipikus műtéti nap körülbelül 9:00-tól 15:00-ig tart, beleértve a tervezési, kivonási, disszekciós és beültetési szakaszokat. Minden egyes átültetett folliculust megszámlálnak és jelentenek. A beavatkozás rögzítése (CCTV + közelkamera) standard eljárás."
+          },
+          {
+            "phase": "Posztoperatív",
+            "title": "Felépülés és utánkövetés",
+            "description": "Kezdeti utánkövetés 24-48 órán belül. Varrateltávolítás (FUT) vagy sebvizsgálat (FUE) 7-10 napon belül. Az AetherHeal folytonossági monitoringja az utánkövetési koordinációt akár egy évig kiterjeszti."
+          }
+        ]
+      },
+      "languages": {
+        "title": "Nyelvi támogatás",
+        "description": "A konzultációkat koreai nyelven tartják. Az AetherHeal concierge koordinációján keresztül angol tolmácsolás elérhető. Az orvosi dokumentáció kérésre angolul is megadható."
+      },
+      "recovery": {
+        "title": "Felépülési logisztika",
+        "items": [
+          "Előzetes foglalás: A Morgan Dermatology általában 3+ hónapra előre le van foglalva. Kezdje el a koordinációt az AetherHeal-lel korán, és tervezze az utazást a megerősített műtéti időpont köré.",
+          "Tipikus tartózkodás Szöulban: 3-5 nap a beavatkozás után a kezdeti utánkövetéshez",
+          "Szállás: Gangnamban széles körű rövid távú szálláslehetőségek érhetők el gyalogos távolságra",
+          "Munkába visszatérés: A legtöbb beteg 2-3 napon belül visszatér az irodai munkához. Az első 2 hétben kerülje a megerőltető testmozgást, az alkoholt, a dohányzást és a szaunát.",
+          "Posztoperatív korlátozások: Ne érintse meg vagy kaparja meg az átültetett területet. 2 hétig kerüljön minden kalapot, sisakot vagy bármit, ami nyomást gyakorol a skalpra. A dohányzás összeszűkíti a kapillárisokat és közvetlenül csökkenti a graft túlélési arányát — szigorú tartózkodás szükséges.",
+          "Kilökési reakció: Az átültetett haj jellemzően 2-4 héttel hullik ki — ez normális. Az új növekedés 3-4 hónapon belül kezdődik (sok beteg már ebben a szakaszban észlel látható javulást). A végső eredmény 9-12 hónapra alakul ki."
+        ]
+      },
+      "revisionGuarantee": {
+        "title": "Revíziós garancia",
+        "description": "A Morgan Dermatology írásos revíziós műtéti garanciát nyújt. Ha a beteg egy év után nem elégedett az eredménnyel, egy revíziós beavatkozást végeznek el pótlólagos sebészeti költség nélkül.",
+        "detail": "A garanciát az eredeti beavatkozás előtt kiállított tanúsítvány dokumentálja. Egy revíziót fed le, és a feltételeket előzetesen közlik — nem utólag ajánlják fel tárgyalási eszközként. Emellett a folyamat egyetlen szakaszában sem merülnek fel rejtett díjak: az eredeti árajánlat a beavatkozást, az összes utánkövetési konzultációt, a posztoperatív ellátást és a folyamatos ellenőrzéseket fedezi.",
+        "anchorNote": "Egy klinika, amely saját költségén garantálja a revíziót, olyan klinika, amelynek pénzügyi felelőssége a beteg eredményéhez igazodik — nem csupán a beavatkozási díjhoz."
+      },
+      "decisionSummary": {
+        "title": "A Morgan Dermatology megfelelő Önnek?",
+        "bestForLabel": "A legjobban megfelel",
+        "bestFor": "Azoknak a betegeknek, akik hajátültetést keresnek egy olyan klinikán, amelynek strukturális előnye a sebészeti támogató csapat — az állandó folliculus-disszekciós csapat átlagosan 16,5+ éves tapasztalattal, műtétenként 6-10 fővel. Erős választás összetett esetekre is, amelyek mind FUE, mind FUT értékelést igényelnek, ugyanazon csapaton belüli bőrgyógyászati és ABHRS-minősített plasztikai sebészeti szakértelemmel.",
+        "notIdealLabel": "Nem feltétlenül ideális",
+        "notIdeal": "Azoknak a betegeknek, akik nem hajjal kapcsolatos esztétikai beavatkozásokat keresnek, vagy azoknak, akik tolmácstámogatás nélkül koreaitól eltérő nyelvű konzultációt igényelnek."
+      },
+      "faq": {
+        "title": "Gyakori kérdések a Morgan Dermatology-ról",
+        "items": [
+          {
+            "question": "Mi a folliculus-disszekciós csapat, és miért fontos?",
+            "answer": "A hajátültetés minősége a csapatmunkán múlik, nem csupán a sebészen. Minden graft élő szövet, amelynek visszaszámlálása zajlik — minél tovább marad a testen kívül, annál alacsonyabb a túlélési aránya. Az ebben az időablakban párhuzamosan dolgozó képzett kezek teljes száma határozza meg, hány graft marad életben. A Morgan Dermatology-nak állandó disszekciós csapata van, átlagosan 16,5+ éves tapasztalattal, műtétenként 6-10 fővel, akik mindannyian 5,5-szörös sebészeti lupét viselnek — ugyanazt a nagyítást, mint a sebészek. Ez azt jelenti, hogy több ezer graftot sebészeti szintű pontossággal kezelnek olyan szakemberek, akik évek óta együtt dolgoznak. Az ilyen méretű és technikai szintű állandó csapat rendkívül ritka a világon."
+          },
+          {
+            "question": "Mi különbözteti meg a Morgan Dermatology-t a többi koreai hajátültetési klinikától?",
+            "answer": "A Morgan Dermatology az egyik kevés koreai hajátültetési klinika, ahol ugyanazon a csapaton belül bőrgyógyász és plasztikai sebész specialisták is tevékenykednek. Prof. Shim 40+ évnyi akadémiai hajhullás-kutatást hoz. Dr. Jung ABHRS-minősítést és 30+ éves sebészeti tapasztalatot hoz. Ez a kettős szakterületi struktúra azt jelenti, hogy az eseteket orvosi és sebészeti szempontból egyaránt értékelik."
+          },
+          {
+            "question": "A Morgan Dermatology végez-e FUE-t és FUT-ot egyaránt?",
+            "answer": "Igen. A klinika FUE (nem incíziós) és FUT (szalagmódszer) beavatkozásokat egyaránt végez. A sebészeti csapat értékeli, hogy melyik megközelítés — vagy ezek kombinációja — a legmegfelelőbb a beteg donorterülete, lefedési igényei és hosszú távú hajhullási mintázata alapján. A döntés klinikai, nem értékesítésvezérelt."
+          },
+          {
+            "question": "Hogyan ellenőrizte az AetherHeal a Morgan Dermatology-t?",
+            "answer": "Az AetherHeal alapító orvosa, Dr. Jee Hoon Ju, hajátültetési sebészként praktizált a Morgan Dermatology-ban. Ellenőrzése közvetlen klinikai tapasztalaton alapul a létesítményen belül — nem helyszíni látogatáson vagy dokumentumáttekintésen. Ez az AetherHeal legmagasabb ellenőrzési standardja (1. mód: Beágyazott Klinikai Ellenőrzés)."
+          },
+          {
+            "question": "Kaphatok-e konzultációt angolul?",
+            "answer": "A konzultációkat koreai nyelven tartják. Az AetherHeal angol tolmácsolást biztosít concierge koordinációján keresztül, és az orvosi dokumentáció kérésre lefordítható. A klinikai értékelést maga a koreai ajkú sebészeti csapat végzi."
+          },
+          {
+            "question": "Mennyi ideig kell Szöulban maradnom a Morgan Dermatology-ban végzett hajátültetés után?",
+            "answer": "Jellemzően 3-5 napig kell a beavatkozás után Szöulban tartózkodni a kezdeti utánkövetéshez. Maga a beavatkozás 4-8 óráig tart a graftszámtól függően. Fontos megjegyezni, hogy a Morgan Dermatology általában 3+ hónapra előre le van foglalva, és napi 1-2 műtétre korlátozza a kapacitást — tervezze az utazást a megerősített műtéti időpont köré, ne fordítva. Az AetherHeal koordinálja az ütemezést, és azt javasolja, hogy az utazás menetrendjét a műtéti időpont rögzítése után tervezze meg."
+          },
+          {
+            "question": "Mi a revíziós garancia?",
+            "answer": "A Morgan Dermatology az eredeti beavatkozás előtt írásos revíziós műtéti garanciatanúsítványt állít ki. Ha a beteg egy év után nem elégedett az eredménnyel, egy revíziós műtétet fedeznek pótlólagos sebészeti költség nélkül. A feltételeket előre közlik — ez strukturális kötelezettségvállalás az eredményelszámoltathatóság iránt, nem utólagos tárgyalás."
+          },
+          {
+            "question": "Fájdalmas a műtét?",
+            "answer": "A Morgan Dermatology szedációt (tudatos szedáció) alkalmaz helyi érzéstelenítéssel kombinálva. A kezdeti érzéstelenítés során érzett rövid szúrást kivéve — amelyet sok beteg alig érez — a beavatkozás alatt gyakorlatilag nincs fájdalom. A legtöbb beteg kényelmesen pihen vagy alszik a műtét alatt."
+          },
+          {
+            "question": "Vannak-e rejtett díjak vagy pótlólagos költségek?",
+            "answer": "Nem. A Morgan Dermatology az eredeti árajánlatban szereplő összeget számítja fel, és nem többet. Az összes utánkövetési vizit, a posztoperatív konzultáció és a folyamatos ellátás benne van az árban. A műtét napján a klinika egyenként megszámlál minden egyes átültetett folliculust, és a pontos számot jelenti a betegnek — teljes átláthatóság az elejétől a végéig."
+          },
+          {
+            "question": "Mi a kilökési reakció, és kell-e aggódnom miatta?",
+            "answer": "A kilökési reakció a felépülési folyamat normális része, amelynek során az átültetett haj a műtét után körülbelül 2-4 héttel hullik ki. Ez nem jelenti a beavatkozás sikertelenségét — a folliculusok élnek a bőr alatt, és körülbelül 3-4 hónapon belül új hajat kezdenek növeszteni. Sok beteg már ebben a korai szakaszban észlel látható javulást. A végső, természetes megjelenésű eredmény általában 9-12 hónapra alakul ki. A türelem és a következetes utánkövetési gondozás kulcsfontosságú."
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "Felülvizsgálta",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · A Morgan Dermatology volt igazgatója",
+        "lastReviewed": "2026. április",
+        "verificationMode": "Beágyazott Klinikai Ellenőrzés (1. mód)"
+      },
+      "cta": {
+        "title": "Hajátültetést fontolgat Koreában?",
+        "subtitle": "Kezdje egy orvos vezette folyamattal, amely strukturálja döntését, mielőtt elkötelezte magát egy klinika mellett.",
+        "primary": "Kezdje valakivel az Ön oldalán",
+        "secondary": "Összes ellenőrzött kórház megtekintése"
+      }
+    },
+    "tune-clinic": {
+      "meta": {
+        "title": "Apgujeong Tune Clinic — Ellenőrzött Esztétikai Bőrgyógyászat Szöulban | AetherHeal",
+        "description": "Az Apgujeong Tune Clinic az AetherHeal által ellenőrzött esztétikai bőrgyógyászati klinika Gangnamban, Szöulban. Hatos Orvosi Tanács, Chamaka-se Design Method, lifting/filler/regeneratív szakterületek, 8 nyelvű betegszolgálat. Beágyazott operatív szerepen keresztül ellenőrizve."
+      },
+      "name": "Apgujeong Tune Clinic",
+      "nameKr": "압구정튠의원",
+      "specialty": "Prémium Esztétikai Bőrgyógyászat · Lifting · Regeneratív Medicina",
+      "location": "Apgujeong, Gangnam, Szöul",
+      "badge": "Ellenőrzött Partnerközpont",
+      "oneSentenceAnswer": "Az Apgujeong Tune Clinic egy orvosi tanács által működtetett esztétikai bőrgyógyászati praxis Gangnamban, ahol hat board-minősített orvos egymást kiegészítő szakterületekkel — arcdesign, lifting, regeneratív medicina, plasztikai sebészet — nyújt protokollalapú kezelést a Chamaka-se Design Method szerint, amelyet az AetherHeal beágyazott operatív szerepén keresztül ellenőrzött.",
+      "overview": {
+        "title": "Az Apgujeong Tune Clinic bemutatása",
+        "paragraphs": [
+          "Az Apgujeong Tune Clinic egy prémium esztétikai bőrgyógyászati klinika Gangnamban, Szöulban, amely nem sebészeti arcfiatalításra specializálódott — lifting, filler, kollagén-stimuláció és regeneratív medicina. A klinika orvos vezette, protokollalapú modell szerint szolgálja ki a nemzetközi betegeket.",
+          "A klinika orvosi tanácsként működik, nem egyszemélyes praxisként. Hat, egymást kiegészítő szakterületű orvos — arcdesign és anti-aging, lifting, regeneratív medicina, plasztikai sebészet és nemzetközi betegkoordináció — praktizál együtt, és kölcsönösen áttekinti az összetett eseteket. Ez ritka a koreai esztétikai klinikák körében, amelyek többsége egyetlen ismert orvos köré épül.",
+          "A klinika filozofiájának magja a Chamaka-se Design Method — orvosok által szerzett protokolltervezési folyamat. Az elv az, hogy az eszközök árucikkek, de a természetes eredményt adó sorrend, adagolás, vektor és anatómiai érvelés nem az. A protokollt a beteghez választják, nem a beteget sorolják be egy protokollba. Minden esetet az az orvos értékel, akinek szakterülete legjobban illeszkedik az indikációhoz.",
+          "A Tune Clinic a nemzetközi betegek számára készült. Nyolc nyelvet támogatnak (angol, japán, kínai, thai, német, francia, orosz, vietnami), és a klinika operatív modellje az utazástudatos tervezést részesíti előnyben — a megfelelő kezelést a beteg által ténylegesen rendelkezésre álló időre, nem egy általános menüt kínálva minden látogatásnál.",
+          "A kiemelt protokollok közé tartozik a Signature Lifting (orvos által kalibrált Ultherapy 350-lövéses lifting protokoll), a Collagen Builder (Juvelook / Rejuran / regeneratív stimuláció), és a Structural Reset (többrétegű arcfiatalítási terv az egész arcra tervezve, nem eszközönkénti értékesítésként). Referencia eszközök: Ultherapy, Thermage, Inmode, Oligio, Juvelook és Rejuran."
+        ]
+      },
+      "procedures": {
+        "title": "Kiemelt protokollok",
+        "items": [
+          {
+            "name": "Signature Lifting",
+            "description": "Orvos által kalibrált Ultherapy 350-lövéses lifting protokoll az SMAS és a dermális rétegek mentén való mély szövetszilárdításhoz. A lövésszám, vektor és mélység arcra tervezett — nem rögzített csomag. Alkalmas azoknak, akik sebészeti beavatkozás nélkül keresnek strukturális liftinget."
+          },
+          {
+            "name": "Collagen Builder",
+            "description": "Regeneratív stimuláció, amely a Juvelook-ot, a Rejurant és bőrbooster protokollokat kombinálja a dermális sűrűség helyreállítására, a pórusminőség javítására és a finom ráncok csökkentésére. A hangsúly a strukturális regeneráción van, nem a felszíni ragyogáson."
+          },
+          {
+            "name": "Structural Reset",
+            "description": "Többrétegű fiatalítási terv, amelyet az egész arcra terveznek — a lifting, a volumen és a bőrminőség egy döntésként kezelve, nem három külön eszközértékesítésként. A tervet személyes anatómiai értékelés után szerzik."
+          },
+          {
+            "name": "Filler (orvos által tervezett)",
+            "description": "Általános filler, szem alatti / fül / felső szemhéj filler, ajak filler és hialuronidáz-korrekció. A termékválasztást, az injekciós réteget és a volument az orvos határozza meg a szövetminőség és az eset kontextusa alapján — nem kizárólag a beteg kérésére."
+          },
+          {
+            "name": "Chamaka-se Design Konzultáció",
+            "description": "A klinika orvos vezette, saját tulajdonú protokolltervezési konzultációja. Anatómiai elemzés, célok összehangolása, utazástudatos tervezés és protokollalkotás — mielőtt bármilyen eszközzel kapcsolatos döntés születik."
+          }
+        ]
+      },
+      "team": {
+        "title": "Orvosi Csapat",
+        "surgicalTeam": {
+          "title": "Az Orvosi Tanács",
+          "description": "A Tune Clinic orvosi tanácsként van felépítve, nem egyszemélyes klinikáként. Hat board-minősített orvos, egymást kiegészítő szakterületekkel, együtt praktizál és kölcsönösen áttekinti az eseteket egy közös, protokollalapú módszertan keretében.",
+          "stats": [
+            {
+              "number": "6",
+              "label": "Orvosi Tanács tagjai"
+            },
+            {
+              "number": "8",
+              "label": "Támogatott nyelvek"
+            }
+          ],
+          "explanation": "A Chamaka-se Design Method orvosok által szerzett protokolltervezés — az eszközök árucikkek, de a természetes eredményt adó sorrend, adagolás, vektor és anatómiai érvelés nem az. Az eseteket az indikációhoz legjobban illeszkedő szakterületű orvoshoz rendelik, és az összetett, többrétegű terveket kölcsönösen áttekintik a testületen keresztül. Ez a klinika 'Bizonyítékalapú Esztétika' filozófiájának működési alapja."
+        },
+        "physicians": [
+          {
+            "name": "Dr. Seung Yeon Cha",
+            "nameKr": "차승연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-cha-seung-yeon.jpg",
+            "role": "Vezető Igazgató",
+            "specialty": "Arcdesign és Anti-Aging — Az Arcegyensúly Mestere",
+            "credentials": [
+              "MD, Yonsei Egyetemi Orvosi Kar",
+              "A Cheongdam ZN Plastic Surgery Clinic volt igazgatója",
+              "A Mirror Plastic Surgery & Dermatology volt igazgatója",
+              "2015 Medical Asia Grand Prize, Plasztikai Sebészet kategória",
+              "A Koreai Őssejt-terápiás Társaság igazgatósági tagja",
+              "Filozófia: 'Az esztétikai medicina nem az arcát változtatja meg. Megtalálja az elveszett egyensúlyt.'"
+            ]
+          },
+          {
+            "name": "Dr. Kwang Yeon Kim",
+            "nameKr": "김광연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-kwang-yeon.jpg",
+            "role": "Vezető Igazgató",
+            "specialty": "Lifting Szaktekintély — Vektor alapú feszesítési specialista",
+            "credentials": [
+              "A TOX n FILL Clinic volt igazgatója",
+              "A Qingdao Rose Plastic Surgery volt igazgatója (Kína)",
+              "Az Esta Plastic Surgery volt igazgatója (Kína)",
+              "Kiemelt Lifting Orvos (Hugel) — 'Kék Rózsa' kadáver instruktor",
+              "Klinikai tanácsadó, Ildong Esthetic",
+              "Élethosszig tartó tag, Koreai Energiaterápiás Társaság",
+              "Filozófia: 'A lifting fizika. Kiszámítjuk a vektorokat és mélységet a legtermészetesebb eredmény érdekében.'"
+            ]
+          },
+          {
+            "name": "Dr. Jee Hoon Ju",
+            "nameKr": "주지훈",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-ju-jee-hoon.jpg",
+            "role": "Nemzetközi Igazgató",
+            "specialty": "Orvosi esztétika, haj és nemzetközi betegkommunikáció",
+            "credentials": [
+              "A Morgan Dermatology volt igazgatója",
+              "American Board of Aesthetic Medicine (ABAM)",
+              "MIT Sloan Executive Education — Mesterséges Intelligencia az Egészségügyben",
+              "AHA Advanced Cardiovascular Life Support Provider",
+              "Rendes tag, Koreai Hajátültetési Társaság",
+              "Rendes tag, Koreai Lifting Társaság",
+              "AetherHeal alapító orvos"
+            ]
+          },
+          {
+            "name": "Dr. Dong Hyun Jo",
+            "nameKr": "조동현",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jo-dong-hyun.jpg",
+            "role": "Regeneratív Medicina",
+            "specialty": "Őssejt- és regeneratív stratégia a szövetminőségért és felépülésért",
+            "credentials": [
+              "A Gold Plastic Surgery volt igazgatója",
+              "Klinikai tanácsadó, Szöuli Nemzeti Egyetemi Kórház",
+              "A Nemzetközi Gyakorlati Plasztikai Sebészeti Társaság elnöke",
+              "Igazgatósági tag, Koreai Esztétikai Bőrgyógyászati Társaság",
+              "Igazgatósági tag, Koreai Esztétikai Sebészeti Társaság",
+              "Könyvvizsgáló, Koreai Őssejt-terápiás Társaság",
+              "Akadémiai Bizottság, Koreai Esztétikai Plasztikai Sebészeti Társaság"
+            ]
+          },
+          {
+            "name": "Dr. Beom Jin Kim",
+            "nameKr": "김범진",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-beom-jin.jpg",
+            "role": "Sebészet és Rekonstrukció",
+            "specialty": "Plasztikai sebészeti mélység a strukturális döntések és beutalások támogatásához",
+            "credentials": [
+              "MD, Yonsei Egyetemi Orvosi Kar",
+              "Plasztikai sebészeti rezidens, Severance Kórház",
+              "Board-minősített plasztikai sebész",
+              "Plasztikai sebészeti fellowship, UPMC (Pittsburgh Orvosi Centrum)",
+              "A Yonsei Egyetemi Orvosi Kar volt professzora",
+              "Klinikai professzor, Plasztikai Sebészet, Yonsei Egyetemi Orvosi Kar",
+              "Rendes tag, Koreai Plasztikai és Rekonstruktív Sebészeti Társaság",
+              "Rendes tag, Koreai Koponyasebészeti Társaság"
+            ]
+          },
+          {
+            "name": "Dr. Seung Woo Jang",
+            "nameKr": "장승우",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jang-seung-woo.jpg",
+            "role": "Orvosi Tanácsadás",
+            "specialty": "MD, PhD — tanácsadói mélység gyermekgyógyászati és általános orvosi értékeléshez",
+            "credentials": [
+              "MD, PhD — Board-minősített gyermekgyógyász",
+              "Klinikai professzor, Chosun Egyetemi Orvosi Kar",
+              "A Yeosu Munhwa Kórház volt igazgatója",
+              "A Gwangju Woori Gyermekgyógyászat volt igazgatója",
+              "A Mokpo Gyermekkórház volt igazgatója",
+              "Minősített orvos, Koreai Geriátriai Társaság",
+              "Rendes tag, Koreai Lifting Társaság"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "badge": "AetherHeal Ellenőrzés",
+        "mode": "Beágyazott Klinikai Ellenőrzés",
+        "modeLabel": "1. mód",
+        "modeSublabel": "Operatív szerep + jelenlegi gyakorlat",
+        "modeDescription": "Dr. Jee Hoon Ju az Apgujeong Tune Clinic Nemzetközi Igazgatójaként tevékenykedik, és jelenleg orvosi esztétikai orvosként praktizál itt. Az AetherHeal értékelése közvetlen, a klinikán belüli operatív tapasztalaton alapul — döntéshozatali kultúra, protokollirányítás, az Orvosi Tanács eseteszkalációs folyamata és a nemzetközi betegek kezelése. Ez nem helyszíni látogatás vagy dokumentumáttekintés; ez egy bennfentes munkáltapasztalaton alapuló értékelés.",
+        "methodologyLink": "A teljes ellenőrzési módszertan olvasása"
+      },
+      "patientProcess": {
+        "title": "Nemzetközi beteg folyamat",
+        "steps": [
+          {
+            "phase": "Utazás előtt",
+            "title": "Esetstrukturálás",
+            "description": "Az AetherHeal strukturálja az esetét — aggodalmait, céljait, korábbi kezeléseit és elvárásait —, mielőtt a Tune Clinic orvosi tanácsa áttekinti azt. Kezdeti irányt kap, mielőtt repülőre szállna."
+          },
+          {
+            "phase": "Konzultáció",
+            "title": "Chamaka-se Design konzultáció",
+            "description": "Személyes anatómiai értékelés. Az esete indikációjához legjobban illeszkedő szakterületű orvos (arcdesign, lifting, regeneratív, vagy kombinált) vezeti a konzultációt és szerzői a protokollt. Ez az a pont, ahol a kezelési terv megszületik — nem korábban."
+          },
+          {
+            "phase": "Beavatkozás",
+            "title": "Kezelési nap",
+            "description": "A legtöbb protokoll a konzultáció napján vagy másnap végrehajtható, a komplexitástól, a zúzódási kockázattól és az utazási ablaktól függően. A kezeléseket helyi érzéstelenítéssel vagy helyileg alkalmazott érzéstelenítővel végzik, ahogy az megfelelő; szedáció hosszabb tervekhez rendelkezésre áll. Minden beavatkozást orvos végez (nem delegálnak ápolókhoz vagy technikusokhoz)."
+          },
+          {
+            "phase": "Posztoperatív",
+            "title": "Felépülés és utánkövetés",
+            "description": "Kezdeti áttekintés 24-48 órán belül, ahol ez lehetséges. A gondozási utasítások utazástudatosak — repülési időzítés, napfény-expozíció, tevékenységbe való visszatérés — nem általános utógondozási lapok. Az AetherHeal folytonossági monitoringja a klinika látogatásán túl is kiterjeszti az utánkövetési koordinációt."
+          }
+        ]
+      },
+      "languages": {
+        "title": "Nyelvi támogatás",
+        "description": "A Tune Clinic nyolc nyelven nyújt támogatást a nemzetközi betegeknek: angolul, japánul, kínaiul, thaiul, németül, franciául, oroszul és vietnamiul. A konzultációk koordinátori tolmácsolással zajlanak, Dr. Ju (Nemzetközi Igazgató) pedig közvetlen angol nyelvű konzultációt nyújt összetett esetekhez. Az orvosi dokumentáció kérésre angolul is megadható."
+      },
+      "recovery": {
+        "title": "Felépülési logisztika",
+        "items": [
+          "Előzetes kapcsolatfelvétel: Minimum néhány nap; több ha protokoll-útmutatást szeretne érkezés előtt, menetrendkoordinációt, vagy segítséget annak eldöntésében, hogy melyik kezelési kategória a legjobb az arca és az utazás hossza szempontjából. Az összetett, többrétegű tervek 1-2 hetes előzetes esetstrukturálásból profitálnak.",
+          "Tipikus tartózkodás Szöulban: 2-5 nap a protokolltól függően. Az energiaalapú kezelések (lifting, lézer) általában 24 órán belül repüléstűrőek; a filler és a zúzódási kockázatú protokollok hosszabb felépülési ablakot igényelnek.",
+          "Szállás: Apgujeongban és Cheongdamban széles körű rövid távú szálláslehetőségek érhetők el gyalogos távolságra. A klinika utazástudatos lehetőségeket tud ajánlani a protokoll alapján.",
+          "Hazarepülés: A kezeléstől függ. Lifting és energiaeszközök — általában másnap repülhető. Filler, különösen arc közepe — tervezzen a zúzódásra és az alvási helyzet szempontjaira 3-7 napig.",
+          "Posztoperatív korlátozások: Az első 48-72 órában kerülje az alkoholt, a szaunát, az intenzív testmozgást és a hosszan tartó napozást (a protokolltól függően változik). Csak fényvédő és enyhe bőrápolás.",
+          "Rövid utazás tervezése: Ha csak 2-3 napja van Szöulban, a kezelés kiválasztásának a látható hatás és az állásidő arányát kell előnyben részesítenie — néha egy kisebb, letisztultabb terv értékesebb, mint egy látogatáson mindent megpróbálni."
+        ]
+      },
+      "decisionSummary": {
+        "title": "Az Apgujeong Tune Clinic megfelelő Önnek?",
+        "bestForLabel": "A legjobban megfelel",
+        "bestFor": "Azoknak a betegeknek, akik protokollalapú, orvos által szerzett esztétikai ellátást keresnek, nem eszközmenü-vásárlást. Erős illeszkedés liftinghez, fillerhez, regeneratív medicinához és többrétegű arcfiatalításhoz. Különösen alkalmas azoknak a nemzetközi betegeknek, akik keresztszakterületi orvosi áttekintést és utazástudatos tervezést szeretnének.",
+        "notIdealLabel": "Nem feltétlenül ideális",
+        "notIdeal": "Azoknak a betegeknek, akik sebészeti plasztikai műtétet keresnek (a Tune Clinic nem sebészeti esztétikai bőrgyógyászat). Azoknak a betegeknek, akiknek elsődleges döntési szempontja a legalacsonyabb ár — a klinika strukturális előnye az orvosi ítélet és a protokollminőség, nem az árakon való versengés."
+      },
+      "faq": {
+        "title": "Gyakori kérdések az Apgujeong Tune Clinic-ről",
+        "items": [
+          {
+            "question": "Kaphatok-e kezelést a konzultációval azonos napon?",
+            "answer": "Sokszor igen, de csak azután, hogy az orvos megerősítette, hogy a kezelési kategória, sorrend és felépülési elvárások megfelelők az arca és a menetrendje szempontjából. A klinika elve, hogy a kezelés megfelelőségét az orvos konzultáció során dönti el, nem feltételezi az érkezés előtt."
+          },
+          {
+            "question": "Mennyivel az utazás előtt vegyek fel kapcsolatot a klinikával?",
+            "answer": "Néhány nap előzetesen jó minimum. Több előkészületi idő jobb, ha érkezés előtti protokoll-útmutatást, menetrendkoordinációt vagy segítséget szeretne annak eldöntésében, hogy melyik kezelési kategória a legértelmesebb az arca és az utazásának hossza szempontjából. Az összetett, többrétegű tervek 1-2 hetes előzetes esetstrukturálásból profitálnak."
+          },
+          {
+            "question": "Elérhető-e angol nyelvű támogatás a klinikán?",
+            "answer": "Igen. A Tune Clinic a nemzetközi betegkommunikáció köré épül, angol ajkú koordinációval és japán, kínai, thai, német, francia, orosz és vietnami megkeresések esetén is elérhető támogatási útvonalakkal. Dr. Ju, a Nemzetközi Igazgató, közvetlen angol nyelvű konzultációt nyújt összetett esetekhez."
+          },
+          {
+            "question": "Repülhetek-e hamarosan a kezelés után?",
+            "answer": "Sok esetben igen, különösen utazásbarát energetikai kezelések, például Ultherapy vagy Thermage lifting után. De a válasz megváltozik, ha fillert, zúzódási kockázatú kezeléseket vagy látható felépülési időt igénylő tervet fontolgat. A klinika utógondozási útmutatása utazástudatos — a repülési időzítés a protokolltervezés része, nem utólagos megfontolás."
+          },
+          {
+            "question": "Mi van, ha csak két vagy három napom van Szöulban?",
+            "answer": "Akkor a kezelés kiválasztásának a látható hatás és az állásidő arányát kell előnyben részesítenie. Néha egy kisebb, letisztultabb terv értékesebb, mint egy látogatáson túl sokat próbálni megtenni. A klinika Chamaka-se Design Method-ja kifejezetten a megfelelő kezelés tervezésére épül, a beteg által ténylegesen rendelkezésre álló idő alapján."
+          },
+          {
+            "question": "Megmondhatja-e a klinika, hogy pontosan mire van szükségem, csupán fotókból?",
+            "answer": "A fotók iránymutatáshoz hasznosak, de a végleges terv még mindig személyes megerősítést igényel a szövetminőség, az aszimmetria, a mimika, a bőrállapot és a felépülési tolerancia tekintetében. A fotó alapú előzetes konzultáció értékes az irány szűkítéséhez; a protokollt maga személyesen szerzik."
+          },
+          {
+            "question": "Mit jelent a Tune Clinic 'Orvosi Tanács' struktúrája az ellátásom szempontjából?",
+            "answer": "Azt jelenti, hogy az esetét az az orvos értékeli, akinek szakterülete a legjobban illeszkedik hozzá — arcdesign, lifting, regeneratív medicina vagy plasztikai sebészet —, nem mindenki kerül egyetlen orvoshoz. Az összetett, többrétegű eseteket kölcsönösen áttekintik a testületen keresztül. Ez ritka a koreai esztétikai klinikák körében, amelyek többsége egyetlen ismert orvos köré épül."
+          }
+        ]
+      },
+      "reviewerMeta": {
+        "label": "Felülvizsgálta",
+        "name": "Dr. Jee Hoon Ju, MD",
+        "credentials": "ABAM · MIT Sloan AI in Healthcare · Az Apgujeong Tune Clinic Nemzetközi Igazgatója",
+        "lastReviewed": "2026. április",
+        "verificationMode": "Beágyazott Klinikai Ellenőrzés (1. mód)"
+      },
+      "cta": {
+        "title": "Esztétikai ellátást fontolgat Szöulban?",
+        "subtitle": "Kezdje egy orvos vezette folyamattal, amely strukturálja döntését, mielőtt elkötelezte magát egy klinika mellett.",
+        "primary": "Kezdje valakivel az Ön oldalán",
+        "secondary": "Összes ellenőrzött kórház megtekintése"
+      }
+    }
+  }
+}

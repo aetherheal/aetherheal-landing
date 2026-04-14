@@ -1,0 +1,131 @@
+{
+  "common": {
+    "footer": {
+      "guideLinks": {
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "Apgujeong Tune Klinika"
+      },
+      "platformLinks": {
+        "verificationMethodology": "Ellenorzesi modszertan"
+      }
+    }
+  },
+  "home": {
+    "partners": {
+      "methodologyCta": "Ellenorzesi modszertan"
+    },
+    "coverage": {
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
+      ]
+    }
+  },
+  "aestheticClinic": {
+    "tunePartner": {
+      "badge": "Verifikalt partner",
+      "title": "Apgujeong Tune Klinika",
+      "description": "Az AetherHeal verifikalt partnere esztetikai dermatologia teren Szoulban. Dr. Jee Hoon Ju Nemzetkozi Igazgatokent dolgozik, es jelenleg is itt praktizal — ertekelesunk belso, mukodesbe agyazott szerepen alapul, nem helyszini latogatason. Orvosi-testuleti struktura, Chamaka-se Design Method, 8 nyelvu betegtudomanyitas.",
+      "cta": "A verifikacios folyamat megtekintese"
+    }
+  },
+  "hairTransplant": {
+    "morganPartner": {
+      "badge": "Verifikalt partner",
+      "title": "Morgan Dermatology",
+      "description": "Az AetherHeal verifikalt partnere hajatultetes teren. Dr. Jee Hoon Ju kozvetlenul itt dolgozott hajatulteto sebeszként — ertekelesunk belso klinikai tapasztalaton alapul, nem helyszini latogatason.",
+      "cta": "A verifikacios folyamat megtekintese"
+    }
+  },
+  "trustProtocol": {
+    "methodologyLink": "Tekintse meg a korhazak ertekelesnek modszertanat →",
+    "reviewerMeta": {
+      "label": "Ellenorizte",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
+  },
+  "hospitalAbroad": {
+    "reviewerMeta": {
+      "label": "Ellenorizte",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "2026. aprilis",
+      "methodologyLinkText": "Tekintse meg a korhazverifikacio modszertanat →"
+    },
+    "hero": {
+      "oneSentenceAnswer": "Kulfoldi korhazat ugy valasszon, hogy elobb ellenorizze az orvosi kepesiteseket, az arattlathatosagot es a mutet utani ellatasi folytonosagot — mielott az arat, a marketinget vagy a markarangsort merlegelne."
+    },
+    "decisionSummary": {
+      "title": "Onnek szol ez az oldal?",
+      "bestForLabel": "Legjobb valasztas",
+      "bestFor": "Tobborszagos korhazakat összehasonlito betegek szamara, akik nem tudjak, hogyan merjek a marketingjelzeseket a klinikai valosaghoz kepest.",
+      "notIdealLabel": "Nem idealis",
+      "notIdeal": "Azok szamara, akik korhazak cimtarat vagy rogzitett arlistajat keresik — ezek mas kerdesekre adnak valaszt.",
+      "keyRisksLabel": "Fo kockazatok, ha kihagyja ezt",
+      "keyRisks": "Csak ar vagy nepszeruseg alapjan valaszt, alabecsuli a mutet utani nyomon kovetes logisztikajat, es egy magas Google-ertekeles alapjan von le klinikai minosegi kovetkeztetest.",
+      "commonMisconceptionLabel": "Elterjedt teves elkepzeles",
+      "commonMisconception": "\"Egy hires korhaz biztonsagos korhaz.\" A hirnev a marketingeleres merteke, nem a klinikai eredmenyeke."
+    }
+  },
+  "physician": {
+    "hero": {
+      "intro": "Olyan orvos, aki a partner korhazakat belulrol ellenorizte — igazgatokent es hajatulteto sebeszként a Morgan Dermatology-ban, Nemzetkozi Igazgatokent es borbeteg esztetikai orvoskent az Apgujeong Tune Klinikaban, valamint klinikai csapattag az alapito partner csoportban. Az AetherHeal megepitese elott o maga volt az a beteg, aki nem latta, mi ment rosszul."
+    },
+    "verification": {
+      "badge": "Ellenorzesi modszertan",
+      "title": "Hogyan ellenorizem a korhazakat",
+      "intro": "A legtobb egeszsegiturisztikai platform kivulrol ellenorzi a korhazakat — helyszini latogatasokkal, dokumentumok atatvizsgalasaval, ellenorzolisatakkal. En az AetherHeal alapito partnereit belulrol ellenoriztem, gyakorlo orvoskent dolgozva bennuk. Ez egy masik standard.",
+      "mode1": {
+        "title": "Belso klinikai verifikacio",
+        "description": "Korhazak, ahol kozvetlenul orvoskent praktizaltam, vagy operativ vezetoi szerepet toltottem be. Ertekelesem a klinikai standardok, a csapatmukodes, a berendezesminoseg es a betegellatas szemelyes tapasztalatan alapul — nem egy latogatason, hanem a tenyleges munkan.",
+        "hospitals": [
+          {
+            "name": "Morgan Dermatology",
+            "role": "Korabbi igazgato es gyakorlo hajatulteto sebesz"
+          },
+          {
+            "name": "Apgujeong Tune Klinika",
+            "role": "Gyakorlo borbeteg esztetikai medicina specialista (jelenlegi)"
+          },
+          {
+            "name": "Apgujeong Min Fogaszat",
+            "role": "Jovotervezesi osztaly vezeto"
+          }
+        ]
+      },
+      "mode2": {
+        "title": "Orvosi halozati ertekeles",
+        "description": "Igazgatoi szintu kapcsolatokon, klinikai kepesitesek atvizsgatalan es eredmenyertekeleseken keresztul megvizsgalt korhazak. Ertekelem az igazgatok kepzesi hatteret, a sebeszeti csapat osszetetet es a letesitmeny standardjait — de magam nem praktizaltam ezekben az intezmenyekben.",
+        "hospitals": [
+          {
+            "name": "B&N Szemklinika",
+            "basis": "Megalapit fobb intezmenye. Szemelyes kapcsolat Kim Jin-guk igazgatoval. Letesitmeny standardok es sebeszeti csapat ertekeltve."
+          },
+          {
+            "name": "Woori Plastic Surgery",
+            "basis": "Igazgatoi szintu ertekeles. A sebeszeti csapatban tobb, az Asan Korhazbol szarmazo professzor-eredetu plasztikai sebesz van."
+          },
+          {
+            "name": "Hosan Korhaz",
+            "basis": "Igazgatok, elozmenyek es noi plasztikai sebeszeti betegkimenetelek klinikai ertekelse."
+          },
+          {
+            "name": "The Well Dental",
+            "basis": "Igazgatok, kezelesi megkozelites es letesitmeny standardok klinikai ertekelse felnott fogaszatban."
+          }
+        ]
+      },
+      "methodologyLink": "Olvassa el a teljes ellenorzesi modszertant"
+    }
+  }
+}

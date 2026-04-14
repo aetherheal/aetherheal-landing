@@ -1,0 +1,160 @@
+{
+  "methodology": {
+    "meta": {
+      "title": "Comment nous verifions les hopitaux | Methodologie de verification AetherHeal",
+      "description": "AetherHeal verifie les hopitaux partenaires selon deux niveaux : un standard minimal publie avec cinq criteres non negociables, et une evaluation clinique independante par les Angel Physicians. 31 % des candidats ont ete rejetes."
+    },
+    "hero": {
+      "badge": "Methodologie de verification",
+      "h1": "Comment nous",
+      "h1Highlight": "verifions les hopitaux",
+      "oneSentenceAnswer": "AetherHeal verifie les hopitaux selon deux niveaux : un standard minimal publie applique par l'organisation, et une evaluation clinique independante realisee par les Angel Physicians.",
+      "intro": "La plupart des plateformes de tourisme medical listent des hopitaux. Certaines pretendent les evaluer. AetherHeal publie son standard minimal, nomme les criteres et divulgue son taux de rejet — car une verification qui ne peut pas etre examinee n'est pas une verification."
+    },
+    "whyItMatters": {
+      "title": "Pourquoi la verification est importante",
+      "paragraphs": [
+        "Dans le marche du tourisme medical, les patients ne peuvent pas distinguer la qualite clinique de la qualite marketing. Un site web soigne, une note Google elevee et une recommandation de celebrite ne vous disent rien sur les qualifications des medecins, la transparence des tarifs, ou ce qui se passe en cas de probleme.",
+        "La verification existe pour faire cette distinction au nom du patient — avant que le patient ne s'engage envers un hopital, un vol ou une procedure.",
+        "La verification d'AetherHeal n'est pas un label d'approbation. C'est un standard avec des consequences. Les hopitaux qui ne le respectent pas sont rejetes. Les hopitaux qui le respectent sont surveilles. Le standard est le standard."
+      ]
+    },
+    "layer1": {
+      "badge": "Niveau 1 — Standard publie",
+      "title": "Le standard minimal",
+      "intro": "Tout hopital candidat doit satisfaire cinq criteres non negociables. Ils sont binaires — admis ou refuse — et verifiables sur la base de documents publics et de la documentation institutionnelle. AetherHeal les publie car les dissimuler nuirait a la confiance que la plateforme cherche a creer.",
+      "criteria": [
+        {
+          "title": "Verification de la licence medicale",
+          "description": "Tout medecin effectuant des procedures sur des patients AetherHeal doit detenir une licence medicale coreenne valide dans sa specialite declaree.",
+          "basis": "Verifie sur le registre des medecins du ministere coreen de la Sante et des Affaires sociales."
+        },
+        {
+          "title": "Transparence des tarifs",
+          "description": "L'hopital doit communiquer a AetherHeal sa structure tarifaire complete avant toute orientation de patient, y compris tous les couts additionnels potentiels. Les honoraires non declares constituent un motif de rejet.",
+          "basis": "Verifie par soumission directe du bareme des honoraires et recoupage avec les devis transmis aux patients."
+        },
+        {
+          "title": "Politique d'enregistrement des procedures",
+          "description": "Les procedures sous sedation doivent etre enregistrees par camera CCTV et camera de prise de vue rapprochee. Les enregistrements doivent etre disponibles pour le patient sur demande. Les hopitaux refusant l'enregistrement sont rejetes.",
+          "basis": "Verifie par inspection des locaux et confirmation ecrite de la politique."
+        },
+        {
+          "title": "Protocole de suivi postoperatoire",
+          "description": "L'hopital doit maintenir un protocole de suivi postoperatoire documente s'etendant sur au moins 30 jours apres la procedure, avec un interlocuteur designe pour les patients internationaux.",
+          "basis": "Verifie par la documentation du protocole et la confirmation du coordinateur pour patients internationaux."
+        },
+        {
+          "title": "Standard du consentement eclaire",
+          "description": "Le patient doit recevoir la documentation de consentement eclaire dans sa langue avant toute procedure, incluant les risques, les alternatives et les resultats attendus.",
+          "basis": "Verifie par l'examen des formulaires de consentement et la confirmation du processus de traduction."
+        }
+      ],
+      "footnote": "Ces cinq criteres constituent le plancher. Un hopital qui les satisfait tous a passe le standard minimal — il n'a pas obtenu une recommandation. La recommandation vient du Niveau 2."
+    },
+    "layer2": {
+      "badge": "Niveau 2 — Evaluation par l'Angel Physician",
+      "title": "L'evaluation clinique",
+      "paragraphs": [
+        "Au-dela du standard minimal, chaque hopital fait l'objet d'une evaluation clinique independante realisee par un Angel Physician — un medecin coreen agree qui opere dans le cadre de gouvernance d'AetherHeal sans aucune relation financiere avec l'hopital evalue.",
+        "Cette evaluation porte sur des dimensions de la qualite clinique qu'une liste de controle ne peut pas saisir : la competence de l'equipe chirurgicale, la culture de communication entre medecins et patients, l'honnêtete de l'institution sur ses capacites et ses limites, la coherence entre les affirmations marketing et la pratique reelle, et la reponse institutionnelle en cas de complications.",
+        "Les criteres specifiques de cette evaluation ne sont pas publies. Il s'agit d'une decision deliberee. Le jugement clinique exerce par un medecin qualifie et independant est le standard — pas une grille d'evaluation qui pourrait etre optimisee. Publier les criteres inciterait les hopitaux a optimiser leur performance lors de l'evaluation plutot qu'a maintenir le standard."
+      ],
+      "quote": "Une liste de controle vous dit pour quoi un hopital s'est prepare en vue de l'inspection. Un medecin qui a travaille a l'interieur du systeme vous dit ce qui se passe une fois l'inspection terminee.",
+      "foundingNote": {
+        "badge": "Cohorte fondatrice",
+        "text": "Les hopitaux partenaires fondateurs d'AetherHeal ont ete evalues par le medecin fondateur au travers d'une pratique clinique directe integree ou d'une evaluation par le reseau de medecins. Au fur et a mesure de l'expansion du reseau, toutes les nouvelles evaluations d'hopitaux sont conduites par des Angel Physicians dans le cadre du meme dispositif de gouvernance et des memes exigences d'independance."
+      }
+    },
+    "rejection": {
+      "badge": "Transparence des rejets",
+      "title": "Ce qui conduit au rejet d'un hopital",
+      "intro": "La verification a des consequences. Tous les hopitaux qui se portent candidats ne sont pas admis. AetherHeal divulgue son taux de rejet et les categories de rejet — sans nommer les hopitaux specifiques.",
+      "stats": [
+        {
+          "number": "13",
+          "label": "Evalues"
+        },
+        {
+          "number": "4",
+          "label": "Rejetes"
+        },
+        {
+          "number": "9",
+          "label": "Verifies"
+        }
+      ],
+      "reasons": [
+        "Qualifications medicales non verifiees — l'hopital n'a pas pu confirmer une licence de specialite valide pour tous les medecins effectuant des procedures sur des patients internationaux.",
+        "Structure tarifaire non divulguee — le bareme de l'hopital contenait des couts caches ou des frais supplementaires non declares lors du processus de devis initial.",
+        "Refus d'enregistrement des procedures — l'hopital a refuse de mettre en oeuvre l'enregistrement par camera CCTV et camera rapprochee pour les procedures sous sedation.",
+        "Suivi postoperatoire insuffisant — aucun protocole documente pour le suivi des patients internationaux au-dela du jour de sortie."
+      ],
+      "anonymityNote": "Les hopitaux rejetes ne sont pas nommes publiquement. L'objectif de la divulgation est de demontrer que le standard a des consequences — non de nuire a des institutions susceptibles de s'ameliorer et de repostuler."
+    },
+    "monitoring": {
+      "title": "Surveillance continue",
+      "intro": "La verification n'est pas un evenement unique. Les hopitaux partenaires font l'objet d'une surveillance continue, et une reevaluation peut etre declenchee par l'un des evenements suivants :",
+      "triggers": [
+        "Plainte d'un patient ou signalement d'un evenement indesirable via le systeme de surveillance de continuite d'AetherHeal",
+        "Changement du directeur medical ou du personnel chirurgical cle de l'hopital",
+        "Mesure reglementaire ou suspension de licence affectant l'hopital ou ses medecins",
+        "Manquement au maintien de la transparence des tarifs ou des standards de consentement eclaire lors de parcours patients actifs",
+        "Refus de cooperer a la coordination du suivi post-traitement pour un patient AetherHeal",
+        "Reevaluation periodique planifiee (annuelle pour tous les partenaires)"
+      ]
+    },
+    "decisionSummary": {
+      "title": "Cette page est-elle faite pour vous ?",
+      "bestForLabel": "Ideal pour",
+      "bestFor": "Les patients qui souhaitent comprendre comment AetherHeal selectionne et surveille les hopitaux partenaires avant de commencer leur propre parcours.",
+      "notIdealLabel": "Moins adapte pour",
+      "notIdeal": "Les patients qui recherchent un annuaire d'hopitaux, un catalogue de procedures ou une comparaison de prix. Ce sont des outils differents pour des questions differentes."
+    },
+    "faq": {
+      "title": "Questions sur la verification",
+      "items": [
+        {
+          "question": "Un hopital rejete peut-il repostuler ?",
+          "answer": "Oui. Un hopital qui a ete rejete peut repostuler apres avoir remedie a la defaillance specifique ayant cause le rejet. La reevaluation suit le meme processus en deux niveaux. Aucune penalite n'est associee au fait d'avoir ete prealablement rejete — seulement a l'incapacite de satisfaire le standard au moment de l'evaluation."
+        },
+        {
+          "question": "A quelle frequence les hopitaux partenaires sont-ils reevalues ?",
+          "answer": "Tous les hopitaux partenaires font l'objet d'une reevaluation planifiee annuellement. Une reevaluation non planifiee peut etre declenchee a tout moment par des plaintes de patients, des changements de personnel, des mesures reglementaires ou des defaillances operationnelles lors de parcours patients actifs."
+        },
+        {
+          "question": "AetherHeal percoit-il une remuneration des hopitaux pour la verification ?",
+          "answer": "Non. AetherHeal ne facture pas aux hopitaux le processus de verification. Les hopitaux partenaires versent une cotisation annuelle apres leur admission, mais celle-ci n'influe pas sur le resultat de la verification. L'evaluation est conduite avant qu'une quelconque relation commerciale n'existe."
+        },
+        {
+          "question": "Tous les hopitaux verifies sont-ils recommandes de facon egale ?",
+          "answer": "Non. Tous les hopitaux verifies ont passe le standard minimal et l'evaluation clinique par l'Angel Physician, mais l'appariement est base sur l'adequation clinique — pas sur une rotation egale. Un patient envisageant une transplantation capillaire sera oriente vers des hopitaux ayant une specialisation pertinente, pas vers chaque hopital verifie du reseau."
+        },
+        {
+          "question": "Pourquoi les criteres du Niveau 2 ne sont-ils pas publies ?",
+          "answer": "Parce que le jugement clinique ne peut pas etre reduit a une liste de controle sans etre affaibli. Publier les dimensions specifiques de l'evaluation permettrait aux hopitaux d'optimiser leur performance lors de l'evaluation plutot que de maintenir le standard. L'independance et la competence clinique de l'Angel Physician constituent le controle qualite — pas une grille d'evaluation."
+        },
+        {
+          "question": "Qui sont les Angel Physicians ?",
+          "answer": "Les Angel Physicians sont des medecins coreens agrees qui operent dans le cadre de gouvernance d'AetherHeal. Ils n'ont aucune relation financiere avec un hopital du reseau et aucune remuneration a la recommandation. Leur role inclut a la fois la revue des dossiers patients et l'evaluation clinique des hopitaux. Les evaluations fondatrices ont ete realisees par le medecin fondateur d'AetherHeal."
+        },
+        {
+          "question": "Que se passe-t-il si les standards d'un hopital verifie evoluent ?",
+          "answer": "Si la surveillance revele une baisse des standards — via les retours patients, des changements de personnel ou des defaillances operationnelles — l'hopital entre dans un processus de reevaluation. Si la reevaluation confirme la baisse, le statut verifie de l'hopital est suspendu jusqu'a ce que la defaillance soit resolue. La suspension n'est pas rendue publique, mais les patients concernes en parcours actifs sont notifies et une coordination alternative leur est proposee."
+        }
+      ]
+    },
+    "reviewerMeta": {
+      "label": "Revise par",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "Avril 2026"
+    },
+    "cta": {
+      "title": "Commencez avec quelqu'un de votre cote",
+      "subtitle": "Si vous envisagez des soins medicaux en Coree, commencez par un processus dans lequel les hopitaux ont deja ete soumis a un standard — avant votre arrivee.",
+      "primary": "Commencez avec quelqu'un de votre cote",
+      "secondary": "Voir le protocole de confiance"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "common": {
+    "footer": {
+      "guideLinks": {
+        "morganDermatology": "Morgan Dermatology",
+        "tuneClinic": "狎鴎亭 Tune Clinic"
+      },
+      "platformLinks": {
+        "verificationMethodology": "審査方法論"
+      }
+    }
+  },
+  "home": {
+    "partners": {
+      "methodologyCta": "審査方法論"
+    },
+    "coverage": {
+      "slugs": [
+        "hair-transplant",
+        "skin-aesthetic",
+        "plastic-surgery",
+        "robotic-surgery",
+        "vision-correction",
+        "dental",
+        "stem-cell-therapy",
+        "liposuction-contouring",
+        "neurosurgery",
+        "general-health-checkup",
+        "full-body-mri"
+      ]
+    }
+  },
+  "aestheticClinic": {
+    "tunePartner": {
+      "badge": "認定パートナー",
+      "title": "狎鴎亭 Tune Clinic",
+      "description": "ソウルの美容皮膚科分野におけるAetherHealの認定パートナーです。Dr. Jee Hoon Juがインターナショナル・ディレクターとして在籍し、現在も診療を行っています。当院の評価は現地訪問ではなく、クリニック内部での実際の運営業務に基づいています。医師委員会制度、Chamaka-seデザインメソッド、8言語対応の患者サポートを備えています。",
+      "cta": "認定内容を見る"
+    }
+  },
+  "hairTransplant": {
+    "morganPartner": {
+      "badge": "認定パートナー",
+      "title": "Morgan Dermatology",
+      "description": "植毛分野におけるAetherHealの認定パートナーです。Dr. Jee Hoon Juは植毛外科医として直接診療に従事していました。当院の評価は現地訪問ではなく、実際の臨床経験に基づいています。",
+      "cta": "認定内容を見る"
+    }
+  },
+  "trustProtocol": {
+    "methodologyLink": "当院の評価方法を見る →",
+    "reviewerMeta": {
+      "label": "審査担当",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare"
+    }
+  },
+  "hospitalAbroad": {
+    "reviewerMeta": {
+      "label": "審査担当",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "2026年4月",
+      "methodologyLinkText": "当院の審査方法を見る →"
+    },
+    "hero": {
+      "oneSentenceAnswer": "海外の病院を選ぶ際は、価格・マーケティング・ブランドランキングを検討する前に、医師の資格、価格の透明性、術後ケアの継続性を確認してください。"
+    },
+    "decisionSummary": {
+      "title": "このページはあなたに向いていますか？",
+      "bestForLabel": "最適な方",
+      "bestFor": "複数の国の病院を比較しており、マーケティング情報と臨床の実態をどのように判断すればよいか迷っている患者様。",
+      "notIdealLabel": "向いていない方",
+      "notIdeal": "特定の病院リストや固定価格表をお探しの患者様——それらは別の問いに対応する別のツールです。",
+      "keyRisksLabel": "これを省略した場合の主なリスク",
+      "keyRisks": "価格や知名度だけで選択する、術後フォローアップの手配を過小評価する、Googleの高評価を臨床品質の指標として捉えるといったリスクがあります。",
+      "commonMisconceptionLabel": "よくある誤解",
+      "commonMisconception": "「有名な病院は安全な病院だ。」知名度はマーケティングの到達範囲を示すものであり、臨床成果を示すものではありません。"
+    }
+  },
+  "physician": {
+    "hero": {
+      "intro": "パートナー病院の内部で実際に働くことで検証を行ってきた医師です。Morgan Dermatologyではディレクター兼植毛外科医として、狎鴎亭Tune Clinicではインターナショナル・ディレクター兼医療美容専門医として、そして創設パートナー全体にわたる臨床チームメンバーとして従事してきました。AetherHealを設立する以前は、何が問題なのかを見通せなかった患者の一人でした。"
+    },
+    "verification": {
+      "badge": "審査方法論",
+      "title": "私の病院審査方法",
+      "intro": "多くのメディカルツーリズムプラットフォームは、現地訪問・書類審査・チェックリストといった外部からの方法で病院を審査しています。私はAetherHealの創設パートナーを、実際に診療を行う医師として内部で働きながら審査しました。それは異なる基準です。",
+      "mode1": {
+        "title": "内部臨床審査",
+        "description": "私が医師として直接診療を行い、または運営上のリーダーシップを担った病院です。私の評価は、臨床基準・チーム運営・設備品質・患者対応についての実体験に基づいています——見学ではなく、そこで実際に働いた経験によるものです。",
+        "hospitals": [
+          {
+            "name": "Morgan Dermatology",
+            "role": "元ディレクター兼植毛外科医"
+          },
+          {
+            "name": "狎鴎亭 Tune Clinic",
+            "role": "皮膚美容医学専門医として在籍中（現任）"
+          },
+          {
+            "name": "狎鴎亭 Min Dental",
+            "role": "未来企画部長"
+          }
+        ]
+      },
+      "mode2": {
+        "title": "医師ネットワーク評価",
+        "description": "ディレクターレベルの関係性、臨床資格審査、アウトカム評価を通じて評価した病院です。院長のトレーニング背景、外科チームの構成、施設基準を評価しましたが、私自身はそこで診療を行っていません。",
+        "hospitals": [
+          {
+            "name": "B&N Eye Clinic",
+            "basis": "確立された主要機関。金振国院長との個人的な関係。施設基準と外科チームを評価。"
+          },
+          {
+            "name": "Woori Plastic Surgery",
+            "basis": "院長レベルの評価。外科チームには峨山病院出身の複数の教授级整形外科医が在籍。"
+          },
+          {
+            "name": "Hosan Hospital",
+            "basis": "院長・実績・女性整形外科における患者アウトカムの臨床評価。"
+          },
+          {
+            "name": "The Well Dental",
+            "basis": "院長・治療方針・成人歯科における施設基準の臨床評価。"
+          }
+        ]
+      },
+      "methodologyLink": "完全な審査方法論を読む"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "methodology": {
+    "meta": {
+      "title": "Wie wir Krankenhaeuser verifizieren | AetherHeal Verifizierungsmethodik",
+      "description": "AetherHeal verifiziert Partnerkrankenhaeuser auf zwei Ebenen: einem veroeffentlichten Mindeststandard mit fuenf nicht verhandelbaren Kriterien und einer unabhaengigen klinischen Beurteilung durch Angel Physicians. 31 % der Bewerber wurden abgelehnt."
+    },
+    "hero": {
+      "badge": "Verifizierungsmethodik",
+      "h1": "Wie wir",
+      "h1Highlight": "Krankenhaeuser verifizieren",
+      "oneSentenceAnswer": "AetherHeal verifiziert Krankenhaeuser auf zwei Ebenen: einem veroeffentlichten Mindeststandard, der von der Organisation angewendet wird, und einer unabhaengigen klinischen Beurteilung durch Angel Physicians.",
+      "intro": "Die meisten Medizintourismusplattformen listen Krankenhaeuser auf. Einige behaupten, sie zu ueberpruefen. AetherHeal veroeffentlicht seinen Mindeststandard, benennt die Kriterien und legt seine Ablehnungsquote offen — denn eine Verifizierung, die nicht nachgeprueft werden kann, ist keine Verifizierung."
+    },
+    "whyItMatters": {
+      "title": "Warum Verifizierung wichtig ist",
+      "paragraphs": [
+        "Im Medizintourismusmarkt koennen Patienten klinische Qualitaet nicht von Marketingqualitaet unterscheiden. Eine ansprechende Website, eine hohe Google-Bewertung und eine Prominentenempfehlung sagen nichts ueber die Qualifikationen der Aerzte, Preistransparenz oder das Vorgehen bei Komplikationen aus.",
+        "Verifizierung existiert, um diese Unterscheidung im Namen des Patienten zu treffen — bevor der Patient sich fuer ein Krankenhaus, einen Flug oder einen Eingriff entscheidet.",
+        "AetherHeals Verifizierung ist kein Guetesiegel. Es ist ein Standard mit Konsequenzen. Krankenhaeuser, die ihn nicht erfuellen, werden abgelehnt. Krankenhaeuser, die ihn erfuellen, werden ueberwacht. Der Standard ist der Standard."
+      ]
+    },
+    "layer1": {
+      "badge": "Ebene 1 — Veroeffentlichter Standard",
+      "title": "Der Mindeststandard",
+      "intro": "Jeder Krankenhausbewerber muss fuenf nicht verhandelbare Kriterien erfuellen. Diese sind binaer — Bestehen oder Nichtbestehen — und anhand oeffentlicher Unterlagen und institutioneller Dokumentation verifizierbar. AetherHeal veroeffentlicht sie, weil deren Verbergen das Vertrauen untermauern wuerde, das die Plattform zu schaffen beabsichtigt.",
+      "criteria": [
+        {
+          "title": "Verifizierung der Arztzulassung",
+          "description": "Jeder Arzt, der Eingriffe an AetherHeal-Patienten vornimmt, muss eine gueltige koreanische Approbation in seiner erklaerten Fachrichtung besitzen.",
+          "basis": "Verifiziert anhand des Arztregisters des koreanischen Ministeriums fuer Gesundheit und Wohlfahrt."
+        },
+        {
+          "title": "Preistransparenz",
+          "description": "Das Krankenhaus muss AetherHeal vor jeder Patientenvermittlung seine vollstaendige Kostenstruktur offenlegen, einschliesslich aller potenziellen Zusatzkosten. Nicht offengelegte Gebuehren sind ein Ablehnungsgrund.",
+          "basis": "Verifiziert durch direkte Einreichung des Kostenplans und Abgleich mit patientenseitigen Angeboten."
+        },
+        {
+          "title": "Richtlinie zur Aufzeichnung von Eingriffen",
+          "description": "Eingriffe unter Sedierung muessen per CCTV und Nahaufnahmekamera aufgezeichnet werden. Das Filmmaterial muss dem Patienten auf Anfrage zur Verfuegung stehen. Krankenhaeuser, die Aufzeichnungen verweigern, werden abgelehnt.",
+          "basis": "Verifiziert durch Begehung der Einrichtung und schriftliche Richtlinienanbestaetigung."
+        },
+        {
+          "title": "Protokoll zur postoperativen Nachsorge",
+          "description": "Das Krankenhaus muss ein dokumentiertes postoperatives Nachsorgeprotokoll fuehren, das sich mindestens 30 Tage nach dem Eingriff erstreckt, mit einer benannten Ansprechperson fuer internationale Patienten.",
+          "basis": "Verifiziert durch Protokolldokumentation und Bestaetigung des Koordinators fuer internationale Patienten."
+        },
+        {
+          "title": "Standard der Aufklaerung",
+          "description": "Der Patient muss vor jedem Eingriff eine Einwilligungserklaerung in seiner Sprache erhalten, einschliesslich Risiken, Alternativen und erwarteten Ergebnissen.",
+          "basis": "Verifiziert durch Pruefung der Einwilligungsformulare und Bestaetigung des Uebersetzungsprozesses."
+        }
+      ],
+      "footnote": "Diese fuenf Kriterien sind die Mindestanforderung. Ein Krankenhaus, das alle fuenf erfuellt, hat den Mindeststandard bestanden — keine Empfehlung erhalten. Die Empfehlung kommt aus Ebene 2."
+    },
+    "layer2": {
+      "badge": "Ebene 2 — Angel Physician Beurteilung",
+      "title": "Die klinische Beurteilung",
+      "paragraphs": [
+        "Ueber den Mindeststandard hinaus unterzieht sich jedes Krankenhaus einer unabhaengigen klinischen Beurteilung durch einen Angel Physician — einen lizenzierten koreanischen Arzt, der im Rahmen der Governance-Struktur von AetherHeal taetig ist und keine finanzielle Beziehung zu dem beurteilten Krankenhaus hat.",
+        "Diese Beurteilung bewertet Dimensionen klinischer Qualitaet, die in einer Checkliste nicht erfasst werden koennen: die Kompetenz des chirurgischen Teams, die Kommunikationskultur zwischen Aerzten und Patienten, die Ehrlichkeit der Institution ueber ihre Faehigkeiten und Grenzen, die Konsistenz zwischen Marketingaussagen und tatsaechlicher Praxis sowie die institutionelle Reaktion bei Komplikationen.",
+        "Die spezifischen Kriterien dieser Beurteilung werden nicht veroeffentlicht. Dies ist eine bewusste Entscheidung. Klinisches Urteil, das von einem qualifizierten, unabhaengigen Arzt ausgeubt wird, ist der Standard — kein Raster, das optimiert werden koennte. Die Veroeffentlichung der Kriterien wuerde Anreize schaffen, auf die Beurteilung hin zu performen, anstatt den Standard aufrechtzuerhalten."
+      ],
+      "quote": "Eine Checkliste zeigt Ihnen, worauf sich ein Krankenhaus fuer die Inspektion vorbereitet hat. Ein Arzt, der im System gearbeitet hat, zeigt Ihnen, was passiert, wenn die Inspektion vorbei ist.",
+      "foundingNote": {
+        "badge": "Gruendungskohorte",
+        "text": "AetherHeals Gruendungspartnerkrankenhaeuser wurden vom Gruendungsarzt durch direkte eingebettete klinische Praxis oder Evaluation durch das Arztnetzwerk beurteilt. Mit der Erweiterung des Netzwerks werden alle neuen Krankenhausbeurteilungen von Angel Physicians unter demselben Governance-Rahmen und denselben Unabhaengigkeitsanforderungen durchgefuehrt."
+      }
+    },
+    "rejection": {
+      "badge": "Transparenz bei Ablehnungen",
+      "title": "Was zur Ablehnung eines Krankenhauses fuehrt",
+      "intro": "Verifizierung hat Konsequenzen. Nicht jedes Krankenhaus, das sich bewirbt, wird aufgenommen. AetherHeal legt seine Ablehnungsquote und die Kategorien der Ablehnung offen — ohne bestimmte Krankenhaeuser zu nennen.",
+      "stats": [
+        {
+          "number": "13",
+          "label": "Evaluiert"
+        },
+        {
+          "number": "4",
+          "label": "Abgelehnt"
+        },
+        {
+          "number": "9",
+          "label": "Verifiziert"
+        }
+      ],
+      "reasons": [
+        "Nicht verifizierte Arztqualifikationen — das Krankenhaus konnte keine gueltige Fachzulassung fuer alle Aerzte bestaetigen, die Eingriffe an internationalen Patienten vornehmen.",
+        "Nicht offengelegte Preisstruktur — der Kostenplan des Krankenhauses enthielt versteckte Kosten oder Zusatzgebuehren, die im Erstangebot nicht offengelegt wurden.",
+        "Verweigerung der Eingriffaufzeichnung — das Krankenhaus lehnte die Implementierung von CCTV- und Nahaufnahmekameraaufzeichnungen fuer Eingriffe unter Sedierung ab.",
+        "Ungenuegede postoperative Nachsorge — kein dokumentiertes Protokoll fuer die Nachsorge internationaler Patienten ueber den Entlassungstag hinaus."
+      ],
+      "anonymityNote": "Abgelehnte Krankenhaeuser werden nicht oeffentlich genannt. Der Zweck der Offenlegung besteht darin, zu demonstrieren, dass der Standard Konsequenzen hat — nicht darin, Institutionen zu schaden, die sich verbessern und erneut bewerben koennten."
+    },
+    "monitoring": {
+      "title": "Laufende Ueberwachung",
+      "intro": "Verifizierung ist kein einmaliges Ereignis. Partnerkrankenhaeuser unterliegen einer laufenden Ueberwachung, und eine Neubewertung kann durch eines der folgenden Ereignisse ausgeloest werden:",
+      "triggers": [
+        "Patientenbeschwerde oder Bericht ueber ein unerwuenschtes Ereignis ueber das Kontinuitaetsueberwachungssystem von AetherHeal",
+        "Wechsel des aerztlichen Leiters oder wichtiger chirurgischer Mitarbeiter des Krankenhauses",
+        "Regulatorische Massnahmen oder Zulassungssuspendierung, die das Krankenhaus oder seine Aerzte betreffen",
+        "Versagen bei der Aufrechterhaltung von Preistransparenz oder Aufklaerungsstandards waehrend aktiver Patientenreisen",
+        "Verweigerung der Mitarbeit bei der Koordination der Nachsorge fuer einen AetherHeal-Patienten",
+        "Regelmaessige geplante Neubewertung (jaehrlich fuer alle Partner)"
+      ]
+    },
+    "decisionSummary": {
+      "title": "Ist diese Seite fuer Sie?",
+      "bestForLabel": "Am besten geeignet fuer",
+      "bestFor": "Patienten, die verstehen moechten, wie AetherHeal Partnerkrankenhaeuser auswaehlt und ueberwacht, bevor sie ihre eigene Reise beginnen.",
+      "notIdealLabel": "Weniger geeignet fuer",
+      "notIdeal": "Patienten, die ein Krankenhausverzeichnis, einen Eingriffskatalog oder einen Preisvergleich suchen. Das sind andere Werkzeuge fuer andere Fragen."
+    },
+    "faq": {
+      "title": "Fragen zur Verifizierung",
+      "items": [
+        {
+          "question": "Kann ein abgelehntes Krankenhaus sich erneut bewerben?",
+          "answer": "Ja. Ein abgelehntes Krankenhaus kann sich erneut bewerben, nachdem es den spezifischen Mangel behoben hat, der zur Ablehnung gefuehrt hat. Die Neubewertung folgt demselben zweistufigen Prozess. Es gibt keine Strafe fuer eine frueherer Ablehnung — nur fuer die Nichterfuellung des Standards zum Zeitpunkt der Bewertung."
+        },
+        {
+          "question": "Wie haeufig werden Partnerkrankenhaeuser neu bewertet?",
+          "answer": "Alle Partnerkrankenhaeuser werden jaehrlich einer geplanten Neubewertung unterzogen. Eine ungeplante Neubewertung kann jederzeit durch Patientenbeschwerden, Personalwechsel, regulatorische Massnahmen oder betriebliche Versaeumnisse waehrend aktiver Patientenreisen ausgeloest werden."
+        },
+        {
+          "question": "Erhaelt AetherHeal Zahlungen von Krankenhaeusern fuer die Verifizierung?",
+          "answer": "Nein. AetherHeal berechnet Krankenhaeusern keine Gebuehren fuer den Verifizierungsprozess. Partnerkrankenhaeuser zahlen nach der Aufnahme eine jaehrliche Mitgliedsgebuehr, aber diese beeinflusst das Verifizierungsergebnis nicht. Die Bewertung wird durchgefuehrt, bevor eine Geschaeftsbeziehung besteht."
+        },
+        {
+          "question": "Werden alle verifizierten Krankenhaeuser gleichermassen empfohlen?",
+          "answer": "Nein. Alle verifizierten Krankenhaeuser haben den Mindeststandard und die klinische Beurteilung durch den Angel Physician bestanden, aber die Zuordnung basiert auf klinischer Eignung — nicht auf gleicher Rotation. Ein Patient, der eine Haartransplantation in Betracht zieht, wird Krankenhaeusern mit relevanter Spezialisierung zugewiesen, nicht jedem verifizierten Krankenhaus im Netzwerk."
+        },
+        {
+          "question": "Warum werden die Kriterien der Ebene 2 nicht veroeffentlicht?",
+          "answer": "Weil klinisches Urteil nicht auf eine Checkliste reduziert werden kann, ohne es zu schwaechenken. Die Veroeffentlichung der spezifischen Beurteilungsdimensionen wuerde Krankenhaeusern ermoeglichen, die Beurteilung zu optimieren, anstatt den Standard aufrechtzuerhalten. Die Unabhaengigkeit und klinische Kompetenz des Angel Physician sind die Qualitaetskontrolle — kein Raster."
+        },
+        {
+          "question": "Wer sind die Angel Physicians?",
+          "answer": "Angel Physicians sind lizenzierte koreanische Aerzte, die im Rahmen der Governance-Struktur von AetherHeal taetig sind. Sie haben keine finanzielle Beziehung zu einem Krankenhaus im Netzwerk und keine verweisungsbasierte Verguetung. Ihre Rolle umfasst sowohl die Pruefung von Patientenfaellen als auch die klinische Beurteilung von Krankenhaeusern. Die Gruendungsbeurteilungen wurden vom Gruendungsarzt von AetherHeal durchgefuehrt."
+        },
+        {
+          "question": "Was passiert, wenn sich die Standards eines verifizierten Krankenhauses aendern?",
+          "answer": "Wenn die Ueberwachung einen Rueckgang der Standards ergibt — durch Patientenfeedback, Personalwechsel oder betriebliche Versaeumnisse — tritt das Krankenhaus in einen Neubewertungsprozess ein. Wenn die Neubewertung den Rueckgang bestaetigt, wird der verifizierte Status des Krankenhauses bis zur Behebung des Mangels suspendiert. Die Suspendierung ist nicht oeffentlich, aber betroffene Patienten in aktiven Reisen werden benachrichtigt und erhalten alternative Koordinationsangebote."
+        }
+      ]
+    },
+    "reviewerMeta": {
+      "label": "Geprueft von",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "April 2026"
+    },
+    "cta": {
+      "title": "Beginnen Sie mit jemandem auf Ihrer Seite",
+      "subtitle": "Wenn Sie medizinische Behandlung in Korea in Betracht ziehen, beginnen Sie mit einem Prozess, bei dem die Krankenhaeuser bereits vor Ihrer Ankunft einem Standard unterworfen wurden.",
+      "primary": "Beginnen Sie mit jemandem auf Ihrer Seite",
+      "secondary": "Das Vertrauensprotokoll ansehen"
+    }
+  }
+}
