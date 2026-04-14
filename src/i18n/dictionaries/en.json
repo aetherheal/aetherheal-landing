@@ -3887,6 +3887,7 @@
           {
             "name": "Prof. Shim Woo-Young",
             "nameKr": "심우영",
+            "photo": "/assets/hospitals/morgan-dermatology/prof-shim-woo-young.png",
             "role": "Honorary Professor",
             "specialty": "Adult & pediatric hair loss specialist — 40+ years of clinical experience",
             "credentials": [
@@ -3900,6 +3901,7 @@
           {
             "name": "Dr. Lee Seung-Yong",
             "nameKr": "이승용",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-lee-seung-yong.png",
             "role": "Representative Director",
             "specialty": "Non-incisional & incisional hair transplant specialist",
             "credentials": [
@@ -3913,6 +3915,7 @@
           {
             "name": "Dr. Jung Jae-Heon",
             "nameKr": "정재헌",
+            "photo": "/assets/hospitals/morgan-dermatology/dr-jung-jae-heon.png",
             "role": "Plastic Surgery Specialist",
             "specialty": "Hairline aesthetics pioneer — 30+ years of surgical experience",
             "credentials": [
@@ -4131,6 +4134,7 @@
           {
             "name": "Dr. Seung Yeon Cha",
             "nameKr": "차승연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-cha-seung-yeon.jpg",
             "role": "Representative Director",
             "specialty": "Face Design & Anti-Aging — Master Planner of Facial Balance",
             "credentials": [
@@ -4145,6 +4149,7 @@
           {
             "name": "Dr. Kwang Yeon Kim",
             "nameKr": "김광연",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-kwang-yeon.jpg",
             "role": "Representative Director",
             "specialty": "Lifting Authority — Vector-based tightening specialist",
             "credentials": [
@@ -4160,6 +4165,7 @@
           {
             "name": "Dr. Jee Hoon Ju",
             "nameKr": "주지훈",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-ju-jee-hoon.jpg",
             "role": "International Director",
             "specialty": "Medical aesthetics, hair, and international patient communication",
             "credentials": [
@@ -4175,6 +4181,7 @@
           {
             "name": "Dr. Dong Hyun Jo",
             "nameKr": "조동현",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jo-dong-hyun.jpg",
             "role": "Regenerative Medicine",
             "specialty": "Stem cell and regenerative strategy for tissue quality and recovery",
             "credentials": [
@@ -4190,6 +4197,7 @@
           {
             "name": "Dr. Beom Jin Kim",
             "nameKr": "김범진",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-kim-beom-jin.jpg",
             "role": "Surgery & Reconstruction",
             "specialty": "Plastic surgery depth supporting structural decisions and referrals",
             "credentials": [
@@ -4206,6 +4214,7 @@
           {
             "name": "Dr. Seung Woo Jang",
             "nameKr": "장승우",
+            "photo": "/assets/hospitals/tune-clinic/physicians/dr-jang-seung-woo.jpg",
             "role": "Medical Advisory",
             "specialty": "MD, PhD — advisory depth for pediatric and broad medical evaluation",
             "credentials": [

@@ -336,24 +336,21 @@ export default async function HospitalPage({
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-2xl text-brand-navy mb-10">{t.team.title}</h2>
           <div className="space-y-0 divide-y divide-slate-100">
-            {t.team.physicians.map((doc: { name: string; nameKr: string; role: string; specialty: string; credentials: string[] }, idx: number) => {
-              const photos = [
-                `/assets/hospitals/${slug}/dr-lee-seung-yong.png`,
-                `/assets/hospitals/${slug}/dr-jung-jae-heon.png`,
-                `/assets/hospitals/${slug}/prof-shim-woo-young.png`,
-              ];
+            {t.team.physicians.map((doc: { name: string; nameKr: string; photo?: string; role: string; specialty: string; credentials: string[] }, idx: number) => {
               return (
                 <div key={doc.name} className="py-10 first:pt-0 last:pb-0">
                   <div className="flex flex-col md:flex-row md:items-start md:gap-10">
                     <div className="shrink-0 mb-5 md:mb-0">
                       <div className="w-28 h-28 rounded-2xl overflow-hidden bg-slate-100 shadow-[0_8px_24px_-8px_rgba(15,23,42,0.06)]">
-                        <Image
-                          src={photos[idx] || photos[0]}
-                          alt={doc.name}
-                          width={112}
-                          height={112}
-                          className="w-full h-full object-cover object-top"
-                        />
+                        {doc.photo && (
+                          <Image
+                            src={doc.photo}
+                            alt={doc.name}
+                            width={112}
+                            height={112}
+                            className="w-full h-full object-cover object-top"
+                          />
+                        )}
                       </div>
                     </div>
                     <div className="flex-1 min-w-0">
