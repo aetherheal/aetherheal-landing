@@ -95,6 +95,15 @@ const hospitalImages: Record<string, {
   consumables?: string
   dissectionCloseup?: string
 }> = {
+  "tune-clinic": {
+    team: "/assets/hospitals/tune-clinic/lobby-1.jpg",
+    lobby: [
+      "/assets/hospitals/tune-clinic/lobby-2.jpg",
+      "/assets/hospitals/tune-clinic/lobby-3.jpg",
+    ],
+    patientRoom: "/assets/hospitals/tune-clinic/vip-room-1.jpg",
+    reception: "/assets/hospitals/tune-clinic/reception.jpg",
+  },
   "morgan-dermatology": {
     team: "/assets/hospitals/morgan-dermatology/medical-staff.png",
     loupes: [
