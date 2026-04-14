@@ -3060,6 +3060,7 @@
     "hero": {
       "badge": "Patient Guide",
       "h1": "The Ultimate Guide to Choosing a Hospital Abroad",
+      "oneSentenceAnswer": "Choose a hospital abroad by verifying physician credentials, pricing transparency, and post-operative continuity — before you weigh price, marketing, or brand rank.",
       "intro": "Every year, millions of patients travel internationally for medical treatment.",
       "p1": "Some travel for advanced procedures. Others seek more affordable care. Many are looking for specialists that are difficult to access in their home country.",
       "p2": "But choosing a hospital abroad is not a normal consumer decision.",
@@ -3074,6 +3075,17 @@
       "p3": "The internet offers endless information: reviews, forums, before-and-after photos, clinic websites.",
       "p4": "But more information does not necessarily create clarity. In many cases, it creates decision overload.",
       "guideIntro": "This guide explains how experienced physicians and healthcare systems evaluate hospitals — and how international patients can apply the same logic when choosing treatment abroad."
+    },
+    "decisionSummary": {
+      "title": "Is this page for you?",
+      "bestForLabel": "Best for",
+      "bestFor": "Patients comparing hospitals across countries who are unsure how to weigh marketing signals against clinical reality.",
+      "notIdealLabel": "Not ideal for",
+      "notIdeal": "Patients looking for a directory of specific hospitals or a fixed price list — those are different tools for different questions.",
+      "keyRisksLabel": "Key risks if you skip this",
+      "keyRisks": "Choosing on price or popularity alone, underestimating post-operative follow-up logistics, and treating a high Google rating as a clinical quality signal.",
+      "commonMisconceptionLabel": "Common misconception",
+      "commonMisconception": "“A famous hospital is a safe hospital.” Fame measures marketing reach, not clinical outcomes."
     },
     "toc": [
       {
@@ -3356,6 +3368,13 @@
           "answer": "Key factors include physician training and specialization, institutional standards, procedure volume, post-care management protocols, and whether the hospital has experience treating international patients with your specific condition."
         }
       ]
+    },
+    "reviewerMeta": {
+      "label": "Reviewed by",
+      "name": "Dr. Jee Hoon Ju, MD",
+      "credentials": "ABAM · MIT Sloan AI in Healthcare",
+      "lastReviewed": "April 2026",
+      "methodologyLinkText": "See how we verify hospitals →"
     },
     "relatedPages": [
       {

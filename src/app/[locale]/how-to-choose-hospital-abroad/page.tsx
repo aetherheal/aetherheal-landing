@@ -30,6 +30,34 @@ export default async function HowToChooseHospitalAbroadPage({ params }: { params
   return (
     <div className="min-h-full bg-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: t.faq.items.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) }) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: t.meta.title,
+            description: t.meta.description,
+            author: {
+              "@type": "Person",
+              name: "Dr. Jee Hoon Ju",
+              url: "https://aetherheal.com/en/doctors/dr-jee-hoon-ju",
+            },
+            reviewedBy: {
+              "@type": "Person",
+              name: "Dr. Jee Hoon Ju",
+              url: "https://aetherheal.com/en/doctors/dr-jee-hoon-ju",
+            },
+            publisher: {
+              "@type": "MedicalOrganization",
+              name: "AetherHeal",
+              url: "https://aetherheal.com",
+            },
+            datePublished: "2026-04-14",
+            dateModified: "2026-04-14",
+          }),
+        }}
+      />
 
       {/* Hero */}
       <section className="pt-24 pb-16 sm:pt-32 sm:pb-24 px-4 sm:px-6 bg-gradient-to-b from-brand-navy/[0.02] to-white border-b border-slate-100">
@@ -37,7 +65,10 @@ export default async function HowToChooseHospitalAbroadPage({ params }: { params
           <div className="mb-8"><span className="inline-flex items-center px-4 py-1.5 bg-brand-navy text-[10px] font-bold text-white uppercase tracking-widest rounded-full shadow-sm">{t.hero.badge}</span></div>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-brand-navy mb-10 leading-[1.1] tracking-tight">{t.hero.h1}</h1>
           <div className="max-w-3xl space-y-6 text-lg sm:text-xl text-slate-600 font-light leading-[1.8]">
-            <p className="text-xl sm:text-2xl font-serif text-brand-navy leading-relaxed">{t.hero.intro}</p>
+            <p className="text-xl sm:text-2xl font-serif text-brand-navy leading-relaxed">
+              {(t.hero as typeof t.hero & { oneSentenceAnswer?: string }).oneSentenceAnswer ?? t.hero.intro}
+            </p>
+            <p>{t.hero.intro}</p>
             <p>{t.hero.p1}</p><p>{t.hero.p2}</p>
             <p className="font-medium text-brand-navy border-l-2 border-brand-gold pl-5 py-1 my-8">{t.hero.callout}</p>
             <p>{t.hero.selectingLabel}</p>
@@ -48,6 +79,53 @@ export default async function HowToChooseHospitalAbroadPage({ params }: { params
           </div>
         </div>
       </section>
+
+      {/* Decision Summary Box */}
+      {(t as typeof t & { decisionSummary?: { title: string; bestForLabel: string; bestFor: string; notIdealLabel: string; notIdeal: string; keyRisksLabel: string; keyRisks: string; commonMisconceptionLabel: string; commonMisconception: string } }).decisionSummary && (
+        <section className="w-full py-12 sm:py-16 px-4 sm:px-6 bg-white border-b border-slate-200">
+          <div className="max-w-4xl mx-auto">
+            <div className="rounded-[32px] border border-slate-200 bg-slate-50/40 px-6 py-8 sm:px-8 sm:py-10">
+              <h2 className="font-serif text-2xl text-brand-navy mb-6">
+                {(t as typeof t & { decisionSummary: { title: string } }).decisionSummary.title}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-3">
+                    {(t as typeof t & { decisionSummary: { bestForLabel: string } }).decisionSummary.bestForLabel}
+                  </p>
+                  <p className="text-sm text-text-body leading-relaxed">
+                    {(t as typeof t & { decisionSummary: { bestFor: string } }).decisionSummary.bestFor}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-text-muted mb-3">
+                    {(t as typeof t & { decisionSummary: { notIdealLabel: string } }).decisionSummary.notIdealLabel}
+                  </p>
+                  <p className="text-sm text-text-body leading-relaxed">
+                    {(t as typeof t & { decisionSummary: { notIdeal: string } }).decisionSummary.notIdeal}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-red-500/70 mb-3">
+                    {(t as typeof t & { decisionSummary: { keyRisksLabel: string } }).decisionSummary.keyRisksLabel}
+                  </p>
+                  <p className="text-sm text-text-body leading-relaxed">
+                    {(t as typeof t & { decisionSummary: { keyRisks: string } }).decisionSummary.keyRisks}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-brand-navy/60 mb-3">
+                    {(t as typeof t & { decisionSummary: { commonMisconceptionLabel: string } }).decisionSummary.commonMisconceptionLabel}
+                  </p>
+                  <p className="text-sm text-text-body leading-relaxed italic">
+                    {(t as typeof t & { decisionSummary: { commonMisconception: string } }).decisionSummary.commonMisconception}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Article */}
       <section className="py-16 sm:py-24 px-4 sm:px-6">
@@ -186,6 +264,33 @@ export default async function HowToChooseHospitalAbroadPage({ params }: { params
                 <div className="space-y-6">{t.faq.items.map((faq) => (<div key={faq.question} className="p-6 sm:p-8 bg-slate-50 border border-slate-100 rounded-2xl hover:border-brand-gold/30 transition-colors"><h3 className="font-serif text-xl text-brand-navy font-bold mb-4">{faq.question}</h3><p className="text-lg text-slate-600 font-light leading-[1.8] m-0">{faq.answer}</p></div>))}</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reviewer Metadata */}
+      <section className="w-full px-4 sm:px-6 bg-white">
+        <div className="max-w-4xl mx-auto py-8 border-t border-slate-200">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-text-muted">
+            <span>{(t as typeof t & { reviewerMeta?: { label?: string } }).reviewerMeta?.label ?? "Reviewed by"}</span>
+            <Link
+              href={`${prefix}/doctors/dr-jee-hoon-ju`}
+              className="font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+            >
+              {(t as typeof t & { reviewerMeta?: { name?: string } }).reviewerMeta?.name ?? "Dr. Jee Hoon Ju, MD"}
+            </Link>
+            <span className="text-text-muted/60">·</span>
+            <span>{(t as typeof t & { reviewerMeta?: { credentials?: string } }).reviewerMeta?.credentials ?? "ABAM · MIT Sloan AI in Healthcare"}</span>
+            <span className="text-text-muted/60">·</span>
+            <span>{(t as typeof t & { reviewerMeta?: { lastReviewed?: string } }).reviewerMeta?.lastReviewed ?? "April 2026"}</span>
+          </div>
+          <div className="mt-4">
+            <Link
+              href={`${prefix}/methodology/how-we-verify-hospitals`}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-gold transition-colors"
+            >
+              {(t as typeof t & { reviewerMeta?: { methodologyLinkText?: string } }).reviewerMeta?.methodologyLinkText ?? "See how we verify hospitals →"}
+            </Link>
           </div>
         </div>
       </section>
