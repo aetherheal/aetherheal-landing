@@ -514,16 +514,21 @@ export default async function HospitalPage({
 
       {/* ── Reviewer Metadata ── */}
       <section className="w-full px-4 sm:px-6 bg-white">
-        <div className="max-w-4xl mx-auto py-6 border-t border-slate-200">
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-slate-500">
-            <span>{t.reviewerMeta.label}</span>
-            <Link href={`${prefix}/doctors/dr-jee-hoon-ju`} className="font-semibold text-brand-navy hover:text-brand-gold transition-colors">{t.reviewerMeta.name}</Link>
-            <span className="text-slate-300">&middot;</span>
-            <span>{t.reviewerMeta.credentials}</span>
-            <span className="text-slate-300">&middot;</span>
-            <span>{t.reviewerMeta.lastReviewed}</span>
-          </div>
-          <p className="text-[11px] text-slate-400 mt-1 font-light">{t.reviewerMeta.verificationMode}</p>
+        <div className="max-w-4xl mx-auto py-6 border-t border-slate-200 space-y-1">
+          <p className="text-xs text-slate-500">
+            {t.reviewerMeta.label}{" "}
+            <Link href={`${prefix}/doctors/dr-jee-hoon-ju`} className="font-semibold text-brand-navy hover:text-brand-gold transition-colors">
+              {t.reviewerMeta.name}
+            </Link>
+          </p>
+          <p className="text-[11px] text-slate-400 font-light leading-relaxed">
+            {t.reviewerMeta.credentials}
+          </p>
+          <p className="text-[11px] text-slate-400 font-light">
+            {t.reviewerMeta.lastReviewed}
+            <span className="text-slate-300 mx-2">&middot;</span>
+            {t.reviewerMeta.verificationMode}
+          </p>
         </div>
       </section>
 
