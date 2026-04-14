@@ -408,7 +408,17 @@ export default async function HospitalPage({
           {t.patientProcess.capacityNote && (
             <div className="rounded-2xl border border-brand-gold/20 bg-brand-gold/[0.02] p-6 mb-10">
               <h3 className="text-sm text-brand-navy font-semibold mb-1">{t.patientProcess.capacityNote.title}</h3>
-              <p className="text-sm text-slate-500 font-light leading-relaxed">{t.patientProcess.capacityNote.description}</p>
+              <p className="text-xs text-slate-500 font-light mb-4">{t.patientProcess.capacityNote.description}</p>
+              {t.patientProcess.capacityNote.rules && (
+                <div className="grid grid-cols-3 gap-4">
+                  {t.patientProcess.capacityNote.rules.map((rule: { label: string; value: string }) => (
+                    <div key={rule.label}>
+                      <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-slate-400 mb-1">{rule.label}</p>
+                      <p className="text-sm text-brand-navy font-medium">{rule.value}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
 

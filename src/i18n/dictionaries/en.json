@@ -3914,7 +3914,12 @@
         "title": "International patient process",
         "capacityNote": {
           "title": "Surgical capacity",
-          "description": "Morgan Dermatology limits surgical volume to maintain quality. Procedures under 4,000 grafts: maximum 2 surgeries per day. Procedures over 5,000 grafts: 1 surgery per day only. The clinic is typically booked 3+ months in advance.",
+          "description": "Morgan Dermatology limits surgical volume to maintain quality.",
+          "rules": [
+            { "label": "Under 2,000 grafts", "value": "Max 2 surgeries / day" },
+            { "label": "Over 2,500 grafts", "value": "1 surgery / day only" },
+            { "label": "Booking lead time", "value": "3+ months in advance" }
+          ],
           "recommendation": "Plan your surgery schedule with AetherHeal well in advance. We coordinate the surgical booking, and recommend planning your travel around the confirmed surgery date — not the other way around."
         },
         "steps": [
