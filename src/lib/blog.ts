@@ -80,6 +80,12 @@ export function getPostBySlug(locale: string, slug: string): BlogPost | null {
 
   if (data.published === false) return null
 
+  // Hide future-dated posts (scheduled publishing)
+  const postDate = new Date(data.date)
+  const today = new Date()
+  today.setHours(23, 59, 59, 999) // include posts dated today
+  if (postDate > today) return null
+
   const stats = readingTime(content)
 
   const takeaways: string[] | undefined = Array.isArray(data.takeaways)
